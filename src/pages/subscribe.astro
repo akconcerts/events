@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="Newsletter — AK Concerts" description="Sign up for the AK Concerts weekly newsletter. Get Alaska's live music and event schedule delivered every Wednesday.">
+  <SiteHeader />
+  <main class="subscribe-page container">
+    <div class="subscribe-card">
+      <img src="/images/logo.png" alt="AK Concerts" width="64" height="64" class="subscribe-logo" />
+      <h1 class="subscribe-title font-display">Stay in the loop.</h1>
+      <p class="subscribe-sub">Get Alaska's complete live music schedule delivered to your inbox every Wednesday. Free forever.</p>
+      <form class="subscribe-form" action="https://akconcets.us20.list-manage.com/subscribe/post" method="POST">
+        <input type="email" name="EMAIL" placeholder="your@email.com" required class="subscribe-input" />
+        <button type="submit" class="subscribe-btn bg-gradient-gold">Subscribe</button>
+      </form>
+      <p class="subscribe-note">Join thousands of Alaskans who never miss a show.</p>
+    </div>
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.subscribe-page{display:grid;place-items:center;min-height:70vh;padding-block:4rem}
+.subscribe-card{text-align:center;max-width:28rem}
+.subscribe-logo{border-radius:50%;margin:0 auto 1.5rem}
+.subscribe-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em;margin-bottom:.5rem}
+.subscribe-sub{color:var(--muted-foreground);margin-bottom:2rem;line-height:1.6}
+.subscribe-form{display:flex;gap:.5rem;margin-bottom:1rem}
+.subscribe-input{flex:1;border-radius:9999px;border:1px solid var(--border);background:var(--card);padding:.625rem 1rem;font-size:.875rem}
+.subscribe-input:focus{outline:2px solid var(--brand-gold);outline-offset:1px}
+.subscribe-btn{border-radius:9999px;padding:.625rem 1.25rem;font-weight:600;font-size:.875rem;color:var(--neon-foreground);cursor:pointer}
+.subscribe-note{font-size:.75rem;color:var(--muted-foreground)}
+</style>

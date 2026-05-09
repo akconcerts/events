@@ -1,0 +1,67 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { events } from '../data/events';
+
+const venueSet = new Map<string, { city: string; count: number }>();
+for (const e of events) {
+  if (!venueSet.has(e.venue)) {
+    venueSet.set(e.venue, { city: e.city, count: 0 });
+  }
+  venueSet.get(e.venue)!.count++;
+}
+
+const venues = [...venueSet.entries()]
+  .map(([name, { city, count }]) => ({ name, city, count }))
+  .sort((a, b) => a.city.localeCompare(b.city) || a.name.localeCompare(b.name));
+
+const cityCounts = new Map<string, number>();
+for (const v of venues) {
+  cityCounts.set(v.city, (cityCounts.get(v.city) || 0) + 1);
+}
+---
+
+<Layout title="Alaska Music Venues — AK Concerts" description="Discover live music venues across Alaska. Bars, theaters, breweries and more from Anchorage to Fairbanks.">
+  <SiteHeader />
+  <main class="venues-page container">
+    <div class="venues-header">
+      <p class="venues-eyebrow">Places to See Live Music</p>
+      <h1 class="venues-title font-display">Alaska Venues</h1>
+      <p class="venues-sub">{venues.length} venues across {cityCounts.size} cities — and counting.</p>
+    </div>
+
+    {[...cityCounts.keys()].sort().map(city => (
+      <div class="venue-city-block">
+        <h2 class="venue-city-name font-display">{city}</h2>
+        <div class="venue-list">
+          {venues.filter(v => v.city === city).map(v => (
+            <div class="venue-item">
+              <div class="venue-dot"></div>
+              <span class="venue-name">{v.name}</span>
+              <span class="venue-count">{v.count} event{v.count > 1 ? 's' : ''}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.venues-page{padding-top:3rem;padding-bottom:4rem}
+.venues-header{margin-bottom:2.5rem}
+.venues-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
+.venues-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em}
+@media(min-width:640px){.venues-title{font-size:3.5rem}}
+.venues-sub{margin-top:.5rem;color:var(--muted-foreground)}
+.venue-city-block{margin-bottom:2rem}
+.venue-city-name{font-size:1.125rem;font-weight:700;color:var(--brand-gold);margin-bottom:.5rem;padding-bottom:.375rem;border-bottom:1px solid var(--border)}
+.venue-list{display:flex;flex-direction:column;gap:.25rem}
+.venue-item{display:flex;align-items:center;gap:.625rem;padding:.5rem .75rem;border-radius:.375rem;font-size:.875rem}
+.venue-item:hover{background:var(--card)}
+.venue-dot{width:6px;height:6px;border-radius:50%;background:var(--brand-gold);flex-shrink:0}
+.venue-name{font-weight:500;flex:1}
+.venue-count{font-size:.75rem;color:var(--muted-foreground)}
+</style>
