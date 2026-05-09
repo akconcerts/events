@@ -1,0 +1,157 @@
+/* ──────────────────────────────────────────────────────────
+   AK Concerts — Global Styles (Astro 6 · Vanilla CSS)
+   Brand: AK Concerts Gold #FFB81C + Navy #00205B
+   Merged with neon magenta/cyan gradient system
+   ────────────────────────────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --radius: 0.875rem;
+
+  /* Fonts */
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* === AK Concerts Brand Colors === */
+  --brand-gold: #FFB81C;
+  --brand-navy: #00205B;
+  --brand-gold-light: #FFD060;
+  --brand-navy-deep: #001440;
+
+  /* Dark palette anchored on brand navy */
+  --background: oklch(0.12 0.03 260);
+  --foreground: oklch(0.98 0.005 280);
+
+  --card: oklch(0.16 0.035 260);
+  --card-foreground: oklch(0.98 0.005 280);
+
+  --popover: oklch(0.16 0.035 260);
+  --popover-foreground: oklch(0.98 0.005 280);
+
+  --primary: oklch(0.98 0.005 280);
+  --primary-foreground: oklch(0.12 0.03 260);
+
+  --secondary: oklch(0.22 0.04 260);
+  --secondary-foreground: oklch(0.98 0.005 280);
+
+  --muted: oklch(0.20 0.03 260);
+  --muted-foreground: oklch(0.68 0.025 260);
+
+  --accent: oklch(0.26 0.05 260);
+  --accent-foreground: oklch(0.98 0.005 280);
+
+  --destructive: oklch(0.65 0.24 25);
+  --destructive-foreground: oklch(0.98 0.005 280);
+
+  --border: oklch(0.26 0.04 260 / 0.6);
+  --input: oklch(0.26 0.04 260);
+  --ring: oklch(0.78 0.16 85);
+
+  /* Neon system — gold anchored */
+  --neon: oklch(0.80 0.18 85);              /* electric gold */
+  --neon-foreground: oklch(0.12 0.03 260);
+  --cyan: oklch(0.82 0.18 200);             /* electric cyan */
+
+  /* Shadows */
+  --shadow-glow: 0 0 0 1px color-mix(in oklab, var(--neon) 35%, transparent),
+    0 12px 60px -12px color-mix(in oklab, var(--neon) 55%, transparent);
+  --shadow-glow-cyan: 0 0 0 1px color-mix(in oklab, var(--cyan) 35%, transparent),
+    0 12px 60px -12px color-mix(in oklab, var(--cyan) 55%, transparent);
+
+  /* Gradients — gold-to-cyan brand gradient */
+  --gradient-neon: linear-gradient(135deg, var(--brand-gold) 0%, var(--cyan) 100%);
+  --gradient-gold: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-gold-light) 100%);
+  --gradient-aurora: radial-gradient(
+      60% 80% at 20% 10%,
+      color-mix(in oklab, var(--brand-gold) 25%, transparent) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      50% 70% at 90% 30%,
+      color-mix(in oklab, var(--cyan) 20%, transparent) 0%,
+      transparent 60%
+    );
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: var(--border);
+}
+
+html { color-scheme: dark; scroll-behavior: smooth; }
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  background-image:
+    radial-gradient(60% 50% at 0% 0%, color-mix(in oklab, var(--brand-gold) 10%, transparent) 0%, transparent 60%),
+    radial-gradient(50% 50% at 100% 10%, color-mix(in oklab, var(--cyan) 8%, transparent) 0%, transparent 60%);
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+button { font: inherit; cursor: pointer; background: none; border: none; color: inherit; }
+input { font: inherit; color: inherit; }
+
+/* Utilities */
+.font-display { font-family: var(--font-display); }
+
+.text-gradient-neon {
+  background: var(--gradient-neon);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient-gold {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gold { color: var(--brand-gold); }
+
+.bg-gradient-neon { background-image: var(--gradient-neon); }
+.bg-gradient-gold { background-image: var(--gradient-gold); }
+.bg-aurora { background-image: var(--gradient-aurora); }
+
+.ring-neon { box-shadow: var(--shadow-glow); }
+.ring-cyan { box-shadow: var(--shadow-glow-cyan); }
+
+/* Marquee */
+.marquee-track { animation: marquee 40s linear infinite; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Live Dot */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.4); }
+}
+.live-dot { animation: pulse-dot 1.6s ease-in-out infinite; }
+
+/* Layout */
+.container {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px) { .container { padding-inline: 1.5rem; } }

@@ -1,0 +1,40 @@
+---
+---
+
+<section class="newsletter-section container">
+  <div class="newsletter-card">
+    <div class="newsletter-aurora bg-aurora"></div>
+    <div class="newsletter-inner">
+      <div class="newsletter-copy">
+        <p class="newsletter-eyebrow">The Friday Drop</p>
+        <h2 class="newsletter-title font-display">Every Alaska show, in your inbox before the weekend.</h2>
+        <p class="newsletter-sub">One email. No fluff. Just what's worth leaving the house for.</p>
+      </div>
+      <form class="newsletter-form" onsubmit="event.preventDefault()">
+        <input type="email" required placeholder="you@alaska.com" class="newsletter-input" />
+        <button type="submit" class="newsletter-btn bg-gradient-neon">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<style>
+.newsletter-section{padding-block:4rem 6rem}
+.newsletter-card{position:relative;overflow:hidden;border-radius:1.5rem;border:1px solid var(--border);background:var(--card);padding:2rem}
+@media(min-width:640px){.newsletter-card{padding:3.5rem}}
+.newsletter-aurora{position:absolute;inset:0;opacity:.6}
+.newsletter-inner{position:relative;display:flex;flex-direction:column;gap:1.5rem}
+@media(min-width:1024px){.newsletter-inner{flex-direction:row;align-items:flex-end;justify-content:space-between}}
+.newsletter-copy{max-width:36rem}
+.newsletter-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--cyan)}
+.newsletter-title{margin-top:.75rem;font-size:1.875rem;font-weight:700;letter-spacing:-.025em}
+@media(min-width:640px){.newsletter-title{font-size:2.25rem}}
+@media(min-width:1024px){.newsletter-title{font-size:3rem}}
+.newsletter-sub{margin-top:.75rem;color:var(--muted-foreground)}
+.newsletter-form{display:flex;flex-direction:column;gap:.5rem;width:100%;max-width:28rem}
+@media(min-width:640px){.newsletter-form{flex-direction:row}}
+.newsletter-input{width:100%;border-radius:9999px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 80%,transparent);padding:.75rem 1.25rem;font-size:.875rem;outline:none;backdrop-filter:blur(8px)}
+.newsletter-input::placeholder{color:var(--muted-foreground)}
+.newsletter-input:focus{border-color:var(--neon)}
+.newsletter-btn{border-radius:9999px;padding:.75rem 1.5rem;font-size:.875rem;font-weight:600;color:var(--neon-foreground);box-shadow:0 10px 40px -10px var(--neon);white-space:nowrap}
+</style>

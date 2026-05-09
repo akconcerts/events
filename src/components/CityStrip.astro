@@ -1,0 +1,37 @@
+---
+const cities = [
+  { name: "Anchorage", count: 184 },
+  { name: "Fairbanks", count: 72 },
+  { name: "Juneau", count: 48 },
+  { name: "Kenai Peninsula", count: 41 },
+  { name: "Wasilla", count: 29 },
+  { name: "Seward", count: 22 },
+  { name: "Homer", count: 19 },
+  { name: "Sitka", count: 14 },
+];
+const doubled = [...cities, ...cities];
+---
+
+<section class="city-strip">
+  <div class="city-overflow">
+    <div class="marquee-track city-track">
+      {doubled.map((c, i) => (
+        <a href="#" class="city-pill" key={i}>
+          <span class="city-name">{c.name}</span>
+          <span class="city-count">{c.count} events</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+.city-strip{border-top:1px solid color-mix(in oklab,var(--border) 50%,transparent);border-bottom:1px solid color-mix(in oklab,var(--border) 50%,transparent);background:color-mix(in oklab,var(--card) 30%,transparent)}
+.city-overflow{overflow:hidden;padding-block:1.5rem}
+.city-track{display:flex;width:max-content;gap:.75rem;white-space:nowrap}
+.city-pill{display:inline-flex;align-items:center;gap:.75rem;border-radius:9999px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 60%,transparent);padding:.625rem 1.25rem;font-size:.875rem;transition:border-color .2s}
+.city-pill:hover{border-color:var(--neon)}
+.city-name{font-weight:600}
+.city-count{font-size:.75rem;color:var(--muted-foreground);transition:color .2s}
+.city-pill:hover .city-count{color:var(--neon)}
+</style>

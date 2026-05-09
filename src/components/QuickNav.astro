@@ -1,0 +1,63 @@
+---
+const items = [
+  { label: "Tonight", icon: "flame", tone: "neon" },
+  { label: "This Weekend", icon: "calendar", tone: "cyan" },
+  { label: "Live Music", icon: "music", tone: "neon" },
+  { label: "Comedy", icon: "mic", tone: "cyan" },
+  { label: "Festivals", icon: "party", tone: "neon" },
+  { label: "Free Events", icon: "sparkles", tone: "cyan" },
+  { label: "Touring AK", icon: "ticket", tone: "neon" },
+  { label: "Winter Series", icon: "snowflake", tone: "cyan" },
+] as const;
+
+const icons: Record<string, string> = {
+  flame: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>',
+  calendar: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>',
+  music: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>',
+  mic: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>',
+  party: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.8 11.3 2 22l10.7-3.79"/><path d="M4 3h.01"/><path d="M22 8h.01"/><path d="M15 2h.01"/><path d="M22 20h.01"/><path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10"/><path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17"/><path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7"/></svg>',
+  sparkles: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>',
+  ticket: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2"/><path d="M13 17v2"/><path d="M13 11v2"/></svg>',
+  snowflake: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="2" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="22"/><path d="m20 16-4-4 4-4"/><path d="m4 8 4 4-4 4"/><path d="m16 4-4 4-4-4"/><path d="m8 20 4-4 4 4"/></svg>',
+};
+---
+
+<section id="cities" class="quicknav container">
+  <div class="quicknav-header">
+    <h2 class="quicknav-title font-display">Jump in</h2>
+    <span class="quicknav-sub">Quick filters</span>
+  </div>
+  <div class="quicknav-grid">
+    {items.map(({ label, icon, tone }) => (
+      <button class={`qn-card qn-${tone}`}>
+        <div class={`qn-glow qn-glow-${tone}`}></div>
+        <div class="qn-inner">
+          <span class={`qn-icon qn-icon-${tone}`} set:html={icons[icon]} />
+          <span class="qn-label">{label}</span>
+        </div>
+      </button>
+    ))}
+  </div>
+</section>
+
+<style>
+.quicknav{padding-block:2.5rem 3.5rem}
+@media(min-width:640px){.quicknav{padding-block:3.5rem}}
+.quicknav-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:1.5rem}
+.quicknav-title{font-size:1.5rem;font-weight:700}
+@media(min-width:640px){.quicknav-title{font-size:1.875rem}}
+.quicknav-sub{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-foreground)}
+.quicknav-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
+@media(min-width:640px){.quicknav-grid{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:1024px){.quicknav-grid{grid-template-columns:repeat(8,1fr)}}
+.qn-card{position:relative;overflow:hidden;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1rem;text-align:left;transition:border-color .2s,background .2s}
+.qn-card:hover{border-color:transparent;background:var(--secondary)}
+.qn-glow{position:absolute;inset:0;z-index:0;opacity:0;transition:opacity .2s}
+.qn-card:hover .qn-glow{opacity:1}
+.qn-glow-neon{background:radial-gradient(80% 80% at 0% 0%,color-mix(in oklab,var(--neon) 30%,transparent),transparent)}
+.qn-glow-cyan{background:radial-gradient(80% 80% at 100% 100%,color-mix(in oklab,var(--cyan) 30%,transparent),transparent)}
+.qn-inner{position:relative;display:flex;flex-direction:column;gap:.75rem}
+.qn-icon-neon{color:var(--neon)}
+.qn-icon-cyan{color:var(--cyan)}
+.qn-label{font-size:.875rem;font-weight:600}
+</style>

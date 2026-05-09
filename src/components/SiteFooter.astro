@@ -1,0 +1,30 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner container">
+    <div class="footer-brand">
+      <img src="/images/logo.png" alt="AK Concerts" width="28" height="28" style="border-radius:50%;" />
+      <span class="footer-name font-display">AK <span class="text-gold">Concerts</span></span>
+    </div>
+    <p class="footer-copy">&copy; {year} AK Concerts · Alaska's live entertainment network</p>
+    <div class="footer-links">
+      <a href="#">Submit Event</a>
+      <a href="#">Newsletter</a>
+      <a href="#">About</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+.site-footer{border-top:1px solid color-mix(in oklab,var(--border) 50%,transparent)}
+.footer-inner{display:flex;flex-direction:column;gap:1.5rem;padding-block:2.5rem}
+@media(min-width:640px){.footer-inner{flex-direction:row;align-items:center;justify-content:space-between}}
+.footer-brand{display:flex;align-items:center;gap:.5rem}
+.footer-badge{display:grid;place-items:center;width:1.75rem;height:1.75rem;border-radius:.375rem;font-size:.75rem;font-weight:700;color:var(--neon-foreground)}
+.footer-name{font-weight:700}
+.footer-copy{font-size:.75rem;color:var(--muted-foreground)}
+.footer-links{display:flex;gap:1rem;font-size:.75rem;color:var(--muted-foreground)}
+.footer-links a:hover{color:var(--foreground)}
+</style>

@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { bands } from '../../data/bands';
+---
+
+<Layout title="Alaska Bands — AK Concerts" description="Discover Alaska's local music artists. From metal to folk, DJs to indie — hear what Alaska sounds like.">
+  <SiteHeader />
+  <main class="bands-page container">
+    <div class="bands-header">
+      <p class="bands-eyebrow">Local Artists</p>
+      <h1 class="bands-title font-display">Discover Alaska's Music.</h1>
+      <p class="bands-sub">From Anchorage punk to Fairbanks folk — {bands.length} artists and counting.</p>
+    </div>
+
+    <div class="bands-grid">
+      {bands.map(band => (
+        <a href={`/bands/${band.slug}`} class="band-card">
+          <div class="band-card-avatar font-display">
+            {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+          </div>
+          <span class="band-card-name">{band.name}</span>
+          <svg class="band-card-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      ))}
+    </div>
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.bands-page{padding-top:3rem;padding-bottom:4rem}
+.bands-header{margin-bottom:2.5rem}
+.bands-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
+.bands-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em}
+@media(min-width:640px){.bands-title{font-size:3.5rem}}
+.bands-sub{margin-top:.5rem;color:var(--muted-foreground)}
+.bands-grid{display:grid;gap:.75rem}
+@media(min-width:640px){.bands-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.bands-grid{grid-template-columns:repeat(3,1fr)}}
+.band-card{display:flex;align-items:center;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:.75rem 1rem;transition:border-color .2s,box-shadow .2s}
+.band-card:hover{border-color:color-mix(in oklab,var(--brand-gold) 50%,transparent);box-shadow:0 10px 40px -15px var(--brand-gold)}
+.band-card-avatar{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:.5rem;background:var(--gradient-neon);font-size:.75rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
+.band-card-name{font-weight:600;font-size:.9375rem;flex:1}
+.band-card-arrow{color:var(--muted-foreground);transition:color .2s,transform .2s;flex-shrink:0}
+.band-card:hover .band-card-arrow{color:var(--brand-gold);transform:translateX(3px)}
+</style>

@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import Hero from '../components/Hero.astro';
+import QuickNav from '../components/QuickNav.astro';
+import CityStrip from '../components/CityStrip.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Newsletter from '../components/Newsletter.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { events, cities } from '../data/events';
+
+// Group events by date
+const today = events.filter(e => e.date === '2026-05-09');
+const tomorrow = events.filter(e => e.date === '2026-05-10');
+const upcoming = events.filter(e => e.date > '2026-05-10');
+
+// Group events by city for the big list
+const eventsByCity: Record<string, typeof events> = {};
+for (const e of events) {
+  if (!eventsByCity[e.city]) eventsByCity[e.city] = [];
+  eventsByCity[e.city].push(e);
+}
+const sortedCities = Object.keys(eventsByCity).sort();
+
+const fmtDate = (iso: string) => {
+  const d = new Date(iso + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+};
+
+const categoryIcons: Record<string, string> = {
+  music: '🎵',
+  comedy: '😂',
+  dance: '💃',
+  theatre: '🎭',
+  community: '🌟',
+  festival: '🎪',
+};
+---
+
+<Layout title="AK Concerts — Alaska's Live Music & Events Tonight" description="Discover Alaska concerts, festivals, comedy and live music tonight. Anchorage, Fairbanks, Juneau and beyond — curated daily.">
+  <SiteHeader />
+  <main>
+    <Hero />
+    <QuickNav />
+    <CityStrip />
+
+    <!-- What's Happening Section — mirrors live site format -->
+    <section id="tonight" class="events-section container">
+      <SectionHeading eyebrow="What's Happening in Alaska" title="Playing Soon" />
+
+      {sortedCities.map(city => (
+        <div class="city-block">
+          <h3 class="city-name font-display">{city}</h3>
+          <div class="event-list">
+            {eventsByCity[city].map(e => (
+              <a href={`/events/${e.slug}`} class="event-row">
+                <span class="event-row-icon">{categoryIcons[e.category] || '🎵'}</span>
+                <span class="event-row-date">{e.date.slice(5)}</span>
+                <span class="event-row-venue">{e.venue}</span>
+                <span class="event-row-sep">—</span>
+                <span class="event-row-title">{e.title}</span>
+                <span class="event-row-time">{e.time}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <Newsletter />
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.events-section{padding-block:3.5rem 2rem}
+.city-block{margin-bottom:2.5rem}
+.city-name{font-size:1.25rem;font-weight:700;color:var(--brand-gold);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.event-list{display:flex;flex-direction:column;gap:.25rem}
+.event-row{display:flex;align-items:center;gap:.5rem;padding:.625rem .75rem;border-radius:.5rem;font-size:.875rem;transition:background .15s;flex-wrap:wrap}
+.event-row:hover{background:var(--card)}
+.event-row-icon{font-size:.875rem;flex-shrink:0}
+.event-row-date{font-size:.75rem;font-weight:600;color:var(--brand-gold);min-width:3rem;flex-shrink:0}
+.event-row-venue{color:var(--muted-foreground);flex-shrink:0}
+.event-row-sep{color:var(--muted-foreground);opacity:.4;flex-shrink:0}
+.event-row-title{font-weight:600;flex:1;min-width:0}
+.event-row-time{font-size:.75rem;color:var(--muted-foreground);flex-shrink:0;margin-left:auto}
+@media(max-width:639px){
+  .event-row{font-size:.8125rem;gap:.375rem}
+  .event-row-venue,.event-row-sep{display:none}
+}
+</style>
