@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { bands } from '../../data/bands';
+import { events } from '../../data/events';
+import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
 export function getStaticPaths() {
   return bands.map(band => ({
@@ -12,6 +14,23 @@ export function getStaticPaths() {
 }
 
 const { band } = Astro.props;
+
+// Filter events for this band
+const bandEvents = events.filter(e => e.title.toLowerCase().includes(band.name.toLowerCase()));
+
+// The dataset uses '2026-05-09' as the current anchor date
+const today = '2026-05-09';
+const upcomingEvents = bandEvents.filter(e => e.date >= today).sort((a, b) => a.date.localeCompare(b.date));
+const pastEvents = bandEvents.filter(e => e.date < today).sort((a, b) => b.date.localeCompare(a.date));
+
+const categoryIcons: Record<string, any> = {
+  music: Music,
+  comedy: Smile,
+  dance: PartyPopper,
+  theatre: Theater,
+  community: Users,
+  festival: Tent,
+};
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -79,6 +98,56 @@ const jsonLd = {
         </div>
       </section>
     )}
+
+    {bandEvents.length > 0 && (
+      <section class="band-events-section" style="margin-top: 3rem;">
+        <h2 class="band-section-title font-display">Tour Dates & Events</h2>
+        
+        {upcomingEvents.length > 0 && (
+          <div class="events-group" style="margin-bottom: 2rem;">
+            <h3 class="events-group-title">Upcoming</h3>
+            <div class="event-list">
+              {upcomingEvents.map(e => {
+                const Icon = categoryIcons[e.category] || Music;
+                return (
+                  <a href={`/events/${e.slug}`} class="event-row">
+                    <span class="event-row-icon"><Icon size={14} /></span>
+                    <span class="event-row-date">{e.date.slice(5)}</span>
+                    <span class="event-row-venue">{e.venue}</span>
+                    <span class="event-row-sep">—</span>
+                    <span class="event-row-title">{e.title}</span>
+                    <span class="event-row-city">{e.city}</span>
+                    <span class="event-row-time">{e.time}</span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {pastEvents.length > 0 && (
+          <div class="events-group past-events">
+            <h3 class="events-group-title">Past Events</h3>
+            <div class="event-list">
+              {pastEvents.map(e => {
+                const Icon = categoryIcons[e.category] || Music;
+                return (
+                  <div class="event-row past-row">
+                    <span class="event-row-icon"><Icon size={14} /></span>
+                    <span class="event-row-date">{e.date.slice(5)}</span>
+                    <span class="event-row-venue">{e.venue}</span>
+                    <span class="event-row-sep">—</span>
+                    <span class="event-row-title">{e.title}</span>
+                    <span class="event-row-city">{e.city}</span>
+                    <span class="event-row-time">{e.time}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </section>
+    )}
   </main>
   <SiteFooter />
 </Layout>
@@ -115,4 +184,28 @@ const jsonLd = {
 .band-section-title{font-size:1.25rem;font-weight:700;margin-bottom:1rem;color:var(--brand-gold)}
 .band-video-wrap{position:relative;padding-bottom:56.25%;height:0;border-radius:1rem;overflow:hidden;border:1px solid var(--border);max-width:48rem;box-shadow:0 12px 40px -12px rgba(0,0,0,.4)}
 .band-video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+
+/* Event List */
+.events-group-title { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: var(--foreground); }
+.event-list { display: flex; flex-direction: column; gap: .25rem; }
+.event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; text-decoration: none; color: inherit; }
+.event-row:hover { background: var(--card); }
+.event-row-icon { font-size: .875rem; flex-shrink: 0; }
+.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 3rem; flex-shrink: 0; }
+.event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
+.event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
+.event-row-title { font-weight: 600; flex: 1; min-width: 0; }
+.event-row-city { font-size: .75rem; font-weight: 500; color: var(--brand-gold-light); margin-left: auto; margin-right: 1rem; }
+.event-row-time { font-size: .75rem; color: var(--muted-foreground); flex-shrink: 0; }
+@media (max-width: 639px) {
+  .event-row { font-size: .8125rem; gap: .375rem; }
+  .event-row-venue, .event-row-sep, .event-row-city { display: none; }
+}
+
+/* Past Events */
+.past-events { margin-top: 2rem; opacity: 0.6; transition: opacity 0.2s; }
+.past-events:hover { opacity: 1; }
+.past-events .event-row-date { color: var(--muted-foreground); }
+.past-row:hover { background: transparent; }
+
 </style>
