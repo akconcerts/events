@@ -36,11 +36,16 @@ for (const v of venues) {
         <h2 class="venue-city-name font-display">{city}</h2>
         <div class="venue-list">
           {venues.filter(v => v.city === city).map(v => (
-            <div class="venue-item">
+            <a 
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + ', ' + v.city + ', AK')}`}
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="venue-item"
+            >
               <div class="venue-dot"></div>
               <span class="venue-name">{v.name}</span>
               <span class="venue-count">{v.count} event{v.count > 1 ? 's' : ''}</span>
-            </div>
+            </a>
           ))}
         </div>
       </div>
