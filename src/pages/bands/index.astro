@@ -17,10 +17,17 @@ import { bands } from '../../data/bands';
     <div class="bands-grid">
       {bands.map(band => (
         <a href={`/bands/${band.slug}`} class="band-card">
-          <div class="band-card-avatar font-display">
-            {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+          {band.hasImage ? (
+            <img src={`/images/bands/${band.slug}.jpg`} alt={band.name} width="56" height="56" class="band-card-img" loading="lazy" />
+          ) : (
+            <div class="band-card-avatar font-display">
+              {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+            </div>
+          )}
+          <div class="band-card-info">
+            <span class="band-card-name">{band.name}</span>
+            {band.youtubeId && <span class="band-card-badge">▶</span>}
           </div>
-          <span class="band-card-name">{band.name}</span>
           <svg class="band-card-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       ))}
@@ -39,10 +46,13 @@ import { bands } from '../../data/bands';
 .bands-grid{display:grid;gap:.75rem}
 @media(min-width:640px){.bands-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1024px){.bands-grid{grid-template-columns:repeat(3,1fr)}}
-.band-card{display:flex;align-items:center;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:.75rem 1rem;transition:border-color .2s,box-shadow .2s}
+.band-card{display:flex;align-items:center;gap:.75rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:.625rem .875rem;transition:border-color .2s,box-shadow .2s}
 .band-card:hover{border-color:color-mix(in oklab,var(--brand-gold) 50%,transparent);box-shadow:0 10px 40px -15px var(--brand-gold)}
-.band-card-avatar{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:.5rem;background:var(--gradient-neon);font-size:.75rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
-.band-card-name{font-weight:600;font-size:.9375rem;flex:1}
+.band-card-img{width:56px;height:56px;border-radius:.625rem;object-fit:cover;flex-shrink:0}
+.band-card-avatar{display:grid;place-items:center;width:56px;height:56px;border-radius:.625rem;background:var(--gradient-neon);font-size:.75rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
+.band-card-info{display:flex;align-items:center;gap:.375rem;flex:1;min-width:0}
+.band-card-name{font-weight:600;font-size:.9375rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.band-card-badge{font-size:.625rem;color:var(--brand-gold);flex-shrink:0}
 .band-card-arrow{color:var(--muted-foreground);transition:color .2s,transform .2s;flex-shrink:0}
 .band-card:hover .band-card-arrow{color:var(--brand-gold);transform:translateX(3px)}
 </style>

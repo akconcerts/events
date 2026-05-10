@@ -19,14 +19,11 @@ const jsonLd = {
   "name": band.name,
   "description": band.description || `${band.name} — Alaska local artist featured on AK Concerts.`,
   "url": `https://akconcerts.com/bands/${band.slug}`,
+  "image": band.hasImage ? `https://akconcerts.com/images/bands/${band.slug}.jpg` : undefined,
   "foundingLocation": {
     "@type": "Place",
     "name": "Alaska",
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "AK",
-      "addressCountry": "US"
-    }
+    "address": { "@type": "PostalAddress", "addressRegion": "AK", "addressCountry": "US" }
   }
 };
 ---
@@ -39,38 +36,49 @@ const jsonLd = {
       <a href="/">Home</a> <span class="sep">/</span> <a href="/bands">Bands</a> <span class="sep">/</span> <span>{band.name}</span>
     </div>
 
-    <div class="band-hero">
-      <div class="band-avatar font-display">
-        {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
-      </div>
-      <div>
+    <div class="band-hero-row">
+      {band.hasImage ? (
+        <div class="band-photo-wrap">
+          <img src={`/images/bands/${band.slug}.jpg`} alt={band.name} width="320" height="320" class="band-photo" loading="eager" />
+        </div>
+      ) : (
+        <div class="band-avatar-lg font-display">
+          {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+        </div>
+      )}
+      <div class="band-hero-info">
         <div class="band-tag">Alaska Artist</div>
         <h1 class="band-name font-display">{band.name}</h1>
+        {band.description && (
+          <p class="band-bio-inline">{band.description}</p>
+        )}
+        <div class="band-links">
+          {band.facebookUrl && (
+            <a href={band.facebookUrl} target="_blank" rel="noopener noreferrer" class="band-link-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Upcoming Shows
+            </a>
+          )}
+          <a href="/bands" class="band-link-btn band-link-secondary">← All Bands</a>
+        </div>
       </div>
     </div>
 
-    {band.description && (
-      <div class="band-bio">
-        <p>{band.description}</p>
-      </div>
+    {band.youtubeId && (
+      <section class="band-video-section">
+        <h2 class="band-section-title font-display">Watch</h2>
+        <div class="band-video-wrap">
+          <iframe
+            src={`https://www.youtube.com/embed/${band.youtubeId}`}
+            title={`${band.name} — Video`}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
     )}
-
-    <div class="band-links">
-      {band.facebookUrl && (
-        <a href={band.facebookUrl} target="_blank" rel="noopener noreferrer" class="band-link-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Upcoming Shows
-        </a>
-      )}
-      {band.amazonUrl && (
-        <a href={band.amazonUrl} target="_blank" rel="noopener noreferrer" class="band-link-btn band-link-secondary">
-          Get Music
-        </a>
-      )}
-      <a href="/bands" class="band-link-btn band-link-secondary">
-        ← All Bands
-      </a>
-    </div>
   </main>
   <SiteFooter />
 </Layout>
@@ -80,15 +88,31 @@ const jsonLd = {
 .band-breadcrumb{display:flex;align-items:center;gap:.5rem;font-size:.75rem;color:var(--muted-foreground);margin-bottom:2rem}
 .band-breadcrumb a:hover{color:var(--foreground)}
 .sep{opacity:.4}
-.band-hero{display:flex;align-items:center;gap:1.5rem;margin-bottom:2rem}
-.band-avatar{display:grid;place-items:center;width:5rem;height:5rem;border-radius:1rem;background:var(--gradient-neon);font-size:1.5rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
-.band-tag{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--brand-gold);margin-bottom:.25rem}
-.band-name{font-size:2rem;font-weight:700;letter-spacing:-.03em}
-@media(min-width:640px){.band-name{font-size:3rem}}
-.band-bio{max-width:48rem;margin-bottom:2rem;padding:1.5rem;border-radius:1rem;border:1px solid var(--border);background:var(--card);color:var(--muted-foreground);font-size:1.0625rem;line-height:1.7}
-.band-links{display:flex;flex-wrap:wrap;gap:.75rem}
-.band-link-btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;padding:.75rem 1.5rem;font-size:.875rem;font-weight:600;background:var(--brand-gold);color:var(--brand-navy);transition:opacity .2s}
+
+/* Hero row: photo + info side by side */
+.band-hero-row{display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2.5rem}
+@media(min-width:768px){.band-hero-row{flex-direction:row;align-items:flex-start;gap:2.5rem}}
+
+.band-photo-wrap{flex-shrink:0}
+.band-photo{width:280px;height:280px;object-fit:cover;border-radius:1rem;border:2px solid var(--border);box-shadow:0 12px 40px -12px rgba(0,0,0,.6)}
+@media(min-width:768px){.band-photo{width:320px;height:320px}}
+
+.band-avatar-lg{display:grid;place-items:center;width:200px;height:200px;border-radius:1rem;background:var(--gradient-neon);font-size:3rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
+
+.band-hero-info{flex:1;min-width:0}
+.band-tag{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--brand-gold);margin-bottom:.375rem}
+.band-name{font-size:2rem;font-weight:700;letter-spacing:-.03em;margin-bottom:.75rem}
+@media(min-width:640px){.band-name{font-size:2.75rem}}
+.band-bio-inline{color:var(--muted-foreground);font-size:.9375rem;line-height:1.7;margin-bottom:1.25rem;max-width:36rem}
+.band-links{display:flex;flex-wrap:wrap;gap:.5rem}
+.band-link-btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;padding:.625rem 1.25rem;font-size:.875rem;font-weight:600;background:var(--brand-gold);color:var(--brand-navy);transition:opacity .2s}
 .band-link-btn:hover{opacity:.9}
 .band-link-secondary{background:var(--card);color:var(--muted-foreground);border:1px solid var(--border)}
 .band-link-secondary:hover{background:var(--secondary);color:var(--foreground)}
+
+/* Video */
+.band-video-section{margin-top:1rem}
+.band-section-title{font-size:1.25rem;font-weight:700;margin-bottom:1rem;color:var(--brand-gold)}
+.band-video-wrap{position:relative;padding-bottom:56.25%;height:0;border-radius:1rem;overflow:hidden;border:1px solid var(--border);max-width:48rem;box-shadow:0 12px 40px -12px rgba(0,0,0,.4)}
+.band-video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 </style>
