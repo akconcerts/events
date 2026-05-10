@@ -1,4 +1,6 @@
 ---
+import A11yPanel from '../components/A11yPanel.astro';
+
 interface Props {
   title?: string;
   description?: string;
@@ -10,7 +12,7 @@ const {
 } = Astro.props;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="system">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,6 +25,7 @@ const {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
+    <A11yPanel />
     <slot />
   </body>
 </html>

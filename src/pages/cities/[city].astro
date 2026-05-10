@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { events, getEventsByCity } from '../../data/events';
+import EventJsonLd from '../../components/EventJsonLd.astro';
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
 export function getStaticPaths() {
@@ -10,15 +11,16 @@ export function getStaticPaths() {
   const paths = allCities.map(city => {
     // Generate a slug-friendly city name
     const slug = city.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const cityEvents = getEventsByCity(city).sort((a, b) => a.date.localeCompare(b.date));
     return {
       params: { city: slug },
-      props: { city, cityEvents: getEventsByCity(city) },
+      props: { city, cityEvents },
     };
   });
 
   // Add Kenai Peninsula aggregate
   const kenaiCities = ['Kenai', 'Soldotna', 'Homer', 'Seward', 'Cooper Landing', 'Hope'];
-  const kenaiEvents = events.filter(e => kenaiCities.includes(e.city));
+  const kenaiEvents = events.filter(e => kenaiCities.includes(e.city)).sort((a, b) => a.date.localeCompare(b.date));
   paths.push({
     params: { city: 'kenai-peninsula' },
     props: { city: 'Kenai Peninsula', cityEvents: kenaiEvents },
@@ -40,6 +42,7 @@ const categoryIcons: Record<string, any> = {
 ---
 
 <Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska.`}>
+  <EventJsonLd events={cityEvents} />
   <SiteHeader />
   <main class="city-page container">
     <div class="city-header">

@@ -2,26 +2,28 @@
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
+import EventJsonLd from '../../components/EventJsonLd.astro';
 import { events } from '../../data/events';
 import { Music, Smile, PartyPopper, Theater, Users, Tent, Sparkles, Flame, Calendar, Ticket, Snowflake } from 'lucide-astro';
 
 export function getStaticPaths() {
+  const isWeekend = (e: any) => ['2026-05-09', '2026-05-10', '2026-05-11'].includes(e.date);
   return [
-    { params: { filter: 'tonight' }, props: { name: 'Tonight', description: 'Events happening tonight across Alaska.', filterFn: (e) => e.date === '2026-05-09' } },
-    { params: { filter: 'this-weekend' }, props: { name: 'This Weekend', description: 'Events happening this weekend.', filterFn: (e) => e.date >= '2026-05-09' && e.date <= '2026-05-11' } },
-    { params: { filter: 'live-music' }, props: { name: 'Live Music', description: 'Live music performances across Alaska.', filterFn: (e) => e.category === 'music' } },
-    { params: { filter: 'comedy' }, props: { name: 'Comedy', description: 'Stand-up comedy and improv shows.', filterFn: (e) => e.category === 'comedy' } },
-    { params: { filter: 'festivals' }, props: { name: 'Festivals', description: 'Festivals and large outdoor events.', filterFn: (e) => e.category === 'festival' } },
-    { params: { filter: 'free-events' }, props: { name: 'Free Events', description: 'Free entry events and community gatherings.', filterFn: (e) => e.category === 'community' } }, // approximation for free events
-    { params: { filter: 'touring-ak' }, props: { name: 'Touring AK', description: 'Major touring acts performing in Alaska.', filterFn: (e) => e.category === 'music' || e.category === 'comedy' } }, // approximation
-    { params: { filter: 'winter-series' }, props: { name: 'Winter Series', description: 'Winter event series and indoor specials.', filterFn: (e) => false } }, // approximation, returning false for now or all if needed
+    { params: { filter: 'tonight' }, props: { name: 'Tonight', description: 'Events happening tonight across Alaska.', filterFn: (e: any) => e.date === '2026-05-09' } },
+    { params: { filter: 'this-weekend' }, props: { name: 'This Weekend', description: 'Events happening this weekend.', filterFn: isWeekend } },
+    { params: { filter: 'live-music' }, props: { name: 'Live Music', description: 'Live music performances across Alaska.', filterFn: (e: any) => e.category === 'music' } },
+    { params: { filter: 'comedy' }, props: { name: 'Comedy', description: 'Stand-up comedy and improv shows.', filterFn: (e: any) => e.category === 'comedy' } },
+    { params: { filter: 'festivals' }, props: { name: 'Festivals', description: 'Festivals and large outdoor events.', filterFn: (e: any) => e.category === 'festival' } },
+    { params: { filter: 'free-events' }, props: { name: 'Free Events', description: 'Free entry events and community gatherings.', filterFn: (e: any) => e.category === 'community' } },
+    { params: { filter: 'touring-ak' }, props: { name: 'Touring AK', description: 'Major touring acts performing in Alaska.', filterFn: (e: any) => e.category === 'music' || e.category === 'comedy' } },
+    { params: { filter: 'winter-series' }, props: { name: 'Winter Series', description: 'Winter event series and indoor specials.', filterFn: (e: any) => false } },
   ];
 }
 
 const { name, description, filterFn } = Astro.props;
 
 // For Touring AK and Winter Series, since we don't have perfect flags, we just apply generic rules.
-let filteredEvents = events.filter(filterFn);
+let filteredEvents = events.filter(filterFn).sort((a, b) => a.date.localeCompare(b.date));
 
 // Fallbacks if lists are empty (e.g. Winter Series)
 if (name === 'Touring AK' && filteredEvents.length > 5) {
@@ -46,6 +48,7 @@ const categoryIcons: Record<string, any> = {
 ---
 
 <Layout title={`${name} — AK Concerts`} description={description}>
+  <EventJsonLd events={filteredEvents} />
   <SiteHeader />
   <main class="filter-page container">
     <div class="filter-header">

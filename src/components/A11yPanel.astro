@@ -1,0 +1,192 @@
+---
+import { Accessibility, Moon, Sun, Monitor } from 'lucide-astro';
+---
+
+<div class="a11y-widget">
+  <button id="a11y-toggle" class="a11y-btn" aria-label="Accessibility Options">
+    <Accessibility size={24} />
+  </button>
+  
+  <div id="a11y-panel" class="a11y-panel">
+    <div class="a11y-panel-header">
+      <h3 class="font-display">Accessibility</h3>
+      <button id="a11y-close" aria-label="Close panel">&times;</button>
+    </div>
+    <div class="a11y-panel-body">
+      <div class="a11y-option-group">
+        <h4>Color Theme</h4>
+        <div class="theme-toggles">
+          <button data-theme="light" class="theme-btn" aria-label="Light Mode"><Sun size={18} /> Light</button>
+          <button data-theme="dark" class="theme-btn" aria-label="Dark Mode"><Moon size={18} /> Dark</button>
+          <button data-theme="system" class="theme-btn" aria-label="System Theme"><Monitor size={18} /> Brand</button>
+        </div>
+      </div>
+      <!-- Additional A11y options can go here -->
+    </div>
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('a11y-toggle');
+  const close = document.getElementById('a11y-close');
+  const panel = document.getElementById('a11y-panel');
+
+  toggle?.addEventListener('click', () => {
+    panel?.classList.toggle('open');
+  });
+  close?.addEventListener('click', () => {
+    panel?.classList.remove('open');
+  });
+
+  const themeBtns = document.querySelectorAll('.theme-btn');
+  const root = document.documentElement;
+
+  const savedTheme = localStorage.getItem('theme') || 'system';
+  applyTheme(savedTheme);
+
+  themeBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const theme = (e.currentTarget as HTMLElement).dataset.theme;
+      if (theme) {
+        applyTheme(theme);
+        localStorage.setItem('theme', theme);
+      }
+    });
+  });
+
+  function applyTheme(theme: string) {
+    themeBtns.forEach(b => b.classList.remove('active'));
+    document.querySelector(`[data-theme="${theme}"]`)?.classList.add('active');
+
+    if (theme === 'light') {
+      root.setAttribute('data-theme', 'light');
+    } else if (theme === 'dark') {
+      root.setAttribute('data-theme', 'dark');
+    } else {
+      root.removeAttribute('data-theme');
+    }
+  }
+</script>
+
+<style>
+.a11y-widget {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 100;
+}
+
+.a11y-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--brand-blue, #0d3b66);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.a11y-btn:hover {
+  transform: scale(1.05);
+  background-color: var(--brand-blue-light, #15518b);
+}
+
+.a11y-panel {
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+  width: 300px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px) scale(0.95);
+  transform-origin: bottom left;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.a11y-panel.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.a11y-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: var(--secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.a11y-panel-header h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  color: var(--foreground);
+}
+
+#a11y-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--muted-foreground);
+  cursor: pointer;
+}
+
+.a11y-panel-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.a11y-option-group h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted-foreground);
+}
+
+.theme-toggles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.theme-btn:hover {
+  background: var(--secondary);
+}
+
+.theme-btn.active {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border-color: var(--brand-gold);
+}
+</style>

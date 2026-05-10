@@ -22,48 +22,247 @@ const nav = [
     <div class="header-actions">
       <a href="/support" class="submit-btn bg-gradient-gold">Support AK Concerts</a>
       <button aria-label="Menu" class="icon-btn mobile-menu-toggle" id="mobile-menu-toggle">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
       </button>
-    </div>
-  </div>
-  <div class="mobile-nav" id="mobile-nav">
-    <div class="mobile-nav-inner">
-      {nav.map((n) => (
-        <a href={n.href} class="mobile-nav-link">{n.label}</a>
-      ))}
     </div>
   </div>
 </header>
 
+<div class="mobile-nav-overlay" id="mobile-nav">
+  <div class="mobile-nav-header">
+    <a href="/" class="logo-link">
+      <img src="/images/logo.png" alt="AK Concerts seal" width="44" height="44" class="logo-seal" />
+      <span class="logo-text font-display">AK <span class="text-gold">Concerts</span></span>
+    </a>
+    <button aria-label="Close Menu" class="icon-btn mobile-menu-close" id="mobile-menu-close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-nav-inner container">
+    <div class="nav-links-wrapper">
+      <span class="nav-label">Navigation</span>
+      {nav.map((n) => (
+        <a href={n.href} class="mobile-nav-link font-display">{n.label}</a>
+      ))}
+    </div>
+  </div>
+</div>
+
 <script>
   const toggle = document.getElementById('mobile-menu-toggle');
+  const close = document.getElementById('mobile-menu-close');
   const nav = document.getElementById('mobile-nav');
-  toggle?.addEventListener('click', () => nav?.classList.toggle('open'));
-  nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav?.classList.remove('open')));
+
+  toggle?.addEventListener('click', () => {
+    nav?.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+
+  const closeMenu = () => {
+    nav?.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  close?.addEventListener('click', closeMenu);
+  nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
 </script>
 
 <style>
-.site-header{position:sticky;top:0;z-index:50;border-bottom:1px solid color-mix(in oklab,var(--border) 50%,transparent);background:color-mix(in oklab,var(--background) 70%,transparent);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.75rem}
-.logo-link{display:flex;align-items:center;gap:.625rem}
-.logo-seal{width:44px;height:44px;border-radius:50%}
-.logo-text{font-size:1.25rem;font-weight:700;letter-spacing:-.025em}
-.desktop-nav{display:none;align-items:center;gap:.25rem}
-@media(min-width:768px){.desktop-nav{display:flex}}
-.nav-link{border-radius:9999px;padding:.375rem .75rem;font-size:.875rem;color:var(--muted-foreground);transition:background .2s,color .2s}
-.nav-link:hover{background:var(--secondary);color:var(--foreground)}
-.header-actions{display:flex;align-items:center;gap:.5rem}
-.icon-btn{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:9999px;border:1px solid var(--border);background:var(--card);color:var(--muted-foreground);transition:color .2s}
-.icon-btn:hover{color:var(--foreground)}
-.submit-btn{display:none;border-radius:9999px;padding:.5rem 1rem;font-size:.875rem;font-weight:600;color:var(--neon-foreground);box-shadow:0 8px 30px -10px var(--brand-gold);transition:opacity .2s}
-.submit-btn:hover{opacity:.9}
-@media(min-width:640px){.submit-btn{display:inline-flex}}
-.mobile-menu-toggle{display:grid}
-@media(min-width:768px){.mobile-menu-toggle{display:none}}
-.mobile-nav{display:none;border-top:1px solid color-mix(in oklab,var(--border) 50%,transparent);background:color-mix(in oklab,var(--background) 90%,transparent);padding:.75rem 1rem}
-.mobile-nav.open{display:block}
-@media(min-width:768px){.mobile-nav{display:none !important}}
-.mobile-nav-inner{display:flex;flex-direction:column;gap:.25rem}
-.mobile-nav-link{border-radius:.375rem;padding:.5rem .75rem;font-size:.875rem;color:var(--muted-foreground);transition:background .2s,color .2s}
-.mobile-nav-link:hover{background:var(--secondary);color:var(--foreground)}
+/* Default Desktop Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  border-bottom: 1px solid color-mix(in oklab, var(--border) 50%, transparent);
+  background: color-mix(in oklab, var(--background) 70%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 0;
+}
+
+/* Mobile Rounded Floating Header */
+@media (max-width: 767px) {
+  .site-header {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 0.75rem;
+}
+
+@media (max-width: 767px) {
+  .header-inner {
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+  }
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.logo-seal {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .logo-seal { width: 36px; height: 36px; }
+}
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--foreground);
+}
+
+.desktop-nav {
+  display: none;
+  align-items: center;
+  gap: 0.25rem;
+}
+@media (min-width: 768px) {
+  .desktop-nav { display: flex; }
+}
+
+.nav-link {
+  border-radius: 9999px;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  transition: background 0.2s, color 0.2s;
+}
+.nav-link:hover {
+  background: var(--secondary);
+  color: var(--foreground);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: var(--background);
+  color: var(--foreground);
+  transition: color 0.2s, background 0.2s;
+}
+.icon-btn:hover {
+  background: var(--secondary);
+}
+
+.submit-btn {
+  display: none;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--neon-foreground);
+  box-shadow: 0 8px 30px -10px var(--brand-gold);
+  transition: opacity 0.2s;
+}
+.submit-btn:hover { opacity: 0.9; }
+@media (min-width: 640px) { .submit-btn { display: inline-flex; } }
+
+.mobile-menu-toggle { display: grid; }
+@media (min-width: 768px) { .mobile-menu-toggle { display: none; } }
+
+/* Full Screen Mobile Menu */
+.mobile-nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: var(--background);
+  color: var(--foreground);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.mobile-nav-overlay.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-close {
+  background: transparent;
+  border: none;
+}
+
+.mobile-nav-inner {
+  flex: 1;
+  overflow-y: auto;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted-foreground);
+  margin-bottom: 1rem;
+}
+
+.mobile-nav-link {
+  font-size: 2.25rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--foreground);
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-nav-link::after {
+  content: "→";
+  font-size: 1.5rem;
+  opacity: 0.5;
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+.mobile-nav-link:hover {
+  color: var(--brand-gold);
+}
 </style>

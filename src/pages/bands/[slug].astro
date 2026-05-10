@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
+import EventJsonLd from '../../components/EventJsonLd.astro';
 import { bands } from '../../data/bands';
 import { events } from '../../data/events';
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
@@ -20,8 +21,8 @@ const bandEvents = events.filter(e => e.title.toLowerCase().includes(band.name.t
 
 // The dataset uses '2026-05-09' as the current anchor date
 const today = '2026-05-09';
-const upcomingEvents = bandEvents.filter(e => e.date >= today).sort((a, b) => a.date.localeCompare(b.date));
-const pastEvents = bandEvents.filter(e => e.date < today).sort((a, b) => b.date.localeCompare(a.date));
+const upcomingEvents = bandEvents.filter(e => e.date.localeCompare(today) >= 0).sort((a, b) => a.date.localeCompare(b.date));
+const pastEvents = bandEvents.filter(e => e.date.localeCompare(today) === -1).sort((a, b) => b.date.localeCompare(a.date));
 
 const categoryIcons: Record<string, any> = {
   music: Music,
@@ -49,6 +50,7 @@ const jsonLd = {
 
 <Layout title={`${band.name} — AK Concerts`} description={band.description || `${band.name} — Alaska local artist. Discover their music and upcoming shows on AK Concerts.`}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <EventJsonLd events={bandEvents} />
   <SiteHeader />
   <main class="band-page container">
     <div class="band-breadcrumb">

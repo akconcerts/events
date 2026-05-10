@@ -1,0 +1,41 @@
+---
+import type { AKEvent } from '../data/events';
+
+interface Props {
+  events: AKEvent | AKEvent[];
+}
+
+const { events } = Astro.props;
+const eventsArray = Array.isArray(events) ? events : [events];
+
+const jsonLds = eventsArray.map(e => ({
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": e.title,
+  "startDate": `${e.date}T19:00:00`,
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": e.venue,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": e.city,
+      "addressRegion": "AK",
+      "addressCountry": "US"
+    }
+  },
+  "url": `https://akconcerts.com/events/${e.slug}`,
+  "offers": {
+    "@type": "Offer",
+    "url": e.ticketUrl || `https://akconcerts.com/events/${e.slug}`,
+    "availability": "https://schema.org/InStock"
+  }
+}));
+---
+
+<>
+  {jsonLds.map(jsonLd => (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  ))}
+</>
