@@ -1,0 +1,211 @@
+---
+---
+<div id="venue-modal" class="venue-modal" aria-hidden="true">
+  <div class="venue-modal-overlay" data-close-modal></div>
+  <div class="venue-modal-content">
+    <button class="venue-modal-close" data-close-modal aria-label="Close modal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <div class="venue-modal-header">
+      <h2 id="modal-venue-name" class="font-display">Venue Name</h2>
+      <p id="modal-venue-city" class="venue-city">City</p>
+    </div>
+    <div class="venue-modal-map">
+      <iframe id="modal-venue-iframe" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=""></iframe>
+    </div>
+    <div class="venue-modal-footer">
+      <a id="modal-venue-link" href="#" target="_blank" rel="noopener noreferrer" class="action-btn bg-gradient-gold">
+        Open in Google Maps
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+.venue-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.venue-modal[aria-hidden="false"] {
+  pointer-events: auto;
+  opacity: 1;
+}
+.venue-modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+.venue-modal-content {
+  position: relative;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+  transform: translateY(20px);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.venue-modal[aria-hidden="false"] .venue-modal-content {
+  transform: translateY(0);
+}
+.venue-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s;
+}
+.venue-modal-close:hover {
+  background: var(--secondary);
+}
+.venue-modal-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+#modal-venue-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--foreground);
+}
+.venue-city {
+  color: var(--brand-gold);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.venue-modal-map {
+  background: var(--card);
+}
+.venue-modal-map iframe {
+  display: block;
+  filter: var(--map-filter, none);
+}
+[data-theme="dark"] .venue-modal-map iframe {
+  /* Simple dark mode filter for google maps embed */
+  filter: invert(90%) hue-rotate(180deg);
+}
+.venue-modal-footer {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--border);
+}
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+.action-btn:hover {
+  transform: translateY(-1px);
+}
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('venue-modal');
+    if (!modal) return;
+
+    const titleEl = document.getElementById('modal-venue-name');
+    const cityEl = document.getElementById('modal-venue-city');
+    const iframeEl = document.getElementById('modal-venue-iframe') as HTMLIFrameElement;
+    const linkEl = document.getElementById('modal-venue-link') as HTMLAnchorElement;
+
+    // Open modal function
+    const openModal = (venue: string, city: string) => {
+      if (titleEl) titleEl.textContent = venue;
+      if (cityEl) cityEl.textContent = city;
+      
+      const query = encodeURIComponent(`${venue}, ${city}, AK`);
+      if (iframeEl) {
+        iframeEl.src = `https://maps.google.com/maps?q=${query}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+      }
+      if (linkEl) {
+        linkEl.href = `https://www.google.com/maps/search/?api=1&query=${query}`;
+      }
+
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    };
+
+    // Close modal function
+    const closeModal = () => {
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (iframeEl) {
+        iframeEl.src = ''; // Clear iframe to stop loading/rendering
+      }
+    };
+
+    // Attach listeners to all venue elements
+    const attachVenueListeners = () => {
+      document.querySelectorAll('.event-row-venue').forEach(el => {
+        // Prevent multiple attachments if this is called multiple times
+        if (el.hasAttribute('data-venue-listener')) return;
+        el.setAttribute('data-venue-listener', 'true');
+
+        // Style it to look clickable
+        (el as HTMLElement).style.cursor = 'pointer';
+        (el as HTMLElement).style.textDecoration = 'underline';
+        (el as HTMLElement).style.textDecorationColor = 'var(--border)';
+        (el as HTMLElement).style.textUnderlineOffset = '3px';
+
+        el.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const venue = el.textContent?.trim() || '';
+          const city = el.getAttribute('data-city') || '';
+          openModal(venue, city);
+        });
+      });
+    };
+
+    attachVenueListeners();
+
+    // Attach close listeners
+    document.querySelectorAll('[data-close-modal]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        closeModal();
+      });
+    });
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') {
+        closeModal();
+      }
+    });
+  });
+</script>

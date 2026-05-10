@@ -96,7 +96,9 @@ const categoryLabels: Record<string, string> = {
         </div>
         <div>
           <div class="detail-label">Location</div>
-          <div class="detail-value">{event.venue}, {event.city}</div>
+          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.venue + ', ' + event.city + ', AK')}`} target="_blank" rel="noopener noreferrer" class="detail-value map-link">
+            {event.venue}, {event.city}
+          </a>
         </div>
       </div>
     </div>
@@ -135,4 +137,6 @@ const categoryLabels: Record<string, string> = {
 .action-btn:hover{transform:translateY(-1px)}
 .action-btn-secondary{display:inline-flex;align-items:center;border-radius:9999px;border:1px solid var(--border);background:var(--card);padding:.75rem 1.5rem;font-size:.875rem;font-weight:500;color:var(--muted-foreground);transition:background .2s,color .2s}
 .action-btn-secondary:hover{background:var(--secondary);color:var(--foreground)}
+.map-link{color:var(--foreground);text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:4px;transition:color .2s,text-decoration-color .2s}
+.map-link:hover{color:var(--brand-gold);text-decoration-color:var(--brand-gold)}
 </style>

@@ -1,5 +1,6 @@
 ---
 import A11yPanel from '../components/A11yPanel.astro';
+import VenueModal from '../components/VenueModal.astro';
 
 interface Props {
   title?: string;
@@ -26,6 +27,7 @@ const {
   </head>
   <body>
     <A11yPanel />
+    <VenueModal />
     <slot />
   </body>
 </html>

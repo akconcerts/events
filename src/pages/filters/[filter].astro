@@ -64,7 +64,7 @@ const categoryIcons: Record<string, any> = {
           <a href={`/events/${e.slug}`} class="event-row">
             <span class="event-row-icon"><Icon size={14} /></span>
             <span class="event-row-date">{e.date.slice(5)}</span>
-            <span class="event-row-venue">{e.venue}</span>
+            <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
             <span class="event-row-sep">—</span>
             <span class="event-row-title">{e.title}</span>
             <span class="event-row-city">{e.city}</span>
