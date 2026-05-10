@@ -1,0 +1,91 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { events, getEventsByCity } from '../../data/events';
+import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
+
+export function getStaticPaths() {
+  const allCities = [...new Set(events.map(e => e.city))];
+  const paths = allCities.map(city => {
+    // Generate a slug-friendly city name
+    const slug = city.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    return {
+      params: { city: slug },
+      props: { city, cityEvents: getEventsByCity(city) },
+    };
+  });
+
+  // Add Kenai Peninsula aggregate
+  const kenaiCities = ['Kenai', 'Soldotna', 'Homer', 'Seward', 'Cooper Landing', 'Hope'];
+  const kenaiEvents = events.filter(e => kenaiCities.includes(e.city));
+  paths.push({
+    params: { city: 'kenai-peninsula' },
+    props: { city: 'Kenai Peninsula', cityEvents: kenaiEvents },
+  });
+
+  return paths;
+}
+
+const { city, cityEvents } = Astro.props;
+
+const categoryIcons: Record<string, any> = {
+  music: Music,
+  comedy: Smile,
+  dance: PartyPopper,
+  theatre: Theater,
+  community: Users,
+  festival: Tent,
+};
+---
+
+<Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska.`}>
+  <SiteHeader />
+  <main class="city-page container">
+    <div class="city-header">
+      <p class="city-eyebrow">Local Events</p>
+      <h1 class="city-title font-display">{city}</h1>
+      <p class="city-sub">{cityEvents.length} event{cityEvents.length !== 1 ? 's' : ''} upcoming in {city}.</p>
+    </div>
+
+    <div class="event-list">
+      {cityEvents.map(e => {
+        const Icon = categoryIcons[e.category] || Music;
+        return (
+          <a href={`/events/${e.slug}`} class="event-row">
+            <span class="event-row-icon"><Icon size={14} /></span>
+            <span class="event-row-date">{e.date.slice(5)}</span>
+            <span class="event-row-venue">{e.venue}</span>
+            <span class="event-row-sep">—</span>
+            <span class="event-row-title">{e.title}</span>
+            <span class="event-row-time">{e.time}</span>
+          </a>
+        );
+      })}
+    </div>
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.city-page { padding-block: 3.5rem 4rem; }
+.city-header { margin-bottom: 2.5rem; }
+.city-eyebrow { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; color: var(--brand-gold); margin-bottom: .5rem; }
+.city-title { font-size: 2.5rem; font-weight: 700; letter-spacing: -.03em; }
+@media (min-width: 640px) { .city-title { font-size: 3.5rem; } }
+.city-sub { margin-top: .5rem; color: var(--muted-foreground); }
+
+.event-list { display: flex; flex-direction: column; gap: .25rem; }
+.event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; }
+.event-row:hover { background: var(--card); }
+.event-row-icon { font-size: .875rem; flex-shrink: 0; }
+.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 3rem; flex-shrink: 0; }
+.event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
+.event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
+.event-row-title { font-weight: 600; flex: 1; min-width: 0; }
+.event-row-time { font-size: .75rem; color: var(--muted-foreground); flex-shrink: 0; margin-left: auto; }
+@media (max-width: 639px) {
+  .event-row { font-size: .8125rem; gap: .375rem; }
+  .event-row-venue, .event-row-sep { display: none; }
+}
+</style>

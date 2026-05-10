@@ -1,0 +1,124 @@
+---
+import { events } from '../data/events';
+
+const cities = [...new Set(events.map(e => e.city))].sort();
+const dates = [...new Set(events.map(e => e.date))].sort();
+const venues = [...new Set(events.map(e => e.venue))].sort();
+const categories = [...new Set(events.map(e => e.category))].sort();
+---
+
+<div class="filter-bar container">
+  <div class="filter-group">
+    <label for="filter-city">City</label>
+    <select id="filter-city">
+      <option value="all">All Cities</option>
+      {cities.map(c => <option value={c}>{c}</option>)}
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label for="filter-date">Date</label>
+    <select id="filter-date">
+      <option value="all">All Dates</option>
+      {dates.map(d => <option value={d}>{d}</option>)}
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="filter-venue">Venue</label>
+    <select id="filter-venue">
+      <option value="all">All Venues</option>
+      {venues.map(v => <option value={v}>{v}</option>)}
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="filter-category">Type</label>
+    <select id="filter-category">
+      <option value="all">All Types</option>
+      {categories.map(c => <option value={c}>{c}</option>)}
+    </select>
+  </div>
+</div>
+
+<script>
+  function applyFilters() {
+    const city = (document.getElementById('filter-city') as HTMLSelectElement).value;
+    const date = (document.getElementById('filter-date') as HTMLSelectElement).value;
+    const venue = (document.getElementById('filter-venue') as HTMLSelectElement).value;
+    const category = (document.getElementById('filter-category') as HTMLSelectElement).value;
+
+    const eventRows = document.querySelectorAll('.event-row');
+    const cityBlocks = document.querySelectorAll('.city-block');
+
+    eventRows.forEach((row) => {
+      const el = row as HTMLElement;
+      const matchCity = city === 'all' || el.dataset.city === city;
+      const matchDate = date === 'all' || el.dataset.date === date;
+      const matchVenue = venue === 'all' || el.dataset.venue === venue;
+      const matchCategory = category === 'all' || el.dataset.category === category;
+
+      if (matchCity && matchDate && matchVenue && matchCategory) {
+        el.style.display = 'flex';
+      } else {
+        el.style.display = 'none';
+      }
+    });
+
+    // Hide city blocks if they have no visible events
+    cityBlocks.forEach((block) => {
+      const el = block as HTMLElement;
+      const visibleEvents = el.querySelectorAll('.event-row[style="display: flex;"], .event-row:not([style*="display: none"])');
+      if (visibleEvents.length === 0) {
+        el.style.display = 'none';
+      } else {
+        el.style.display = 'block';
+      }
+    });
+  }
+
+  document.getElementById('filter-city')?.addEventListener('change', applyFilters);
+  document.getElementById('filter-date')?.addEventListener('change', applyFilters);
+  document.getElementById('filter-venue')?.addEventListener('change', applyFilters);
+  document.getElementById('filter-category')?.addEventListener('change', applyFilters);
+</script>
+
+<style>
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 1rem;
+  background: var(--card);
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+  padding-inline: 1rem;
+}
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  flex: 1;
+  min-width: 150px;
+}
+.filter-group label {
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+.filter-group select {
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  padding: .5rem;
+  border-radius: .25rem;
+  font-size: .875rem;
+  outline: none;
+}
+.filter-group select:focus {
+  border-color: var(--brand-gold);
+}
+</style>

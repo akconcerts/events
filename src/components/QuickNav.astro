@@ -28,15 +28,18 @@ const icons: Record<string, string> = {
     <span class="quicknav-sub">Quick filters</span>
   </div>
   <div class="quicknav-grid">
-    {items.map(({ label, icon, tone }) => (
-      <button class={`qn-card qn-${tone}`}>
-        <div class={`qn-glow qn-glow-${tone}`}></div>
-        <div class="qn-inner">
-          <span class={`qn-icon qn-icon-${tone}`} set:html={icons[icon]} />
-          <span class="qn-label">{label}</span>
-        </div>
-      </button>
-    ))}
+    {items.map(({ label, icon, tone }) => {
+      const slug = label.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      return (
+        <a href={`/filters/${slug}`} class={`qn-card qn-${tone}`}>
+          <div class={`qn-glow qn-glow-${tone}`}></div>
+          <div class="qn-inner">
+            <span class={`qn-icon qn-icon-${tone}`} set:html={icons[icon]} />
+            <span class="qn-label">{label}</span>
+          </div>
+        </a>
+      );
+    })}
   </div>
 </section>
 

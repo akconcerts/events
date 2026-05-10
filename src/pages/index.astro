@@ -5,9 +5,12 @@ import Hero from '../components/Hero.astro';
 import QuickNav from '../components/QuickNav.astro';
 import CityStrip from '../components/CityStrip.astro';
 import SectionHeading from '../components/SectionHeading.astro';
+import EventFilterBar from '../components/EventFilterBar.astro';
 import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { events, cities } from '../data/events';
+
+import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
 // Group events by date
 const today = events.filter(e => e.date === '2026-05-09');
@@ -27,13 +30,13 @@ const fmtDate = (iso: string) => {
   return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
 };
 
-const categoryIcons: Record<string, string> = {
-  music: '🎵',
-  comedy: '😂',
-  dance: '💃',
-  theatre: '🎭',
-  community: '🌟',
-  festival: '🎪',
+const categoryIcons: Record<string, any> = {
+  music: Music,
+  comedy: Smile,
+  dance: PartyPopper,
+  theatre: Theater,
+  community: Users,
+  festival: Tent,
 };
 ---
 
@@ -47,21 +50,32 @@ const categoryIcons: Record<string, string> = {
     <!-- What's Happening Section — mirrors live site format -->
     <section id="tonight" class="events-section container">
       <SectionHeading eyebrow="What's Happening in Alaska" title="Playing Soon" />
+      <EventFilterBar />
 
       {sortedCities.map(city => (
         <div class="city-block">
           <h3 class="city-name font-display">{city}</h3>
           <div class="event-list">
-            {eventsByCity[city].map(e => (
-              <a href={`/events/${e.slug}`} class="event-row">
-                <span class="event-row-icon">{categoryIcons[e.category] || '🎵'}</span>
-                <span class="event-row-date">{e.date.slice(5)}</span>
-                <span class="event-row-venue">{e.venue}</span>
-                <span class="event-row-sep">—</span>
-                <span class="event-row-title">{e.title}</span>
-                <span class="event-row-time">{e.time}</span>
-              </a>
-            ))}
+            {eventsByCity[city].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date.slice(5)}</span>
+                  <span class="event-row-venue">{e.venue}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
           </div>
         </div>
       ))}

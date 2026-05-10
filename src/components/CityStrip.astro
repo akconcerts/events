@@ -15,12 +15,15 @@ const doubled = [...cities, ...cities];
 <section class="city-strip">
   <div class="city-overflow">
     <div class="marquee-track city-track">
-      {doubled.map((c, i) => (
-        <a href="#" class="city-pill" key={i}>
-          <span class="city-name">{c.name}</span>
-          <span class="city-count">{c.count} events</span>
-        </a>
-      ))}
+      {doubled.map((c, i) => {
+        const slug = c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        return (
+          <a href={`/cities/${slug}`} class="city-pill" key={i}>
+            <span class="city-name">{c.name}</span>
+            <span class="city-count">{c.count} events</span>
+          </a>
+        );
+      })}
     </div>
   </div>
 </section>
