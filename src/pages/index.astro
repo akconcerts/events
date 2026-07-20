@@ -17,9 +17,9 @@ const today = new Date().toISOString().slice(0, 10);
 const upcomingEvents = events.filter(e => e.date >= today);
 
 const sortedEvents = [...upcomingEvents].sort((a, b) => {
-  const d = a.date.localeCompare(b.date);
+  const d = b.date.localeCompare(a.date);
   if (d !== 0) return d;
-  return a.time.localeCompare(b.time);
+  return b.time.localeCompare(a.time);
 });
 
 // Group by City

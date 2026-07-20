@@ -282,18 +282,7 @@ import {
     motion: document.getElementById('tool-motion') as HTMLInputElement
   };
 
-  // Initial Load Application
-  applyTheme(state.theme);
-  updateFontSizeDisplay();
-  applyToggleOption('monochrome');
-  applyToggleOption('contrast');
-  applyToggleOption('invert');
-  applyToggleOption('dyslexic');
-  applyToggleOption('links');
-  applyToggleOption('spacing');
-  applyToggleOption('cursor');
-  applyToggleOption('guide');
-  applyToggleOption('motion');
+  // Initial Load Application is moved to the bottom of the script to prevent TDZ ReferenceError
 
   // --- 1. Theme Configuration ---
   const themeBtns = document.querySelectorAll('.theme-btn');
@@ -310,7 +299,7 @@ import {
 
   function applyTheme(theme: string) {
     themeBtns.forEach(b => b.classList.remove('active'));
-    document.querySelector(`[data-theme="${theme}"]`)?.classList.add('active');
+    document.querySelector(`.theme-btn[data-theme="${theme}"]`)?.classList.add('active');
 
     if (theme === 'light') {
       root.setAttribute('data-theme', 'light');
@@ -411,6 +400,19 @@ import {
       applyToggleOption(key);
     });
   });
+
+  // Initial Load Application
+  applyTheme(state.theme);
+  updateFontSizeDisplay();
+  applyToggleOption('monochrome');
+  applyToggleOption('contrast');
+  applyToggleOption('invert');
+  applyToggleOption('dyslexic');
+  applyToggleOption('links');
+  applyToggleOption('spacing');
+  applyToggleOption('cursor');
+  applyToggleOption('guide');
+  applyToggleOption('motion');
 </script>
 
 <style>

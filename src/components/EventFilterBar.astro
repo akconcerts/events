@@ -65,8 +65,8 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     <div class="filter-group">
       <label for="filter-sort">Sort Order</label>
       <select id="filter-sort">
+        <option value="desc" selected>Newest First</option>
         <option value="asc">Oldest First</option>
-        <option value="desc">Newest First</option>
       </select>
     </div>
   </div>
@@ -140,7 +140,7 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 
   function applySorting() {
     const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement | null;
-    const sortOrder = sortSelect ? sortSelect.value : 'asc';
+    const sortOrder = sortSelect ? sortSelect.value : 'desc';
     const eventLists = document.querySelectorAll('.event-list');
 
     eventLists.forEach(list => {

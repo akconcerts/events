@@ -21,7 +21,7 @@ const bandEvents = events.filter(e => e.title.toLowerCase().includes(band.name.t
 
 // The dataset uses '2026-05-09' as the current anchor date
 const today = '2026-05-09';
-const upcomingEvents = bandEvents.filter(e => e.date.localeCompare(today) >= 0).sort((a, b) => a.date.localeCompare(b.date));
+const upcomingEvents = bandEvents.filter(e => e.date.localeCompare(today) >= 0).sort((a, b) => b.date.localeCompare(a.date));
 const pastEvents = bandEvents.filter(e => e.date.localeCompare(today) === -1).sort((a, b) => b.date.localeCompare(a.date));
 
 const categoryIcons: Record<string, any> = {

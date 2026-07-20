@@ -11,7 +11,7 @@ export function getStaticPaths() {
   const paths = allCities.map(city => {
     // Generate a slug-friendly city name
     const slug = city.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    const cityEvents = getEventsByCity(city).sort((a, b) => a.date.localeCompare(b.date));
+    const cityEvents = getEventsByCity(city).sort((a, b) => b.date.localeCompare(a.date));
     return {
       params: { city: slug },
       props: { city, cityEvents },
@@ -20,7 +20,7 @@ export function getStaticPaths() {
 
   // Add Kenai Peninsula aggregate
   const kenaiCities = ['Kenai', 'Soldotna', 'Homer', 'Seward', 'Cooper Landing', 'Hope'];
-  const kenaiEvents = events.filter(e => kenaiCities.includes(e.city)).sort((a, b) => a.date.localeCompare(b.date));
+  const kenaiEvents = events.filter(e => kenaiCities.includes(e.city)).sort((a, b) => b.date.localeCompare(a.date));
   paths.push({
     params: { city: 'kenai-peninsula' },
     props: { city: 'Kenai Peninsula', cityEvents: kenaiEvents },

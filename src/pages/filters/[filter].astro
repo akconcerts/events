@@ -23,7 +23,7 @@ export function getStaticPaths() {
 const { name, description, filterFn } = Astro.props;
 
 // For Touring AK and Winter Series, since we don't have perfect flags, we just apply generic rules.
-let filteredEvents = events.filter(filterFn).sort((a, b) => a.date.localeCompare(b.date));
+let filteredEvents = events.filter(filterFn).sort((a, b) => b.date.localeCompare(a.date));
 
 // Fallbacks if lists are empty (e.g. Winter Series)
 if (name === 'Touring AK' && filteredEvents.length > 5) {
