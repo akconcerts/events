@@ -1,1 +1,5 @@
 Only use Lucide or Font Awesome icons. Do not use emojis.
+
+# Git Authentication
+- When running git push/pull/fetch commands, always unset GITHUB_TOKEN to ensure the git command falls back to the macOS Keychain credential helper for the GitHub user "kb907alaska".
+- Example command pattern: `env -u GITHUB_TOKEN git push`
