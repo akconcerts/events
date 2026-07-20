@@ -57,7 +57,7 @@ const categoryIcons: Record<string, any> = {
         return (
           <a href={`/events/${e.slug}`} class="event-row">
             <span class="event-row-icon"><Icon size={14} /></span>
-            <span class="event-row-date">{e.date.slice(5)}</span>
+            <span class="event-row-date">{e.date}</span>
             <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
             <span class="event-row-sep">—</span>
             <span class="event-row-title">{e.title}</span>
@@ -82,7 +82,7 @@ const categoryIcons: Record<string, any> = {
 .event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; }
 .event-row:hover { background: var(--card); }
 .event-row-icon { font-size: .875rem; flex-shrink: 0; }
-.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 3rem; flex-shrink: 0; }
+.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 5.5rem; flex-shrink: 0; }
 .event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
 .event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
 .event-row-title { font-weight: 600; flex: 1; min-width: 0; }
