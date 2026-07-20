@@ -1,16 +1,28 @@
 import XLSX from 'xlsx';
+import fs from 'fs';
+import path from 'path';
+
+const eventsJsonPath = path.join(process.cwd(), 'src', 'data', 'events.json');
+
+let currentAndFutureEvents = [];
+if (fs.existsSync(eventsJsonPath)) {
+  const allEvents = JSON.parse(fs.readFileSync(eventsJsonPath, 'utf8'));
+  // Filter for this month (July 2026) and future events
+  currentAndFutureEvents = allEvents.filter(e => e.date >= '2026-07-01');
+  console.log(`Loaded ${currentAndFutureEvents.length} current and future events from database.`);
+}
 
 const wb = XLSX.utils.book_new();
 
 // 1. Instructions Tab Data
 const instructionsData = [
-  ["AK CONCERTS — EVENT MANAGEMENT PORTAL"],
+  ["AK CONCERTS — EVENT MANAGEMENT DATABASE"],
   [""],
-  ["Welcome to your event manager spreadsheet! Follow the instructions below to add events to the website."],
+  ["Welcome to your event manager database! Follow the instructions below to add events to the website."],
   [""],
   ["HOW TO ADD EVENTS:"],
-  ["1. Go to the 'Events_List' tab."],
-  ["2. Enter the event date, city, venue, category, title, time, ticket link, and ticket cost."],
+  ["1. Go to the 'Events_List' tab (which has been pre-populated with this month's and future events)."],
+  ["2. Add new rows for new events. Fill in the date, city, venue, category, title, time, ticket link, and cost."],
   ["3. Refer to the 'Valid_Reference_Values' tab for valid City and Category options."],
   ["4. When you are done editing, the website will automatically pull your changes and rebuild tonight!"],
   [""],
@@ -27,13 +39,19 @@ const instructionsData = [
 ];
 const wsInstructions = XLSX.utils.aoa_to_sheet(instructionsData);
 
-// 2. Events Tab Data
-const eventsData = [
-  ["date", "city", "venue", "category", "title", "time", "ticketUrl", "cost"],
-  ["2026-07-20", "Anchorage", "Koot's", "music", "Fireside Thursdays w/ DJ JoJo", "10p-2:10a", "", ""],
-  ["2026-07-21", "Fairbanks", "The Marlin", "music", "Open Mic Night", "8p-12a", "", "Free"],
-  ["2026-07-22", "Juneau", "The Crystal Saloon", "music", "Live Band Performance", "9p-1a", "https://example.com/tickets", "$15"]
-];
+// 2. Events Tab Data (Pre-populated)
+const eventsHeaders = ["date", "city", "venue", "category", "title", "time", "ticketUrl", "cost"];
+const eventsRows = currentAndFutureEvents.map(e => [
+  e.date,
+  e.city,
+  e.venue,
+  e.category,
+  e.title,
+  e.time,
+  e.ticketUrl || '',
+  e.cost || ''
+]);
+const eventsData = [eventsHeaders, ...eventsRows];
 const wsEvents = XLSX.utils.aoa_to_sheet(eventsData);
 
 // 3. References Tab Data
@@ -66,5 +84,5 @@ XLSX.utils.book_append_sheet(wb, wsEvents, "Events_List");
 XLSX.utils.book_append_sheet(wb, wsRefs, "Valid_Reference_Values");
 
 // Write file
-XLSX.writeFile(wb, "events_template.xlsx");
-console.log("Successfully generated events_template.xlsx workbook!");
+XLSX.writeFile(wb, "akconcerts_database.xlsx");
+console.log("Successfully generated akconcerts_database.xlsx!");
