@@ -1,55 +1,309 @@
 ---
-import { Accessibility, Moon, Sun, Monitor } from 'lucide-astro';
+import { 
+  Accessibility, X, RotateCcw, Sun, Moon, Monitor, 
+  Type, Eye, EyeOff, Paintbrush, BookOpen, 
+  Link, MousePointer, Sliders, Heading, VideoOff 
+} from 'lucide-astro';
 ---
 
-<div class="a11y-widget">
+<div class="a11y-wrapper">
+  <!-- Trigger Button -->
   <button id="a11y-toggle" class="a11y-btn" aria-label="Accessibility Options">
     <Accessibility size={24} />
   </button>
-  
+
+  <!-- Backdrop Overlay -->
+  <div id="a11y-backdrop" class="a11y-backdrop"></div>
+
+  <!-- Slide-out Left Panel -->
   <div id="a11y-panel" class="a11y-panel">
+    <!-- Header -->
     <div class="a11y-panel-header">
-      <h3 class="font-display">Accessibility</h3>
-      <button id="a11y-close" aria-label="Close panel">&times;</button>
+      <div class="header-title-container">
+        <Accessibility size={20} class="header-icon" />
+        <h3 class="font-display">Accessibility Options</h3>
+      </div>
+      <div class="header-actions">
+        <button id="a11y-reset" class="reset-btn" title="Reset All Options" aria-label="Reset all options">
+          <RotateCcw size={16} /> Reset
+        </button>
+        <button id="a11y-close" class="close-btn" aria-label="Close panel">
+          <X size={20} />
+        </button>
+      </div>
     </div>
+
+    <!-- Body (Scrollable options list) -->
     <div class="a11y-panel-body">
+      <!-- Theme Selection (Original Category) -->
       <div class="a11y-option-group">
         <h4>Color Theme</h4>
         <div class="theme-toggles">
-          <button data-theme="light" class="theme-btn" aria-label="Light Mode"><Sun size={18} /> Light</button>
-          <button data-theme="dark" class="theme-btn" aria-label="Dark Mode"><Moon size={18} /> Dark</button>
-          <button data-theme="system" class="theme-btn" aria-label="System Theme"><Monitor size={18} /> Brand</button>
+          <button data-theme="light" class="theme-btn" aria-label="Light Mode"><Sun size={16} /> Light</button>
+          <button data-theme="dark" class="theme-btn" aria-label="Dark Mode"><Moon size={16} /> Dark</button>
+          <button data-theme="system" class="theme-btn" aria-label="System Theme"><Monitor size={16} /> Brand</button>
         </div>
       </div>
-      <!-- Additional A11y options can go here -->
+
+      <div class="separator"></div>
+
+      <!-- Top 10 A11y Tools -->
+      <div class="a11y-option-group">
+        <h4>Accessibility Tools</h4>
+        <div class="a11y-tools-list">
+          
+          <!-- 1. Text Size Adjuster -->
+          <div class="a11y-tool-item font-size-adjuster">
+            <div class="tool-info">
+              <Type size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Increase Text Size</span>
+                <span class="tool-desc">Scale page fonts up</span>
+              </div>
+            </div>
+            <div class="size-controls">
+              <button id="size-dec" class="size-btn" aria-label="Decrease text size">-</button>
+              <span id="size-label" class="size-label">100%</span>
+              <button id="size-inc" class="size-btn" aria-label="Increase text size">+</button>
+            </div>
+          </div>
+
+          <!-- 2. Monochrome / Grayscale -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <EyeOff size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Monochrome</span>
+                <span class="tool-desc">Convert page to grayscale</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-monochrome" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 3. High Contrast -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <Eye size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">High Contrast</span>
+                <span class="tool-desc">Increase color contrast</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-contrast" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 4. Invert Colors -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <Paintbrush size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Invert Colors</span>
+                <span class="tool-desc">Invert page content colors</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-invert" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 5. Dyslexia Font -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <BookOpen size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Dyslexia Font</span>
+                <span class="tool-desc">Easy-to-read font style</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-dyslexic" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 6. Highlight Links -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <Link size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Highlight Links</span>
+                <span class="tool-desc">Outline and mark clickable links</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-links" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 7. Extra Text Spacing -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <Sliders size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Text Spacing</span>
+                <span class="tool-desc">Increase letter & line height</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-spacing" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 8. Large Cursor -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <MousePointer size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Large Cursor</span>
+                <span class="tool-desc">Enlarge the mouse pointer</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-cursor" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 9. Reading Guide -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <Heading size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Reading Guide</span>
+                <span class="tool-desc">Focus bar following mouse pointer</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-guide" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+          <!-- 10. Pause Animations -->
+          <label class="a11y-tool-item toggle-item">
+            <div class="tool-info">
+              <VideoOff size={18} class="tool-icon" />
+              <div class="tool-text">
+                <span class="tool-title">Reduce Motion</span>
+                <span class="tool-desc">Pause animations and transitions</span>
+              </div>
+            </div>
+            <div class="switch-container">
+              <input type="checkbox" id="tool-motion" class="a11y-switch" />
+              <span class="slider"></span>
+            </div>
+          </label>
+
+        </div>
+      </div>
     </div>
   </div>
+
+  <!-- Interactive reading guide bar rendered in layout slot -->
+  <div id="a11y-reading-guide" class="a11y-reading-guide-line"></div>
 </div>
 
 <script>
   const toggle = document.getElementById('a11y-toggle');
   const close = document.getElementById('a11y-close');
+  const reset = document.getElementById('a11y-reset');
   const panel = document.getElementById('a11y-panel');
-
-  toggle?.addEventListener('click', () => {
-    panel?.classList.toggle('open');
-  });
-  close?.addEventListener('click', () => {
-    panel?.classList.remove('open');
-  });
-
-  const themeBtns = document.querySelectorAll('.theme-btn');
+  const backdrop = document.getElementById('a11y-backdrop');
   const root = document.documentElement;
 
-  const savedTheme = localStorage.getItem('theme') || 'system';
-  applyTheme(savedTheme);
+  // Toggle panel opening
+  const openPanel = () => {
+    panel?.classList.add('open');
+    backdrop?.classList.add('open');
+  };
+  const closePanel = () => {
+    panel?.classList.remove('open');
+    backdrop?.classList.remove('open');
+  };
 
+  toggle?.addEventListener('click', openPanel);
+  close?.addEventListener('click', closePanel);
+  backdrop?.addEventListener('click', closePanel);
+
+  // Esc key to close panel
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closePanel();
+  });
+
+  // --- Accessibility Custom Settings Configuration ---
+  const CONFIG = {
+    theme: { key: 'a11y-theme', default: 'system' },
+    fontSize: { key: 'a11y-font-size', default: 100 },
+    monochrome: { key: 'a11y-monochrome', default: false, className: 'a11y-monochrome' },
+    contrast: { key: 'a11y-contrast', default: false, className: 'a11y-high-contrast' },
+    invert: { key: 'a11y-invert', default: false, className: 'a11y-invert' },
+    dyslexic: { key: 'a11y-dyslexic', default: false, className: 'a11y-dyslexic' },
+    links: { key: 'a11y-links', default: false, className: 'a11y-highlight-links' },
+    spacing: { key: 'a11y-spacing', default: false, className: 'a11y-text-spacing' },
+    cursor: { key: 'a11y-cursor', default: false, className: 'a11y-large-cursor' },
+    guide: { key: 'a11y-guide', default: false, className: 'a11y-reading-guide-active' },
+    motion: { key: 'a11y-motion', default: false, className: 'a11y-reduce-motion' }
+  };
+
+  // State
+  const state = {
+    theme: localStorage.getItem(CONFIG.theme.key) || CONFIG.theme.default,
+    fontSize: parseInt(localStorage.getItem(CONFIG.fontSize.key) || String(CONFIG.fontSize.default), 10),
+    monochrome: localStorage.getItem(CONFIG.monochrome.key) === 'true',
+    contrast: localStorage.getItem(CONFIG.contrast.key) === 'true',
+    invert: localStorage.getItem(CONFIG.invert.key) === 'true',
+    dyslexic: localStorage.getItem(CONFIG.dyslexic.key) === 'true',
+    links: localStorage.getItem(CONFIG.links.key) === 'true',
+    spacing: localStorage.getItem(CONFIG.spacing.key) === 'true',
+    cursor: localStorage.getItem(CONFIG.cursor.key) === 'true',
+    guide: localStorage.getItem(CONFIG.guide.key) === 'true',
+    motion: localStorage.getItem(CONFIG.motion.key) === 'true'
+  };
+
+  // HTML Inputs
+  const inputs = {
+    monochrome: document.getElementById('tool-monochrome') as HTMLInputElement,
+    contrast: document.getElementById('tool-contrast') as HTMLInputElement,
+    invert: document.getElementById('tool-invert') as HTMLInputElement,
+    dyslexic: document.getElementById('tool-dyslexic') as HTMLInputElement,
+    links: document.getElementById('tool-links') as HTMLInputElement,
+    spacing: document.getElementById('tool-spacing') as HTMLInputElement,
+    cursor: document.getElementById('tool-cursor') as HTMLInputElement,
+    guide: document.getElementById('tool-guide') as HTMLInputElement,
+    motion: document.getElementById('tool-motion') as HTMLInputElement
+  };
+
+  // Initial Load Application
+  applyTheme(state.theme);
+  updateFontSizeDisplay();
+  applyToggleOption('monochrome');
+  applyToggleOption('contrast');
+  applyToggleOption('invert');
+  applyToggleOption('dyslexic');
+  applyToggleOption('links');
+  applyToggleOption('spacing');
+  applyToggleOption('cursor');
+  applyToggleOption('guide');
+  applyToggleOption('motion');
+
+  // --- 1. Theme Configuration ---
+  const themeBtns = document.querySelectorAll('.theme-btn');
   themeBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       const theme = (e.currentTarget as HTMLElement).dataset.theme;
       if (theme) {
+        state.theme = theme;
+        localStorage.setItem(CONFIG.theme.key, theme);
         applyTheme(theme);
-        localStorage.setItem('theme', theme);
       }
     });
   });
@@ -66,98 +320,358 @@ import { Accessibility, Moon, Sun, Monitor } from 'lucide-astro';
       root.removeAttribute('data-theme');
     }
   }
+
+  // --- 2. Font Size Logic ---
+  const sizeDec = document.getElementById('size-dec');
+  const sizeInc = document.getElementById('size-inc');
+  const sizeLabel = document.getElementById('size-label');
+
+  const FONT_SIZE_STEPS = [100, 115, 130, 150];
+
+  sizeDec?.addEventListener('click', () => {
+    const currentIndex = FONT_SIZE_STEPS.indexOf(state.fontSize);
+    if (currentIndex > 0) {
+      state.fontSize = FONT_SIZE_STEPS[currentIndex - 1];
+      localStorage.setItem(CONFIG.fontSize.key, String(state.fontSize));
+      updateFontSizeDisplay();
+    }
+  });
+
+  sizeInc?.addEventListener('click', () => {
+    const currentIndex = FONT_SIZE_STEPS.indexOf(state.fontSize);
+    if (currentIndex < FONT_SIZE_STEPS.length - 1) {
+      state.fontSize = FONT_SIZE_STEPS[currentIndex + 1];
+      localStorage.setItem(CONFIG.fontSize.key, String(state.fontSize));
+      updateFontSizeDisplay();
+    }
+  });
+
+  function updateFontSizeDisplay() {
+    if (sizeLabel) sizeLabel.textContent = `${state.fontSize}%`;
+    root.style.setProperty('--a11y-font-size', `${state.fontSize}%`);
+  }
+
+  // --- 3. Toggle Controls Logic ---
+  Object.keys(inputs).forEach(optionKey => {
+    const key = optionKey as keyof typeof inputs;
+    const input = inputs[key];
+    if (input) {
+      // Set initial checkbox state
+      input.checked = state[key];
+      
+      // Add event listener
+      input.addEventListener('change', (e) => {
+        state[key] = (e.target as HTMLInputElement).checked;
+        localStorage.setItem(CONFIG[key].key, String(state[key]));
+        applyToggleOption(key);
+      });
+    }
+  });
+
+  function applyToggleOption(key: keyof typeof inputs) {
+    const configItem = CONFIG[key];
+    const isChecked = state[key];
+
+    // Update Input GUI in case called internally
+    const input = inputs[key];
+    if (input) input.checked = isChecked;
+
+    if (isChecked) {
+      root.classList.add(configItem.className);
+    } else {
+      root.classList.remove(configItem.className);
+    }
+  }
+
+  // --- 4. Reading Guide Line Following ---
+  const guideLine = document.getElementById('a11y-reading-guide');
+  window.addEventListener('mousemove', (e) => {
+    if (state.guide && guideLine) {
+      guideLine.style.top = `${e.clientY}px`;
+    }
+  });
+
+  // --- 5. Reset All Features ---
+  reset?.addEventListener('click', () => {
+    // Reset Theme
+    state.theme = CONFIG.theme.default;
+    localStorage.setItem(CONFIG.theme.key, state.theme);
+    applyTheme(state.theme);
+
+    // Reset Font Size
+    state.fontSize = CONFIG.fontSize.default;
+    localStorage.setItem(CONFIG.fontSize.key, String(state.fontSize));
+    updateFontSizeDisplay();
+
+    // Reset All Toggles
+    Object.keys(inputs).forEach(optionKey => {
+      const key = optionKey as keyof typeof inputs;
+      state[key] = CONFIG[key].default;
+      localStorage.setItem(CONFIG[key].key, String(state[key]));
+      applyToggleOption(key);
+    });
+  });
 </script>
 
 <style>
-.a11y-widget {
+/* CSS Variables Integration */
+:root {
+  --a11y-font-size: 100%;
+}
+
+html {
+  font-size: var(--a11y-font-size);
+}
+
+/* 1. Monochrome */
+html.a11y-monochrome {
+  filter: grayscale(100%) !important;
+}
+
+/* 2. High Contrast */
+html.a11y-high-contrast {
+  filter: contrast(135%) saturate(130%) !important;
+}
+
+/* 3. Invert Colors (Normalizing Media) */
+html.a11y-invert {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+html.a11y-invert img,
+html.a11y-invert video,
+html.a11y-invert iframe,
+html.a11y-invert svg,
+html.a11y-invert .event-row-icon,
+html.a11y-invert .hero-illustration,
+html.a11y-invert .header-logo {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+/* 4. Dyslexic Friendly Font */
+html.a11y-dyslexic,
+html.a11y-dyslexic * {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', sans-serif !important;
+}
+
+/* 5. Highlight Links */
+html.a11y-highlight-links a {
+  background-color: #ffeb3b !important;
+  color: #000 !important;
+  outline: 3px solid #ff9800 !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+}
+
+/* 6. Extra Text Spacing */
+html.a11y-text-spacing * {
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+  line-height: 1.8 !important;
+}
+
+/* 7. Large Cursor */
+html.a11y-large-cursor,
+html.a11y-large-cursor * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='40' viewBox='0 0 32 40'%3E%3Cpath d='M0,0 L0,28 L8,20 L15,36 L21,33 L14,18 L24,18 Z' fill='white' stroke='black' stroke-width='2'/%3E%3C/svg%3E"), auto !important;
+}
+
+/* 8. Reading Guide focus line */
+.a11y-reading-guide-line {
   position: fixed;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  z-index: 100;
+  left: 0;
+  width: 100vw;
+  height: 4px;
+  background-color: var(--brand-gold, #cca43b);
+  box-shadow: 0 0 10px var(--brand-gold, #cca43b);
+  pointer-events: none;
+  z-index: 10000;
+  display: none;
+  transform: translateY(-50%);
+}
+html.a11y-reading-guide-active .a11y-reading-guide-line {
+  display: block;
+}
+
+/* 9. Reduce Motion */
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+  animation-delay: -1ms !important;
+  animation-duration: 1ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+  scroll-behavior: auto !important;
+}
+
+/* --- Panel Layout & Aesthetics --- */
+.a11y-wrapper {
+  position: relative;
 }
 
 .a11y-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  background-color: var(--brand-blue, #0d3b66);
-  color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--brand-navy, #0d3b66);
+  color: var(--brand-gold, #cca43b);
+  border: 2px solid var(--brand-gold, #cca43b);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
 }
 
 .a11y-btn:hover {
-  transform: scale(1.05);
-  background-color: var(--brand-blue-light, #15518b);
+  transform: scale(1.08);
+  background-color: #114c82;
+  box-shadow: 0 6px 24px rgba(204, 164, 59, 0.3);
 }
 
-.a11y-panel {
-  position: absolute;
-  bottom: 4rem;
+/* Backdrop Blur Overlay */
+.a11y-backdrop {
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 300px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 1rem;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 15, 30, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
   opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px) scale(0.95);
-  transform-origin: bottom left;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  overflow: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.a11y-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Side-out Left Panel container */
+.a11y-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 350px;
+  height: 100vh;
+  background: rgba(18, 24, 38, 0.95);
+  backdrop-filter: blur(16px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.6);
+  z-index: 1001;
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
 }
 
 .a11y-panel.open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0) scale(1);
+  transform: translateX(0);
 }
 
 .a11y-panel-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1.25rem;
-  background: var(--secondary);
-  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(13, 20, 32, 0.6);
+}
+
+.header-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.header-icon {
+  color: var(--brand-gold, #cca43b);
 }
 
 .a11y-panel-header h3 {
   margin: 0;
   font-size: 1.125rem;
-  color: var(--foreground);
+  font-weight: 700;
+  color: #fff;
 }
 
-#a11y-close {
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.reset-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
   background: none;
-  border: none;
-  font-size: 1.5rem;
-  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--muted-foreground);
   cursor: pointer;
+  transition: all 0.15s;
 }
 
+.reset-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--muted-foreground);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  transition: all 0.15s;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+/* Scrollable Panel Body */
 .a11y-panel-body {
-  padding: 1.25rem;
+  padding: 1.5rem;
+  flex: 1;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.a11y-option-group h4 {
-  margin: 0 0 0.75rem 0;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted-foreground);
+.separator {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin-block: 0.25rem;
 }
 
+.a11y-option-group h4 {
+  margin: 0 0 1rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brand-gold, #cca43b);
+}
+
+/* Theme Options Layout */
 .theme-toggles {
   display: flex;
   flex-direction: column;
@@ -169,24 +683,172 @@ import { Accessibility, Moon, Sun, Monitor } from 'lucide-astro';
   align-items: center;
   gap: 0.75rem;
   width: 100%;
-  padding: 0.75rem 1rem;
+  padding: 0.625rem 0.875rem;
   border-radius: 0.5rem;
-  background: var(--background);
-  border: 1px solid var(--border);
-  color: var(--foreground);
-  font-size: 0.9375rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.15s;
 }
 
 .theme-btn:hover {
-  background: var(--secondary);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .theme-btn.active {
-  background: var(--brand-gold);
-  color: var(--brand-navy);
-  border-color: var(--brand-gold);
+  background: rgba(204, 164, 59, 0.15);
+  color: var(--brand-gold, #cca43b);
+  border-color: var(--brand-gold, #cca43b);
+}
+
+/* Tools List Layout */
+.a11y-tools-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.a11y-tool-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.a11y-tool-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.toggle-item {
+  cursor: pointer;
+}
+
+.tool-info {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  flex: 1;
+}
+
+.tool-icon {
+  color: var(--muted-foreground);
+  flex-shrink: 0;
+}
+
+.a11y-tool-item:hover .tool-icon {
+  color: var(--brand-gold, #cca43b);
+}
+
+.tool-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.tool-desc {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+/* Font Size Controls Styling */
+.size-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.375rem;
+  padding: 0.1875rem;
+}
+
+.size-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  transition: background 0.15s;
+}
+
+.size-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.size-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--brand-gold, #cca43b);
+  min-width: 2.25rem;
+  text-align: center;
+}
+
+/* Premium Switch Toggles Styling */
+.switch-container {
+  position: relative;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+}
+
+.a11y-switch {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: .2s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.125rem;
+  width: 1.125rem;
+  left: 0.125rem;
+  bottom: 0.125rem;
+  background-color: #fff;
+  transition: .2s;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.a11y-switch:checked + .slider {
+  background-color: var(--brand-gold, #cca43b);
+}
+
+.a11y-switch:checked + .slider:before {
+  transform: translateX(1.125rem);
 }
 </style>
