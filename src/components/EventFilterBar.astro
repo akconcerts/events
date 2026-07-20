@@ -1,11 +1,18 @@
 ---
 import { Calendar, MapPin, Building, Shapes } from 'lucide-astro';
-import { events } from '../data/events';
+import type { events as eventsType } from '../data/events';
 
-const cities = [...new Set(events.map(e => e.city))].sort();
-const dates = [...new Set(events.map(e => e.date))].sort();
-const venues = [...new Set(events.map(e => e.venue))].sort();
-const categories = [...new Set(events.map(e => e.category))].sort();
+interface Props {
+  events: typeof eventsType;
+  showTimelineFilter?: boolean;
+}
+
+const { events: propEvents, showTimelineFilter = true } = Astro.props;
+
+const cities = [...new Set(propEvents.map(e => e.city))].sort();
+const dates = [...new Set(propEvents.map(e => e.date))].sort();
+const venues = [...new Set(propEvents.map(e => e.venue))].sort();
+const categories = [...new Set(propEvents.map(e => e.category))].sort();
 ---
 
 <div class="filter-controls-wrapper container">
@@ -41,6 +48,27 @@ const categories = [...new Set(events.map(e => e.category))].sort();
         {categories.map(c => <option value={c}>{c}</option>)}
       </select>
     </div>
+
+    <!-- Conditional Timeline Selector (Upcoming/Past/All) -->
+    {showTimelineFilter && (
+      <div class="filter-group">
+        <label for="filter-timeline">Timeline</label>
+        <select id="filter-timeline">
+          <option value="upcoming">Upcoming</option>
+          <option value="past">Past History</option>
+          <option value="all">All Events</option>
+        </select>
+      </div>
+    )}
+
+    <!-- Sort Order Selector -->
+    <div class="filter-group">
+      <label for="filter-sort">Sort Order</label>
+      <select id="filter-sort">
+        <option value="asc">Oldest First</option>
+        <option value="desc">Newest First</option>
+      </select>
+    </div>
   </div>
 
   <div class="view-toggles">
@@ -52,11 +80,25 @@ const categories = [...new Set(events.map(e => e.category))].sort();
 </div>
 
 <script>
+  // Helper to format date in local YYYY-MM-DD
+  const getLocalDateString = () => {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  };
+
+  const todayStr = getLocalDateString();
+
   function applyFilters() {
     const city = (document.getElementById('filter-city') as HTMLSelectElement).value;
     const date = (document.getElementById('filter-date') as HTMLSelectElement).value;
     const venue = (document.getElementById('filter-venue') as HTMLSelectElement).value;
     const category = (document.getElementById('filter-category') as HTMLSelectElement).value;
+    
+    const timelineEl = document.getElementById('filter-timeline') as HTMLSelectElement | null;
+    const timeline = timelineEl ? timelineEl.value : 'all';
 
     const eventRows = document.querySelectorAll('.event-row');
     const groupBlocks = document.querySelectorAll('.group-block');
@@ -68,7 +110,16 @@ const categories = [...new Set(events.map(e => e.category))].sort();
       const matchVenue = venue === 'all' || el.dataset.venue === venue;
       const matchCategory = category === 'all' || el.dataset.category === category;
 
-      if (matchCity && matchDate && matchVenue && matchCategory) {
+      // Timeline Filter
+      const eventDate = el.dataset.date || '';
+      let matchTimeline = true;
+      if (timeline === 'upcoming') {
+        matchTimeline = eventDate >= todayStr;
+      } else if (timeline === 'past') {
+        matchTimeline = eventDate < todayStr;
+      }
+
+      if (matchCity && matchDate && matchVenue && matchCategory && matchTimeline) {
         el.style.display = 'flex';
       } else {
         el.style.display = 'none';
@@ -87,10 +138,42 @@ const categories = [...new Set(events.map(e => e.category))].sort();
     });
   }
 
+  function applySorting() {
+    const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement | null;
+    const sortOrder = sortSelect ? sortSelect.value : 'asc';
+    const eventLists = document.querySelectorAll('.event-list');
+
+    eventLists.forEach(list => {
+      const rows = Array.from(list.querySelectorAll('.event-row')) as HTMLElement[];
+      rows.sort((a, b) => {
+        const dateA = a.dataset.date || '';
+        const dateB = b.dataset.date || '';
+        const dateCompare = dateA.localeCompare(dateB);
+        if (dateCompare !== 0) {
+          return sortOrder === 'asc' ? dateCompare : -dateCompare;
+        }
+
+        // If dates are equal, sort by time (e.g. 7p-10p)
+        const timeA = a.querySelector('.event-row-time')?.textContent?.trim() || '';
+        const timeB = b.querySelector('.event-row-time')?.textContent?.trim() || '';
+        return sortOrder === 'asc' ? timeA.localeCompare(timeB) : -timeA.localeCompare(timeB);
+      });
+
+      // Re-append sorted rows to container
+      rows.forEach(row => list.appendChild(row));
+    });
+  }
+
   document.getElementById('filter-city')?.addEventListener('change', applyFilters);
   document.getElementById('filter-date')?.addEventListener('change', applyFilters);
   document.getElementById('filter-venue')?.addEventListener('change', applyFilters);
   document.getElementById('filter-category')?.addEventListener('change', applyFilters);
+  
+  document.getElementById('filter-timeline')?.addEventListener('change', () => {
+    applyFilters();
+    applySorting();
+  });
+  document.getElementById('filter-sort')?.addEventListener('change', applySorting);
 
   // View Mode Toggles
   const toggles = document.querySelectorAll('.view-toggle');
@@ -108,10 +191,27 @@ const categories = [...new Set(events.map(e => e.category))].sort();
       if (activeContainer) {
         activeContainer.style.display = 'block';
       }
-      // Re-apply filters to ensure visibility is correct in the newly shown container
+      // Re-apply filters and sorting to ensure visibility and ordering is correct
       applyFilters();
+      applySorting();
     });
   });
+
+  // On page load: initialize filter state
+  const init = () => {
+    const timelineSelect = document.getElementById('filter-timeline') as HTMLSelectElement | null;
+    if (timelineSelect) {
+      timelineSelect.value = 'upcoming';
+    }
+    applyFilters();
+    applySorting();
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 </script>
 
 <style>
@@ -145,7 +245,7 @@ const categories = [...new Set(events.map(e => e.category))].sort();
   flex-direction: column;
   gap: .25rem;
   flex: 1;
-  min-width: 150px;
+  min-width: 140px;
 }
 .filter-group label {
   font-size: .75rem;
