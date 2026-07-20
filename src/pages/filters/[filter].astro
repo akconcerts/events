@@ -3,8 +3,9 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import EventJsonLd from '../../components/EventJsonLd.astro';
+import EventFilterBar from '../../components/EventFilterBar.astro';
 import { events } from '../../data/events';
-import { Music, Smile, PartyPopper, Theater, Users, Tent, Sparkles, Flame, Calendar, Ticket, Snowflake } from 'lucide-astro';
+import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
 export function getStaticPaths() {
   const isWeekend = (e: any) => ['2026-05-09', '2026-05-10', '2026-05-11'].includes(e.date);
@@ -22,20 +23,48 @@ export function getStaticPaths() {
 
 const { name, description, filterFn } = Astro.props;
 
-// For Touring AK and Winter Series, since we don't have perfect flags, we just apply generic rules.
-let filteredEvents = events.filter(filterFn).sort((a, b) => b.date.localeCompare(a.date));
+let filteredEvents = events.filter(filterFn);
 
 // Fallbacks if lists are empty (e.g. Winter Series)
 if (name === 'Touring AK' && filteredEvents.length > 5) {
-  filteredEvents = filteredEvents.slice(0, 5); // Just an example subset
+  filteredEvents = filteredEvents.slice(0, 5);
 }
 if (name === 'Winter Series' && filteredEvents.length === 0) {
-  // Just show some upcoming events to not look broken
   filteredEvents = events.slice(0, 6);
 }
 if (name === 'Free Events' && filteredEvents.length === 0) {
   filteredEvents = events.filter(e => e.category === 'community');
 }
+
+const sortedEvents = [...filteredEvents].sort((a, b) => {
+  const d = b.date.localeCompare(a.date);
+  if (d !== 0) return d;
+  return b.time.localeCompare(a.time);
+});
+
+// Group by City
+const eventsByCity: Record<string, typeof events> = {};
+for (const e of sortedEvents) {
+  if (!eventsByCity[e.city]) eventsByCity[e.city] = [];
+  eventsByCity[e.city].push(e);
+}
+const sortedCities = Object.keys(eventsByCity).sort();
+
+// Group by Venue
+const eventsByVenue: Record<string, typeof events> = {};
+for (const e of sortedEvents) {
+  if (!eventsByVenue[e.venue]) eventsByVenue[e.venue] = [];
+  eventsByVenue[e.venue].push(e);
+}
+const sortedVenues = Object.keys(eventsByVenue).sort();
+
+// Group by Category
+const eventsByCategory: Record<string, typeof events> = {};
+for (const e of sortedEvents) {
+  if (!eventsByCategory[e.category]) eventsByCategory[e.category] = [];
+  eventsByCategory[e.category].push(e);
+}
+const sortedCategories = Object.keys(eventsByCategory).sort();
 
 const categoryIcons: Record<string, any> = {
   music: Music,
@@ -45,61 +74,182 @@ const categoryIcons: Record<string, any> = {
   community: Users,
   festival: Tent,
 };
+
+const formatCategoryName = (cat: string) => {
+  const names: Record<string, string> = {
+    music: "Live Music",
+    comedy: "Comedy",
+    dance: "Dance",
+    theatre: "Theatre & Arts",
+    community: "Community",
+    festival: "Festivals"
+  };
+  return names[cat] || cat;
+};
 ---
 
 <Layout title={`${name} — AK Concerts`} description={description}>
-  <EventJsonLd events={filteredEvents} />
+  <EventJsonLd events={sortedEvents} />
   <SiteHeader />
   <main class="filter-page container">
     <div class="filter-header">
       <p class="filter-eyebrow">Quick Filter</p>
       <h1 class="filter-title font-display">{name}</h1>
-      <p class="filter-sub">{filteredEvents.length} event{filteredEvents.length !== 1 ? 's' : ''} matching this category.</p>
+      <p class="filter-sub">{sortedEvents.length} event{sortedEvents.length !== 1 ? 's' : ''} matching this category.</p>
     </div>
 
-    <div class="event-list">
-      {filteredEvents.length > 0 ? filteredEvents.map(e => {
-        const Icon = categoryIcons[e.category] || Music;
-        return (
-          <a href={`/events/${e.slug}`} class="event-row">
-            <span class="event-row-icon"><Icon size={14} /></span>
-            <span class="event-row-date">{e.date}</span>
-            <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
-            <span class="event-row-sep">—</span>
-            <span class="event-row-title">{e.title}</span>
-            <span class="event-row-city">{e.city}</span>
-            <span class="event-row-time">{e.time}</span>
-          </a>
-        );
-      }) : (
-        <p class="no-events">No events found for this filter.</p>
-      )}
+    <EventFilterBar events={sortedEvents} showTimelineFilter={false} />
+
+    <!-- View: Date (Flat List) -->
+    <div id="view-date" class="events-view-container" style="display: block;">
+      <div class="group-block">
+        <div class="event-list">
+          {sortedEvents.length > 0 ? sortedEvents.map(e => {
+            const Icon = categoryIcons[e.category] || Music;
+            return (
+              <a 
+                href={`/events/${e.slug}`} 
+                class="event-row"
+                data-city={e.city}
+                data-date={e.date}
+                data-venue={e.venue}
+                data-category={e.category}
+              >
+                <span class="event-row-icon"><Icon size={14} /></span>
+                <span class="event-row-date">{e.date}</span>
+                <span class="event-row-city-pill">{e.city}</span>
+                <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                <span class="event-row-sep">—</span>
+                <span class="event-row-title">{e.title}</span>
+                <span class="event-row-time">{e.time}</span>
+              </a>
+            );
+          }) : (
+            <p class="no-events">No events found for this filter.</p>
+          )}
+        </div>
+      </div>
     </div>
+
+    <!-- View: City -->
+    <div id="view-city" class="events-view-container" style="display: none;">
+      {sortedCities.map(city => (
+        <div class="city-block group-block">
+          <h3 class="city-name font-display">{city}</h3>
+          <div class="event-list">
+            {eventsByCity[city].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- View: Venue -->
+    <div id="view-venue" class="events-view-container" style="display: none;">
+      {sortedVenues.map(venue => (
+        <div class="venue-block group-block">
+          <h3 class="city-name font-display event-row-venue" data-city={eventsByVenue[venue][0].city} style="display:inline-block;">{venue}</h3> <span style="font-size: 1rem; color: var(--muted-foreground); margin-left: .5rem; font-family: var(--font-sans); font-weight: 500;">{eventsByVenue[venue][0].city}</span>
+          <div class="event-list">
+            {eventsByVenue[venue].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- View: Category -->
+    <div id="view-category" class="events-view-container" style="display: none;">
+      {sortedCategories.map(cat => (
+        <div class="category-block group-block">
+          <h3 class="city-name font-display">{formatCategoryName(cat)}</h3>
+          <div class="event-list">
+            {eventsByCategory[cat].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-city-pill">{e.city}</span>
+                  <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
   </main>
   <SiteFooter />
 </Layout>
 
 <style>
-.filter-page { padding-block: 3.5rem 4rem; }
-.filter-header { margin-bottom: 2.5rem; }
-.filter-eyebrow { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; color: var(--brand-gold); margin-bottom: .5rem; }
-.filter-title { font-size: 2.5rem; font-weight: 700; letter-spacing: -.03em; }
-@media (min-width: 640px) { .filter-title { font-size: 3.5rem; } }
-.filter-sub { margin-top: .5rem; color: var(--muted-foreground); }
-
-.event-list { display: flex; flex-direction: column; gap: .25rem; }
-.event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; }
-.event-row:hover { background: var(--card); }
-.event-row-icon { font-size: .875rem; flex-shrink: 0; }
-.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 5.5rem; flex-shrink: 0; }
-.event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
-.event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
-.event-row-title { font-weight: 600; flex: 1; min-width: 0; }
-.event-row-city { font-size: .75rem; font-weight: 500; color: var(--brand-gold-light); margin-left: auto; margin-right: 1rem; }
-.event-row-time { font-size: .75rem; color: var(--muted-foreground); flex-shrink: 0; }
-@media (max-width: 639px) {
-  .event-row { font-size: .8125rem; gap: .375rem; }
-  .event-row-venue, .event-row-sep, .event-row-city { display: none; }
+.filter-page{padding-block:3.5rem 4rem}
+.filter-header{margin-bottom:2.5rem}
+.filter-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
+.filter-title{font-size:2.5rem;font-weight:700;letter-spacing: -.03em}
+@media(min-width:640px){.filter-title{font-size:3.5rem}}
+.filter-sub{margin-top:.5rem;color:var(--muted-foreground)}
+.city-block{margin-bottom:2.5rem}
+.city-name{font-size:1.25rem;font-weight:700;color:var(--brand-gold);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.event-list{display:flex;flex-direction:column;gap:.25rem}
+.event-row{display:flex;align-items:center;gap:.5rem;padding:.625rem .75rem;border-radius:.5rem;font-size:.875rem;transition:background .15s;flex-wrap:wrap}
+.event-row:hover{background:var(--card)}
+.event-row-icon{font-size:.875rem;flex-shrink:0}
+.event-row-date{font-size:.75rem;font-weight:600;color:var(--brand-gold);min-width:5.5rem;flex-shrink:0}
+.event-row-city-pill{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--secondary);border:1px solid var(--border);padding:.125rem .375rem;border-radius:.25rem;color:var(--muted-foreground);flex-shrink:0}
+.event-row-venue{color:var(--muted-foreground);flex-shrink:0}
+.event-row-sep{color:var(--muted-foreground);opacity:.4;flex-shrink:0}
+.event-row-title{font-weight:600;flex:1;min-width:0}
+.event-row-time{font-size:.75rem;color:var(--muted-foreground);flex-shrink:0;margin-left:auto}
+@media(max-width:639px){
+  .event-row{font-size:.8125rem;gap:.375rem}
+  .event-row-venue,.event-row-sep{display:none}
 }
-.no-events { color: var(--muted-foreground); font-style: italic; }
+.no-events{color:var(--muted-foreground);font-style:italic}
 </style>

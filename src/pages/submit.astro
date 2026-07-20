@@ -1,0 +1,284 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+const cities = [
+  "Anchorage", "Fairbanks", "Juneau", "Kenai", "Soldotna", "Homer", "Seward", 
+  "Palmer", "Wasilla", "Girdwood", "Talkeetna", "Chugiak", "Eagle River", "Valdez", "Sitka", "Ketchikan"
+].sort();
+
+const categories = ["music", "comedy", "dance", "theatre", "community", "festival"];
+---
+
+<Layout title="Submit Event — AK Concerts" description="Submit your live entertainment event to the Alaska Music & Concert directory.">
+  <SiteHeader />
+  <main class="submit-page container">
+    <div class="submit-header">
+      <p class="submit-eyebrow">Promote your show</p>
+      <h1 class="submit-title font-display">Submit an Event</h1>
+      <p class="submit-sub">Fill out the details below to submit your event to our review queue. Once approved by the owner, it will go live instantly.</p>
+    </div>
+
+    <div class="form-container">
+      <div id="submit-success-alert" class="alert alert-success" style="display: none;">
+        <span class="alert-icon">✓</span>
+        <div class="alert-content">
+          <h4>Submission Successful!</h4>
+          <p>Thank you! Your event details have been logged in the pending approvals sheets. The owner will review and publish your listing soon.</p>
+        </div>
+      </div>
+
+      <div id="submit-error-alert" class="alert alert-error" style="display: none;">
+        <span class="alert-icon">✗</span>
+        <div class="alert-content">
+          <h4>Submission Failed</h4>
+          <p id="submit-error-message">Something went wrong. Please check your network connection and try again.</p>
+        </div>
+      </div>
+
+      <form id="event-submission-form" class="submit-form">
+        <div class="form-grid">
+          <div class="form-group full-width">
+            <label for="event-title">Event Title <span class="required">*</span></label>
+            <input type="text" id="event-title" name="title" required placeholder="e.g. Live Acoustic Sets w/ The Band" />
+          </div>
+
+          <div class="form-group">
+            <label for="event-date">Event Date <span class="required">*</span></label>
+            <input type="date" id="event-date" name="date" required />
+          </div>
+
+          <div class="form-group">
+            <label for="event-time">Start Time <span class="required">*</span></label>
+            <input type="text" id="event-time" name="time" required placeholder="e.g. 8p-11p" />
+          </div>
+
+          <div class="form-group">
+            <label for="event-city">City <span class="required">*</span></label>
+            <select id="event-city" name="city" required>
+              <option value="">Select a City</option>
+              {cities.map(city => <option value={city}>{city}</option>)}
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="event-venue">Venue <span class="required">*</span></label>
+            <input type="text" id="event-venue" name="venue" required placeholder="e.g. Koot's" />
+          </div>
+
+          <div class="form-group">
+            <label for="event-category">Category <span class="required">*</span></label>
+            <select id="event-category" name="category" required>
+              <option value="">Select a Category</option>
+              {categories.map(cat => <option value={cat}>{cat.charAt(0).toUpperCase() + cat.slice(1)}</option>)}
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="event-cost">Ticket Cost</label>
+            <input type="text" id="event-cost" name="cost" placeholder="e.g. $10, Free" />
+          </div>
+
+          <div class="form-group full-width">
+            <label for="event-ticketurl">Ticket URL / Event Link</label>
+            <input type="url" id="event-ticketurl" name="ticketUrl" placeholder="https://example.com/tickets" />
+          </div>
+
+          <div class="form-group full-width">
+            <label for="event-email">Your Email Address <span class="required">*</span></label>
+            <input type="email" id="event-email" name="email" required placeholder="For notification and approval queries" />
+          </div>
+        </div>
+
+        <button type="submit" id="submit-form-btn" class="form-submit-btn bg-gradient-gold">
+          Submit Event Details
+        </button>
+      </form>
+    </div>
+  </main>
+  <SiteFooter />
+</Layout>
+
+<script>
+  const FORM_URL = import.meta.env.PUBLIC_SUBMIT_FORM_URL || '';
+
+  const form = document.getElementById('event-submission-form') as HTMLFormElement;
+  const btn = document.getElementById('submit-form-btn') as HTMLButtonElement;
+  const successAlert = document.getElementById('submit-success-alert') as HTMLDivElement;
+  const errorAlert = document.getElementById('submit-error-alert') as HTMLDivElement;
+  const errorMessage = document.getElementById('submit-error-message') as HTMLParagraphElement;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    btn.disabled = true;
+    btn.textContent = 'Submitting event...';
+    successAlert.style.display = 'none';
+    errorAlert.style.display = 'none';
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    if (!FORM_URL) {
+      // Simulation mode if no public App Script URL configured
+      console.warn('PUBLIC_SUBMIT_FORM_URL environment variable is not configured. Running simulation submission.');
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = 'Submit Event Details';
+        successAlert.style.display = 'flex';
+        form.reset();
+        window.scrollTo({ top: successAlert.offsetTop - 100, behavior: 'smooth' });
+      }, 1500);
+      return;
+    }
+
+    try {
+      const response = await fetch(FORM_URL, {
+        method: 'POST',
+        mode: 'cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+      btn.disabled = false;
+      btn.textContent = 'Submit Event Details';
+
+      if (result.status === 'success') {
+        successAlert.style.display = 'flex';
+        form.reset();
+        window.scrollTo({ top: successAlert.offsetTop - 100, behavior: 'smooth' });
+      } else {
+        errorMessage.textContent = result.message || 'Error occurred during submission to Google Sheets.';
+        errorAlert.style.display = 'flex';
+      }
+    } catch (err: any) {
+      btn.disabled = false;
+      btn.textContent = 'Submit Event Details';
+      errorMessage.textContent = err.message || 'Failed to connect to the Google Apps Script Web App.';
+      errorAlert.style.display = 'flex';
+      console.error('Submission error:', err);
+    }
+  });
+</script>
+
+<style>
+.submit-page { padding-block: 3.5rem 4rem; }
+.submit-header { margin-bottom: 2.5rem; text-align: center; }
+.submit-eyebrow { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; color: var(--brand-gold); margin-bottom: .5rem; }
+.submit-title { font-size: 2.5rem; font-weight: 700; letter-spacing: -.03em; }
+@media (min-width: 640px) { .submit-title { font-size: 3.5rem; } }
+.submit-sub { margin-top: .5rem; color: var(--muted-foreground); max-width: 32rem; margin-inline: auto; }
+
+.form-container {
+  max-width: 40rem;
+  margin-inline: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 40px -15px rgba(0,0,0,0.2);
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .375rem;
+}
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 600;
+  color: var(--muted-foreground);
+}
+.required {
+  color: #ef4444;
+}
+
+.form-group input, .form-group select {
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  padding: .75rem;
+  border-radius: .375rem;
+  font-size: .875rem;
+  outline: none;
+  transition: border-color .15s;
+}
+.form-group input:focus, .form-group select:focus {
+  border-color: var(--brand-gold);
+}
+
+.form-submit-btn {
+  margin-top: 1rem;
+  border-radius: .375rem;
+  padding: 1rem;
+  font-weight: 700;
+  color: var(--neon-foreground);
+  text-align: center;
+  transition: opacity .2s;
+  box-shadow: 0 8px 30px -10px var(--brand-gold);
+}
+.form-submit-btn:hover:not(:disabled) {
+  opacity: .95;
+}
+.form-submit-btn:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+/* Alert Styling */
+.alert {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+.alert-icon {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.alert-content h4 {
+  font-weight: 700;
+  margin-bottom: .25rem;
+}
+.alert-success {
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+.alert-error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+</style>

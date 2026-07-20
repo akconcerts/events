@@ -4,6 +4,7 @@ import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { events, getEventsByCity } from '../../data/events';
 import EventJsonLd from '../../components/EventJsonLd.astro';
+import EventFilterBar from '../../components/EventFilterBar.astro';
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
 export function getStaticPaths() {
@@ -31,6 +32,30 @@ export function getStaticPaths() {
 
 const { city, cityEvents } = Astro.props;
 
+// Group by City
+const eventsByCity: Record<string, typeof events> = {};
+for (const e of cityEvents) {
+  if (!eventsByCity[e.city]) eventsByCity[e.city] = [];
+  eventsByCity[e.city].push(e);
+}
+const sortedCities = Object.keys(eventsByCity).sort();
+
+// Group by Venue
+const eventsByVenue: Record<string, typeof events> = {};
+for (const e of cityEvents) {
+  if (!eventsByVenue[e.venue]) eventsByVenue[e.venue] = [];
+  eventsByVenue[e.venue].push(e);
+}
+const sortedVenues = Object.keys(eventsByVenue).sort();
+
+// Group by Category
+const eventsByCategory: Record<string, typeof events> = {};
+for (const e of cityEvents) {
+  if (!eventsByCategory[e.category]) eventsByCategory[e.category] = [];
+  eventsByCategory[e.category].push(e);
+}
+const sortedCategories = Object.keys(eventsByCategory).sort();
+
 const categoryIcons: Record<string, any> = {
   music: Music,
   comedy: Smile,
@@ -38,6 +63,18 @@ const categoryIcons: Record<string, any> = {
   theatre: Theater,
   community: Users,
   festival: Tent,
+};
+
+const formatCategoryName = (cat: string) => {
+  const names: Record<string, string> = {
+    music: "Live Music",
+    comedy: "Comedy",
+    dance: "Dance",
+    theatre: "Theatre & Arts",
+    community: "Community",
+    festival: "Festivals"
+  };
+  return names[cat] || cat;
 };
 ---
 
@@ -51,44 +88,155 @@ const categoryIcons: Record<string, any> = {
       <p class="city-sub">{cityEvents.length} event{cityEvents.length !== 1 ? 's' : ''} upcoming in {city}.</p>
     </div>
 
-    <div class="event-list">
-      {cityEvents.map(e => {
-        const Icon = categoryIcons[e.category] || Music;
-        return (
-          <a href={`/events/${e.slug}`} class="event-row">
-            <span class="event-row-icon"><Icon size={14} /></span>
-            <span class="event-row-date">{e.date}</span>
-            <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
-            <span class="event-row-sep">—</span>
-            <span class="event-row-title">{e.title}</span>
-            <span class="event-row-time">{e.time}</span>
-          </a>
-        );
-      })}
+    <EventFilterBar events={cityEvents} showTimelineFilter={false} />
+
+    <!-- View: Date (Flat List) -->
+    <div id="view-date" class="events-view-container" style="display: block;">
+      <div class="group-block">
+        <div class="event-list">
+          {cityEvents.map(e => {
+            const Icon = categoryIcons[e.category] || Music;
+            return (
+              <a 
+                href={`/events/${e.slug}`} 
+                class="event-row"
+                data-city={e.city}
+                data-date={e.date}
+                data-venue={e.venue}
+                data-category={e.category}
+              >
+                <span class="event-row-icon"><Icon size={14} /></span>
+                <span class="event-row-date">{e.date}</span>
+                <span class="event-row-city-pill">{e.city}</span>
+                <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                <span class="event-row-sep">—</span>
+                <span class="event-row-title">{e.title}</span>
+                <span class="event-row-time">{e.time}</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
     </div>
+
+    <!-- View: City -->
+    <div id="view-city" class="events-view-container" style="display: none;">
+      {sortedCities.map(c => (
+        <div class="city-block group-block">
+          <h3 class="city-name font-display">{c}</h3>
+          <div class="event-list">
+            {eventsByCity[c].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- View: Venue -->
+    <div id="view-venue" class="events-view-container" style="display: none;">
+      {sortedVenues.map(venue => (
+        <div class="venue-block group-block">
+          <h3 class="city-name font-display event-row-venue" data-city={eventsByVenue[venue][0].city} style="display:inline-block;">{venue}</h3> <span style="font-size: 1rem; color: var(--muted-foreground); margin-left: .5rem; font-family: var(--font-sans); font-weight: 500;">{eventsByVenue[venue][0].city}</span>
+          <div class="event-list">
+            {eventsByVenue[venue].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- View: Category -->
+    <div id="view-category" class="events-view-container" style="display: none;">
+      {sortedCategories.map(cat => (
+        <div class="category-block group-block">
+          <h3 class="city-name font-display">{formatCategoryName(cat)}</h3>
+          <div class="event-list">
+            {eventsByCategory[cat].map(e => {
+              const Icon = categoryIcons[e.category] || Music;
+              return (
+                <a 
+                  href={`/events/${e.slug}`} 
+                  class="event-row"
+                  data-city={e.city}
+                  data-date={e.date}
+                  data-venue={e.venue}
+                  data-category={e.category}
+                >
+                  <span class="event-row-icon"><Icon size={14} /></span>
+                  <span class="event-row-date">{e.date}</span>
+                  <span class="event-row-city-pill">{e.city}</span>
+                  <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                  <span class="event-row-sep">—</span>
+                  <span class="event-row-title">{e.title}</span>
+                  <span class="event-row-time">{e.time}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
   </main>
   <SiteFooter />
 </Layout>
 
 <style>
-.city-page { padding-block: 3.5rem 4rem; }
-.city-header { margin-bottom: 2.5rem; }
-.city-eyebrow { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; color: var(--brand-gold); margin-bottom: .5rem; }
-.city-title { font-size: 2.5rem; font-weight: 700; letter-spacing: -.03em; }
-@media (min-width: 640px) { .city-title { font-size: 3.5rem; } }
-.city-sub { margin-top: .5rem; color: var(--muted-foreground); }
-
-.event-list { display: flex; flex-direction: column; gap: .25rem; }
-.event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; }
-.event-row:hover { background: var(--card); }
-.event-row-icon { font-size: .875rem; flex-shrink: 0; }
-.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 5.5rem; flex-shrink: 0; }
-.event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
-.event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
-.event-row-title { font-weight: 600; flex: 1; min-width: 0; }
-.event-row-time { font-size: .75rem; color: var(--muted-foreground); flex-shrink: 0; margin-left: auto; }
-@media (max-width: 639px) {
-  .event-row { font-size: .8125rem; gap: .375rem; }
-  .event-row-venue, .event-row-sep { display: none; }
+.city-page{padding-block:3.5rem 4rem}
+.city-header{margin-bottom:2.5rem}
+.city-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
+.city-title{font-size:2.5rem;font-weight:700;letter-spacing: -.03em}
+@media(min-width:640px){.city-title{font-size:3.5rem}}
+.city-sub{margin-top:.5rem;color:var(--muted-foreground)}
+.city-block{margin-bottom:2.5rem}
+.city-name{font-size:1.25rem;font-weight:700;color:var(--brand-gold);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.event-list{display:flex;flex-direction:column;gap:.25rem}
+.event-row{display:flex;align-items:center;gap:.5rem;padding:.625rem .75rem;border-radius:.5rem;font-size:.875rem;transition:background .15s;flex-wrap:wrap}
+.event-row:hover{background:var(--card)}
+.event-row-icon{font-size:.875rem;flex-shrink:0}
+.event-row-date{font-size:.75rem;font-weight:600;color:var(--brand-gold);min-width:5.5rem;flex-shrink:0}
+.event-row-city-pill{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--secondary);border:1px solid var(--border);padding:.125rem .375rem;border-radius:.25rem;color:var(--muted-foreground);flex-shrink:0}
+.event-row-venue{color:var(--muted-foreground);flex-shrink:0}
+.event-row-sep{color:var(--muted-foreground);opacity:.4;flex-shrink:0}
+.event-row-title{font-weight:600;flex:1;min-width:0}
+.event-row-time{font-size:.75rem;color:var(--muted-foreground);flex-shrink:0;margin-left:auto}
+@media(max-width:639px){
+  .event-row{font-size:.8125rem;gap:.375rem}
+  .event-row-venue,.event-row-sep{display:none}
 }
 </style>
