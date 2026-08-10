@@ -1,0 +1,298 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import instructorsData from '../../data/instructors.json';
+import { Mail, Globe, MapPin, CheckCircle, ArrowLeft, GraduationCap, Award, BookOpen } from 'lucide-astro';
+
+export async function getStaticPaths() {
+  return instructorsData.map((instructor) => ({
+    params: { slug: instructor.slug },
+    props: { instructor }
+  }));
+}
+
+const { instructor } = Astro.props;
+---
+
+<Layout 
+  title={`${instructor.name} — Music Lessons in ${instructor.city}, Alaska | AK Concerts`}
+  description={`Learn ${instructor.instruments.slice(0, 3).join(', ')} in ${instructor.city}, AK with ${instructor.name}. View bio, lesson breakdown, and contact info.`}
+>
+  <SiteHeader />
+  <main class="instructor-page container">
+    
+    <!-- Back Navigation Link -->
+    <a href="/learn" class="back-link">
+      <ArrowLeft class="icon-xs" /> Back to All Music Teachers
+    </a>
+
+    <!-- Instructor Hero Header -->
+    <div class="instructor-hero">
+      <div class="hero-left">
+        <div class="instructor-avatar-lg">
+          {instructor.name.charAt(0)}
+        </div>
+        <div class="hero-info">
+          <span class="location-badge"><MapPin class="icon-xs inline-icon" /> {instructor.city}, Alaska</span>
+          <h1 class="instructor-title font-display">{instructor.name}</h1>
+          <p class="instructor-subtitle">{instructor.experience}</p>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        {instructor.email && (
+          <a href={`mailto:${instructor.email}`} class="action-btn email-btn">
+            <Mail class="icon-sm" /> Contact via Email
+          </a>
+        )}
+        {instructor.website && (
+          <a href={instructor.website} target="_blank" rel="noopener noreferrer" class="action-btn website-btn">
+            <Globe class="icon-sm" /> Visit Official Website &rarr;
+          </a>
+        )}
+      </div>
+    </div>
+
+    <div class="instructor-content-grid">
+      
+      <!-- Main Bio & Details Column -->
+      <div class="main-column">
+        
+        <!-- Biography Card -->
+        <div class="info-card">
+          <h2 class="card-heading"><BookOpen class="icon-sm icon-gold" /> About the Instructor</h2>
+          <p class="bio-text">{instructor.bio}</p>
+        </div>
+
+        <!-- Lessons Offered Card -->
+        <div class="info-card">
+          <h2 class="card-heading"><GraduationCap class="icon-sm icon-gold" /> Instruments & Subjects Taught</h2>
+          <div class="instruments-grid">
+            {instructor.instruments.map(inst => (
+              <div class="instrument-tag">
+                <CheckCircle class="icon-xs text-gold" />
+                <span>{inst}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Column -->
+      <aside class="sidebar-column">
+        
+        <!-- Contact & Booking Card -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-heading">Lesson Info & Contact</h3>
+          
+          <div class="sidebar-info-row">
+            <span class="info-label">Status</span>
+            <span class="info-value status-badge">
+              <CheckCircle class="icon-xs text-green" /> Accepting New Students
+            </span>
+          </div>
+
+          <div class="sidebar-info-row">
+            <span class="info-label">Location</span>
+            <span class="info-value">{instructor.city}, AK</span>
+          </div>
+
+          <div class="sidebar-info-row">
+            <span class="info-label">Rates</span>
+            <span class="info-value">{instructor.rates}</span>
+          </div>
+
+          {instructor.email && (
+            <div class="sidebar-info-row full">
+              <span class="info-label">Direct Email</span>
+              <a href={`mailto:${instructor.email}`} class="info-link">{instructor.email}</a>
+            </div>
+          )}
+
+          {instructor.website && (
+            <div class="sidebar-info-row full">
+              <span class="info-label">Website</span>
+              <a href={instructor.website} target="_blank" rel="noopener noreferrer" class="info-link">{instructor.website}</a>
+            </div>
+          )}
+
+          <a href={`mailto:${instructor.email}?subject=Music Lesson Inquiry via AK Concerts`} class="book-now-btn bg-gradient-gold">
+            Inquire About Lessons &rarr;
+          </a>
+        </div>
+
+        <!-- Directory Help Card -->
+        <div class="sidebar-card secondary">
+          <h4>Are you this instructor?</h4>
+          <p>Contact AK Concerts to update your lesson offerings, bio, or contact information at any time!</p>
+          <a href="/submit" class="sidebar-link">Submit Correction &rarr;</a>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.instructor-page { padding-block: 3rem 5rem; }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  transition: color .2s;
+}
+.back-link:hover { color: var(--brand-gold); }
+
+/* Instructor Hero Header */
+.instructor-hero {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 15px 35px -10px rgba(0,0,0,0.3);
+}
+@media (min-width: 768px) {
+  .instructor-hero { flex-direction: row; align-items: center; justify-content: space-between; }
+}
+
+.hero-left { display: flex; align-items: center; gap: 1.5rem; }
+.instructor-avatar-lg {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, var(--brand-gold), #d97706);
+  color: var(--brand-navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2rem;
+  flex-shrink: 0;
+  box-shadow: 0 8px 20px -5px var(--brand-gold);
+}
+.location-badge { font-size: .8rem; font-weight: 700; color: var(--brand-gold); text-transform: uppercase; letter-spacing: .05em; display: inline-flex; align-items: center; gap: .25rem; margin-bottom: .25rem; }
+.inline-icon { width: 14px; height: 14px; }
+.instructor-title { font-size: 2.25rem; font-weight: 800; margin: 0 0 .25rem; color: #f8fafc; }
+.instructor-subtitle { color: var(--muted-foreground); font-size: .95rem; margin: 0; }
+
+.hero-right { display: flex; flex-direction: column; gap: .75rem; width: 100%; }
+@media (min-width: 640px) { .hero-right { flex-direction: row; width: auto; } }
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .75rem 1.25rem;
+  border-radius: 9999px;
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+.email-btn { background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; }
+.website-btn { background: var(--brand-gold); color: var(--brand-navy); }
+.action-btn:hover { opacity: .9; }
+
+/* Grid Layout */
+.instructor-content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 1024px) {
+  .instructor-content-grid { grid-template-columns: 2fr 1fr; }
+}
+
+.main-column { display: flex; flex-direction: column; gap: 2rem; }
+
+.info-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+.card-heading {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.icon-gold { color: var(--brand-gold); }
+
+.bio-text { font-size: 1.05rem; color: #cbd5e1; line-height: 1.75; margin: 0; }
+
+.instruments-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .85rem; }
+@media (min-width: 640px) { .instruments-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.instrument-tag {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid var(--border);
+  border-radius: .6rem;
+  padding: .75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+  color: #f8fafc;
+}
+.text-gold { color: var(--brand-gold); }
+.text-green { color: #22c55e; }
+
+/* Sidebar */
+.sidebar-column { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.sidebar-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+}
+.sidebar-heading { font-size: 1.2rem; font-weight: 800; color: #f8fafc; margin-bottom: 1.25rem; border-bottom: 1px solid var(--border); padding-bottom: .75rem; }
+
+.sidebar-info-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; font-size: .875rem; }
+.sidebar-info-row.full { flex-direction: column; align-items: flex-start; gap: .2rem; }
+.info-label { color: var(--muted-foreground); text-transform: uppercase; font-size: .75rem; font-weight: 700; letter-spacing: .05em; }
+.info-value { color: #f8fafc; font-weight: 600; }
+.status-badge { display: inline-flex; align-items: center; gap: .3rem; color: #22c55e; background: rgba(34, 197, 94, 0.1); padding: .2rem .5rem; border-radius: 9999px; font-size: .75rem; }
+
+.info-link { color: var(--brand-gold); font-weight: 600; text-decoration: none; word-break: break-all; }
+.info-link:hover { text-decoration: underline; }
+
+.book-now-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: .9rem 1rem;
+  border-radius: .5rem;
+  font-weight: 800;
+  color: var(--neon-foreground);
+  text-decoration: none;
+  margin-top: 1.5rem;
+  box-shadow: 0 8px 20px -5px var(--brand-gold);
+}
+
+.sidebar-card.secondary { background: rgba(30, 41, 59, 0.4); }
+.sidebar-card.secondary h4 { font-size: 1rem; font-weight: 700; color: #f8fafc; margin-bottom: .4rem; }
+.sidebar-card.secondary p { font-size: .85rem; color: var(--muted-foreground); line-height: 1.5; margin-bottom: 1rem; }
+.sidebar-link { font-size: .85rem; font-weight: 700; color: var(--brand-gold); text-decoration: none; }
+</style>

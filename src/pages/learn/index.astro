@@ -1,0 +1,263 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import instructorsData from '../../data/instructors.json';
+import { GraduationCap, Music, Video, Mail, Globe, MapPin, Search } from 'lucide-astro';
+
+const videoPlaylists = [
+  { name: "Ableton Live", url: "https://www.youtube.com/playlist?list=PLa9ASr8n5idArGa1uaBExM-lI-nO1P959", icon: "🎛️" },
+  { name: "Acoustic Guitar", url: "https://www.youtube.com/playlist?list=PLa9ASr8n5idArGa1uaBExM-lI-nO1P959", icon: "🎸" },
+  { name: "Banjo", url: "https://www.youtube.com/playlist?list=PLimF2H1ED8fXabeFAr6Fnslf0ie6TRUL0", icon: "🪕" },
+  { name: "Bass", url: "https://www.youtube.com/playlist?list=PLImrzCNnL5PkSfa1gUpsGzSMELR31yW9h", icon: "🎸" },
+  { name: "DJ'ing", url: "https://www.youtube.com/playlist?list=PLSUFtq7DZnqYHRtSMFvihbfi3GpNt94eu", icon: "🎧" },
+  { name: "Drums", url: "https://www.youtube.com/playlist?list=PLSUFtq7DZnqbkKxowTxAsvmw-4FCAvaqW", icon: "🥁" },
+  { name: "Harmonica", url: "https://www.youtube.com/playlist?list=PLKONji9dlomQtLpyMM4vT9K1mx_jUNxLp", icon: "🎷" },
+  { name: "Mandolin", url: "https://www.youtube.com/playlist?list=PL78F95D85253F2CCD", icon: "🪕" },
+  { name: "Piano", url: "https://www.youtube.com/playlist?list=PL5PNXIkCYnciOKgTgKfrmjkwBsbm9zWfq", icon: "🎹" },
+  { name: "Recorder", url: "https://www.youtube.com/playlist?list=PLGbTO82eAIaxvszSGFoe84q1C4d_3Lpj1", icon: "🎺" },
+  { name: "Ukulele", url: "https://www.youtube.com/playlist?list=PLjnwlme_MZaXfF7GTP8Qpvb2Hd5XN7BvM", icon: "🪕" },
+  { name: "Violin & Fiddle", url: "https://www.youtube.com/playlist?list=PL6urkeK7KgD6z9rImgxwiqBYZVwq31zlg", icon: "🎻" }
+];
+---
+
+<Layout title="Music Lessons & Instructors in Alaska — AK Concerts" description="Find local music teachers in Alaska for guitar, drums, piano, vocals, cello, violin, bass, and Ableton. Free video lesson playlists included.">
+  <SiteHeader />
+  <main class="learn-page container">
+    
+    <!-- Hero Section -->
+    <div class="learn-hero">
+      <div class="hero-badge">
+        <GraduationCap class="icon-sm text-gold" /> Master Your Craft
+      </div>
+      <h1 class="learn-title font-display">
+        Alaska Music <span class="text-gold">Teachers & Lessons</span>
+      </h1>
+      <p class="learn-sub">
+        Learning how to play an instrument can be hard. Luckily, Alaska is home to talented musicians willing and able to make it easy for you to pick up an instrument and start playing!
+      </p>
+    </div>
+
+    <!-- Instructor Directory Section -->
+    <section class="directory-section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Local Music Instructors ({instructorsData.length})</h2>
+          <p class="section-sub-text">Click on any instructor to view their full profile, lesson breakdown, and contact details.</p>
+        </div>
+      </div>
+
+      <div class="instructors-grid">
+        {instructorsData.map(inst => (
+          <div class="instructor-card">
+            <div class="card-top">
+              <div class="instructor-avatar">
+                {inst.name.charAt(0)}
+              </div>
+              <div class="card-title-box">
+                <h3 class="instructor-name">{inst.name}</h3>
+                <span class="instructor-city"><MapPin class="icon-xs inline-icon" /> {inst.city}, AK</span>
+              </div>
+            </div>
+
+            <p class="instructor-bio">
+              {inst.bio}
+            </p>
+
+            <div class="instruments-box">
+              <span class="instruments-label">Lessons Taught:</span>
+              <div class="instruments-pills">
+                {inst.instruments.slice(0, 5).map(instName => (
+                  <span class="inst-pill">{instName}</span>
+                ))}
+                {inst.instruments.length > 5 && (
+                  <span class="inst-pill-more">+{inst.instruments.length - 5} more</span>
+                )}
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <a href={`/learn/${inst.slug}`} class="profile-link-btn">
+                View Full Profile & Contact &rarr;
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Free Home Video Playlists Section -->
+    <section class="video-section">
+      <div class="video-header">
+        <div class="video-icon-badge"><Video class="icon-md" /></div>
+        <h2 class="section-title">Learn at Home (Free Video Playlists)</h2>
+        <p class="section-sub-text">Click any instrument below to open a curated YouTube video playlist and learn from the comfort of home!</p>
+      </div>
+
+      <div class="playlists-grid">
+        {videoPlaylists.map(pl => (
+          <a href={pl.url} target="_blank" rel="noopener noreferrer" class="playlist-card">
+            <span class="playlist-emoji">{pl.icon}</span>
+            <span class="playlist-title">{pl.name}</span>
+            <span class="playlist-arrow">&rarr;</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Join Directory CTA Box -->
+    <div class="cta-box">
+      <div class="cta-content">
+        <h3>Are you a Music Teacher or Instructor in Alaska?</h3>
+        <p>Get listed in the AK Concerts free directory and connect with prospective students across your city!</p>
+      </div>
+      <a href="/submit" class="cta-btn bg-gradient-gold">
+        Get Listed as an Instructor &rarr;
+      </a>
+    </div>
+
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.learn-page { padding-block: 3.5rem 5rem; }
+
+.learn-hero { text-align: center; max-width: 44rem; margin-inline: auto; margin-bottom: 3.5rem; }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--brand-gold);
+  background: rgba(234, 179, 8, 0.1);
+  padding: .35rem .85rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(234, 179, 8, 0.2);
+  margin-bottom: 1rem;
+}
+.learn-title { font-size: 2.75rem; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; margin-bottom: 1rem; }
+@media (min-width: 640px) { .learn-title { font-size: 3.75rem; } }
+.learn-sub { color: var(--muted-foreground); font-size: 1.05rem; line-height: 1.7; }
+
+/* Directory Section */
+.directory-section { margin-bottom: 4.5rem; }
+.section-header { margin-bottom: 2rem; }
+.section-title { font-size: 2rem; font-weight: 800; margin-bottom: .25rem; }
+.section-sub-text { color: var(--muted-foreground); font-size: .95rem; }
+
+.instructors-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) { .instructors-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.instructor-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .25s ease;
+}
+.instructor-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px -10px rgba(0,0,0,0.4);
+  border-color: rgba(234, 179, 8, 0.4);
+}
+
+.card-top { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+.instructor-avatar {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--brand-gold), #d97706);
+  color: var(--brand-navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.instructor-name { font-size: 1.25rem; font-weight: 800; color: #f8fafc; margin: 0 0 .2rem; }
+.instructor-city { font-size: .8rem; color: var(--muted-foreground); display: inline-flex; align-items: center; gap: .2rem; }
+.inline-icon { width: 14px; height: 14px; color: var(--brand-gold); }
+
+.instructor-bio { font-size: .875rem; color: var(--muted-foreground); line-height: 1.6; margin-bottom: 1.25rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+.instruments-box { margin-bottom: 1.5rem; flex-grow: 1; }
+.instruments-label { display: block; font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--muted-foreground); margin-bottom: .5rem; }
+.instruments-pills { display: flex; flex-wrap: wrap; gap: .35rem; }
+.inst-pill { font-size: .75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid var(--border); color: #cbd5e1; padding: .2rem .6rem; border-radius: .375rem; font-weight: 500; }
+.inst-pill-more { font-size: .75rem; background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.2); color: var(--brand-gold); padding: .2rem .6rem; border-radius: .375rem; font-weight: 600; }
+
+.card-footer { border-top: 1px solid var(--border); padding-top: 1rem; margin-top: auto; }
+.profile-link-btn {
+  display: inline-block;
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--brand-gold);
+  text-decoration: none;
+  transition: transform .2s;
+}
+.profile-link-btn:hover { transform: translateX(4px); }
+
+/* Video Section */
+.video-section { background: rgba(30, 41, 59, 0.4); border: 1px solid var(--border); border-radius: 1.5rem; padding: 2.5rem 2rem; margin-bottom: 4.5rem; }
+.video-header { text-align: center; max-width: 36rem; margin-inline: auto; margin-bottom: 2rem; }
+.video-icon-badge { width: 48px; height: 48px; background: rgba(56, 189, 248, 0.1); color: #38bdf8; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; border: 1px solid rgba(56, 189, 248, 0.2); }
+
+.playlists-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (min-width: 640px) { .playlists-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) { .playlists-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.playlist-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: .75rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  text-decoration: none;
+  transition: all .2s;
+}
+.playlist-card:hover { background: rgba(234, 179, 8, 0.1); border-color: var(--brand-gold); transform: translateY(-2px); }
+.playlist-emoji { font-size: 1.25rem; }
+.playlist-title { font-size: .875rem; font-weight: 700; color: #f8fafc; flex-grow: 1; }
+.playlist-arrow { color: var(--brand-gold); font-weight: 700; }
+
+/* CTA Box */
+.cta-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.1), rgba(15, 23, 42, 0.9));
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  border-radius: 1.25rem;
+  padding: 2.25rem;
+}
+@media (min-width: 768px) {
+  .cta-box { flex-direction: row; text-align: left; justify-content: space-between; }
+}
+.cta-content h3 { font-size: 1.35rem; font-weight: 800; color: #fef08a; margin-bottom: .4rem; }
+.cta-content p { color: #cbd5e1; font-size: .95rem; margin: 0; max-width: 36rem; }
+.cta-btn {
+  padding: .9rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 800;
+  color: var(--neon-foreground);
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 10px 25px -10px var(--brand-gold);
+}
+</style>

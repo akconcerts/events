@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "yngvil-vatn-guttu",
+    "name": "Yngvil Vatn Guttu",
+    "city": "Anchorage",
+    "email": "yngvil@yvgmusic.com",
+    "website": "http://www.yvgmusic.com",
+    "instruments": ["Trumpet", "Acoustic Guitar", "Electric Guitar", "Bass Guitar", "Songwriting", "Composing", "Arranging", "Vocals", "Breathing", "Rhythm Skills"],
+    "bio": "Yngvil Vatn Guttu is an internationally acclaimed trumpeter, guitarist, composer, and arranger based in Anchorage, Alaska. She offers comprehensive instruction spanning brass techniques, acoustic & electric guitar, bass, songwriting, composition, and vocal breathing control for students of all experience levels.",
+    "experience": "20+ Years Teaching & Performing",
+    "rates": "Contact for private lesson rates & schedules",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "alaska-jazz-workshop",
+    "name": "Alaska Jazz Workshop",
+    "city": "Anchorage",
+    "email": "info@akjazzworkshop.org",
+    "website": "http://akjazzworkshop.org",
+    "instruments": ["Jazz Improvisation", "Saxophone", "Trumpet", "Trombones", "Jazz Piano", "Guitar", "Upright Bass", "Drums", "Ensemble Performance"],
+    "bio": "The Alaska Jazz Workshop is a non-profit music education initiative providing youth and adults across Alaska with top-tier jazz education, improvisation clinics, summer jazz camps, and ensemble performance opportunities led by veteran master educators.",
+    "experience": "Community Non-Profit Educational Institution",
+    "rates": "Workshop tuition & scholarship assistance available",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "ed-washington",
+    "name": "Ed Washington",
+    "city": "Anchorage",
+    "email": "thesanctuarycollectiveak@gmail.com",
+    "website": "http://www.thesanctuarycollectiveak.com",
+    "instruments": ["Vocal Lessons", "Vocal Control", "Gospel & R&B Vocals", "Stage Performance", "Choir Technique"],
+    "bio": "Ed Washington is a soulful vocalist, music producer, and director of The Sanctuary Collective AK. Ed specializes in voice coaching, vocal range enhancement, breathing technique, stage posture, and gospel/contemporary vocal styling.",
+    "experience": "Master Vocal Coach & Choir Director",
+    "rates": "1-on-1 vocal sessions & masterclasses",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "john-damberg",
+    "name": "John Damberg",
+    "city": "Anchorage",
+    "email": "john_damberg@gci.net",
+    "website": "http://johndamberg.com",
+    "instruments": ["Drums", "Percussion", "Marimba", "Vibraphone", "Piano", "Latin Rhythm & Mallets"],
+    "bio": "John Damberg is one of Alaska's most distinguished percussionists, bandleaders, and educators. Founder of the John Damberg Latin Jazz Quintet, John provides instruction in drum set fundamentals, mallet percussion, Latin rhythm structures, and piano harmony.",
+    "experience": "30+ Years Professional Educator & Recording Artist",
+    "rates": "Private percussion studio lessons",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "joy-kil",
+    "name": "Joy Kil (Joy's Music Studio)",
+    "city": "Anchorage",
+    "email": "joysmusicstudio@hotmail.com",
+    "website": "https://www.facebook.com/JoysMusicStudioAK",
+    "instruments": ["Cello", "Piano", "Classical Strings", "Music Theory"],
+    "bio": "Joy Kil operates Joy's Music Studio in Anchorage, providing gentle, disciplined, and inspiring classical music instruction in cello and piano for children, teenagers, and adult learners.",
+    "experience": "Classical Conservatory Instructor",
+    "rates": "Weekly private studio lessons",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "kat-moore",
+    "name": "Kat Moore",
+    "city": "Anchorage",
+    "email": "Katmooremusic@gmail.com",
+    "website": "https://www.instagram.com/katmooremusic",
+    "instruments": ["Bass", "Cello", "Guitar", "Piano", "Songwriting", "Ukulele", "Violin", "Vocal Lessons"],
+    "bio": "Kat Moore (frontwoman of Super Saturated Sugar Strings and The Forest That Leaps) is a beloved multi-instrumentalist, singer-songwriter, and music teacher in Anchorage. Kat teaches creative songwriting, multi-instrumental fluency, and expressive vocal techniques.",
+    "experience": "Touring Artist & Multi-Instrumental Instructor",
+    "rates": "Private 1-on-1 sessions & songwriting coaching",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "miriah-may",
+    "name": "Miriah May",
+    "city": "Anchorage",
+    "email": "miriahmaymusic@gmail.com",
+    "website": "http://www.miriahmaymusic.com",
+    "instruments": ["Guitar", "Mandolin", "Viola", "Violin", "Fiddle", "Acoustic String Band"],
+    "bio": "Miriah May is an accomplished string teacher and performer specializing in violin, fiddle, viola, mandolin, and acoustic guitar. Miriah blends classical discipline with folk and bluegrass string fiddling for engaging, personalized music lessons.",
+    "experience": "Professional String Instructor",
+    "rates": "In-person & online string lessons",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "nick-petumenos",
+    "name": "Nick Petumenos",
+    "city": "Anchorage",
+    "email": "petumenosmusic@gmail.com",
+    "website": "http://nicholaspetumenosmusic.com",
+    "instruments": ["Bass", "Drums", "Guitar", "Piano", "Music Production", "Studio Engineering", "DAW Recording"],
+    "bio": "Nicholas Petumenos is a versatile guitarist, bassist, drummer, keyboardist, and audio producer in Anchorage. Nick offers holistic music training covering instrument technique, groove, studio recording, and digital audio production.",
+    "experience": "Studio Producer & Multi-Instrumentalist",
+    "rates": "Private instrument & audio production lessons",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "philip-giannulis",
+    "name": "Philip Giannulis",
+    "city": "Anchorage",
+    "email": "Giannulis.philip27@gmail.com",
+    "website": "",
+    "instruments": ["Drums", "Rock & Metal Drumming", "Double Bass Drumming", "Rhythm & Rudiments"],
+    "bio": "Philip Giannulis is an energetic Anchorage drum instructor specializing in rock, metal, double-bass drum technique, limb independence, dynamic control, and metronome precision.",
+    "experience": "Rock & Metal Drumming Specialist",
+    "rates": "Private drum kit lessons",
+    "acceptingStudents": true
+  },
+  {
+    "slug": "rain-essex",
+    "name": "Rain Essex",
+    "city": "Anchorage",
+    "email": "ghoztkat@gmail.com",
+    "website": "",
+    "instruments": ["Ableton Live", "DJ'ing", "Electronic Music Production", "Synthesizers", "Beatmaking"],
+    "bio": "Rain Essex (GhozTKaT) is an electronic music producer and DJ instructor in Anchorage. Rain teaches computer-based music creation, Ableton Live session management, audio synthesis, mixing, and live DJ performance.",
+    "experience": "Electronic Producer & DJ Coach",
+    "rates": "1-on-1 Ableton & DJ coaching",
+    "acceptingStudents": true
+  }
+]
