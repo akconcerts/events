@@ -1,12 +1,19 @@
-# 🎸 Alaska Concerts & Events Database (`akconcerts/events`)
+# 🎸 Alaska Concerts & Events Platform & Open Database
 
 [![Auto Scrape & Update](https://github.com/akconcerts/events/actions/workflows/scrape-events.yml/badge.svg)](https://github.com/akconcerts/events/actions/workflows/scrape-events.yml)
 [![Dataset Format](https://img.shields.io/badge/Formats-JSON%20%7C%20CSV%20%7C%20XLSX%20%7C%20TS-blue)](https://github.com/akconcerts/events)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A comprehensive, public open dataset of live music, concerts, comedy shows, theater, dance, festivals, and community events across Alaska. 
+A comprehensive, public open dataset of live music, concerts, comedy shows, theater, dance, festivals, and community events across Alaska since 2018.
 
-This repository contains both **live events scraped from [akconcerts.com](https://www.akconcerts.com)** and **historical archives retrieved via the Internet Archive (Wayback Machine)** dating back to 2018.
+---
+
+### 🌐 Dual Repository Sync Setup
+
+| Repository Role | GitHub Link | Description |
+| :--- | :--- | :--- |
+| **Public Organization Repository** | **[`akconcerts/events`](https://github.com/akconcerts/events)** | Primary public-facing dataset, feeds (`JSON`, `CSV`, `iCal`, `RSS`, `GeoJSON`), and GitHub Actions workflows |
+| **Main App & Source Backup Repo** | **[`kb907alaska/akconcerts-com`](https://github.com/kb907alaska/akconcerts-com)** | Full source code repository, scrapers, Astro web app, and Google Apps Script admin suite |
 
 ---
 
