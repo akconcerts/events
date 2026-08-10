@@ -9,6 +9,7 @@ import EventFilterBar from '../components/EventFilterBar.astro';
 import EventJsonLd from '../components/EventJsonLd.astro';
 import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import ConcertMap from '../components/ConcertMap.astro';
 import { events, cities } from '../data/events';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
@@ -80,6 +81,7 @@ const formatCategoryName = (cat: string) => {
     <Hero />
     <QuickNav />
     <CityStrip />
+    <ConcertMap />
 
     <section id="playing-soon" class="events-section container">
       <SectionHeading eyebrow="What's Happening in Alaska" title="Playing Soon" />

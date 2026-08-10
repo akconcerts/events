@@ -1,0 +1,262 @@
+---
+import { MapPin, Navigation, Music } from 'lucide-astro';
+import venuesData from '../../venues.json';
+---
+
+<div class="concert-map-wrapper container">
+  <div class="map-header">
+    <div class="map-title-group">
+      <span class="map-badge"><MapPin class="icon-sm" /> Interactive Spatial Map</span>
+      <h2>Explore Alaska Concert Venues</h2>
+      <p class="map-sub">Click any pin to view venue location, address, capacity, and live events.</p>
+    </div>
+    <div class="map-city-pills" id="map-city-filters">
+      <button class="city-pill active" data-city="all">All Cities</button>
+      <button class="city-pill" data-city="Anchorage">Anchorage</button>
+      <button class="city-pill" data-city="Fairbanks">Fairbanks</button>
+      <button class="city-pill" data-city="Juneau">Juneau</button>
+      <button class="city-pill" data-city="Girdwood">Girdwood</button>
+      <button class="city-pill" data-city="Palmer">Palmer</button>
+      <button class="city-pill" data-city="Talkeetna">Talkeetna</button>
+      <button class="city-pill" data-city="Homer">Homer</button>
+      <button class="city-pill" data-city="Seward">Seward</button>
+    </div>
+  </div>
+
+  <!-- Leaflet Map Container -->
+  <div class="map-container-box">
+    <div id="ak-leaflet-map"></div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<script is:inline define:vars={{ venuesData }}>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mapElement = document.getElementById('ak-leaflet-map');
+    if (!mapElement || typeof L === 'undefined') return;
+
+    // Alaska Center View Coordinates
+    const initialLat = 61.2181;
+    const initialLng = -149.9003;
+    const initialZoom = 6;
+
+    const map = L.map('ak-leaflet-map', {
+      center: [initialLat, initialLng],
+      zoom: initialZoom,
+      scrollWheelZoom: false
+    });
+
+    // Dark Mode Tile Layer
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    const markers = [];
+
+    // Custom Glowing Custom Icon
+    const customIcon = L.divIcon({
+      className: 'custom-venue-pin',
+      html: `<div class="pin-marker"><span class="pin-dot"></span></div>`,
+      iconSize: [24, 24],
+      iconAnchor: [12, 12]
+    });
+
+    venuesData.forEach(venue => {
+      if (!venue.lat || !venue.lng) return;
+
+      const marker = L.marker([venue.lat, venue.lng], { icon: customIcon }).addTo(map);
+
+      const popupContent = `
+        <div class="venue-popup-card">
+          <div class="popup-tag">${venue.city}</div>
+          <h3 class="popup-title">${venue.name}</h3>
+          <p class="popup-address"><i class="icon">📍</i> ${venue.address || venue.city}</p>
+          ${venue.capacity ? `<p class="popup-cap"><strong>Capacity:</strong> ${venue.capacity} guests</p>` : ''}
+          ${venue.website ? `<a href="${venue.website}" target="_blank" rel="noopener" class="popup-link">Visit Venue Website &rarr;</a>` : ''}
+        </div>
+      `;
+
+      marker.bindPopup(popupContent);
+      marker.venueCity = venue.city;
+      markers.push(marker);
+    });
+
+    // City Filter Pill Logic
+    const filterButtons = document.querySelectorAll('#map-city-filters .city-pill');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const selectedCity = btn.getAttribute('data-city');
+
+        let bounds = L.latLngBounds();
+        let hasVisible = false;
+
+        markers.forEach(m => {
+          if (selectedCity === 'all' || m.venueCity === selectedCity) {
+            map.addLayer(m);
+            bounds.extend(m.getLatLng());
+            hasVisible = true;
+          } else {
+            map.removeLayer(m);
+          }
+        });
+
+        if (hasVisible && selectedCity !== 'all') {
+          map.fitBounds(bounds, { padding: [50, 50], maxZoom: 12 });
+        } else if (selectedCity === 'all') {
+          map.setView([initialLat, initialLng], initialZoom);
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .concert-map-wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .map-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .map-header {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+  .map-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.1);
+    padding: 0.3rem 0.75rem;
+    border-radius: 9999px;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+  }
+  .map-title-group h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #f8fafc;
+    margin: 0;
+  }
+  .map-sub {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+  }
+  .map-city-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .city-pill {
+    background: #1e293b;
+    color: #cbd5e1;
+    border: 1px solid #334155;
+    padding: 0.4rem 0.85rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .city-pill:hover, .city-pill.active {
+    background: #38bdf8;
+    color: #0f172a;
+    border-color: #38bdf8;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+  }
+  .map-container-box {
+    width: 100%;
+    height: 420px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+  }
+  #ak-leaflet-map {
+    width: 100%;
+    height: 100%;
+    background: #0f172a;
+  }
+
+  /* Custom Pins & Popups */
+  :global(.custom-venue-pin) {
+    background: transparent;
+    border: none;
+  }
+  :global(.pin-marker) {
+    width: 20px;
+    height: 20px;
+    background: #38bdf8;
+    border: 3px solid #0f172a;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+    animation: pulse-pin 2s infinite;
+  }
+  @keyframes pulse-pin {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.7); }
+    70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
+  }
+  :global(.leaflet-popup-content-wrapper) {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border-radius: 12px !important;
+    border: 1px solid #334155 !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+  }
+  :global(.leaflet-popup-tip) {
+    background: #1e293b !important;
+  }
+  :global(.venue-popup-card) {
+    padding: 0.2rem;
+  }
+  :global(.popup-tag) {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #38bdf8;
+    margin-bottom: 0.2rem;
+  }
+  :global(.popup-title) {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem 0;
+    color: #f8fafc;
+  }
+  :global(.popup-address), :global(.popup-cap) {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin: 0.2rem 0;
+  }
+  :global(.popup-link) {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #38bdf8;
+    text-decoration: none;
+  }
+  :global(.popup-link:hover) {
+    text-decoration: underline;
+  }
+</style>
