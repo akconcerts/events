@@ -164,6 +164,67 @@ function generateStats(eventsList) {
   }, null, 2);
 }
 
+// 5. Partition Dataset by Year (years/YYYY.json & years/YYYY.csv)
+function exportYearBreakdown(eventsList) {
+  const yearsDir = path.join(rootDir, 'years');
+  if (!fs.existsSync(yearsDir)) fs.mkdirSync(yearsDir);
+
+  const byYear = {};
+  for (const e of eventsList) {
+    if (!e.date) continue;
+    const y = e.date.slice(0, 4);
+    if (!byYear[y]) byYear[y] = [];
+    byYear[y].push(e);
+  }
+
+  for (const [year, yrEvents] of Object.entries(byYear)) {
+    // Write JSON
+    fs.writeFileSync(path.join(yearsDir, `${year}.json`), JSON.stringify(yrEvents, null, 2), 'utf8');
+
+    // Write CSV
+    function escapeCsv(val) {
+      const s = String(val || '').replace(/"/g, '""');
+      return `"${s}"`;
+    }
+    const csvHeaders = ['id', 'date', 'city', 'venue', 'category', 'title', 'time', 'ticketUrl', 'cost'];
+    const csvRows = [
+      csvHeaders.join(','),
+      ...yrEvents.map(e => [
+        escapeCsv(e.id),
+        escapeCsv(e.date),
+        escapeCsv(e.city),
+        escapeCsv(e.venue),
+        escapeCsv(e.category),
+        escapeCsv(e.title),
+        escapeCsv(e.time),
+        escapeCsv(e.ticketUrl),
+        escapeCsv(e.cost)
+      ].join(','))
+    ];
+    fs.writeFileSync(path.join(yearsDir, `${year}.csv`), csvRows.join('\n'), 'utf8');
+  }
+  console.log(`Successfully partitioned dataset into years/ (${Object.keys(byYear).length} years exported)!`);
+}
+
+// 6. Partition Dataset by City (cities/city-slug.json)
+function exportCityBreakdown(eventsList) {
+  const citiesDir = path.join(rootDir, 'cities');
+  if (!fs.existsSync(citiesDir)) fs.mkdirSync(citiesDir);
+
+  const byCity = {};
+  for (const e of eventsList) {
+    if (!e.city) continue;
+    const slug = e.city.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    if (!byCity[slug]) byCity[slug] = [];
+    byCity[slug].push(e);
+  }
+
+  for (const [slug, cityEvents] of Object.entries(byCity)) {
+    fs.writeFileSync(path.join(citiesDir, `${slug}.json`), JSON.stringify(cityEvents, null, 2), 'utf8');
+  }
+  console.log(`Successfully partitioned dataset into cities/ (${Object.keys(byCity).length} cities exported)!`);
+}
+
 // Write outputs
 fs.writeFileSync(path.join(rootDir, 'events.ics'), generateICS(events), 'utf8');
 console.log('Successfully generated events.ics (iCal Feed)!');
@@ -176,3 +237,6 @@ console.log('Successfully generated events.geojson (GeoJSON Map Dataset)!');
 
 fs.writeFileSync(path.join(rootDir, 'stats.json'), generateStats(events), 'utf8');
 console.log('Successfully generated stats.json (Dataset Analytics)!');
+
+exportYearBreakdown(events);
+exportCityBreakdown(events);

@@ -14,9 +14,14 @@ This repository contains both **live events scraped from [akconcerts.com](https:
 
 | Format | Direct Raw Link | Description |
 | :--- | :--- | :--- |
-| **JSON** | [Download `events.json`](https://raw.githubusercontent.com/akconcerts/events/main/events.json) | Complete dataset array as structured JSON |
-| **CSV** | [Download `events.csv`](https://raw.githubusercontent.com/akconcerts/events/main/events.csv) | Standard CSV format for spreadsheets, pandas, SQL import |
+| **JSON (Master)** | [Download `events.json`](https://raw.githubusercontent.com/akconcerts/events/main/events.json) | Complete master dataset as structured JSON |
+| **CSV (Master)** | [Download `events.csv`](https://raw.githubusercontent.com/akconcerts/events/main/events.csv) | Standard master CSV format for spreadsheets, pandas, SQL |
 | **Excel (XLSX)** | [Download `events.xlsx`](https://github.com/akconcerts/events/raw/main/events.xlsx) | Formatted Excel workbook for manual review & editing |
+| **Yearly Archives** | [Browse `years/`](https://github.com/akconcerts/events/tree/main/years) | Partitioned yearly archives (`2026.json`, `2025.json`, `2024.json`, ...) |
+| **City Archives** | [Browse `cities/`](https://github.com/akconcerts/events/tree/main/cities) | Partitioned city archives (`anchorage.json`, `fairbanks.json`, ...) |
+| **iCal Feed** | [Subscribe `events.ics`](https://raw.githubusercontent.com/akconcerts/events/main/events.ics) | Apple Calendar / Google Calendar subscription feed |
+| **RSS Feed** | [Subscribe `events.xml`](https://raw.githubusercontent.com/akconcerts/events/main/events.xml) | Standard RSS 2.0 feed |
+| **GeoJSON Map** | [Download `events.geojson`](https://raw.githubusercontent.com/akconcerts/events/main/events.geojson) | Spatial map dataset with GPS venue coordinates |
 | **TypeScript** | [View `events.ts`](https://github.com/akconcerts/events/blob/main/src/data/events.ts) | Typed TypeScript exports for Web / Astro apps |
 
 ---

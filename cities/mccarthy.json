@@ -1,0 +1,35 @@
+[
+  {
+    "id": "4168",
+    "title": "Open Mic Night",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-07-16",
+    "time": "",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4201",
+    "title": "Red Flags Live",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-07-17",
+    "time": "",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4272",
+    "title": "Red Flags Live",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-07-18",
+    "time": "",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "music",
+    "cost": ""
+  }
+]

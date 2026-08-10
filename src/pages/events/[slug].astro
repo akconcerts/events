@@ -5,7 +5,9 @@ import SiteFooter from '../../components/SiteFooter.astro';
 import { events } from '../../data/events';
 
 export function getStaticPaths() {
-  return events.map(event => ({
+  // Generate static pages for all events from 2025 onwards (or active/upcoming events)
+  const activeEvents = events.filter(e => e.date >= '2025-01-01');
+  return activeEvents.map(event => ({
     params: { slug: event.slug },
     props: { event },
   }));
