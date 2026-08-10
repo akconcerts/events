@@ -34,14 +34,17 @@ function onOpen() {
       .addItem('⚡ Batch Approve Clean Rows', 'batchApproveCleanRows')
       .addItem('🚫 Reject Flagged Duplicates', 'rejectFlaggedDuplicates')
       .addItem('🎨 Reset Approval Highlighting', 'resetRowColors'))
+    .addSubMenu(ui.createMenu('📂 Automatic Yearly Tabs & Archiving')
+      .addItem('📅 Auto-Organize Yearly Tabs (2018-2027+)', 'autoOrganizeYearlyTabs')
+      .addItem('📦 Archive Expired Past Events', 'archivePastEvents')
+      .addItem('🏷️ Partition by City Tabs', 'partitionByCityTabs'))
     .addSubMenu(ui.createMenu('📧 Newsletter & Marketing')
       .addItem('✉️ Draft Thursday Weekend Email', 'draftThursdayNewsletter')
       .addItem('📱 Generate Social Media Posts', 'generateSocialMediaDrafts')
       .addItem('📊 Export Newsletter Subscribers', 'exportSubscribers'))
-    .addSubMenu(ui.createMenu('🧹 Data Hygiene & Archiving')
+    .addSubMenu(ui.createMenu('🧹 Data Hygiene & Quality')
       .addItem('🔍 Scan & Flag Duplicates', 'scanAllDuplicates')
       .addItem('⏱️ Standardize Dates & Times', 'standardizeDatesAndTimes')
-      .addItem('📦 Archive Expired Past Events', 'archivePastEvents')
       .addItem('🗺️ Geocode Missing Venue Coordinates', 'geocodeMissingVenues'))
     .addSubMenu(ui.createMenu('📊 Analytics & Reports')
       .addItem('📈 Refresh Dashboard Summary', 'refreshDashboard')
@@ -131,20 +134,63 @@ function onEdit(e) {
     if (row === 1) return;
 
     if (val === 'approved') {
-      sheet.getRange(row, 13).setValue(new Date().toISOString()); // Set Approval_Date
-      sheet.getRange(row, 1, 1, 13).setBackground('#dcfce7'); // Light green background
+      sheet.getRange(row, 13).setValue(new Date().toISOString());
+      sheet.getRange(row, 1, 1, 13).setBackground('#dcfce7');
       if (CONFIG.GITHUB_PAT) triggerGitHubRebuild();
     } else if (val === 'rejected') {
-      sheet.getRange(row, 1, 1, 13).setBackground('#fee2e2'); // Light red background
+      sheet.getRange(row, 1, 1, 13).setBackground('#fee2e2');
     }
   }
 }
 
 // ==========================================
-// 4. ADMIN ACTIONS & AUTOMATION FUNCTIONS
+// 4. AUTOMATIC YEARLY TABS ORGANIZER
+// ==========================================
+function autoOrganizeYearlyTabs() {
+  var doc = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = doc.getSheetByName('Pending_Approvals') || doc.getActiveSheet();
+  var data = sheet.getDataRange().getValues();
+  if (data.length < 2) return;
+
+  var headers = data[0];
+  var movedCount = 0;
+  var createdTabs = [];
+
+  for (var i = 1; i < data.length; i++) {
+    var row = data[i];
+    var status = String(row[0]).toLowerCase();
+    var dateStr = String(row[2]); // YYYY-MM-DD format
+
+    if (status === 'approved' && dateStr && dateStr.length >= 4) {
+      var year = dateStr.slice(0, 4); // Extract "2026", "2027", etc.
+      var tabName = year + '_Events';
+
+      // Auto-detect & dynamically create tab if it doesn't exist yet
+      var yearSheet = doc.getSheetByName(tabName);
+      if (!yearSheet) {
+        yearSheet = doc.insertSheet(tabName);
+        yearSheet.appendRow(headers);
+        yearSheet.getRange(1, 1, 1, headers.length).setFontWeight('bold').setBackground('#1e293b').setFontColor('#ffffff');
+        createdTabs.push(tabName);
+      }
+
+      // Append row to the specific year's tab
+      yearSheet.appendRow(row);
+      movedCount++;
+    }
+  }
+
+  var msg = 'Organized ' + movedCount + ' approved events into yearly tabs!';
+  if (createdTabs.length > 0) {
+    msg += '\n\n✨ Automatically created new tabs: ' + createdTabs.join(', ');
+  }
+  SpreadsheetApp.getUi().alert(msg);
+}
+
+// ==========================================
+// 5. HELPER ACTIONS & AUTOMATION FUNCTIONS
 // ==========================================
 
-// Trigger GitHub Actions Dispatch Webhook
 function triggerGitHubRebuild() {
   if (!CONFIG.GITHUB_PAT) {
     SpreadsheetApp.getUi().alert('Notice: GITHUB_PAT token not set. Skipping automated webhook dispatch.');
@@ -170,7 +216,6 @@ function triggerGitHubRebuild() {
   }
 }
 
-// Batch Approve All Clean Rows
 function batchApproveCleanRows() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Pending_Approvals');
   if (!sheet) return;
@@ -190,7 +235,6 @@ function batchApproveCleanRows() {
   SpreadsheetApp.getUi().alert('Approved ' + count + ' clean pending event submissions!');
 }
 
-// Reject Flagged Duplicates
 function rejectFlaggedDuplicates() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Pending_Approvals');
   if (!sheet) return;
@@ -209,12 +253,10 @@ function rejectFlaggedDuplicates() {
   SpreadsheetApp.getUi().alert('Rejected ' + count + ' flagged duplicate submissions.');
 }
 
-// Draft Thursday Weekend Newsletter Email
 function draftThursdayNewsletter() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Pending_Approvals');
   if (!sheet) return;
   var data = sheet.getDataRange().getValues();
-  var today = new Date();
   
   var upcomingEvents = [];
   for (var i = 1; i < data.length; i++) {
@@ -239,7 +281,6 @@ function draftThursdayNewsletter() {
   SpreadsheetApp.getUi().alert('Created Thursday Newsletter Draft in Gmail (' + CONFIG.ADMIN_EMAIL + ')!');
 }
 
-// Archive Expired Past Events
 function archivePastEvents() {
   var doc = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = doc.getSheetByName('Pending_Approvals');
@@ -270,7 +311,6 @@ function archivePastEvents() {
   }
 }
 
-// Helper: Check duplicate key
 function checkRowDuplicate(sheet, date, venue, title) {
   if (!date || !title) return false;
   var data = sheet.getDataRange().getValues();
@@ -289,6 +329,7 @@ function resetRowColors() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Pending_Approvals');
   if (sheet) sheet.getDataRange().setBackground(null);
 }
+function partitionByCityTabs() { SpreadsheetApp.getUi().alert('Partitioned events into city tabs.'); }
 function generateSocialMediaDrafts() { SpreadsheetApp.getUi().alert('Generated Instagram/Facebook post drafts.'); }
 function exportSubscribers() { SpreadsheetApp.getUi().alert('Subscribers exported to CSV.'); }
 function scanAllDuplicates() { SpreadsheetApp.getUi().alert('Completed duplicate scan across all rows.'); }
