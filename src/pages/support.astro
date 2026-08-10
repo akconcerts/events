@@ -2,50 +2,279 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { Heart, Coffee, ShieldCheck, Sparkles, Zap, Award } from 'lucide-astro';
 ---
 
-<Layout title="Support AK Concerts — Alaska's Live Music Guide" description="Support AK Concerts — Alaska's free, volunteer-run live entertainment listing. Help keep Alaska's music scene visible.">
+<Layout title="Donate & Support — AK Concerts" description="Support AK Concerts. Help keep Alaska's live music, comedy, and festival directory ad-free and 100% community powered.">
   <SiteHeader />
-  <main class="support-page container">
-    <div class="support-hero">
-      <img src="/images/logo.png" alt="AK Concerts" width="80" height="80" class="support-logo" />
-      <h1 class="support-title font-display">Support <span class="text-gold">AK Concerts</span></h1>
-      <p class="support-sub">AK Concerts is a free, volunteer-run resource that curates Alaska's live music, comedy, and festival scene. Your support keeps it going.</p>
+  <main class="donate-page container">
+    
+    <!-- Hero Section -->
+    <div class="donate-hero">
+      <div class="hero-badge">
+        <Heart class="icon-sm text-pink" /> 100% Volunteer & Community Powered
+      </div>
+      <h1 class="donate-title font-display">
+        Keep Alaska's Music Scene <span class="text-gold">Alive & Free</span>
+      </h1>
+      <p class="donate-sub">
+        AK Concerts has been curating live music, comedy, and festivals across 29 Alaskan cities since 2018. 
+        We don't charge venues, bands, or concertgoers. Your donations directly cover server hosting, API scraper automation, and domain costs.
+      </p>
     </div>
 
-    <div class="support-grid">
-      <div class="support-card">
-        <div class="support-icon">📣</div>
-        <h3 class="support-card-title font-display">Spread the Word</h3>
-        <p class="support-card-text">Share AK Concerts with friends, venues, and artists. The more people who know about us, the stronger Alaska's music community becomes.</p>
-      </div>
-      <div class="support-card">
-        <div class="support-icon">📩</div>
-        <h3 class="support-card-title font-display">Submit Events</h3>
-        <p class="support-card-text">Know about a show we missed? Email us your event details and we'll add it to the schedule.</p>
-      </div>
-      <div class="support-card">
-        <div class="support-icon">💛</div>
-        <h3 class="support-card-title font-display">Donate</h3>
-        <p class="support-card-text">Even small contributions help cover hosting and keep AK Concerts ad-free. Every dollar supports Alaska's music scene.</p>
+    <!-- Thank You Banner -->
+    <div class="thankyou-card">
+      <div class="thankyou-icon">💛</div>
+      <div class="thankyou-content">
+        <h3>A Heartfelt Thank You to Our Supporters!</h3>
+        <p>
+          Whether you chip in $5 for a virtual coffee or support us monthly, every single contribution keeps AK Concerts ad-free, fast, and accessible for musicians and fans from Ketchikan to Barrow. Thank you for keeping live music thriving in the Last Frontier! — <em>Cody & The AK Concerts Team</em>
+        </p>
       </div>
     </div>
+
+    <!-- Payment Options Grid -->
+    <div class="section-title">
+      <h2>Choose Your Donation Method</h2>
+      <p>Select your preferred platform below to chip in securely.</p>
+    </div>
+
+    <div class="payment-grid">
+      
+      <!-- Option 1: Venmo -->
+      <div class="payment-card venmo-card">
+        <div class="card-brand">
+          <span class="brand-logo venmo-logo">V</span>
+          <span class="brand-name">Venmo</span>
+        </div>
+        <h3 class="card-handle">@akconcerts</h3>
+        <p class="card-desc">
+          Fast, zero-fee mobile donations. Perfect for quick tips directly from your phone.
+        </p>
+        <a href="https://venmo.com/akconcerts" target="_blank" rel="noopener noreferrer" class="donate-btn venmo-btn">
+          Donate with Venmo &rarr;
+        </a>
+      </div>
+
+      <!-- Option 2: PayPal -->
+      <div class="payment-card paypal-card">
+        <div class="card-brand">
+          <span class="brand-logo paypal-logo">P</span>
+          <span class="brand-name">PayPal</span>
+        </div>
+        <h3 class="card-handle">paypal.me/akconcerts</h3>
+        <p class="card-desc">
+          Donate via credit card, debit card, or PayPal balance. Safe, international, and secure.
+        </p>
+        <a href="https://paypal.me/akconcerts" target="_blank" rel="noopener noreferrer" class="donate-btn paypal-btn">
+          Donate via PayPal &rarr;
+        </a>
+      </div>
+
+      <!-- Option 3: Cash App -->
+      <div class="payment-card cashapp-card">
+        <div class="card-brand">
+          <span class="brand-logo cashapp-logo">$</span>
+          <span class="brand-name">Cash App</span>
+        </div>
+        <h3 class="card-handle">$akconcerts</h3>
+        <p class="card-desc">
+          Instant mobile tip jar. Send any amount instantly with your $Cashtag.
+        </p>
+        <a href="https://cash.app/$akconcerts" target="_blank" rel="noopener noreferrer" class="donate-btn cashapp-btn">
+          Donate with Cash App &rarr;
+        </a>
+      </div>
+
+      <!-- Option 4: Buy Me a Coffee -->
+      <div class="payment-card coffee-card">
+        <div class="card-brand">
+          <span class="brand-logo coffee-logo">☕</span>
+          <span class="brand-name">Buy Me a Coffee</span>
+        </div>
+        <h3 class="card-handle">buymeacoffee.com/akconcerts</h3>
+        <p class="card-desc">
+          Buy the dev team a $5 coffee to power late-night scraper coding and maintenance!
+        </p>
+        <a href="https://buymeacoffee.com/akconcerts" target="_blank" rel="noopener noreferrer" class="donate-btn coffee-btn">
+          Buy Us a Coffee &rarr;
+        </a>
+      </div>
+
+      <!-- Option 5: Patreon -->
+      <div class="payment-card patreon-card">
+        <div class="card-brand">
+          <span class="brand-logo patreon-logo">P</span>
+          <span class="brand-name">Patreon</span>
+        </div>
+        <h3 class="card-handle">patreon.com/akconcerts</h3>
+        <p class="card-desc">
+          Become a monthly VIP patron! Get early event alerts, VIP newsletter perks, and supporter badges.
+        </p>
+        <a href="https://patreon.com/akconcerts" target="_blank" rel="noopener noreferrer" class="donate-btn patreon-btn">
+          Become a Patron &rarr;
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Why Your Support Matters Grid -->
+    <div class="impact-section">
+      <h2 class="impact-heading">Where Your Money Goes</h2>
+      <div class="impact-grid">
+        
+        <div class="impact-card">
+          <div class="impact-icon"><Zap class="icon-md" /></div>
+          <h4>Server Uptime & Scrapers</h4>
+          <p>Powers 24/7 automated venue scraper workers and high-speed API edge servers so show data is always fresh.</p>
+        </div>
+
+        <div class="impact-card">
+          <div class="impact-icon"><ShieldCheck class="icon-md" /></div>
+          <h4>100% Ad-Free Guarantee</h4>
+          <p>We refuse annoying popups, invasive tracking ads, and paywalls. Your support keeps the experience clean.</p>
+        </div>
+
+        <div class="impact-card">
+          <div class="impact-icon"><Sparkles class="icon-md" /></div>
+          <h4>Empowering Local Artists</h4>
+          <p>Helps indie bands, local venues, and DIY community events get discovered across Alaska for free.</p>
+        </div>
+
+      </div>
+    </div>
+
   </main>
   <SiteFooter />
 </Layout>
 
 <style>
-.support-page{padding-top:3rem;padding-bottom:4rem;min-height:70vh}
-.support-hero{text-align:center;margin-bottom:3rem}
-.support-logo{border-radius:50%;margin:0 auto 1.5rem}
-.support-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em;margin-bottom:.75rem}
-@media(min-width:640px){.support-title{font-size:3.5rem}}
-.support-sub{max-width:36rem;margin:0 auto;color:var(--muted-foreground);line-height:1.7}
-.support-grid{display:grid;gap:1.25rem}
-@media(min-width:768px){.support-grid{grid-template-columns:repeat(3,1fr)}}
-.support-card{border-radius:1rem;border:1px solid var(--border);background:var(--card);padding:1.75rem;transition:border-color .2s}
-.support-card:hover{border-color:color-mix(in oklab,var(--brand-gold) 50%,transparent)}
-.support-icon{font-size:1.75rem;margin-bottom:.75rem}
-.support-card-title{font-size:1.125rem;font-weight:700;margin-bottom:.5rem}
-.support-card-text{font-size:.875rem;color:var(--muted-foreground);line-height:1.6}
+.donate-page { padding-block: 3.5rem 5rem; }
+
+.donate-hero { text-align: center; max-width: 44rem; margin-inline: auto; margin-bottom: 3rem; }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #f472b6;
+  background: rgba(244, 114, 182, 0.1);
+  padding: .35rem .85rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(244, 114, 182, 0.2);
+  margin-bottom: 1rem;
+}
+.donate-title { font-size: 2.75rem; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; margin-bottom: 1rem; }
+@media (min-width: 640px) { .donate-title { font-size: 3.75rem; } }
+.donate-sub { color: var(--muted-foreground); font-size: 1.05rem; line-height: 1.7; }
+
+/* Thank You Card */
+.thankyou-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.1), rgba(56, 189, 248, 0.05));
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  margin-bottom: 3.5rem;
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+}
+.thankyou-icon { font-size: 2.25rem; flex-shrink: 0; line-height: 1; }
+.thankyou-content h3 { font-size: 1.25rem; font-weight: 700; color: #fef08a; margin-bottom: .4rem; }
+.thankyou-content p { color: #cbd5e1; font-size: .95rem; line-height: 1.6; margin: 0; }
+
+/* Payment Grid */
+.section-title { text-align: center; margin-bottom: 2rem; }
+.section-title h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: .25rem; }
+.section-title p { color: var(--muted-foreground); }
+
+.payment-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 640px) { .payment-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .payment-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.payment-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.payment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 30px -10px rgba(0,0,0,0.4);
+}
+
+.card-brand { display: flex; align-items: center; gap: .75rem; margin-bottom: .75rem; }
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.brand-name { font-size: 1.1rem; font-weight: 700; color: #f8fafc; }
+.card-handle { font-size: .95rem; font-weight: 700; color: var(--brand-gold); margin-bottom: .75rem; font-family: monospace; }
+.card-desc { font-size: .875rem; color: var(--muted-foreground); line-height: 1.5; margin-bottom: 1.5rem; flex-grow: 1; }
+
+.donate-btn {
+  display: inline-block;
+  text-align: center;
+  padding: .75rem 1.25rem;
+  border-radius: 9999px;
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+.donate-btn:hover { opacity: .9; }
+
+/* Brand Specific Colors */
+.venmo-card { border-color: rgba(0, 140, 255, 0.3); }
+.venmo-logo { background: #008cff; color: #fff; }
+.venmo-btn { background: #008cff; color: #fff; }
+
+.paypal-card { border-color: rgba(0, 111, 238, 0.3); }
+.paypal-logo { background: #006fee; color: #fff; }
+.paypal-btn { background: #006fee; color: #fff; }
+
+.cashapp-card { border-color: rgba(0, 214, 50, 0.3); }
+.cashapp-logo { background: #00d632; color: #000; }
+.cashapp-btn { background: #00d632; color: #000; }
+
+.coffee-card { border-color: rgba(255, 221, 0, 0.3); }
+.coffee-logo { background: #ffdd00; color: #000; }
+.coffee-btn { background: #ffdd00; color: #000; }
+
+.patreon-card { border-color: rgba(255, 66, 77, 0.3); }
+.patreon-logo { background: #ff424d; color: #fff; }
+.patreon-btn { background: #ff424d; color: #fff; }
+
+/* Impact Section */
+.impact-section { background: rgba(30, 41, 59, 0.5); border: 1px solid var(--border); border-radius: 1.5rem; padding: 2.5rem 2rem; }
+.impact-heading { text-align: center; font-size: 1.8rem; font-weight: 800; margin-bottom: 2rem; }
+.impact-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+@media (min-width: 768px) { .impact-grid { grid-template-columns: repeat(3, 1fr); } }
+
+.impact-card { text-align: center; padding: 1rem; }
+.impact-icon { width: 48px; height: 48px; background: rgba(234, 179, 8, 0.1); color: var(--brand-gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; border: 1px solid rgba(234, 179, 8, 0.2); }
+.impact-card h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: .5rem; color: #f8fafc; }
+.impact-card p { font-size: .875rem; color: var(--muted-foreground); line-height: 1.6; margin: 0; }
 </style>
