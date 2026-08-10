@@ -7,17 +7,19 @@ const outDir = path.join(process.cwd(), 'wayback_data');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 async function run() {
-  console.log('Fetching CDX API for akconcerts.com...');
-  const cdxUrl = 'http://web.archive.org/cdx/search/cdx?url=akconcerts.com/&output=json&fl=timestamp,original,statuscode&filter=statuscode:200';
+  console.log('Fetching CDX API for akconcerts.com and www.akconcerts.com...');
+  const cdxUrl1 = 'http://web.archive.org/cdx/search/cdx?url=akconcerts.com/&output=json&fl=timestamp,original,statuscode&filter=statuscode:200';
+  const cdxUrl2 = 'http://web.archive.org/cdx/search/cdx?url=www.akconcerts.com/&output=json&fl=timestamp,original,statuscode&filter=statuscode:200';
   
-  const res = await fetch(cdxUrl);
-  const data = await res.json();
+  const [res1, res2] = await Promise.all([
+    fetch(cdxUrl1).then(r => r.json()),
+    fetch(cdxUrl2).then(r => r.json())
+  ]);
   
-  // First element is header
-  const snapshots = data.slice(1);
-  console.log(`Found ${snapshots.length} total snapshots.`);
+  const snapshots = [...res1.slice(1), ...res2.slice(1)];
+  console.log(`Found ${snapshots.length} total raw snapshots.`);
   
-  // Group by year and month, pick one per month to avoid 300+ slow requests
+  // Group by year and month, pick one per month to avoid duplicates
   const snapshotsToProcess = [];
   const seenMonths = new Set();
   
@@ -32,7 +34,7 @@ async function run() {
     }
   }
   
-  console.log(`Selected ${snapshotsToProcess.length} snapshots (1 per month).`);
+  console.log(`Selected ${snapshotsToProcess.length} unique monthly snapshots.`);
   
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
@@ -52,6 +54,15 @@ async function run() {
 
   for (let i = 0; i < snapshotsToProcess.length; i++) {
     const timestamp = snapshotsToProcess[i];
+    const snapshotFilePath = path.join(outDir, `${timestamp}.json`);
+    
+    if (fs.existsSync(snapshotFilePath) && fs.statSync(snapshotFilePath).size > 100) {
+      console.log(`[${i+1}/${snapshotsToProcess.length}] Snapshot ${timestamp} already downloaded. Skipping.`);
+      const fileData = JSON.parse(fs.readFileSync(snapshotFilePath, 'utf8'));
+      allEvents[timestamp] = fileData.text || [];
+      continue;
+    }
+
     const url = `http://web.archive.org/web/${timestamp}id_/http://akconcerts.com/`;
     console.log(`[${i+1}/${snapshotsToProcess.length}] Processing snapshot ${timestamp}...`);
     

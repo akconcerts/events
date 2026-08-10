@@ -6,7 +6,13 @@
     "dev": "astro dev",
     "prebuild": "node scripts/update_events_from_sheet.js",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "scrape:live": "node scripts/scrape_live.js",
+    "scrape:wayback": "node scripts/scrape_wayback.js",
+    "parse:live": "node scripts/parse_live.js",
+    "parse:wayback": "node scripts/parse_wayback_all.js",
+    "merge": "node scripts/merge_events.js",
+    "update-all": "node scripts/scrape_live.js && node scripts/parse_live.js && node scripts/merge_events.js"
   },
   "dependencies": {
     "@lucide/astro": "^1.14.0",

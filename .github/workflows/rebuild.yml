@@ -1,0 +1,25 @@
+name: Daily Scheduled Rebuild
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs daily at midnight Alaska time (UTC-8)
+  workflow_dispatch: # Allows manual rebuilds from the GitHub Actions tab
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build

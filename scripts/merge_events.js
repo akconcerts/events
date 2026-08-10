@@ -154,6 +154,60 @@ export function getEventsByDate(date: string): AKEvent[] {
 
   fs.writeFileSync(eventsTsPath, finalContent, 'utf8');
   console.log(`Successfully updated ${eventsTsPath} with merged events!`);
+
+  // Prepare objects for JSON, CSV, and XLSX exports
+  const formattedEvents = uniqueEvents.map((e, idx) => ({
+    id: String(idx + 1),
+    date: e.date,
+    city: e.city,
+    venue: e.venue,
+    category: e.category || 'music',
+    title: e.title,
+    time: e.time || '',
+    ticketUrl: e.ticketUrl || '',
+    cost: e.cost || ''
+  }));
+
+  // 1. Export JSON (Root and src/data/)
+  const jsonContent = JSON.stringify(formattedEvents, null, 2);
+  fs.writeFileSync(path.join(process.cwd(), 'events.json'), jsonContent, 'utf8');
+  fs.writeFileSync(path.join(process.cwd(), 'src', 'data', 'events.json'), jsonContent, 'utf8');
+  console.log('Successfully updated events.json (root & src/data/)!');
+
+  // 2. Export CSV (Root)
+  function escapeCsv(val) {
+    const s = String(val || '').replace(/"/g, '""');
+    return `"${s}"`;
+  }
+  const csvHeaders = ['id', 'date', 'city', 'venue', 'category', 'title', 'time', 'ticketUrl', 'cost'];
+  const csvRows = [
+    csvHeaders.join(','),
+    ...formattedEvents.map(e => [
+      escapeCsv(e.id),
+      escapeCsv(e.date),
+      escapeCsv(e.city),
+      escapeCsv(e.venue),
+      escapeCsv(e.category),
+      escapeCsv(e.title),
+      escapeCsv(e.time),
+      escapeCsv(e.ticketUrl),
+      escapeCsv(e.cost)
+    ].join(','))
+  ];
+  fs.writeFileSync(path.join(process.cwd(), 'events.csv'), csvRows.join('\n'), 'utf8');
+  console.log('Successfully updated events.csv!');
+
+  // 3. Export XLSX (Root)
+  try {
+    const XLSX = (await import('xlsx')).default;
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.json_to_sheet(formattedEvents);
+    XLSX.utils.book_append_sheet(wb, ws, "Events_Database");
+    XLSX.writeFile(wb, path.join(process.cwd(), 'events.xlsx'));
+    console.log('Successfully updated events.xlsx!');
+  } catch (err) {
+    console.warn('Could not generate events.xlsx:', err.message);
+  }
 }
 
 run().catch(console.error);
