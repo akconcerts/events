@@ -2,87 +2,85 @@ import XLSX from 'xlsx';
 import fs from 'fs';
 import path from 'path';
 
-const eventsJsonPath = path.join(process.cwd(), 'src', 'data', 'events.json');
+const eventsJsonPath = path.join(process.cwd(), 'events.json');
 
-let currentAndFutureEvents = [];
+let allEvents = [];
 if (fs.existsSync(eventsJsonPath)) {
-  const allEvents = JSON.parse(fs.readFileSync(eventsJsonPath, 'utf8'));
-  // Filter for this month (July 2026) and future events
-  currentAndFutureEvents = allEvents.filter(e => e.date >= '2026-07-01');
-  console.log(`Loaded ${currentAndFutureEvents.length} current and future events from database.`);
+  allEvents = JSON.parse(fs.readFileSync(eventsJsonPath, 'utf8'));
 }
 
 const wb = XLSX.utils.book_new();
 
-// 1. Instructions Tab Data
+// 1. Instructions Tab
 const instructionsData = [
-  ["AK CONCERTS — EVENT MANAGEMENT DATABASE"],
+  ["AK CONCERTS — EVENT APPROVAL & MANAGEMENT WORKBOOK"],
   [""],
-  ["Welcome to your event manager database! Follow the instructions below to add events to the website."],
+  ["HOW CODY APPROVES & PUBLISHES EVENTS:"],
+  ["1. Open this spreadsheet or import into your Google Sheet."],
+  ["2. Review new incoming submissions under the 'Pending_Approvals' tab."],
+  ["3. Change the 'status' column from 'Pending' to 'Approved' for shows you want to publish."],
+  ["4. When done, save/publish to Google Sheets CSV or run 'npm run workers'."],
+  ["5. The site & GitHub repository (akconcerts/events) will automatically rebuild & update!"],
   [""],
-  ["HOW TO ADD EVENTS:"],
-  ["1. Go to the 'Events_List' tab (which has been pre-populated with this month's and future events)."],
-  ["2. Add new rows for new events. Fill in the date, city, venue, category, title, time, ticket link, and cost."],
-  ["3. Refer to the 'Valid_Reference_Values' tab for valid City and Category options."],
-  ["4. When you are done editing, the website will automatically pull your changes and rebuild tonight!"],
-  [""],
-  ["Spreadsheet Columns Explanation:"],
-  ["Column", "Description", "Format / Options", "Example"],
-  ["date", "The date of the event (Required)", "YYYY-MM-DD", "2026-07-20"],
-  ["city", "The city in Alaska (Required)", "See 'Valid_Reference_Values' tab", "Anchorage"],
-  ["venue", "The concert venue name (Required)", "Plain text", "Koot's"],
-  ["category", "Type of the event (Required)", "music, comedy, dance, theatre, community, festival", "music"],
-  ["title", "The name of the event/show (Required)", "Plain text", "Fireside Thursdays w/ DJ JoJo"],
-  ["time", "The start/end time of show (Required)", "Plain text", "10p-2:10a"],
-  ["ticketUrl", "Link to purchase tickets (Optional)", "Web URL (HTTP/HTTPS)", "https://example.com"],
-  ["cost", "Ticket pricing details (Optional)", "Plain text", "$10"]
+  ["Columns Guide:"],
+  ["Column", "Description", "Format / Values", "Example"],
+  ["status", "Approval State (Required)", "Approved, Pending, Rejected", "Approved"],
+  ["date", "Event Date (Required)", "YYYY-MM-DD", "2026-08-20"],
+  ["city", "Alaskan City (Required)", "Anchorage, Fairbanks, Juneau, etc.", "Anchorage"],
+  ["venue", "Venue Name (Required)", "Plain text", "Koot's"],
+  ["category", "Category (Required)", "music, comedy, dance, theatre, festival", "music"],
+  ["title", "Event / Band Name (Required)", "Plain text", "The Deadlocks Live"],
+  ["time", "Start/End Time", "Plain text", "9p-1a"],
+  ["ticketUrl", "Ticket or Info Link", "URL", "https://example.com/tickets"],
+  ["cost", "Admission Price", "Plain text", "$15"],
+  ["submitter_email", "Email of Submitter", "Email", "band@alaska.com"]
 ];
 const wsInstructions = XLSX.utils.aoa_to_sheet(instructionsData);
 
-// 2. Events Tab Data (Pre-populated)
-const eventsHeaders = ["date", "city", "venue", "category", "title", "time", "ticketUrl", "cost"];
-const eventsRows = currentAndFutureEvents.map(e => [
+// 2. Pending Approvals Tab (Sample pending submission)
+const pendingHeaders = ["status", "date", "city", "venue", "category", "title", "time", "ticketUrl", "cost", "submitter_email", "notes"];
+const pendingRows = [
+  ["Pending", "2026-08-25", "Anchorage", "Koot's", "music", "Wild Midnight Funk Night", "10p-2a", "https://koots.com", "$10", "promoter@anchorage.com", "User web submission via akconcerts.com/submit"],
+  ["Pending", "2026-09-01", "Fairbanks", "The Blue Loon", "comedy", "Interior Standup Night", "8p-10p", "", "Free", "comedian@fairbanks.com", "Venue submission"]
+];
+const wsPending = XLSX.utils.aoa_to_sheet([pendingHeaders, ...pendingRows]);
+
+// 3. Active Approved Events Tab
+const activeHeaders = ["status", "date", "city", "venue", "category", "title", "time", "ticketUrl", "cost"];
+const activeRows = allEvents.slice(0, 500).map(e => [
+  "Approved",
   e.date,
   e.city,
   e.venue,
-  e.category,
+  e.category || 'music',
   e.title,
-  e.time,
+  e.time || '',
   e.ticketUrl || '',
   e.cost || ''
 ]);
-const eventsData = [eventsHeaders, ...eventsRows];
-const wsEvents = XLSX.utils.aoa_to_sheet(eventsData);
+const wsActive = XLSX.utils.aoa_to_sheet([activeHeaders, ...activeRows]);
 
-// 3. References Tab Data
+// 4. Valid Reference Values Tab
 const refData = [
-  ["VALID CITIES", "", "VALID CATEGORIES"],
-  ["Anchorage", "", "music"],
-  ["Fairbanks", "", "comedy"],
-  ["Juneau", "", "dance"],
-  ["Kenai", "", "theatre"],
-  ["Soldotna", "", "community"],
-  ["Homer", "", "festival"],
+  ["VALID CITIES", "", "VALID CATEGORIES", "", "APPROVAL STATUSES"],
+  ["Anchorage", "", "music", "", "Approved"],
+  ["Fairbanks", "", "comedy", "", "Pending"],
+  ["Juneau", "", "dance", "", "Rejected"],
+  ["Kenai", "", "theatre", ""],
+  ["Soldotna", "", "community", ""],
+  ["Homer", "", "festival", ""],
   ["Seward", ""],
-  ["Cooper Landing", ""],
-  ["Hope", ""],
+  ["Girdwood", ""],
   ["Palmer", ""],
   ["Wasilla", ""],
-  ["Girdwood", ""],
-  ["Talkeetna", ""],
-  ["Chugiak", ""],
-  ["Eagle River", ""],
-  ["Valdez", ""],
-  ["Sitka", ""],
-  ["Ketchikan", ""]
+  ["Talkeetna", ""]
 ];
 const wsRefs = XLSX.utils.aoa_to_sheet(refData);
 
-// Append sheets to workbook
 XLSX.utils.book_append_sheet(wb, wsInstructions, "Instructions");
-XLSX.utils.book_append_sheet(wb, wsEvents, "Events_List");
+XLSX.utils.book_append_sheet(wb, wsPending, "Pending_Approvals");
+XLSX.utils.book_append_sheet(wb, wsActive, "Active_Events");
 XLSX.utils.book_append_sheet(wb, wsRefs, "Valid_Reference_Values");
 
-// Write file
 XLSX.writeFile(wb, "akconcerts_database.xlsx");
-console.log("Successfully generated akconcerts_database.xlsx!");
+console.log("Successfully generated akconcerts_database.xlsx with Approval Workflow tabs!");

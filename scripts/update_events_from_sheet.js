@@ -77,8 +77,11 @@ async function run() {
     return;
   }
 
-  const sheetEvents = parseCSV(csvText).filter(e => e.date && e.title && e.city && e.venue);
-  console.log(`Parsed ${sheetEvents.length} events from CSV.`);
+  const sheetEvents = parseCSV(csvText).filter(e => {
+    const isApproved = !e.status || e.status.toLowerCase().trim() === 'approved';
+    return isApproved && e.date && e.title && e.city && e.venue;
+  });
+  console.log(`Parsed ${sheetEvents.length} approved events from sheet/CSV.`);
 
   // Load existing database events
   let existingEvents = [];

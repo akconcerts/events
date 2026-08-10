@@ -1,4 +1,4 @@
-date,city,venue,category,title,time,ticketUrl,cost
-2026-07-20,Anchorage,Koot's,music,Fireside Thursdays w/ DJ JoJo,10p-2:10a,,
-2026-07-21,Fairbanks,The Marlin,music,Open Mic Night,8p-12a,,Free
-2026-07-22,Juneau,The Crystal Saloon,music,Live Band Performance,9p-1a,https://example.com/tickets,$15
+status,date,city,venue,category,title,time,ticketUrl,cost,submitter_email,notes
+Approved,2026-07-20,Anchorage,Koot's,music,Fireside Thursdays w/ DJ JoJo,10p-2:10a,,,cody@akconcerts.com,Approved sample show
+Approved,2026-07-21,Fairbanks,The Marlin,music,Open Mic Night,8p-12a,,Free,artist@fairbanks.com,Approved local show
+Pending,2026-08-25,Juneau,The Crystal Saloon,music,Summer Solstice Jam,9p-1a,https://example.com/tickets,$15,submitter@juneau.com,Pending user submission (Change status to Approved to publish)
