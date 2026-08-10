@@ -2,6 +2,9 @@
   "name": "akconcerts-com",
   "type": "module",
   "version": "1.0.0",
+  "bin": {
+    "akconcerts": "./bin/akconcerts.js"
+  },
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/update_events_from_sheet.js",
@@ -12,7 +15,10 @@
     "parse:live": "node scripts/parse_live.js",
     "parse:wayback": "node scripts/parse_wayback_all.js",
     "merge": "node scripts/merge_events.js",
-    "update-all": "node scripts/scrape_live.js && node scripts/parse_live.js && node scripts/merge_events.js"
+    "workers": "node scripts/run_all_workers.js",
+    "export:feeds": "node scripts/export_feeds.js",
+    "cli": "node scripts/cli.js",
+    "update-all": "node scripts/run_all_workers.js"
   },
   "dependencies": {
     "@lucide/astro": "^1.14.0",

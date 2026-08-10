@@ -1,0 +1,25 @@
+name: ⚠️ Report Correction or Cancelled Event
+description: Report incorrect details or a cancelled show in the dataset
+title: "[CORRECTION]: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report an error, cancellation, or venue update for an event listing.
+  - type: input
+    id: event_id
+    attributes:
+      label: Event ID or Title
+      description: The ID or title of the event in the dataset.
+      placeholder: e.g. Event #142 or "Super Sucker Live"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description of Correction
+      description: Explain what needs to be fixed (e.g. cancelled, new time, venue change).
+      placeholder: e.g. This show was moved from 9pm to 10pm at Koot's.
+    validations:
+      required: true

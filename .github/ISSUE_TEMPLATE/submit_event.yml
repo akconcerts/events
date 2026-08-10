@@ -1,0 +1,79 @@
+name: 🎸 Submit New Concert / Event
+description: Submit a new show or live music performance in Alaska
+title: "[EVENT SUBMISSION]: "
+labels: ["event-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the AK Concerts dataset! Please fill out the show details below.
+  - type: input
+    id: title
+    attributes:
+      label: Event / Band Title
+      description: Name of the artist, band, or event.
+      placeholder: e.g. Blackwater Railroad Company Live
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue Name
+      description: Where is the show happening?
+      placeholder: e.g. Koot's, Bear Tooth, Sitzmark
+    validations:
+      required: true
+  - type: dropdown
+    id: city
+    attributes:
+      label: Alaskan City
+      options:
+        - Anchorage
+        - Fairbanks
+        - Juneau
+        - Girdwood
+        - Palmer
+        - Wasilla
+        - Homer
+        - Seward
+        - Talkeetna
+        - Kenai
+        - Soldotna
+        - Sitka
+        - Ketchikan
+        - Cordova
+        - Valdez
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date (YYYY-MM-DD)
+      description: Format as YYYY-MM-DD
+      placeholder: e.g. 2026-08-20
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      placeholder: e.g. 9p-1a
+  - type: input
+    id: ticketUrl
+    attributes:
+      label: Ticket URL or Event Link
+      placeholder: e.g. https://example.com/tickets
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - music
+        - comedy
+        - dance
+        - theatre
+        - community
+        - festival
+    validations:
+      required: true

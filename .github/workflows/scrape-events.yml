@@ -1,4 +1,4 @@
-name: Auto Scrape & Update Concert Events
+name: Auto Scrape & Update Concert Events Dataset
 
 on:
   schedule:
@@ -37,17 +37,17 @@ jobs:
       - name: Parse Live Events
         run: node scripts/parse_live.js
 
-      - name: Merge & Export All Formats (JSON, CSV, XLSX, TS)
-        run: node scripts/merge_events.js
+      - name: Run Master Worker Engine & Export All Formats
+        run: npm run workers
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Updated Dataset Feeds
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add events.json events.csv events.xlsx src/data/ wayback_data/
+          git add events.json events.csv events.xlsx events.ics events.xml events.geojson stats.json src/data/ wayback_data/
           if git diff --staged --quiet; then
             echo "No changes in events dataset."
           else
-            git commit -m "chore(data): auto-update concert events dataset [skip ci]"
+            git commit -m "chore(data): auto-update concert events dataset & feeds [skip ci]"
             git push
           fi

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "koots",
+    "name": "Chilkoot Charlie's (Koot's)",
+    "city": "Anchorage",
+    "address": "2435 Spenard Rd, Anchorage, AK 99503",
+    "lat": 61.1983,
+    "lng": -149.9056,
+    "website": "https://koots.com",
+    "capacity": 1100,
+    "indoor": true
+  },
+  {
+    "id": "beartooth",
+    "name": "Bear Tooth Theatrepub",
+    "city": "Anchorage",
+    "address": "1230 W 27th Ave, Anchorage, AK 99503",
+    "lat": 61.1961,
+    "lng": -149.9044,
+    "website": "https://beartooththeatre.net",
+    "capacity": 400,
+    "indoor": true
+  },
+  {
+    "id": "acpa",
+    "name": "Alaska Center for the Performing Arts",
+    "city": "Anchorage",
+    "address": "621 W 6th Ave, Anchorage, AK 99501",
+    "lat": 61.2163,
+    "lng": -149.8931,
+    "website": "https://www.alaskapac.org",
+    "capacity": 2000,
+    "indoor": true
+  },
+  {
+    "id": "williwaw",
+    "name": "Williwaw Social",
+    "city": "Anchorage",
+    "address": "609 F St, Anchorage, AK 99501",
+    "lat": 61.2167,
+    "lng": -149.8923,
+    "website": "https://williwawsocial.com",
+    "capacity": 600,
+    "indoor": true
+  },
+  {
+    "id": "sitzmark",
+    "name": "The Sitzmark Bar & Grill",
+    "city": "Girdwood",
+    "address": "100 Olympic Mountain Loop, Girdwood, AK 99587",
+    "lat": 60.9705,
+    "lng": -149.0984,
+    "website": "https://www.alyeskaresort.com/dining/the-sitzmark",
+    "capacity": 350,
+    "indoor": true
+  },
+  {
+    "id": "blueloon",
+    "name": "The Blue Loon",
+    "city": "Fairbanks",
+    "address": "2999 Parks Hwy, Fairbanks, AK 99709",
+    "lat": 64.8322,
+    "lng": -147.8189,
+    "website": "https://theblueloon.com",
+    "capacity": 500,
+    "indoor": true
+  },
+  {
+    "id": "crystalsaloon",
+    "name": "Crystal Saloon",
+    "city": "Juneau",
+    "address": "218 Front St, Juneau, AK 99801",
+    "lat": 58.3006,
+    "lng": -134.4072,
+    "website": "https://crystalsaloon.com",
+    "capacity": 250,
+    "indoor": true
+  },
+  {
+    "id": "borealis",
+    "name": "Borealis Theatre (Alaska State Fair)",
+    "city": "Palmer",
+    "address": "2075 Glenn Hwy, Palmer, AK 99645",
+    "lat": 61.5856,
+    "lng": -149.1214,
+    "website": "https://www.alaskastatefair.org",
+    "capacity": 6000,
+    "indoor": false
+  },
+  {
+    "id": "fairview",
+    "name": "Talkeetna Fairview Inn",
+    "city": "Talkeetna",
+    "address": "18504 Main St, Talkeetna, AK 99676",
+    "lat": 62.3242,
+    "lng": -150.1158,
+    "website": "https://fairviewinn.net",
+    "capacity": 200,
+    "indoor": true
+  },
+  {
+    "id": "downeast",
+    "name": "Down East Saloon",
+    "city": "Homer",
+    "address": "3125 East End Rd, Homer, AK 99603",
+    "lat": 59.6465,
+    "lng": -151.5122,
+    "capacity": 250,
+    "indoor": true
+  },
+  {
+    "id": "yukonbar",
+    "name": "Yukon Bar",
+    "city": "Seward",
+    "address": "201 Washington St, Seward, AK 99664",
+    "lat": 60.1039,
+    "lng": -149.4419,
+    "capacity": 150,
+    "indoor": true
+  }
+]
