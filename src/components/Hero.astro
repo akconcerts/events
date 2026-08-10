@@ -1,10 +1,44 @@
 ---
 import { events, cities } from '../data/events';
+
+const heroImages = [
+  '/images/hero/hero-01.webp',
+  '/images/hero/hero-02.webp',
+  '/images/hero/hero-03.webp',
+  '/images/hero/hero-04.webp',
+  '/images/hero/hero-05.webp',
+  '/images/hero/hero-06.webp',
+  '/images/hero/hero-07.webp',
+  '/images/hero/hero-08.webp',
+  '/images/hero/hero-09.webp',
+  '/images/hero/hero-10.webp',
+  '/images/hero/hero-11.webp',
+  '/images/hero/hero-12.webp',
+  '/images/hero/hero-13.webp',
+  '/images/hero/hero-14.webp',
+  '/images/hero/hero-15.webp',
+  '/images/hero/hero-16.webp',
+  '/images/hero/hero-17.webp',
+  '/images/hero/hero-18.webp',
+  '/images/hero/hero-19.webp',
+  '/images/hero/hero-20.webp'
+];
+
+const defaultHero = '/images/hero/hero-20.webp';
 ---
 
 <section class="hero">
   <div class="hero-bg">
-    <img src="/images/hero.jpg" alt="Aurora-lit concert stage in Alaska" width="1920" height="1080" class="hero-img" />
+    <img
+      id="ak-hero-image"
+      src={defaultHero}
+      alt=""
+      width="2400"
+      height="1350"
+      class="hero-img"
+      fetchpriority="high"
+      decoding="async"
+    />
     <div class="hero-overlay-gradient"></div>
     <div class="hero-overlay-aurora bg-aurora"></div>
   </div>
@@ -27,13 +61,89 @@ import { events, cities } from '../data/events';
   </div>
 </section>
 
+<script is:inline>
+  (function() {
+    var heroList = [
+      '/images/hero/hero-01.webp',
+      '/images/hero/hero-02.webp',
+      '/images/hero/hero-03.webp',
+      '/images/hero/hero-04.webp',
+      '/images/hero/hero-05.webp',
+      '/images/hero/hero-06.webp',
+      '/images/hero/hero-07.webp',
+      '/images/hero/hero-08.webp',
+      '/images/hero/hero-09.webp',
+      '/images/hero/hero-10.webp',
+      '/images/hero/hero-11.webp',
+      '/images/hero/hero-12.webp',
+      '/images/hero/hero-13.webp',
+      '/images/hero/hero-14.webp',
+      '/images/hero/hero-15.webp',
+      '/images/hero/hero-16.webp',
+      '/images/hero/hero-17.webp',
+      '/images/hero/hero-18.webp',
+      '/images/hero/hero-19.webp',
+      '/images/hero/hero-20.webp'
+    ];
+    
+    try {
+      var selected = sessionStorage.getItem('ak_hero_selected');
+      if (!selected || heroList.indexOf(selected) === -1) {
+        selected = heroList[Math.floor(Math.random() * heroList.length)];
+        sessionStorage.setItem('ak_hero_selected', selected);
+      }
+      var imgElem = document.getElementById('ak-hero-image');
+      if (imgElem) {
+        imgElem.src = selected;
+      }
+    } catch(e) {}
+  })();
+</script>
+
 <style>
-.hero{position:relative;overflow:hidden}
-.hero-bg{position:absolute;inset:0}
-.hero-img{width:100%;height:100%;object-fit:cover;opacity:.6}
-.hero-overlay-gradient{position:absolute;inset:0;background:linear-gradient(to top,var(--background),color-mix(in oklab,var(--background) 70%,transparent),color-mix(in oklab,var(--background) 30%,transparent))}
-.hero-overlay-aurora{position:absolute;inset:0;opacity:.7}
-.hero-content{position:relative;display:flex;flex-direction:column;gap:2rem;padding-top:5rem;padding-bottom:4rem}
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center right;
+  opacity: 0.75;
+  transition: opacity 0.4s ease-in-out;
+}
+.hero-overlay-gradient {
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(90deg, rgba(10,14,23,0.92) 0%, rgba(10,14,23,0.85) 45%, rgba(10,14,23,0.45) 75%, rgba(10,14,23,0.2) 100%),
+    linear-gradient(to top, var(--background) 0%, rgba(10,14,23,0.5) 40%, transparent 100%);
+}
+.hero-overlay-aurora {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  pointer-events: none;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  width: 100%;
+}
 @media(min-width:640px){.hero-content{padding-top:7rem;padding-bottom:6rem}}
 @media(min-width:1024px){.hero-content{padding-top:9rem}}
 .live-badge{display:inline-flex;align-items:center;gap:.5rem;width:fit-content;border-radius:9999px;border:1px solid color-mix(in oklab,var(--border) 60%,transparent);background:color-mix(in oklab,var(--card) 60%,transparent);padding:.25rem .75rem;font-size:.75rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-foreground);backdrop-filter:blur(8px)}
