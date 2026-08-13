@@ -31,5 +31,49 @@
     "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4434",
+    "title": "Open Mic Night",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-08-06",
+    "time": "",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4465",
+    "title": "Barry Sless & Stephen Inglis",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-08-07",
+    "time": "",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4504",
+    "title": "Barry Sless & Stephen Inglis",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-08-08",
+    "time": "",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4505",
+    "title": "McCarthy Rose Live Theater",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2026-08-08",
+    "time": "7p-?",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "theatre",
+    "cost": ""
   }
 ]

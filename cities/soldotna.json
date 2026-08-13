@@ -130,5 +130,93 @@
     "ticketUrl": "https://www.facebook.com/events/3481855768648747/3481855775315413/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "theatre",
     "cost": ""
+  },
+  {
+    "id": "4439",
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-06",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/26994401710190027/26994401743523357/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4514",
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods",
+    "city": "Soldotna",
+    "date": "2026-08-08",
+    "time": "5p-8p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4556",
+    "title": "Brewery to the Bathroom .5k “The Race for the Rest of Us”",
+    "venue": "Kenai River Brewing Company",
+    "city": "Soldotna",
+    "date": "2026-08-09",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/2757658777908747/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4572",
+    "title": "Storytime & Play",
+    "venue": "Farnsworth Park",
+    "city": "Soldotna",
+    "date": "2026-08-10",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "id": "4573",
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods",
+    "city": "Soldotna",
+    "date": "2026-08-10",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4596",
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-11",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1503656801148774/1503656831148771/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4629",
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-12",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/843086674966253/843086701632917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4630",
+    "title": "Levitt Amp Music Series: Noah Richardson & Bunny Swan",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-08-12",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1688380632310315/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
   }
 ]

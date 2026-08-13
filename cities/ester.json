@@ -350,5 +350,49 @@
     "ticketUrl": "https://www.facebook.com/events/1043559824868668/1043559841535333/?active_tab=about",
     "category": "dance",
     "cost": ""
+  },
+  {
+    "id": "4446",
+    "title": "Tim Easton",
+    "venue": "Malemute Saloon & Gold Camp",
+    "city": "Ester",
+    "date": "2026-08-07",
+    "time": "7p-11p",
+    "ticketUrl": "https://malemutesaloon.com/schedule/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4543",
+    "title": "Sunday Deck Open Jam",
+    "venue": "Malemute Saloon & Gold Camp",
+    "city": "Ester",
+    "date": "2026-08-09",
+    "time": "2p-5p",
+    "ticketUrl": "https://malemutesaloon.com/schedule/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4544",
+    "title": "Ragtime Piano",
+    "venue": "Malemute Saloon & Gold Camp",
+    "city": "Ester",
+    "date": "2026-08-09",
+    "time": "6p-8p",
+    "ticketUrl": "https://malemutesaloon.com/schedule/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4617",
+    "title": "Wednesday Dance Practice",
+    "venue": "Fairbanks Tango",
+    "city": "Ester",
+    "date": "2026-08-12",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1043559824868668/1043559851535332/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": ""
   }
 ]

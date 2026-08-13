@@ -5578,6 +5578,458 @@ export const events: AKEvent[] = [
 
   // ═══ SOLDOTNA — Monday August 3rd ═══
   ev("Storytime & Play", "Farnsworth Park", "Soldotna", "2026-08-03", "10:30a-11a", "https://www.facebook.com/events/3481855768648747/3481855775315413/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "theatre"),
+
+  // ═══ EAGLE RIVER — Wednesday August 5th ═══
+  ev("Karaoke Night w/ KJ Smoke", "Homestead Lounge", "Eagle River", "2026-08-05", "8p-12a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ JUNEAU — Wednesday August 5th ═══
+  ev("Open Mic Night", "The Crystal Saloon", "Juneau", "2026-08-05", "8p-11:30p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ SEWARD — Wednesday August 5th ═══
+  ev("Karaoke with Raunchy Rachel", "Yukon Bar", "Seward", "2026-08-05", "9p-1a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ COOPER LANDING — Thursday August 6th ═══
+  ev("Sonoran Sunsets", "Gwin’s Lodge", "Cooper Landing", "2026-08-06", "7p-10p", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ EAGLE RIVER — Thursday August 6th ═══
+  ev("Dance Lessons with Shufflin Country Style", "Homestead Lounge", "Eagle River", "2026-08-06", "8p-9p", "https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991", "dance"),
+  ev("Country Night w/ DJ AumanJoy", "Homestead Lounge", "Eagle River", "2026-08-06", "9p-2a", "https://www.facebook.com/HomesteadLounge"),
+
+  // ═══ FAIRBANKS — Thursday August 6th ═══
+  ev("Free Youth Concert Band Rehearsals", "Fairbanks Community Band Hall", "Fairbanks", "2026-08-06", "5p-6p", "https://www.facebook.com/events/1521883622657906/1521883635991238/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-06", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+  ev("Tanana Valley State Fair", "Tanana Valley State Fair Grounds", "Fairbanks", "2026-08-06", "8a-10p", "https://www.tvsfa.org/events", "festival"),
+  ev("Karaoke with Angel", "The International Hotel & Bar", "Fairbanks", "2026-08-06", "8p-2a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ GIRDWOOD — Thursday August 6th ═══
+  ev("Ride Bikes, Drink Beer", "Girdwood Brewing Company", "Girdwood", "2026-08-06", "6:30p-?", "https://www.facebook.com/events/980353717958999/980353771292327/?active_tab=about"),
+  ev("Up A Mountain Duo", "Jack Sprat", "Girdwood", "2026-08-06", "6p-?", "https://www.facebook.com/events/1297498735159167/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ HOMER — Thursday August 6th ═══
+  ev("Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.", "Pratt Museum", "Homer", "2026-08-06", "11a-12p", "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22"),
+  ev("Community Jam Sessions", "Homer Council on the Arts", "Homer", "2026-08-06", "6:30p-9p", "https://www.facebook.com/events/987084407583120/987084454249782/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Piano Music by Erica", "AJ’s Old Town Steakhouse & Tavern", "Homer", "2026-08-06", "6p-8p", "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/"),
+  ev("Karaoke Night", "Alibi Bar & Café", "Homer", "2026-08-06", "9p-12:30a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ JUNEAU — Thursday August 6th ═══
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez", "The Crystal Saloon", "Juneau", "2026-08-06", "5p-7p", "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997"),
+  ev("Ian Maksin: Songs of the Vagabond Cello", "Kuneix Hidi Northen Light United Church", "Juneau", "2026-08-06", "7:30p-?", "https://www.facebook.com/events/1014818561498917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Whiskey Class w/ The Planktonics", "Alaskan Hotel and Bar", "Juneau", "2026-08-06", "7p-11p", "https://www.facebook.com/photo/?fbid=1754549059314805&set=a.758212905615097", "community"),
+  ev("Karaoke Night", "The Crystal Saloon", "Juneau", "2026-08-06", "8p-12a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ KENAI — Thursday August 6th ═══
+  ev("Summer Reading Celebration", "Kenai Community Library", "Kenai", "2026-08-06", "2p-4p", "https://www.facebook.com/events/2032395834067424/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Open Primary Gubernatorial Canidate Debate", "Kenai Chamber of Commerce & Visitor Center", "Kenai", "2026-08-06", "5:30p-8p", "https://www.facebook.com/events/901104452519579/"),
+  ev("Big Irish Jay Hollingsworth Comedy Show", "Main Street Tap & Grill", "Kenai", "2026-08-06", "6p-9p", "https://www.rubberptarmigan.com/events/big-irish-jay-hollingsworth-main-street-tap-grill-2026", "comedy"),
+
+  // ═══ KETCHIKAN — Thursday August 6th ═══
+  ev("Ketchikan Arts & Humanities Council: Arts Report", "105.3 FM KRBD", "Ketchikan", "2026-08-06", "8:20a-8:35a", "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html"),
+  ev("Open Mic Night", "Totem Bar", "Ketchikan", "2026-08-06", "8p-10p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ MCCARTHY — Thursday August 6th ═══
+  ev("Open Mic Night", "The Golden Saloon", "McCarthy", "2026-08-06", "", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ NORTH POLE — Thursday August 6th ═══
+  ev("Karaoke Thursdays with Rocky Barnette", "North Pole Alehouse", "North Pole", "2026-08-06", "8p-12a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ PALMER — Thursday August 6th ═══
+  ev("Barry Sless & Stephen Inglis", "Hatcher Pass Lodge", "Palmer", "2026-08-06", "2p-5p", "https://www.mccarthylodge.com/mccarthy-events/"),
+
+  // ═══ SEWARD — Thursday August 6th ═══
+  ev("Dance Night w/ DJ Waitwat", "Yukon Bar", "Seward", "2026-08-06", "9p-2a", "https://www.facebook.com/photo.php?fbid=1495877732548962&set=pb.100063802472762.-2207520000&type=3", "dance"),
+
+  // ═══ SKAGWAY — Thursday August 6th ═══
+  ev("Summer Reading Program: Animal Survival Game Dinosaur Edition", "Skagway Library", "Skagway", "2026-08-06", "10:30a-12:30p", "https://www.facebook.com/events/2093546461210407/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+
+  // ═══ SOLDOTNA — Thursday August 6th ═══
+  ev("Preschool Storytime", "Soldotna Library", "Soldotna", "2026-08-06", "10:30a-11a", "https://www.facebook.com/events/26994401710190027/26994401743523357/", "community"),
+
+  // ═══ STERLING — Thursday August 6th ═══
+  ev("Hope Cassity", "Naptowne Brewing Company", "Sterling", "2026-08-06", "6p-9p", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ TALKEETNA — Thursday August 6th ═══
+  ev("Tim Easton House Show", "Spatterdock Rd.", "Talkeetna", "2026-08-06", "6p-?", "https://malemutesaloon.com/schedule/"),
+
+  // ═══ VALDEZ — Thursday August 6th ═══
+  ev("Tata's, Tutu's, & Xtra Tuffs Bra Decorating Party", "Valdez Brewing", "Valdez", "2026-08-06", "6p-?", "https://www.facebook.com/events/872664205492660/"),
+
+  // ═══ WASILLA — Thursday August 6th ═══
+  ev("Live Music With Drew Sablon", "Everett’s", "Wasilla", "2026-08-06", "6p-9p", "https://www.facebook.com/photo/?fbid=1600628335398914&set=gm.1661143841831616"),
+
+  // ═══ COOPER LANDING — Friday August 7th ═══
+  ev("Hope Cassity", "Gwin’s Lodge", "Cooper Landing", "2026-08-07", "7p-10p", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ EAGLE RIVER — Friday August 7th ═══
+  ev("DJ AumanJoy", "Homestead Lounge", "Eagle River", "2026-08-07", "9p-2a", "https://www.facebook.com/HomesteadLounge"),
+
+  // ═══ ESTER — Friday August 7th ═══
+  ev("Tim Easton", "Malemute Saloon & Gold Camp", "Ester", "2026-08-07", "7p-11p", "https://malemutesaloon.com/schedule/"),
+
+  // ═══ FAIRBANKS — Friday August 7th ═══
+  ev("Summer Cycle Music Together Generations Class", "Raven Landing Senior Center", "Fairbanks", "2026-08-07", "11:30a-12:15p", "https://www.facebook.com/events/1737992094062055/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("First Friday Party w/ Live Music", "Gather", "Fairbanks", "2026-08-07", "5p-8", "https://www.facebook.com/events/28669224756000903?post_id=28671156229141089&acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment_media%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_no"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-07", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+  ev("Tanana Valley State Fair", "Tanana Valley State Fair Grounds", "Fairbanks", "2026-08-07", "8a-10p", "https://www.tvsfa.org/events", "festival"),
+  ev("Collin Donley Live", "The Cabin", "Fairbanks", "2026-08-07", "9p-12a", "https://www.facebook.com/photo/?fbid=885504217337775&set=gm.856329890579727"),
+  ev("The Goddamn Ranchhand Band", "The Marlin", "Fairbanks", "2026-08-07", "9p-1a", "https://www.facebook.com/events/1555683509934406/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ HAINES — Friday August 7th ═══
+  ev("Open Mic Night", "Pioneer Bar", "Haines", "2026-08-07", "9p-1a", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ HOMER — Friday August 7th ═══
+  ev("Jacques Longpre", "Kharacters Alaskan Bar", "Homer", "2026-08-07", "10p-2p", "https://www.facebook.com/kharacters.bar"),
+  ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-07", "7:30p-?", "https://pieronetheatre.org/events/sense-and-sensibility"),
+  ev("Last Call: DJ Fractal's Last Show in AK", "Alibi Bar & Café", "Homer", "2026-08-07", "9:30p-1:30a", "https://www.facebook.com/events/37541222298802291/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ HOPE — Friday August 7th ═══
+  ev("Saturday Cinders", "Dirty Skillet", "Hope", "2026-08-07", "6p-10p", "https://dirtyskillet.com/music"),
+  ev("Reverend Peyton's Big Damn Band", "Creekbend Co.", "Hope", "2026-08-07", "7p-11p", "https://www.creekbendco.com/event"),
+
+  // ═══ JUNEAU — Friday August 7th ═══
+  ev("Steady Going", "Alaskan Hotel and Bar", "Juneau", "2026-08-07", "10p-?", "https://www.instagram.com/p/DbeIkHLSIlT/"),
+  ev("Fernet Coin Release Party ft. Sundew & The Rain Dogs", "The Crystal Saloon", "Juneau", "2026-08-07", "10p-?", "https://www.facebook.com/thecrystalsaloon"),
+
+  // ═══ KENAI — Friday August 7th ═══
+  ev("Solo Steve Norwood", "Skeet’s Dive Bar", "Kenai", "2026-08-07", "9p-?", "https://www.instagram.com/p/Dbhn0XNB84h/"),
+
+  // ═══ KETCHIKAN — Friday August 7th ═══
+  ev("Shelby Yount Jazz Vocalist", "The Creek Street Cabaret", "Ketchikan", "2026-08-07", "7p-?", "https://www.facebook.com/events/1694231361803001/"),
+  ev("Live Music in the Café", "The New York Café", "Ketchikan", "2026-08-07", "7p-9p", "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/07/1786161600/live-music-the-new-york-cafe/559110"),
+
+  // ═══ KODIAK — Friday August 7th ═══
+  ev("Black Barrel and the Bad Men", "The Rendezvous", "Kodiak", "2026-08-07", "7p-12a", "https://www.kodiakrendezvous.com/live-music"),
+
+  // ═══ MCCARTHY — Friday August 7th ═══
+  ev("Barry Sless & Stephen Inglis", "The Golden Saloon", "McCarthy", "2026-08-07", "", "https://www.mccarthylodge.com/mccarthy-events/"),
+
+  // ═══ PALMER — Friday August 7th ═══
+  ev("Friday Fling Live Music Will Johnson", "Downtown Palmer", "Palmer", "2026-08-07", "11a-6p", "https://www.facebook.com/FridayFlings"),
+  ev("The Jerry Wessling Band", "Palmer Alehouse", "Palmer", "2026-08-07", "7p-10p", "https://www.facebook.com/events/2540219679749437/"),
+  ev("Karaoke", "American Legion Post 15", "Palmer", "2026-08-07", "7p-11p", "https://www.facebook.com/akrockstarkaraoke/events"),
+  ev("Super Saturated Sugar Strings", "The Musk Ox Farm", "Palmer", "2026-08-07", "7p-9:30", "https://www.facebook.com/events/1390284176466779/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ SELDOVIA — Friday August 7th ═══
+  ev("Live Music w/ Sonoran Sunsets", "Linwood Bar & Grill", "Seldovia", "2026-08-07", "", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ SEWARD — Friday August 7th ═══
+  ev("Live Music w/ Raised by Elephants", "Flamingo Lounge", "Seward", "2026-08-07", "6:30p-9:30p", "https://www.eventbrite.com/e/live-at-the-flamingo-raised-by-elephants-tickets-1993588170885?aff=ebdsoporgprofile"),
+  ev("Ayla Ray w/ The Chris Christy Quintet", "Yukon Bar", "Seward", "2026-08-07", "9p-2a", "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"),
+
+  // ═══ SKAGWAY — Friday August 7th ═══
+  ev("Live Music w/ Whiskey Class", "Skagway Brewing", "Skagway", "2026-08-07", "7p-?", "https://www.facebook.com/photo/?fbid=1639245718206033&set=pcb.1639245981539340"),
+
+  // ═══ STERLING — Friday August 7th ═══
+  ev("3rd Annual Lord of the Wings", "Lakeside Falls", "Sterling", "2026-08-07", "5:30p-7:30p", "https://www.facebook.com/events/1413990217155518/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ TALKEETNA — Friday August 7th ═══
+  ev("Live At Five Summer Concerts: Nervis Rex", "Talkeetna Village Park", "Talkeetna", "2026-08-07", "5p-7p", "https://fairviewtalkeetna.com/pages/live-music"),
+  ev("Nervis Rex", "Fairview Inn", "Talkeetna", "2026-08-07", "9p-1a", "https://fairviewtalkeetna.com/pages/live-music"),
+
+  // ═══ WASILLA — Friday August 7th ═══
+  ev("Live Music w/ Lia Everett", "Last Frontier Brewing Company", "Wasilla", "2026-08-07", "6p-9p", "https://www.facebook.com/events/2622824768132549/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Big Irish Jay Hollingsworth Comedy Show", "Everett’s", "Wasilla", "2026-08-07", "7p-9p", "https://www.rubberptarmigan.com/events/big-irish-jay-hollingsworth-main-street-tap-grill-2026", "comedy"),
+  ev("Karaoke Night", "Schwabenhof", "Wasilla", "2026-08-07", "8p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ BARROW — Saturday August 8th ═══
+  ev("Storytime & Crafternoon", "Tuzzy Consortium Library", "Barrow", "2026-08-08", "1p-3p", "https://www.facebook.com/TuzzyConsortiumLibrary/", "community"),
+
+  // ═══ BIG LAKE — Saturday August 8th ═══
+  ev("Big Lake Community Farmer’s Market", "Common Ground Alaska Farm", "Big Lake", "2026-08-08", "12p-6p", "https://www.facebook.com/events/1505191268049063/1505191301382393/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+
+  // ═══ COOPER LANDING — Saturday August 8th ═══
+  ev("Jesse James", "Gwin’s Lodge", "Cooper Landing", "2026-08-08", "7p-10p", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ EAGLE RIVER — Saturday August 8th ═══
+  ev("Storytime on the Bus", "Chugiak-Eagle River Library", "Eagle River", "2026-08-08", "11a-?", "https://www.facebook.com/events/3428441044002629/", "community"),
+  ev("DJ Auman Joy", "Homestead Lounge", "Eagle River", "2026-08-08", "8p-2a", "https://www.facebook.com/HomesteadLounge"),
+
+  // ═══ FAIRBANKS — Saturday August 8th ═══
+  ev("Science for Alaska: AK’s Cold Winter in a Warming Climate", "Explore Fairbanks", "Fairbanks", "2026-08-08", "11:30a-12:30p", "https://www.facebook.com/events/1056637257543047/1056637280876378/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-08", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+  ev("Tanana Valley State Fair", "Tanana Valley State Fair Grounds", "Fairbanks", "2026-08-08", "8a-10p", "https://www.tvsfa.org/events", "festival"),
+  ev("The Supply Chain Live Pop Punk & Emo Tribute", "The International Hotel & Bar", "Fairbanks", "2026-08-08", "8p-2a", ""),
+
+  // ═══ HAINES — Saturday August 8th ═══
+  ev("Karaoke Night Punk /Emo Night", "Pioneer Bar", "Haines", "2026-08-08", "9p-1a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ HOMER — Saturday August 8th ═══
+  ev("Pushki Pickers", "Kharacters Alaskan Bar", "Homer", "2026-08-08", "10p-2p", "https://www.facebook.com/kharacters.bar"),
+  ev("Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.", "Pratt Museum", "Homer", "2026-08-08", "11a-12p", "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22"),
+  ev("Piano Music by Sunrise Kilcher", "AJ’s Old Town Steakhouse & Tavern", "Homer", "2026-08-08", "6p-8p", "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/"),
+  ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-08", "7:30p-?", "https://pieronetheatre.org/events/sense-and-sensibility"),
+
+  // ═══ HOPE — Saturday August 8th ═══
+  ev("Family Fishing Day", "Seaview Historic Café & Campground", "Hope", "2026-08-08", "12p-?", "https://www.facebook.com/events/2080809609522804/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Saturday Cinders", "Dirty Skillet", "Hope", "2026-08-08", "6p-10p", "https://dirtyskillet.com/music"),
+  ev("Reverend Peyton's Big Damn Band", "Creekbend Co.", "Hope", "2026-08-08", "7p-11p", "https://www.creekbendco.com/event"),
+
+  // ═══ JUNEAU — Saturday August 8th ═══
+  ev("Noche Latina ft DJ Omar", "The Crystal Saloon", "Juneau", "2026-08-08", "10p-?", "https://www.facebook.com/thecrystalsaloon"),
+
+  // ═══ KASILOF — Saturday August 8th ═══
+  ev("Malone, Doucet, & McManamy Live", "Kasilof Dock RV Park", "Kasilof", "2026-08-08", "6p-?", "https://www.facebook.com/events/1018904524101202/"),
+
+  // ═══ KENAI — Saturday August 8th ═══
+  ev("Beyond the Exhibit: Native Plant Walk", "Kenai Chamber of Commerce & Visitor Center", "Kenai", "2026-08-08", "12p-?", "https://www.facebook.com/events/1636198671130466/"),
+  ev("Stand Up Comedy w/ Sabrina Speers, Mike Comer, Drew Gordon, & More!", "Kenai Elks Lodge", "Kenai", "2026-08-08", "6p-9p", "https://www.rubberptarmigan.com/events/standup-comedy-show-kenai-elks-lodge", "comedy"),
+
+  // ═══ KETCHIKAN — Saturday August 8th ═══
+  ev("Virgin Voyages: Brilliant Lady Land Party", "Arctic Bar", "Ketchikan", "2026-08-08", "12p-6p", "https://www.facebook.com/events/1466272915541691/1466276535541329/?active_tab=about"),
+  ev("Summer Saturdays at the Museum", "Tongass Historical Museum", "Ketchikan", "2026-08-08", "1p-3p", "https://www.facebook.com/events/873907959081409/873907992414739/?active_tab=about"),
+
+  // ═══ KODIAK — Saturday August 8th ═══
+  ev("Black Barrel and the Bad Men", "The Rendezvous", "Kodiak", "2026-08-08", "7p-12a", "https://www.kodiakrendezvous.com/live-music"),
+
+  // ═══ MCCARTHY — Saturday August 8th ═══
+  ev("Barry Sless & Stephen Inglis", "The Golden Saloon", "McCarthy", "2026-08-08", "", "https://www.mccarthylodge.com/mccarthy-events/"),
+  ev("McCarthy Rose Live Theater", "The Golden Saloon", "McCarthy", "2026-08-08", "7p-?", "https://www.mccarthylodge.com/mccarthy-events/", "theatre"),
+
+  // ═══ NORTH POLE — Saturday August 8th ═══
+  ev("World’s Biggest Backpack Give Day 2026", "Summit Church", "North Pole", "2026-08-08", "10a-2p", "https://www.facebook.com/events/2588737454893147/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ PALMER — Saturday August 8th ═══
+  ev("Seth Freeman Band", "Hatcher Pass Lodge", "Palmer", "2026-08-08", "4p-7p", "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"),
+  ev("The Ken Peltier Band", "Palmer Alehouse", "Palmer", "2026-08-08", "7p-10p", "https://www.facebook.com/events/4659782330916669"),
+  ev("Two-Step and Country Swing Dance Lessons!", "American Legion Post 15", "Palmer", "2026-08-08", "7p-8p", "https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468", "dance"),
+  ev("Karaoke", "American Legion Post 15", "Palmer", "2026-08-08", "8p-11p", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ SELDOVIA — Saturday August 8th ═══
+  ev("Live Music w/ Sonoran Sunsets", "Linwood Bar & Grill", "Seldovia", "2026-08-08", "", "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl"),
+
+  // ═══ SEWARD — Saturday August 8th ═══
+  ev("Ayla Ray w/ The Chris Christy Quintet", "Yukon Bar", "Seward", "2026-08-08", "9p-2a", "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"),
+
+  // ═══ SKAGWAY — Saturday August 8th ═══
+  ev("Music Time", "Skagway Library", "Skagway", "2026-08-08", "3p-5p", "https://www.facebook.com/skagwaypubliclibrary"),
+
+  // ═══ SOLDOTNA — Saturday August 8th ═══
+  ev("Karaoke w/ Edencraft", "The Goods", "Soldotna", "2026-08-08", "5p-8p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ STERLING — Saturday August 8th ═══
+  ev("Steve Norwood", "Naptowne Brewing Company", "Sterling", "2026-08-08", "6p-9p", "https://www.instagram.com/p/Dbhn0XNB84h/"),
+
+  // ═══ TALKEETNA — Saturday August 8th ═══
+  ev("Jerry Wessling Band", "Denali Brewing Company", "Talkeetna", "2026-08-08", "6p-8", "https://www.facebook.com/events/2540219679749437/"),
+  ev("The Pit Viperz", "Fairview Inn", "Talkeetna", "2026-08-08", "9p-1a", "https://fairviewtalkeetna.com/pages/live-music"),
+
+  // ═══ WASILLA — Saturday August 8th ═══
+  ev("Live Music with Glacier Blues Band", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-08", "", "https://www.facebook.com/photo/?fbid=1497931395460551&set=a.208825104371193"),
+  ev("2nd Annual OCDetailing Show & Shine", "Everett’s", "Wasilla", "2026-08-08", "10a-3p", "https://www.facebook.com/events/1791149082061695/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("All Alaska Reptile & Exotics Expo", "Curtis D Memorial Sports Center", "Wasilla", "2026-08-08", "11a-7p", "https://www.facebook.com/events/901787599600844/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Music on the Farm w/ Blackwater Railroad", "Kids Cupboard", "Wasilla", "2026-08-08", "3p-8p", "https://www.facebook.com/events/1318153199773180/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Dave Johnson Live", "Last Frontier Brewing Company", "Wasilla", "2026-08-08", "6p-9p", "https://www.facebook.com/events/1206546348283959"),
+  ev("Comedian Lelean Klassen: Pressin’ On Comedy Tour", "Summit Worship Center", "Wasilla", "2026-08-08", "7p-9p", "https://www.facebook.com/events/997502723007874/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "comedy"),
+
+  // ═══ ANCHORAGE — Sunday August 9th ═══
+  ev("Koots Karaoke", "Koot’s", "Anchorage", "2026-08-09", "10p-2a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7"),
+  ev("Industry Night w/ Joe Brady", "Pioneer Bar", "Anchorage", "2026-08-09", "10p-2a", "https://www.facebook.com/profile.php?id=100035394206580"),
+  ev("Live Music at the Market", "Anchorage Weekend Market", "Anchorage", "2026-08-09", "11a-5p", "https://www.facebook.com/AnchorageWeekendDowntownMarket"),
+  ev("2026 Japanese Summer Festival", "Kincaid Chalet", "Anchorage", "2026-08-09", "12p-3p", "https://www.facebook.com/events/2168902037233354/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "festival"),
+  ev("ALC Concert Series: Anchorage Jazz Ensemble", "Anchorage Lutheran Church", "Anchorage", "2026-08-09", "4:30p-6p", "https://www.eventbrite.com/e/alc-concert-series-anchorage-jazz-ensemble-tickets-1994252748655"),
+  ev("Open Mic & Jam", "VFW Post 1685", "Anchorage", "2026-08-09", "4:30p-8:30p", "https://www.facebook.com/tyrone.palmer.722744"),
+  ev("Garden Grooves: Music in the Beer Garden", "49th State Brewery", "Anchorage", "2026-08-09", "5p-7p", "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"),
+  ev("Country Dance Nights: Line Dancing & Swing", "Anchorage Social Dance Club", "Anchorage", "2026-08-09", "6:30p-9:30p", "https://www.facebook.com/35PlusClub/posts/pfbid0WJizwEbNi85duFkPSHFUsdVjmCMNhvohUubFJ3YdcCa5a49CmcfsWq4FKLK63J9xl", "dance"),
+  ev("Sunday Blues Jam w/ Rebel Blues Band", "Billiard Palace", "Anchorage", "2026-08-09", "6p-10p", "https://www.facebook.com/events/2204843740345501/2204843797012162/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me"),
+  ev("All Ages Buckarooos Night", "Pink Cadillac", "Anchorage", "2026-08-09", "6p-10p", "https://www.facebook.com/events/1668434181079131/1668434254412457/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Comedy Open Mic", "Koot’s", "Anchorage", "2026-08-09", "8:30p-10p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7", "comedy"),
+  ev("Open Jam with Blast From The Past", "Time Out Lounge", "Anchorage", "2026-08-09", "8:30p-1a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=91844526ab&e=be0392aff7"),
+  ev("Open Mic Night", "Van’s Dive Bar", "Anchorage", "2026-08-09", "8p-11p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+  ev("Sunday Karaoke", "The Carousel Lounge", "Anchorage", "2026-08-09", "8p-2a", "https://www.facebook.com/akrockstarkaraoke/events"),
+  ev("Tri the Y Kids Triathlon", "YMCA", "Anchorage", "2026-08-09", "9a-1p", "https://www.facebook.com/events/1356672679730189/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Arctic Thunder Open House & Air Show Celebrating America’s 250th", "JBER", "Anchorage", "2026-08-09", "9a-5p", "https://www.jber.jb.mil/Info/Arctic-Thunder-Open-House/"),
+  ev("Karaoke", "Mad Myrna’s", "Anchorage", "2026-08-09", "9p-12a", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ BIG LAKE — Sunday August 9th ═══
+  ev("Open Mic Night", "Susitna Brewing", "Big Lake", "2026-08-09", "6p-9p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ COOPER LANDING — Sunday August 9th ═══
+  ev("Power Plant Comedy w/ Stephen Wheeler", "Cooper Landing Brewing", "Cooper Landing", "2026-08-09", "7p-9:30p", "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3", "comedy"),
+
+  // ═══ ESTER — Sunday August 9th ═══
+  ev("Sunday Deck Open Jam", "Malemute Saloon & Gold Camp", "Ester", "2026-08-09", "2p-5p", "https://malemutesaloon.com/schedule/"),
+  ev("Ragtime Piano", "Malemute Saloon & Gold Camp", "Ester", "2026-08-09", "6p-8p", "https://malemutesaloon.com/schedule/"),
+
+  // ═══ FAIRBANKS — Sunday August 9th ═══
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-09", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+  ev("Tanana Valley State Fair", "Tanana Valley State Fair Grounds", "Fairbanks", "2026-08-09", "8a-10p", "https://www.tvsfa.org/events", "festival"),
+  ev("Karaoke", "The Marlin", "Fairbanks", "2026-08-09", "9p-?", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ HOMER — Sunday August 9th ═══
+  ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-09", "3p-?", "https://pieronetheatre.org/events/sense-and-sensibility"),
+  ev("Luke Smith", "Kharacters Alaskan Bar", "Homer", "2026-08-09", "5p-7p", "https://www.facebook.com/kharacters.bar"),
+
+  // ═══ HOPE — Sunday August 9th ═══
+  ev("Sunday Brunch with Saturday Cinders", "Creekbend Co.", "Hope", "2026-08-09", "11a-2p", "https://dirtyskillet.com/music", "community"),
+
+  // ═══ KETCHIKAN — Sunday August 9th ═══
+  ev("Open Mic Night w/ Joe Williams", "The Creek Street Cabaret", "Ketchikan", "2026-08-09", "6p-9p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ PALMER — Sunday August 9th ═══
+  ev("Ayla Ray", "Hatcher Pass Lodge", "Palmer", "2026-08-09", "2p-5p", "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"),
+  ev("Karaoke", "Four Corner’s Lounge", "Palmer", "2026-08-09", "8p-?", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ SEWARD — Sunday August 9th ═══
+  ev("Karaoke", "Yukon Bar", "Seward", "2026-08-09", "9p-1a", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ SKAGWAY — Sunday August 9th ═══
+  ev("Music Time", "Skagway Library", "Skagway", "2026-08-09", "3p-5p", "https://www.facebook.com/skagwaypubliclibrary"),
+
+  // ═══ SOLDOTNA — Sunday August 9th ═══
+  ev("Brewery to the Bathroom .5k “The Race for the Rest of Us”", "Kenai River Brewing Company", "Soldotna", "2026-08-09", "11a-?", "https://www.facebook.com/events/2757658777908747/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+
+  // ═══ TALKEETNA — Sunday August 9th ═══
+  ev("Steve Durr", "Mountain High Pizza Pie", "Talkeetna", "2026-08-09", "1p-2:30p & 5p-6:30p", "https://www.pizzapietalkeetna.com/event-type/live-music/?fbclid=IwY2xjawRvBv9leHRuA2FlbQIxMABicmlkETE4T3g0UnoxVExiYTJjdXdQc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjyB1eWoEUpiOvGrlQarejNeQ12UXmcHnrBjwbrtFOPH0Rv2MmpWh1UA2AxS_aem_ls3CB8uZ3Xj26XD5nR9-"),
+
+  // ═══ WASILLA — Sunday August 9th ═══
+  ev("Live Music w/ David Johnson", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-09", "", "https://www.facebook.com/photo/?fbid=1497931395460551&set=a.208825104371193"),
+  ev("Taylor Swift Tribute Brunch", "Everett’s", "Wasilla", "2026-08-09", "11a-2p", "https://www.facebook.com/HopeCommunityResources/posts/pfbid02X4NN11EfRpBSiWdxGyHUfvrsaqtUpz8A61kmTeEahNv6rrhzBSEFogzHkQkTdPZcl", "community"),
+
+  // ═══ ANCHORAGE — Monday August 10th ═══
+  ev("PAWSitive Reading w/ Therapy Dogs", "Loussac Library", "Anchorage", "2026-08-10", "3p-4p", "https://www.anchoragelibrary.org/events/classes-schedules/community-events/"),
+  ev("Garden Grooves: Music in the Beer Garden", "49th State Brewery", "Anchorage", "2026-08-10", "5p-7p", "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"),
+  ev("Weekly Jazz Jam", "Fire Island Bakery @ K Street Market", "Anchorage", "2026-08-10", "6:30p-9:30p", "https://akjazzworkshop.org/calendar/"),
+  ev("Learn to Square Dance", "Anchorage Social Dance Club", "Anchorage", "2026-08-10", "7p-9p", "https://www.akconcerts.com/learn", "dance"),
+  ev("Bachata Dance Patterns", "Alaska Dance Promotions", "Anchorage", "2026-08-10", "8:30p-9:30p", "https://www.facebook.com/events/1363802471592782/1363802584926104/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me", "dance"),
+
+  // ═══ EAGLE RIVER — Monday August 10th ═══
+  ev("Karaoke Mondays", "Odd Man Rush", "Eagle River", "2026-08-10", "6p-9p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ FAIRBANKS — Monday August 10th ═══
+  ev("Gazebo Nights Concert Series: Alaska Wompus Cats", "Pioneer Park", "Fairbanks", "2026-08-10", "6p-7p", "https://www.facebook.com/events/1304683955212602/1304683971879267/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-10", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+
+  // ═══ JUNEAU — Monday August 10th ═══
+  ev("RawBeats w/ Astronomar & Friends", "Alaskan Hotel and Bar", "Juneau", "2026-08-10", "9p-?", "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093"),
+
+  // ═══ KENAI — Monday August 10th ═══
+  ev("Storytime & Craft: \"Moose and Magpie\"", "Kenai Chamber of Commerce & Visitor Center", "Kenai", "2026-08-10", "11a-?", "https://www.facebook.com/events/2252700968879689/", "community"),
+
+  // ═══ SEWARD — Monday August 10th ═══
+  ev("Seward Strings", "Seward Senior Center", "Seward", "2026-08-10", "1p-4p", "https://www.facebook.com/SewardSeniors"),
+  ev("Karaoke Contest Finals with Megan Killoran", "Yukon Bar", "Seward", "2026-08-10", "9p-1a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ SOLDOTNA — Monday August 10th ═══
+  ev("Storytime & Play", "Farnsworth Park", "Soldotna", "2026-08-10", "10:30a-11a", "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec", "theatre"),
+  ev("Friends of Mike Morgan Song Circle", "The Goods", "Soldotna", "2026-08-10", "5p-7p", "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec"),
+
+  // ═══ TALKEETNA — Monday August 10th ═══
+  ev("Karaoke", "Fairview Inn", "Talkeetna", "2026-08-10", "9p-1a", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ ANCHORAGE — Tuesday August 11th ═══
+  ev("Lunch on the Lawn: Live Music w/ Fiona Rose", "Anchorage Museum", "Anchorage", "2026-08-11", "11:30a-1:30p", "https://www.facebook.com/events/1922185821777460/1922185828444126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Garden Grooves: Music in the Beer Garden", "49th State Brewery", "Anchorage", "2026-08-11", "5p-7p", "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"),
+  ev("Irish Music & Dancing", "Organic Oasis", "Anchorage", "2026-08-11", "6p-8p", "https://www.facebook.com/organicoasisAK"),
+  ev("Ted Stevens Young Alaskan Artist Award Recital Liam Dooley", "Alaska Center for the Performing Arts", "Anchorage", "2026-08-11", "7:30p-9p", "https://centertix.com/events/ted-stevens-young-alaskan-artist-award-recital"),
+  ev("College Night 18+", "Pink Cadillac", "Anchorage", "2026-08-11", "7p-10p", "https://www.facebook.com/events/1537213564605897/1537213611272559/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Rope Dart Lessons w/ Jerrill", "Oriental Healing Arts Center", "Anchorage", "2026-08-11", "8:30p-10p", "https://www.facebook.com/photo/?fbid=1705391324273626&set=gm.830839779862518"),
+  ev("AK Rockstar Karaoke", "The Carousel Lounge", "Anchorage", "2026-08-11", "8p-2a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+  ev("Goth Night: Terror Tuesday Wave!", "Koot’s", "Anchorage", "2026-08-11", "8p-2a", "https://www.facebook.com/kootsak"),
+  ev("Two Step Tuesday w/ DJ Lele Beats", "Blarney Stone", "Anchorage", "2026-08-11", "9p-12a", "https://www.facebook.com/photo/?fbid=936585406046428&set=pcb.936585452713090", "dance"),
+
+  // ═══ FAIRBANKS — Tuesday August 11th ═══
+  ev("Karaoke Night", "The Cabin", "Fairbanks", "2026-08-11", "7p-10p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-11", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+
+  // ═══ HOMER — Tuesday August 11th ═══
+  ev("Storytime at the Pratt: Berry Season", "Pratt Museum", "Homer", "2026-08-11", "10:30a-11:30a", "https://www.facebook.com/events/1318067970185424/1318067986852089/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+  ev("Taco Tuesday's with Jim Maloney", "Justin Cole’s Down East Saloon", "Homer", "2026-08-11", "6:30p-10p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=d4aeb6bcfd&e=be0392aff7"),
+
+  // ═══ JUNEAU — Tuesday August 11th ═══
+  ev("Jazz Jam Tuesday", "The Crystal Saloon", "Juneau", "2026-08-11", "8p-11p", "https://www.crystalsaloon.com/events"),
+
+  // ═══ KENAI — Tuesday August 11th ═══
+  ev("Line Dance Lessons", "Skeet’s Dive Bar", "Kenai", "2026-08-11", "7p-?", "https://www.instagram.com/p/Dbhn0XNB84h/", "dance"),
+
+  // ═══ KETCHIKAN — Tuesday August 11th ═══
+  ev("Music on the Dock: Scattered Sunshine Trombone Choir", "Ketchikan Dock", "Ketchikan", "2026-08-11", "12p-1p", "https://www.ketchikanarts.org/programs-events/music-on-the-dock-summer-concert-series.html"),
+  ev("Open Mic Night", "Hole in the Wall", "Ketchikan", "2026-08-11", "6p-8p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ NORTH POLE — Tuesday August 11th ═══
+  ev("Tuesday Pub Run w/ Tundra Trotters", "North Pole Alehouse", "North Pole", "2026-08-11", "6:15p-9p", "https://www.facebook.com/events/1210834251124828/1210834304458156/?event_time_id=1210834334458153", "community"),
+
+  // ═══ PALMER — Tuesday August 11th ═══
+  ev("Open Mic Night w/ Drew Sablon", "Fishhook Bar & Grill", "Palmer", "2026-08-11", "6p-9p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+  ev("Industry Night with DJ Red", "Four Corner’s Lounge", "Palmer", "2026-08-11", "8p-?", "https://www.facebook.com/FourCornersLounge"),
+
+  // ═══ SEWARD — Tuesday August 11th ═══
+  ev("Open Mic Night with Braden", "Yukon Bar", "Seward", "2026-08-11", "8p-2a", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+
+  // ═══ SOLDOTNA — Tuesday August 11th ═══
+  ev("Toddler Story Time", "Soldotna Library", "Soldotna", "2026-08-11", "10:30a-11a", "https://www.facebook.com/events/1503656801148774/1503656831148771/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me", "community"),
+
+  // ═══ TALKEETNA — Tuesday August 11th ═══
+  ev("Timber Tots!", "Denali Education Center", "Talkeetna", "2026-08-11", "11a-12p", "https://www.facebook.com/events/964927736351240/964927756351238/"),
+
+  // ═══ WASILLA — Tuesday August 11th ═══
+  ev("Storytime at Ken’s", "Ken’s Garden Center", "Wasilla", "2026-08-11", "10a-11a", "https://www.facebook.com/events/1439153171253533/1439153324586851/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+  ev("Live Music w/ Jerry Wessling", "Everett’s", "Wasilla", "2026-08-11", "6p-9p", "https://www.facebook.com/events/1056348563732364/1056348597065694/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("Karaoke Night", "Schwabenhof", "Wasilla", "2026-08-11", "8p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ WILLOW — Tuesday August 11th ═══
+  ev("Meet & Greet w/ West Susitna Development", "Willow Community Center", "Willow", "2026-08-11", "5p-8p", "https://www.facebook.com/events/1540167107544454/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ ANCHORAGE — Wednesday August 12th ═══
+  ev("Free Community Storytime", "Alaska Zoo", "Anchorage", "2026-08-12", "10:30a-11a", "https://www.facebook.com/events/2118396738965650/2118396908965633/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+  ev("The Eternal Cowboys", "Pioneer Bar", "Anchorage", "2026-08-12", "10p-1a", "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3"),
+  ev("Koots Karaoke", "Koot’s", "Anchorage", "2026-08-12", "10p-2a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7"),
+  ev("Garden Grooves: Music in the Beer Garden", "49th State Brewery", "Anchorage", "2026-08-12", "5p-7p", "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"),
+  ev("International Folk Dancing", "Anchorage Social Dance Club", "Anchorage", "2026-08-12", "6:30p-8p", "https://www.facebook.com/35PlusClub/posts/pfbid0WJizwEbNi85duFkPSHFUsdVjmCMNhvohUubFJ3YdcCa5a49CmcfsWq4FKLK63J9xl"),
+  ev("Live Music at Crimson w/ Jared Woods", "Wildbirch Hotel", "Anchorage", "2026-08-12", "6:30p-9:30p", "https://www.facebook.com/crimsonanchorage"),
+  ev("Seth Malone", "Manhattan’s Restaurant & Lounge", "Anchorage", "2026-08-12", "6p-9p", "https://www.facebook.com/events/1314368867508276/"),
+  ev("Tyrone & Friends", "907 Alehouse", "Anchorage", "2026-08-12", "7p-10p", "https://www.facebook.com/tyrone.palmer.722744"),
+  ev("Comedy Open Mic", "Koot’s", "Anchorage", "2026-08-12", "7p-10p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7", "comedy"),
+  ev("Line Dance Wednesdays", "Pink Cadillac", "Anchorage", "2026-08-12", "7p-11p", "https://www.facebook.com/events/1351242593745182/1351242600411848/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "dance"),
+  ev("Live Music w/ Pam Santoro", "Humpy’s", "Anchorage", "2026-08-12", "8p-11:30p", "https://www.facebook.com/HumpysAlaska/posts/pfbid0X3poRge9txCycQWfALADfNcwHhYikTUYn9MrnRURjZj4ym9JxfEsM48Kt2ALcDBDl"),
+  ev("AK Rockstar Karaoke", "The Carousel Lounge", "Anchorage", "2026-08-12", "8p-2a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+  ev("Karaoke", "Mad Myrna’s", "Anchorage", "2026-08-12", "9p-12a", "https://www.facebook.com/akrockstarkaraoke/events"),
+  ev("Karaoke", "Van’s Dive Bar", "Anchorage", "2026-08-12", "9p-1a", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ EAGLE RIVER — Wednesday August 12th ═══
+  ev("Karaoke Night w/ KJ Smoke", "Homestead Lounge", "Eagle River", "2026-08-12", "8p-12a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ ESTER — Wednesday August 12th ═══
+  ev("Wednesday Dance Practice", "Fairbanks Tango", "Ester", "2026-08-12", "6p-9p", "https://www.facebook.com/events/1043559824868668/1043559851535332/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "dance"),
+
+  // ═══ FAIRBANKS — Wednesday August 12th ═══
+  ev("Music w/ Syler Fell & Jess Klemm", "Running Reindeer Ranch", "Fairbanks", "2026-08-12", "7p-8p", "https://runningreindeer.com/music-with-reindeer-schedule/"),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-12", "8:15p-9:15p", "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"),
+  ev("Karaoke Night with Rocky!", "The Spur", "Fairbanks", "2026-08-12", "8p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ JUNEAU — Wednesday August 12th ═══
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez", "The Crystal Saloon", "Juneau", "2026-08-12", "5p-7p", "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997"),
+  ev("Open Mic Night", "The Crystal Saloon", "Juneau", "2026-08-12", "8p-11:30p", "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"),
+  ev("Karaoke", "Alaskan Hotel and Bar", "Juneau", "2026-08-12", "8p-11p", "https://www.facebook.com/akrockstarkaraoke/events"),
+
+  // ═══ KETCHIKAN — Wednesday August 12th ═══
+  ev("Music on the Dock: The Foghorn Five", "Ketchikan Dock", "Ketchikan", "2026-08-12", "12p-1p", "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/12/music-on-dock-the-foghorn-five/566266"),
+  ev("The Ukulele Group", "Inn at Creek Street", "Ketchikan", "2026-08-12", "3:45p-4:45p", "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/12/1786581900/the-ukelele-group-/521570"),
+
+  // ═══ PALMER — Wednesday August 12th ═══
+  ev("Fireside Book Club", "Bleeding Heart Brewery", "Palmer", "2026-08-12", "6:30p-8:30p", "https://www.facebook.com/events/850328077498239/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+  ev("West Coast Sing Wednesday", "Four Corner’s Lounge", "Palmer", "2026-08-12", "7:30p-9:30p", "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116"),
+
+  // ═══ SEWARD — Wednesday August 12th ═══
+  ev("Karaoke with Raunchy Rachel", "Yukon Bar", "Seward", "2026-08-12", "9p-1a", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"),
+
+  // ═══ SOLDOTNA — Wednesday August 12th ═══
+  ev("Bouncing Babes Story Time", "Soldotna Library", "Soldotna", "2026-08-12", "10:30a-11a", "https://www.facebook.com/events/843086674966253/843086701632917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech", "community"),
+  ev("Levitt Amp Music Series: Noah Richardson & Bunny Swan", "Soldotna Creek Park", "Soldotna", "2026-08-12", "6p-9p", "https://www.facebook.com/events/1688380632310315/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"),
+
+  // ═══ TALKEETNA — Wednesday August 12th ═══
+  ev("Solo Steve Norwood", "Denali Brewing Company", "Talkeetna", "2026-08-12", "5:30p-8:30", "https://www.instagram.com/p/Dbhn0XNB84h/"),
+
+  // ═══ WASILLA — Wednesday August 12th ═══
+  ev("Sign Language Classes", "Black Birch Books", "Wasilla", "2026-08-12", "5p-6p", "https://www.facebook.com/events/1980234609292524/1980234615959190/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
+  ev("Open Mic", "Schwabenhof", "Wasilla", "2026-08-12", "7:30p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7"),
+
+  // ═══ COOPER LANDING — Thursday August 13th ═══
+  ev("Seth Malone", "Gwin’s Lodge", "Cooper Landing", "2026-08-13", "5p-?", "https://www.facebook.com/events/1314368867508276/"),
+
+  // ═══ EAGLE RIVER — Thursday August 13th ═══
+  ev("Snacks at Midnight", "Odd Man Rush", "Eagle River", "2026-08-13", "7p-?", "https://www.facebook.com/events/979644471786128"),
+
+  // ═══ COOPER LANDING — Saturday August 15th ═══
+  ev("Black Barrel & The Bad Men", "Cooper Landing Brewing", "Cooper Landing", "2026-08-15", "6:30p-?", "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3"),
 ];
 
 export const cities = [...new Set(events.map(e => e.city))].sort();

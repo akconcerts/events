@@ -196,5 +196,170 @@
     "ticketUrl": "https://www.facebook.com/events/1481867250400832/",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4421",
+    "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+    "venue": "Pratt Museum",
+    "city": "Homer",
+    "date": "2026-08-06",
+    "time": "11a-12p",
+    "ticketUrl": "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4422",
+    "title": "Community Jam Sessions",
+    "venue": "Homer Council on the Arts",
+    "city": "Homer",
+    "date": "2026-08-06",
+    "time": "6:30p-9p",
+    "ticketUrl": "https://www.facebook.com/events/987084407583120/987084454249782/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4423",
+    "title": "Piano Music by Erica",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "city": "Homer",
+    "date": "2026-08-06",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4424",
+    "title": "Karaoke Night",
+    "venue": "Alibi Bar & Café",
+    "city": "Homer",
+    "date": "2026-08-06",
+    "time": "9p-12:30a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4454",
+    "title": "Jacques Longpre",
+    "venue": "Kharacters Alaskan Bar",
+    "city": "Homer",
+    "date": "2026-08-07",
+    "time": "10p-2p",
+    "ticketUrl": "https://www.facebook.com/kharacters.bar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4455",
+    "title": "Sense And Sensibility",
+    "venue": "Pier One Theater",
+    "city": "Homer",
+    "date": "2026-08-07",
+    "time": "7:30p-?",
+    "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4456",
+    "title": "Last Call: DJ Fractal's Last Show in AK",
+    "venue": "Alibi Bar & Café",
+    "city": "Homer",
+    "date": "2026-08-07",
+    "time": "9:30p-1:30a",
+    "ticketUrl": "https://www.facebook.com/events/37541222298802291/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4490",
+    "title": "Pushki Pickers",
+    "venue": "Kharacters Alaskan Bar",
+    "city": "Homer",
+    "date": "2026-08-08",
+    "time": "10p-2p",
+    "ticketUrl": "https://www.facebook.com/kharacters.bar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4491",
+    "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+    "venue": "Pratt Museum",
+    "city": "Homer",
+    "date": "2026-08-08",
+    "time": "11a-12p",
+    "ticketUrl": "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4492",
+    "title": "Piano Music by Sunrise Kilcher",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "city": "Homer",
+    "date": "2026-08-08",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4493",
+    "title": "Sense And Sensibility",
+    "venue": "Pier One Theater",
+    "city": "Homer",
+    "date": "2026-08-08",
+    "time": "7:30p-?",
+    "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4548",
+    "title": "Sense And Sensibility",
+    "venue": "Pier One Theater",
+    "city": "Homer",
+    "date": "2026-08-09",
+    "time": "3p-?",
+    "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4549",
+    "title": "Luke Smith",
+    "venue": "Kharacters Alaskan Bar",
+    "city": "Homer",
+    "date": "2026-08-09",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/kharacters.bar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4586",
+    "title": "Storytime at the Pratt: Berry Season",
+    "venue": "Pratt Museum",
+    "city": "Homer",
+    "date": "2026-08-11",
+    "time": "10:30a-11:30a",
+    "ticketUrl": "https://www.facebook.com/events/1318067970185424/1318067986852089/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4587",
+    "title": "Taco Tuesday's with Jim Maloney",
+    "venue": "Justin Cole’s Down East Saloon",
+    "city": "Homer",
+    "date": "2026-08-11",
+    "time": "6:30p-10p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=d4aeb6bcfd&e=be0392aff7",
+    "category": "music",
+    "cost": ""
   }
 ]

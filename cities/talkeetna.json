@@ -174,5 +174,104 @@
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1590844869717640&set=pb.100063764251860.-2207520000",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4441",
+    "title": "Tim Easton House Show",
+    "venue": "Spatterdock Rd.",
+    "city": "Talkeetna",
+    "date": "2026-08-06",
+    "time": "6p-?",
+    "ticketUrl": "https://malemutesaloon.com/schedule/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4475",
+    "title": "Live At Five Summer Concerts: Nervis Rex",
+    "venue": "Talkeetna Village Park",
+    "city": "Talkeetna",
+    "date": "2026-08-07",
+    "time": "5p-7p",
+    "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4476",
+    "title": "Nervis Rex",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2026-08-07",
+    "time": "9p-1a",
+    "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4516",
+    "title": "Jerry Wessling Band",
+    "venue": "Denali Brewing Company",
+    "city": "Talkeetna",
+    "date": "2026-08-08",
+    "time": "6p-8",
+    "ticketUrl": "https://www.facebook.com/events/2540219679749437/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4517",
+    "title": "The Pit Viperz",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2026-08-08",
+    "time": "9p-1a",
+    "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4557",
+    "title": "Steve Durr",
+    "venue": "Mountain High Pizza Pie",
+    "city": "Talkeetna",
+    "date": "2026-08-09",
+    "time": "1p-2:30p & 5p-6:30p",
+    "ticketUrl": "https://www.pizzapietalkeetna.com/event-type/live-music/?fbclid=IwY2xjawRvBv9leHRuA2FlbQIxMABicmlkETE4T3g0UnoxVExiYTJjdXdQc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjyB1eWoEUpiOvGrlQarejNeQ12UXmcHnrBjwbrtFOPH0Rv2MmpWh1UA2AxS_aem_ls3CB8uZ3Xj26XD5nR9-",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4574",
+    "title": "Karaoke",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2026-08-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4597",
+    "title": "Timber Tots!",
+    "venue": "Denali Education Center",
+    "city": "Talkeetna",
+    "date": "2026-08-11",
+    "time": "11a-12p",
+    "ticketUrl": "https://www.facebook.com/events/964927736351240/964927756351238/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4631",
+    "title": "Solo Steve Norwood",
+    "venue": "Denali Brewing Company",
+    "city": "Talkeetna",
+    "date": "2026-08-12",
+    "time": "5:30p-8:30",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "music",
+    "cost": ""
   }
 ]

@@ -101,9 +101,9 @@ function run() {
     const VALID_CITIES = new Set([
       'anchorage', 'anchorag', 'barrow', 'bethel', 'big lake', 'chugiak', 'cooper landing',
       'cordova', 'eagle river', 'ester', 'fairbanks', 'girdwood', 'haines', 'homer', 'hope',
-      'juneau', 'kenai', 'ketchikan', 'kodiak', 'mccarthy', 'north pole', 'palmer',
-      'seldovia', 'seward', 'skagway', 'soldotna', 'sterling', 'talkeetna', 'wasilla',
-      'valdez', 'sitka'
+      'juneau', 'kasilof', 'kenai', 'ketchikan', 'kodiak', 'mccarthy', 'moose pass', 'ninilchik',
+      'north pole', 'palmer', 'seldovia', 'seward', 'sitka', 'skagway', 'soldotna', 'sterling',
+      'talkeetna', 'tok', 'valdez', 'wasilla', 'willow'
     ]);
     const normalizedLine = line.toLowerCase().trim();
     if (VALID_CITIES.has(normalizedLine)) {

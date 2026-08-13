@@ -1593,5 +1593,148 @@
     "ticketUrl": "https://www.facebook.com/BrokenBlenderAK",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4410",
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-05",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4425",
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4426",
+    "title": "Ian Maksin: Songs of the Vagabond Cello",
+    "venue": "Kuneix Hidi Northen Light United Church",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "7:30p-?",
+    "ticketUrl": "https://www.facebook.com/events/1014818561498917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4427",
+    "title": "Whiskey Class w/ The Planktonics",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1754549059314805&set=a.758212905615097",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4428",
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4459",
+    "title": "Steady Going",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-07",
+    "time": "10p-?",
+    "ticketUrl": "https://www.instagram.com/p/DbeIkHLSIlT/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4460",
+    "title": "Fernet Coin Release Party ft. Sundew & The Rain Dogs",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-07",
+    "time": "10p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4497",
+    "title": "Noche Latina ft DJ Omar",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-08",
+    "time": "10p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4568",
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-10",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4588",
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-11",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4621",
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4622",
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4623",
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
   }
 ]

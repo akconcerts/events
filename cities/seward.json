@@ -889,5 +889,115 @@
     "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4411",
+    "title": "Karaoke with Raunchy Rachel",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-05",
+    "time": "9p-1a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4437",
+    "title": "Dance Night w/ DJ Waitwat",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-06",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1495877732548962&set=pb.100063802472762.-2207520000&type=3",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "id": "4471",
+    "title": "Live Music w/ Raised by Elephants",
+    "venue": "Flamingo Lounge",
+    "city": "Seward",
+    "date": "2026-08-07",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "https://www.eventbrite.com/e/live-at-the-flamingo-raised-by-elephants-tickets-1993588170885?aff=ebdsoporgprofile",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4472",
+    "title": "Ayla Ray w/ The Chris Christy Quintet",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-07",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4512",
+    "title": "Ayla Ray w/ The Chris Christy Quintet",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-08",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4554",
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-09",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4570",
+    "title": "Seward Strings",
+    "venue": "Seward Senior Center",
+    "city": "Seward",
+    "date": "2026-08-10",
+    "time": "1p-4p",
+    "ticketUrl": "https://www.facebook.com/SewardSeniors",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4571",
+    "title": "Karaoke Contest Finals with Megan Killoran",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4595",
+    "title": "Open Mic Night with Braden",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-11",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4628",
+    "title": "Karaoke with Raunchy Rachel",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-08-12",
+    "time": "9p-1a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
   }
 ]

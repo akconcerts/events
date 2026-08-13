@@ -11570,5 +11570,104 @@
     "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4409",
+    "title": "Karaoke Night w/ KJ Smoke",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-05",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4413",
+    "title": "Dance Lessons with Shufflin Country Style",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-06",
+    "time": "8p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "id": "4414",
+    "title": "Country Night w/ DJ AumanJoy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-06",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4445",
+    "title": "DJ AumanJoy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-07",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4483",
+    "title": "Storytime on the Bus",
+    "venue": "Chugiak-Eagle River Library",
+    "city": "Eagle River",
+    "date": "2026-08-08",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/3428441044002629/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4484",
+    "title": "DJ Auman Joy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-08",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4565",
+    "title": "Karaoke Mondays",
+    "venue": "Odd Man Rush",
+    "city": "Eagle River",
+    "date": "2026-08-10",
+    "time": "6p-9p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4616",
+    "title": "Karaoke Night w/ KJ Smoke",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-08-12",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4635",
+    "title": "Snacks at Midnight",
+    "venue": "Odd Man Rush",
+    "city": "Eagle River",
+    "date": "2026-08-13",
+    "time": "7p-?",
+    "ticketUrl": "https://www.facebook.com/events/979644471786128",
+    "category": "music",
+    "cost": ""
   }
 ]

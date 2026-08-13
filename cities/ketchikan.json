@@ -185,5 +185,126 @@
     "ticketUrl": "https://www.facebook.com/events/991412623671001",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4432",
+    "title": "Ketchikan Arts & Humanities Council: Arts Report",
+    "venue": "105.3 FM KRBD",
+    "city": "Ketchikan",
+    "date": "2026-08-06",
+    "time": "8:20a-8:35a",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4433",
+    "title": "Open Mic Night",
+    "venue": "Totem Bar",
+    "city": "Ketchikan",
+    "date": "2026-08-06",
+    "time": "8p-10p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4462",
+    "title": "Shelby Yount Jazz Vocalist",
+    "venue": "The Creek Street Cabaret",
+    "city": "Ketchikan",
+    "date": "2026-08-07",
+    "time": "7p-?",
+    "ticketUrl": "https://www.facebook.com/events/1694231361803001/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4463",
+    "title": "Live Music in the Café",
+    "venue": "The New York Café",
+    "city": "Ketchikan",
+    "date": "2026-08-07",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/07/1786161600/live-music-the-new-york-cafe/559110",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4501",
+    "title": "Virgin Voyages: Brilliant Lady Land Party",
+    "venue": "Arctic Bar",
+    "city": "Ketchikan",
+    "date": "2026-08-08",
+    "time": "12p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1466272915541691/1466276535541329/?active_tab=about",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4502",
+    "title": "Summer Saturdays at the Museum",
+    "venue": "Tongass Historical Museum",
+    "city": "Ketchikan",
+    "date": "2026-08-08",
+    "time": "1p-3p",
+    "ticketUrl": "https://www.facebook.com/events/873907959081409/873907992414739/?active_tab=about",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4551",
+    "title": "Open Mic Night w/ Joe Williams",
+    "venue": "The Creek Street Cabaret",
+    "city": "Ketchikan",
+    "date": "2026-08-09",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4590",
+    "title": "Music on the Dock: Scattered Sunshine Trombone Choir",
+    "venue": "Ketchikan Dock",
+    "city": "Ketchikan",
+    "date": "2026-08-11",
+    "time": "12p-1p",
+    "ticketUrl": "https://www.ketchikanarts.org/programs-events/music-on-the-dock-summer-concert-series.html",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4591",
+    "title": "Open Mic Night",
+    "venue": "Hole in the Wall",
+    "city": "Ketchikan",
+    "date": "2026-08-11",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4624",
+    "title": "Music on the Dock: The Foghorn Five",
+    "venue": "Ketchikan Dock",
+    "city": "Ketchikan",
+    "date": "2026-08-12",
+    "time": "12p-1p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/12/music-on-dock-the-foghorn-five/566266",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4625",
+    "title": "The Ukulele Group",
+    "venue": "Inn at Creek Street",
+    "city": "Ketchikan",
+    "date": "2026-08-12",
+    "time": "3:45p-4:45p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/12/1786581900/the-ukelele-group-/521570",
+    "category": "music",
+    "cost": ""
   }
 ]

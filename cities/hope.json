@@ -97,5 +97,71 @@
     "ticketUrl": "https://hopewagonrun.com/weekend-events/",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4457",
+    "title": "Saturday Cinders",
+    "venue": "Dirty Skillet",
+    "city": "Hope",
+    "date": "2026-08-07",
+    "time": "6p-10p",
+    "ticketUrl": "https://dirtyskillet.com/music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4458",
+    "title": "Reverend Peyton's Big Damn Band",
+    "venue": "Creekbend Co.",
+    "city": "Hope",
+    "date": "2026-08-07",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.creekbendco.com/event",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4494",
+    "title": "Family Fishing Day",
+    "venue": "Seaview Historic Café & Campground",
+    "city": "Hope",
+    "date": "2026-08-08",
+    "time": "12p-?",
+    "ticketUrl": "https://www.facebook.com/events/2080809609522804/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4495",
+    "title": "Saturday Cinders",
+    "venue": "Dirty Skillet",
+    "city": "Hope",
+    "date": "2026-08-08",
+    "time": "6p-10p",
+    "ticketUrl": "https://dirtyskillet.com/music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4496",
+    "title": "Reverend Peyton's Big Damn Band",
+    "venue": "Creekbend Co.",
+    "city": "Hope",
+    "date": "2026-08-08",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.creekbendco.com/event",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4550",
+    "title": "Sunday Brunch with Saturday Cinders",
+    "venue": "Creekbend Co.",
+    "city": "Hope",
+    "date": "2026-08-09",
+    "time": "11a-2p",
+    "ticketUrl": "https://dirtyskillet.com/music",
+    "category": "community",
+    "cost": ""
   }
 ]

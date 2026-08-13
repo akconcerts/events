@@ -372,5 +372,27 @@
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4481",
+    "title": "Big Lake Community Farmer’s Market",
+    "venue": "Common Ground Alaska Farm",
+    "city": "Big Lake",
+    "date": "2026-08-08",
+    "time": "12p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1505191268049063/1505191301382393/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4541",
+    "title": "Open Mic Night",
+    "venue": "Susitna Brewing",
+    "city": "Big Lake",
+    "date": "2026-08-09",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
   }
 ]

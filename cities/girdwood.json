@@ -152,5 +152,27 @@
     "ticketUrl": "https://www.facebook.com/events/4209337435985219/4209337512651878/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "community",
     "cost": ""
+  },
+  {
+    "id": "4419",
+    "title": "Ride Bikes, Drink Beer",
+    "venue": "Girdwood Brewing Company",
+    "city": "Girdwood",
+    "date": "2026-08-06",
+    "time": "6:30p-?",
+    "ticketUrl": "https://www.facebook.com/events/980353717958999/980353771292327/?active_tab=about",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4420",
+    "title": "Up A Mountain Duo",
+    "venue": "Jack Sprat",
+    "city": "Girdwood",
+    "date": "2026-08-06",
+    "time": "6p-?",
+    "ticketUrl": "https://www.facebook.com/events/1297498735159167/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
   }
 ]

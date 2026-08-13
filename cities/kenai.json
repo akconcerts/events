@@ -75,5 +75,93 @@
     "ticketUrl": "https://www.facebook.com/events/1013769658218890",
     "category": "community",
     "cost": ""
+  },
+  {
+    "id": "4429",
+    "title": "Summer Reading Celebration",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "2p-4p",
+    "ticketUrl": "https://www.facebook.com/events/2032395834067424/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4430",
+    "title": "Open Primary Gubernatorial Canidate Debate",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "5:30p-8p",
+    "ticketUrl": "https://www.facebook.com/events/901104452519579/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4431",
+    "title": "Big Irish Jay Hollingsworth Comedy Show",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/big-irish-jay-hollingsworth-main-street-tap-grill-2026",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "id": "4461",
+    "title": "Solo Steve Norwood",
+    "venue": "Skeet’s Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-07",
+    "time": "9p-?",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4499",
+    "title": "Beyond the Exhibit: Native Plant Walk",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-08",
+    "time": "12p-?",
+    "ticketUrl": "https://www.facebook.com/events/1636198671130466/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4500",
+    "title": "Stand Up Comedy w/ Sabrina Speers, Mike Comer, Drew Gordon, & More!",
+    "venue": "Kenai Elks Lodge",
+    "city": "Kenai",
+    "date": "2026-08-08",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/standup-comedy-show-kenai-elks-lodge",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "id": "4569",
+    "title": "Storytime & Craft: \"Moose and Magpie\"",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-10",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/2252700968879689/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "id": "4589",
+    "title": "Line Dance Lessons",
+    "venue": "Skeet’s Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-11",
+    "time": "7p-?",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "dance",
+    "cost": ""
   }
 ]

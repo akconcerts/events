@@ -141,5 +141,71 @@
     "ticketUrl": "https://www.eventbrite.com/e/ken-peltier-band-tickets-1985756827125?aff=ehometext",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4412",
+    "title": "Sonoran Sunsets",
+    "venue": "Gwin’s Lodge",
+    "city": "Cooper Landing",
+    "date": "2026-08-06",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4444",
+    "title": "Hope Cassity",
+    "venue": "Gwin’s Lodge",
+    "city": "Cooper Landing",
+    "date": "2026-08-07",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4482",
+    "title": "Jesse James",
+    "venue": "Gwin’s Lodge",
+    "city": "Cooper Landing",
+    "date": "2026-08-08",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4542",
+    "title": "Power Plant Comedy w/ Stephen Wheeler",
+    "venue": "Cooper Landing Brewing",
+    "city": "Cooper Landing",
+    "date": "2026-08-09",
+    "time": "7p-9:30p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "id": "4634",
+    "title": "Seth Malone",
+    "venue": "Gwin’s Lodge",
+    "city": "Cooper Landing",
+    "date": "2026-08-13",
+    "time": "5p-?",
+    "ticketUrl": "https://www.facebook.com/events/1314368867508276/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4636",
+    "title": "Black Barrel & The Bad Men",
+    "venue": "Cooper Landing Brewing",
+    "city": "Cooper Landing",
+    "date": "2026-08-15",
+    "time": "6:30p-?",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3",
+    "category": "music",
+    "cost": ""
   }
 ]

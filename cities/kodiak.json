@@ -20,5 +20,27 @@
     "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4464",
+    "title": "Black Barrel and the Bad Men",
+    "venue": "The Rendezvous",
+    "city": "Kodiak",
+    "date": "2026-08-07",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4503",
+    "title": "Black Barrel and the Bad Men",
+    "venue": "The Rendezvous",
+    "city": "Kodiak",
+    "date": "2026-08-08",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
+    "category": "music",
+    "cost": ""
   }
 ]

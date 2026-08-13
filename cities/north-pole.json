@@ -20,5 +20,38 @@
     "ticketUrl": "https://www.facebook.com/events/1210834251124828/1210834337791486/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
     "category": "community",
     "cost": ""
+  },
+  {
+    "id": "4435",
+    "title": "Karaoke Thursdays with Rocky Barnette",
+    "venue": "North Pole Alehouse",
+    "city": "North Pole",
+    "date": "2026-08-06",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4506",
+    "title": "World’s Biggest Backpack Give Day 2026",
+    "venue": "Summit Church",
+    "city": "North Pole",
+    "date": "2026-08-08",
+    "time": "10a-2p",
+    "ticketUrl": "https://www.facebook.com/events/2588737454893147/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4592",
+    "title": "Tuesday Pub Run w/ Tundra Trotters",
+    "venue": "North Pole Alehouse",
+    "city": "North Pole",
+    "date": "2026-08-11",
+    "time": "6:15p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1210834251124828/1210834304458156/?event_time_id=1210834334458153",
+    "category": "community",
+    "cost": ""
   }
 ]

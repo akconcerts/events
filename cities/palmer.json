@@ -438,5 +438,170 @@
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116",
     "category": "music",
     "cost": ""
+  },
+  {
+    "id": "4436",
+    "title": "Barry Sless & Stephen Inglis",
+    "venue": "Hatcher Pass Lodge",
+    "city": "Palmer",
+    "date": "2026-08-06",
+    "time": "2p-5p",
+    "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4466",
+    "title": "Friday Fling Live Music Will Johnson",
+    "venue": "Downtown Palmer",
+    "city": "Palmer",
+    "date": "2026-08-07",
+    "time": "11a-6p",
+    "ticketUrl": "https://www.facebook.com/FridayFlings",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4467",
+    "title": "The Jerry Wessling Band",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2026-08-07",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/events/2540219679749437/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4468",
+    "title": "Karaoke",
+    "venue": "American Legion Post 15",
+    "city": "Palmer",
+    "date": "2026-08-07",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4469",
+    "title": "Super Saturated Sugar Strings",
+    "venue": "The Musk Ox Farm",
+    "city": "Palmer",
+    "date": "2026-08-07",
+    "time": "7p-9:30",
+    "ticketUrl": "https://www.facebook.com/events/1390284176466779/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4507",
+    "title": "Seth Freeman Band",
+    "venue": "Hatcher Pass Lodge",
+    "city": "Palmer",
+    "date": "2026-08-08",
+    "time": "4p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4508",
+    "title": "The Ken Peltier Band",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2026-08-08",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/events/4659782330916669",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4509",
+    "title": "Two-Step and Country Swing Dance Lessons!",
+    "venue": "American Legion Post 15",
+    "city": "Palmer",
+    "date": "2026-08-08",
+    "time": "7p-8p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "id": "4510",
+    "title": "Karaoke",
+    "venue": "American Legion Post 15",
+    "city": "Palmer",
+    "date": "2026-08-08",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4552",
+    "title": "Ayla Ray",
+    "venue": "Hatcher Pass Lodge",
+    "city": "Palmer",
+    "date": "2026-08-09",
+    "time": "2p-5p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4553",
+    "title": "Karaoke",
+    "venue": "Four Corner’s Lounge",
+    "city": "Palmer",
+    "date": "2026-08-09",
+    "time": "8p-?",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4593",
+    "title": "Open Mic Night w/ Drew Sablon",
+    "venue": "Fishhook Bar & Grill",
+    "city": "Palmer",
+    "date": "2026-08-11",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4594",
+    "title": "Industry Night with DJ Red",
+    "venue": "Four Corner’s Lounge",
+    "city": "Palmer",
+    "date": "2026-08-11",
+    "time": "8p-?",
+    "ticketUrl": "https://www.facebook.com/FourCornersLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4626",
+    "title": "Fireside Book Club",
+    "venue": "Bleeding Heart Brewery",
+    "city": "Palmer",
+    "date": "2026-08-12",
+    "time": "6:30p-8:30p",
+    "ticketUrl": "https://www.facebook.com/events/850328077498239/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4627",
+    "title": "West Coast Sing Wednesday",
+    "venue": "Four Corner’s Lounge",
+    "city": "Palmer",
+    "date": "2026-08-12",
+    "time": "7:30p-9:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116",
+    "category": "music",
+    "cost": ""
   }
 ]

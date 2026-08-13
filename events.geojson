@@ -64480,6 +64480,2506 @@
         "category": "music",
         "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4410",
+        "title": "Open Mic Night",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-05",
+        "time": "8p-11:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4411",
+        "title": "Karaoke with Raunchy Rachel",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-05",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4415",
+        "title": "Free Youth Concert Band Rehearsals",
+        "venue": "Fairbanks Community Band Hall",
+        "city": "Fairbanks",
+        "date": "2026-08-06",
+        "time": "5p-6p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1521883622657906/1521883635991238/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4416",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-06",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4417",
+        "title": "Tanana Valley State Fair",
+        "venue": "Tanana Valley State Fair Grounds",
+        "city": "Fairbanks",
+        "date": "2026-08-06",
+        "time": "8a-10p",
+        "category": "festival",
+        "ticketUrl": "https://www.tvsfa.org/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4418",
+        "title": "Karaoke with Angel",
+        "venue": "The International Hotel & Bar",
+        "city": "Fairbanks",
+        "date": "2026-08-06",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1667,
+          60.9422
+        ]
+      },
+      "properties": {
+        "id": "4419",
+        "title": "Ride Bikes, Drink Beer",
+        "venue": "Girdwood Brewing Company",
+        "city": "Girdwood",
+        "date": "2026-08-06",
+        "time": "6:30p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/980353717958999/980353771292327/?active_tab=about"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1667,
+          60.9422
+        ]
+      },
+      "properties": {
+        "id": "4420",
+        "title": "Up A Mountain Duo",
+        "venue": "Jack Sprat",
+        "city": "Girdwood",
+        "date": "2026-08-06",
+        "time": "6p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1297498735159167/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4421",
+        "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+        "venue": "Pratt Museum",
+        "city": "Homer",
+        "date": "2026-08-06",
+        "time": "11a-12p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4422",
+        "title": "Community Jam Sessions",
+        "venue": "Homer Council on the Arts",
+        "city": "Homer",
+        "date": "2026-08-06",
+        "time": "6:30p-9p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/987084407583120/987084454249782/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4423",
+        "title": "Piano Music by Erica",
+        "venue": "AJ’s Old Town Steakhouse & Tavern",
+        "city": "Homer",
+        "date": "2026-08-06",
+        "time": "6p-8p",
+        "category": "music",
+        "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4424",
+        "title": "Karaoke Night",
+        "venue": "Alibi Bar & Café",
+        "city": "Homer",
+        "date": "2026-08-06",
+        "time": "9p-12:30a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4425",
+        "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-06",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4197,
+          58.3019
+        ]
+      },
+      "properties": {
+        "id": "4426",
+        "title": "Ian Maksin: Songs of the Vagabond Cello",
+        "venue": "Kuneix Hidi Northen Light United Church",
+        "city": "Juneau",
+        "date": "2026-08-06",
+        "time": "7:30p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1014818561498917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4197,
+          58.3019
+        ]
+      },
+      "properties": {
+        "id": "4427",
+        "title": "Whiskey Class w/ The Planktonics",
+        "venue": "Alaskan Hotel and Bar",
+        "city": "Juneau",
+        "date": "2026-08-06",
+        "time": "7p-11p",
+        "category": "community",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1754549059314805&set=a.758212905615097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4428",
+        "title": "Karaoke Night",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-06",
+        "time": "8p-12a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4436",
+        "title": "Barry Sless & Stephen Inglis",
+        "venue": "Hatcher Pass Lodge",
+        "city": "Palmer",
+        "date": "2026-08-06",
+        "time": "2p-5p",
+        "category": "music",
+        "ticketUrl": "https://www.mccarthylodge.com/mccarthy-events/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4437",
+        "title": "Dance Night w/ DJ Waitwat",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-06",
+        "time": "9p-2a",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/photo.php?fbid=1495877732548962&set=pb.100063802472762.-2207520000&type=3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4447",
+        "title": "Summer Cycle Music Together Generations Class",
+        "venue": "Raven Landing Senior Center",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "11:30a-12:15p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1737992094062055/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4448",
+        "title": "First Friday Party w/ Live Music",
+        "venue": "Gather",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "5p-8",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/28669224756000903?post_id=28671156229141089&acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment_media%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4449",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4450",
+        "title": "Tanana Valley State Fair",
+        "venue": "Tanana Valley State Fair Grounds",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "8a-10p",
+        "category": "festival",
+        "ticketUrl": "https://www.tvsfa.org/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4451",
+        "title": "Collin Donley Live",
+        "venue": "The Cabin",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "9p-12a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=885504217337775&set=gm.856329890579727"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4452",
+        "title": "The Goddamn Ranchhand Band",
+        "venue": "The Marlin",
+        "city": "Fairbanks",
+        "date": "2026-08-07",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1555683509934406/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4454",
+        "title": "Jacques Longpre",
+        "venue": "Kharacters Alaskan Bar",
+        "city": "Homer",
+        "date": "2026-08-07",
+        "time": "10p-2p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/kharacters.bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4455",
+        "title": "Sense And Sensibility",
+        "venue": "Pier One Theater",
+        "city": "Homer",
+        "date": "2026-08-07",
+        "time": "7:30p-?",
+        "category": "music",
+        "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4456",
+        "title": "Last Call: DJ Fractal's Last Show in AK",
+        "venue": "Alibi Bar & Café",
+        "city": "Homer",
+        "date": "2026-08-07",
+        "time": "9:30p-1:30a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/37541222298802291/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4197,
+          58.3019
+        ]
+      },
+      "properties": {
+        "id": "4459",
+        "title": "Steady Going",
+        "venue": "Alaskan Hotel and Bar",
+        "city": "Juneau",
+        "date": "2026-08-07",
+        "time": "10p-?",
+        "category": "music",
+        "ticketUrl": "https://www.instagram.com/p/DbeIkHLSIlT/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4460",
+        "title": "Fernet Coin Release Party ft. Sundew & The Rain Dogs",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-07",
+        "time": "10p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/thecrystalsaloon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4466",
+        "title": "Friday Fling Live Music Will Johnson",
+        "venue": "Downtown Palmer",
+        "city": "Palmer",
+        "date": "2026-08-07",
+        "time": "11a-6p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/FridayFlings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4467",
+        "title": "The Jerry Wessling Band",
+        "venue": "Palmer Alehouse",
+        "city": "Palmer",
+        "date": "2026-08-07",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/2540219679749437/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4468",
+        "title": "Karaoke",
+        "venue": "American Legion Post 15",
+        "city": "Palmer",
+        "date": "2026-08-07",
+        "time": "7p-11p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4469",
+        "title": "Super Saturated Sugar Strings",
+        "venue": "The Musk Ox Farm",
+        "city": "Palmer",
+        "date": "2026-08-07",
+        "time": "7p-9:30",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1390284176466779/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4472",
+        "title": "Ayla Ray w/ The Chris Christy Quintet",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-07",
+        "time": "9p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1158,
+          62.3242
+        ]
+      },
+      "properties": {
+        "id": "4476",
+        "title": "Nervis Rex",
+        "venue": "Fairview Inn",
+        "city": "Talkeetna",
+        "date": "2026-08-07",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4485",
+        "title": "Science for Alaska: AK’s Cold Winter in a Warming Climate",
+        "venue": "Explore Fairbanks",
+        "city": "Fairbanks",
+        "date": "2026-08-08",
+        "time": "11:30a-12:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1056637257543047/1056637280876378/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4486",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-08",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4487",
+        "title": "Tanana Valley State Fair",
+        "venue": "Tanana Valley State Fair Grounds",
+        "city": "Fairbanks",
+        "date": "2026-08-08",
+        "time": "8a-10p",
+        "category": "festival",
+        "ticketUrl": "https://www.tvsfa.org/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4488",
+        "title": "The Supply Chain Live Pop Punk & Emo Tribute",
+        "venue": "The International Hotel & Bar",
+        "city": "Fairbanks",
+        "date": "2026-08-08",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4490",
+        "title": "Pushki Pickers",
+        "venue": "Kharacters Alaskan Bar",
+        "city": "Homer",
+        "date": "2026-08-08",
+        "time": "10p-2p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/kharacters.bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4491",
+        "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+        "venue": "Pratt Museum",
+        "city": "Homer",
+        "date": "2026-08-08",
+        "time": "11a-12p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/27331907429732951/27331907509732943/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4492",
+        "title": "Piano Music by Sunrise Kilcher",
+        "venue": "AJ’s Old Town Steakhouse & Tavern",
+        "city": "Homer",
+        "date": "2026-08-08",
+        "time": "6p-8p",
+        "category": "music",
+        "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4493",
+        "title": "Sense And Sensibility",
+        "venue": "Pier One Theater",
+        "city": "Homer",
+        "date": "2026-08-08",
+        "time": "7:30p-?",
+        "category": "music",
+        "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4497",
+        "title": "Noche Latina ft DJ Omar",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-08",
+        "time": "10p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/thecrystalsaloon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4507",
+        "title": "Seth Freeman Band",
+        "venue": "Hatcher Pass Lodge",
+        "city": "Palmer",
+        "date": "2026-08-08",
+        "time": "4p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4508",
+        "title": "The Ken Peltier Band",
+        "venue": "Palmer Alehouse",
+        "city": "Palmer",
+        "date": "2026-08-08",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/4659782330916669"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4509",
+        "title": "Two-Step and Country Swing Dance Lessons!",
+        "venue": "American Legion Post 15",
+        "city": "Palmer",
+        "date": "2026-08-08",
+        "time": "7p-8p",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4510",
+        "title": "Karaoke",
+        "venue": "American Legion Post 15",
+        "city": "Palmer",
+        "date": "2026-08-08",
+        "time": "8p-11p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4512",
+        "title": "Ayla Ray w/ The Chris Christy Quintet",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-08",
+        "time": "9p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1158,
+          62.3242
+        ]
+      },
+      "properties": {
+        "id": "4517",
+        "title": "The Pit Viperz",
+        "venue": "Fairview Inn",
+        "city": "Talkeetna",
+        "date": "2026-08-08",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4524",
+        "title": "Koots Karaoke",
+        "venue": "Koot’s",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "10p-2a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4525",
+        "title": "Industry Night w/ Joe Brady",
+        "venue": "Pioneer Bar",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "10p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4526",
+        "title": "Live Music at the Market",
+        "venue": "Anchorage Weekend Market",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "11a-5p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/AnchorageWeekendDowntownMarket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4527",
+        "title": "2026 Japanese Summer Festival",
+        "venue": "Kincaid Chalet",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "12p-3p",
+        "category": "festival",
+        "ticketUrl": "https://www.facebook.com/events/2168902037233354/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4528",
+        "title": "ALC Concert Series: Anchorage Jazz Ensemble",
+        "venue": "Anchorage Lutheran Church",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "4:30p-6p",
+        "category": "music",
+        "ticketUrl": "https://www.eventbrite.com/e/alc-concert-series-anchorage-jazz-ensemble-tickets-1994252748655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4529",
+        "title": "Open Mic & Jam",
+        "venue": "VFW Post 1685",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "4:30p-8:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/tyrone.palmer.722744"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4530",
+        "title": "Garden Grooves: Music in the Beer Garden",
+        "venue": "49th State Brewery",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4531",
+        "title": "Country Dance Nights: Line Dancing & Swing",
+        "venue": "Anchorage Social Dance Club",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "6:30p-9:30p",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/35PlusClub/posts/pfbid0WJizwEbNi85duFkPSHFUsdVjmCMNhvohUubFJ3YdcCa5a49CmcfsWq4FKLK63J9xl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4532",
+        "title": "Sunday Blues Jam w/ Rebel Blues Band",
+        "venue": "Billiard Palace",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "6p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/2204843740345501/2204843797012162/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4533",
+        "title": "All Ages Buckarooos Night",
+        "venue": "Pink Cadillac",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "6p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1668434181079131/1668434254412457/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4534",
+        "title": "Comedy Open Mic",
+        "venue": "Koot’s",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "8:30p-10p",
+        "category": "comedy",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4535",
+        "title": "Open Jam with Blast From The Past",
+        "venue": "Time Out Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "8:30p-1a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=91844526ab&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4536",
+        "title": "Open Mic Night",
+        "venue": "Van’s Dive Bar",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "8p-11p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4537",
+        "title": "Sunday Karaoke",
+        "venue": "The Carousel Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4538",
+        "title": "Tri the Y Kids Triathlon",
+        "venue": "YMCA",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "9a-1p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1356672679730189/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4539",
+        "title": "Arctic Thunder Open House & Air Show Celebrating America’s 250th",
+        "venue": "JBER",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "9a-5p",
+        "category": "music",
+        "ticketUrl": "https://www.jber.jb.mil/Info/Arctic-Thunder-Open-House/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4540",
+        "title": "Karaoke",
+        "venue": "Mad Myrna’s",
+        "city": "Anchorage",
+        "date": "2026-08-09",
+        "time": "9p-12a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4545",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-09",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4546",
+        "title": "Tanana Valley State Fair",
+        "venue": "Tanana Valley State Fair Grounds",
+        "city": "Fairbanks",
+        "date": "2026-08-09",
+        "time": "8a-10p",
+        "category": "festival",
+        "ticketUrl": "https://www.tvsfa.org/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4547",
+        "title": "Karaoke",
+        "venue": "The Marlin",
+        "city": "Fairbanks",
+        "date": "2026-08-09",
+        "time": "9p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4548",
+        "title": "Sense And Sensibility",
+        "venue": "Pier One Theater",
+        "city": "Homer",
+        "date": "2026-08-09",
+        "time": "3p-?",
+        "category": "music",
+        "ticketUrl": "https://pieronetheatre.org/events/sense-and-sensibility"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4549",
+        "title": "Luke Smith",
+        "venue": "Kharacters Alaskan Bar",
+        "city": "Homer",
+        "date": "2026-08-09",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/kharacters.bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4552",
+        "title": "Ayla Ray",
+        "venue": "Hatcher Pass Lodge",
+        "city": "Palmer",
+        "date": "2026-08-09",
+        "time": "2p-5p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1580563350521141&set=a.589423516301801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4553",
+        "title": "Karaoke",
+        "venue": "Four Corner’s Lounge",
+        "city": "Palmer",
+        "date": "2026-08-09",
+        "time": "8p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4554",
+        "title": "Karaoke",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-09",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4560",
+        "title": "PAWSitive Reading w/ Therapy Dogs",
+        "venue": "Loussac Library",
+        "city": "Anchorage",
+        "date": "2026-08-10",
+        "time": "3p-4p",
+        "category": "music",
+        "ticketUrl": "https://www.anchoragelibrary.org/events/classes-schedules/community-events/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4561",
+        "title": "Garden Grooves: Music in the Beer Garden",
+        "venue": "49th State Brewery",
+        "city": "Anchorage",
+        "date": "2026-08-10",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4562",
+        "title": "Weekly Jazz Jam",
+        "venue": "Fire Island Bakery @ K Street Market",
+        "city": "Anchorage",
+        "date": "2026-08-10",
+        "time": "6:30p-9:30p",
+        "category": "music",
+        "ticketUrl": "https://akjazzworkshop.org/calendar/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4563",
+        "title": "Learn to Square Dance",
+        "venue": "Anchorage Social Dance Club",
+        "city": "Anchorage",
+        "date": "2026-08-10",
+        "time": "7p-9p",
+        "category": "dance",
+        "ticketUrl": "https://www.akconcerts.com/learn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4564",
+        "title": "Bachata Dance Patterns",
+        "venue": "Alaska Dance Promotions",
+        "city": "Anchorage",
+        "date": "2026-08-10",
+        "time": "8:30p-9:30p",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/events/1363802471592782/1363802584926104/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4566",
+        "title": "Gazebo Nights Concert Series: Alaska Wompus Cats",
+        "venue": "Pioneer Park",
+        "city": "Fairbanks",
+        "date": "2026-08-10",
+        "time": "6p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1304683955212602/1304683971879267/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4567",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-10",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4197,
+          58.3019
+        ]
+      },
+      "properties": {
+        "id": "4568",
+        "title": "RawBeats w/ Astronomar & Friends",
+        "venue": "Alaskan Hotel and Bar",
+        "city": "Juneau",
+        "date": "2026-08-10",
+        "time": "9p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4571",
+        "title": "Karaoke Contest Finals with Megan Killoran",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-10",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1158,
+          62.3242
+        ]
+      },
+      "properties": {
+        "id": "4574",
+        "title": "Karaoke",
+        "venue": "Fairview Inn",
+        "city": "Talkeetna",
+        "date": "2026-08-10",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4575",
+        "title": "Lunch on the Lawn: Live Music w/ Fiona Rose",
+        "venue": "Anchorage Museum",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "11:30a-1:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1922185821777460/1922185828444126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4576",
+        "title": "Garden Grooves: Music in the Beer Garden",
+        "venue": "49th State Brewery",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4577",
+        "title": "Irish Music & Dancing",
+        "venue": "Organic Oasis",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "6p-8p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/organicoasisAK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8931,
+          61.2163
+        ]
+      },
+      "properties": {
+        "id": "4578",
+        "title": "Ted Stevens Young Alaskan Artist Award Recital Liam Dooley",
+        "venue": "Alaska Center for the Performing Arts",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "7:30p-9p",
+        "category": "music",
+        "ticketUrl": "https://centertix.com/events/ted-stevens-young-alaskan-artist-award-recital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4579",
+        "title": "College Night 18+",
+        "venue": "Pink Cadillac",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1537213564605897/1537213611272559/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4580",
+        "title": "Rope Dart Lessons w/ Jerrill",
+        "venue": "Oriental Healing Arts Center",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "8:30p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1705391324273626&set=gm.830839779862518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4581",
+        "title": "AK Rockstar Karaoke",
+        "venue": "The Carousel Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4582",
+        "title": "Goth Night: Terror Tuesday Wave!",
+        "venue": "Koot’s",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/kootsak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4583",
+        "title": "Two Step Tuesday w/ DJ Lele Beats",
+        "venue": "Blarney Stone",
+        "city": "Anchorage",
+        "date": "2026-08-11",
+        "time": "9p-12a",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=936585406046428&set=pcb.936585452713090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4584",
+        "title": "Karaoke Night",
+        "venue": "The Cabin",
+        "city": "Fairbanks",
+        "date": "2026-08-11",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4585",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-11",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4586",
+        "title": "Storytime at the Pratt: Berry Season",
+        "venue": "Pratt Museum",
+        "city": "Homer",
+        "date": "2026-08-11",
+        "time": "10:30a-11:30a",
+        "category": "community",
+        "ticketUrl": "https://www.facebook.com/events/1318067970185424/1318067986852089/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5122,
+          59.6465
+        ]
+      },
+      "properties": {
+        "id": "4587",
+        "title": "Taco Tuesday's with Jim Maloney",
+        "venue": "Justin Cole’s Down East Saloon",
+        "city": "Homer",
+        "date": "2026-08-11",
+        "time": "6:30p-10p",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=d4aeb6bcfd&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4588",
+        "title": "Jazz Jam Tuesday",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-11",
+        "time": "8p-11p",
+        "category": "music",
+        "ticketUrl": "https://www.crystalsaloon.com/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4593",
+        "title": "Open Mic Night w/ Drew Sablon",
+        "venue": "Fishhook Bar & Grill",
+        "city": "Palmer",
+        "date": "2026-08-11",
+        "time": "6p-9p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4594",
+        "title": "Industry Night with DJ Red",
+        "venue": "Four Corner’s Lounge",
+        "city": "Palmer",
+        "date": "2026-08-11",
+        "time": "8p-?",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/FourCornersLounge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4595",
+        "title": "Open Mic Night with Braden",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-11",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4602",
+        "title": "Free Community Storytime",
+        "venue": "Alaska Zoo",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "10:30a-11a",
+        "category": "community",
+        "ticketUrl": "https://www.facebook.com/events/2118396738965650/2118396908965633/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4603",
+        "title": "The Eternal Cowboys",
+        "venue": "Pioneer Bar",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "10p-1a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4604",
+        "title": "Koots Karaoke",
+        "venue": "Koot’s",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "10p-2a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4605",
+        "title": "Garden Grooves: Music in the Beer Garden",
+        "venue": "49th State Brewery",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4606",
+        "title": "International Folk Dancing",
+        "venue": "Anchorage Social Dance Club",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "6:30p-8p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/35PlusClub/posts/pfbid0WJizwEbNi85duFkPSHFUsdVjmCMNhvohUubFJ3YdcCa5a49CmcfsWq4FKLK63J9xl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4607",
+        "title": "Live Music at Crimson w/ Jared Woods",
+        "venue": "Wildbirch Hotel",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "6:30p-9:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/crimsonanchorage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4608",
+        "title": "Seth Malone",
+        "venue": "Manhattan’s Restaurant & Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "6p-9p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/1314368867508276/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4609",
+        "title": "Tyrone & Friends",
+        "venue": "907 Alehouse",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/tyrone.palmer.722744"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4610",
+        "title": "Comedy Open Mic",
+        "venue": "Koot’s",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "7p-10p",
+        "category": "comedy",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4611",
+        "title": "Line Dance Wednesdays",
+        "venue": "Pink Cadillac",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "7p-11p",
+        "category": "dance",
+        "ticketUrl": "https://www.facebook.com/events/1351242593745182/1351242600411848/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4612",
+        "title": "Live Music w/ Pam Santoro",
+        "venue": "Humpy’s",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "8p-11:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/HumpysAlaska/posts/pfbid0X3poRge9txCycQWfALADfNcwHhYikTUYn9MrnRURjZj4ym9JxfEsM48Kt2ALcDBDl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4613",
+        "title": "AK Rockstar Karaoke",
+        "venue": "The Carousel Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4614",
+        "title": "Karaoke",
+        "venue": "Mad Myrna’s",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "9p-12a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4615",
+        "title": "Karaoke",
+        "venue": "Van’s Dive Bar",
+        "city": "Anchorage",
+        "date": "2026-08-12",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4618",
+        "title": "Music w/ Syler Fell & Jess Klemm",
+        "venue": "Running Reindeer Ranch",
+        "city": "Fairbanks",
+        "date": "2026-08-12",
+        "time": "7p-8p",
+        "category": "music",
+        "ticketUrl": "https://runningreindeer.com/music-with-reindeer-schedule/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4619",
+        "title": "Golden Heart Revue",
+        "venue": "The Palace Theater",
+        "city": "Fairbanks",
+        "date": "2026-08-12",
+        "time": "8:15p-9:15p",
+        "category": "music",
+        "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "id": "4620",
+        "title": "Karaoke Night with Rocky!",
+        "venue": "The Spur",
+        "city": "Fairbanks",
+        "date": "2026-08-12",
+        "time": "8p-11p",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4621",
+        "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-12",
+        "time": "5p-7p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4072,
+          58.3006
+        ]
+      },
+      "properties": {
+        "id": "4622",
+        "title": "Open Mic Night",
+        "venue": "The Crystal Saloon",
+        "city": "Juneau",
+        "date": "2026-08-12",
+        "time": "8p-11:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4197,
+          58.3019
+        ]
+      },
+      "properties": {
+        "id": "4623",
+        "title": "Karaoke",
+        "venue": "Alaskan Hotel and Bar",
+        "city": "Juneau",
+        "date": "2026-08-12",
+        "time": "8p-11p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4626",
+        "title": "Fireside Book Club",
+        "venue": "Bleeding Heart Brewery",
+        "city": "Palmer",
+        "date": "2026-08-12",
+        "time": "6:30p-8:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/events/850328077498239/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.11,
+          61.5997
+        ]
+      },
+      "properties": {
+        "id": "4627",
+        "title": "West Coast Sing Wednesday",
+        "venue": "Four Corner’s Lounge",
+        "city": "Palmer",
+        "date": "2026-08-12",
+        "time": "7:30p-9:30p",
+        "category": "music",
+        "ticketUrl": "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4419,
+          60.1039
+        ]
+      },
+      "properties": {
+        "id": "4628",
+        "title": "Karaoke with Raunchy Rachel",
+        "venue": "Yukon Bar",
+        "city": "Seward",
+        "date": "2026-08-12",
+        "time": "9p-1a",
+        "category": "music",
+        "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7"
+      }
     }
   ]
 }
