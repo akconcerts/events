@@ -11,7 +11,7 @@ import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import ConcertMap from '../components/ConcertMap.astro';
 import { events, cities } from '../data/events';
-import { getAlaskaTodayDate, getAlaskaDaysAgoDate, isEventPast, formatFullTime } from '../utils/date';
+import { getAlaskaTodayDate, getAlaskaDaysAgoDate, isEventPast, formatFullTime, getTimeMinutes } from '../utils/date';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
@@ -22,8 +22,16 @@ const upcomingEvents = events.filter(e => e.date >= sevenDaysAgo);
 const sortedEvents = [...upcomingEvents].sort((a, b) => {
   const d = a.date.localeCompare(b.date);
   if (d !== 0) return d;
-  return a.time.localeCompare(b.time);
+  return getTimeMinutes(a.time) - getTimeMinutes(b.time);
 });
+
+// Group by Date for Date View
+const eventsByDate: Record<string, typeof events> = {};
+for (const e of sortedEvents) {
+  if (!eventsByDate[e.date]) eventsByDate[e.date] = [];
+  eventsByDate[e.date].push(e);
+}
+const sortedDates = Object.keys(eventsByDate).sort();
 
 // Group by City
 const eventsByCity: Record<string, typeof events> = {};
@@ -49,9 +57,22 @@ for (const e of sortedEvents) {
 }
 const sortedCategories = Object.keys(eventsByCategory).sort();
 
-const fmtDate = (iso: string) => {
-  const d = new Date(iso + 'T12:00:00');
-  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+const formatDayHeader = (dateStr: string) => {
+  const d = new Date(dateStr + 'T12:00:00');
+  const dateFormatted = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  
+  if (dateStr === currentDate) {
+    return `Today — ${dateFormatted}`;
+  }
+  
+  const tom = new Date(currentDate + 'T12:00:00');
+  tom.setDate(tom.getDate() + 1);
+  const tomStr = tom.toISOString().slice(0, 10);
+  if (dateStr === tomStr) {
+    return `Tomorrow — ${dateFormatted}`;
+  }
+
+  return dateFormatted;
 };
 
 const categoryIcons: Record<string, any> = {
@@ -89,34 +110,45 @@ const formatCategoryName = (cat: string) => {
       <SectionHeading eyebrow="What's Happening in Alaska" title="Playing Soon" />
       <EventFilterBar events={sortedEvents} showTimelineFilter={false} />
 
-      <!-- View: Date (Flat List) -->
+      <!-- View: Date (Grouped by Day) -->
       <div id="view-date" class="events-view-container" style="display: block;">
-        <div class="group-block">
-          <div class="event-list">
-            {sortedEvents.map(e => {
-              const Icon = categoryIcons[e.category] || Music;
-              return (
-                <a 
-                  href={`/events/${e.slug}`} 
-                  class="event-row"
-                  data-city={e.city}
-                  data-date={e.date}
-                  data-venue={e.venue}
-                  data-category={e.category}
-                >
-                  <span class="event-row-icon"><Icon size={14} /></span>
-                  <span class="event-row-date">{e.date}</span>
-                  {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
-                  <span class="event-row-city-pill">{e.city}</span>
-                  <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
-                  <span class="event-row-sep">—</span>
-                  <span class="event-row-title">{e.title}</span>
-                  <span class="event-row-time">{formatFullTime(e.time)}</span>
-                </a>
-              );
-            })}
-          </div>
-        </div>
+        {sortedDates.map(date => {
+          const isToday = date === currentDate;
+          return (
+            <div class="day-block group-block" data-date={date}>
+              <div class="day-header-badge">
+                <h3 class="day-header-title font-display">
+                  {formatDayHeader(date)}
+                </h3>
+                {isToday && <span class="today-pill">TODAY</span>}
+              </div>
+              <div class="event-list">
+                {eventsByDate[date].map(e => {
+                  const Icon = categoryIcons[e.category] || Music;
+                  return (
+                    <a 
+                      href={`/events/${e.slug}`} 
+                      class="event-row"
+                      data-city={e.city}
+                      data-date={e.date}
+                      data-venue={e.venue}
+                      data-category={e.category}
+                    >
+                      <span class="event-row-icon"><Icon size={14} /></span>
+                      <span class="event-row-date">{e.date}</span>
+                      {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
+                      <span class="event-row-city-pill">{e.city}</span>
+                      <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
+                      <span class="event-row-sep">—</span>
+                      <span class="event-row-title">{e.title}</span>
+                      <span class="event-row-time">{formatFullTime(e.time)}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       <!-- View: City -->
@@ -222,6 +254,10 @@ const formatCategoryName = (cat: string) => {
 
 <style>
 .events-section{padding-block:3.5rem 2rem}
+.day-block{margin-bottom:2rem}
+.day-header-badge{display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid color-mix(in oklab, var(--border) 60%, transparent)}
+.day-header-title{font-size:1.15rem;font-weight:700;color:var(--brand-gold);margin:0}
+.today-pill{font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;background:var(--brand-gold);color:var(--brand-navy);padding:.15rem .5rem;border-radius:.25rem}
 .city-block{margin-bottom:2.5rem}
 .city-name{font-size:1.25rem;font-weight:700;color:var(--brand-gold);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
 .event-list{display:flex;flex-direction:column;gap:.25rem}

@@ -112,6 +112,24 @@ export function isEventPast(eventDate: string, eventTimeStr: string = ''): boole
 }
 
 /**
+ * Helper to convert time strings (e.g. "6:00 PM", "9:30 PM", "10a", "6p")
+ * into total minutes from midnight for accurate chronological time sorting.
+ */
+export function getTimeMinutes(timeStr: string = ''): number {
+  if (!timeStr || timeStr === 'TBA' || timeStr === '?') return 9999;
+  const match = timeStr.match(/(\d{1,2})(?::(\d{2}))?\s*(a|p|am|pm)?/i);
+  if (!match) return 9999;
+  let hour = parseInt(match[1], 10);
+  const min = match[2] ? parseInt(match[2], 10) : 0;
+  const ampm = (match[3] || '').toLowerCase();
+
+  if (ampm.startsWith('p') && hour < 12) hour += 12;
+  if (ampm.startsWith('a') && hour === 12) hour = 0;
+
+  return hour * 60 + min;
+}
+
+/**
  * Formats shorthand time strings (e.g., "10a-6p", "6p-?", "6:30p-?", "9p-1a", "7p-10p")
  * into clean, readable full AM/PM formats (e.g. "10:00 AM - 6:00 PM", "6:00 PM - ?", "6:30 PM - ?")
  */

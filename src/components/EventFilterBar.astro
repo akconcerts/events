@@ -71,8 +71,8 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     <div class="filter-group">
       <label for="filter-sort">Sort Order</label>
       <select id="filter-sort">
-        <option value="desc" selected>Newest First</option>
-        <option value="asc">Oldest First</option>
+        <option value="asc" selected>Chronological (Today First)</option>
+        <option value="desc">Newest First</option>
       </select>
     </div>
   </div>
@@ -104,6 +104,18 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
       d.setHours(d.getHours() - 8);
       return d.toISOString().slice(0, 10);
     }
+  };
+
+  const getTimeMinutes = (timeStr: string = ''): number => {
+    if (!timeStr || timeStr === 'TBA' || timeStr === '?') return 9999;
+    const match = timeStr.match(/(\d{1,2})(?::(\d{2}))?\s*(a|p|am|pm)?/i);
+    if (!match) return 9999;
+    let hour = parseInt(match[1], 10);
+    const min = match[2] ? parseInt(match[2], 10) : 0;
+    const ampm = (match[3] || '').toLowerCase();
+    if (ampm.startsWith('p') && hour < 12) hour += 12;
+    if (ampm.startsWith('a') && hour === 12) hour = 0;
+    return hour * 60 + min;
   };
 
   const todayStr = getAlaskaTodayDate();
@@ -167,7 +179,22 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 
   function applySorting() {
     const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement | null;
-    const sortOrder = sortSelect ? sortSelect.value : 'desc';
+    const sortOrder = sortSelect ? sortSelect.value : 'asc';
+
+    // 1. Sort day blocks in Date View (#view-date)
+    const viewDate = document.getElementById('view-date');
+    if (viewDate) {
+      const dayBlocks = Array.from(viewDate.querySelectorAll('.day-block')) as HTMLElement[];
+      dayBlocks.sort((a, b) => {
+        const dateA = a.dataset.date || '';
+        const dateB = b.dataset.date || '';
+        const cmp = dateA.localeCompare(dateB);
+        return sortOrder === 'asc' ? cmp : -cmp;
+      });
+      dayBlocks.forEach(block => viewDate.appendChild(block));
+    }
+
+    // 2. Sort event rows inside each event list by date and time
     const eventLists = document.querySelectorAll('.event-list');
 
     eventLists.forEach(list => {
@@ -180,10 +207,12 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
           return sortOrder === 'asc' ? dateCompare : -dateCompare;
         }
 
-        // If dates are equal, sort by time (e.g. 7p-10p)
+        // If dates are equal, sort by exact time in minutes
         const timeA = a.querySelector('.event-row-time')?.textContent?.trim() || '';
         const timeB = b.querySelector('.event-row-time')?.textContent?.trim() || '';
-        return sortOrder === 'asc' ? timeA.localeCompare(timeB) : -timeA.localeCompare(timeB);
+        const minA = getTimeMinutes(timeA);
+        const minB = getTimeMinutes(timeB);
+        return sortOrder === 'asc' ? (minA - minB) : (minB - minA);
       });
 
       // Re-append sorted rows to container
@@ -236,6 +265,10 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     const timelineSelect = document.getElementById('filter-timeline') as HTMLSelectElement | null;
     if (timelineSelect) {
       timelineSelect.value = 'upcoming';
+    }
+    const sortSelect = document.getElementById('filter-sort') as HTMLSelectElement | null;
+    if (sortSelect) {
+      sortSelect.value = 'asc';
     }
     applyFilters();
     applySorting();
