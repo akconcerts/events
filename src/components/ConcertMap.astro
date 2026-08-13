@@ -1,6 +1,7 @@
 ---
 import { MapPin, Navigation, Music } from 'lucide-astro';
 import venuesData from '../../venues.json';
+import eventsData from '../data/events.json';
 ---
 
 <div class="concert-map-wrapper container">
@@ -32,7 +33,7 @@ import venuesData from '../../venues.json';
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
-<script is:inline define:vars={{ venuesData }}>
+<script is:inline define:vars={{ venuesData, eventsData }}>
   document.addEventListener('DOMContentLoaded', () => {
     const mapElement = document.getElementById('ak-leaflet-map');
     if (!mapElement || typeof L === 'undefined') return;
@@ -70,13 +71,67 @@ import venuesData from '../../venues.json';
 
       const marker = L.marker([venue.lat, venue.lng], { icon: customIcon }).addTo(map);
 
+      // Match venue events
+      const venueNameClean = (venue.name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      const matchingEvents = (eventsData || []).filter(e => {
+        if (!e.venue) return false;
+        const eNameClean = e.venue.toLowerCase().replace(/[^a-z0-9]/g, '');
+        return eNameClean.includes(venueNameClean) || venueNameClean.includes(eNameClean);
+      }).slice(0, 5);
+
+      const citySlug = (venue.city || 'anchorage').toLowerCase().replace(/\s+/g, '-');
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((venue.address || venue.name) + ', ' + venue.city + ', AK')}`;
+
       const popupContent = `
         <div class="venue-popup-card">
           <div class="popup-tag">${venue.city}</div>
           <h3 class="popup-title">${venue.name}</h3>
-          <p class="popup-address"><i class="icon">📍</i> ${venue.address || venue.city}</p>
-          ${venue.capacity ? `<p class="popup-cap"><strong>Capacity:</strong> ${venue.capacity} guests</p>` : ''}
-          ${venue.website ? `<a href="${venue.website}" target="_blank" rel="noopener" class="popup-link">Visit Venue Website &rarr;</a>` : ''}
+          <p class="popup-address">📍 ${venue.address || venue.city}</p>
+          ${venue.capacity ? `<p class="popup-cap">⚡ Capacity: <strong>${venue.capacity}</strong> guests</p>` : ''}
+          
+          <!-- 3 Action Buttons -->
+          <div class="popup-btn-row">
+            <button type="button" class="popup-btn btn-events-toggle" onclick="this.parentElement.nextElementSibling.classList.toggle('open')">
+              📅 Shows (${matchingEvents.length})
+            </button>
+            ${venue.website ? `<a href="${venue.website}" target="_blank" rel="noopener" class="popup-btn btn-site">🌐 Site</a>` : ''}
+            <a href="${googleMapsUrl}" target="_blank" rel="noopener" class="popup-btn btn-nav">📍 Map</a>
+          </div>
+
+          <!-- Expandable Mini Table Drawer -->
+          <div class="popup-events-drawer">
+            ${matchingEvents.length > 0 ? `
+              <table class="mini-events-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${matchingEvents.map(e => `
+                    <tr>
+                      <td class="mini-date">${e.date}</td>
+                      <td class="mini-title">
+                        <a href="${e.ticketUrl || '#'}" target="_blank" rel="noopener">${e.title}</a>
+                      </td>
+                      <td class="mini-time">${e.time || ''}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            ` : `
+              <p class="no-mini-events">No upcoming listed events at this venue currently.</p>
+            `}
+          </div>
+
+          <!-- Master Bottom Row Link -->
+          <div class="popup-master-footer">
+            <a href="/cities/${citySlug}" class="popup-city-link">
+              🏙️ View All ${venue.city} Current Events &rarr;
+            </a>
+          </div>
         </div>
       `;
 
@@ -220,36 +275,126 @@ import venuesData from '../../venues.json';
     background: #1e293b !important;
   }
   :global(.venue-popup-card) {
-    padding: 0.2rem;
+    padding: 0.35rem 0.2rem;
+    min-width: 250px;
+    max-width: 320px;
   }
   :global(.popup-tag) {
     display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 0.68rem;
+    font-weight: 800;
     text-transform: uppercase;
+    letter-spacing: 0.08em;
     color: #38bdf8;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.15rem;
   }
   :global(.popup-title) {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 0 0 0.4rem 0;
-    color: #f8fafc;
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 0 0 0.35rem 0;
+    color: #ffffff;
   }
   :global(.popup-address), :global(.popup-cap) {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #94a3b8;
     margin: 0.2rem 0;
   }
-  :global(.popup-link) {
-    display: inline-block;
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    font-weight: 600;
+  :global(.popup-btn-row) {
+    display: flex;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  :global(.popup-btn) {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.4rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.06);
+    color: #e2e8f0;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  :global(.popup-btn:hover) {
+    background: #38bdf8;
+    color: #0f172a;
+    border-color: #38bdf8;
+  }
+  :global(.btn-events-toggle) {
+    background: rgba(56, 189, 248, 0.15);
     color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.4);
+  }
+  :global(.popup-events-drawer) {
+    display: none;
+    max-height: 180px;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.375rem;
+    padding: 0.35rem;
+    margin-block: 0.5rem;
+  }
+  :global(.popup-events-drawer.open) {
+    display: block;
+  }
+  :global(.mini-events-table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.72rem;
+  }
+  :global(.mini-events-table th) {
+    text-align: left;
+    color: #38bdf8;
+    font-weight: 700;
+    padding: 0.2rem 0.35rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  :global(.mini-events-table td) {
+    padding: 0.3rem 0.35rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    color: #cbd5e1;
+  }
+  :global(.mini-events-table td.mini-title a) {
+    color: #f1f5f9;
+    font-weight: 600;
     text-decoration: none;
   }
-  :global(.popup-link:hover) {
+  :global(.mini-events-table td.mini-title a:hover) {
+    color: #38bdf8;
+    text-decoration: underline;
+  }
+  :global(.no-mini-events) {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin: 0.35rem;
+    font-style: italic;
+  }
+  :global(.popup-master-footer) {
+    margin-top: 0.625rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+  }
+  :global(.popup-city-link) {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #cca43b;
+    text-decoration: none;
+    display: block;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    transition: background 0.15s;
+  }
+  :global(.popup-city-link:hover) {
+    background: rgba(204, 164, 59, 0.12);
     text-decoration: underline;
   }
 </style>
