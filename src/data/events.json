@@ -47150,6 +47150,16 @@
     "cost": ""
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -47180,6 +47190,16 @@
     "cost": ""
   },
   {
+    "title": "Trails in Motion 14",
+    "venue": "Beartooth Theatrepub",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -47197,6 +47217,16 @@
     "time": "7p-",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
     "cost": ""
   },
   {
@@ -47250,26 +47280,6 @@
     "cost": ""
   },
   {
-    "title": "Trails in Motion 1",
-    "venue": "Beartooth Theatrepub",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Comedy Open Mic 7p-10pKoot’s - Karaoke 1",
-    "venue": "Koot’s",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "comedy",
-    "cost": ""
-  },
-  {
     "title": "Live & Local Music w/ Jared Woods",
     "venue": "The Peanut Farm",
     "city": "Anchorage",
@@ -47280,8 +47290,8 @@
     "cost": ""
   },
   {
-    "title": "DJ Cross 1",
-    "venue": "Pioneer Bar",
+    "title": "Trails in Motion 1",
+    "venue": "Beartooth Theatrepub",
     "city": "Anchorage",
     "date": "2026-08-13",
     "time": "TBD",
@@ -47300,8 +47310,28 @@
     "cost": ""
   },
   {
+    "title": "Comedy Open Mic 7p-10pKoot’s - Karaoke 1",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
     "title": "Live & Local Music w/ Jared Woods 6:3",
     "venue": "The Peanut Farm",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Cross 1",
+    "venue": "Pioneer Bar",
     "city": "Anchorage",
     "date": "2026-08-13",
     "time": "TBD",
@@ -47620,6 +47650,26 @@
     "cost": ""
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yachtly Crew",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Mobile Library Visit & Storytime",
     "venue": "Fairview Community Rec Center",
     "city": "Anchorage",
@@ -47880,26 +47930,6 @@
     "cost": ""
   },
   {
-    "title": "Yachtly Crew 1",
-    "venue": "Koot’s",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "DJ Cross 1",
-    "venue": "Pioneer Bar",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "title": "Hwy9 in Concert",
     "venue": "Turnagain Brewing",
     "city": "Anchorage",
@@ -47982,6 +48012,26 @@
   {
     "title": "Live Music w/ Ayla Ray & Chris Christy Quintet 9:3",
     "venue": "Humpy’s",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yachtly Crew 1",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Cross 1",
+    "venue": "Pioneer Bar",
     "city": "Anchorage",
     "date": "2026-08-14",
     "time": "TBD",
@@ -50190,6 +50240,16 @@
     "cost": ""
   },
   {
+    "title": "Comedy Open Mic",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
     "title": "Live Music w/ Will H. Johnson",
     "venue": "Humpy’s",
     "city": "Anchorage",
@@ -50230,16 +50290,6 @@
     "cost": ""
   },
   {
-    "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
-    "venue": "The Carousel Lounge",
-    "city": "Anchorage",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "comedy",
-    "cost": ""
-  },
-  {
     "title": "The Eternal Cowboys 1",
     "venue": "Pioneer Bar",
     "city": "Anchorage",
@@ -50277,6 +50327,16 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
     "cost": ""
   },
   {
