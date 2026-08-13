@@ -14,13 +14,13 @@ import { events, cities } from '../data/events';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
-const today = new Date().toISOString().slice(0, 10);
-const upcomingEvents = events.filter(e => e.date >= today);
+const sevenDaysAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+const upcomingEvents = events.filter(e => e.date >= sevenDaysAgo);
 
 const sortedEvents = [...upcomingEvents].sort((a, b) => {
-  const d = b.date.localeCompare(a.date);
+  const d = a.date.localeCompare(b.date);
   if (d !== 0) return d;
-  return b.time.localeCompare(a.time);
+  return a.time.localeCompare(b.time);
 });
 
 // Group by City
