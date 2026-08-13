@@ -25,17 +25,27 @@ for (const v of venuesData) {
   });
 }
 
+const cleanName = (name: string) => {
+  return name
+    .replace(/^(\d{1,2}(:\d{2})?[ap]?\s*-\s*\d{1,2}(:\d{2})?[ap]?\s*)+/gi, '')
+    .replace(/^(\d{1,2}\s*-\s*\d{1,2}\s*)+/g, '')
+    .replace(/^(\d+[ap]\s*)+/gi, '')
+    .trim();
+};
+
 // Add any missing venues from events.ts
 for (const e of events) {
-  const norm = e.venue.toLowerCase().trim();
+  const vName = cleanName(e.venue);
+  if (!vName) continue;
+  const norm = vName.toLowerCase().trim();
   if (!venueMap.has(norm)) {
     venueMap.set(norm, {
-      id: e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
-      name: e.venue,
+      id: vName.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      name: vName,
       city: e.city,
       website: '',
       facebookUrl: '',
-      count: venueCounts.get(norm) || 1
+      count: venueCounts.get(e.venue.toLowerCase().trim()) || 1
     });
   }
 }
@@ -74,34 +84,37 @@ for (const v of allVenues) {
       <div class="venue-city-block">
         <h2 class="venue-city-name font-display">{city}</h2>
         <div class="venue-grid">
-          {allVenues.filter(v => v.city === city).map(v => (
-            <div class="venue-card">
-              <div class="venue-card-main">
-                <span class="venue-card-name font-display">{v.name}</span>
-                <span class="venue-card-count">{v.count} event{v.count === 1 ? '' : 's'}</span>
-              </div>
-              <div class="venue-card-links">
-                {v.website ? (
-                  <a href={v.website} target="_blank" rel="noopener noreferrer" class="v-link">
-                    Website <ExternalLink size={12} />
-                  </a>
-                ) : null}
-                {v.facebookUrl ? (
-                  <a href={v.facebookUrl} target="_blank" rel="noopener noreferrer" class="v-link v-link-fb">
-                    Facebook Events <ExternalLink size={12} />
-                  </a>
-                ) : null}
-                <a 
-                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + ', ' + v.city + ', AK')}`}
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  class="v-link v-link-map"
-                >
-                  Map
+          {allVenues.filter(v => v.city === city).map(v => {
+            const slug = (v.id || v.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            return (
+              <div class="venue-card">
+                <a href={`/venues/${slug}`} class="venue-card-main-link">
+                  <div class="venue-card-main">
+                    <span class="venue-card-name font-display">{v.name}</span>
+                    <span class="venue-card-count">{v.count} event{v.count === 1 ? '' : 's'}</span>
+                  </div>
                 </a>
+                <div class="venue-card-links">
+                  <a href={`/venues/${slug}`} class="v-link v-link-primary">
+                    View Venue & Shows &rarr;
+                  </a>
+                  {v.website ? (
+                    <a href={v.website} target="_blank" rel="noopener noreferrer" class="v-link">
+                      Website <ExternalLink size={12} />
+                    </a>
+                  ) : null}
+                  <a 
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + ', ' + v.city + ', AK')}`}
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="v-link v-link-map"
+                  >
+                    Map
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     ))}
