@@ -2,31 +2,42 @@
 import { Flame, Calendar, Music, Mic, Sparkles, Ticket, Snowflake, Compass } from 'lucide-astro';
 
 const items = [
-  { label: "Live Music", count: "34 shows", icon: "music", slug: "music" },
-  { label: "Comedy", count: "8 shows", icon: "mic", slug: "comedy" },
-  { label: "Festivals", count: "3 major", icon: "sparkles", slug: "festival" },
-  { label: "Free Events", count: "15 free", icon: "ticket", slug: "free-events" },
-  { label: "This Weekend", count: "22 shows", icon: "calendar", slug: "this-weekend" },
-  { label: "Touring AK", count: "6 tours", icon: "flame", slug: "touring-ak" },
-  { label: "Winter Series", count: "11 shows", icon: "snowflake", slug: "winter-series" },
-  { label: "All Categories", count: "Browse all", icon: "compass", slug: "all" },
-] as const;
+  { label: "Live Music", count: "34 shows", icon: Music, slug: "music", glow: "cyan", color: "#38bdf8", border: "rgba(56, 189, 248, 0.35)", bgGlow: "rgba(56, 189, 248, 0.12)" },
+  { label: "Comedy", count: "8 shows", icon: Mic, slug: "comedy", glow: "gold", color: "#cca43b", border: "rgba(204, 164, 59, 0.35)", bgGlow: "rgba(204, 164, 59, 0.12)" },
+  { label: "Festivals", count: "3 major", icon: Sparkles, slug: "festival", glow: "purple", color: "#c084fc", border: "rgba(192, 132, 252, 0.35)", bgGlow: "rgba(192, 132, 252, 0.12)" },
+  { label: "Free Events", count: "15 free", icon: Ticket, slug: "free-events", glow: "emerald", color: "#34d399", border: "rgba(52, 211, 153, 0.35)", bgGlow: "rgba(52, 211, 153, 0.12)" },
+  { label: "This Weekend", count: "22 shows", icon: Calendar, slug: "this-weekend", glow: "orange", color: "#fb923c", border: "rgba(251, 146, 60, 0.35)", bgGlow: "rgba(251, 146, 60, 0.12)" },
+  { label: "Touring AK", count: "6 tours", icon: Flame, slug: "touring-ak", glow: "red", color: "#f87171", border: "rgba(248, 113, 113, 0.35)", bgGlow: "rgba(248, 113, 113, 0.12)" },
+  { label: "Winter Series", count: "11 shows", icon: Snowflake, slug: "winter-series", glow: "ice", color: "#22d3ee", border: "rgba(34, 211, 238, 0.35)", bgGlow: "rgba(34, 211, 238, 0.12)" },
+  { label: "All Categories", count: "Browse all", icon: Compass, slug: "all", glow: "master", color: "#facc15", border: "rgba(250, 204, 21, 0.35)", bgGlow: "rgba(250, 204, 21, 0.12)" },
+];
 ---
 
 <section id="discovery" class="quicknav container">
   <div class="quicknav-header">
     <div class="quicknav-title-wrap">
-      <span class="quicknav-sub">Discover Events</span>
+      <span class="quicknav-sub"><Sparkles size={14} class="sub-icon" /> Discover Events</span>
       <h2 class="quicknav-title font-display">Find Your Scene</h2>
     </div>
   </div>
+  
   <div class="quicknav-grid">
-    {items.map(({ label, count, icon, slug }) => {
+    {items.map(({ label, count, icon: IconComponent, slug, color, border, bgGlow }) => {
       return (
-        <a href={`/filters/${slug}`} class="qn-card">
+        <a 
+          href={`/filters/${slug}`} 
+          class="qn-card group"
+          style={`--item-color: ${color}; --item-border: ${border}; --item-bg-glow: ${bgGlow};`}
+        >
+          <div class="qn-card-bg"></div>
           <div class="qn-inner">
-            <span class="qn-label">{label}</span>
-            <span class="qn-count">{count}</span>
+            <div class="qn-icon-wrap">
+              <IconComponent size={20} class="qn-icon" />
+            </div>
+            <div class="qn-text-group">
+              <span class="qn-label">{label}</span>
+              <span class="qn-count">{count}</span>
+            </div>
           </div>
         </a>
       );
@@ -36,7 +47,7 @@ const items = [
 
 <style>
 .quicknav {
-  padding-block: 2rem 1.5rem;
+  padding-block: 2.25rem 1.75rem;
 }
 
 .quicknav-header {
@@ -44,69 +55,128 @@ const items = [
 }
 
 .quicknav-sub {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--brand-gold);
 }
 
+.sub-icon {
+  color: var(--brand-gold);
+}
+
 .quicknav-title {
-  font-size: 1.85rem;
+  font-size: 2rem;
   font-weight: 800;
-  margin: 0.2rem 0 0 0;
+  margin: 0.25rem 0 0 0;
   letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 .quicknav-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
+  gap: 0.875rem;
 }
 
-@media(min-width:640px) {
+@media(min-width: 640px) {
   .quicknav-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media(min-width:1024px) {
+@media(min-width: 1024px) {
   .quicknav-grid { grid-template-columns: repeat(8, 1fr); }
 }
 
 .qn-card {
+  position: relative;
   display: block;
-  background: #0b1019;
-  border: 1px solid var(--border);
-  border-radius: 0.75rem;
-  padding: 0.85rem;
+  background: rgba(11, 16, 25, 0.9);
+  border: 1px solid var(--item-border);
+  border-radius: 1rem;
+  padding: 0.875rem 0.75rem;
   text-decoration: none;
   color: inherit;
-  transition: all 0.2s ease;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.qn-card-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, var(--item-bg-glow), transparent 70%);
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .qn-card:hover {
-  background: #111827;
-  border-color: var(--brand-gold);
-  transform: translateY(-2px);
+  transform: translateY(-4px) scale(1.02);
+  border-color: var(--item-color);
+  box-shadow: 0 14px 30px -10px var(--item-bg-glow), 0 0 20px -5px var(--item-border);
+}
+
+.qn-card:hover .qn-card-bg {
+  opacity: 1;
 }
 
 .qn-inner {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.625rem;
+}
+
+.qn-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 0.625rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--item-border);
+  color: var(--item-color);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.qn-card:hover .qn-icon-wrap {
+  background: var(--item-bg-glow);
+  transform: scale(1.12) rotate(4deg);
+  border-color: var(--item-color);
+}
+
+.qn-icon {
+  transition: transform 0.3s ease;
+}
+
+.qn-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
 .qn-label {
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 800;
   color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  letter-spacing: -0.01em;
 }
 
 .qn-count {
-  font-size: 0.75rem;
-  color: var(--brand-gold);
-  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--item-color);
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 </style>
