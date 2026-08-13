@@ -117,8 +117,11 @@ export function isEventPast(eventDate: string, eventTimeStr: string = ''): boole
  */
 export function formatFullTime(timeStr: string = ''): string {
   if (!timeStr) return '';
-  const trimmed = timeStr.trim();
+  let trimmed = timeStr.trim();
   if (!trimmed || trimmed === '?') return 'TBA';
+
+  // Strip seconds (e.g. "9:30:00 PM" -> "9:30 PM", "1:00:00 AM" -> "1:00 AM", "09:30:00" -> "09:30")
+  trimmed = trimmed.replace(/:(\d{2}):\d{2}/g, ':$1');
 
   let formatted = trimmed
     .replace(/\s*-\s*/g, ' - ')
@@ -126,7 +129,7 @@ export function formatFullTime(timeStr: string = ''): string {
     .replace(/(\d+)(:\d+)?\s*p\b/gi, (match, p1, p2) => `${p1}${p2 || ':00'} PM`)
     .replace(/(\d+)\s*AM\b/g, '$1:00 AM')
     .replace(/(\d+)\s*PM\b/g, '$1:00 PM')
-    .replace(/:00:00/g, ':00');
+    .replace(/:(\d{2}):\d{2}/g, ':$1');
 
   return formatted;
 }
