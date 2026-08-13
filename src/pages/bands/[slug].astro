@@ -3,10 +3,11 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import EventJsonLd from '../../components/EventJsonLd.astro';
-import { bands } from '../../data/bands';
+import { bands, type Band } from '../../data/bands';
 import { events } from '../../data/events';
-import { formatFullTime } from '../../utils/date';
-import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
+import venuesData from '../../../venues.json';
+import { formatFullTime, getAlaskaTodayDate } from '../../utils/date';
+import { Music, Smile, PartyPopper, Theater, Users, Tent, MapPin, Calendar, ExternalLink, Play, Radio, ChevronRight } from 'lucide-astro';
 
 export function getStaticPaths() {
   return bands.map(band => ({
@@ -18,12 +19,63 @@ export function getStaticPaths() {
 const { band } = Astro.props;
 
 // Filter events for this band
-const bandEvents = events.filter(e => e.title.toLowerCase().includes(band.name.toLowerCase()));
+const bandEvents = events.filter(e => {
+  if (!e.title) return false;
+  return e.title.toLowerCase().includes(band.name.toLowerCase());
+});
 
-// Filter upcoming and past shows for this band
-const today = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
-const upcomingEvents = bandEvents.filter(e => e.date >= today).sort((a, b) => a.date.localeCompare(b.date));
-const pastEvents = bandEvents.filter(e => e.date < today).sort((a, b) => b.date.localeCompare(a.date));
+const todayStr = getAlaskaTodayDate();
+const upcomingEvents = bandEvents.filter(e => e.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date));
+const pastEvents = bandEvents.filter(e => e.date < todayStr).sort((a, b) => b.date.localeCompare(a.date));
+
+// Cities played
+const citiesPlayed = [...new Set(bandEvents.map(e => e.city))];
+
+// Categories played
+const categoriesPlayed = [...new Set(bandEvents.map(e => e.category))];
+
+// Related bands (pick 4 other bands in dataset)
+const relatedBands = bands
+  .filter(b => b.slug !== band.slug)
+  .slice(0, 4);
+
+// Map coordinates for venues/cities
+const cityCoords: Record<string, [number, number]> = {
+  'Anchorage': [61.2181, -149.9003],
+  'Fairbanks': [64.8378, -147.7164],
+  'Juneau': [58.3019, -134.4197],
+  'Homer': [59.6425, -151.5483],
+  'Palmer': [61.5997, -149.1100],
+  'Wasilla': [61.5814, -149.4394],
+  'Seward': [60.1042, -149.4422],
+  'Girdwood': [60.9422, -149.1678],
+  'Talkeetna': [62.3208, -150.1066],
+  'Kenai': [60.5544, -151.2583],
+  'Soldotna': [60.4878, -151.0583],
+  'Ketchikan': [55.3422, -131.6461],
+  'Sitka': [57.0531, -135.3300],
+  'Kodiak': [57.7900, -152.4072],
+  'Cooper Landing': [60.4878, -149.8519],
+  'Hope': [60.9200, -149.6400],
+  'Seldovia': [59.4389, -151.7111],
+  'Valdez': [61.1308, -146.3483]
+};
+
+// Map pins data
+const mapPins = bandEvents.map(e => {
+  const vSlug = e.venue ? e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '';
+  const coords = cityCoords[e.city] || [61.2181, -149.9003];
+  return {
+    title: e.title,
+    venue: e.venue,
+    venueSlug: vSlug,
+    city: e.city,
+    date: e.date,
+    time: formatFullTime(e.time),
+    lat: coords[0],
+    lng: coords[1]
+  };
+});
 
 const categoryIcons: Record<string, any> = {
   music: Music,
@@ -49,50 +101,256 @@ const jsonLd = {
 };
 ---
 
-<Layout title={`${band.name} — AK Concerts`} description={band.description || `${band.name} — Alaska local artist. Discover their music and upcoming shows on AK Concerts.`}>
+<Layout title={`${band.name} — Alaska Artist Profile & Tour Dates — AK Concerts`} description={band.description || `${band.name} — Alaska local artist. View upcoming concert dates, venues, videos, and music profile.`}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <EventJsonLd events={bandEvents} />
   <SiteHeader />
-  <main class="band-page container">
-    <div class="band-breadcrumb">
-      <a href="/">Home</a> <span class="sep">/</span> <a href="/bands">Bands</a> <span class="sep">/</span> <span>{band.name}</span>
-    </div>
 
-    <div class="band-hero-row">
-      {band.hasImage ? (
-        <div class="band-photo-wrap">
-          <img src={`/images/bands/${band.slug}.jpg`} alt={band.name} width="320" height="320" class="band-photo" loading="eager" />
-        </div>
-      ) : (
-        <div class="band-avatar-lg font-display">
-          {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
-        </div>
-      )}
-      <div class="band-hero-info">
-        <div class="band-tag">Alaska Artist</div>
-        <h1 class="band-name font-display">{band.name}</h1>
-        {band.description && (
-          <p class="band-bio-inline">{band.description}</p>
+  <main class="band-page container">
+    
+    <!-- Breadcrumbs -->
+    <nav class="band-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span class="sep">&rsaquo;</span> 
+      <a href="/bands">Bands</a> <span class="sep">&rsaquo;</span> 
+      <span aria-current="page">{band.name}</span>
+    </nav>
+
+    <!-- Band Hero Card -->
+    <div class="band-hero-card">
+      <div class="band-hero-main">
+        {band.hasImage ? (
+          <div class="band-photo-wrap">
+            <img src={`/images/bands/${band.slug}.jpg`} alt={band.name} width="320" height="320" class="band-photo" loading="eager" />
+          </div>
+        ) : (
+          <div class="band-avatar-lg font-display">
+            {band.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+          </div>
         )}
-        <div class="band-links">
-          {band.facebookUrl && (
-            <a href={band.facebookUrl} target="_blank" rel="noopener noreferrer" class="band-link-btn">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              Upcoming Shows
-            </a>
+
+        <div class="band-hero-info">
+          <div class="band-eyebrow-row">
+            <span class="band-tag font-display"><Music size={13} /> Alaska Local Artist</span>
+            {categoriesPlayed.length > 0 && (
+              <span class="genre-pill">{categoriesPlayed.join(' • ')}</span>
+            )}
+          </div>
+          
+          <h1 class="band-name font-display">{band.name}</h1>
+          
+          {band.description ? (
+            <p class="band-bio-inline">{band.description}</p>
+          ) : (
+            <p class="band-bio-inline">Live music artist performing regularly across venues and festival stages in Alaska.</p>
           )}
-          <a href="/bands" class="band-link-btn band-link-secondary">← All Bands</a>
+
+          <!-- Stats Badges -->
+          <div class="band-stats-row">
+            <div class="stat-badge">
+              <Calendar size={14} /> <strong>{upcomingEvents.length}</strong> Upcoming Shows
+            </div>
+            <div class="stat-badge">
+              <Music size={14} /> <strong>{bandEvents.length}</strong> Total Shows Listed
+            </div>
+            {citiesPlayed.length > 0 && (
+              <div class="stat-badge">
+                <MapPin size={14} /> <strong>{citiesPlayed.length}</strong> Alaska Cities
+              </div>
+            )}
+          </div>
+
+          <!-- Streaming & Links Bar -->
+          <div class="band-links-bar">
+            {band.facebookUrl && (
+              <a href={band.facebookUrl} target="_blank" rel="noopener noreferrer" class="link-btn fb-btn">
+                📘 Facebook Page
+              </a>
+            )}
+            <a href={`https://open.spotify.com/search/${encodeURIComponent(band.name)}`} target="_blank" rel="noopener noreferrer" class="link-btn spotify-btn">
+              🟢 Spotify
+            </a>
+            <a href={`https://music.apple.com/us/search?term=${encodeURIComponent(band.name)}`} target="_blank" rel="noopener noreferrer" class="link-btn apple-btn">
+              🍎 Apple Music
+            </a>
+            <a href={`https://bandcamp.com/search?q=${encodeURIComponent(band.name)}`} target="_blank" rel="noopener noreferrer" class="link-btn bandcamp-btn">
+              ⛺ Bandcamp
+            </a>
+            <a href={`https://www.youtube.com/results?search_query=${encodeURIComponent(band.name + ' Alaska live')}`} target="_blank" rel="noopener noreferrer" class="link-btn youtube-btn">
+              📺 YouTube Search
+            </a>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- Shows & Interactive Tour Map Layout -->
+    <section class="band-shows-section">
+      <div class="shows-header-row">
+        <div>
+          <span class="section-eyebrow">Tour Dates & Gigs</span>
+          <h2 class="section-title font-display">Concert Schedule</h2>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="show-tabs">
+          <button class="tab-btn active" id="tab-upcoming" onclick="switchShowTab('upcoming')">
+            Upcoming ({upcomingEvents.length})
+          </button>
+          <button class="tab-btn" id="tab-past" onclick="switchShowTab('past')">
+            Past History ({pastEvents.length})
+          </button>
+          <button class="tab-btn" id="tab-all" onclick="switchShowTab('all')">
+            All Shows ({bandEvents.length})
+          </button>
+        </div>
+      </div>
+
+      <div class="band-grid-layout">
+        
+        <!-- Shows List Container -->
+        <div class="shows-list-container">
+          
+          <!-- Upcoming Tab Block -->
+          <div id="block-upcoming" class="tab-block" style="display: block;">
+            {upcomingEvents.length > 0 ? (
+              <div class="event-list">
+                {upcomingEvents.map(e => {
+                  const Icon = categoryIcons[e.category] || Music;
+                  const vSlug = e.venue ? e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '';
+                  const calUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.title)}&dates=${e.date.replace(/-/g, '')}/${e.date.replace(/-/g, '')}&location=${encodeURIComponent(e.venue + ', ' + e.city + ', AK')}`;
+                  return (
+                    <div class="event-row">
+                      <!-- Row 1: Tags -->
+                      <div class="event-row-tags">
+                        <span class="event-row-icon"><Icon size={14} /></span>
+                        <span class="event-row-date">{e.date}</span>
+                        <span class="event-row-city-pill">{e.city}</span>
+                      </div>
+                      
+                      <!-- Row 2: Location & Time -->
+                      <div class="event-row-meta">
+                        <a href={`/venues/${vSlug}`} class="event-row-venue-link">
+                          📍 {e.venue}
+                        </a>
+                        <span class="event-row-time">⏰ {formatFullTime(e.time)}</span>
+                      </div>
+
+                      <!-- Row 3: Title + Calendar Action -->
+                      <div class="event-row-title-bar">
+                        <a href={`/events/${e.slug}`} class="event-row-title">
+                          {e.title}
+                        </a>
+                        <a href={calUrl} target="_blank" rel="noopener noreferrer" class="add-cal-btn" title="Add to Google Calendar">
+                          + 📅 Calendar
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p class="no-events-msg">No upcoming listed dates scheduled currently. Check past show history below.</p>
+            )}
+          </div>
+
+          <!-- Past History Tab Block -->
+          <div id="block-past" class="tab-block" style="display: none;">
+            {pastEvents.length > 0 ? (
+              <div class="event-list">
+                {pastEvents.map(e => {
+                  const Icon = categoryIcons[e.category] || Music;
+                  const vSlug = e.venue ? e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '';
+                  return (
+                    <div class="event-row past-row">
+                      <div class="event-row-tags">
+                        <span class="event-row-icon"><Icon size={14} /></span>
+                        <span class="event-row-date">{e.date}</span>
+                        <span class="event-row-past-pill">PAST SHOW</span>
+                        <span class="event-row-city-pill">{e.city}</span>
+                      </div>
+                      <div class="event-row-meta">
+                        <a href={`/venues/${vSlug}`} class="event-row-venue-link">
+                          📍 {e.venue}
+                        </a>
+                        <span class="event-row-time">{formatFullTime(e.time)}</span>
+                      </div>
+                      <div class="event-row-title-bar">
+                        <a href={`/events/${e.slug}`} class="event-row-title">
+                          {e.title}
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p class="no-events-msg">No past show archive listed for {band.name}.</p>
+            )}
+          </div>
+
+          <!-- All Shows Tab Block -->
+          <div id="block-all" class="tab-block" style="display: none;">
+            {bandEvents.length > 0 ? (
+              <div class="event-list">
+                {bandEvents.map(e => {
+                  const Icon = categoryIcons[e.category] || Music;
+                  const vSlug = e.venue ? e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : '';
+                  const isPast = e.date < todayStr;
+                  return (
+                    <div class={`event-row ${isPast ? 'past-row' : ''}`}>
+                      <div class="event-row-tags">
+                        <span class="event-row-icon"><Icon size={14} /></span>
+                        <span class="event-row-date">{e.date}</span>
+                        {isPast && <span class="event-row-past-pill">PAST SHOW</span>}
+                        <span class="event-row-city-pill">{e.city}</span>
+                      </div>
+                      <div class="event-row-meta">
+                        <a href={`/venues/${vSlug}`} class="event-row-venue-link">
+                          📍 {e.venue}
+                        </a>
+                        <span class="event-row-time">{formatFullTime(e.time)}</span>
+                      </div>
+                      <div class="event-row-title-bar">
+                        <a href={`/events/${e.slug}`} class="event-row-title">
+                          {e.title}
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p class="no-events-msg">No shows currently listed for {band.name}.</p>
+            )}
+          </div>
+
+        </div>
+
+        <!-- Tour Map Sidebar -->
+        <div class="tour-map-sidebar">
+          <div class="map-card">
+            <h3 class="map-card-title font-display"><MapPin size={16} /> Tour Destinations</h3>
+            <div class="map-box">
+              <div id="band-leaflet-map"></div>
+            </div>
+            <p class="map-caption">📍 Locations played by {band.name} across Alaska.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Video Section -->
     {band.youtubeId && (
       <section class="band-video-section">
-        <h2 class="band-section-title font-display">Watch</h2>
+        <div class="video-header">
+          <span class="section-eyebrow">Live Performance</span>
+          <h2 class="section-title font-display">Featured Video</h2>
+        </div>
         <div class="band-video-wrap">
           <iframe
             src={`https://www.youtube.com/embed/${band.youtubeId}`}
-            title={`${band.name} — Video`}
+            title={`${band.name} — Live Video`}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -102,114 +360,473 @@ const jsonLd = {
       </section>
     )}
 
-    {bandEvents.length > 0 && (
-      <section class="band-events-section" style="margin-top: 3rem;">
-        <h2 class="band-section-title font-display">Tour Dates & Events</h2>
-        
-        {upcomingEvents.length > 0 && (
-          <div class="events-group" style="margin-bottom: 2rem;">
-            <h3 class="events-group-title">Upcoming</h3>
-            <div class="event-list">
-              {upcomingEvents.map(e => {
-                const Icon = categoryIcons[e.category] || Music;
-                return (
-                  <a href={`/events/${e.slug}`} class="event-row">
-                    <span class="event-row-icon"><Icon size={14} /></span>
-                    <span class="event-row-date">{e.date}</span>
-                    <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
-                    <span class="event-row-sep">—</span>
-                    <span class="event-row-title">{e.title}</span>
-                    <span class="event-row-city">{e.city}</span>
-                    <span class="event-row-time">{formatFullTime(e.time)}</span>
-                  </a>
-                );
-              })}
-            </div>
-          </div>
-        )}
+    <!-- Related Local Alaska Artists -->
+    <section class="related-bands-section">
+      <div class="related-header">
+        <span class="section-eyebrow">Discover Local Music</span>
+        <h2 class="section-title font-display">You Might Also Like</h2>
+      </div>
 
-        {pastEvents.length > 0 && (
-          <div class="events-group past-events">
-            <h3 class="events-group-title">Past Events</h3>
-            <div class="event-list">
-              {pastEvents.map(e => {
-                const Icon = categoryIcons[e.category] || Music;
-                return (
-                  <div class="event-row past-row">
-                    <span class="event-row-icon"><Icon size={14} /></span>
-                    <span class="event-row-date">{e.date}</span>
-                    <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
-                    <span class="event-row-sep">—</span>
-                    <span class="event-row-title">{e.title}</span>
-                    <span class="event-row-city">{e.city}</span>
-                    <span class="event-row-time">{formatFullTime(e.time)}</span>
-                  </div>
-                );
-              })}
+      <div class="related-bands-grid">
+        {relatedBands.map(rel => (
+          <a href={`/bands/${rel.slug}`} class="related-band-card">
+            {rel.hasImage ? (
+              <img src={`/images/bands/${rel.slug}.jpg`} alt={rel.name} class="related-img" loading="lazy" />
+            ) : (
+              <div class="related-avatar font-display">
+                {rel.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()}
+              </div>
+            )}
+            <div class="related-info">
+              <h3 class="related-name font-display">{rel.name}</h3>
+              <span class="related-link-text">View Artist Profile <ChevronRight size={14} /></span>
             </div>
-          </div>
-        )}
-      </section>
-    )}
+          </a>
+        ))}
+      </div>
+    </section>
+
   </main>
   <SiteFooter />
 </Layout>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<script is:inline define:vars={{ mapPins, bandName: band.name }}>
+  window.switchShowTab = function(tabName) {
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-block').forEach(blk => blk.style.display = 'none');
+    
+    const activeBtn = document.getElementById(`tab-${tabName}`);
+    const activeBlk = document.getElementById(`block-${tabName}`);
+    if (activeBtn) activeBtn.classList.add('active');
+    if (activeBlk) activeBlk.style.display = 'block';
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const mapElement = document.getElementById('band-leaflet-map');
+    if (!mapElement || typeof L === 'undefined') return;
+
+    const defaultLat = mapPins.length > 0 ? mapPins[0].lat : 61.2181;
+    const defaultLng = mapPins.length > 0 ? mapPins[0].lng : -149.9003;
+
+    const map = L.map('band-leaflet-map', {
+      center: [defaultLat, defaultLng],
+      zoom: mapPins.length > 1 ? 6 : 10,
+      scrollWheelZoom: false
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    const bounds = [];
+
+    mapPins.forEach(pin => {
+      bounds.push([pin.lat, pin.lng]);
+      const customIcon = L.divIcon({
+        className: 'custom-band-pin',
+        html: `<div class="band-pin-dot"></div>`,
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+      });
+
+      const marker = L.marker([pin.lat, pin.lng], { icon: customIcon }).addTo(map);
+      marker.bindPopup(`<strong>${pin.venue}</strong><br/>${pin.city}, AK<br/><em>${pin.date}</em>`);
+    });
+
+    if (bounds.length > 1) {
+      map.fitBounds(bounds, { padding: [30, 30] });
+    }
+  });
+</script>
+
 <style>
-.band-page{padding-top:2rem;padding-bottom:4rem;min-height:70vh}
-.band-breadcrumb{display:flex;align-items:center;gap:.5rem;font-size:.75rem;color:var(--muted-foreground);margin-bottom:2rem}
-.band-breadcrumb a:hover{color:var(--foreground)}
-.sep{opacity:.4}
+.band-page { padding-block: 2rem 4rem; }
 
-/* Hero row: photo + info side by side */
-.band-hero-row{display:flex;flex-direction:column;gap:1.5rem;margin-bottom:2.5rem}
-@media(min-width:768px){.band-hero-row{flex-direction:row;align-items:flex-start;gap:2.5rem}}
+.band-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+  margin-bottom: 1.5rem;
+}
+.band-breadcrumb a { color: var(--muted-foreground); text-decoration: none; }
+.band-breadcrumb a:hover { color: var(--brand-gold); }
+.sep { opacity: 0.4; }
 
-.band-photo-wrap{flex-shrink:0}
-.band-photo{width:280px;height:280px;object-fit:cover;border-radius:1rem;border:2px solid var(--border);box-shadow:0 12px 40px -12px rgba(0,0,0,.6)}
-@media(min-width:768px){.band-photo{width:320px;height:320px}}
-
-.band-avatar-lg{display:grid;place-items:center;width:200px;height:200px;border-radius:1rem;background:var(--gradient-neon);font-size:3rem;font-weight:700;color:var(--neon-foreground);flex-shrink:0}
-
-.band-hero-info{flex:1;min-width:0}
-.band-tag{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--brand-gold);margin-bottom:.375rem}
-.band-name{font-size:2rem;font-weight:700;letter-spacing:-.03em;margin-bottom:.75rem}
-@media(min-width:640px){.band-name{font-size:2.75rem}}
-.band-bio-inline{color:var(--muted-foreground);font-size:.9375rem;line-height:1.7;margin-bottom:1.25rem;max-width:36rem}
-.band-links{display:flex;flex-wrap:wrap;gap:.5rem}
-.band-link-btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;padding:.625rem 1.25rem;font-size:.875rem;font-weight:600;background:var(--brand-gold);color:var(--brand-navy);transition:opacity .2s}
-.band-link-btn:hover{opacity:.9}
-.band-link-secondary{background:var(--card);color:var(--muted-foreground);border:1px solid var(--border)}
-.band-link-secondary:hover{background:var(--secondary);color:var(--foreground)}
-
-/* Video */
-.band-video-section{margin-top:1rem}
-.band-section-title{font-size:1.25rem;font-weight:700;margin-bottom:1rem;color:var(--brand-gold)}
-.band-video-wrap{position:relative;padding-bottom:56.25%;height:0;border-radius:1rem;overflow:hidden;border:1px solid var(--border);max-width:48rem;box-shadow:0 12px 40px -12px rgba(0,0,0,.4)}
-.band-video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}
-
-/* Event List */
-.events-group-title { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: var(--foreground); }
-.event-list { display: flex; flex-direction: column; gap: .25rem; }
-.event-row { display: flex; align-items: center; gap: .5rem; padding: .625rem .75rem; border-radius: .5rem; font-size: .875rem; transition: background .15s; flex-wrap: wrap; text-decoration: none; color: inherit; }
-.event-row:hover { background: var(--card); }
-.event-row-icon { font-size: .875rem; flex-shrink: 0; }
-.event-row-date { font-size: .75rem; font-weight: 600; color: var(--brand-gold); min-width: 5.5rem; flex-shrink: 0; }
-.event-row-venue { color: var(--muted-foreground); flex-shrink: 0; }
-.event-row-sep { color: var(--muted-foreground); opacity: .4; flex-shrink: 0; }
-.event-row-title { font-weight: 600; flex: 1; min-width: 0; }
-.event-row-city { font-size: .75rem; font-weight: 500; color: var(--brand-gold-light); margin-left: auto; margin-right: 1rem; }
-.event-row-time { font-size: .95rem; font-weight: 700; color: var(--brand-gold); flex-shrink: 0; }
-@media (max-width: 639px) {
-  .event-row { font-size: .8125rem; gap: .375rem; }
-  .event-row-venue, .event-row-sep, .event-row-city { display: none; }
-  .event-row-time { font-size: .9rem; font-weight: 700; color: var(--brand-gold); }
+/* Hero Card */
+.band-hero-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Past Events */
-.past-events { margin-top: 2rem; opacity: 0.6; transition: opacity 0.2s; }
-.past-events:hover { opacity: 1; }
-.past-events .event-row-date { color: var(--muted-foreground); }
-.past-row:hover { background: transparent; }
+.band-hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .band-hero-main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
 
+.band-photo-wrap { flex-shrink: 0; }
+.band-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 2px solid var(--border);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.5);
+}
+
+.band-avatar-lg {
+  display: grid;
+  place-items: center;
+  width: 220px;
+  height: 220px;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #cca43b 0%, #e5c158 100%);
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  flex-shrink: 0;
+}
+
+.band-hero-info { flex: 1; min-width: 0; }
+
+.band-eyebrow-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.band-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--brand-gold);
+}
+
+.genre-pill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--secondary);
+  border: 1px solid var(--border);
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  color: var(--muted-foreground);
+}
+
+.band-name {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: -0.03em;
+}
+@media (min-width: 640px) { .band-name { font-size: 3.25rem; } }
+
+.band-bio-inline {
+  color: var(--muted-foreground);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+  max-width: 42rem;
+}
+
+.band-stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  color: var(--foreground);
+}
+
+.band-links-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  transition: all 0.15s ease;
+}
+.link-btn:hover {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border-color: var(--brand-gold);
+}
+
+.fb-btn:hover { background: #1877f2; color: #fff; border-color: #1877f2; }
+.spotify-btn:hover { background: #1db954; color: #fff; border-color: #1db954; }
+.apple-btn:hover { background: #fc3c44; color: #fff; border-color: #fc3c44; }
+.bandcamp-btn:hover { background: #629aa9; color: #fff; border-color: #629aa9; }
+.youtube-btn:hover { background: #ff0000; color: #fff; border-color: #ff0000; }
+
+/* Shows Section */
+.band-shows-section { margin-bottom: 3.5rem; }
+
+.shows-header-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+  .shows-header-row {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.section-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--brand-gold);
+  margin-bottom: 0.25rem;
+  display: block;
+}
+.section-title { font-size: 1.75rem; font-weight: 800; color: #fff; margin: 0; }
+
+.show-tabs {
+  display: flex;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+  gap: 0.25rem;
+  width: max-content;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted-foreground);
+  padding: 0.45rem 0.85rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.tab-btn:hover { color: #fff; }
+.tab-btn.active { background: var(--brand-gold); color: var(--brand-navy); }
+
+/* Band Grid Layout (Shows + Map) */
+.band-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 1024px) {
+  .band-grid-layout {
+    grid-template-columns: 1fr 340px;
+  }
+}
+
+.event-list { display: flex; flex-direction: column; gap: 0.6rem; }
+
+.event-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.85rem 1.1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+}
+.event-row:hover {
+  border-color: var(--brand-gold);
+  transform: translateY(-1px);
+}
+
+.event-row-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+.event-row-date { font-weight: 700; color: var(--brand-gold); }
+.event-row-past-pill { font-size: 0.65rem; font-weight: 700; background: rgba(239,68,68,0.18); border: 1px solid rgba(239,68,68,0.5); color: #ef4444; padding: 0.1rem 0.35rem; border-radius: 0.25rem; }
+.event-row-city-pill { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; background: var(--secondary); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 0.25rem; color: var(--muted-foreground); }
+
+.event-row-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+.event-row-venue-link { color: var(--muted-foreground); text-decoration: none; font-weight: 500; }
+.event-row-venue-link:hover { color: var(--brand-gold); text-decoration: underline; }
+.event-row-time { font-size: 0.9rem; font-weight: 700; color: var(--brand-gold); }
+
+.event-row-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.1rem;
+}
+.event-row-title { font-size: 1.05rem; font-weight: 800; color: #fff; text-decoration: none; line-height: 1.35; flex: 1; }
+.event-row-title:hover { color: var(--brand-gold); }
+
+.add-cal-btn {
+  font-size: 0.725rem;
+  font-weight: 700;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+.add-cal-btn:hover { background: #38bdf8; color: #0f172a; }
+
+.past-row { opacity: 0.75; }
+.past-row:hover { opacity: 1; }
+
+.no-events-msg { color: var(--muted-foreground); font-style: italic; background: var(--card); padding: 1.5rem; border-radius: 0.75rem; border: 1px dashed var(--border); }
+
+/* Tour Map Sidebar */
+.tour-map-sidebar .map-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+.map-card-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.85rem; color: #fff; display: flex; align-items: center; gap: 0.4rem; }
+.map-box { height: 260px; border-radius: 0.75rem; overflow: hidden; border: 1px solid var(--border); margin-bottom: 0.75rem; }
+#band-leaflet-map { width: 100%; height: 100%; }
+.map-caption { font-size: 0.8rem; color: var(--muted-foreground); }
+
+/* Video Section */
+.band-video-section { margin-bottom: 3.5rem; }
+.video-header { margin-bottom: 1.25rem; }
+.band-video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.band-video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Related Bands Section */
+.related-bands-section { margin-top: 3.5rem; }
+.related-header { margin-bottom: 1.5rem; }
+.related-bands-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.25rem;
+}
+@media (min-width: 640px) { .related-bands-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .related-bands-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.related-band-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+.related-band-card:hover {
+  border-color: var(--brand-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.related-img {
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.related-avatar {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 0.5rem;
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  font-weight: 800;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.related-info { flex: 1; min-width: 0; }
+.related-name { font-size: 1rem; font-weight: 700; color: #fff; margin: 0 0 0.2rem 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.related-link-text { display: flex; align-items: center; gap: 0.2rem; font-size: 0.75rem; color: #38bdf8; font-weight: 600; }
+
+:global(.custom-band-pin) { background: transparent; border: none; }
+:global(.band-pin-dot) {
+  width: 16px;
+  height: 16px;
+  background: var(--brand-gold);
+  border: 2px solid #0f172a;
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--brand-gold);
+}
 </style>
