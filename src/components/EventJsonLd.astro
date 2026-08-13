@@ -8,30 +8,65 @@ interface Props {
 const { events } = Astro.props;
 const eventsArray = Array.isArray(events) ? events : [events];
 
-const jsonLds = eventsArray.map(e => ({
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": e.title,
-  "startDate": `${e.date}T19:00:00`,
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "location": {
-    "@type": "Place",
-    "name": e.venue,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": e.city,
-      "addressRegion": "AK",
-      "addressCountry": "US"
+const cityCoords: Record<string, [number, number]> = {
+  'Anchorage': [61.2181, -149.9003],
+  'Fairbanks': [64.8378, -147.7164],
+  'Juneau': [58.3019, -134.4197],
+  'Homer': [59.6425, -151.5483],
+  'Palmer': [61.5997, -149.1100],
+  'Wasilla': [61.5814, -149.4394],
+  'Seward': [60.1042, -149.4422],
+  'Girdwood': [60.9422, -149.1678],
+  'Talkeetna': [62.3208, -150.1066],
+  'Kenai': [60.5544, -151.2583],
+  'Soldotna': [60.4878, -151.0583],
+  'Ketchikan': [55.3422, -131.6461],
+  'Sitka': [57.0531, -135.3300],
+  'Kodiak': [57.7900, -152.4072]
+};
+
+const jsonLds = eventsArray.map(e => {
+  const coords = cityCoords[e.city] || [61.2181, -149.9003];
+  const isFree = e.category === 'community' || (e.price && e.price.toLowerCase().includes('free'));
+
+  return {
+    "@context": "https://schema.org",
+    "@type": e.category === 'comedy' ? "ComedyEvent" : e.category === 'festival' ? "Festival" : "MusicEvent",
+    "name": e.title,
+    "description": `${e.title} live at ${e.venue} in ${e.city}, Alaska.`,
+    "startDate": `${e.date}T19:00:00-08:00`,
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "MusicVenue",
+      "name": e.venue,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": e.city,
+        "addressRegion": "AK",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": coords[0],
+        "longitude": coords[1]
+      }
+    },
+    "performer": {
+      "@type": "MusicGroup",
+      "name": e.title.split(/ft\.|feat\.|with/i)[0].trim()
+    },
+    "url": `https://akconcerts.com/events/${e.slug}`,
+    "isAccessibleForFree": isFree,
+    "offers": {
+      "@type": "Offer",
+      "url": e.ticketUrl || `https://akconcerts.com/events/${e.slug}`,
+      "priceCurrency": "USD",
+      "price": isFree ? "0.00" : (e.price ? e.price.replace(/[^0-9.]/g, '') || "15.00" : "15.00"),
+      "availability": "https://schema.org/InStock"
     }
-  },
-  "url": `https://akconcerts.com/events/${e.slug}`,
-  "offers": {
-    "@type": "Offer",
-    "url": e.ticketUrl || `https://akconcerts.com/events/${e.slug}`,
-    "availability": "https://schema.org/InStock"
-  }
-}));
+  };
+});
 ---
 
 <>
