@@ -594,7 +594,7 @@
     "cost": ""
   },
   {
-    "id": "4651",
+    "id": "4652",
     "date": "2026-08-13",
     "city": "Fairbanks",
     "venue": "The International Hotel & Bar",
@@ -605,7 +605,7 @@
     "cost": ""
   },
   {
-    "id": "4652",
+    "id": "4653",
     "date": "2026-08-13",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -616,7 +616,7 @@
     "cost": ""
   },
   {
-    "id": "4653",
+    "id": "4654",
     "date": "2026-08-13",
     "city": "Fairbanks",
     "venue": "Jack Sprat",
@@ -627,7 +627,7 @@
     "cost": ""
   },
   {
-    "id": "4654",
+    "id": "4655",
     "date": "2026-08-13",
     "city": "Fairbanks",
     "venue": "3 The Marlin",
@@ -638,7 +638,7 @@
     "cost": ""
   },
   {
-    "id": "4690",
+    "id": "4709",
     "date": "2026-08-14",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -649,7 +649,7 @@
     "cost": ""
   },
   {
-    "id": "4691",
+    "id": "4710",
     "date": "2026-08-14",
     "city": "Fairbanks",
     "venue": "The International Hotel & Bar",
@@ -660,7 +660,7 @@
     "cost": ""
   },
   {
-    "id": "4720",
+    "id": "4770",
     "date": "2026-08-15",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -671,7 +671,7 @@
     "cost": ""
   },
   {
-    "id": "4721",
+    "id": "4771",
     "date": "2026-08-15",
     "city": "Fairbanks",
     "venue": "Salisbury Theater",
@@ -682,7 +682,29 @@
     "cost": ""
   },
   {
-    "id": "4722",
+    "id": "4772",
+    "date": "2026-08-15",
+    "city": "Fairbanks",
+    "venue": "Musher’s Hall",
+    "category": "music",
+    "title": "2026 Midnight Sun Scottish Highland Games",
+    "time": "10a-6p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4773",
+    "date": "2026-08-15",
+    "city": "Fairbanks",
+    "venue": "Hoodoo Brewing",
+    "category": "music",
+    "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4774",
     "date": "2026-08-15",
     "city": "Fairbanks",
     "venue": "The International Hotel & Bar",
@@ -693,7 +715,7 @@
     "cost": ""
   },
   {
-    "id": "4741",
+    "id": "4838",
     "date": "2026-08-16",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -704,7 +726,7 @@
     "cost": ""
   },
   {
-    "id": "4742",
+    "id": "4839",
     "date": "2026-08-16",
     "city": "Fairbanks",
     "venue": "The Marlin",
@@ -715,7 +737,7 @@
     "cost": ""
   },
   {
-    "id": "4744",
+    "id": "4857",
     "date": "2026-08-17",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -726,7 +748,7 @@
     "cost": ""
   },
   {
-    "id": "4745",
+    "id": "4858",
     "date": "2026-08-17",
     "city": "Fairbanks",
     "venue": "4 Pioneer Park",
@@ -737,7 +759,7 @@
     "cost": ""
   },
   {
-    "id": "4755",
+    "id": "4873",
     "date": "2026-08-18",
     "city": "Fairbanks",
     "venue": "The Cabin",
@@ -748,7 +770,7 @@
     "cost": ""
   },
   {
-    "id": "4756",
+    "id": "4874",
     "date": "2026-08-18",
     "city": "Fairbanks",
     "venue": "8 The Palace Theater",
@@ -759,7 +781,7 @@
     "cost": ""
   },
   {
-    "id": "4778",
+    "id": "4912",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "Hoodoo Brewing",
@@ -770,7 +792,7 @@
     "cost": ""
   },
   {
-    "id": "4779",
+    "id": "4913",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "The Palace Theater",
@@ -781,7 +803,7 @@
     "cost": ""
   },
   {
-    "id": "4780",
+    "id": "4914",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "Girdwood Brewing Company",
@@ -792,7 +814,7 @@
     "cost": ""
   },
   {
-    "id": "4781",
+    "id": "4915",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "Alyeska Resort",
@@ -803,7 +825,7 @@
     "cost": ""
   },
   {
-    "id": "4782",
+    "id": "4916",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "4 Pioneer Bar",
@@ -814,7 +836,7 @@
     "cost": ""
   },
   {
-    "id": "4783",
+    "id": "4917",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "Raw Market",
@@ -825,7 +847,7 @@
     "cost": ""
   },
   {
-    "id": "4784",
+    "id": "4918",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "The Spur",
@@ -836,13 +858,24 @@
     "cost": ""
   },
   {
-    "id": "4785",
+    "id": "4919",
     "date": "2026-08-19",
     "city": "Fairbanks",
     "venue": "5 Pioneer Bar",
     "category": "music",
     "title": "Karaoke Night",
     "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5029",
+    "date": "2026-08-24",
+    "city": "Fairbanks",
+    "venue": "Pioneer Park",
+    "category": "music",
+    "title": "Gazebo Nights Concert Series: Alaska Wompus Cats",
+    "time": "6p-7p",
     "ticketUrl": "",
     "cost": ""
   }

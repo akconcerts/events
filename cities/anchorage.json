@@ -30671,6 +30671,17 @@
     "id": "4646",
     "date": "2026-08-13",
     "city": "Anchorage",
+    "venue": "Koot’s",
+    "category": "music",
+    "title": "Latin Night w/ DJ MyKey T",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4647",
+    "date": "2026-08-13",
+    "city": "Anchorage",
     "venue": "The Carousel Lounge",
     "category": "music",
     "title": "AK Rockstar Karaoke",
@@ -30679,7 +30690,7 @@
     "cost": ""
   },
   {
-    "id": "4662",
+    "id": "4678",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -30690,7 +30701,7 @@
     "cost": ""
   },
   {
-    "id": "4663",
+    "id": "4679",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -30701,7 +30712,7 @@
     "cost": ""
   },
   {
-    "id": "4664",
+    "id": "4680",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -30712,7 +30723,7 @@
     "cost": ""
   },
   {
-    "id": "4665",
+    "id": "4681",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -30723,7 +30734,7 @@
     "cost": ""
   },
   {
-    "id": "4666",
+    "id": "4682",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Alaska Dance Promotions",
@@ -30734,7 +30745,7 @@
     "cost": ""
   },
   {
-    "id": "4667",
+    "id": "4683",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Bird Treatment & Learning Center",
@@ -30745,7 +30756,7 @@
     "cost": ""
   },
   {
-    "id": "4668",
+    "id": "4684",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Broken Blender",
@@ -30756,7 +30767,7 @@
     "cost": ""
   },
   {
-    "id": "4669",
+    "id": "4685",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Flattop Pizza & Pool",
@@ -30767,7 +30778,7 @@
     "cost": ""
   },
   {
-    "id": "4670",
+    "id": "4686",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Glenn Square",
@@ -30778,7 +30789,7 @@
     "cost": ""
   },
   {
-    "id": "4671",
+    "id": "4687",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Gumbo House",
@@ -30789,7 +30800,7 @@
     "cost": ""
   },
   {
-    "id": "4672",
+    "id": "4688",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Humpy’s",
@@ -30800,7 +30811,7 @@
     "cost": ""
   },
   {
-    "id": "4673",
+    "id": "4689",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Koot’s",
@@ -30811,7 +30822,7 @@
     "cost": ""
   },
   {
-    "id": "4674",
+    "id": "4690",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Pink Cadillac",
@@ -30822,7 +30833,7 @@
     "cost": ""
   },
   {
-    "id": "4675",
+    "id": "4691",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Pioneer Bar",
@@ -30833,7 +30844,7 @@
     "cost": ""
   },
   {
-    "id": "4676",
+    "id": "4692",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "SubZero Microlounge",
@@ -30844,7 +30855,7 @@
     "cost": ""
   },
   {
-    "id": "4677",
+    "id": "4693",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Turnagain Brewing",
@@ -30855,7 +30866,7 @@
     "cost": ""
   },
   {
-    "id": "4678",
+    "id": "4694",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Van’s Dive Bar",
@@ -30866,7 +30877,7 @@
     "cost": ""
   },
   {
-    "id": "4679",
+    "id": "4695",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "1a Wendy Williamson Auditorium",
@@ -30877,7 +30888,7 @@
     "cost": ""
   },
   {
-    "id": "4680",
+    "id": "4696",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Fairview Community Rec Center",
@@ -30888,7 +30899,7 @@
     "cost": ""
   },
   {
-    "id": "4681",
+    "id": "4697",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "JBER Library",
@@ -30899,7 +30910,7 @@
     "cost": ""
   },
   {
-    "id": "4682",
+    "id": "4698",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "9p Hilltop Ski Area",
@@ -30910,7 +30921,7 @@
     "cost": ""
   },
   {
-    "id": "4683",
+    "id": "4699",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Blarney Stone",
@@ -30921,7 +30932,7 @@
     "cost": ""
   },
   {
-    "id": "4684",
+    "id": "4700",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "O’Malley’s on the Green",
@@ -30932,7 +30943,18 @@
     "cost": ""
   },
   {
-    "id": "4685",
+    "id": "4701",
+    "date": "2026-08-14",
+    "city": "Anchorage",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "category": "music",
+    "title": "Karaoke Friday at the Eagles!",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4702",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Bernie’s Bungalow Lounge",
@@ -30943,7 +30965,7 @@
     "cost": ""
   },
   {
-    "id": "4686",
+    "id": "4703",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Mad Myrna’s",
@@ -30954,7 +30976,7 @@
     "cost": ""
   },
   {
-    "id": "4687",
+    "id": "4704",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Arctic Academie de Danse",
@@ -30965,7 +30987,18 @@
     "cost": ""
   },
   {
-    "id": "4688",
+    "id": "4705",
+    "date": "2026-08-14",
+    "city": "Anchorage",
+    "venue": "The Carousel Lounge",
+    "category": "music",
+    "title": "$100 Cash Giveaway Karaoke Contest",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4706",
     "date": "2026-08-14",
     "city": "Anchorage",
     "venue": "Time Out Lounge",
@@ -30976,7 +31009,7 @@
     "cost": ""
   },
   {
-    "id": "4692",
+    "id": "4739",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Anchorage Social Dance Club",
@@ -30987,7 +31020,7 @@
     "cost": ""
   },
   {
-    "id": "4693",
+    "id": "4740",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Anchorage Museum",
@@ -30998,7 +31031,7 @@
     "cost": ""
   },
   {
-    "id": "4694",
+    "id": "4741",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Anchorage Museum",
@@ -31009,7 +31042,7 @@
     "cost": ""
   },
   {
-    "id": "4695",
+    "id": "4742",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Anchorage Weekend Market",
@@ -31020,7 +31053,7 @@
     "cost": ""
   },
   {
-    "id": "4696",
+    "id": "4743",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Beartooth Theatrepub",
@@ -31031,7 +31064,7 @@
     "cost": ""
   },
   {
-    "id": "4697",
+    "id": "4744",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Broken Blender",
@@ -31042,7 +31075,7 @@
     "cost": ""
   },
   {
-    "id": "4698",
+    "id": "4745",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Continental",
@@ -31053,7 +31086,7 @@
     "cost": ""
   },
   {
-    "id": "4699",
+    "id": "4746",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Flattop Pizza & Pool",
@@ -31064,7 +31097,7 @@
     "cost": ""
   },
   {
-    "id": "4700",
+    "id": "4747",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Humpy’s",
@@ -31075,7 +31108,7 @@
     "cost": ""
   },
   {
-    "id": "4701",
+    "id": "4748",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Koots",
@@ -31086,7 +31119,7 @@
     "cost": ""
   },
   {
-    "id": "4702",
+    "id": "4749",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Main Event Grill",
@@ -31097,7 +31130,7 @@
     "cost": ""
   },
   {
-    "id": "4703",
+    "id": "4750",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Muldoon Chanshtnu Park",
@@ -31108,7 +31141,7 @@
     "cost": ""
   },
   {
-    "id": "4704",
+    "id": "4751",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Pink Cadillac",
@@ -31119,7 +31152,7 @@
     "cost": ""
   },
   {
-    "id": "4705",
+    "id": "4752",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Ship Creek Brewing",
@@ -31130,7 +31163,7 @@
     "cost": ""
   },
   {
-    "id": "4706",
+    "id": "4753",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Sullivan Arena Football Stadium",
@@ -31141,7 +31174,7 @@
     "cost": ""
   },
   {
-    "id": "4707",
+    "id": "4754",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Wildbirch Hotel",
@@ -31152,7 +31185,7 @@
     "cost": ""
   },
   {
-    "id": "4708",
+    "id": "4755",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -31163,7 +31196,7 @@
     "cost": ""
   },
   {
-    "id": "4709",
+    "id": "4756",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Gumbo House",
@@ -31174,7 +31207,7 @@
     "cost": ""
   },
   {
-    "id": "4710",
+    "id": "4757",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "The Nave Spenard",
@@ -31185,7 +31218,7 @@
     "cost": ""
   },
   {
-    "id": "4711",
+    "id": "4758",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Broken Blender",
@@ -31196,7 +31229,7 @@
     "cost": ""
   },
   {
-    "id": "4712",
+    "id": "4759",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Oriental Garden",
@@ -31207,7 +31240,7 @@
     "cost": ""
   },
   {
-    "id": "4713",
+    "id": "4760",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Mad Myrna’s",
@@ -31218,7 +31251,7 @@
     "cost": ""
   },
   {
-    "id": "4714",
+    "id": "4761",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "The Carousel Lounge",
@@ -31229,7 +31262,7 @@
     "cost": ""
   },
   {
-    "id": "4715",
+    "id": "4762",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Van’s Dive Bar",
@@ -31240,7 +31273,7 @@
     "cost": ""
   },
   {
-    "id": "4716",
+    "id": "4763",
     "date": "2026-08-15",
     "city": "Anchorage",
     "venue": "Time Out Lounge",
@@ -31251,7 +31284,7 @@
     "cost": ""
   },
   {
-    "id": "4723",
+    "id": "4817",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Anchorage Social Dance Club",
@@ -31262,7 +31295,7 @@
     "cost": ""
   },
   {
-    "id": "4724",
+    "id": "4818",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Anchorage Weekend Market",
@@ -31273,7 +31306,7 @@
     "cost": ""
   },
   {
-    "id": "4725",
+    "id": "4819",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Billiard Palace",
@@ -31284,7 +31317,7 @@
     "cost": ""
   },
   {
-    "id": "4726",
+    "id": "4820",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Humpy’s",
@@ -31295,7 +31328,7 @@
     "cost": ""
   },
   {
-    "id": "4727",
+    "id": "4821",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Koot’s",
@@ -31306,7 +31339,7 @@
     "cost": ""
   },
   {
-    "id": "4728",
+    "id": "4822",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "0p-10pKoot’s",
@@ -31317,7 +31350,7 @@
     "cost": ""
   },
   {
-    "id": "4729",
+    "id": "4823",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "0p-2aMad Myrna’s",
@@ -31328,7 +31361,7 @@
     "cost": ""
   },
   {
-    "id": "4730",
+    "id": "4824",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "2a Pink Cadillac",
@@ -31339,7 +31372,7 @@
     "cost": ""
   },
   {
-    "id": "4731",
+    "id": "4825",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Pioneer Bar",
@@ -31350,7 +31383,7 @@
     "cost": ""
   },
   {
-    "id": "4732",
+    "id": "4826",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Time Out Lounge",
@@ -31361,7 +31394,7 @@
     "cost": ""
   },
   {
-    "id": "4733",
+    "id": "4827",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Sullivan Arena Football Stadium",
@@ -31372,7 +31405,7 @@
     "cost": ""
   },
   {
-    "id": "4734",
+    "id": "4828",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Van’s Dive Bar",
@@ -31383,7 +31416,7 @@
     "cost": ""
   },
   {
-    "id": "4735",
+    "id": "4829",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Alaska Dance Promotions",
@@ -31394,7 +31427,7 @@
     "cost": ""
   },
   {
-    "id": "4736",
+    "id": "4830",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Fire Island Bakery @ K Street Market",
@@ -31405,7 +31438,18 @@
     "cost": ""
   },
   {
-    "id": "4737",
+    "id": "4831",
+    "date": "2026-08-16",
+    "city": "Anchorage",
+    "venue": "VFW Post 1685",
+    "category": "music",
+    "title": "Open Mic & Jam",
+    "time": "4:30p-8:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4832",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -31416,7 +31460,7 @@
     "cost": ""
   },
   {
-    "id": "4738",
+    "id": "4833",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Anchorage Social Dance Club",
@@ -31427,7 +31471,7 @@
     "cost": ""
   },
   {
-    "id": "4739",
+    "id": "4834",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "0p The Carousel Lounge",
@@ -31438,7 +31482,7 @@
     "cost": ""
   },
   {
-    "id": "4740",
+    "id": "4835",
     "date": "2026-08-16",
     "city": "Anchorage",
     "venue": "Van’s Dive Bar",
@@ -31449,7 +31493,62 @@
     "cost": ""
   },
   {
-    "id": "4747",
+    "id": "4851",
+    "date": "2026-08-17",
+    "city": "Anchorage",
+    "venue": "49th State Brewery",
+    "category": "music",
+    "title": "Garden Grooves: Music in the Beer Garden",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4852",
+    "date": "2026-08-17",
+    "city": "Anchorage",
+    "venue": "Fire Island Bakery @ K Street Market",
+    "category": "music",
+    "title": "Weekly Jazz Jam",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4853",
+    "date": "2026-08-17",
+    "city": "Anchorage",
+    "venue": "Anchorage Social Dance Club",
+    "category": "dance",
+    "title": "Learn to Square Dance",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4854",
+    "date": "2026-08-17",
+    "city": "Anchorage",
+    "venue": "Alaska Dance Promotions",
+    "category": "dance",
+    "title": "Bachata Dance Patterns",
+    "time": "8:30p-9:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4855",
+    "date": "2026-08-17",
+    "city": "Anchorage",
+    "venue": "Van’s Dive Bar",
+    "category": "music",
+    "title": "Snacks at Midnight",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4865",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Anchorage Museum",
@@ -31460,7 +31559,7 @@
     "cost": ""
   },
   {
-    "id": "4748",
+    "id": "4866",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Blarney Stone",
@@ -31471,7 +31570,7 @@
     "cost": ""
   },
   {
-    "id": "4749",
+    "id": "4867",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "The Carousel Lounge",
@@ -31482,7 +31581,7 @@
     "cost": ""
   },
   {
-    "id": "4750",
+    "id": "4868",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Oriental Healing Arts Center",
@@ -31493,7 +31592,7 @@
     "cost": ""
   },
   {
-    "id": "4751",
+    "id": "4869",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Pink Cadillac",
@@ -31504,7 +31603,7 @@
     "cost": ""
   },
   {
-    "id": "4752",
+    "id": "4870",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -31515,7 +31614,7 @@
     "cost": ""
   },
   {
-    "id": "4753",
+    "id": "4871",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Mountain View Public Library",
@@ -31526,7 +31625,7 @@
     "cost": ""
   },
   {
-    "id": "4754",
+    "id": "4872",
     "date": "2026-08-18",
     "city": "Anchorage",
     "venue": "Organic Oasis",
@@ -31537,7 +31636,7 @@
     "cost": ""
   },
   {
-    "id": "4758",
+    "id": "4889",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "9th State Brewery",
@@ -31548,7 +31647,7 @@
     "cost": ""
   },
   {
-    "id": "4759",
+    "id": "4890",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Alaska Zoo",
@@ -31559,7 +31658,7 @@
     "cost": ""
   },
   {
-    "id": "4760",
+    "id": "4891",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Anchorage Social Dance Club",
@@ -31570,7 +31669,7 @@
     "cost": ""
   },
   {
-    "id": "4761",
+    "id": "4892",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "The Carousel Lounge",
@@ -31581,7 +31680,7 @@
     "cost": ""
   },
   {
-    "id": "4762",
+    "id": "4893",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Pink Cadillac",
@@ -31592,7 +31691,7 @@
     "cost": ""
   },
   {
-    "id": "4763",
+    "id": "4894",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Pioneer Bar",
@@ -31603,7 +31702,7 @@
     "cost": ""
   },
   {
-    "id": "4764",
+    "id": "4895",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "0p-1aVan’s Dive Bar",
@@ -31614,7 +31713,7 @@
     "cost": ""
   },
   {
-    "id": "4765",
+    "id": "4896",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Wildbirch Hotel",
@@ -31625,7 +31724,18 @@
     "cost": ""
   },
   {
-    "id": "4766",
+    "id": "4897",
+    "date": "2026-08-19",
+    "city": "Anchorage",
+    "venue": "Koot’s",
+    "category": "music",
+    "title": "Koots Karaoke",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4898",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Loussac Luibrary",
@@ -31636,7 +31746,7 @@
     "cost": ""
   },
   {
-    "id": "4767",
+    "id": "4899",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "Mad Myrna’s",
@@ -31647,13 +31757,35 @@
     "cost": ""
   },
   {
-    "id": "4768",
+    "id": "4900",
     "date": "2026-08-19",
     "city": "Anchorage",
     "venue": "7 Alehouse",
     "category": "music",
     "title": "Tyrone & Friends",
     "time": "7p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4901",
+    "date": "2026-08-19",
+    "city": "Anchorage",
+    "venue": "Koot’s",
+    "category": "comedy",
+    "title": "Comedy Open Mic",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4902",
+    "date": "2026-08-19",
+    "city": "Anchorage",
+    "venue": "Humpy’s",
+    "category": "music",
+    "title": "Live Music w/ Will H. Johnson",
+    "time": "8p-11:30p",
     "ticketUrl": "",
     "cost": ""
   }

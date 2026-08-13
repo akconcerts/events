@@ -165,7 +165,62 @@
     "cost": ""
   },
   {
-    "id": "4802",
+    "id": "4715",
+    "date": "2026-08-14",
+    "city": "Hope",
+    "venue": "Dirty Skillet",
+    "category": "music",
+    "title": "Spindrift",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4716",
+    "date": "2026-08-14",
+    "city": "Hope",
+    "venue": "Creekbend Co.",
+    "category": "music",
+    "title": "Noah Rinker",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4785",
+    "date": "2026-08-15",
+    "city": "Hope",
+    "venue": "Dirty Skillet",
+    "category": "music",
+    "title": "Spindrift",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4786",
+    "date": "2026-08-15",
+    "city": "Hope",
+    "venue": "Creekbend Co.",
+    "category": "music",
+    "title": "Noah Rinker",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4843",
+    "date": "2026-08-16",
+    "city": "Hope",
+    "venue": "Creekbend Co.",
+    "category": "community",
+    "title": "Sunday Brunch with Steve Norwoord",
+    "time": "11a-2p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4936",
     "date": "2026-08-19",
     "city": "Hope",
     "venue": "Creekbend Co.",
@@ -176,7 +231,7 @@
     "cost": ""
   },
   {
-    "id": "4803",
+    "id": "4937",
     "date": "2026-08-19",
     "city": "Hope",
     "venue": "Dirty Skillet",
@@ -187,7 +242,7 @@
     "cost": ""
   },
   {
-    "id": "4804",
+    "id": "4938",
     "date": "2026-08-19",
     "city": "Hope",
     "venue": "Creekbend Co.",

@@ -44,7 +44,40 @@
     "cost": ""
   },
   {
-    "id": "4866",
+    "id": "4732",
+    "date": "2026-08-14",
+    "city": "Sterling",
+    "venue": "Naptowne Brewing Company",
+    "category": "music",
+    "title": "Brandon Kellum",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4809",
+    "date": "2026-08-15",
+    "city": "Sterling",
+    "venue": "Naptowne Brewing Company",
+    "category": "music",
+    "title": "Tune Weavers",
+    "time": "4p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4810",
+    "date": "2026-08-15",
+    "city": "Sterling",
+    "venue": "Lakeside Falls",
+    "category": "festival",
+    "title": "Taste of Aloha! A Traditional Hawaiian Luau",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5000",
     "date": "2026-08-19",
     "city": "Sterling",
     "venue": "Lakeside Falls",
@@ -55,7 +88,7 @@
     "cost": ""
   },
   {
-    "id": "4867",
+    "id": "5001",
     "date": "2026-08-19",
     "city": "Sterling",
     "venue": "Naptowne Brewing Company",
@@ -66,7 +99,7 @@
     "cost": ""
   },
   {
-    "id": "4868",
+    "id": "5002",
     "date": "2026-08-19",
     "city": "Sterling",
     "venue": "Naptowne Brewing Company",

@@ -44,8 +44,30 @@
     "cost": ""
   },
   {
-    "id": "4844",
+    "id": "4978",
     "date": "2026-08-19",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ Jim Maloney",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5026",
+    "date": "2026-08-21",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ Jim Maloney",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5028",
+    "date": "2026-08-22",
     "city": "Seldovia",
     "venue": "Linwood Bar & Grill",
     "category": "music",

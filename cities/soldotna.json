@@ -220,7 +220,62 @@
     "cost": ""
   },
   {
-    "id": "4859",
+    "id": "4674",
+    "date": "2026-08-13",
+    "city": "Soldotna",
+    "venue": "Soldotna Library",
+    "category": "community",
+    "title": "Preschool Storytime",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4807",
+    "date": "2026-08-15",
+    "city": "Soldotna",
+    "venue": "The Goods",
+    "category": "music",
+    "title": "Karaoke w/ Edencraft",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4808",
+    "date": "2026-08-15",
+    "city": "Soldotna",
+    "venue": "The Orca Theater",
+    "category": "comedy",
+    "title": "The Killer Comedy Show Ft. Sabrina Speers",
+    "time": "8:30p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4863",
+    "date": "2026-08-17",
+    "city": "Soldotna",
+    "venue": "The Goods",
+    "category": "music",
+    "title": "Friends of Mike Morgan Song Circle",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4885",
+    "date": "2026-08-18",
+    "city": "Soldotna",
+    "venue": "Soldotna Library",
+    "category": "community",
+    "title": "Toddler Story Time",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4993",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "Soldotna Library",
@@ -231,7 +286,7 @@
     "cost": ""
   },
   {
-    "id": "4860",
+    "id": "4994",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "The Orca Theater",
@@ -242,7 +297,7 @@
     "cost": ""
   },
   {
-    "id": "4861",
+    "id": "4995",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "Soldotna Library",
@@ -253,7 +308,7 @@
     "cost": ""
   },
   {
-    "id": "4862",
+    "id": "4996",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "Soldotna Library",
@@ -264,7 +319,7 @@
     "cost": ""
   },
   {
-    "id": "4863",
+    "id": "4997",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "The Goods",
@@ -275,7 +330,7 @@
     "cost": ""
   },
   {
-    "id": "4864",
+    "id": "4998",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "The Goods",
@@ -286,7 +341,7 @@
     "cost": ""
   },
   {
-    "id": "4865",
+    "id": "4999",
     "date": "2026-08-19",
     "city": "Soldotna",
     "venue": "Soldotna Creek Park",

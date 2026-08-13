@@ -528,7 +528,128 @@
     "cost": ""
   },
   {
-    "id": "4878",
+    "id": "4676",
+    "date": "2026-08-13",
+    "city": "Wasilla",
+    "venue": "Settler’s Bay Lodge",
+    "category": "music",
+    "title": "Collin Donley Live",
+    "time": "6p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4677",
+    "date": "2026-08-13",
+    "city": "Wasilla",
+    "venue": "Everett’s",
+    "category": "music",
+    "title": "Live Music With Drew Sablon",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4736",
+    "date": "2026-08-14",
+    "city": "Wasilla",
+    "venue": "Black Birch Books",
+    "category": "music",
+    "title": "Storytelling Night: Shared Scars",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4737",
+    "date": "2026-08-14",
+    "city": "Wasilla",
+    "venue": "Last Frontier Brewing Company",
+    "category": "music",
+    "title": "Live Music w/ Sergio",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4738",
+    "date": "2026-08-14",
+    "city": "Wasilla",
+    "venue": "Schwabenhof",
+    "category": "music",
+    "title": "Karaoke Night",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4815",
+    "date": "2026-08-15",
+    "city": "Wasilla",
+    "venue": "Tug Bar & Liquor- Goose Bay Inn",
+    "category": "music",
+    "title": "Live Music with Monster on the Mountain",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4816",
+    "date": "2026-08-15",
+    "city": "Wasilla",
+    "venue": "Last Frontier Brewing Company",
+    "category": "music",
+    "title": "Rick Brooks Live",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4850",
+    "date": "2026-08-16",
+    "city": "Wasilla",
+    "venue": "Tug Bar & Liquor- Goose Bay Inn",
+    "category": "music",
+    "title": "Live Music w/ Pam Santoro",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4886",
+    "date": "2026-08-18",
+    "city": "Wasilla",
+    "venue": "Ken’s Garden Center",
+    "category": "community",
+    "title": "Storytime at Ken’s",
+    "time": "10a-11a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4887",
+    "date": "2026-08-18",
+    "city": "Wasilla",
+    "venue": "Everett’s",
+    "category": "music",
+    "title": "Live Music w/ Jerry Wessling",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4888",
+    "date": "2026-08-18",
+    "city": "Wasilla",
+    "venue": "Schwabenhof",
+    "category": "music",
+    "title": "Karaoke Night",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5012",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
@@ -539,7 +660,7 @@
     "cost": ""
   },
   {
-    "id": "4879",
+    "id": "5013",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
@@ -550,7 +671,7 @@
     "cost": ""
   },
   {
-    "id": "4880",
+    "id": "5014",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Ken’s Garden Center",
@@ -561,7 +682,7 @@
     "cost": ""
   },
   {
-    "id": "4881",
+    "id": "5015",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Schwabenhof",
@@ -572,7 +693,7 @@
     "cost": ""
   },
   {
-    "id": "4882",
+    "id": "5016",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Black Birch Books",
@@ -583,7 +704,7 @@
     "cost": ""
   },
   {
-    "id": "4883",
+    "id": "5017",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Black Birch Books",
@@ -594,7 +715,7 @@
     "cost": ""
   },
   {
-    "id": "4884",
+    "id": "5018",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Settler’s Bay Lodge",
@@ -605,7 +726,7 @@
     "cost": ""
   },
   {
-    "id": "4885",
+    "id": "5019",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Everett’s",
@@ -616,7 +737,7 @@
     "cost": ""
   },
   {
-    "id": "4886",
+    "id": "5020",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Last Frontier Brewing Company",
@@ -627,7 +748,7 @@
     "cost": ""
   },
   {
-    "id": "4887",
+    "id": "5021",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Last Frontier Brewing Company",
@@ -638,7 +759,7 @@
     "cost": ""
   },
   {
-    "id": "4888",
+    "id": "5022",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Everett’s",
@@ -649,7 +770,7 @@
     "cost": ""
   },
   {
-    "id": "4889",
+    "id": "5023",
     "date": "2026-08-19",
     "city": "Wasilla",
     "venue": "Schwabenhof",

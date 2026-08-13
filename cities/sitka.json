@@ -1,6 +1,28 @@
 [
   {
-    "id": "4854",
+    "id": "4803",
+    "date": "2026-08-15",
+    "city": "Sitka",
+    "venue": "Sitka Fine Arts Camp",
+    "category": "festival",
+    "title": "Sitka Blues Fest",
+    "time": "3p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4804",
+    "date": "2026-08-15",
+    "city": "Sitka",
+    "venue": "Crescent Harbor",
+    "category": "music",
+    "title": "Sitka Conservation Society Wilderness Cruise",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4988",
     "date": "2026-08-19",
     "city": "Sitka",
     "venue": "Sitka Fine Arts Camp",
@@ -11,7 +33,7 @@
     "cost": ""
   },
   {
-    "id": "4855",
+    "id": "4989",
     "date": "2026-08-19",
     "city": "Sitka",
     "venue": "Crescent Harbor",

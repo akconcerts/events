@@ -308,7 +308,117 @@
     "cost": ""
   },
   {
-    "id": "4757",
+    "id": "4666",
+    "date": "2026-08-13",
+    "city": "Ketchikan",
+    "venue": "Ketchikan Dock",
+    "category": "music",
+    "title": "Music on the Dock: DJ DJ Archieologic",
+    "time": "12p-1p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4667",
+    "date": "2026-08-13",
+    "city": "Ketchikan",
+    "venue": "105.3 FM KRBD",
+    "category": "music",
+    "title": "Ketchikan Arts & Humanities Council: Arts Report",
+    "time": "8:20a-8:35a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4668",
+    "date": "2026-08-13",
+    "city": "Ketchikan",
+    "venue": "Totem Bar",
+    "category": "music",
+    "title": "Open Mic Night",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4720",
+    "date": "2026-08-14",
+    "city": "Ketchikan",
+    "venue": "Bush Pilots’ Lounge",
+    "category": "music",
+    "title": "Live Music with Sarah Short",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4721",
+    "date": "2026-08-14",
+    "city": "Ketchikan",
+    "venue": "The  Creek Street Cabaret",
+    "category": "dance",
+    "title": "Square Dance w/ Music by the Free Radicals",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4722",
+    "date": "2026-08-14",
+    "city": "Ketchikan",
+    "venue": "The New York Café",
+    "category": "music",
+    "title": "Live Music in the Café",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4791",
+    "date": "2026-08-15",
+    "city": "Ketchikan",
+    "venue": "Arctic Bar",
+    "category": "music",
+    "title": "Virgin Voyages: Brilliant Lady Land Party",
+    "time": "12p-6p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4792",
+    "date": "2026-08-15",
+    "city": "Ketchikan",
+    "venue": "Tongass Historical Museum",
+    "category": "music",
+    "title": "Summer Saturdays at the Museum",
+    "time": "1p-3p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4793",
+    "date": "2026-08-15",
+    "city": "Ketchikan",
+    "venue": "The  Creek Street Cabaret",
+    "category": "music",
+    "title": "Badd Dog Blues Society",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4844",
+    "date": "2026-08-16",
+    "city": "Ketchikan",
+    "venue": "The  Creek Street Cabaret",
+    "category": "music",
+    "title": "Open Mic Night w/ Joe Williams",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4878",
     "date": "2026-08-18",
     "city": "Ketchikan",
     "venue": "Ketchikan Dock",
@@ -319,7 +429,29 @@
     "cost": ""
   },
   {
-    "id": "4817",
+    "id": "4879",
+    "date": "2026-08-18",
+    "city": "Ketchikan",
+    "venue": "Ketchikan Public Library",
+    "category": "music",
+    "title": "Mud on the Moon Book Launch",
+    "time": "6:30p-7:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4880",
+    "date": "2026-08-18",
+    "city": "Ketchikan",
+    "venue": "Hole in the Wall",
+    "category": "music",
+    "title": "Open Mic Night",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4951",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "5.3 FM KRBD",
@@ -330,7 +462,7 @@
     "cost": ""
   },
   {
-    "id": "4818",
+    "id": "4952",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Ketchikan Dock",
@@ -341,7 +473,7 @@
     "cost": ""
   },
   {
-    "id": "4819",
+    "id": "4953",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Arctic Bar",
@@ -352,7 +484,7 @@
     "cost": ""
   },
   {
-    "id": "4820",
+    "id": "4954",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Ketchikan Public Library",
@@ -363,7 +495,7 @@
     "cost": ""
   },
   {
-    "id": "4821",
+    "id": "4955",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Inn at Creek Street",
@@ -374,7 +506,7 @@
     "cost": ""
   },
   {
-    "id": "4822",
+    "id": "4956",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Tongass Historical Museum",
@@ -385,7 +517,7 @@
     "cost": ""
   },
   {
-    "id": "4823",
+    "id": "4957",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Bush Pilots’ Lounge",
@@ -396,7 +528,7 @@
     "cost": ""
   },
   {
-    "id": "4824",
+    "id": "4958",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Hole in the Wall",
@@ -407,7 +539,7 @@
     "cost": ""
   },
   {
-    "id": "4825",
+    "id": "4959",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "The Creek Street Cabaret",
@@ -418,7 +550,7 @@
     "cost": ""
   },
   {
-    "id": "4826",
+    "id": "4960",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "The Creek Street Cabaret",
@@ -429,7 +561,7 @@
     "cost": ""
   },
   {
-    "id": "4827",
+    "id": "4961",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "The New York Café",
@@ -440,7 +572,7 @@
     "cost": ""
   },
   {
-    "id": "4828",
+    "id": "4962",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "Totem Bar",
@@ -451,7 +583,7 @@
     "cost": ""
   },
   {
-    "id": "4829",
+    "id": "4963",
     "date": "2026-08-19",
     "city": "Ketchikan",
     "venue": "The Creek Street Cabaret",

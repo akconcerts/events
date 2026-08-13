@@ -363,7 +363,216 @@
     "cost": ""
   },
   {
-    "id": "4786",
+    "id": "4657",
+    "date": "2026-08-13",
+    "city": "Homer",
+    "venue": "Pratt Museum",
+    "category": "music",
+    "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+    "time": "11a-12p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4658",
+    "date": "2026-08-13",
+    "city": "Homer",
+    "venue": "Homer Council on the Arts",
+    "category": "music",
+    "title": "Community Jam Sessions",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4659",
+    "date": "2026-08-13",
+    "city": "Homer",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "category": "music",
+    "title": "Piano Music by Erica",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4660",
+    "date": "2026-08-13",
+    "city": "Homer",
+    "venue": "Pier One Theater",
+    "category": "music",
+    "title": "Sense And Sensibility",
+    "time": "7:30p-8:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4661",
+    "date": "2026-08-13",
+    "city": "Homer",
+    "venue": "Alibi Bar & Café",
+    "category": "music",
+    "title": "Karaoke Night",
+    "time": "9p-12:30a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4712",
+    "date": "2026-08-14",
+    "city": "Homer",
+    "venue": "Kharacters Alaskan Bar",
+    "category": "music",
+    "title": "Red Marker Resistance",
+    "time": "10p-2p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4713",
+    "date": "2026-08-14",
+    "city": "Homer",
+    "venue": "Pier One Theater",
+    "category": "music",
+    "title": "Sense And Sensibility",
+    "time": "7:30p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4714",
+    "date": "2026-08-14",
+    "city": "Homer",
+    "venue": "Justin Cole’s Down East Saloon",
+    "category": "festival",
+    "title": "Backyard Summer Concert Series & Music Festival",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4778",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Kharacters Alaskan Bar",
+    "category": "music",
+    "title": "Lost Rockets",
+    "time": "10p-2p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4779",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Pratt Museum",
+    "category": "music",
+    "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
+    "time": "11a-12p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4780",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Justin Cole’s Down East Saloon",
+    "category": "festival",
+    "title": "Backyard Summer Concert Series & Music Festival",
+    "time": "1p-1:30a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4781",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "category": "music",
+    "title": "Piano Music by Sunrise Kilcher",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4782",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Porcupine Theater",
+    "category": "music",
+    "title": "All Ages Show w/ The Pudgies, DSB, Ophelia",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4783",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Pier One Theater",
+    "category": "music",
+    "title": "Sense And Sensibility",
+    "time": "7:30p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4784",
+    "date": "2026-08-15",
+    "city": "Homer",
+    "venue": "Alice’s Champagne Palace",
+    "category": "music",
+    "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4841",
+    "date": "2026-08-16",
+    "city": "Homer",
+    "venue": "Pier One Theater",
+    "category": "music",
+    "title": "Sense And Sensibility",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4842",
+    "date": "2026-08-16",
+    "city": "Homer",
+    "venue": "Kharacters Alaskan Bar",
+    "category": "music",
+    "title": "Chris Needham",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4875",
+    "date": "2026-08-18",
+    "city": "Homer",
+    "venue": "Pratt Museum",
+    "category": "community",
+    "title": "Storytime at the Pratt: Berry Season",
+    "time": "10:30a-11:30a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4876",
+    "date": "2026-08-18",
+    "city": "Homer",
+    "venue": "Justin Cole’s Down East Saloon",
+    "category": "music",
+    "title": "Taco Tuesday's with Jim Maloney",
+    "time": "6:30p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4920",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Homer Council on the Arts",
@@ -374,7 +583,7 @@
     "cost": ""
   },
   {
-    "id": "4787",
+    "id": "4921",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Pier One Theater",
@@ -385,7 +594,7 @@
     "cost": ""
   },
   {
-    "id": "4788",
+    "id": "4922",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Pratt Museum",
@@ -396,7 +605,7 @@
     "cost": ""
   },
   {
-    "id": "4789",
+    "id": "4923",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Justin Cole’s Down East Saloon",
@@ -407,7 +616,7 @@
     "cost": ""
   },
   {
-    "id": "4790",
+    "id": "4924",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Kharacters Alaskan Bar",
@@ -418,7 +627,7 @@
     "cost": ""
   },
   {
-    "id": "4791",
+    "id": "4925",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Kharacters Alaskan Bar",
@@ -429,7 +638,7 @@
     "cost": ""
   },
   {
-    "id": "4792",
+    "id": "4926",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Porcupine Theater",
@@ -440,7 +649,7 @@
     "cost": ""
   },
   {
-    "id": "4793",
+    "id": "4927",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Justin Cole’s Down East Saloon",
@@ -451,7 +660,7 @@
     "cost": ""
   },
   {
-    "id": "4794",
+    "id": "4928",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Pratt Museum",
@@ -462,7 +671,7 @@
     "cost": ""
   },
   {
-    "id": "4795",
+    "id": "4929",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Justin Cole’s Down East Saloon",
@@ -473,7 +682,7 @@
     "cost": ""
   },
   {
-    "id": "4796",
+    "id": "4930",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Pier One Theater",
@@ -484,7 +693,7 @@
     "cost": ""
   },
   {
-    "id": "4797",
+    "id": "4931",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Kharacters Alaskan Bar",
@@ -495,7 +704,7 @@
     "cost": ""
   },
   {
-    "id": "4798",
+    "id": "4932",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "AJ’s Old Town Steakhouse & Tavern",
@@ -506,7 +715,7 @@
     "cost": ""
   },
   {
-    "id": "4799",
+    "id": "4933",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "AJ’s Old Town Steakhouse & Tavern",
@@ -517,7 +726,7 @@
     "cost": ""
   },
   {
-    "id": "4800",
+    "id": "4934",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Alice’s Champagne Palace",
@@ -528,7 +737,7 @@
     "cost": ""
   },
   {
-    "id": "4801",
+    "id": "4935",
     "date": "2026-08-19",
     "city": "Homer",
     "venue": "Alibi Bar & Café",

@@ -66,7 +66,51 @@
     "cost": ""
   },
   {
-    "id": "4856",
+    "id": "4731",
+    "date": "2026-08-14",
+    "city": "Skagway",
+    "venue": "Skagway Brewing",
+    "category": "music",
+    "title": "Skagway Idol",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4805",
+    "date": "2026-08-15",
+    "city": "Skagway",
+    "venue": "Skagway Library",
+    "category": "community",
+    "title": "Read with a Ranger Story Time",
+    "time": "10:30a-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4806",
+    "date": "2026-08-15",
+    "city": "Skagway",
+    "venue": "Skagway Library",
+    "category": "music",
+    "title": "Music Time",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4847",
+    "date": "2026-08-16",
+    "city": "Skagway",
+    "venue": "Skagway Library",
+    "category": "music",
+    "title": "Music Time",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4990",
     "date": "2026-08-19",
     "city": "Skagway",
     "venue": "Skagway Brewing",
@@ -77,7 +121,7 @@
     "cost": ""
   },
   {
-    "id": "4857",
+    "id": "4991",
     "date": "2026-08-19",
     "city": "Skagway",
     "venue": "Skagway Library",
@@ -88,7 +132,7 @@
     "cost": ""
   },
   {
-    "id": "4858",
+    "id": "4992",
     "date": "2026-08-19",
     "city": "Skagway",
     "venue": "Skagway Library",

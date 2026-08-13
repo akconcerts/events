@@ -1208,5 +1208,27 @@
     "time": "9p-1a",
     "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
     "cost": ""
+  },
+  {
+    "id": "4711",
+    "date": "2026-08-14",
+    "city": "Haines",
+    "venue": "Pioneer Bar",
+    "category": "music",
+    "title": "Open Mic Night",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4777",
+    "date": "2026-08-15",
+    "city": "Haines",
+    "venue": "Pioneer Bar",
+    "category": "music",
+    "title": "Karaoke Night",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
   }
 ]

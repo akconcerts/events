@@ -605,7 +605,139 @@
     "cost": ""
   },
   {
-    "id": "4834",
+    "id": "4725",
+    "date": "2026-08-14",
+    "city": "Palmer",
+    "venue": "Downtown Palmer",
+    "category": "music",
+    "title": "Friday Fling Live Music Solo Steve",
+    "time": "12p-3p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4726",
+    "date": "2026-08-14",
+    "city": "Palmer",
+    "venue": "Palmer Alehouse",
+    "category": "music",
+    "title": "Black Barrel and the Bad Men",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4727",
+    "date": "2026-08-14",
+    "city": "Palmer",
+    "venue": "Palmer Train Depot",
+    "category": "music",
+    "title": "Rhythm & Royalty Tour",
+    "time": "7p-11:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4728",
+    "date": "2026-08-14",
+    "city": "Palmer",
+    "venue": "American Legion Post 15",
+    "category": "music",
+    "title": "Karaoke",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4797",
+    "date": "2026-08-15",
+    "city": "Palmer",
+    "venue": "Hatcher Pass Lodge",
+    "category": "music",
+    "title": "Collin Donley",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4798",
+    "date": "2026-08-15",
+    "city": "Palmer",
+    "venue": "Palmer Alehouse",
+    "category": "music",
+    "title": "Johnny Prizm",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4799",
+    "date": "2026-08-15",
+    "city": "Palmer",
+    "venue": "American Legion Post 15",
+    "category": "dance",
+    "title": "Two-Step and Country Swing Dance Lessons!",
+    "time": "7p-8p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4800",
+    "date": "2026-08-15",
+    "city": "Palmer",
+    "venue": "American Legion Post 15",
+    "category": "music",
+    "title": "Karaoke",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4801",
+    "date": "2026-08-15",
+    "city": "Palmer",
+    "venue": "Government Peak Recreation Area",
+    "category": "music",
+    "title": "Veins of Gold Mountain Race",
+    "time": "9a-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4845",
+    "date": "2026-08-16",
+    "city": "Palmer",
+    "venue": "Four Corner’s Lounge",
+    "category": "music",
+    "title": "Karaoke",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4882",
+    "date": "2026-08-18",
+    "city": "Palmer",
+    "venue": "Fishhook Bar & Grill",
+    "category": "music",
+    "title": "Open Mic Night w/ Drew Sablon",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4883",
+    "date": "2026-08-18",
+    "city": "Palmer",
+    "venue": "Four Corner’s Lounge",
+    "category": "music",
+    "title": "Industry Night with DJ Red",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4968",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Downtown Palmer",
@@ -616,7 +748,7 @@
     "cost": ""
   },
   {
-    "id": "4835",
+    "id": "4969",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Four Corner’s Lounge",
@@ -627,7 +759,7 @@
     "cost": ""
   },
   {
-    "id": "4836",
+    "id": "4970",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Hatcher Pass Lodge",
@@ -638,7 +770,7 @@
     "cost": ""
   },
   {
-    "id": "4837",
+    "id": "4971",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Fishhook Bar & Grill",
@@ -649,7 +781,7 @@
     "cost": ""
   },
   {
-    "id": "4838",
+    "id": "4972",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Palmer Alehouse",
@@ -660,7 +792,7 @@
     "cost": ""
   },
   {
-    "id": "4839",
+    "id": "4973",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Palmer Alehouse",
@@ -671,7 +803,7 @@
     "cost": ""
   },
   {
-    "id": "4840",
+    "id": "4974",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Palmer Train Depot",
@@ -682,7 +814,7 @@
     "cost": ""
   },
   {
-    "id": "4841",
+    "id": "4975",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Four Corner’s Lounge",
@@ -693,7 +825,7 @@
     "cost": ""
   },
   {
-    "id": "4842",
+    "id": "4976",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Four Corner’s Lounge",
@@ -704,7 +836,7 @@
     "cost": ""
   },
   {
-    "id": "4843",
+    "id": "4977",
     "date": "2026-08-19",
     "city": "Palmer",
     "venue": "Government Peak Recreation Area",

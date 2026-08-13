@@ -1001,7 +1001,95 @@
     "cost": ""
   },
   {
-    "id": "4845",
+    "id": "4673",
+    "date": "2026-08-13",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "dance",
+    "title": "Dance Night w/ DJ Waitwat",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4729",
+    "date": "2026-08-14",
+    "city": "Seward",
+    "venue": "Flamingo Lounge",
+    "category": "music",
+    "title": "Live Music w/ The Jephries ft. Luv Guvna",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4730",
+    "date": "2026-08-14",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "music",
+    "title": "King Monkey w/ Bananahands Live",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4802",
+    "date": "2026-08-15",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "music",
+    "title": "SIXSTAR w/ The Wet Spots, BoyMom, & Filthy Mike",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4846",
+    "date": "2026-08-16",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "music",
+    "title": "Karaoke",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4861",
+    "date": "2026-08-17",
+    "city": "Seward",
+    "venue": "Seward Senior Center",
+    "category": "music",
+    "title": "Seward Strings",
+    "time": "1p-4p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4862",
+    "date": "2026-08-17",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "music",
+    "title": "Karaoke with Megan Killoran",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4884",
+    "date": "2026-08-18",
+    "city": "Seward",
+    "venue": "Yukon Bar",
+    "category": "music",
+    "title": "Open Mic Night with Braden",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4979",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Flamingo Lounge",
@@ -1012,7 +1100,7 @@
     "cost": ""
   },
   {
-    "id": "4846",
+    "id": "4980",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Seward Senior Center",
@@ -1023,7 +1111,7 @@
     "cost": ""
   },
   {
-    "id": "4847",
+    "id": "4981",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1034,7 +1122,7 @@
     "cost": ""
   },
   {
-    "id": "4848",
+    "id": "4982",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1045,7 +1133,7 @@
     "cost": ""
   },
   {
-    "id": "4849",
+    "id": "4983",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1056,7 +1144,7 @@
     "cost": ""
   },
   {
-    "id": "4850",
+    "id": "4984",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1067,7 +1155,7 @@
     "cost": ""
   },
   {
-    "id": "4851",
+    "id": "4985",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1078,7 +1166,7 @@
     "cost": ""
   },
   {
-    "id": "4852",
+    "id": "4986",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",
@@ -1089,7 +1177,7 @@
     "cost": ""
   },
   {
-    "id": "4853",
+    "id": "4987",
     "date": "2026-08-19",
     "city": "Seward",
     "venue": "Yukon Bar",

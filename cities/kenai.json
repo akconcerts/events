@@ -165,7 +165,40 @@
     "cost": ""
   },
   {
-    "id": "4746",
+    "id": "4719",
+    "date": "2026-08-14",
+    "city": "Kenai",
+    "venue": "Skeet’s Dive Bar",
+    "category": "music",
+    "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4789",
+    "date": "2026-08-15",
+    "city": "Kenai",
+    "venue": "Duck Inn Café",
+    "category": "community",
+    "title": "Yacht Rock Sing –Along Brunch",
+    "time": "11a-2p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4790",
+    "date": "2026-08-15",
+    "city": "Kenai",
+    "venue": "Vagabond Inn",
+    "category": "music",
+    "title": "Troubadour North",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4860",
     "date": "2026-08-17",
     "city": "Kenai",
     "venue": "Kenai Chamber of Commerce & Visitor Center",
@@ -176,7 +209,7 @@
     "cost": ""
   },
   {
-    "id": "4814",
+    "id": "4948",
     "date": "2026-08-19",
     "city": "Kenai",
     "venue": "Duck Inn Café",
@@ -187,7 +220,7 @@
     "cost": ""
   },
   {
-    "id": "4815",
+    "id": "4949",
     "date": "2026-08-19",
     "city": "Kenai",
     "venue": "Vagabond Inn",
@@ -198,12 +231,23 @@
     "cost": ""
   },
   {
-    "id": "4816",
+    "id": "4950",
     "date": "2026-08-19",
     "city": "Kenai",
     "venue": "Skeet’s Dive Bar",
     "category": "music",
     "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5027",
+    "date": "2026-08-22",
+    "city": "Kenai",
+    "venue": "Skeet’s Dive Bar",
+    "category": "music",
+    "title": "'26 Divorce Party",
     "time": "9p-?",
     "ticketUrl": "",
     "cost": ""

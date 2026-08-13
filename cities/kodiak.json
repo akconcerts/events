@@ -44,7 +44,29 @@
     "cost": ""
   },
   {
-    "id": "4830",
+    "id": "4723",
+    "date": "2026-08-14",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Roland Roberts Band",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4794",
+    "date": "2026-08-15",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Roland Roberts Band",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4964",
     "date": "2026-08-19",
     "city": "Kodiak",
     "venue": "The Rendezvous",

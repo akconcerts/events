@@ -55,7 +55,40 @@
     "cost": ""
   },
   {
-    "id": "4831",
+    "id": "4672",
+    "date": "2026-08-13",
+    "city": "North Pole",
+    "venue": "North Pole Alehouse",
+    "category": "music",
+    "title": "Karaoke Thursdays with Rocky Barnette",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4796",
+    "date": "2026-08-15",
+    "city": "North Pole",
+    "venue": "North Pole Alehouse",
+    "category": "music",
+    "title": "Retirement Home Takeover Party w/ DJ 4K",
+    "time": "9p-2p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4881",
+    "date": "2026-08-18",
+    "city": "North Pole",
+    "venue": "North Pole Alehouse",
+    "category": "community",
+    "title": "Tuesday Pub Run w/ Tundra Trotters",
+    "time": "6:15p-9p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4965",
     "date": "2026-08-19",
     "city": "North Pole",
     "venue": "North Pole Alehouse",
@@ -66,7 +99,7 @@
     "cost": ""
   },
   {
-    "id": "4832",
+    "id": "4966",
     "date": "2026-08-19",
     "city": "North Pole",
     "venue": "North Pole Alehouse",
@@ -77,7 +110,7 @@
     "cost": ""
   },
   {
-    "id": "4833",
+    "id": "4967",
     "date": "2026-08-19",
     "city": "North Pole",
     "venue": "North Pole Alehouse",

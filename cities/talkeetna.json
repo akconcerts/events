@@ -275,7 +275,73 @@
     "cost": ""
   },
   {
-    "id": "4869",
+    "id": "4733",
+    "date": "2026-08-14",
+    "city": "Talkeetna",
+    "venue": "Talkeetna Village Park",
+    "category": "music",
+    "title": "Live At Five Summer Concerts: TKA Hawks",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4734",
+    "date": "2026-08-14",
+    "city": "Talkeetna",
+    "venue": "Mountain High Pizza",
+    "category": "music",
+    "title": "Collin Donley Live",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4811",
+    "date": "2026-08-15",
+    "city": "Talkeetna",
+    "venue": "Sheldon Community Arts Hangar",
+    "category": "community",
+    "title": "Salmon Run Art Auction Fundraiser",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4812",
+    "date": "2026-08-15",
+    "city": "Talkeetna",
+    "venue": "Fairview Inn",
+    "category": "music",
+    "title": "Madeline & the Brothers Smith",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4848",
+    "date": "2026-08-16",
+    "city": "Talkeetna",
+    "venue": "Mountain High Pizza Pie",
+    "category": "music",
+    "title": "Steve Durr",
+    "time": "1p-2:30p & 5p-6:30p",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4864",
+    "date": "2026-08-17",
+    "city": "Talkeetna",
+    "venue": "Fairview Inn",
+    "category": "music",
+    "title": "Karaoke",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "5003",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Denali Brewing Company",
@@ -286,7 +352,7 @@
     "cost": ""
   },
   {
-    "id": "4870",
+    "id": "5004",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Boots Bison Ranch",
@@ -297,7 +363,7 @@
     "cost": ""
   },
   {
-    "id": "4871",
+    "id": "5005",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Mountain High Pizza Pie",
@@ -308,7 +374,7 @@
     "cost": ""
   },
   {
-    "id": "4872",
+    "id": "5006",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Sheldon Community Arts Hangar",
@@ -319,7 +385,7 @@
     "cost": ""
   },
   {
-    "id": "4873",
+    "id": "5007",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Talkeetna Village Park",
@@ -330,7 +396,7 @@
     "cost": ""
   },
   {
-    "id": "4874",
+    "id": "5008",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Mountain High Pizza",
@@ -341,7 +407,7 @@
     "cost": ""
   },
   {
-    "id": "4875",
+    "id": "5009",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Fairview Inn",
@@ -352,7 +418,7 @@
     "cost": ""
   },
   {
-    "id": "4876",
+    "id": "5010",
     "date": "2026-08-19",
     "city": "Talkeetna",
     "venue": "Fairview Inn",

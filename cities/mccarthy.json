@@ -77,7 +77,7 @@
     "cost": ""
   },
   {
-    "id": "4659",
+    "id": "4669",
     "date": "2026-08-13",
     "city": "McCarthy",
     "venue": "The Golden Saloon",
@@ -88,7 +88,7 @@
     "cost": ""
   },
   {
-    "id": "4660",
+    "id": "4670",
     "date": "2026-08-13",
     "city": "McCarthy",
     "venue": "4 The Golden Saloon",
@@ -99,10 +99,32 @@
     "cost": ""
   },
   {
-    "id": "4661",
+    "id": "4671",
     "date": "2026-08-13",
     "city": "McCarthy",
     "venue": "5 The Golden Saloon",
+    "category": "music",
+    "title": "McWavy",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4724",
+    "date": "2026-08-14",
+    "city": "McCarthy",
+    "venue": "The Golden Saloon",
+    "category": "music",
+    "title": "McWavy",
+    "time": "",
+    "ticketUrl": "",
+    "cost": ""
+  },
+  {
+    "id": "4795",
+    "date": "2026-08-15",
+    "city": "McCarthy",
+    "venue": "The Golden Saloon",
     "category": "music",
     "title": "McWavy",
     "time": "",
