@@ -6,6 +6,7 @@ import { scrapeTicketmaster } from './scrapers/ticketmaster_api.js';
 import { scrapeBandsintown } from './scrapers/bandsintown_api.js';
 import { scrapeKoots } from './scrapers/koots.js';
 import { scrapeBeartooth } from './scrapers/beartooth.js';
+import { scrapeVenueRegistry } from './scrapers/venue_registry_scraper.js';
 import { deduplicateEvents } from './scrapers/dedupe_engine.js';
 import { execSync } from 'child_process';
 
@@ -29,7 +30,8 @@ async function main() {
     scrapeTicketmaster(),
     scrapeBandsintown(),
     scrapeKoots(),
-    scrapeBeartooth()
+    scrapeBeartooth(),
+    scrapeVenueRegistry()
   ]);
 
   const newEvents = [];
