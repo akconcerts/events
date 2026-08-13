@@ -1,5 +1,5 @@
 ---
-import { Calendar, Users, Building, History, PlusCircle } from 'lucide-astro';
+import { Calendar, Users, Building, History, PlusCircle, Accessibility } from 'lucide-astro';
 
 const pathname = Astro.url.pathname;
 
@@ -22,11 +22,15 @@ const navItems = [
       const Icon = item.icon;
       return (
         <a href={item.href} class={`mobile-floor-link ${item.active ? 'active' : ''}`}>
-          <span class="floor-link-icon"><Icon size={20} /></span>
+          <span class="floor-link-icon"><Icon size={18} /></span>
           <span class="floor-link-label">{item.label}</span>
         </a>
       );
     })}
+    <button type="button" class="mobile-floor-link a11y-trigger-btn" aria-label="Accessibility Options">
+      <span class="floor-link-icon"><Accessibility size={18} /></span>
+      <span class="floor-link-label">A11y</span>
+    </button>
   </div>
 </nav>
 
@@ -87,15 +91,19 @@ const navItems = [
   align-items: center;
   justify-content: center;
   gap: 0.15rem;
-  padding: 0.35rem 0.6rem;
+  padding: 0.35rem 0.4rem;
   border-radius: 9999px;
   color: var(--muted-foreground);
   text-decoration: none;
-  font-size: 0.7rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  min-width: 54px;
+  flex: 1;
+  min-width: 0;
 }
 
 .floor-link-icon {

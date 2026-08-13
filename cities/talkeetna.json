@@ -275,7 +275,7 @@
     "cost": ""
   },
   {
-    "id": "4733",
+    "id": "4737",
     "title": "Live At Five Summer Concerts: TKA Hawks",
     "venue": "Talkeetna Village Park",
     "city": "Talkeetna",
@@ -286,7 +286,7 @@
     "cost": ""
   },
   {
-    "id": "4734",
+    "id": "4738",
     "title": "Collin Donley Live",
     "venue": "Mountain High Pizza",
     "city": "Talkeetna",
@@ -297,7 +297,7 @@
     "cost": ""
   },
   {
-    "id": "4813",
+    "id": "4820",
     "title": "Salmon Run Art Auction Fundraiser",
     "venue": "Sheldon Community Arts Hangar",
     "city": "Talkeetna",
@@ -308,7 +308,7 @@
     "cost": ""
   },
   {
-    "id": "4814",
+    "id": "4821",
     "title": "Madeline & the Brothers Smith",
     "venue": "Fairview Inn",
     "city": "Talkeetna",
@@ -319,7 +319,7 @@
     "cost": ""
   },
   {
-    "id": "4850",
+    "id": "4857",
     "title": "Steve Durr",
     "venue": "Mountain High Pizza Pie",
     "city": "Talkeetna",
@@ -330,7 +330,7 @@
     "cost": ""
   },
   {
-    "id": "4866",
+    "id": "4873",
     "title": "Karaoke",
     "venue": "Fairview Inn",
     "city": "Talkeetna",
@@ -341,7 +341,7 @@
     "cost": ""
   },
   {
-    "id": "5005",
+    "id": "5014",
     "title": "Blackwater Railroad Co. 5:3",
     "venue": "Denali Brewing Company",
     "city": "Talkeetna",
@@ -352,7 +352,7 @@
     "cost": ""
   },
   {
-    "id": "5006",
+    "id": "5015",
     "title": "Trapper Creek Bluegrass Revival",
     "venue": "Boots Bison Ranch",
     "city": "Talkeetna",
@@ -363,7 +363,7 @@
     "cost": ""
   },
   {
-    "id": "5007",
+    "id": "5016",
     "title": "Steve Durr",
     "venue": "Mountain High Pizza Pie",
     "city": "Talkeetna",
@@ -374,7 +374,7 @@
     "cost": ""
   },
   {
-    "id": "5008",
+    "id": "5017",
     "title": "Salmon Run Art Auction Fundraiser",
     "venue": "Sheldon Community Arts Hangar",
     "city": "Talkeetna",
@@ -385,7 +385,18 @@
     "cost": ""
   },
   {
-    "id": "5009",
+    "id": "5018",
+    "title": "Blackwater Railroad Co. Live",
+    "venue": "Denali Brewing Company",
+    "city": "Talkeetna",
+    "date": "2026-08-19",
+    "time": "5:30p-8:30p",
+    "ticketUrl": "https://denalibrewingcompany.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "5019",
     "title": "Live At Five Summer Concerts: TKA Hawks",
     "venue": "Talkeetna Village Park",
     "city": "Talkeetna",
@@ -396,7 +407,7 @@
     "cost": ""
   },
   {
-    "id": "5010",
+    "id": "5020",
     "title": "Collin Donley Live",
     "venue": "Mountain High Pizza",
     "city": "Talkeetna",
@@ -407,7 +418,7 @@
     "cost": ""
   },
   {
-    "id": "5011",
+    "id": "5021",
     "title": "Madeline & the Brothers Smith",
     "venue": "Fairview Inn",
     "city": "Talkeetna",
@@ -418,7 +429,7 @@
     "cost": ""
   },
   {
-    "id": "5012",
+    "id": "5022",
     "title": "Karaoke",
     "venue": "Fairview Inn",
     "city": "Talkeetna",

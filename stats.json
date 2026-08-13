@@ -1,14 +1,14 @@
 {
-  "totalEvents": 5032,
+  "totalEvents": 5042,
   "timeframe": {
     "earliestDate": "2019-11-14",
     "latestDate": "2026-08-26"
   },
   "cities": {
-    "Anchorage": 2892,
-    "Eagle River": 1068,
+    "Anchorage": 2897,
+    "Eagle River": 1069,
     "Cooper Landing": 23,
-    "Wasilla": 71,
+    "Wasilla": 72,
     "Ester": 43,
     "Haines": 112,
     "Juneau": 177,
@@ -16,13 +16,13 @@
     "Palmer": 77,
     "Big Lake": 40,
     "Girdwood": 20,
-    "Hope": 23,
+    "Hope": 24,
     "Fairbanks": 80,
     "Ketchikan": 54,
     "Soldotna": 32,
-    "Talkeetna": 39,
+    "Talkeetna": 40,
     "Chugiak": 3,
-    "Homer": 68,
+    "Homer": 69,
     "Kenai": 23,
     "McCarthy": 12,
     "North Pole": 11,
@@ -40,29 +40,29 @@
     "Sitka": 4
   },
   "categories": {
-    "music": 4262,
+    "music": 4271,
     "dance": 259,
     "theatre": 50,
     "festival": 128,
-    "comedy": 139,
+    "comedy": 140,
     "community": 194
   },
   "topVenues": {
     "Koot’s": 292,
     "Van’s Dive Bar": 160,
     "Williwaw Social": 118,
-    "The Carousel Lounge": 116,
+    "The Carousel Lounge": 117,
     "Yukon Bar": 116,
     "Four Corner’s Lounge": 107,
     "The Crystal Saloon": 105,
     "Pioneer Bar": 87,
     "Mad Myrna’s": 81,
     "Fairview Inn": 71,
-    "Schwabenhof": 66,
+    "Schwabenhof": 67,
     "Alaskan Hotel and Bar": 65,
     "Broken Blender": 63,
     "Humpy’s": 58,
     "The Cabin": 57
   },
-  "lastUpdated": "2026-08-13T04:13:07.669Z"
+  "lastUpdated": "2026-08-13T04:19:51.604Z"
 }

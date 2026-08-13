@@ -165,7 +165,7 @@
     "cost": ""
   },
   {
-    "id": "4715",
+    "id": "4718",
     "title": "Spindrift",
     "venue": "Dirty Skillet",
     "city": "Hope",
@@ -176,7 +176,7 @@
     "cost": ""
   },
   {
-    "id": "4716",
+    "id": "4719",
     "title": "Noah Rinker",
     "venue": "Creekbend Co.",
     "city": "Hope",
@@ -187,7 +187,18 @@
     "cost": ""
   },
   {
-    "id": "4787",
+    "id": "4720",
+    "title": "Noah Rinker Live",
+    "venue": "Creekbend Co.",
+    "city": "Hope",
+    "date": "2026-08-14",
+    "time": "7p-11p",
+    "ticketUrl": "https://creekbendco.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4794",
     "title": "Spindrift",
     "venue": "Dirty Skillet",
     "city": "Hope",
@@ -198,7 +209,7 @@
     "cost": ""
   },
   {
-    "id": "4788",
+    "id": "4795",
     "title": "Noah Rinker",
     "venue": "Creekbend Co.",
     "city": "Hope",
@@ -209,7 +220,7 @@
     "cost": ""
   },
   {
-    "id": "4845",
+    "id": "4852",
     "title": "Sunday Brunch with Steve Norwoord",
     "venue": "Creekbend Co.",
     "city": "Hope",
@@ -220,7 +231,7 @@
     "cost": ""
   },
   {
-    "id": "4938",
+    "id": "4947",
     "title": "Sunday Brunch with Steve Norwoord 1",
     "venue": "Creekbend Co.",
     "city": "Hope",
@@ -231,7 +242,7 @@
     "cost": ""
   },
   {
-    "id": "4939",
+    "id": "4948",
     "title": "Spindrift",
     "venue": "Dirty Skillet",
     "city": "Hope",
@@ -242,7 +253,7 @@
     "cost": ""
   },
   {
-    "id": "4940",
+    "id": "4949",
     "title": "Noah Rinker",
     "venue": "Creekbend Co.",
     "city": "Hope",

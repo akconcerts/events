@@ -64152,6 +64152,26 @@
       },
       "properties": {
         "id": "4643",
+        "title": "Open Mic Night w/ It's Just Dez",
+        "venue": "Blarney Stone",
+        "city": "Anchorage",
+        "date": "2026-08-13",
+        "time": "6:45p-11p",
+        "category": "music",
+        "ticketUrl": "https://blarneystonepubak.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4644",
         "title": "Stop Light Nights",
         "venue": "Magnetic North Brewing",
         "city": "Anchorage",
@@ -64171,7 +64191,7 @@
         ]
       },
       "properties": {
-        "id": "4644",
+        "id": "4645",
         "title": "Open Mic Loathing in Las Vegas",
         "venue": "Time Out Lounge",
         "city": "Anchorage",
@@ -64191,7 +64211,7 @@
         ]
       },
       "properties": {
-        "id": "4645",
+        "id": "4646",
         "title": "Live Music w/ Nothin But Karma 8p-12aKoot’s - Latin Night w/ DJ MyKey T",
         "venue": "Humpy’s",
         "city": "Anchorage",
@@ -64211,7 +64231,7 @@
         ]
       },
       "properties": {
-        "id": "4646",
+        "id": "4647",
         "title": "Latin Night w/ DJ MyKey T",
         "venue": "Koot’s",
         "city": "Anchorage",
@@ -64231,7 +64251,7 @@
         ]
       },
       "properties": {
-        "id": "4647",
+        "id": "4648",
         "title": "AK Rockstar Karaoke",
         "venue": "The Carousel Lounge",
         "city": "Anchorage",
@@ -64251,7 +64271,7 @@
         ]
       },
       "properties": {
-        "id": "4652",
+        "id": "4653",
         "title": "Karaoke with Angel 8p-",
         "venue": "The International Hotel & Bar",
         "city": "Fairbanks",
@@ -64271,7 +64291,7 @@
         ]
       },
       "properties": {
-        "id": "4653",
+        "id": "4654",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -64291,7 +64311,7 @@
         ]
       },
       "properties": {
-        "id": "4654",
+        "id": "4655",
         "title": "Live Music w/ Baker",
         "venue": "Jack Sprat",
         "city": "Fairbanks",
@@ -64311,7 +64331,7 @@
         ]
       },
       "properties": {
-        "id": "4655",
+        "id": "4656",
         "title": "Open Mic Night at the Marlin",
         "venue": "3 The Marlin",
         "city": "Fairbanks",
@@ -64331,7 +64351,7 @@
         ]
       },
       "properties": {
-        "id": "4656",
+        "id": "4657",
         "title": "Ride Bikes, Drink Beer",
         "venue": "Girdwood Brewing Company",
         "city": "Girdwood",
@@ -64351,7 +64371,7 @@
         ]
       },
       "properties": {
-        "id": "4657",
+        "id": "4658",
         "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
         "venue": "Pratt Museum",
         "city": "Homer",
@@ -64371,7 +64391,7 @@
         ]
       },
       "properties": {
-        "id": "4658",
+        "id": "4659",
         "title": "Community Jam Sessions",
         "venue": "Homer Council on the Arts",
         "city": "Homer",
@@ -64391,7 +64411,7 @@
         ]
       },
       "properties": {
-        "id": "4659",
+        "id": "4660",
         "title": "Piano Music by Erica",
         "venue": "AJ’s Old Town Steakhouse & Tavern",
         "city": "Homer",
@@ -64411,7 +64431,7 @@
         ]
       },
       "properties": {
-        "id": "4660",
+        "id": "4661",
         "title": "Sense And Sensibility",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -64431,7 +64451,7 @@
         ]
       },
       "properties": {
-        "id": "4661",
+        "id": "4662",
         "title": "Karaoke Night",
         "venue": "Alibi Bar & Café",
         "city": "Homer",
@@ -64451,7 +64471,7 @@
         ]
       },
       "properties": {
-        "id": "4662",
+        "id": "4663",
         "title": "Open Mic 9p-",
         "venue": "Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -64471,7 +64491,7 @@
         ]
       },
       "properties": {
-        "id": "4663",
+        "id": "4664",
         "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
         "venue": "3 The Crystal Saloon",
         "city": "Juneau",
@@ -64491,7 +64511,7 @@
         ]
       },
       "properties": {
-        "id": "4664",
+        "id": "4665",
         "title": "Karaoke Night 8p-",
         "venue": "3 The Crystal Saloon",
         "city": "Juneau",
@@ -64511,7 +64531,7 @@
         ]
       },
       "properties": {
-        "id": "4665",
+        "id": "4666",
         "title": "Pop-Up Cherioke",
         "venue": "4 Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -64531,7 +64551,7 @@
         ]
       },
       "properties": {
-        "id": "4673",
+        "id": "4674",
         "title": "Dance Night w/ DJ Waitwat",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -64551,7 +64571,7 @@
         ]
       },
       "properties": {
-        "id": "4678",
+        "id": "4679",
         "title": "Yappy Hour: Dog Friendly Happy Hour 4:3",
         "venue": "9th State Brewery",
         "city": "Anchorage",
@@ -64571,28 +64591,8 @@
         ]
       },
       "properties": {
-        "id": "4679",
-        "title": "Garden Grooves: Music in the Beer Garden 5p-",
-        "venue": "9th State Brewery",
-        "city": "Anchorage",
-        "date": "2026-08-14",
-        "time": "",
-        "category": "music",
-        "ticketUrl": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.9003,
-          61.2181
-        ]
-      },
-      "properties": {
         "id": "4680",
-        "title": "Candlelight Concert: Tribute to Fleetwood Mac 5:3",
+        "title": "Garden Grooves: Music in the Beer Garden 5p-",
         "venue": "9th State Brewery",
         "city": "Anchorage",
         "date": "2026-08-14",
@@ -64612,7 +64612,7 @@
       },
       "properties": {
         "id": "4681",
-        "title": "Candlelight Concert: Queen vs. ABBA 7:4",
+        "title": "Candlelight Concert: Tribute to Fleetwood Mac 5:3",
         "venue": "9th State Brewery",
         "city": "Anchorage",
         "date": "2026-08-14",
@@ -64632,6 +64632,26 @@
       },
       "properties": {
         "id": "4682",
+        "title": "Candlelight Concert: Queen vs. ABBA 7:4",
+        "venue": "9th State Brewery",
+        "city": "Anchorage",
+        "date": "2026-08-14",
+        "time": "",
+        "category": "music",
+        "ticketUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4683",
         "title": "Friday Night Dance Lounge 9p-",
         "venue": "Alaska Dance Promotions",
         "city": "Anchorage",
@@ -64651,7 +64671,7 @@
         ]
       },
       "properties": {
-        "id": "4683",
+        "id": "4684",
         "title": "Ambassador Bird Programs: Experience Wild Birds Up Close! 12:3",
         "venue": "Bird Treatment & Learning Center",
         "city": "Anchorage",
@@ -64671,7 +64691,7 @@
         ]
       },
       "properties": {
-        "id": "4684",
+        "id": "4685",
         "title": "Karaoke w/ DJ Charms 8p-",
         "venue": "Broken Blender",
         "city": "Anchorage",
@@ -64691,7 +64711,7 @@
         ]
       },
       "properties": {
-        "id": "4685",
+        "id": "4686",
         "title": "DJ JRock 9:3",
         "venue": "Flattop Pizza & Pool",
         "city": "Anchorage",
@@ -64711,7 +64731,7 @@
         ]
       },
       "properties": {
-        "id": "4686",
+        "id": "4687",
         "title": "Friday Night Market 6p-",
         "venue": "Glenn Square",
         "city": "Anchorage",
@@ -64731,7 +64751,7 @@
         ]
       },
       "properties": {
-        "id": "4687",
+        "id": "4688",
         "title": "Pop Piano Bar w/ MJ Riemann 6p-",
         "venue": "Gumbo House",
         "city": "Anchorage",
@@ -64751,7 +64771,7 @@
         ]
       },
       "properties": {
-        "id": "4688",
+        "id": "4689",
         "title": "Live Music w/ Ayla Ray & Chris Christy Quintet 9:3",
         "venue": "Humpy’s",
         "city": "Anchorage",
@@ -64771,7 +64791,7 @@
         ]
       },
       "properties": {
-        "id": "4689",
+        "id": "4690",
         "title": "Yachtly Crew 1",
         "venue": "Koot’s",
         "city": "Anchorage",
@@ -64791,7 +64811,7 @@
         ]
       },
       "properties": {
-        "id": "4690",
+        "id": "4691",
         "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-",
         "venue": "Pink Cadillac",
         "city": "Anchorage",
@@ -64811,7 +64831,7 @@
         ]
       },
       "properties": {
-        "id": "4691",
+        "id": "4692",
         "title": "DJ Cross 1",
         "venue": "Pioneer Bar",
         "city": "Anchorage",
@@ -64831,7 +64851,7 @@
         ]
       },
       "properties": {
-        "id": "4692",
+        "id": "4693",
         "title": "Karaoke Night at SubZero 8p-",
         "venue": "SubZero Microlounge",
         "city": "Anchorage",
@@ -64851,7 +64871,7 @@
         ]
       },
       "properties": {
-        "id": "4693",
+        "id": "4694",
         "title": "Hwy9 in Concert 6:3",
         "venue": "Turnagain Brewing",
         "city": "Anchorage",
@@ -64871,7 +64891,7 @@
         ]
       },
       "properties": {
-        "id": "4694",
+        "id": "4695",
         "title": "Bodelia James 9:3",
         "venue": "Van’s Dive Bar",
         "city": "Anchorage",
@@ -64891,7 +64911,7 @@
         ]
       },
       "properties": {
-        "id": "4695",
+        "id": "4696",
         "title": "Darci Lynne 6:3",
         "venue": "1a Wendy Williamson Auditorium",
         "city": "Anchorage",
@@ -64911,7 +64931,7 @@
         ]
       },
       "properties": {
-        "id": "4696",
+        "id": "4697",
         "title": "Mobile Library Visit & Storytime",
         "venue": "Fairview Community Rec Center",
         "city": "Anchorage",
@@ -64931,7 +64951,7 @@
         ]
       },
       "properties": {
-        "id": "4697",
+        "id": "4698",
         "title": "Summer Bash",
         "venue": "JBER Library",
         "city": "Anchorage",
@@ -64951,7 +64971,7 @@
         ]
       },
       "properties": {
-        "id": "4698",
+        "id": "4699",
         "title": "Summer Music on the Patio: SAZÓN",
         "venue": "9p Hilltop Ski Area",
         "city": "Anchorage",
@@ -64971,7 +64991,7 @@
         ]
       },
       "properties": {
-        "id": "4699",
+        "id": "4700",
         "title": "Da Good Ol' Good Ones",
         "venue": "Blarney Stone",
         "city": "Anchorage",
@@ -64991,7 +65011,7 @@
         ]
       },
       "properties": {
-        "id": "4700",
+        "id": "4701",
         "title": "Williwaw Blue",
         "venue": "O’Malley’s on the Green",
         "city": "Anchorage",
@@ -65011,7 +65031,7 @@
         ]
       },
       "properties": {
-        "id": "4701",
+        "id": "4702",
         "title": "Karaoke Friday at the Eagles!",
         "venue": "The Fraternal Order of Eagles Aerie 4207",
         "city": "Anchorage",
@@ -65031,7 +65051,27 @@
         ]
       },
       "properties": {
-        "id": "4702",
+        "id": "4703",
+        "title": "Bodelia James Live",
+        "venue": "Van's Dive Bar",
+        "city": "Anchorage",
+        "date": "2026-08-14",
+        "time": "9:30p-1a",
+        "category": "music",
+        "ticketUrl": "https://vansdivebar.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4704",
         "title": "Arctic Entry & Dawson Gentleman Band",
         "venue": "Bernie’s Bungalow Lounge",
         "city": "Anchorage",
@@ -65051,7 +65091,7 @@
         ]
       },
       "properties": {
-        "id": "4703",
+        "id": "4705",
         "title": "Mad Myrna's Diva Variety Show",
         "venue": "Mad Myrna’s",
         "city": "Anchorage",
@@ -65071,7 +65111,27 @@
         ]
       },
       "properties": {
-        "id": "4704",
+        "id": "4706",
+        "title": "Mad Myrna's Diva Variety Show",
+        "venue": "Mad Myrna's",
+        "city": "Anchorage",
+        "date": "2026-08-14",
+        "time": "9p-11:30p",
+        "category": "comedy",
+        "ticketUrl": "https://madmyrnas.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4707",
         "title": "Friday Night Dance Social",
         "venue": "Arctic Academie de Danse",
         "city": "Anchorage",
@@ -65091,7 +65151,7 @@
         ]
       },
       "properties": {
-        "id": "4705",
+        "id": "4708",
         "title": "$100 Cash Giveaway Karaoke Contest",
         "venue": "The Carousel Lounge",
         "city": "Anchorage",
@@ -65111,7 +65171,7 @@
         ]
       },
       "properties": {
-        "id": "4706",
+        "id": "4709",
         "title": "Blast From The Past",
         "venue": "Time Out Lounge",
         "city": "Anchorage",
@@ -65131,7 +65191,7 @@
         ]
       },
       "properties": {
-        "id": "4709",
+        "id": "4712",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -65151,7 +65211,7 @@
         ]
       },
       "properties": {
-        "id": "4710",
+        "id": "4713",
         "title": "Encore Weekend w/ Wicked Serenity & Signs of Sacrifice",
         "venue": "The International Hotel & Bar",
         "city": "Fairbanks",
@@ -65171,7 +65231,7 @@
         ]
       },
       "properties": {
-        "id": "4712",
+        "id": "4715",
         "title": "Red Marker Resistance",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -65191,7 +65251,7 @@
         ]
       },
       "properties": {
-        "id": "4713",
+        "id": "4716",
         "title": "Sense And Sensibility",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -65211,7 +65271,7 @@
         ]
       },
       "properties": {
-        "id": "4714",
+        "id": "4717",
         "title": "Backyard Summer Concert Series & Music Festival",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -65231,7 +65291,7 @@
         ]
       },
       "properties": {
-        "id": "4717",
+        "id": "4721",
         "title": "Karaoke w/ Al Boogie",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -65251,7 +65311,7 @@
         ]
       },
       "properties": {
-        "id": "4718",
+        "id": "4722",
         "title": "Pop-Up Cherioke",
         "venue": "Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -65271,7 +65331,7 @@
         ]
       },
       "properties": {
-        "id": "4725",
+        "id": "4729",
         "title": "Friday Fling Live Music Solo Steve",
         "venue": "Downtown Palmer",
         "city": "Palmer",
@@ -65291,7 +65351,7 @@
         ]
       },
       "properties": {
-        "id": "4726",
+        "id": "4730",
         "title": "Black Barrel and the Bad Men",
         "venue": "Palmer Alehouse",
         "city": "Palmer",
@@ -65311,7 +65371,7 @@
         ]
       },
       "properties": {
-        "id": "4727",
+        "id": "4731",
         "title": "Rhythm & Royalty Tour",
         "venue": "Palmer Train Depot",
         "city": "Palmer",
@@ -65331,7 +65391,7 @@
         ]
       },
       "properties": {
-        "id": "4728",
+        "id": "4732",
         "title": "Karaoke",
         "venue": "American Legion Post 15",
         "city": "Palmer",
@@ -65351,7 +65411,7 @@
         ]
       },
       "properties": {
-        "id": "4730",
+        "id": "4734",
         "title": "King Monkey w/ Bananahands Live",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -65371,7 +65431,7 @@
         ]
       },
       "properties": {
-        "id": "4739",
+        "id": "4744",
         "title": "Dance Social 7p-",
         "venue": "Anchorage Social Dance Club",
         "city": "Anchorage",
@@ -65391,7 +65451,7 @@
         ]
       },
       "properties": {
-        "id": "4740",
+        "id": "4745",
         "title": "Jazz on the Lawn w/ Alaska Jazz Workshop 1",
         "venue": "Anchorage Museum",
         "city": "Anchorage",
@@ -65411,7 +65471,7 @@
         ]
       },
       "properties": {
-        "id": "4741",
+        "id": "4746",
         "title": "Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3",
         "venue": "Anchorage Museum",
         "city": "Anchorage",
@@ -65431,7 +65491,7 @@
         ]
       },
       "properties": {
-        "id": "4742",
+        "id": "4747",
         "title": "Live Music at the Market 1",
         "venue": "Anchorage Weekend Market",
         "city": "Anchorage",
@@ -65451,7 +65511,7 @@
         ]
       },
       "properties": {
-        "id": "4743",
+        "id": "4748",
         "title": "Cat Video Fest 2",
         "venue": "Beartooth Theatrepub",
         "city": "Anchorage",
@@ -65471,7 +65531,7 @@
         ]
       },
       "properties": {
-        "id": "4744",
+        "id": "4749",
         "title": "Karaoke w/ DJ Charms 8p-",
         "venue": "Broken Blender",
         "city": "Anchorage",
@@ -65491,7 +65551,7 @@
         ]
       },
       "properties": {
-        "id": "4745",
+        "id": "4750",
         "title": "Latin Night Takeover w/ DJ Jose & DJ Yenmy 1",
         "venue": "Continental",
         "city": "Anchorage",
@@ -65511,7 +65571,7 @@
         ]
       },
       "properties": {
-        "id": "4746",
+        "id": "4751",
         "title": "DJ JRock 9:3",
         "venue": "Flattop Pizza & Pool",
         "city": "Anchorage",
@@ -65531,7 +65591,7 @@
         ]
       },
       "properties": {
-        "id": "4747",
+        "id": "4752",
         "title": "Live Music w/ Dawson Gentleman & Arctic Entry 9:3",
         "venue": "Humpy’s",
         "city": "Anchorage",
@@ -65551,7 +65611,7 @@
         ]
       },
       "properties": {
-        "id": "4748",
+        "id": "4753",
         "title": "The Reg Flags 1",
         "venue": "Koot's",
         "city": "Anchorage",
@@ -65571,7 +65631,7 @@
         ]
       },
       "properties": {
-        "id": "4749",
+        "id": "4754",
         "title": "Anchorage Community Theatre: Dream Roles Cabaret Show 6:3",
         "venue": "Main Event Grill",
         "city": "Anchorage",
@@ -65591,7 +65651,7 @@
         ]
       },
       "properties": {
-        "id": "4750",
+        "id": "4755",
         "title": "Muldoon Community Market 9:3",
         "venue": "Muldoon Chanshtnu Park",
         "city": "Anchorage",
@@ -65611,7 +65671,7 @@
         ]
       },
       "properties": {
-        "id": "4751",
+        "id": "4756",
         "title": "Latin Dance Closing Party with DJ Maria, DJ Josh, & DJ Colin 1",
         "venue": "Pink Cadillac",
         "city": "Anchorage",
@@ -65631,7 +65691,7 @@
         ]
       },
       "properties": {
-        "id": "4752",
+        "id": "4757",
         "title": "Will H. Johnson 5:3",
         "venue": "Ship Creek Brewing",
         "city": "Anchorage",
@@ -65651,7 +65711,7 @@
         ]
       },
       "properties": {
-        "id": "4753",
+        "id": "4758",
         "title": "Hmong Harvest Festival 1",
         "venue": "Sullivan Arena Football Stadium",
         "city": "Anchorage",
@@ -65671,7 +65731,7 @@
         ]
       },
       "properties": {
-        "id": "4754",
+        "id": "4759",
         "title": "Poses & Mimosas w/ burn+bloom 1",
         "venue": "Wildbirch Hotel",
         "city": "Anchorage",
@@ -65691,7 +65751,7 @@
         ]
       },
       "properties": {
-        "id": "4755",
+        "id": "4760",
         "title": "Garden Grooves: Music in the Beer Garden",
         "venue": "9th State Brewery",
         "city": "Anchorage",
@@ -65711,7 +65771,7 @@
         ]
       },
       "properties": {
-        "id": "4756",
+        "id": "4761",
         "title": "Pop Piano Bar w/ MJ Riemann",
         "venue": "Gumbo House",
         "city": "Anchorage",
@@ -65731,7 +65791,7 @@
         ]
       },
       "properties": {
-        "id": "4757",
+        "id": "4762",
         "title": "Drag For A Cause: Rhinestone Rodeo",
         "venue": "The Nave Spenard",
         "city": "Anchorage",
@@ -65751,7 +65811,7 @@
         ]
       },
       "properties": {
-        "id": "4758",
+        "id": "4763",
         "title": "Sweet Cheeks Cabaret: Vaudeville Vibes - Hot Spec-taters of Tease",
         "venue": "Broken Blender",
         "city": "Anchorage",
@@ -65771,7 +65831,7 @@
         ]
       },
       "properties": {
-        "id": "4759",
+        "id": "4764",
         "title": "CONVERGE",
         "venue": "Williwaw Social",
         "city": "Anchorage",
@@ -65791,7 +65851,7 @@
         ]
       },
       "properties": {
-        "id": "4760",
+        "id": "4765",
         "title": "HB 1350",
         "venue": "Williwaw Social",
         "city": "Anchorage",
@@ -65811,7 +65871,7 @@
         ]
       },
       "properties": {
-        "id": "4761",
+        "id": "4766",
         "title": "Weekly Karaoke Contest",
         "venue": "Oriental Garden",
         "city": "Anchorage",
@@ -65831,7 +65891,7 @@
         ]
       },
       "properties": {
-        "id": "4762",
+        "id": "4767",
         "title": "Mad Myrna's Diva Variety Show",
         "venue": "Mad Myrna’s",
         "city": "Anchorage",
@@ -65851,7 +65911,7 @@
         ]
       },
       "properties": {
-        "id": "4763",
+        "id": "4768",
         "title": "Supernova Live",
         "venue": "The Carousel Lounge",
         "city": "Anchorage",
@@ -65871,7 +65931,7 @@
         ]
       },
       "properties": {
-        "id": "4764",
+        "id": "4769",
         "title": "Raspberry, Laughy, & Swing Syndicate",
         "venue": "Van’s Dive Bar",
         "city": "Anchorage",
@@ -65891,7 +65951,7 @@
         ]
       },
       "properties": {
-        "id": "4765",
+        "id": "4770",
         "title": "Blast From The Past",
         "venue": "Time Out Lounge",
         "city": "Anchorage",
@@ -65911,7 +65971,7 @@
         ]
       },
       "properties": {
-        "id": "4772",
+        "id": "4778",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -65931,7 +65991,7 @@
         ]
       },
       "properties": {
-        "id": "4773",
+        "id": "4779",
         "title": "Darci Lynne 6:3",
         "venue": "Salisbury Theater",
         "city": "Fairbanks",
@@ -65951,7 +66011,7 @@
         ]
       },
       "properties": {
-        "id": "4774",
+        "id": "4780",
         "title": "2026 Midnight Sun Scottish Highland Games",
         "venue": "Musher’s Hall",
         "city": "Fairbanks",
@@ -65971,7 +66031,7 @@
         ]
       },
       "properties": {
-        "id": "4775",
+        "id": "4781",
         "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends",
         "venue": "Hoodoo Brewing",
         "city": "Fairbanks",
@@ -65991,7 +66051,7 @@
         ]
       },
       "properties": {
-        "id": "4776",
+        "id": "4782",
         "title": "Encore Weekend w/ Wicked Serenity & Signs of Sacrifice",
         "venue": "The International Hotel & Bar",
         "city": "Fairbanks",
@@ -66011,7 +66071,7 @@
         ]
       },
       "properties": {
-        "id": "4777",
+        "id": "4783",
         "title": "Blueberry Festival",
         "venue": "Alyeska Resort",
         "city": "Girdwood",
@@ -66031,7 +66091,7 @@
         ]
       },
       "properties": {
-        "id": "4778",
+        "id": "4784",
         "title": "Halo w/ Posterchild, Lloyd Van Ham, & Monir",
         "venue": "Raw Market",
         "city": "Girdwood",
@@ -66051,7 +66111,7 @@
         ]
       },
       "properties": {
-        "id": "4780",
+        "id": "4786",
         "title": "Lost Rockets",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -66071,7 +66131,7 @@
         ]
       },
       "properties": {
-        "id": "4781",
+        "id": "4787",
         "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails.",
         "venue": "Pratt Museum",
         "city": "Homer",
@@ -66091,7 +66151,7 @@
         ]
       },
       "properties": {
-        "id": "4782",
+        "id": "4788",
         "title": "Backyard Summer Concert Series & Music Festival",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -66111,7 +66171,7 @@
         ]
       },
       "properties": {
-        "id": "4783",
+        "id": "4789",
         "title": "Piano Music by Sunrise Kilcher",
         "venue": "AJ’s Old Town Steakhouse & Tavern",
         "city": "Homer",
@@ -66131,7 +66191,7 @@
         ]
       },
       "properties": {
-        "id": "4784",
+        "id": "4790",
         "title": "All Ages Show w/ The Pudgies, DSB, Ophelia",
         "venue": "Porcupine Theater",
         "city": "Homer",
@@ -66151,7 +66211,7 @@
         ]
       },
       "properties": {
-        "id": "4785",
+        "id": "4791",
         "title": "Sense And Sensibility",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -66171,7 +66231,7 @@
         ]
       },
       "properties": {
-        "id": "4786",
+        "id": "4792",
         "title": "Snacks At Midnight w/ The Pit ViperZ",
         "venue": "Alice’s Champagne Palace",
         "city": "Homer",
@@ -66186,12 +66246,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -151.5483,
+          59.6425
+        ]
+      },
+      "properties": {
+        "id": "4793",
+        "title": "Snacks At Midnight w/ The Pit ViperZ",
+        "venue": "Alice's Champagne Palace",
+        "city": "Homer",
+        "date": "2026-08-15",
+        "time": "9p-?",
+        "category": "music",
+        "ticketUrl": "https://aliceschampagnepalace.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -134.4197,
           58.3019
         ]
       },
       "properties": {
-        "id": "4789",
+        "id": "4796",
         "title": "Treadwell Trax",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -66211,7 +66291,7 @@
         ]
       },
       "properties": {
-        "id": "4790",
+        "id": "4797",
         "title": "Behind the Blinds: A Speakeasy Anniversary Party",
         "venue": "Best Window Blinds",
         "city": "Juneau",
@@ -66231,7 +66311,7 @@
         ]
       },
       "properties": {
-        "id": "4799",
+        "id": "4806",
         "title": "Collin Donley",
         "venue": "Hatcher Pass Lodge",
         "city": "Palmer",
@@ -66251,7 +66331,7 @@
         ]
       },
       "properties": {
-        "id": "4800",
+        "id": "4807",
         "title": "Johnny Prizm",
         "venue": "Palmer Alehouse",
         "city": "Palmer",
@@ -66271,7 +66351,7 @@
         ]
       },
       "properties": {
-        "id": "4801",
+        "id": "4808",
         "title": "Two-Step and Country Swing Dance Lessons!",
         "venue": "American Legion Post 15",
         "city": "Palmer",
@@ -66291,7 +66371,7 @@
         ]
       },
       "properties": {
-        "id": "4802",
+        "id": "4809",
         "title": "Karaoke",
         "venue": "American Legion Post 15",
         "city": "Palmer",
@@ -66311,7 +66391,7 @@
         ]
       },
       "properties": {
-        "id": "4803",
+        "id": "4810",
         "title": "Veins of Gold Mountain Race",
         "venue": "Government Peak Recreation Area",
         "city": "Palmer",
@@ -66331,7 +66411,7 @@
         ]
       },
       "properties": {
-        "id": "4804",
+        "id": "4811",
         "title": "SIXSTAR w/ The Wet Spots, BoyMom, & Filthy Mike",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -66351,7 +66431,7 @@
         ]
       },
       "properties": {
-        "id": "4819",
+        "id": "4826",
         "title": "Country Dance Nights: Line Dancing & Swing 6:3",
         "venue": "Anchorage Social Dance Club",
         "city": "Anchorage",
@@ -66371,7 +66451,7 @@
         ]
       },
       "properties": {
-        "id": "4820",
+        "id": "4827",
         "title": "Live Music at the Market 1",
         "venue": "Anchorage Weekend Market",
         "city": "Anchorage",
@@ -66391,7 +66471,7 @@
         ]
       },
       "properties": {
-        "id": "4821",
+        "id": "4828",
         "title": "Sunday Blues Jam w/ Rebel Blues Band 6p-",
         "venue": "Billiard Palace",
         "city": "Anchorage",
@@ -66411,7 +66491,7 @@
         ]
       },
       "properties": {
-        "id": "4822",
+        "id": "4829",
         "title": "Annual Humpy’s Marathon 8:3",
         "venue": "Humpy’s",
         "city": "Anchorage",
@@ -66431,7 +66511,7 @@
         ]
       },
       "properties": {
-        "id": "4823",
+        "id": "4830",
         "title": "Comedy Open Mic 8:3",
         "venue": "Koot’s",
         "city": "Anchorage",
@@ -66451,7 +66531,7 @@
         ]
       },
       "properties": {
-        "id": "4824",
+        "id": "4831",
         "title": "Koots Karaoke 1",
         "venue": "0p-10pKoot’s",
         "city": "Anchorage",
@@ -66471,7 +66551,7 @@
         ]
       },
       "properties": {
-        "id": "4825",
+        "id": "4832",
         "title": "Karaoke 9p-",
         "venue": "0p-2aMad Myrna’s",
         "city": "Anchorage",
@@ -66491,7 +66571,7 @@
         ]
       },
       "properties": {
-        "id": "4826",
+        "id": "4833",
         "title": "All Ages Buckarooos Night 6p-",
         "venue": "2a Pink Cadillac",
         "city": "Anchorage",
@@ -66511,7 +66591,7 @@
         ]
       },
       "properties": {
-        "id": "4827",
+        "id": "4834",
         "title": "Industry Night w/ Joe Brady 1",
         "venue": "Pioneer Bar",
         "city": "Anchorage",
@@ -66531,7 +66611,7 @@
         ]
       },
       "properties": {
-        "id": "4828",
+        "id": "4835",
         "title": "Open Jam with Blast From The Past 8:3",
         "venue": "Time Out Lounge",
         "city": "Anchorage",
@@ -66551,7 +66631,7 @@
         ]
       },
       "properties": {
-        "id": "4829",
+        "id": "4836",
         "title": "Hmong Harvest Festival 1",
         "venue": "Sullivan Arena Football Stadium",
         "city": "Anchorage",
@@ -66571,7 +66651,7 @@
         ]
       },
       "properties": {
-        "id": "4830",
+        "id": "4837",
         "title": "Open Mic Night 8p-",
         "venue": "Van’s Dive Bar",
         "city": "Anchorage",
@@ -66591,7 +66671,7 @@
         ]
       },
       "properties": {
-        "id": "4831",
+        "id": "4838",
         "title": "Bachata Dance Patterns 8:3",
         "venue": "Alaska Dance Promotions",
         "city": "Anchorage",
@@ -66611,7 +66691,7 @@
         ]
       },
       "properties": {
-        "id": "4832",
+        "id": "4839",
         "title": "Weekly Jazz Jam 6:3",
         "venue": "Fire Island Bakery @ K Street Market",
         "city": "Anchorage",
@@ -66631,7 +66711,7 @@
         ]
       },
       "properties": {
-        "id": "4833",
+        "id": "4840",
         "title": "Open Mic & Jam",
         "venue": "VFW Post 1685",
         "city": "Anchorage",
@@ -66651,7 +66731,7 @@
         ]
       },
       "properties": {
-        "id": "4834",
+        "id": "4841",
         "title": "Garden Grooves: Music in the Beer Garden",
         "venue": "9th State Brewery",
         "city": "Anchorage",
@@ -66671,7 +66751,7 @@
         ]
       },
       "properties": {
-        "id": "4835",
+        "id": "4842",
         "title": "Learn to Square Dance",
         "venue": "Anchorage Social Dance Club",
         "city": "Anchorage",
@@ -66691,7 +66771,7 @@
         ]
       },
       "properties": {
-        "id": "4836",
+        "id": "4843",
         "title": "Sunday Karaoke",
         "venue": "0p The Carousel Lounge",
         "city": "Anchorage",
@@ -66711,7 +66791,7 @@
         ]
       },
       "properties": {
-        "id": "4837",
+        "id": "4844",
         "title": "Snacks at Midnight",
         "venue": "Van’s Dive Bar",
         "city": "Anchorage",
@@ -66731,7 +66811,7 @@
         ]
       },
       "properties": {
-        "id": "4840",
+        "id": "4847",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -66751,7 +66831,7 @@
         ]
       },
       "properties": {
-        "id": "4841",
+        "id": "4848",
         "title": "Karaoke",
         "venue": "The Marlin",
         "city": "Fairbanks",
@@ -66771,7 +66851,7 @@
         ]
       },
       "properties": {
-        "id": "4842",
+        "id": "4849",
         "title": "Blueberry Festival",
         "venue": "Alyeska Resort",
         "city": "Girdwood",
@@ -66791,7 +66871,7 @@
         ]
       },
       "properties": {
-        "id": "4843",
+        "id": "4850",
         "title": "Sense And Sensibility",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -66811,7 +66891,7 @@
         ]
       },
       "properties": {
-        "id": "4844",
+        "id": "4851",
         "title": "Chris Needham",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -66831,7 +66911,7 @@
         ]
       },
       "properties": {
-        "id": "4847",
+        "id": "4854",
         "title": "Karaoke",
         "venue": "Four Corner’s Lounge",
         "city": "Palmer",
@@ -66851,7 +66931,7 @@
         ]
       },
       "properties": {
-        "id": "4848",
+        "id": "4855",
         "title": "Karaoke",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -66871,7 +66951,7 @@
         ]
       },
       "properties": {
-        "id": "4853",
+        "id": "4860",
         "title": "Garden Grooves: Music in the Beer Garden",
         "venue": "49th State Brewery",
         "city": "Anchorage",
@@ -66891,7 +66971,7 @@
         ]
       },
       "properties": {
-        "id": "4854",
+        "id": "4861",
         "title": "Weekly Jazz Jam",
         "venue": "Fire Island Bakery @ K Street Market",
         "city": "Anchorage",
@@ -66911,7 +66991,7 @@
         ]
       },
       "properties": {
-        "id": "4855",
+        "id": "4862",
         "title": "Learn to Square Dance",
         "venue": "Anchorage Social Dance Club",
         "city": "Anchorage",
@@ -66931,7 +67011,7 @@
         ]
       },
       "properties": {
-        "id": "4856",
+        "id": "4863",
         "title": "Bachata Dance Patterns",
         "venue": "Alaska Dance Promotions",
         "city": "Anchorage",
@@ -66951,7 +67031,7 @@
         ]
       },
       "properties": {
-        "id": "4857",
+        "id": "4864",
         "title": "Snacks at Midnight",
         "venue": "Van’s Dive Bar",
         "city": "Anchorage",
@@ -66971,7 +67051,7 @@
         ]
       },
       "properties": {
-        "id": "4859",
+        "id": "4866",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -66991,7 +67071,7 @@
         ]
       },
       "properties": {
-        "id": "4860",
+        "id": "4867",
         "title": "Gazebo Nights Concert Series: Alaska Wompus Cats",
         "venue": "4 Pioneer Park",
         "city": "Fairbanks",
@@ -67011,7 +67091,7 @@
         ]
       },
       "properties": {
-        "id": "4861",
+        "id": "4868",
         "title": "RawBeats w/ Astronomar & Friends",
         "venue": "Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -67031,7 +67111,7 @@
         ]
       },
       "properties": {
-        "id": "4864",
+        "id": "4871",
         "title": "Karaoke with Megan Killoran",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -67051,7 +67131,7 @@
         ]
       },
       "properties": {
-        "id": "4867",
+        "id": "4874",
         "title": "Lunch on the Lawn: Live Music w/ Uncle Jim 11:3",
         "venue": "Anchorage Museum",
         "city": "Anchorage",
@@ -67071,7 +67151,7 @@
         ]
       },
       "properties": {
-        "id": "4868",
+        "id": "4875",
         "title": "Two Step Tuesday w/ DJ Lele Beats 9p-",
         "venue": "Blarney Stone",
         "city": "Anchorage",
@@ -67091,7 +67171,7 @@
         ]
       },
       "properties": {
-        "id": "4869",
+        "id": "4876",
         "title": "AK Rockstar Karaoke 8p-",
         "venue": "The Carousel Lounge",
         "city": "Anchorage",
@@ -67111,7 +67191,7 @@
         ]
       },
       "properties": {
-        "id": "4870",
+        "id": "4877",
         "title": "Rope Dart Lessons w/ Jerrill 8:3",
         "venue": "Oriental Healing Arts Center",
         "city": "Anchorage",
@@ -67131,7 +67211,7 @@
         ]
       },
       "properties": {
-        "id": "4871",
+        "id": "4878",
         "title": "College Night 1",
         "venue": "Pink Cadillac",
         "city": "Anchorage",
@@ -67151,7 +67231,7 @@
         ]
       },
       "properties": {
-        "id": "4872",
+        "id": "4879",
         "title": "Garden Grooves: Music in the Beer Garden",
         "venue": "9th State Brewery",
         "city": "Anchorage",
@@ -67171,7 +67251,7 @@
         ]
       },
       "properties": {
-        "id": "4873",
+        "id": "4880",
         "title": "Family Storytime",
         "venue": "Mountain View Public Library",
         "city": "Anchorage",
@@ -67191,7 +67271,7 @@
         ]
       },
       "properties": {
-        "id": "4874",
+        "id": "4881",
         "title": "Irish Music & Dancing",
         "venue": "Organic Oasis",
         "city": "Anchorage",
@@ -67206,12 +67286,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4882",
+        "title": "AK Rockstar Karaoke",
+        "venue": "The Carousel Lounge",
+        "city": "Anchorage",
+        "date": "2026-08-18",
+        "time": "8p-2a",
+        "category": "music",
+        "ticketUrl": "https://carouselloungeak.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -147.7164,
           64.8378
         ]
       },
       "properties": {
-        "id": "4875",
+        "id": "4883",
         "title": "Karaoke Night 7p-",
         "venue": "The Cabin",
         "city": "Fairbanks",
@@ -67231,7 +67331,7 @@
         ]
       },
       "properties": {
-        "id": "4876",
+        "id": "4884",
         "title": "Golden Heart Revue 8:1",
         "venue": "8 The Palace Theater",
         "city": "Fairbanks",
@@ -67251,7 +67351,7 @@
         ]
       },
       "properties": {
-        "id": "4877",
+        "id": "4885",
         "title": "Storytime at the Pratt: Berry Season",
         "venue": "Pratt Museum",
         "city": "Homer",
@@ -67271,7 +67371,7 @@
         ]
       },
       "properties": {
-        "id": "4878",
+        "id": "4886",
         "title": "Taco Tuesday's with Jim Maloney",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -67291,7 +67391,7 @@
         ]
       },
       "properties": {
-        "id": "4879",
+        "id": "4887",
         "title": "Jazz Jam Tuesday",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -67311,7 +67411,7 @@
         ]
       },
       "properties": {
-        "id": "4884",
+        "id": "4892",
         "title": "Open Mic Night w/ Drew Sablon",
         "venue": "Fishhook Bar & Grill",
         "city": "Palmer",
@@ -67331,7 +67431,7 @@
         ]
       },
       "properties": {
-        "id": "4885",
+        "id": "4893",
         "title": "Industry Night with DJ Red",
         "venue": "Four Corner’s Lounge",
         "city": "Palmer",
@@ -67351,7 +67451,7 @@
         ]
       },
       "properties": {
-        "id": "4886",
+        "id": "4894",
         "title": "Open Mic Night with Braden",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -67371,7 +67471,7 @@
         ]
       },
       "properties": {
-        "id": "4891",
+        "id": "4899",
         "title": "Garden Grooves: Music in the Beer Garden 5p-",
         "venue": "9th State Brewery",
         "city": "Anchorage",
@@ -67391,7 +67491,7 @@
         ]
       },
       "properties": {
-        "id": "4892",
+        "id": "4900",
         "title": "Free Community Storytime 10:3",
         "venue": "Alaska Zoo",
         "city": "Anchorage",
@@ -67411,7 +67511,7 @@
         ]
       },
       "properties": {
-        "id": "4893",
+        "id": "4901",
         "title": "International Folk Dancing 6:3",
         "venue": "Anchorage Social Dance Club",
         "city": "Anchorage",
@@ -67431,7 +67531,7 @@
         ]
       },
       "properties": {
-        "id": "4894",
+        "id": "4902",
         "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
         "venue": "The Carousel Lounge",
         "city": "Anchorage",
@@ -67451,7 +67551,7 @@
         ]
       },
       "properties": {
-        "id": "4895",
+        "id": "4903",
         "title": "Line Dance Wednesdays 7p-",
         "venue": "Pink Cadillac",
         "city": "Anchorage",
@@ -67471,7 +67571,7 @@
         ]
       },
       "properties": {
-        "id": "4896",
+        "id": "4904",
         "title": "The Eternal Cowboys 1",
         "venue": "Pioneer Bar",
         "city": "Anchorage",
@@ -67491,7 +67591,7 @@
         ]
       },
       "properties": {
-        "id": "4897",
+        "id": "4905",
         "title": "Karaoke 9p-",
         "venue": "0p-1aVan’s Dive Bar",
         "city": "Anchorage",
@@ -67511,7 +67611,7 @@
         ]
       },
       "properties": {
-        "id": "4898",
+        "id": "4906",
         "title": "Live Music at Crimson w/ The Whisper Campaign 6:3",
         "venue": "Wildbirch Hotel",
         "city": "Anchorage",
@@ -67531,7 +67631,7 @@
         ]
       },
       "properties": {
-        "id": "4899",
+        "id": "4907",
         "title": "Koots Karaoke",
         "venue": "Koot’s",
         "city": "Anchorage",
@@ -67551,7 +67651,7 @@
         ]
       },
       "properties": {
-        "id": "4900",
+        "id": "4908",
         "title": "Public Assistance Resource Fair",
         "venue": "Loussac Luibrary",
         "city": "Anchorage",
@@ -67571,7 +67671,7 @@
         ]
       },
       "properties": {
-        "id": "4901",
+        "id": "4909",
         "title": "Karaoke 9p-12aManhattan’s Restaurant & Lounge - Seth Malone",
         "venue": "Mad Myrna’s",
         "city": "Anchorage",
@@ -67591,7 +67691,7 @@
         ]
       },
       "properties": {
-        "id": "4902",
+        "id": "4910",
         "title": "Tyrone & Friends",
         "venue": "7 Alehouse",
         "city": "Anchorage",
@@ -67611,7 +67711,7 @@
         ]
       },
       "properties": {
-        "id": "4903",
+        "id": "4911",
         "title": "Comedy Open Mic",
         "venue": "Koot’s",
         "city": "Anchorage",
@@ -67631,7 +67731,27 @@
         ]
       },
       "properties": {
-        "id": "4904",
+        "id": "4912",
+        "title": "Tyrone & Friends Live",
+        "venue": "907 Alehouse",
+        "city": "Anchorage",
+        "date": "2026-08-19",
+        "time": "7p-10p",
+        "category": "music",
+        "ticketUrl": "https://907alehouse.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9003,
+          61.2181
+        ]
+      },
+      "properties": {
+        "id": "4913",
         "title": "Live Music w/ Will H. Johnson",
         "venue": "Humpy’s",
         "city": "Anchorage",
@@ -67651,7 +67771,7 @@
         ]
       },
       "properties": {
-        "id": "4914",
+        "id": "4923",
         "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends 7:3",
         "venue": "Hoodoo Brewing",
         "city": "Fairbanks",
@@ -67671,7 +67791,7 @@
         ]
       },
       "properties": {
-        "id": "4915",
+        "id": "4924",
         "title": "Golden Heart Revue 8:1",
         "venue": "The Palace Theater",
         "city": "Fairbanks",
@@ -67691,7 +67811,7 @@
         ]
       },
       "properties": {
-        "id": "4916",
+        "id": "4925",
         "title": "Ride Bikes, Drink Beer 6:3",
         "venue": "Girdwood Brewing Company",
         "city": "Fairbanks",
@@ -67711,7 +67831,7 @@
         ]
       },
       "properties": {
-        "id": "4917",
+        "id": "4926",
         "title": "Blueberry Festival 1",
         "venue": "Alyeska Resort",
         "city": "Fairbanks",
@@ -67731,7 +67851,7 @@
         ]
       },
       "properties": {
-        "id": "4918",
+        "id": "4927",
         "title": "Open Mic Night 9p-",
         "venue": "4 Pioneer Bar",
         "city": "Fairbanks",
@@ -67751,7 +67871,7 @@
         ]
       },
       "properties": {
-        "id": "4919",
+        "id": "4928",
         "title": "Halo w/ Posterchild, Lloyd Van Ham, & Monir",
         "venue": "Raw Market",
         "city": "Fairbanks",
@@ -67771,7 +67891,7 @@
         ]
       },
       "properties": {
-        "id": "4920",
+        "id": "4929",
         "title": "Karaoke Night with Rocky!",
         "venue": "The Spur",
         "city": "Fairbanks",
@@ -67791,7 +67911,7 @@
         ]
       },
       "properties": {
-        "id": "4921",
+        "id": "4930",
         "title": "Karaoke Night",
         "venue": "5 Pioneer Bar",
         "city": "Fairbanks",
@@ -67811,7 +67931,7 @@
         ]
       },
       "properties": {
-        "id": "4922",
+        "id": "4931",
         "title": "Community Jam Sessions 6:3",
         "venue": "Homer Council on the Arts",
         "city": "Homer",
@@ -67831,7 +67951,7 @@
         ]
       },
       "properties": {
-        "id": "4923",
+        "id": "4932",
         "title": "Sense And Sensibility 7:3",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -67851,7 +67971,7 @@
         ]
       },
       "properties": {
-        "id": "4924",
+        "id": "4933",
         "title": "Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails. 1",
         "venue": "Pratt Museum",
         "city": "Homer",
@@ -67871,7 +67991,7 @@
         ]
       },
       "properties": {
-        "id": "4925",
+        "id": "4934",
         "title": "Backyard Summer Concert Series & Music Festival 8:3",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -67891,7 +68011,7 @@
         ]
       },
       "properties": {
-        "id": "4926",
+        "id": "4935",
         "title": "Red Marker Resistance 1",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -67911,7 +68031,7 @@
         ]
       },
       "properties": {
-        "id": "4927",
+        "id": "4936",
         "title": "Lost Rockets 1",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -67931,7 +68051,7 @@
         ]
       },
       "properties": {
-        "id": "4928",
+        "id": "4937",
         "title": "All Ages Show w/ The Pudgies, DSB, Ophelia 7:3",
         "venue": "Porcupine Theater",
         "city": "Homer",
@@ -67951,7 +68071,7 @@
         ]
       },
       "properties": {
-        "id": "4929",
+        "id": "4938",
         "title": "Taco Tuesday's with Jim Maloney 6:3",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -67971,7 +68091,7 @@
         ]
       },
       "properties": {
-        "id": "4930",
+        "id": "4939",
         "title": "Storytime at the Pratt: Berry Season 10:3",
         "venue": "Pratt Museum",
         "city": "Homer",
@@ -67991,7 +68111,7 @@
         ]
       },
       "properties": {
-        "id": "4931",
+        "id": "4940",
         "title": "Backyard Summer Concert Series & Music Festival",
         "venue": "Justin Cole’s Down East Saloon",
         "city": "Homer",
@@ -68011,7 +68131,7 @@
         ]
       },
       "properties": {
-        "id": "4932",
+        "id": "4941",
         "title": "Sense And Sensibility",
         "venue": "Pier One Theater",
         "city": "Homer",
@@ -68031,7 +68151,7 @@
         ]
       },
       "properties": {
-        "id": "4933",
+        "id": "4942",
         "title": "Chris Needham",
         "venue": "Kharacters Alaskan Bar",
         "city": "Homer",
@@ -68051,7 +68171,7 @@
         ]
       },
       "properties": {
-        "id": "4934",
+        "id": "4943",
         "title": "Piano Music by Erica",
         "venue": "AJ’s Old Town Steakhouse & Tavern",
         "city": "Homer",
@@ -68071,7 +68191,7 @@
         ]
       },
       "properties": {
-        "id": "4935",
+        "id": "4944",
         "title": "Piano Music by Sunrise Kilcher",
         "venue": "AJ’s Old Town Steakhouse & Tavern",
         "city": "Homer",
@@ -68091,7 +68211,7 @@
         ]
       },
       "properties": {
-        "id": "4936",
+        "id": "4945",
         "title": "Snacks At Midnight w/ The Pit ViperZ",
         "venue": "Alice’s Champagne Palace",
         "city": "Homer",
@@ -68111,7 +68231,7 @@
         ]
       },
       "properties": {
-        "id": "4937",
+        "id": "4946",
         "title": "Karaoke Night",
         "venue": "Alibi Bar & Café",
         "city": "Homer",
@@ -68131,7 +68251,7 @@
         ]
       },
       "properties": {
-        "id": "4941",
+        "id": "4950",
         "title": "Karaoke w/ Al Boogie 8p-? 8/1",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68151,7 +68271,7 @@
         ]
       },
       "properties": {
-        "id": "4942",
+        "id": "4951",
         "title": "Treadwell Trax 1",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68171,7 +68291,7 @@
         ]
       },
       "properties": {
-        "id": "4943",
+        "id": "4952",
         "title": "RawBeats w/ Astronomar & Friends 9p-? 8/1",
         "venue": "Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -68191,7 +68311,7 @@
         ]
       },
       "properties": {
-        "id": "4944",
+        "id": "4953",
         "title": "Jazz Jam Tuesday 8p-",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68211,7 +68331,7 @@
         ]
       },
       "properties": {
-        "id": "4945",
+        "id": "4954",
         "title": "Karaoke 8p-",
         "venue": "Alaskan Hotel and Bar",
         "city": "Juneau",
@@ -68231,7 +68351,7 @@
         ]
       },
       "properties": {
-        "id": "4946",
+        "id": "4955",
         "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68251,7 +68371,7 @@
         ]
       },
       "properties": {
-        "id": "4947",
+        "id": "4956",
         "title": "Behind the Blinds: A Speakeasy Anniversary Party",
         "venue": "Best Window Blinds",
         "city": "Juneau",
@@ -68271,7 +68391,7 @@
         ]
       },
       "properties": {
-        "id": "4948",
+        "id": "4957",
         "title": "Cousin Curtiss & Harrison B",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68291,7 +68411,7 @@
         ]
       },
       "properties": {
-        "id": "4949",
+        "id": "4958",
         "title": "Open Mic Night",
         "venue": "The Crystal Saloon",
         "city": "Juneau",
@@ -68311,7 +68431,7 @@
         ]
       },
       "properties": {
-        "id": "4970",
+        "id": "4979",
         "title": "Friday Fling Live Music Solo Steve 1",
         "venue": "Downtown Palmer",
         "city": "Palmer",
@@ -68331,7 +68451,7 @@
         ]
       },
       "properties": {
-        "id": "4971",
+        "id": "4980",
         "title": "West Coast Sing Wednesday 7:3",
         "venue": "Four Corner’s Lounge",
         "city": "Palmer",
@@ -68351,7 +68471,7 @@
         ]
       },
       "properties": {
-        "id": "4972",
+        "id": "4981",
         "title": "Collin Donley",
         "venue": "Hatcher Pass Lodge",
         "city": "Palmer",
@@ -68371,7 +68491,7 @@
         ]
       },
       "properties": {
-        "id": "4973",
+        "id": "4982",
         "title": "Open Mic Night w/ Drew Sablon",
         "venue": "Fishhook Bar & Grill",
         "city": "Palmer",
@@ -68391,7 +68511,7 @@
         ]
       },
       "properties": {
-        "id": "4974",
+        "id": "4983",
         "title": "Black Barrel and the Bad Men",
         "venue": "Palmer Alehouse",
         "city": "Palmer",
@@ -68411,7 +68531,7 @@
         ]
       },
       "properties": {
-        "id": "4975",
+        "id": "4984",
         "title": "Johnny Prizm",
         "venue": "Palmer Alehouse",
         "city": "Palmer",
@@ -68431,7 +68551,7 @@
         ]
       },
       "properties": {
-        "id": "4976",
+        "id": "4985",
         "title": "Rhythm & Royalty Tour",
         "venue": "Palmer Train Depot",
         "city": "Palmer",
@@ -68451,7 +68571,7 @@
         ]
       },
       "properties": {
-        "id": "4977",
+        "id": "4986",
         "title": "Karaoke",
         "venue": "Four Corner’s Lounge",
         "city": "Palmer",
@@ -68471,7 +68591,7 @@
         ]
       },
       "properties": {
-        "id": "4978",
+        "id": "4987",
         "title": "Industry Night with DJ Red",
         "venue": "Four Corner’s Lounge",
         "city": "Palmer",
@@ -68491,7 +68611,7 @@
         ]
       },
       "properties": {
-        "id": "4979",
+        "id": "4988",
         "title": "Veins of Gold Mountain Race",
         "venue": "Government Peak Recreation Area",
         "city": "Palmer",
@@ -68511,7 +68631,7 @@
         ]
       },
       "properties": {
-        "id": "4983",
+        "id": "4992",
         "title": "Open Mic Night with Braden",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68531,7 +68651,7 @@
         ]
       },
       "properties": {
-        "id": "4984",
+        "id": "4993",
         "title": "Karaoke",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68551,7 +68671,7 @@
         ]
       },
       "properties": {
-        "id": "4985",
+        "id": "4994",
         "title": "Karaoke with Megan Killoran",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68571,7 +68691,7 @@
         ]
       },
       "properties": {
-        "id": "4986",
+        "id": "4995",
         "title": "Karaoke with Raunchy Rachel",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68591,7 +68711,7 @@
         ]
       },
       "properties": {
-        "id": "4987",
+        "id": "4996",
         "title": "Dance Night w/ DJ Waitwat",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68611,7 +68731,7 @@
         ]
       },
       "properties": {
-        "id": "4988",
+        "id": "4997",
         "title": "King Monkey w/ Bananahands Live",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68631,7 +68751,7 @@
         ]
       },
       "properties": {
-        "id": "4989",
+        "id": "4998",
         "title": "SIXSTAR w/ The Wet Spots, BoyMom, & Filthy Mike",
         "venue": "Yukon Bar",
         "city": "Seward",
@@ -68651,7 +68771,7 @@
         ]
       },
       "properties": {
-        "id": "5031",
+        "id": "5041",
         "title": "Gazebo Nights Concert Series: Alaska Wompus Cats",
         "venue": "Pioneer Park",
         "city": "Fairbanks",

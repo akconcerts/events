@@ -1738,7 +1738,7 @@
     "cost": ""
   },
   {
-    "id": "4662",
+    "id": "4663",
     "title": "Open Mic 9p-",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1749,19 +1749,8 @@
     "cost": ""
   },
   {
-    "id": "4663",
-    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
-    "venue": "3 The Crystal Saloon",
-    "city": "Juneau",
-    "date": "2026-08-13",
-    "time": "",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "id": "4664",
-    "title": "Karaoke Night 8p-",
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
     "venue": "3 The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-13",
@@ -1772,6 +1761,17 @@
   },
   {
     "id": "4665",
+    "title": "Karaoke Night 8p-",
+    "venue": "3 The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4666",
     "title": "Pop-Up Cherioke",
     "venue": "4 Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1782,7 +1782,7 @@
     "cost": ""
   },
   {
-    "id": "4717",
+    "id": "4721",
     "title": "Karaoke w/ Al Boogie",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1793,7 +1793,7 @@
     "cost": ""
   },
   {
-    "id": "4718",
+    "id": "4722",
     "title": "Pop-Up Cherioke",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1804,7 +1804,7 @@
     "cost": ""
   },
   {
-    "id": "4789",
+    "id": "4796",
     "title": "Treadwell Trax",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1815,7 +1815,7 @@
     "cost": ""
   },
   {
-    "id": "4790",
+    "id": "4797",
     "title": "Behind the Blinds: A Speakeasy Anniversary Party",
     "venue": "Best Window Blinds",
     "city": "Juneau",
@@ -1826,7 +1826,7 @@
     "cost": ""
   },
   {
-    "id": "4861",
+    "id": "4868",
     "title": "RawBeats w/ Astronomar & Friends",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1837,7 +1837,7 @@
     "cost": ""
   },
   {
-    "id": "4879",
+    "id": "4887",
     "title": "Jazz Jam Tuesday",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1848,7 +1848,7 @@
     "cost": ""
   },
   {
-    "id": "4941",
+    "id": "4950",
     "title": "Karaoke w/ Al Boogie 8p-? 8/1",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1859,7 +1859,7 @@
     "cost": ""
   },
   {
-    "id": "4942",
+    "id": "4951",
     "title": "Treadwell Trax 1",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1870,7 +1870,7 @@
     "cost": ""
   },
   {
-    "id": "4943",
+    "id": "4952",
     "title": "RawBeats w/ Astronomar & Friends 9p-? 8/1",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1881,7 +1881,7 @@
     "cost": ""
   },
   {
-    "id": "4944",
+    "id": "4953",
     "title": "Jazz Jam Tuesday 8p-",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1892,7 +1892,7 @@
     "cost": ""
   },
   {
-    "id": "4945",
+    "id": "4954",
     "title": "Karaoke 8p-",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
@@ -1903,7 +1903,7 @@
     "cost": ""
   },
   {
-    "id": "4946",
+    "id": "4955",
     "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1914,7 +1914,7 @@
     "cost": ""
   },
   {
-    "id": "4947",
+    "id": "4956",
     "title": "Behind the Blinds: A Speakeasy Anniversary Party",
     "venue": "Best Window Blinds",
     "city": "Juneau",
@@ -1925,7 +1925,7 @@
     "cost": ""
   },
   {
-    "id": "4948",
+    "id": "4957",
     "title": "Cousin Curtiss & Harrison B",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -1936,7 +1936,7 @@
     "cost": ""
   },
   {
-    "id": "4949",
+    "id": "4958",
     "title": "Open Mic Night",
     "venue": "The Crystal Saloon",
     "city": "Juneau",

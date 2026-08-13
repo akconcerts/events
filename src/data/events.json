@@ -47020,6 +47020,16 @@
     "cost": ""
   },
   {
+    "title": "Open Mic Night w/ It's Just Dez",
+    "venue": "Blarney Stone",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "6:45p-11p",
+    "ticketUrl": "https://blarneystonepubak.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Stop Light Nights",
     "venue": "Magnetic North Brewing",
     "city": "Anchorage",
@@ -47520,6 +47530,16 @@
     "cost": ""
   },
   {
+    "title": "Bodelia James Live",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "9:30p-1a",
+    "ticketUrl": "https://vansdivebar.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Arctic Entry & Dawson Gentleman Band",
     "venue": "Bernie’s Bungalow Lounge",
     "city": "Anchorage",
@@ -47537,6 +47557,16 @@
     "time": "9p-11:30p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Diva Variety Show",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "9p-11:30p",
+    "ticketUrl": "https://madmyrnas.com",
+    "category": "comedy",
     "cost": ""
   },
   {
@@ -47850,6 +47880,16 @@
     "cost": ""
   },
   {
+    "title": "Noah Rinker Live",
+    "venue": "Creekbend Co.",
+    "city": "Hope",
+    "date": "2026-08-14",
+    "time": "7p-11p",
+    "ticketUrl": "https://creekbendco.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke w/ Al Boogie",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -48066,6 +48106,16 @@
     "date": "2026-08-14",
     "time": "8p-11p",
     "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-08-14",
+    "time": "8p-11p",
+    "ticketUrl": "https://schwabenhofak.com",
     "category": "music",
     "cost": ""
   },
@@ -48390,6 +48440,16 @@
     "cost": ""
   },
   {
+    "title": "Miles Pruner Live",
+    "venue": "Odd Man Rush",
+    "city": "Eagle River",
+    "date": "2026-08-15",
+    "time": "4p-?",
+    "ticketUrl": "https://oddmanrushbrewing.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "DJ Auman Joy 8p-",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
@@ -48556,6 +48616,16 @@
     "date": "2026-08-15",
     "time": "9p-?",
     "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "venue": "Alice's Champagne Palace",
+    "city": "Homer",
+    "date": "2026-08-15",
+    "time": "9p-?",
+    "ticketUrl": "https://aliceschampagnepalace.com",
     "category": "music",
     "cost": ""
   },
@@ -49400,6 +49470,16 @@
     "cost": ""
   },
   {
+    "title": "AK Rockstar Karaoke",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-18",
+    "time": "8p-2a",
+    "ticketUrl": "https://carouselloungeak.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Lunch on the Lawn: Live Music w/ Uncle Jim 11:3",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -49657,6 +49737,16 @@
     "time": "7p-10p",
     "ticketUrl": "",
     "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Tyrone & Friends Live",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "7p-10p",
+    "ticketUrl": "https://907alehouse.com",
+    "category": "music",
     "cost": ""
   },
   {
@@ -50767,6 +50857,16 @@
     "time": "3p-5p",
     "ticketUrl": "",
     "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Blackwater Railroad Co. Live",
+    "venue": "Denali Brewing Company",
+    "city": "Talkeetna",
+    "date": "2026-08-19",
+    "time": "5:30p-8:30p",
+    "ticketUrl": "https://denalibrewingcompany.com",
+    "category": "music",
     "cost": ""
   },
   {

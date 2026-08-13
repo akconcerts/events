@@ -528,7 +528,7 @@
     "cost": ""
   },
   {
-    "id": "4676",
+    "id": "4677",
     "title": "Collin Donley Live",
     "venue": "Settler’s Bay Lodge",
     "city": "Wasilla",
@@ -539,7 +539,7 @@
     "cost": ""
   },
   {
-    "id": "4677",
+    "id": "4678",
     "title": "Live Music With Drew Sablon",
     "venue": "Everett’s",
     "city": "Wasilla",
@@ -550,7 +550,7 @@
     "cost": ""
   },
   {
-    "id": "4736",
+    "id": "4740",
     "title": "Storytelling Night: Shared Scars",
     "venue": "Black Birch Books",
     "city": "Wasilla",
@@ -561,7 +561,7 @@
     "cost": ""
   },
   {
-    "id": "4737",
+    "id": "4741",
     "title": "Live Music w/ Sergio",
     "venue": "Last Frontier Brewing Company",
     "city": "Wasilla",
@@ -572,7 +572,7 @@
     "cost": ""
   },
   {
-    "id": "4738",
+    "id": "4742",
     "title": "Karaoke Night",
     "venue": "Schwabenhof",
     "city": "Wasilla",
@@ -583,7 +583,18 @@
     "cost": ""
   },
   {
-    "id": "4817",
+    "id": "4743",
+    "title": "Karaoke Night at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-08-14",
+    "time": "8p-11p",
+    "ticketUrl": "https://schwabenhofak.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4824",
     "title": "Live Music with Monster on the Mountain",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
     "city": "Wasilla",
@@ -594,7 +605,7 @@
     "cost": ""
   },
   {
-    "id": "4818",
+    "id": "4825",
     "title": "Rick Brooks Live",
     "venue": "Last Frontier Brewing Company",
     "city": "Wasilla",
@@ -605,7 +616,7 @@
     "cost": ""
   },
   {
-    "id": "4852",
+    "id": "4859",
     "title": "Live Music w/ Pam Santoro",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
     "city": "Wasilla",
@@ -616,7 +627,7 @@
     "cost": ""
   },
   {
-    "id": "4888",
+    "id": "4896",
     "title": "Storytime at Ken’s",
     "venue": "Ken’s Garden Center",
     "city": "Wasilla",
@@ -627,7 +638,7 @@
     "cost": ""
   },
   {
-    "id": "4889",
+    "id": "4897",
     "title": "Live Music w/ Jerry Wessling",
     "venue": "Everett’s",
     "city": "Wasilla",
@@ -638,7 +649,7 @@
     "cost": ""
   },
   {
-    "id": "4890",
+    "id": "4898",
     "title": "Karaoke Night",
     "venue": "Schwabenhof",
     "city": "Wasilla",
@@ -649,7 +660,7 @@
     "cost": ""
   },
   {
-    "id": "5014",
+    "id": "5024",
     "title": "Live Music with Monster on the Mountain",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
     "city": "Wasilla",
@@ -660,7 +671,7 @@
     "cost": ""
   },
   {
-    "id": "5015",
+    "id": "5025",
     "title": "Live Music w/ Pam Santoro",
     "venue": "Tug Bar & Liquor- Goose Bay Inn",
     "city": "Wasilla",
@@ -671,7 +682,7 @@
     "cost": ""
   },
   {
-    "id": "5016",
+    "id": "5026",
     "title": "Storytime at Ken’s 1",
     "venue": "Ken’s Garden Center",
     "city": "Wasilla",
@@ -682,7 +693,7 @@
     "cost": ""
   },
   {
-    "id": "5017",
+    "id": "5027",
     "title": "Open Mic 7:3",
     "venue": "Schwabenhof",
     "city": "Wasilla",
@@ -693,7 +704,7 @@
     "cost": ""
   },
   {
-    "id": "5018",
+    "id": "5028",
     "title": "Sign Language Classes",
     "venue": "Black Birch Books",
     "city": "Wasilla",
@@ -704,7 +715,7 @@
     "cost": ""
   },
   {
-    "id": "5019",
+    "id": "5029",
     "title": "Storytelling Night: Shared Scars",
     "venue": "Black Birch Books",
     "city": "Wasilla",
@@ -715,7 +726,7 @@
     "cost": ""
   },
   {
-    "id": "5020",
+    "id": "5030",
     "title": "Collin Donley Live",
     "venue": "Settler’s Bay Lodge",
     "city": "Wasilla",
@@ -726,7 +737,7 @@
     "cost": ""
   },
   {
-    "id": "5021",
+    "id": "5031",
     "title": "Live Music With Drew Sablon",
     "venue": "Everett’s",
     "city": "Wasilla",
@@ -737,7 +748,7 @@
     "cost": ""
   },
   {
-    "id": "5022",
+    "id": "5032",
     "title": "Live Music w/ Sergio",
     "venue": "Last Frontier Brewing Company",
     "city": "Wasilla",
@@ -748,7 +759,7 @@
     "cost": ""
   },
   {
-    "id": "5023",
+    "id": "5033",
     "title": "Rick Brooks Live",
     "venue": "Last Frontier Brewing Company",
     "city": "Wasilla",
@@ -759,7 +770,7 @@
     "cost": ""
   },
   {
-    "id": "5024",
+    "id": "5034",
     "title": "Live Music w/ Jerry Wessling",
     "venue": "Everett’s",
     "city": "Wasilla",
@@ -770,7 +781,7 @@
     "cost": ""
   },
   {
-    "id": "5025",
+    "id": "5035",
     "title": "Karaoke Night",
     "venue": "Schwabenhof",
     "city": "Wasilla",

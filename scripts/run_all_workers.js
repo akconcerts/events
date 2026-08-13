@@ -8,6 +8,13 @@ import { scrapeKoots } from './scrapers/koots.js';
 import { scrapeBeartooth } from './scrapers/beartooth.js';
 import { scrapeShowdown } from './scrapers/showdown.js';
 import { scrapeVenueRegistry } from './scrapers/venue_registry_scraper.js';
+import {
+  scrapeWilliwaw, scrapeACA, scrapeACPA, scrape49thState, scrapeHumpys,
+  scrapeBlarneyStone, scrapeCrystalSaloon, scrapeMalemuteSaloon, scrapePalmerAlehouse,
+  scrapeSewardVenues, scrapeAlicesHomer, scrapeCreekbend, scrape907Alehouse,
+  scrapeCarousel, scrapeVans, scrapeMyrnas, scrapeOddManRush, scrapeSchwabenhof,
+  scrapeDenaliBrewing, scrapeFairviewInn
+} from './scrapers/additional_scrapers.js';
 import { deduplicateEvents } from './scrapers/dedupe_engine.js';
 import { execSync } from 'child_process';
 
@@ -33,7 +40,27 @@ async function main() {
     scrapeKoots(),
     scrapeBeartooth(),
     scrapeShowdown(),
-    scrapeVenueRegistry()
+    scrapeVenueRegistry(),
+    scrapeWilliwaw(),
+    scrapeACA(),
+    scrapeACPA(),
+    scrape49thState(),
+    scrapeHumpys(),
+    scrapeBlarneyStone(),
+    scrapeCrystalSaloon(),
+    scrapeMalemuteSaloon(),
+    scrapePalmerAlehouse(),
+    scrapeSewardVenues(),
+    scrapeAlicesHomer(),
+    scrapeCreekbend(),
+    scrape907Alehouse(),
+    scrapeCarousel(),
+    scrapeVans(),
+    scrapeMyrnas(),
+    scrapeOddManRush(),
+    scrapeSchwabenhof(),
+    scrapeDenaliBrewing(),
+    scrapeFairviewInn()
   ]);
 
   const newEvents = [];

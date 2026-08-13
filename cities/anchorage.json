@@ -30636,6 +30636,17 @@
   },
   {
     "id": "4643",
+    "title": "Open Mic Night w/ It's Just Dez",
+    "venue": "Blarney Stone",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "6:45p-11p",
+    "ticketUrl": "https://blarneystonepubak.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4644",
     "title": "Stop Light Nights",
     "venue": "Magnetic North Brewing",
     "city": "Anchorage",
@@ -30646,7 +30657,7 @@
     "cost": ""
   },
   {
-    "id": "4644",
+    "id": "4645",
     "title": "Open Mic Loathing in Las Vegas",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -30657,7 +30668,7 @@
     "cost": ""
   },
   {
-    "id": "4645",
+    "id": "4646",
     "title": "Live Music w/ Nothin But Karma 8p-12aKoot’s - Latin Night w/ DJ MyKey T",
     "venue": "Humpy’s",
     "city": "Anchorage",
@@ -30668,7 +30679,7 @@
     "cost": ""
   },
   {
-    "id": "4646",
+    "id": "4647",
     "title": "Latin Night w/ DJ MyKey T",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -30679,7 +30690,7 @@
     "cost": ""
   },
   {
-    "id": "4647",
+    "id": "4648",
     "title": "AK Rockstar Karaoke",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -30690,7 +30701,7 @@
     "cost": ""
   },
   {
-    "id": "4678",
+    "id": "4679",
     "title": "Yappy Hour: Dog Friendly Happy Hour 4:3",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -30701,19 +30712,8 @@
     "cost": ""
   },
   {
-    "id": "4679",
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
-    "venue": "9th State Brewery",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "id": "4680",
-    "title": "Candlelight Concert: Tribute to Fleetwood Mac 5:3",
+    "title": "Garden Grooves: Music in the Beer Garden 5p-",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-14",
@@ -30724,7 +30724,7 @@
   },
   {
     "id": "4681",
-    "title": "Candlelight Concert: Queen vs. ABBA 7:4",
+    "title": "Candlelight Concert: Tribute to Fleetwood Mac 5:3",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-14",
@@ -30735,6 +30735,17 @@
   },
   {
     "id": "4682",
+    "title": "Candlelight Concert: Queen vs. ABBA 7:4",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4683",
     "title": "Friday Night Dance Lounge 9p-",
     "venue": "Alaska Dance Promotions",
     "city": "Anchorage",
@@ -30745,7 +30756,7 @@
     "cost": ""
   },
   {
-    "id": "4683",
+    "id": "4684",
     "title": "Ambassador Bird Programs: Experience Wild Birds Up Close! 12:3",
     "venue": "Bird Treatment & Learning Center",
     "city": "Anchorage",
@@ -30756,7 +30767,7 @@
     "cost": ""
   },
   {
-    "id": "4684",
+    "id": "4685",
     "title": "Karaoke w/ DJ Charms 8p-",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -30767,7 +30778,7 @@
     "cost": ""
   },
   {
-    "id": "4685",
+    "id": "4686",
     "title": "DJ JRock 9:3",
     "venue": "Flattop Pizza & Pool",
     "city": "Anchorage",
@@ -30778,7 +30789,7 @@
     "cost": ""
   },
   {
-    "id": "4686",
+    "id": "4687",
     "title": "Friday Night Market 6p-",
     "venue": "Glenn Square",
     "city": "Anchorage",
@@ -30789,7 +30800,7 @@
     "cost": ""
   },
   {
-    "id": "4687",
+    "id": "4688",
     "title": "Pop Piano Bar w/ MJ Riemann 6p-",
     "venue": "Gumbo House",
     "city": "Anchorage",
@@ -30800,7 +30811,7 @@
     "cost": ""
   },
   {
-    "id": "4688",
+    "id": "4689",
     "title": "Live Music w/ Ayla Ray & Chris Christy Quintet 9:3",
     "venue": "Humpy’s",
     "city": "Anchorage",
@@ -30811,7 +30822,7 @@
     "cost": ""
   },
   {
-    "id": "4689",
+    "id": "4690",
     "title": "Yachtly Crew 1",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -30822,7 +30833,7 @@
     "cost": ""
   },
   {
-    "id": "4690",
+    "id": "4691",
     "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
@@ -30833,7 +30844,7 @@
     "cost": ""
   },
   {
-    "id": "4691",
+    "id": "4692",
     "title": "DJ Cross 1",
     "venue": "Pioneer Bar",
     "city": "Anchorage",
@@ -30844,7 +30855,7 @@
     "cost": ""
   },
   {
-    "id": "4692",
+    "id": "4693",
     "title": "Karaoke Night at SubZero 8p-",
     "venue": "SubZero Microlounge",
     "city": "Anchorage",
@@ -30855,7 +30866,7 @@
     "cost": ""
   },
   {
-    "id": "4693",
+    "id": "4694",
     "title": "Hwy9 in Concert 6:3",
     "venue": "Turnagain Brewing",
     "city": "Anchorage",
@@ -30866,7 +30877,7 @@
     "cost": ""
   },
   {
-    "id": "4694",
+    "id": "4695",
     "title": "Bodelia James 9:3",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
@@ -30877,7 +30888,7 @@
     "cost": ""
   },
   {
-    "id": "4695",
+    "id": "4696",
     "title": "Darci Lynne 6:3",
     "venue": "1a Wendy Williamson Auditorium",
     "city": "Anchorage",
@@ -30888,7 +30899,7 @@
     "cost": ""
   },
   {
-    "id": "4696",
+    "id": "4697",
     "title": "Mobile Library Visit & Storytime",
     "venue": "Fairview Community Rec Center",
     "city": "Anchorage",
@@ -30899,7 +30910,7 @@
     "cost": ""
   },
   {
-    "id": "4697",
+    "id": "4698",
     "title": "Summer Bash",
     "venue": "JBER Library",
     "city": "Anchorage",
@@ -30910,7 +30921,7 @@
     "cost": ""
   },
   {
-    "id": "4698",
+    "id": "4699",
     "title": "Summer Music on the Patio: SAZÓN",
     "venue": "9p Hilltop Ski Area",
     "city": "Anchorage",
@@ -30921,7 +30932,7 @@
     "cost": ""
   },
   {
-    "id": "4699",
+    "id": "4700",
     "title": "Da Good Ol' Good Ones",
     "venue": "Blarney Stone",
     "city": "Anchorage",
@@ -30932,7 +30943,7 @@
     "cost": ""
   },
   {
-    "id": "4700",
+    "id": "4701",
     "title": "Williwaw Blue",
     "venue": "O’Malley’s on the Green",
     "city": "Anchorage",
@@ -30943,7 +30954,7 @@
     "cost": ""
   },
   {
-    "id": "4701",
+    "id": "4702",
     "title": "Karaoke Friday at the Eagles!",
     "venue": "The Fraternal Order of Eagles Aerie 4207",
     "city": "Anchorage",
@@ -30954,7 +30965,18 @@
     "cost": ""
   },
   {
-    "id": "4702",
+    "id": "4703",
+    "title": "Bodelia James Live",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "9:30p-1a",
+    "ticketUrl": "https://vansdivebar.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4704",
     "title": "Arctic Entry & Dawson Gentleman Band",
     "venue": "Bernie’s Bungalow Lounge",
     "city": "Anchorage",
@@ -30965,7 +30987,7 @@
     "cost": ""
   },
   {
-    "id": "4703",
+    "id": "4705",
     "title": "Mad Myrna's Diva Variety Show",
     "venue": "Mad Myrna’s",
     "city": "Anchorage",
@@ -30976,7 +30998,18 @@
     "cost": ""
   },
   {
-    "id": "4704",
+    "id": "4706",
+    "title": "Mad Myrna's Diva Variety Show",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "9p-11:30p",
+    "ticketUrl": "https://madmyrnas.com",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "id": "4707",
     "title": "Friday Night Dance Social",
     "venue": "Arctic Academie de Danse",
     "city": "Anchorage",
@@ -30987,7 +31020,7 @@
     "cost": ""
   },
   {
-    "id": "4705",
+    "id": "4708",
     "title": "$100 Cash Giveaway Karaoke Contest",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -30998,7 +31031,7 @@
     "cost": ""
   },
   {
-    "id": "4706",
+    "id": "4709",
     "title": "Blast From The Past",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -31009,7 +31042,7 @@
     "cost": ""
   },
   {
-    "id": "4739",
+    "id": "4744",
     "title": "Dance Social 7p-",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -31020,7 +31053,7 @@
     "cost": ""
   },
   {
-    "id": "4740",
+    "id": "4745",
     "title": "Jazz on the Lawn w/ Alaska Jazz Workshop 1",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -31031,7 +31064,7 @@
     "cost": ""
   },
   {
-    "id": "4741",
+    "id": "4746",
     "title": "Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -31042,7 +31075,7 @@
     "cost": ""
   },
   {
-    "id": "4742",
+    "id": "4747",
     "title": "Live Music at the Market 1",
     "venue": "Anchorage Weekend Market",
     "city": "Anchorage",
@@ -31053,7 +31086,7 @@
     "cost": ""
   },
   {
-    "id": "4743",
+    "id": "4748",
     "title": "Cat Video Fest 2",
     "venue": "Beartooth Theatrepub",
     "city": "Anchorage",
@@ -31064,7 +31097,7 @@
     "cost": ""
   },
   {
-    "id": "4744",
+    "id": "4749",
     "title": "Karaoke w/ DJ Charms 8p-",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -31075,7 +31108,7 @@
     "cost": ""
   },
   {
-    "id": "4745",
+    "id": "4750",
     "title": "Latin Night Takeover w/ DJ Jose & DJ Yenmy 1",
     "venue": "Continental",
     "city": "Anchorage",
@@ -31086,7 +31119,7 @@
     "cost": ""
   },
   {
-    "id": "4746",
+    "id": "4751",
     "title": "DJ JRock 9:3",
     "venue": "Flattop Pizza & Pool",
     "city": "Anchorage",
@@ -31097,7 +31130,7 @@
     "cost": ""
   },
   {
-    "id": "4747",
+    "id": "4752",
     "title": "Live Music w/ Dawson Gentleman & Arctic Entry 9:3",
     "venue": "Humpy’s",
     "city": "Anchorage",
@@ -31108,7 +31141,7 @@
     "cost": ""
   },
   {
-    "id": "4748",
+    "id": "4753",
     "title": "The Reg Flags 1",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -31119,7 +31152,7 @@
     "cost": ""
   },
   {
-    "id": "4749",
+    "id": "4754",
     "title": "Anchorage Community Theatre: Dream Roles Cabaret Show 6:3",
     "venue": "Main Event Grill",
     "city": "Anchorage",
@@ -31130,7 +31163,7 @@
     "cost": ""
   },
   {
-    "id": "4750",
+    "id": "4755",
     "title": "Muldoon Community Market 9:3",
     "venue": "Muldoon Chanshtnu Park",
     "city": "Anchorage",
@@ -31141,7 +31174,7 @@
     "cost": ""
   },
   {
-    "id": "4751",
+    "id": "4756",
     "title": "Latin Dance Closing Party with DJ Maria, DJ Josh, & DJ Colin 1",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
@@ -31152,7 +31185,7 @@
     "cost": ""
   },
   {
-    "id": "4752",
+    "id": "4757",
     "title": "Will H. Johnson 5:3",
     "venue": "Ship Creek Brewing",
     "city": "Anchorage",
@@ -31163,7 +31196,7 @@
     "cost": ""
   },
   {
-    "id": "4753",
+    "id": "4758",
     "title": "Hmong Harvest Festival 1",
     "venue": "Sullivan Arena Football Stadium",
     "city": "Anchorage",
@@ -31174,7 +31207,7 @@
     "cost": ""
   },
   {
-    "id": "4754",
+    "id": "4759",
     "title": "Poses & Mimosas w/ burn+bloom 1",
     "venue": "Wildbirch Hotel",
     "city": "Anchorage",
@@ -31185,7 +31218,7 @@
     "cost": ""
   },
   {
-    "id": "4755",
+    "id": "4760",
     "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -31196,7 +31229,7 @@
     "cost": ""
   },
   {
-    "id": "4756",
+    "id": "4761",
     "title": "Pop Piano Bar w/ MJ Riemann",
     "venue": "Gumbo House",
     "city": "Anchorage",
@@ -31207,7 +31240,7 @@
     "cost": ""
   },
   {
-    "id": "4757",
+    "id": "4762",
     "title": "Drag For A Cause: Rhinestone Rodeo",
     "venue": "The Nave Spenard",
     "city": "Anchorage",
@@ -31218,7 +31251,7 @@
     "cost": ""
   },
   {
-    "id": "4758",
+    "id": "4763",
     "title": "Sweet Cheeks Cabaret: Vaudeville Vibes - Hot Spec-taters of Tease",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -31229,7 +31262,7 @@
     "cost": ""
   },
   {
-    "id": "4759",
+    "id": "4764",
     "title": "CONVERGE",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -31240,7 +31273,7 @@
     "cost": ""
   },
   {
-    "id": "4760",
+    "id": "4765",
     "title": "HB 1350",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -31251,7 +31284,7 @@
     "cost": ""
   },
   {
-    "id": "4761",
+    "id": "4766",
     "title": "Weekly Karaoke Contest",
     "venue": "Oriental Garden",
     "city": "Anchorage",
@@ -31262,7 +31295,7 @@
     "cost": ""
   },
   {
-    "id": "4762",
+    "id": "4767",
     "title": "Mad Myrna's Diva Variety Show",
     "venue": "Mad Myrna’s",
     "city": "Anchorage",
@@ -31273,7 +31306,7 @@
     "cost": ""
   },
   {
-    "id": "4763",
+    "id": "4768",
     "title": "Supernova Live",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -31284,7 +31317,7 @@
     "cost": ""
   },
   {
-    "id": "4764",
+    "id": "4769",
     "title": "Raspberry, Laughy, & Swing Syndicate",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
@@ -31295,7 +31328,7 @@
     "cost": ""
   },
   {
-    "id": "4765",
+    "id": "4770",
     "title": "Blast From The Past",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -31306,7 +31339,7 @@
     "cost": ""
   },
   {
-    "id": "4819",
+    "id": "4826",
     "title": "Country Dance Nights: Line Dancing & Swing 6:3",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -31317,7 +31350,7 @@
     "cost": ""
   },
   {
-    "id": "4820",
+    "id": "4827",
     "title": "Live Music at the Market 1",
     "venue": "Anchorage Weekend Market",
     "city": "Anchorage",
@@ -31328,7 +31361,7 @@
     "cost": ""
   },
   {
-    "id": "4821",
+    "id": "4828",
     "title": "Sunday Blues Jam w/ Rebel Blues Band 6p-",
     "venue": "Billiard Palace",
     "city": "Anchorage",
@@ -31339,7 +31372,7 @@
     "cost": ""
   },
   {
-    "id": "4822",
+    "id": "4829",
     "title": "Annual Humpy’s Marathon 8:3",
     "venue": "Humpy’s",
     "city": "Anchorage",
@@ -31350,7 +31383,7 @@
     "cost": ""
   },
   {
-    "id": "4823",
+    "id": "4830",
     "title": "Comedy Open Mic 8:3",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -31361,7 +31394,7 @@
     "cost": ""
   },
   {
-    "id": "4824",
+    "id": "4831",
     "title": "Koots Karaoke 1",
     "venue": "0p-10pKoot’s",
     "city": "Anchorage",
@@ -31372,7 +31405,7 @@
     "cost": ""
   },
   {
-    "id": "4825",
+    "id": "4832",
     "title": "Karaoke 9p-",
     "venue": "0p-2aMad Myrna’s",
     "city": "Anchorage",
@@ -31383,7 +31416,7 @@
     "cost": ""
   },
   {
-    "id": "4826",
+    "id": "4833",
     "title": "All Ages Buckarooos Night 6p-",
     "venue": "2a Pink Cadillac",
     "city": "Anchorage",
@@ -31394,7 +31427,7 @@
     "cost": ""
   },
   {
-    "id": "4827",
+    "id": "4834",
     "title": "Industry Night w/ Joe Brady 1",
     "venue": "Pioneer Bar",
     "city": "Anchorage",
@@ -31405,7 +31438,7 @@
     "cost": ""
   },
   {
-    "id": "4828",
+    "id": "4835",
     "title": "Open Jam with Blast From The Past 8:3",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -31416,7 +31449,7 @@
     "cost": ""
   },
   {
-    "id": "4829",
+    "id": "4836",
     "title": "Hmong Harvest Festival 1",
     "venue": "Sullivan Arena Football Stadium",
     "city": "Anchorage",
@@ -31427,7 +31460,7 @@
     "cost": ""
   },
   {
-    "id": "4830",
+    "id": "4837",
     "title": "Open Mic Night 8p-",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
@@ -31438,7 +31471,7 @@
     "cost": ""
   },
   {
-    "id": "4831",
+    "id": "4838",
     "title": "Bachata Dance Patterns 8:3",
     "venue": "Alaska Dance Promotions",
     "city": "Anchorage",
@@ -31449,7 +31482,7 @@
     "cost": ""
   },
   {
-    "id": "4832",
+    "id": "4839",
     "title": "Weekly Jazz Jam 6:3",
     "venue": "Fire Island Bakery @ K Street Market",
     "city": "Anchorage",
@@ -31460,7 +31493,7 @@
     "cost": ""
   },
   {
-    "id": "4833",
+    "id": "4840",
     "title": "Open Mic & Jam",
     "venue": "VFW Post 1685",
     "city": "Anchorage",
@@ -31471,7 +31504,7 @@
     "cost": ""
   },
   {
-    "id": "4834",
+    "id": "4841",
     "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -31482,7 +31515,7 @@
     "cost": ""
   },
   {
-    "id": "4835",
+    "id": "4842",
     "title": "Learn to Square Dance",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -31493,7 +31526,7 @@
     "cost": ""
   },
   {
-    "id": "4836",
+    "id": "4843",
     "title": "Sunday Karaoke",
     "venue": "0p The Carousel Lounge",
     "city": "Anchorage",
@@ -31504,7 +31537,7 @@
     "cost": ""
   },
   {
-    "id": "4837",
+    "id": "4844",
     "title": "Snacks at Midnight",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
@@ -31515,7 +31548,7 @@
     "cost": ""
   },
   {
-    "id": "4853",
+    "id": "4860",
     "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "49th State Brewery",
     "city": "Anchorage",
@@ -31526,7 +31559,7 @@
     "cost": ""
   },
   {
-    "id": "4854",
+    "id": "4861",
     "title": "Weekly Jazz Jam",
     "venue": "Fire Island Bakery @ K Street Market",
     "city": "Anchorage",
@@ -31537,7 +31570,7 @@
     "cost": ""
   },
   {
-    "id": "4855",
+    "id": "4862",
     "title": "Learn to Square Dance",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -31548,7 +31581,7 @@
     "cost": ""
   },
   {
-    "id": "4856",
+    "id": "4863",
     "title": "Bachata Dance Patterns",
     "venue": "Alaska Dance Promotions",
     "city": "Anchorage",
@@ -31559,7 +31592,7 @@
     "cost": ""
   },
   {
-    "id": "4857",
+    "id": "4864",
     "title": "Snacks at Midnight",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
@@ -31570,7 +31603,7 @@
     "cost": ""
   },
   {
-    "id": "4867",
+    "id": "4874",
     "title": "Lunch on the Lawn: Live Music w/ Uncle Jim 11:3",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -31581,7 +31614,7 @@
     "cost": ""
   },
   {
-    "id": "4868",
+    "id": "4875",
     "title": "Two Step Tuesday w/ DJ Lele Beats 9p-",
     "venue": "Blarney Stone",
     "city": "Anchorage",
@@ -31592,7 +31625,7 @@
     "cost": ""
   },
   {
-    "id": "4869",
+    "id": "4876",
     "title": "AK Rockstar Karaoke 8p-",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -31603,7 +31636,7 @@
     "cost": ""
   },
   {
-    "id": "4870",
+    "id": "4877",
     "title": "Rope Dart Lessons w/ Jerrill 8:3",
     "venue": "Oriental Healing Arts Center",
     "city": "Anchorage",
@@ -31614,7 +31647,7 @@
     "cost": ""
   },
   {
-    "id": "4871",
+    "id": "4878",
     "title": "College Night 1",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
@@ -31625,7 +31658,7 @@
     "cost": ""
   },
   {
-    "id": "4872",
+    "id": "4879",
     "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -31636,7 +31669,7 @@
     "cost": ""
   },
   {
-    "id": "4873",
+    "id": "4880",
     "title": "Family Storytime",
     "venue": "Mountain View Public Library",
     "city": "Anchorage",
@@ -31647,7 +31680,7 @@
     "cost": ""
   },
   {
-    "id": "4874",
+    "id": "4881",
     "title": "Irish Music & Dancing",
     "venue": "Organic Oasis",
     "city": "Anchorage",
@@ -31658,7 +31691,18 @@
     "cost": ""
   },
   {
-    "id": "4891",
+    "id": "4882",
+    "title": "AK Rockstar Karaoke",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-18",
+    "time": "8p-2a",
+    "ticketUrl": "https://carouselloungeak.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4899",
     "title": "Garden Grooves: Music in the Beer Garden 5p-",
     "venue": "9th State Brewery",
     "city": "Anchorage",
@@ -31669,7 +31713,7 @@
     "cost": ""
   },
   {
-    "id": "4892",
+    "id": "4900",
     "title": "Free Community Storytime 10:3",
     "venue": "Alaska Zoo",
     "city": "Anchorage",
@@ -31680,7 +31724,7 @@
     "cost": ""
   },
   {
-    "id": "4893",
+    "id": "4901",
     "title": "International Folk Dancing 6:3",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -31691,7 +31735,7 @@
     "cost": ""
   },
   {
-    "id": "4894",
+    "id": "4902",
     "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -31702,7 +31746,7 @@
     "cost": ""
   },
   {
-    "id": "4895",
+    "id": "4903",
     "title": "Line Dance Wednesdays 7p-",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
@@ -31713,7 +31757,7 @@
     "cost": ""
   },
   {
-    "id": "4896",
+    "id": "4904",
     "title": "The Eternal Cowboys 1",
     "venue": "Pioneer Bar",
     "city": "Anchorage",
@@ -31724,7 +31768,7 @@
     "cost": ""
   },
   {
-    "id": "4897",
+    "id": "4905",
     "title": "Karaoke 9p-",
     "venue": "0p-1aVan’s Dive Bar",
     "city": "Anchorage",
@@ -31735,7 +31779,7 @@
     "cost": ""
   },
   {
-    "id": "4898",
+    "id": "4906",
     "title": "Live Music at Crimson w/ The Whisper Campaign 6:3",
     "venue": "Wildbirch Hotel",
     "city": "Anchorage",
@@ -31746,7 +31790,7 @@
     "cost": ""
   },
   {
-    "id": "4899",
+    "id": "4907",
     "title": "Koots Karaoke",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -31757,7 +31801,7 @@
     "cost": ""
   },
   {
-    "id": "4900",
+    "id": "4908",
     "title": "Public Assistance Resource Fair",
     "venue": "Loussac Luibrary",
     "city": "Anchorage",
@@ -31768,7 +31812,7 @@
     "cost": ""
   },
   {
-    "id": "4901",
+    "id": "4909",
     "title": "Karaoke 9p-12aManhattan’s Restaurant & Lounge - Seth Malone",
     "venue": "Mad Myrna’s",
     "city": "Anchorage",
@@ -31779,7 +31823,7 @@
     "cost": ""
   },
   {
-    "id": "4902",
+    "id": "4910",
     "title": "Tyrone & Friends",
     "venue": "7 Alehouse",
     "city": "Anchorage",
@@ -31790,7 +31834,7 @@
     "cost": ""
   },
   {
-    "id": "4903",
+    "id": "4911",
     "title": "Comedy Open Mic",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -31801,7 +31845,18 @@
     "cost": ""
   },
   {
-    "id": "4904",
+    "id": "4912",
+    "title": "Tyrone & Friends Live",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "7p-10p",
+    "ticketUrl": "https://907alehouse.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4913",
     "title": "Live Music w/ Will H. Johnson",
     "venue": "Humpy’s",
     "city": "Anchorage",

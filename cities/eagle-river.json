@@ -11660,7 +11660,7 @@
     "cost": ""
   },
   {
-    "id": "4649",
+    "id": "4650",
     "title": "Dance Lessons with Shufflin Country Style 8p-",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
@@ -11671,7 +11671,7 @@
     "cost": ""
   },
   {
-    "id": "4650",
+    "id": "4651",
     "title": "Country Night w/ DJ AumanJoy 9p-",
     "venue": "3 Homestead Lounge",
     "city": "Eagle River",
@@ -11682,7 +11682,7 @@
     "cost": ""
   },
   {
-    "id": "4651",
+    "id": "4652",
     "title": "Snacks at Midnight",
     "venue": "Odd Man Rush",
     "city": "Eagle River",
@@ -11693,7 +11693,7 @@
     "cost": ""
   },
   {
-    "id": "4707",
+    "id": "4710",
     "title": "DJ AumanJoy",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
@@ -11704,7 +11704,7 @@
     "cost": ""
   },
   {
-    "id": "4769",
+    "id": "4774",
     "title": "DJ Auman Joy 8p-",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
@@ -11715,7 +11715,7 @@
     "cost": ""
   },
   {
-    "id": "4770",
+    "id": "4775",
     "title": "Miles Pruner Live",
     "venue": "5 Odd Man Rush",
     "city": "Eagle River",
@@ -11726,7 +11726,18 @@
     "cost": ""
   },
   {
-    "id": "4858",
+    "id": "4776",
+    "title": "Miles Pruner Live",
+    "venue": "Odd Man Rush",
+    "city": "Eagle River",
+    "date": "2026-08-15",
+    "time": "4p-?",
+    "ticketUrl": "https://oddmanrushbrewing.com",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4865",
     "title": "Karaoke Mondays",
     "venue": "Odd Man Rush",
     "city": "Eagle River",
@@ -11737,7 +11748,7 @@
     "cost": ""
   },
   {
-    "id": "4909",
+    "id": "4918",
     "title": "Karaoke Night w/ KJ Smoke",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
