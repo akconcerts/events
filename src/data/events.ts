@@ -188,7 +188,7 @@ export const events: AKEvent[] = [
   ev("Friday Night Dance Lounge", "Alaska Dance Promotions", "Anchorage", "2020-06-26", "9p-1a", "", "dance"),
   ev("Superfrequency", "The Boatel (Fairbanks)", "Anchorage", "2020-06-26", "9p-1a", ""),
   ev("Ben Balivet", "The Catch Restaurant and Bar", "Anchorage", "2020-06-26", "9p-1a", ""),
-  ev("Summer Song Battles: Leaps and Bounds Music & John Shewfelt Jr 7p", "International Hotel and Bar (Fairbanks)", "Anchorage", "2020-06-26", "9p-1a", ""),
+  ev("Summer Song Battles: Leaps and Bounds Music & John Shewfelt Jr", "International Hotel and Bar (Fairbanks)", "Anchorage", "2020-06-26", "9p-1a", ""),
   ev("Ukulele Russ & His One Man Frontier Band", "Yukon Bar (Seward)", "Anchorage", "2020-06-26", "9p-1a", ""),
   ev("Tony Taylor the Artist", "International Hotel and Bar (Fairbanks)", "Anchorage", "2020-06-26", "9p-2a", ""),
 
@@ -279,12 +279,12 @@ export const events: AKEvent[] = [
   ev("Danger Money Live", "Klondike Mike’s and the Main Street Grill (Palmer)", "Anchorage", "2020-10-23", "10p-2a", ""),
   ev("Halloween Fun w/ Marc Brown and the Blues Crew", "Arctic Fox (Fairbanks)", "Anchorage", "2020-10-23", "10p-3a", ""),
   ev("DJ Manny’s LOVE BITES || Ladies Night", "Tony’s Sports Bar (Fairbanks)", "Anchorage", "2020-10-23", "10p-3a", ""),
-  ev("Playhouse Live Comedy & Music 7:", "The Schwabenhof (Wasilla)", "Anchorage", "2020-10-23", "30p", "", "comedy"),
+  ev("Playhouse Live Comedy & Music", "The Schwabenhof (Wasilla)", "Anchorage", "2020-10-23", "30p", "", "comedy"),
   ev("Virtual Dance - Disney's Descendants", "The Arc of Anchorage", "Anchorage", "2020-10-23", "5p-7p", "", "dance"),
   ev("October Live Music w/ JD Cox and Tim Hall", "Everett’s (Wasilla)", "Anchorage", "2020-10-23", "6:30p-9:30p", ""),
   ev("Facebook Live: Friday Night Free Play V9.0", "DJ KDean", "Anchorage", "2020-10-23", "6p-9p", "", "theatre"),
   ev("Arctic Entries at the Zoo (Drive-In)", "The Alaska Zoo", "Anchorage", "2020-10-23", "7p-9p", ""),
-  ev("Sinister Suites 6p-6:30p, 6:45p-7:17p, 7:30p-8p", "The Drift Gallery Dance Studio", "Anchorage", "2020-10-23", "8:15p-8:45p", ""),
+  ev("Sinister Suites 6p-6:30p, 6:45p-7:17p,", "The Drift Gallery Dance Studio", "Anchorage", "2020-10-23", "8:15p-8:45p", ""),
 
   // ═══ ANCHORAGE — Saturday October 24th ═══
   ev("DJ MANNY: I Want To Play A Game. . .", "Tony’s Sports Bar (Fairbanks)", "Anchorage", "2020-10-24", "10p-3a", "", "theatre"),
@@ -298,7 +298,7 @@ export const events: AKEvent[] = [
   // ═══ ANCHORAGE — Sunday October 25th ═══
   ev("Beats Roots: Hallow Beat Treat w/ Glen Ghoul", "KONR 106.1FM Out North Radio", "Anchorage", "2020-10-25", "3p-5p", ""),
   ev("October Live Music w/ Diana Z", "Everett’s (Wasilla)", "Anchorage", "2020-10-25", "6:30p-9:30p", ""),
-  ev("Sinister Suites 5p-5:30p, 5:45p-6:15p. 6:30p-7p", "The Drift Gallery Dance Studio", "Anchorage", "2020-10-25", "7:15p-7:45p", ""),
+  ev("Sinister Suites 5p-5:30p, 5:45p-6:15p.", "The Drift Gallery Dance Studio", "Anchorage", "2020-10-25", "7:15p-7:45p", ""),
 
   // ═══ ANCHORAGE — Monday October 26th ═══
   ev("Mother Moose Storytime", "Fairbanks North Star Borough Public Libraries", "Anchorage", "2020-10-26", "10:30a-11a", "", "community"),
@@ -314,7 +314,7 @@ export const events: AKEvent[] = [
 
   // ═══ ANCHORAGE — Wednesday October 28th ═══
   ev("Parents and Twos Storytime", "Fairbanks North Star Borough Public Libraries", "Anchorage", "2020-10-28", "10:30a-11a", "", "community"),
-  ev("Open Mic, Every Wednesday! 7:", "The Schwabenhof (Wasilla)", "Anchorage", "2020-10-28", "30p", ""),
+  ev("Open Mic, Every Wednesday!", "The Schwabenhof (Wasilla)", "Anchorage", "2020-10-28", "30p", ""),
   ev("Halloween Hop", "Kangoo Club Alaska", "Anchorage", "2020-10-28", "6:30p-8p", ""),
   ev("Open Mic", "Casccadelic", "Anchorage", "2020-10-28", "6p-9p", ""),
   ev("Hot Mess", "The Duck Inn (Soldotna)", "Anchorage", "2020-10-28", "7p-10p", ""),
@@ -323,7 +323,7 @@ export const events: AKEvent[] = [
   // ═══ ANCHORAGE — Wednesday November 25th ═══
   ev("Parents and Twos Storytime", "Fairbanks North Star Borough Public Libraries", "Anchorage", "2020-11-25", "10:30a-11a", "", "community"),
   ev("Open Decks", "Koot’s", "Anchorage", "2020-11-25", "10p-2a", ""),
-  ev("Open Mic, Every Wednesday! 7:", "The Schwabenhof (Wasilla)", "Anchorage", "2020-11-25", "30p", ""),
+  ev("Open Mic, Every Wednesday!", "The Schwabenhof (Wasilla)", "Anchorage", "2020-11-25", "30p", ""),
   ev("Open Mic", "Cascadelic", "Anchorage", "2020-11-25", "6p-9p", ""),
   ev("Friendsgiving with Lloyds Noize", "Williwaw", "Anchorage", "2020-11-25", "7p-12a", ""),
 
@@ -368,7 +368,7 @@ export const events: AKEvent[] = [
 
   // ═══ ANCHORAGE — Wednesday December 2nd ═══
   ev("Open Decks", "Koot’s", "Anchorage", "2020-12-02", "10p-2a", ""),
-  ev("Open Mic, Every Wednesday! 7:", "The Schwabenhof (Wasilla)", "Anchorage", "2020-12-02", "30p", ""),
+  ev("Open Mic, Every Wednesday!", "The Schwabenhof (Wasilla)", "Anchorage", "2020-12-02", "30p", ""),
   ev("Open Mic", "Cascadelic", "Anchorage", "2020-12-02", "6p-9p", ""),
 
   // ═══ ANCHORAGE — Thursday December 24th ═══
@@ -1185,7 +1185,7 @@ export const events: AKEvent[] = [
   ev("The Monday Mic at Koots", "Koot’s", "Anchorage", "2022-08-15", "9p-12a", ""),
 
   // ═══ ANCHORAGE — Tuesday August 16th ═══
-  ev("Open Mic w/ Andy Mullen 7p-", "Fairview Inn (Talkeetna)", "Anchorage", "2022-08-16", "", ""),
+  ev("Open Mic w/ Andy Mullen", "Fairview Inn (Talkeetna)", "Anchorage", "2022-08-16", "7p-", ""),
   ev("The Eternal Cowboys", "Koot’s", "Anchorage", "2022-08-16", "10p-12a", ""),
   ev("Lunch on the Lawn: Fox in the Henhouse", "Anchorage Museum", "Anchorage", "2022-08-16", "11:30a-1:30p", ""),
   ev("Taco Tuesday Open Mic w/Gary Stedman!", "American Legion Spenard Post 28", "Anchorage", "2022-08-16", "6:30p-9:30p", ""),
@@ -1287,7 +1287,7 @@ export const events: AKEvent[] = [
   ev("Karaoke", "Yukon Bar (Seward)", "Anchorage", "2022-10-05", "9p-2a", ""),
 
   // ═══ ANCHORAGE — Thursday January 26th ═══
-  ev("Karaoke 8pm", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-01-26", "12a", ""),
+  ev("Karaoke", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-01-26", "12a", ""),
   ev("Past, Present, & Future of Alaska Native Music", "UAF Charles Davis Hall (Fairbanks)", "Anchorage", "2023-01-26", "1p-2p", ""),
   ev("Music Workshop w/ Laura Cortese & the Dance Cards", "Hearth Artisan Pizza", "Anchorage", "2023-01-26", "3p-5", "", "dance"),
   ev("All City Band and Orchestra Auditions", "Bartlett High School", "Anchorage", "2023-01-26", "4p-6:30p", ""),
@@ -1420,7 +1420,7 @@ export const events: AKEvent[] = [
 
   // ═══ ANCHORAGE — Wednesday February 1st ═══
   ev("The Eternal Cowboys", "Pioneer Bar", "Anchorage", "2023-02-01", "10p-12a", ""),
-  ev("Open Mic 8pm", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-02-01", "12a", ""),
+  ev("Open Mic", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-02-01", "12a", ""),
   ev("Culture Shift- February!", "Williwaw Social", "Anchorage", "2023-02-01", "6p-7p", ""),
   ev("Lulu Small live", "Palmer Alehouse (Palmer)", "Anchorage", "2023-02-01", "6p-9p", ""),
   ev("Shawn Pacarro", "Humpys", "Anchorage", "2023-02-01", "7:30p-11p", ""),
@@ -1438,7 +1438,7 @@ export const events: AKEvent[] = [
 
   // ═══ ANCHORAGE — Wednesday March 29th ═══
   ev("The Eternal Cowboys", "Pioneer Bar", "Anchorage", "2023-03-29", "10p-12a", ""),
-  ev("Open Mic 8pm", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-03-29", "12a", ""),
+  ev("Open Mic", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-03-29", "12a", ""),
   ev("Artist-in-Residence: Bethlehem Shalom", "Anchorage Museum", "Anchorage", "2023-03-29", "12p-2p", ""),
   ev("Larry Zarella live", "Palmer Alehouse (Palmer)", "Anchorage", "2023-03-29", "6p-9p", ""),
   ev("Beats. Beer. Bingo.", "Williwaw Social", "Anchorage", "2023-03-29", "7:30p-9:30p", ""),
@@ -1456,7 +1456,7 @@ export const events: AKEvent[] = [
   ev("Karaoke", "Yukon Bar (Seward)", "Anchorage", "2023-03-29", "9p-2a", ""),
 
   // ═══ ANCHORAGE — Thursday March 30th ═══
-  ev("Karaoke 8pm", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-03-30", "12a", ""),
+  ev("Karaoke", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-03-30", "12a", ""),
   ev("Melissa \"Jazzmom\" Fischer", "Sullivan’s Steakhouse", "Anchorage", "2023-03-30", "5:30p-8:30p", ""),
   ev("Museum After Dark", "Anchorage Museum", "Anchorage", "2023-03-30", "6:30p-9:30p", ""),
   ev("Middle School Large Group Festival Orchestra II", "Bartlett High School", "Anchorage", "2023-03-30", "6p-7:30p", "", "festival"),
@@ -1567,7 +1567,7 @@ export const events: AKEvent[] = [
   ev("Jukebox Karaoke Roadshow", "Trophy Lounge", "Anchorage", "2023-04-04", "9p-1a", ""),
 
   // ═══ ANCHORAGE — Wednesday April 5th ═══
-  ev("Open Mic 8pm", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-04-05", "12a", ""),
+  ev("Open Mic", "Lil Babe’s Cocktail Lounge", "Anchorage", "2023-04-05", "12a", ""),
   ev("Middle School Large Group Festival Choir II", "West High School", "Anchorage", "2023-04-05", "6p-7:30p", "", "festival"),
   ev("Culture Shift- April!", "Williwaw Social", "Anchorage", "2023-04-05", "6p-8p", ""),
   ev("Roland Roberts live", "Palmer Alehouse (Palmer)", "Anchorage", "2023-04-05", "6p-9p", ""),
@@ -1587,7 +1587,7 @@ export const events: AKEvent[] = [
   ev("Spenard Jazz Fest 2023: Backyard Jazz Jam", "Heart of Spenard", "Anchorage", "2023-06-03", "2p-8p", "", "festival"),
   ev("Dance Hike w/ Mykey T", "Alaska Dance Promotions", "Anchorage", "2023-06-03", "3p-6p", "", "dance"),
   ev("Alaska Jazz Workshop: Free Downtown Jazz Concerts", "Peratrovich Park (Anchorage)", "Anchorage", "2023-06-03", "4p-6p", ""),
-  ev("KidStock AK 9am", "Alaska State Fairgrounds (Palmer)", "Anchorage", "2023-06-03", "5p", ""),
+  ev("KidStock AK", "Alaska State Fairgrounds (Palmer)", "Anchorage", "2023-06-03", "5p", ""),
   ev("The June Jam", "The Basement (Fairbanks)", "Anchorage", "2023-06-03", "6:30p-1a", ""),
   ev("Music In The Mountains w/ Zen Trembles", "Eagle River Nature Center (Eagle River)", "Anchorage", "2023-06-03", "6p-10p", ""),
   ev("Smash Mouth Live in Concert!", "Matanuska Brewing Company (Eagle River)", "Anchorage", "2023-06-03", "6p-10p", ""),
@@ -1932,7 +1932,7 @@ export const events: AKEvent[] = [
   ev("Blast From The Past", "Time Out Lounge", "Anchorage", "2023-12-01", "9p-2:30a", ""),
 
   // ═══ ANCHORAGE — Saturday December 2nd ═══
-  ev("The Jangle Bees Live 9pm", "Matanuska Brewing Midtown", "Anchorage", "2023-12-02", "12a", ""),
+  ev("The Jangle Bees Live", "Matanuska Brewing Midtown", "Anchorage", "2023-12-02", "12a", ""),
   ev("Fancy Nancy: Splendiferous Christmas", "Cyrano’s Theatre Company", "Anchorage", "2023-12-02", "12p-1p & 2p-3p", ""),
   ev("Coffee w/ A Veteran", "Black Birch Books (Wasilla)", "Anchorage", "2023-12-02", "12p-2p", ""),
   ev("Auditions for \"Our Town\"", "Anchorage Community Theatre", "Anchorage", "2023-12-02", "1p-4p", ""),
@@ -3108,7 +3108,7 @@ export const events: AKEvent[] = [
   ev("Santa Skate", "Big Dipper Ice Arena", "Eagle River", "2024-12-15", "1p-2:30p", ""),
   ev("Juneau Skating Club: Holiday Show", "Treadwell Arena", "Eagle River", "2024-12-15", "1p-2p", ""),
   ev("The Singing Christmas Tree", "Clover Pass Community Church", "Eagle River", "2024-12-15", "2:30p-4p & 4:30p-6p", ""),
-  ev("One World, One Sky: Big Bird's Adventure 1:30p & 2:", "Marie Drake Planetarium", "Eagle River", "2024-12-15", "30p", ""),
+  ev("One World, One Sky: Big Bird's Adventure 1:30p &", "Marie Drake Planetarium", "Eagle River", "2024-12-15", "30p", ""),
   ev("Juneau Symphony: Holiday Cheer 2024", "Thunder Mountain High School", "Eagle River", "2024-12-15", "3p-5p", ""),
   ev("Indoor Concert with Matt The Electrician", "The Musk Ox Farm", "Eagle River", "2024-12-15", "4:30p-8p", ""),
   ev("Christmas with Alaska Chamber Singers", "St. Andrew Catholic Church", "Eagle River", "2024-12-15", "4p-6p", ""),
@@ -5547,7 +5547,7 @@ export const events: AKEvent[] = [
   ev("Family Storytime", "Gerrish Community Library", "Girdwood", "2026-07-22", "10:30a-11:30a", "https://www.facebook.com/events/4209337435985219/4209337512651878/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
 
   // ═══ HOMER — Wednesday July 22nd ═══
-  ev("The Metropolitan Opera: The Merry Window 1p-4", "The Porcupine Theater", "Homer", "2026-07-22", "6:30p-9:30p", "https://porcupinetheater.com/movies/the-metropolitan-opera-the-merry-widow/?fbclid=IwY2xjawTCh8tleHRuA2FlbQIxMABicmlkETF6NGxnTHBEZU1PYVI3VEE3c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHusQRcb_2HcLp-DNfx-ZKB65sjZoM2sbefuAAx9vEjOMrr4PmtS0M6PqfzVC_aem_J", "theatre"),
+  ev("The Metropolitan Opera: The Merry Window", "The Porcupine Theater", "Homer", "2026-07-22", "6:30p-9:30p", "https://porcupinetheater.com/movies/the-metropolitan-opera-the-merry-widow/?fbclid=IwY2xjawTCh8tleHRuA2FlbQIxMABicmlkETF6NGxnTHBEZU1PYVI3VEE3c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHusQRcb_2HcLp-DNfx-ZKB65sjZoM2sbefuAAx9vEjOMrr4PmtS0M6PqfzVC_aem_J", "theatre"),
   ev("Live Music w/ Ben Peters", "Homestead Restaurant", "Homer", "2026-07-22", "6p-9p", "https://www.facebook.com/events/1481867250400832/"),
 
   // ═══ JUNEAU — Wednesday July 22nd ═══
@@ -6023,14 +6023,14 @@ export const events: AKEvent[] = [
   ev("Open Mic", "Schwabenhof", "Wasilla", "2026-08-12", "7:30p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7"),
 
   // ═══ ANCHORAGE — Thursday August 13th ═══
-  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-13", "", ""),
-  ev("Lunch on the Lawn: Live Music w/ Santoro 11:3", "Anchorage Museum", "Anchorage", "2026-08-13", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-13", "5p-", ""),
+  ev("Lunch on the Lawn: Live Music w/ Santoro", "Anchorage Museum", "Anchorage", "2026-08-13", "11:30a-1:30p", ""),
   ev("Trails in Motion 1", "Beartooth Theatrepub", "Anchorage", "2026-08-13", "", ""),
-  ev("Open Mic Night w/ It's Just Dez 6:4", "Blarney Stone", "Anchorage", "2026-08-13", "", ""),
-  ev("Karaoke 7p-", "Broken Blender", "Anchorage", "2026-08-13", "", ""),
+  ev("Open Mic Night w/ It's Just Dez", "Blarney Stone", "Anchorage", "2026-08-13", "", ""),
+  ev("Karaoke", "Broken Blender", "Anchorage", "2026-08-13", "7p-", ""),
   ev("Comedy Open Mic 7p-10pKoot’s - Karaoke 1", "Koot’s", "Anchorage", "2026-08-13", "", "", "comedy"),
-  ev("Live & Local Music w/ Jared Woods 6:3", "The Peanut Farm", "Anchorage", "2026-08-13", "", ""),
-  ev("Ladies Night at Pink Cadillac w/ DJ Rico 7p-", "Pink Cadillac", "Anchorage", "2026-08-13", "", ""),
+  ev("Live & Local Music w/ Jared Woods", "The Peanut Farm", "Anchorage", "2026-08-13", "", ""),
+  ev("Ladies Night at Pink Cadillac w/ DJ Rico", "Pink Cadillac", "Anchorage", "2026-08-13", "7p-", ""),
   ev("DJ Cross 1", "Pioneer Bar", "Anchorage", "2026-08-13", "", ""),
   ev("Stop Light Nights", "Magnetic North Brewing", "Anchorage", "2026-08-13", "6p-8p", ""),
   ev("Open Mic Loathing in Las Vegas", "Time Out Lounge", "Anchorage", "2026-08-13", "8p-11p", ""),
@@ -6042,13 +6042,13 @@ export const events: AKEvent[] = [
   ev("Seth Malone", "Gwin’s Lodge", "Cooper Landing", "2026-08-13", "5p-?", "https://www.facebook.com/events/1314368867508276/"),
 
   // ═══ EAGLE RIVER — Thursday August 13th ═══
-  ev("Dance Lessons with Shufflin Country Style 8p-", "Homestead Lounge", "Eagle River", "2026-08-13", "", "", "dance"),
-  ev("Country Night w/ DJ AumanJoy 9p-", "3 Homestead Lounge", "Eagle River", "2026-08-13", "", ""),
+  ev("Dance Lessons with Shufflin Country Style", "Homestead Lounge", "Eagle River", "2026-08-13", "8p-", "", "dance"),
+  ev("Country Night w/ DJ AumanJoy", "3 Homestead Lounge", "Eagle River", "2026-08-13", "9p-", ""),
   ev("Snacks at Midnight", "Odd Man Rush", "Eagle River", "2026-08-13", "7p-?", "https://www.facebook.com/events/979644471786128"),
 
   // ═══ FAIRBANKS — Thursday August 13th ═══
-  ev("Karaoke with Angel 8p-", "The International Hotel & Bar", "Fairbanks", "2026-08-13", "", ""),
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-13", "", ""),
+  ev("Karaoke with Angel", "The International Hotel & Bar", "Fairbanks", "2026-08-13", "8p-", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-13", "", ""),
   ev("Live Music w/ Baker", "Jack Sprat", "Fairbanks", "2026-08-13", "6p-?", ""),
   ev("Open Mic Night at the Marlin", "3 The Marlin", "Fairbanks", "2026-08-13", "8p-11p", ""),
 
@@ -6063,9 +6063,9 @@ export const events: AKEvent[] = [
   ev("Karaoke Night", "Alibi Bar & Café", "Homer", "2026-08-13", "9p-12:30a", ""),
 
   // ═══ JUNEAU — Thursday August 13th ═══
-  ev("Open Mic 9p-", "Alaskan Hotel and Bar", "Juneau", "2026-08-13", "", ""),
-  ev("Vinyl Afternoon's w/ Dj Roman Martinez 5p-", "3 The Crystal Saloon", "Juneau", "2026-08-13", "", ""),
-  ev("Karaoke Night 8p-", "3 The Crystal Saloon", "Juneau", "2026-08-13", "", ""),
+  ev("Open Mic", "Alaskan Hotel and Bar", "Juneau", "2026-08-13", "9p-", ""),
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez", "3 The Crystal Saloon", "Juneau", "2026-08-13", "5p-", ""),
+  ev("Karaoke Night", "3 The Crystal Saloon", "Juneau", "2026-08-13", "8p-", ""),
   ev("Pop-Up Cherioke", "4 Alaskan Hotel and Bar", "Juneau", "2026-08-13", "9p-?", ""),
 
   // ═══ KETCHIKAN — Thursday August 13th ═══
@@ -6095,24 +6095,24 @@ export const events: AKEvent[] = [
   ev("Live Music With Drew Sablon", "Everett’s", "Wasilla", "2026-08-13", "6p-9p", ""),
 
   // ═══ ANCHORAGE — Friday August 14th ═══
-  ev("Yappy Hour: Dog Friendly Happy Hour 4:3", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
-  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
-  ev("Candlelight Concert: Tribute to Fleetwood Mac 5:3", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
-  ev("Candlelight Concert: Queen vs. ABBA 7:4", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
-  ev("Friday Night Dance Lounge 9p-", "Alaska Dance Promotions", "Anchorage", "2026-08-14", "", "", "dance"),
-  ev("Ambassador Bird Programs: Experience Wild Birds Up Close! 12:3", "Bird Treatment & Learning Center", "Anchorage", "2026-08-14", "", ""),
-  ev("Karaoke w/ DJ Charms 8p-", "Broken Blender", "Anchorage", "2026-08-14", "", ""),
-  ev("DJ JRock 9:3", "Flattop Pizza & Pool", "Anchorage", "2026-08-14", "", ""),
-  ev("Friday Night Market 6p-", "Glenn Square", "Anchorage", "2026-08-14", "", "", "community"),
-  ev("Pop Piano Bar w/ MJ Riemann 6p-", "Gumbo House", "Anchorage", "2026-08-14", "", ""),
-  ev("Live Music w/ Ayla Ray & Chris Christy Quintet 9:3", "Humpy’s", "Anchorage", "2026-08-14", "", ""),
+  ev("Yappy Hour: Dog Friendly Happy Hour", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-14", "5p-", ""),
+  ev("Candlelight Concert: Tribute to Fleetwood Mac", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Candlelight Concert: Queen vs. ABBA", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Friday Night Dance Lounge", "Alaska Dance Promotions", "Anchorage", "2026-08-14", "9p-", "", "dance"),
+  ev("Ambassador Bird Programs: Experience Wild Birds Up Close!", "Bird Treatment & Learning Center", "Anchorage", "2026-08-14", "", ""),
+  ev("Karaoke w/ DJ Charms", "Broken Blender", "Anchorage", "2026-08-14", "8p-", ""),
+  ev("DJ JRock", "Flattop Pizza & Pool", "Anchorage", "2026-08-14", "", ""),
+  ev("Friday Night Market", "Glenn Square", "Anchorage", "2026-08-14", "6p-", "", "community"),
+  ev("Pop Piano Bar w/ MJ Riemann", "Gumbo House", "Anchorage", "2026-08-14", "6p-", ""),
+  ev("Live Music w/ Ayla Ray & Chris Christy Quintet", "Humpy’s", "Anchorage", "2026-08-14", "", ""),
   ev("Yachtly Crew 1", "Koot’s", "Anchorage", "2026-08-14", "", ""),
-  ev("Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-", "Pink Cadillac", "Anchorage", "2026-08-14", "", ""),
+  ev("Boots, Beer, & Ballads Country Night w/ DJ Rico", "Pink Cadillac", "Anchorage", "2026-08-14", "7p-", ""),
   ev("DJ Cross 1", "Pioneer Bar", "Anchorage", "2026-08-14", "", ""),
-  ev("Karaoke Night at SubZero 8p-", "SubZero Microlounge", "Anchorage", "2026-08-14", "", ""),
-  ev("Hwy9 in Concert 6:3", "Turnagain Brewing", "Anchorage", "2026-08-14", "", ""),
-  ev("Bodelia James 9:3", "Van’s Dive Bar", "Anchorage", "2026-08-14", "", ""),
-  ev("Darci Lynne 6:3", "1a Wendy Williamson Auditorium", "Anchorage", "2026-08-14", "", ""),
+  ev("Karaoke Night at SubZero", "SubZero Microlounge", "Anchorage", "2026-08-14", "8p-", ""),
+  ev("Hwy9 in Concert", "Turnagain Brewing", "Anchorage", "2026-08-14", "", ""),
+  ev("Bodelia James", "Van’s Dive Bar", "Anchorage", "2026-08-14", "", ""),
+  ev("Darci Lynne", "1a Wendy Williamson Auditorium", "Anchorage", "2026-08-14", "", ""),
   ev("Mobile Library Visit & Storytime", "Fairview Community Rec Center", "Anchorage", "2026-08-14", "1p-3p", "", "community"),
   ev("Summer Bash", "JBER Library", "Anchorage", "2026-08-14", "1p-3p", ""),
   ev("Summer Music on the Patio: SAZÓN", "9p Hilltop Ski Area", "Anchorage", "2026-08-14", "6p-7:30p", ""),
@@ -6132,7 +6132,7 @@ export const events: AKEvent[] = [
   ev("Tara Starlight & The Forest That Never Sleeps", "Malemute Saloon & Gold Camp", "Ester", "2026-08-14", "7p-11p", ""),
 
   // ═══ FAIRBANKS — Friday August 14th ═══
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-14", "", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-14", "", ""),
   ev("Encore Weekend w/ Wicked Serenity & Signs of Sacrifice", "The International Hotel & Bar", "Fairbanks", "2026-08-14", "8p-12a", ""),
 
   // ═══ HAINES — Friday August 14th ═══
@@ -6194,20 +6194,20 @@ export const events: AKEvent[] = [
   ev("Karaoke Night", "Schwabenhof", "Wasilla", "2026-08-14", "8p-11p", ""),
 
   // ═══ ANCHORAGE — Saturday August 15th ═══
-  ev("Dance Social 7p-", "Anchorage Social Dance Club", "Anchorage", "2026-08-15", "", "", "dance"),
+  ev("Dance Social", "Anchorage Social Dance Club", "Anchorage", "2026-08-15", "7p-", "", "dance"),
   ev("Jazz on the Lawn w/ Alaska Jazz Workshop 1", "Anchorage Museum", "Anchorage", "2026-08-15", "", "", "community"),
-  ev("Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3", "Anchorage Museum", "Anchorage", "2026-08-15", "", ""),
+  ev("Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young", "Anchorage Museum", "Anchorage", "2026-08-15", "", ""),
   ev("Live Music at the Market 1", "Anchorage Weekend Market", "Anchorage", "2026-08-15", "", "", "community"),
   ev("Cat Video Fest 2", "Beartooth Theatrepub", "Anchorage", "2026-08-15", "", "", "festival"),
-  ev("Karaoke w/ DJ Charms 8p-", "Broken Blender", "Anchorage", "2026-08-15", "", ""),
+  ev("Karaoke w/ DJ Charms", "Broken Blender", "Anchorage", "2026-08-15", "8p-", ""),
   ev("Latin Night Takeover w/ DJ Jose & DJ Yenmy 1", "Continental", "Anchorage", "2026-08-15", "", ""),
-  ev("DJ JRock 9:3", "Flattop Pizza & Pool", "Anchorage", "2026-08-15", "", ""),
-  ev("Live Music w/ Dawson Gentleman & Arctic Entry 9:3", "Humpy’s", "Anchorage", "2026-08-15", "", ""),
+  ev("DJ JRock", "Flattop Pizza & Pool", "Anchorage", "2026-08-15", "", ""),
+  ev("Live Music w/ Dawson Gentleman & Arctic Entry", "Humpy’s", "Anchorage", "2026-08-15", "", ""),
   ev("The Reg Flags 1", "Koots", "Anchorage", "2026-08-15", "", ""),
-  ev("Anchorage Community Theatre: Dream Roles Cabaret Show 6:3", "Main Event Grill", "Anchorage", "2026-08-15", "", "", "theatre"),
-  ev("Muldoon Community Market 9:3", "Muldoon Chanshtnu Park", "Anchorage", "2026-08-15", "", "", "community"),
+  ev("Anchorage Community Theatre: Dream Roles Cabaret Show", "Main Event Grill", "Anchorage", "2026-08-15", "", "", "theatre"),
+  ev("Muldoon Community Market", "Muldoon Chanshtnu Park", "Anchorage", "2026-08-15", "", "", "community"),
   ev("Latin Dance Closing Party with DJ Maria, DJ Josh, & DJ Colin 1", "Pink Cadillac", "Anchorage", "2026-08-15", "", "", "dance"),
-  ev("Will H. Johnson 5:3", "Ship Creek Brewing", "Anchorage", "2026-08-15", "", ""),
+  ev("Will H. Johnson", "Ship Creek Brewing", "Anchorage", "2026-08-15", "", ""),
   ev("Hmong Harvest Festival 1", "Sullivan Arena Football Stadium", "Anchorage", "2026-08-15", "", "", "festival"),
   ev("Poses & Mimosas w/ burn+bloom 1", "Wildbirch Hotel", "Anchorage", "2026-08-15", "", ""),
   ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-15", "5p-7p", ""),
@@ -6230,15 +6230,15 @@ export const events: AKEvent[] = [
   ev("Black Barrel & The Bad Men", "Cooper Landing Brewing", "Cooper Landing", "2026-08-15", "6:30p-?", "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3"),
 
   // ═══ EAGLE RIVER — Saturday August 15th ═══
-  ev("DJ Auman Joy 8p-", "Homestead Lounge", "Eagle River", "2026-08-15", "", ""),
+  ev("DJ Auman Joy", "Homestead Lounge", "Eagle River", "2026-08-15", "8p-", ""),
   ev("Miles Pruner Live", "5 Odd Man Rush", "Eagle River", "2026-08-15", "4p-?", "", "community"),
 
   // ═══ ESTER — Saturday August 15th ═══
   ev("Deja Vu, Old Timey Music", "Malemute Saloon & Gold Camp", "Ester", "2026-08-15", "7:30p-11p", ""),
 
   // ═══ FAIRBANKS — Saturday August 15th ═══
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-15", "", ""),
-  ev("Darci Lynne 6:3", "Salisbury Theater", "Fairbanks", "2026-08-15", "", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-15", "", ""),
+  ev("Darci Lynne", "Salisbury Theater", "Fairbanks", "2026-08-15", "", ""),
   ev("2026 Midnight Sun Scottish Highland Games", "Musher’s Hall", "Fairbanks", "2026-08-15", "10a-6p", ""),
   ev("After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends", "Hoodoo Brewing", "Fairbanks", "2026-08-15", "7:30p-11:30p", ""),
   ev("Encore Weekend w/ Wicked Serenity & Signs of Sacrifice", "The International Hotel & Bar", "Fairbanks", "2026-08-15", "8p-12a", ""),
@@ -6326,20 +6326,20 @@ export const events: AKEvent[] = [
   ev("Rick Brooks Live", "Last Frontier Brewing Company", "Wasilla", "2026-08-15", "6p-9p", ""),
 
   // ═══ ANCHORAGE — Sunday August 16th ═══
-  ev("Country Dance Nights: Line Dancing & Swing 6:3", "Anchorage Social Dance Club", "Anchorage", "2026-08-16", "", "", "dance"),
+  ev("Country Dance Nights: Line Dancing & Swing", "Anchorage Social Dance Club", "Anchorage", "2026-08-16", "", "", "dance"),
   ev("Live Music at the Market 1", "Anchorage Weekend Market", "Anchorage", "2026-08-16", "", "", "community"),
-  ev("Sunday Blues Jam w/ Rebel Blues Band 6p-", "Billiard Palace", "Anchorage", "2026-08-16", "", ""),
-  ev("Annual Humpy’s Marathon 8:3", "Humpy’s", "Anchorage", "2026-08-16", "", "", "community"),
-  ev("Comedy Open Mic 8:3", "Koot’s", "Anchorage", "2026-08-16", "", "", "comedy"),
+  ev("Sunday Blues Jam w/ Rebel Blues Band", "Billiard Palace", "Anchorage", "2026-08-16", "6p-", ""),
+  ev("Annual Humpy’s Marathon", "Humpy’s", "Anchorage", "2026-08-16", "", "", "community"),
+  ev("Comedy Open Mic", "Koot’s", "Anchorage", "2026-08-16", "", "", "comedy"),
   ev("Koots Karaoke 1", "0p-10pKoot’s", "Anchorage", "2026-08-16", "", ""),
-  ev("Karaoke 9p-", "0p-2aMad Myrna’s", "Anchorage", "2026-08-16", "", ""),
-  ev("All Ages Buckarooos Night 6p-", "2a Pink Cadillac", "Anchorage", "2026-08-16", "", ""),
+  ev("Karaoke", "0p-2aMad Myrna’s", "Anchorage", "2026-08-16", "9p-", ""),
+  ev("All Ages Buckarooos Night", "2a Pink Cadillac", "Anchorage", "2026-08-16", "6p-", ""),
   ev("Industry Night w/ Joe Brady 1", "Pioneer Bar", "Anchorage", "2026-08-16", "", ""),
-  ev("Open Jam with Blast From The Past 8:3", "Time Out Lounge", "Anchorage", "2026-08-16", "", ""),
+  ev("Open Jam with Blast From The Past", "Time Out Lounge", "Anchorage", "2026-08-16", "", ""),
   ev("Hmong Harvest Festival 1", "Sullivan Arena Football Stadium", "Anchorage", "2026-08-16", "", "", "festival"),
-  ev("Open Mic Night 8p-", "Van’s Dive Bar", "Anchorage", "2026-08-16", "", ""),
-  ev("Bachata Dance Patterns 8:3", "Alaska Dance Promotions", "Anchorage", "2026-08-16", "", "", "dance"),
-  ev("Weekly Jazz Jam 6:3", "Fire Island Bakery @ K Street Market", "Anchorage", "2026-08-16", "", ""),
+  ev("Open Mic Night", "Van’s Dive Bar", "Anchorage", "2026-08-16", "8p-", ""),
+  ev("Bachata Dance Patterns", "Alaska Dance Promotions", "Anchorage", "2026-08-16", "", "", "dance"),
+  ev("Weekly Jazz Jam", "Fire Island Bakery @ K Street Market", "Anchorage", "2026-08-16", "", ""),
   ev("Open Mic & Jam", "VFW Post 1685", "Anchorage", "2026-08-16", "4:30p-8:30p", ""),
   ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-16", "5p-7p", ""),
   ev("Learn to Square Dance", "Anchorage Social Dance Club", "Anchorage", "2026-08-16", "7p-9p", "", "dance"),
@@ -6353,7 +6353,7 @@ export const events: AKEvent[] = [
   ev("Sunday Deck Open Jam", "Malemute Saloon & Gold Camp", "Ester", "2026-08-16", "2p-5p", ""),
 
   // ═══ FAIRBANKS — Sunday August 16th ═══
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-16", "", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-16", "", ""),
   ev("Karaoke", "The Marlin", "Fairbanks", "2026-08-16", "9p-?", ""),
 
   // ═══ GIRDWOOD — Sunday August 16th ═══
@@ -6398,7 +6398,7 @@ export const events: AKEvent[] = [
   ev("Karaoke Mondays", "Odd Man Rush", "Eagle River", "2026-08-17", "6p-9p", ""),
 
   // ═══ FAIRBANKS — Monday August 17th ═══
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-17", "", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-17", "", ""),
   ev("Gazebo Nights Concert Series: Alaska Wompus Cats", "4 Pioneer Park", "Fairbanks", "2026-08-17", "6p-7p", ""),
 
   // ═══ JUNEAU — Monday August 17th ═══
@@ -6418,18 +6418,18 @@ export const events: AKEvent[] = [
   ev("Karaoke", "Fairview Inn", "Talkeetna", "2026-08-17", "9p-1a", ""),
 
   // ═══ ANCHORAGE — Tuesday August 18th ═══
-  ev("Lunch on the Lawn: Live Music w/ Uncle Jim 11:3", "Anchorage Museum", "Anchorage", "2026-08-18", "", ""),
-  ev("Two Step Tuesday w/ DJ Lele Beats 9p-", "Blarney Stone", "Anchorage", "2026-08-18", "", "", "dance"),
-  ev("AK Rockstar Karaoke 8p-", "The Carousel Lounge", "Anchorage", "2026-08-18", "", ""),
-  ev("Rope Dart Lessons w/ Jerrill 8:3", "Oriental Healing Arts Center", "Anchorage", "2026-08-18", "", ""),
+  ev("Lunch on the Lawn: Live Music w/ Uncle Jim", "Anchorage Museum", "Anchorage", "2026-08-18", "11:30a-1:30p", ""),
+  ev("Two Step Tuesday w/ DJ Lele Beats", "Blarney Stone", "Anchorage", "2026-08-18", "9p-", "", "dance"),
+  ev("AK Rockstar Karaoke", "The Carousel Lounge", "Anchorage", "2026-08-18", "8p-", ""),
+  ev("Rope Dart Lessons w/ Jerrill", "Oriental Healing Arts Center", "Anchorage", "2026-08-18", "", ""),
   ev("College Night 1", "Pink Cadillac", "Anchorage", "2026-08-18", "", ""),
   ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-18", "5p-7p", ""),
   ev("Family Storytime", "Mountain View Public Library", "Anchorage", "2026-08-18", "6p-6:3", "", "community"),
   ev("Irish Music & Dancing", "Organic Oasis", "Anchorage", "2026-08-18", "6p-8p", ""),
 
   // ═══ FAIRBANKS — Tuesday August 18th ═══
-  ev("Karaoke Night 7p-", "The Cabin", "Fairbanks", "2026-08-18", "", ""),
-  ev("Golden Heart Revue 8:1", "8 The Palace Theater", "Fairbanks", "2026-08-18", "", ""),
+  ev("Karaoke Night", "The Cabin", "Fairbanks", "2026-08-18", "7p-", ""),
+  ev("Golden Heart Revue", "8 The Palace Theater", "Fairbanks", "2026-08-18", "", ""),
 
   // ═══ HOMER — Tuesday August 18th ═══
   ev("Storytime at the Pratt: Berry Season", "Pratt Museum", "Homer", "2026-08-18", "10:30a-11:30a", "", "community"),
@@ -6462,14 +6462,14 @@ export const events: AKEvent[] = [
   ev("Karaoke Night", "Schwabenhof", "Wasilla", "2026-08-18", "8p-11p", ""),
 
   // ═══ ANCHORAGE — Wednesday August 19th ═══
-  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-19", "", ""),
-  ev("Free Community Storytime 10:3", "Alaska Zoo", "Anchorage", "2026-08-19", "", "", "community"),
-  ev("International Folk Dancing 6:3", "Anchorage Social Dance Club", "Anchorage", "2026-08-19", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-19", "5p-", ""),
+  ev("Free Community Storytime", "Alaska Zoo", "Anchorage", "2026-08-19", "", "", "community"),
+  ev("International Folk Dancing", "Anchorage Social Dance Club", "Anchorage", "2026-08-19", "", ""),
   ev("AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1", "The Carousel Lounge", "Anchorage", "2026-08-19", "", "", "comedy"),
-  ev("Line Dance Wednesdays 7p-", "Pink Cadillac", "Anchorage", "2026-08-19", "", "", "dance"),
+  ev("Line Dance Wednesdays", "Pink Cadillac", "Anchorage", "2026-08-19", "7p-", "", "dance"),
   ev("The Eternal Cowboys 1", "Pioneer Bar", "Anchorage", "2026-08-19", "", ""),
-  ev("Karaoke 9p-", "0p-1aVan’s Dive Bar", "Anchorage", "2026-08-19", "", ""),
-  ev("Live Music at Crimson w/ The Whisper Campaign 6:3", "Wildbirch Hotel", "Anchorage", "2026-08-19", "", ""),
+  ev("Karaoke", "0p-1aVan’s Dive Bar", "Anchorage", "2026-08-19", "9p-", ""),
+  ev("Live Music at Crimson w/ The Whisper Campaign", "Wildbirch Hotel", "Anchorage", "2026-08-19", "", ""),
   ev("Koots Karaoke", "Koot’s", "Anchorage", "2026-08-19", "10p-2a", ""),
   ev("Public Assistance Resource Fair", "Loussac Luibrary", "Anchorage", "2026-08-19", "3p-5p", "", "festival"),
   ev("Karaoke 9p-12aManhattan’s Restaurant & Lounge - Seth Malone", "Mad Myrna’s", "Anchorage", "2026-08-19", "6p-9p", ""),
@@ -6485,37 +6485,37 @@ export const events: AKEvent[] = [
   ev("Open Mic Night", "Susitna Brewing", "Big Lake", "2026-08-19", "6p-9p", ""),
 
   // ═══ COOPER LANDING — Wednesday August 19th ═══
-  ev("Black Barrel & The Bad Men 6:3", "Cooper Landing Brewing", "Cooper Landing", "2026-08-19", "", ""),
+  ev("Black Barrel & The Bad Men", "Cooper Landing Brewing", "Cooper Landing", "2026-08-19", "", ""),
 
   // ═══ EAGLE RIVER — Wednesday August 19th ═══
   ev("Karaoke Night w/ KJ Smoke", "Homestead Lounge", "Eagle River", "2026-08-19", "8p-12a", ""),
 
   // ═══ ESTER — Wednesday August 19th ═══
-  ev("Deja Vu, Old Timey Music 7:3", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "", ""),
+  ev("Deja Vu, Old Timey Music", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "", ""),
   ev("Sunday Deck Open Jam", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "2p-5p", ""),
   ev("Wednesday Dance Practice", "Fairbanks Tango", "Ester", "2026-08-19", "6p-9p", "", "dance"),
   ev("Tara Starlight & The Forest That Never Sleeps", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "7p-11p", ""),
 
   // ═══ FAIRBANKS — Wednesday August 19th ═══
-  ev("After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends 7:3", "Hoodoo Brewing", "Fairbanks", "2026-08-19", "", ""),
-  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-19", "", ""),
-  ev("Ride Bikes, Drink Beer 6:3", "Girdwood Brewing Company", "Fairbanks", "2026-08-19", "", ""),
+  ev("After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends", "Hoodoo Brewing", "Fairbanks", "2026-08-19", "", ""),
+  ev("Golden Heart Revue", "The Palace Theater", "Fairbanks", "2026-08-19", "", ""),
+  ev("Ride Bikes, Drink Beer", "Girdwood Brewing Company", "Fairbanks", "2026-08-19", "", ""),
   ev("Blueberry Festival 1", "Alyeska Resort", "Fairbanks", "2026-08-19", "", "", "festival"),
-  ev("Open Mic Night 9p-", "4 Pioneer Bar", "Fairbanks", "2026-08-19", "", ""),
+  ev("Open Mic Night", "4 Pioneer Bar", "Fairbanks", "2026-08-19", "9p-", ""),
   ev("Halo w/ Posterchild, Lloyd Van Ham, & Monir", "Raw Market", "Fairbanks", "2026-08-19", "6p-?", ""),
   ev("Karaoke Night with Rocky!", "The Spur", "Fairbanks", "2026-08-19", "8p-11p", ""),
   ev("Karaoke Night", "5 Pioneer Bar", "Fairbanks", "2026-08-19", "9p-1a", ""),
 
   // ═══ HOMER — Wednesday August 19th ═══
-  ev("Community Jam Sessions 6:3", "Homer Council on the Arts", "Homer", "2026-08-19", "", "", "community"),
-  ev("Sense And Sensibility 7:3", "Pier One Theater", "Homer", "2026-08-19", "", ""),
+  ev("Community Jam Sessions", "Homer Council on the Arts", "Homer", "2026-08-19", "", "", "community"),
+  ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-19", "", ""),
   ev("Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails. 1", "Pratt Museum", "Homer", "2026-08-19", "", ""),
-  ev("Backyard Summer Concert Series & Music Festival 8:3", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", "", "festival"),
+  ev("Backyard Summer Concert Series & Music Festival", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", "", "festival"),
   ev("Red Marker Resistance 1", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "", ""),
   ev("Lost Rockets 1", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "", ""),
-  ev("All Ages Show w/ The Pudgies, DSB, Ophelia 7:3", "Porcupine Theater", "Homer", "2026-08-19", "", ""),
-  ev("Taco Tuesday's with Jim Maloney 6:3", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", ""),
-  ev("Storytime at the Pratt: Berry Season 10:3", "Pratt Museum", "Homer", "2026-08-19", "", "", "community"),
+  ev("All Ages Show w/ The Pudgies, DSB, Ophelia", "Porcupine Theater", "Homer", "2026-08-19", "", ""),
+  ev("Taco Tuesday's with Jim Maloney", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", ""),
+  ev("Storytime at the Pratt: Berry Season", "Pratt Museum", "Homer", "2026-08-19", "", "", "community"),
   ev("Backyard Summer Concert Series & Music Festival", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "1p-1:30a", "", "festival"),
   ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-19", "3p-5p", ""),
   ev("Chris Needham", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "5p-7p", ""),
@@ -6533,9 +6533,9 @@ export const events: AKEvent[] = [
   ev("Karaoke w/ Al Boogie 8p-? 8/1", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
   ev("Treadwell Trax 1", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
   ev("RawBeats w/ Astronomar & Friends 9p-? 8/1", "Alaskan Hotel and Bar", "Juneau", "2026-08-19", "", ""),
-  ev("Jazz Jam Tuesday 8p-", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
-  ev("Karaoke 8p-", "Alaskan Hotel and Bar", "Juneau", "2026-08-19", "", ""),
-  ev("Vinyl Afternoon's w/ Dj Roman Martinez 5p-", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
+  ev("Jazz Jam Tuesday", "The Crystal Saloon", "Juneau", "2026-08-19", "8p-", ""),
+  ev("Karaoke", "Alaskan Hotel and Bar", "Juneau", "2026-08-19", "8p-", ""),
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez", "The Crystal Saloon", "Juneau", "2026-08-19", "5p-", ""),
   ev("Behind the Blinds: A Speakeasy Anniversary Party", "Best Window Blinds", "Juneau", "2026-08-19", "2p-6p", ""),
   ev("Cousin Curtiss & Harrison B", "The Crystal Saloon", "Juneau", "2026-08-19", "8p-?", ""),
   ev("Open Mic Night", "The Crystal Saloon", "Juneau", "2026-08-19", "8p-11:30p", ""),
@@ -6546,11 +6546,11 @@ export const events: AKEvent[] = [
   ev("Snacks At Midnight w/ The Pit ViperZ", "Skeet’s Dive Bar", "Kenai", "2026-08-19", "9p-?", ""),
 
   // ═══ KETCHIKAN — Wednesday August 19th ═══
-  ev("Ketchikan Arts & Humanities Council: Arts Report 8:2", "5.3 FM KRBD", "Ketchikan", "2026-08-19", "", ""),
+  ev("Ketchikan Arts & Humanities Council: Arts Report", "5.3 FM KRBD", "Ketchikan", "2026-08-19", "", ""),
   ev("Music on the Dock: DJ DJ Archieologic 1", "Ketchikan Dock", "Ketchikan", "2026-08-19", "", ""),
   ev("Virgin Voyages: Brilliant Lady Land Party 1", "Arctic Bar", "Ketchikan", "2026-08-19", "", ""),
-  ev("Mud on the Moon Book Launch 6:3", "Ketchikan Public Library", "Ketchikan", "2026-08-19", "", ""),
-  ev("The Ukulele Group 3:4", "Inn at Creek Street", "Ketchikan", "2026-08-19", "", ""),
+  ev("Mud on the Moon Book Launch", "Ketchikan Public Library", "Ketchikan", "2026-08-19", "", ""),
+  ev("The Ukulele Group", "Inn at Creek Street", "Ketchikan", "2026-08-19", "", ""),
   ev("Summer Saturdays at the Museum", "Tongass Historical Museum", "Ketchikan", "2026-08-19", "1p-3p", ""),
   ev("Live Music with Sarah Short", "Bush Pilots’ Lounge", "Ketchikan", "2026-08-19", "6p-8p", ""),
   ev("Open Mic Night", "Hole in the Wall", "Ketchikan", "2026-08-19", "6p-8p", ""),
@@ -6565,12 +6565,12 @@ export const events: AKEvent[] = [
 
   // ═══ NORTH POLE — Wednesday August 19th ═══
   ev("Retirement Home Takeover Party w/ DJ 4", "North Pole Alehouse", "North Pole", "2026-08-19", "", ""),
-  ev("Tuesday Pub Run w/ Tundra Trotters 6:1", "North Pole Alehouse", "North Pole", "2026-08-19", "", "", "community"),
+  ev("Tuesday Pub Run w/ Tundra Trotters", "North Pole Alehouse", "North Pole", "2026-08-19", "", "", "community"),
   ev("Karaoke Thursdays with Rocky Barnette", "North Pole Alehouse", "North Pole", "2026-08-19", "8p-12a", ""),
 
   // ═══ PALMER — Wednesday August 19th ═══
   ev("Friday Fling Live Music Solo Steve 1", "Downtown Palmer", "Palmer", "2026-08-19", "", ""),
-  ev("West Coast Sing Wednesday 7:3", "Four Corner’s Lounge", "Palmer", "2026-08-19", "", ""),
+  ev("West Coast Sing Wednesday", "Four Corner’s Lounge", "Palmer", "2026-08-19", "", ""),
   ev("Collin Donley", "Hatcher Pass Lodge", "Palmer", "2026-08-19", "4p-7p", ""),
   ev("Open Mic Night w/ Drew Sablon", "Fishhook Bar & Grill", "Palmer", "2026-08-19", "6p-9p", ""),
   ev("Black Barrel and the Bad Men", "Palmer Alehouse", "Palmer", "2026-08-19", "7p-10p", ""),
@@ -6584,7 +6584,7 @@ export const events: AKEvent[] = [
   ev("Live Music w/ Jim Maloney", "Linwood Bar & Grill", "Seldovia", "2026-08-19", "", ""),
 
   // ═══ SEWARD — Wednesday August 19th ═══
-  ev("Live Music w/ The Jephries ft. Luv Guvna 6:3", "Flamingo Lounge", "Seward", "2026-08-19", "", ""),
+  ev("Live Music w/ The Jephries ft. Luv Guvna", "Flamingo Lounge", "Seward", "2026-08-19", "", ""),
   ev("Seward Strings", "Seward Senior Center", "Seward", "2026-08-19", "1p-4p", ""),
   ev("Open Mic Night with Braden", "Yukon Bar", "Seward", "2026-08-19", "8p-2a", ""),
   ev("Karaoke", "Yukon Bar", "Seward", "2026-08-19", "9p-1a", ""),
@@ -6599,26 +6599,26 @@ export const events: AKEvent[] = [
   ev("Sitka Conservation Society Wilderness Cruise", "Crescent Harbor", "Sitka", "2026-08-19", "5p-8p", ""),
 
   // ═══ SKAGWAY — Wednesday August 19th ═══
-  ev("Skagway Idol 7:3", "Skagway Brewing", "Skagway", "2026-08-19", "", ""),
-  ev("Read with a Ranger Story Time 10:3", "Skagway Library", "Skagway", "2026-08-19", "", "", "community"),
+  ev("Skagway Idol", "Skagway Brewing", "Skagway", "2026-08-19", "", ""),
+  ev("Read with a Ranger Story Time", "Skagway Library", "Skagway", "2026-08-19", "", "", "community"),
   ev("Music Time", "Skagway Library", "Skagway", "2026-08-19", "3p-5p", ""),
 
   // ═══ SOLDOTNA — Wednesday August 19th ═══
-  ev("Preschool Storytime 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
-  ev("The Killer Comedy Show Ft. Sabrina Speers 8:3", "The Orca Theater", "Soldotna", "2026-08-19", "", "", "comedy"),
-  ev("Toddler Story Time 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
-  ev("Bouncing Babes Story Time 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("Preschool Storytime", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("The Killer Comedy Show Ft. Sabrina Speers", "The Orca Theater", "Soldotna", "2026-08-19", "", "", "comedy"),
+  ev("Toddler Story Time", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("Bouncing Babes Story Time", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
   ev("Friends of Mike Morgan Song Circle", "The Goods", "Soldotna", "2026-08-19", "5p-7p", ""),
   ev("Karaoke w/ Edencraft", "The Goods", "Soldotna", "2026-08-19", "5p-8p", ""),
   ev("Levitt Amp Music Series: Kenny Smith & The Old Wolves w/ The Copper River Band", "Soldotna Creek Park", "Soldotna", "2026-08-19", "6p-9p", ""),
 
   // ═══ STERLING — Wednesday August 19th ═══
-  ev("Taste of Aloha! A Traditional Hawaiian Luau 5:3", "Lakeside Falls", "Sterling", "2026-08-19", "", "", "festival"),
+  ev("Taste of Aloha! A Traditional Hawaiian Luau", "Lakeside Falls", "Sterling", "2026-08-19", "", "", "festival"),
   ev("Tune Weavers", "Naptowne Brewing Company", "Sterling", "2026-08-19", "4p-8p", ""),
   ev("Brandon Kellum", "Naptowne Brewing Company", "Sterling", "2026-08-19", "6p-9p", ""),
 
   // ═══ TALKEETNA — Wednesday August 19th ═══
-  ev("Blackwater Railroad Co. 5:3", "Denali Brewing Company", "Talkeetna", "2026-08-19", "", ""),
+  ev("Blackwater Railroad Co.", "Denali Brewing Company", "Talkeetna", "2026-08-19", "", ""),
   ev("Trapper Creek Bluegrass Revival", "Boots Bison Ranch", "Talkeetna", "2026-08-19", "", ""),
   ev("Steve Durr", "Mountain High Pizza Pie", "Talkeetna", "2026-08-19", "1p-2:3", ""),
   ev("Salmon Run Art Auction Fundraiser", "Sheldon Community Arts Hangar", "Talkeetna", "2026-08-19", "3p-5p", "", "community"),
@@ -6634,7 +6634,7 @@ export const events: AKEvent[] = [
   ev("Live Music with Monster on the Mountain", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-19", "", ""),
   ev("Live Music w/ Pam Santoro", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-19", "", ""),
   ev("Storytime at Ken’s 1", "Ken’s Garden Center", "Wasilla", "2026-08-19", "", "", "community"),
-  ev("Open Mic 7:3", "Schwabenhof", "Wasilla", "2026-08-19", "", ""),
+  ev("Open Mic", "Schwabenhof", "Wasilla", "2026-08-19", "", ""),
   ev("Sign Language Classes", "Black Birch Books", "Wasilla", "2026-08-19", "5p-6p", "", "community"),
   ev("Storytelling Night: Shared Scars", "Black Birch Books", "Wasilla", "2026-08-19", "5p-7p", ""),
   ev("Collin Donley Live", "Settler’s Bay Lodge", "Wasilla", "2026-08-19", "6p-?", ""),

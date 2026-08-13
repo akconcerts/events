@@ -96,15 +96,37 @@ async function run() {
   const uniqueEvents = [];
 
   for (const ev of allEvents) {
-    const key = `${ev.title.toLowerCase().trim()}|${ev.venue.toLowerCase().trim()}|${ev.city.toLowerCase().trim()}|${ev.date}`;
+    let title = (ev.title || '').trim();
+    let time = (ev.time || '').trim();
+    let venue = (ev.venue || '').trim();
+
+    // Clean range/single time fragment from title
+    const rangeMatch = title.match(/\s+(\d{1,2}(?::\d{2})?\s*(?:a|p|am|pm)?\s*[\u2013\u2014\-]\s*(?:\d{1,2}(?::\d{2})?\s*(?:a|p|am|pm)?|\?|Close)?)\s*$/i);
+    if (rangeMatch) {
+      const extracted = rangeMatch[1].trim();
+      title = title.slice(0, rangeMatch.index).trim();
+      if (!time || time === 'TBD' || time === 'TBA' || time === '?') {
+        time = extracted;
+      }
+    }
+    const singleMatch = title.match(/\s+(\d{1,2}(?::\d{2})?\s*(?:a|p|am|pm|\d{0,2}))\s*$/i);
+    if (singleMatch && (title.includes('Lunch on the Lawn') || title.match(/\s+\d{1,2}:\d{0,2}$/))) {
+      title = title.slice(0, singleMatch.index).trim();
+    }
+    title = title.replace(/\s+[\u2013\u2014\-:]\s*$/, '').trim();
+
+    // Clean venue
+    venue = venue.replace(/\s+\d{1,2}(?::\d{2})?\s*(?:a|p|am|pm)?\s*[\u2013\u2014\-]?\s*$/i, '').trim();
+
+    const key = `${title.toLowerCase()}|${venue.toLowerCase()}|${ev.city.toLowerCase().trim()}|${ev.date}`;
     if (!seen.has(key)) {
       seen.add(key);
       uniqueEvents.push({
-        title: ev.title,
-        venue: ev.venue,
+        title: title,
+        venue: venue,
         city: ev.city,
         date: ev.date,
-        time: ev.time || 'TBD',
+        time: time || 'TBD',
         ticketUrl: ev.ticketurl || ev.ticketUrl || '',
         category: ev.category || 'music',
         cost: ev.cost || ''

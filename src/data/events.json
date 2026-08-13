@@ -361,7 +361,7 @@
   },
   {
     "title": "Acoustic Steak Night w/ Uncle Jim, The East-Side Balladeer",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2019-11-15",
     "time": "6p-9p",
@@ -1221,7 +1221,7 @@
   },
   {
     "title": "Tuesday Open Mic at Post 28",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2019-11-19",
     "time": "6:30p-9:30p",
@@ -1451,7 +1451,7 @@
   },
   {
     "title": "Acoustic Steak Night w/ Jason Ott",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2020-06-26",
     "time": "6p-8p",
@@ -1590,7 +1590,7 @@
     "cost": ""
   },
   {
-    "title": "Summer Song Battles: Leaps and Bounds Music & John Shewfelt Jr 7p",
+    "title": "Summer Song Battles: Leaps and Bounds Music & John Shewfelt Jr",
     "venue": "International Hotel and Bar (Fairbanks)",
     "city": "Anchorage",
     "date": "2020-06-26",
@@ -1602,6 +1602,16 @@
   {
     "title": "Ukulele Russ & His One Man Frontier Band",
     "venue": "Yukon Bar (Seward)",
+    "city": "Anchorage",
+    "date": "2020-06-26",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Summer Song Battles: Leaps and Bounds Music & John Shewfelt Jr 7p",
+    "venue": "International Hotel and Bar (Fairbanks)",
     "city": "Anchorage",
     "date": "2020-06-26",
     "time": "9p-1a",
@@ -1891,7 +1901,7 @@
   },
   {
     "title": "Bonus Jam Night at Post 28!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2020-06-30",
     "time": "6p-8p",
@@ -2310,6 +2320,16 @@
     "cost": ""
   },
   {
+    "title": "Playhouse Live Comedy & Music",
+    "venue": "The Schwabenhof (Wasilla)",
+    "city": "Anchorage",
+    "date": "2020-10-23",
+    "time": "30p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
     "title": "Playhouse Live Comedy & Music 7:",
     "venue": "The Schwabenhof (Wasilla)",
     "city": "Anchorage",
@@ -2360,7 +2380,7 @@
     "cost": ""
   },
   {
-    "title": "Sinister Suites 6p-6:30p, 6:45p-7:17p, 7:30p-8p",
+    "title": "Sinister Suites 6p-6:30p, 6:45p-7:17p,",
     "venue": "The Drift Gallery Dance Studio",
     "city": "Anchorage",
     "date": "2020-10-23",
@@ -2490,7 +2510,7 @@
     "cost": ""
   },
   {
-    "title": "Sinister Suites 5p-5:30p, 5:45p-6:15p. 6:30p-7p",
+    "title": "Sinister Suites 5p-5:30p, 5:45p-6:15p.",
     "venue": "The Drift Gallery Dance Studio",
     "city": "Anchorage",
     "date": "2020-10-25",
@@ -2551,7 +2571,7 @@
   },
   {
     "title": "Acoustic Song Circle and Open non-Mic 6:30p–9:",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2020-10-27",
     "time": "30p",
@@ -2587,6 +2607,16 @@
     "time": "10:30a-11a",
     "ticketUrl": "",
     "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic, Every Wednesday!",
+    "venue": "The Schwabenhof (Wasilla)",
+    "city": "Anchorage",
+    "date": "2020-10-28",
+    "time": "30p",
+    "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
@@ -2655,6 +2685,16 @@
     "city": "Anchorage",
     "date": "2020-11-25",
     "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic, Every Wednesday!",
+    "venue": "The Schwabenhof (Wasilla)",
+    "city": "Anchorage",
+    "date": "2020-11-25",
+    "time": "30p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -3010,6 +3050,16 @@
     "cost": ""
   },
   {
+    "title": "Open Mic, Every Wednesday!",
+    "venue": "The Schwabenhof (Wasilla)",
+    "city": "Anchorage",
+    "date": "2020-12-02",
+    "time": "30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Open Mic, Every Wednesday! 7:",
     "venue": "The Schwabenhof (Wasilla)",
     "city": "Anchorage",
@@ -3311,7 +3361,7 @@
   },
   {
     "title": "Friday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-01-29",
     "time": "8p-11p",
@@ -3431,7 +3481,7 @@
   },
   {
     "title": "Saturday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-01-30",
     "time": "8p-11p",
@@ -3571,7 +3621,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-02-01",
     "time": "8p-10p",
@@ -3801,7 +3851,7 @@
   },
   {
     "title": "Friday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-02-26",
     "time": "8p-11p",
@@ -3881,7 +3931,7 @@
   },
   {
     "title": "Saturday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-02-27",
     "time": "8p-11p",
@@ -3951,7 +4001,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-03-01",
     "time": "8p-10p",
@@ -4041,7 +4091,7 @@
   },
   {
     "title": "Acoustic Song Circle with WAH Music",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-04-13",
     "time": "6:30p-9p",
@@ -4281,7 +4331,7 @@
   },
   {
     "title": "Friday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-05-07",
     "time": "9p-1a",
@@ -4321,7 +4371,7 @@
   },
   {
     "title": "Saturday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-05-08",
     "time": "10p-12a",
@@ -4461,7 +4511,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-05-10",
     "time": "8p-10p",
@@ -4481,7 +4531,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic with WAH Music",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-05-11",
     "time": "6:30p-9p",
@@ -4821,7 +4871,7 @@
   },
   {
     "title": "Friday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-06-18",
     "time": "9p-1a",
@@ -5071,7 +5121,7 @@
   },
   {
     "title": "Saturday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-06-19",
     "time": "9p-12a",
@@ -5241,7 +5291,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-06-21",
     "time": "7p-10p",
@@ -5321,7 +5371,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-06-22",
     "time": "6:30p-9:30p",
@@ -6001,7 +6051,7 @@
   },
   {
     "title": "Friday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-10-15",
     "time": "9p-12a",
@@ -6161,7 +6211,7 @@
   },
   {
     "title": "Saturday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-10-16",
     "time": "9p-12a",
@@ -6261,7 +6311,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-10-18",
     "time": "8p-11p",
@@ -6311,7 +6361,7 @@
   },
   {
     "title": "Open Mic at Post 28!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-10-19",
     "time": "6:30p-9:30p",
@@ -6581,7 +6631,7 @@
   },
   {
     "title": "Acoustic Steak Night with MusiCal",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-11-26",
     "time": "6p-8p",
@@ -6691,7 +6741,7 @@
   },
   {
     "title": "Friday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-11-26",
     "time": "9p-12a",
@@ -6851,7 +6901,7 @@
   },
   {
     "title": "Saturday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-11-27",
     "time": "9p-12a",
@@ -6991,7 +7041,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-11-29",
     "time": "8p-11p",
@@ -7031,7 +7081,7 @@
   },
   {
     "title": "Acoustic Song Circle",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-11-30",
     "time": "6:30p-9:30p",
@@ -7461,7 +7511,7 @@
   },
   {
     "title": "Saturday Night Karaoke!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-12-04",
     "time": "9p-12a",
@@ -7611,7 +7661,7 @@
   },
   {
     "title": "Monday Night Karaoke",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-12-06",
     "time": "8p-11p",
@@ -7651,7 +7701,7 @@
   },
   {
     "title": "Tuesday Open Mic at Post 28!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2021-12-07",
     "time": "6:30p-9:30p",
@@ -8281,7 +8331,7 @@
   },
   {
     "title": "Acoustic Steak Night with Uncle Jim, the EastSide Balladeer!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2022-05-27",
     "time": "6p-8p",
@@ -8921,7 +8971,7 @@
   },
   {
     "title": "Unplugged-Acoustic Song Circle",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2022-05-31",
     "time": "6:30p-9:30p",
@@ -9521,7 +9571,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic w/Rousted By Bulls!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2022-06-14",
     "time": "6:30p-9:30p",
@@ -9831,10 +9881,20 @@
   },
   {
     "title": "Taco Tuesday Open Mic w/Gary Stedman!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2022-08-16",
     "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic w/ Andy Mullen",
+    "venue": "Fairview Inn (Talkeetna)",
+    "city": "Anchorage",
+    "date": "2022-08-16",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -9895,16 +9955,6 @@
     "city": "Anchorage",
     "date": "2022-08-16",
     "time": "9p-1a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Open Mic w/ Andy Mullen 7p-",
-    "venue": "Fairview Inn (Talkeetna)",
-    "city": "Anchorage",
-    "date": "2022-08-16",
-    "time": "TBD",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -10491,7 +10541,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic w/Uncle Jim!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2022-10-04",
     "time": "6:30p-9:30p",
@@ -10685,6 +10735,16 @@
     "city": "Anchorage",
     "date": "2022-10-05",
     "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Lil Babe’s Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2023-01-26",
+    "time": "12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -10971,7 +11031,7 @@
   },
   {
     "title": "Acoustic Steak Night with Bill \"Woody\" Reeves!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2023-01-27",
     "time": "6p-8p",
@@ -10981,7 +11041,7 @@
   },
   {
     "title": "Acoustic Steak Night with Bill Woody Reeves!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2023-01-27",
     "time": "6p-8p",
@@ -11841,7 +11901,7 @@
   },
   {
     "title": "Acoustic Song Circle",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2023-01-31",
     "time": "6:30p-9:30p",
@@ -11935,6 +11995,16 @@
     "city": "Anchorage",
     "date": "2023-02-01",
     "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Lil Babe’s Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2023-02-01",
+    "time": "12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -12100,6 +12170,16 @@
     "cost": ""
   },
   {
+    "title": "Open Mic",
+    "venue": "Lil Babe’s Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2023-03-29",
+    "time": "12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Open Mic 8pm",
     "venue": "Lil Babe’s Cocktail Lounge",
     "city": "Anchorage",
@@ -12255,6 +12335,16 @@
     "city": "Anchorage",
     "date": "2023-03-29",
     "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Lil Babe’s Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2023-03-30",
+    "time": "12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -12531,7 +12621,7 @@
   },
   {
     "title": "Acoustic Steak Night with Travis Watson & Friends!",
-    "venue": "American Legion Post 28",
+    "venue": "American Legion Post",
     "city": "Anchorage",
     "date": "2023-03-31",
     "time": "6p-9p",
@@ -13201,7 +13291,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic w/Uncle Jim!",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2023-04-04",
     "time": "6:30p-9:30p",
@@ -13265,6 +13355,16 @@
     "city": "Anchorage",
     "date": "2023-04-04",
     "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Lil Babe’s Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2023-04-05",
+    "time": "12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -13445,6 +13545,16 @@
     "city": "Anchorage",
     "date": "2023-06-03",
     "time": "4p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KidStock AK",
+    "venue": "Alaska State Fairgrounds (Palmer)",
+    "city": "Anchorage",
+    "date": "2023-06-03",
+    "time": "5p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -13911,7 +14021,7 @@
   },
   {
     "title": "Taco Tuesday Open Mic Night",
-    "venue": "American Legion Post 28",
+    "venue": "American Legion Post",
     "city": "Anchorage",
     "date": "2023-06-06",
     "time": "6:30p-9:30p",
@@ -14881,7 +14991,7 @@
   },
   {
     "title": "Alaska Fest",
-    "venue": "American Legion Post 28",
+    "venue": "American Legion Post",
     "city": "Anchorage",
     "date": "2023-07-22",
     "time": "12p-2a",
@@ -15371,7 +15481,7 @@
   },
   {
     "title": "Band Jam Night w/ Jimbo",
-    "venue": "American Legion Post 28",
+    "venue": "American Legion Post",
     "city": "Anchorage",
     "date": "2023-07-25",
     "time": "6:30p-9:30p",
@@ -16555,6 +16665,16 @@
     "city": "Anchorage",
     "date": "2023-12-01",
     "time": "9p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Jangle Bees Live",
+    "venue": "Matanuska Brewing Midtown",
+    "city": "Anchorage",
+    "date": "2023-12-02",
+    "time": "12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -17891,7 +18011,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-04-19",
     "time": "7p-11p",
@@ -18311,7 +18431,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-04-20",
     "time": "7p-11p",
@@ -18941,7 +19061,7 @@
   },
   {
     "title": "The VIntage Retro",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2024-06-13",
     "time": "10:30p-1a",
@@ -19231,7 +19351,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-06-14",
     "time": "7p-11p",
@@ -19451,7 +19571,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-06-15",
     "time": "7p-11p",
@@ -20211,7 +20331,7 @@
   },
   {
     "title": "Rick Brooks",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2024-07-11",
     "time": "10:30p-1a",
@@ -20481,7 +20601,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-07-12",
     "time": "7p-11p",
@@ -20601,7 +20721,7 @@
   },
   {
     "title": "Woofstock 2024",
-    "venue": "American Legion Spenard Post 28",
+    "venue": "American Legion Spenard Post",
     "city": "Anchorage",
     "date": "2024-07-13",
     "time": "2p-9p",
@@ -20891,7 +21011,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-07-13",
     "time": "7p-11p",
@@ -20901,7 +21021,7 @@
   },
   {
     "title": "Free Dance Lessons with Shufflin' Country Style",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-07-13",
     "time": "7p-8p",
@@ -21581,7 +21701,7 @@
   },
   {
     "title": "Ukulele Russ",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2024-08-22",
     "time": "10:30p-12a",
@@ -21841,7 +21961,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-08-23",
     "time": "7p-11p",
@@ -22061,7 +22181,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-08-24",
     "time": "7p-11p",
@@ -22961,7 +23081,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-09-13",
     "time": "7p-11p",
@@ -23361,7 +23481,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-09-14",
     "time": "7p-11p",
@@ -24041,7 +24161,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-10-04",
     "time": "7p-11p",
@@ -24221,7 +24341,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-10-05",
     "time": "7p-11p",
@@ -24231,7 +24351,7 @@
   },
   {
     "title": "Free Dance Lessons w/ Shufflin' Country Style",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-10-05",
     "time": "7p-8p",
@@ -24991,7 +25111,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-11-29",
     "time": "7p-11p",
@@ -25301,7 +25421,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2024-11-30",
     "time": "7p-11p",
@@ -26115,6 +26235,16 @@
     "city": "Eagle River",
     "date": "2024-12-15",
     "time": "2:30p-4p & 4:30p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "One World, One Sky: Big Bird's Adventure 1:30p &",
+    "venue": "Marie Drake Planetarium",
+    "city": "Eagle River",
+    "date": "2024-12-15",
+    "time": "30p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -27351,7 +27481,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2025-01-24",
     "time": "7p-11p",
@@ -27771,7 +27901,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2025-01-25",
     "time": "7p-11p",
@@ -29021,7 +29151,7 @@
   },
   {
     "title": "70’s Dance Party w/ The Vintage Retro",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2025-03-20",
     "time": "10:30p-1:30a",
@@ -29301,7 +29431,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2025-03-21",
     "time": "7p-11p",
@@ -29481,7 +29611,7 @@
   },
   {
     "title": "Karaoke Night with Matti Moosic!",
-    "venue": "American Legion Post 33",
+    "venue": "American Legion Post",
     "city": "Anchorage",
     "date": "2025-03-22",
     "time": "8p-12a",
@@ -29601,7 +29731,7 @@
   },
   {
     "title": "Dance Lessons with Shufflin’ Country Style & Karaoke After",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2025-03-22",
     "time": "7p-10p",
@@ -29621,7 +29751,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2025-03-22",
     "time": "7p-11p",
@@ -30931,7 +31061,7 @@
   },
   {
     "title": "Ukulele Russ & His One-Man Frontier Band",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Ester",
     "date": "2025-06-19",
     "time": "10p-1a",
@@ -31291,7 +31421,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Juneau",
     "date": "2025-06-20",
     "time": "7p-11p",
@@ -31711,7 +31841,7 @@
   },
   {
     "title": "Dance Lessons with Shufflin’ Country Style & Karaoke After",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Juneau",
     "date": "2025-06-21",
     "time": "7p-10p",
@@ -31731,7 +31861,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Juneau",
     "date": "2025-06-21",
     "time": "7p-11p",
@@ -31881,7 +32011,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Ester",
     "date": "2025-06-22",
     "time": "8p-12a",
@@ -32661,7 +32791,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Anchorage",
     "date": "2025-07-06",
     "time": "8p-12a",
@@ -33871,7 +34001,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2025-08-01",
     "time": "7p-11p",
@@ -34201,7 +34331,7 @@
   },
   {
     "title": "Dance Lessons with Shufflin’ Country Style & Karaoke After",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2025-08-02",
     "time": "7p-10p",
@@ -34221,7 +34351,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2025-08-02",
     "time": "7p-11p",
@@ -34541,7 +34671,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2025-08-03",
     "time": "8p-12a",
@@ -35431,7 +35561,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Big Lake",
     "date": "2025-10-12",
     "time": "8p-12a",
@@ -36251,7 +36381,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Haines",
     "date": "2025-11-07",
     "time": "7p-11p",
@@ -36521,7 +36651,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Haines",
     "date": "2025-11-08",
     "time": "7p-11p",
@@ -36691,7 +36821,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "Chair 5",
+    "venue": "Chair",
     "city": "Eagle River",
     "date": "2025-11-09",
     "time": "8p-12a",
@@ -38351,7 +38481,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2026-02-13",
     "time": "7p-11p",
@@ -39011,7 +39141,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Eagle River",
     "date": "2026-02-14",
     "time": "7p-11p",
@@ -39351,7 +39481,7 @@
   },
   {
     "title": "Miles Klehini Ski Classic",
-    "venue": "Mile 25",
+    "venue": "Mile",
     "city": "Eagle River",
     "date": "2026-02-15",
     "time": "12a-?",
@@ -39451,7 +39581,7 @@
   },
   {
     "title": "Sweet Cheeks Cabaret: Burlesque Basics Class w/ DeeDee S.Emme",
-    "venue": "Studio 49",
+    "venue": "Studio",
     "city": "Anchorage",
     "date": "2026-02-16",
     "time": "7p-8p",
@@ -40391,7 +40521,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Juneau",
     "date": "2026-03-13",
     "time": "7p-11p",
@@ -40471,7 +40601,7 @@
   },
   {
     "title": "Sweet Cheeks Cabaret: Burlesque Basics Class w/ DeeDee S.Emme",
-    "venue": "Studio 49",
+    "venue": "Studio",
     "city": "Anchorage",
     "date": "2026-03-14",
     "time": "11a-12p",
@@ -41051,7 +41181,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Juneau",
     "date": "2026-03-14",
     "time": "7p-11p",
@@ -41451,7 +41581,7 @@
   },
   {
     "title": "Sweet Cheeks Cabaret: Burlesque Basics Class w/ DeeDee S.Emme",
-    "venue": "Studio 49",
+    "venue": "Studio",
     "city": "Anchorage",
     "date": "2026-03-16",
     "time": "7p-8p",
@@ -42701,7 +42831,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-07-17",
     "time": "7p-11p",
@@ -43421,7 +43551,7 @@
   },
   {
     "title": "Two-Step and Country Swing Dance Lessons!",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-07-18",
     "time": "7p-8p",
@@ -43431,7 +43561,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-07-18",
     "time": "8p-11p",
@@ -44610,7 +44740,7 @@
     "cost": ""
   },
   {
-    "title": "The Metropolitan Opera: The Merry Window 1p-4",
+    "title": "The Metropolitan Opera: The Merry Window",
     "venue": "The Porcupine Theater",
     "city": "Homer",
     "date": "2026-07-22",
@@ -45351,7 +45481,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-07",
     "time": "7p-11p",
@@ -45761,7 +45891,7 @@
   },
   {
     "title": "Two-Step and Country Swing Dance Lessons!",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-08",
     "time": "7p-8p",
@@ -45771,7 +45901,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-08",
     "time": "8p-11p",
@@ -47020,6 +47150,16 @@
     "cost": ""
   },
   {
+    "title": "Garden Grooves: Music in the Beer Garden",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Open Mic Night w/ It's Just Dez",
     "venue": "Blarney Stone",
     "city": "Anchorage",
@@ -47035,6 +47175,26 @@
     "city": "Anchorage",
     "date": "2026-08-13",
     "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "7p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ladies Night at Pink Cadillac w/ DJ Rico",
+    "venue": "Pink Cadillac",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -47080,17 +47240,7 @@
     "cost": ""
   },
   {
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
-    "venue": "9th State Brewery",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Lunch on the Lawn: Live Music w/ Santoro 11:3",
+    "title": "Lunch on the Lawn: Live Music w/ Santoro",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
     "date": "2026-08-13",
@@ -47110,26 +47260,6 @@
     "cost": ""
   },
   {
-    "title": "Open Mic Night w/ It's Just Dez 6:4",
-    "venue": "Blarney Stone",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke 7p-",
-    "venue": "Broken Blender",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "title": "Comedy Open Mic 7p-10pKoot’s - Karaoke 1",
     "venue": "Koot’s",
     "city": "Anchorage",
@@ -47140,18 +47270,8 @@
     "cost": ""
   },
   {
-    "title": "Live & Local Music w/ Jared Woods 6:3",
+    "title": "Live & Local Music w/ Jared Woods",
     "venue": "The Peanut Farm",
-    "city": "Anchorage",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Ladies Night at Pink Cadillac w/ DJ Rico 7p-",
-    "venue": "Pink Cadillac",
     "city": "Anchorage",
     "date": "2026-08-13",
     "time": "TBD",
@@ -47162,6 +47282,26 @@
   {
     "title": "DJ Cross 1",
     "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ It's Just Dez 6:4",
+    "venue": "Blarney Stone",
+    "city": "Anchorage",
+    "date": "2026-08-13",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live & Local Music w/ Jared Woods 6:3",
+    "venue": "The Peanut Farm",
     "city": "Anchorage",
     "date": "2026-08-13",
     "time": "TBD",
@@ -47190,21 +47330,21 @@
     "cost": ""
   },
   {
-    "title": "Dance Lessons with Shufflin Country Style 8p-",
+    "title": "Dance Lessons with Shufflin Country Style",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-13",
-    "time": "TBD",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
   },
   {
-    "title": "Country Night w/ DJ AumanJoy 9p-",
+    "title": "Country Night w/ DJ AumanJoy",
     "venue": "3 Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-13",
-    "time": "TBD",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -47220,6 +47360,16 @@
     "cost": ""
   },
   {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-13",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Open Mic Night at the Marlin",
     "venue": "3 The Marlin",
     "city": "Fairbanks",
@@ -47230,8 +47380,8 @@
     "cost": ""
   },
   {
-    "title": "Karaoke with Angel 8p-",
-    "venue": "The International Hotel & Bar",
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
     "city": "Fairbanks",
     "date": "2026-08-13",
     "time": "TBD",
@@ -47310,41 +47460,41 @@
     "cost": ""
   },
   {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "3 The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "3 The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Pop-Up Cherioke",
     "venue": "4 Alaskan Hotel and Bar",
     "city": "Juneau",
     "date": "2026-08-13",
     "time": "9p-?",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Open Mic 9p-",
-    "venue": "Alaskan Hotel and Bar",
-    "city": "Juneau",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
-    "venue": "3 The Crystal Saloon",
-    "city": "Juneau",
-    "date": "2026-08-13",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke Night 8p-",
-    "venue": "3 The Crystal Saloon",
-    "city": "Juneau",
-    "date": "2026-08-13",
-    "time": "TBD",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -47490,6 +47640,36 @@
     "cost": ""
   },
   {
+    "title": "Garden Grooves: Music in the Beer Garden",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Market",
+    "venue": "Glenn Square",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "6p-",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Pop Piano Bar w/ MJ Riemann",
+    "venue": "Gumbo House",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "6p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Summer Music on the Patio: SAZÓN",
     "venue": "9p Hilltop Ski Area",
     "city": "Anchorage",
@@ -47505,6 +47685,16 @@
     "city": "Anchorage",
     "date": "2026-08-14",
     "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico",
+    "venue": "Pink Cadillac",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -47530,6 +47720,26 @@
     "cost": ""
   },
   {
+    "title": "Karaoke w/ DJ Charms",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night at SubZero",
+    "venue": "SubZero Microlounge",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Bodelia James Live",
     "venue": "Van's Dive Bar",
     "city": "Anchorage",
@@ -47537,6 +47747,16 @@
     "time": "9:30p-1a",
     "ticketUrl": "https://vansdivebar.com",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Dance Lounge",
+    "venue": "Alaska Dance Promotions",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "dance",
     "cost": ""
   },
   {
@@ -47600,7 +47820,7 @@
     "cost": ""
   },
   {
-    "title": "Yappy Hour: Dog Friendly Happy Hour 4:3",
+    "title": "Yappy Hour: Dog Friendly Happy Hour",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-14",
@@ -47610,7 +47830,107 @@
     "cost": ""
   },
   {
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
+    "title": "Candlelight Concert: Tribute to Fleetwood Mac",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Candlelight Concert: Queen vs. ABBA",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ambassador Bird Programs: Experience Wild Birds Up Close!",
+    "venue": "Bird Treatment & Learning Center",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ JRock",
+    "venue": "Flattop Pizza & Pool",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Ayla Ray & Chris Christy Quintet",
+    "venue": "Humpy’s",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yachtly Crew 1",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Cross 1",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hwy9 in Concert",
+    "venue": "Turnagain Brewing",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bodelia James",
+    "venue": "Van’s Dive Bar",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Darci Lynne",
+    "venue": "1a Wendy Williamson Auditorium",
+    "city": "Anchorage",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yappy Hour: Dog Friendly Happy Hour 4:3",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-14",
@@ -47640,28 +47960,8 @@
     "cost": ""
   },
   {
-    "title": "Friday Night Dance Lounge 9p-",
-    "venue": "Alaska Dance Promotions",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": ""
-  },
-  {
     "title": "Ambassador Bird Programs: Experience Wild Birds Up Close! 12:3",
     "venue": "Bird Treatment & Learning Center",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke w/ DJ Charms 8p-",
-    "venue": "Broken Blender",
     "city": "Anchorage",
     "date": "2026-08-14",
     "time": "TBD",
@@ -47680,68 +47980,8 @@
     "cost": ""
   },
   {
-    "title": "Friday Night Market 6p-",
-    "venue": "Glenn Square",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "community",
-    "cost": ""
-  },
-  {
-    "title": "Pop Piano Bar w/ MJ Riemann 6p-",
-    "venue": "Gumbo House",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "title": "Live Music w/ Ayla Ray & Chris Christy Quintet 9:3",
     "venue": "Humpy’s",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Yachtly Crew 1",
-    "venue": "Koot’s",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-",
-    "venue": "Pink Cadillac",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "DJ Cross 1",
-    "venue": "Pioneer Bar",
-    "city": "Anchorage",
-    "date": "2026-08-14",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke Night at SubZero 8p-",
-    "venue": "SubZero Microlounge",
     "city": "Anchorage",
     "date": "2026-08-14",
     "time": "TBD",
@@ -47805,6 +48045,16 @@
     "city": "Fairbanks",
     "date": "2026-08-14",
     "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-14",
+    "time": "TBD",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -48001,7 +48251,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-14",
     "time": "7p-11p",
@@ -48140,11 +48390,31 @@
     "cost": ""
   },
   {
+    "title": "Dance Social",
+    "venue": "Anchorage Social Dance Club",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "7p-",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
     "title": "Drag For A Cause: Rhinestone Rodeo",
     "venue": "The Nave Spenard",
     "city": "Anchorage",
     "date": "2026-08-15",
     "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ DJ Charms",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -48230,16 +48500,6 @@
     "cost": ""
   },
   {
-    "title": "Dance Social 7p-",
-    "venue": "Anchorage Social Dance Club",
-    "city": "Anchorage",
-    "date": "2026-08-15",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": ""
-  },
-  {
     "title": "Jazz on the Lawn w/ Alaska Jazz Workshop 1",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -48250,7 +48510,7 @@
     "cost": ""
   },
   {
-    "title": "Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3",
+    "title": "Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48280,16 +48540,6 @@
     "cost": ""
   },
   {
-    "title": "Karaoke w/ DJ Charms 8p-",
-    "venue": "Broken Blender",
-    "city": "Anchorage",
-    "date": "2026-08-15",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "title": "Latin Night Takeover w/ DJ Jose & DJ Yenmy 1",
     "venue": "Continental",
     "city": "Anchorage",
@@ -48300,7 +48550,7 @@
     "cost": ""
   },
   {
-    "title": "DJ JRock 9:3",
+    "title": "DJ JRock",
     "venue": "Flattop Pizza & Pool",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48310,7 +48560,7 @@
     "cost": ""
   },
   {
-    "title": "Live Music w/ Dawson Gentleman & Arctic Entry 9:3",
+    "title": "Live Music w/ Dawson Gentleman & Arctic Entry",
     "venue": "Humpy’s",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48330,7 +48580,7 @@
     "cost": ""
   },
   {
-    "title": "Anchorage Community Theatre: Dream Roles Cabaret Show 6:3",
+    "title": "Anchorage Community Theatre: Dream Roles Cabaret Show",
     "venue": "Main Event Grill",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48340,7 +48590,7 @@
     "cost": ""
   },
   {
-    "title": "Muldoon Community Market 9:3",
+    "title": "Muldoon Community Market",
     "venue": "Muldoon Chanshtnu Park",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48360,7 +48610,7 @@
     "cost": ""
   },
   {
-    "title": "Will H. Johnson 5:3",
+    "title": "Will H. Johnson",
     "venue": "Ship Creek Brewing",
     "city": "Anchorage",
     "date": "2026-08-15",
@@ -48392,6 +48642,66 @@
   {
     "title": "The Reg Flags 1",
     "venue": "Koots",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3",
+    "venue": "Anchorage Museum",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ JRock 9:3",
+    "venue": "Flattop Pizza & Pool",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Dawson Gentleman & Arctic Entry 9:3",
+    "venue": "Humpy’s",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Anchorage Community Theatre: Dream Roles Cabaret Show 6:3",
+    "venue": "Main Event Grill",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Muldoon Community Market 9:3",
+    "venue": "Muldoon Chanshtnu Park",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Will H. Johnson 5:3",
+    "venue": "Ship Creek Brewing",
     "city": "Anchorage",
     "date": "2026-08-15",
     "time": "TBD",
@@ -48450,11 +48760,11 @@
     "cost": ""
   },
   {
-    "title": "DJ Auman Joy 8p-",
+    "title": "DJ Auman Joy",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-15",
-    "time": "TBD",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -48495,6 +48805,26 @@
     "city": "Fairbanks",
     "date": "2026-08-15",
     "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Darci Lynne",
+    "venue": "Salisbury Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "TBD",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -48771,7 +49101,7 @@
   },
   {
     "title": "Two-Step and Country Swing Dance Lessons!",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-15",
     "time": "7p-8p",
@@ -48781,7 +49111,7 @@
   },
   {
     "title": "Karaoke",
-    "venue": "American Legion Post 15",
+    "venue": "American Legion Post",
     "city": "Palmer",
     "date": "2026-08-15",
     "time": "8p-11p",
@@ -48970,6 +49300,26 @@
     "cost": ""
   },
   {
+    "title": "Sunday Blues Jam w/ Rebel Blues Band",
+    "venue": "Billiard Palace",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "6p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Buckarooos Night",
+    "venue": "2a Pink Cadillac",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "6p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Learn to Square Dance",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -48980,11 +49330,31 @@
     "cost": ""
   },
   {
+    "title": "Open Mic Night",
+    "venue": "Van’s Dive Bar",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Sunday Karaoke",
     "venue": "0p The Carousel Lounge",
     "city": "Anchorage",
     "date": "2026-08-16",
     "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "0p-2aMad Myrna’s",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -49000,7 +49370,7 @@
     "cost": ""
   },
   {
-    "title": "Country Dance Nights: Line Dancing & Swing 6:3",
+    "title": "Country Dance Nights: Line Dancing & Swing",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
     "date": "2026-08-16",
@@ -49020,13 +49390,93 @@
     "cost": ""
   },
   {
-    "title": "Sunday Blues Jam w/ Rebel Blues Band 6p-",
-    "venue": "Billiard Palace",
+    "title": "Annual Humpy’s Marathon",
+    "venue": "Humpy’s",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot’s",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke 1",
+    "venue": "0p-10pKoot’s",
     "city": "Anchorage",
     "date": "2026-08-16",
     "time": "TBD",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Industry Night w/ Joe Brady 1",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam with Blast From The Past",
+    "venue": "Time Out Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hmong Harvest Festival 1",
+    "venue": "Sullivan Arena Football Stadium",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Bachata Dance Patterns",
+    "venue": "Alaska Dance Promotions",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Weekly Jazz Jam",
+    "venue": "Fire Island Bakery @ K Street Market",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Country Dance Nights: Line Dancing & Swing 6:3",
+    "venue": "Anchorage Social Dance Club",
+    "city": "Anchorage",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "dance",
     "cost": ""
   },
   {
@@ -49050,68 +49500,8 @@
     "cost": ""
   },
   {
-    "title": "Koots Karaoke 1",
-    "venue": "0p-10pKoot’s",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke 9p-",
-    "venue": "0p-2aMad Myrna’s",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "All Ages Buckarooos Night 6p-",
-    "venue": "2a Pink Cadillac",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Industry Night w/ Joe Brady 1",
-    "venue": "Pioneer Bar",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
     "title": "Open Jam with Blast From The Past 8:3",
     "venue": "Time Out Lounge",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Hmong Harvest Festival 1",
-    "venue": "Sullivan Arena Football Stadium",
-    "city": "Anchorage",
-    "date": "2026-08-16",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "festival",
-    "cost": ""
-  },
-  {
-    "title": "Open Mic Night 8p-",
-    "venue": "Van’s Dive Bar",
     "city": "Anchorage",
     "date": "2026-08-16",
     "time": "TBD",
@@ -49165,6 +49555,16 @@
     "city": "Fairbanks",
     "date": "2026-08-16",
     "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-16",
+    "time": "TBD",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -49360,6 +49760,16 @@
     "cost": ""
   },
   {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-17",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Golden Heart Revue 8:1",
     "venue": "The Palace Theater",
     "city": "Fairbanks",
@@ -49480,7 +49890,17 @@
     "cost": ""
   },
   {
-    "title": "Lunch on the Lawn: Live Music w/ Uncle Jim 11:3",
+    "title": "Two Step Tuesday w/ DJ Lele Beats",
+    "venue": "Blarney Stone",
+    "city": "Anchorage",
+    "date": "2026-08-18",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Lunch on the Lawn: Live Music w/ Uncle Jim",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
     "date": "2026-08-18",
@@ -49490,27 +49910,7 @@
     "cost": ""
   },
   {
-    "title": "Two Step Tuesday w/ DJ Lele Beats 9p-",
-    "venue": "Blarney Stone",
-    "city": "Anchorage",
-    "date": "2026-08-18",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": ""
-  },
-  {
-    "title": "AK Rockstar Karaoke 8p-",
-    "venue": "The Carousel Lounge",
-    "city": "Anchorage",
-    "date": "2026-08-18",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Rope Dart Lessons w/ Jerrill 8:3",
+    "title": "Rope Dart Lessons w/ Jerrill",
     "venue": "Oriental Healing Arts Center",
     "city": "Anchorage",
     "date": "2026-08-18",
@@ -49530,8 +49930,28 @@
     "cost": ""
   },
   {
-    "title": "Karaoke Night 7p-",
+    "title": "Rope Dart Lessons w/ Jerrill 8:3",
+    "venue": "Oriental Healing Arts Center",
+    "city": "Anchorage",
+    "date": "2026-08-18",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
     "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-08-18",
+    "time": "7p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "8 The Palace Theater",
     "city": "Fairbanks",
     "date": "2026-08-18",
     "time": "TBD",
@@ -49710,6 +50130,16 @@
     "cost": ""
   },
   {
+    "title": "Garden Grooves: Music in the Beer Garden",
+    "venue": "9th State Brewery",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke 9p-12aManhattan’s Restaurant & Lounge - Seth Malone",
     "venue": "Mad Myrna’s",
     "city": "Anchorage",
@@ -49717,6 +50147,16 @@
     "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Line Dance Wednesdays",
+    "venue": "Pink Cadillac",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "7p-",
+    "ticketUrl": "",
+    "category": "dance",
     "cost": ""
   },
   {
@@ -49760,8 +50200,58 @@
     "cost": ""
   },
   {
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
-    "venue": "9th State Brewery",
+    "title": "Karaoke",
+    "venue": "0p-1aVan’s Dive Bar",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Community Storytime",
+    "venue": "Alaska Zoo",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "International Folk Dancing",
+    "venue": "Anchorage Social Dance Club",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys 1",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music at Crimson w/ The Whisper Campaign",
+    "venue": "Wildbirch Hotel",
     "city": "Anchorage",
     "date": "2026-08-19",
     "time": "TBD",
@@ -49782,46 +50272,6 @@
   {
     "title": "International Folk Dancing 6:3",
     "venue": "Anchorage Social Dance Club",
-    "city": "Anchorage",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1",
-    "venue": "The Carousel Lounge",
-    "city": "Anchorage",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "comedy",
-    "cost": ""
-  },
-  {
-    "title": "Line Dance Wednesdays 7p-",
-    "venue": "Pink Cadillac",
-    "city": "Anchorage",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": ""
-  },
-  {
-    "title": "The Eternal Cowboys 1",
-    "venue": "Pioneer Bar",
-    "city": "Anchorage",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke 9p-",
-    "venue": "0p-1aVan’s Dive Bar",
     "city": "Anchorage",
     "date": "2026-08-19",
     "time": "TBD",
@@ -49867,6 +50317,16 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Black Barrel & The Bad Men",
+    "venue": "Cooper Landing Brewing",
+    "city": "Cooper Landing",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
@@ -49920,6 +50380,16 @@
     "cost": ""
   },
   {
+    "title": "Deja Vu, Old Timey Music",
+    "venue": "Malemute Saloon & Gold Camp",
+    "city": "Ester",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Deja Vu, Old Timey Music 7:3",
     "venue": "Malemute Saloon & Gold Camp",
     "city": "Ester",
@@ -49950,6 +50420,16 @@
     "cost": ""
   },
   {
+    "title": "Open Mic Night",
+    "venue": "4 Pioneer Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke Night",
     "venue": "5 Pioneer Bar",
     "city": "Fairbanks",
@@ -49957,6 +50437,46 @@
     "time": "9p-1a",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends",
+    "venue": "Hoodoo Brewing",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ride Bikes, Drink Beer",
+    "venue": "Girdwood Brewing Company",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blueberry Festival 1",
+    "venue": "Alyeska Resort",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "festival",
     "cost": ""
   },
   {
@@ -49982,26 +50502,6 @@
   {
     "title": "Ride Bikes, Drink Beer 6:3",
     "venue": "Girdwood Brewing Company",
-    "city": "Fairbanks",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Blueberry Festival 1",
-    "venue": "Alyeska Resort",
-    "city": "Fairbanks",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "festival",
-    "cost": ""
-  },
-  {
-    "title": "Open Mic Night 9p-",
-    "venue": "4 Pioneer Bar",
     "city": "Fairbanks",
     "date": "2026-08-19",
     "time": "TBD",
@@ -50080,23 +50580,13 @@
     "cost": ""
   },
   {
-    "title": "Community Jam Sessions 6:3",
+    "title": "Community Jam Sessions",
     "venue": "Homer Council on the Arts",
     "city": "Homer",
     "date": "2026-08-19",
     "time": "TBD",
     "ticketUrl": "",
     "category": "community",
-    "cost": ""
-  },
-  {
-    "title": "Sense And Sensibility 7:3",
-    "venue": "Pier One Theater",
-    "city": "Homer",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
     "cost": ""
   },
   {
@@ -50107,16 +50597,6 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Backyard Summer Concert Series & Music Festival 8:3",
-    "venue": "Justin Cole’s Down East Saloon",
-    "city": "Homer",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "festival",
     "cost": ""
   },
   {
@@ -50137,6 +50617,66 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Show w/ The Pudgies, DSB, Ophelia",
+    "venue": "Porcupine Theater",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday's with Jim Maloney",
+    "venue": "Justin Cole’s Down East Saloon",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime at the Pratt: Berry Season",
+    "venue": "Pratt Museum",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Community Jam Sessions 6:3",
+    "venue": "Homer Council on the Arts",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Sense And Sensibility 7:3",
+    "venue": "Pier One Theater",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Backyard Summer Concert Series & Music Festival 8:3",
+    "venue": "Justin Cole’s Down East Saloon",
+    "city": "Homer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "festival",
     "cost": ""
   },
   {
@@ -50210,6 +50750,36 @@
     "cost": ""
   },
   {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Cousin Curtiss & Harrison B",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
@@ -50252,36 +50822,6 @@
   {
     "title": "RawBeats w/ Astronomar & Friends 9p-? 8/1",
     "venue": "Alaskan Hotel and Bar",
-    "city": "Juneau",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Jazz Jam Tuesday 8p-",
-    "venue": "The Crystal Saloon",
-    "city": "Juneau",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Karaoke 8p-",
-    "venue": "Alaskan Hotel and Bar",
-    "city": "Juneau",
-    "date": "2026-08-19",
-    "time": "TBD",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": ""
-  },
-  {
-    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
-    "venue": "The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-19",
     "time": "TBD",
@@ -50400,7 +50940,7 @@
     "cost": ""
   },
   {
-    "title": "Ketchikan Arts & Humanities Council: Arts Report 8:2",
+    "title": "Ketchikan Arts & Humanities Council: Arts Report",
     "venue": "5.3 FM KRBD",
     "city": "Ketchikan",
     "date": "2026-08-19",
@@ -50422,6 +50962,36 @@
   {
     "title": "Virgin Voyages: Brilliant Lady Land Party 1",
     "venue": "Arctic Bar",
+    "city": "Ketchikan",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mud on the Moon Book Launch",
+    "venue": "Ketchikan Public Library",
+    "city": "Ketchikan",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Ukulele Group",
+    "venue": "Inn at Creek Street",
+    "city": "Ketchikan",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ketchikan Arts & Humanities Council: Arts Report 8:2",
+    "venue": "5.3 FM KRBD",
     "city": "Ketchikan",
     "date": "2026-08-19",
     "time": "TBD",
@@ -50477,6 +51047,16 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tuesday Pub Run w/ Tundra Trotters",
+    "venue": "North Pole Alehouse",
+    "city": "North Pole",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
     "cost": ""
   },
   {
@@ -50572,6 +51152,16 @@
   {
     "title": "Friday Fling Live Music Solo Steve 1",
     "venue": "Downtown Palmer",
+    "city": "Palmer",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "West Coast Sing Wednesday",
+    "venue": "Four Corner’s Lounge",
     "city": "Palmer",
     "date": "2026-08-19",
     "time": "TBD",
@@ -50680,6 +51270,16 @@
     "cost": ""
   },
   {
+    "title": "Live Music w/ The Jephries ft. Luv Guvna",
+    "venue": "Flamingo Lounge",
+    "city": "Seward",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Live Music w/ The Jephries ft. Luv Guvna 6:3",
     "venue": "Flamingo Lounge",
     "city": "Seward",
@@ -50717,6 +51317,26 @@
     "time": "3p-5p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Skagway Idol",
+    "venue": "Skagway Brewing",
+    "city": "Skagway",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Read with a Ranger Story Time",
+    "venue": "Skagway Library",
+    "city": "Skagway",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
     "cost": ""
   },
   {
@@ -50767,6 +51387,46 @@
     "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "The Killer Comedy Show Ft. Sabrina Speers",
+    "venue": "The Orca Theater",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
     "cost": ""
   },
   {
@@ -50827,6 +51487,16 @@
     "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taste of Aloha! A Traditional Hawaiian Luau",
+    "venue": "Lakeside Falls",
+    "city": "Sterling",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "festival",
     "cost": ""
   },
   {
@@ -50910,7 +51580,7 @@
     "cost": ""
   },
   {
-    "title": "Blackwater Railroad Co. 5:3",
+    "title": "Blackwater Railroad Co.",
     "venue": "Denali Brewing Company",
     "city": "Talkeetna",
     "date": "2026-08-19",
@@ -50922,6 +51592,16 @@
   {
     "title": "Trapper Creek Bluegrass Revival",
     "venue": "Boots Bison Ranch",
+    "city": "Talkeetna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blackwater Railroad Co. 5:3",
+    "venue": "Denali Brewing Company",
     "city": "Talkeetna",
     "date": "2026-08-19",
     "time": "TBD",
@@ -51047,6 +51727,16 @@
     "time": "TBD",
     "ticketUrl": "",
     "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
