@@ -1,0 +1,187 @@
+---
+import { TrendingUp, Music, Building, Tent } from 'lucide-astro';
+
+const trendingBands = [
+  { name: "Blackberry Smoke", genre: "Rock / Country", shows: "2 shows in AK" },
+  { name: "Ben Swann", genre: "Acoustic / Folk", shows: "Weekly Residency" },
+  { name: "Spenard Jazz Center", genre: "Jazz / Fusion", shows: "Live Thursdays" },
+  { name: "Hoodoo Brew Band", genre: "Blues / Rock", shows: "Fairbanks Stage" }
+];
+
+const trendingVenues = [
+  { name: "Williwaw Social", city: "Anchorage", events: "14 shows upcoming" },
+  { name: "Koot's (Chilkoot Charlie's)", city: "Anchorage", events: "18 shows upcoming" },
+  { name: "The Crystal Saloon", city: "Juneau", events: "9 shows upcoming" },
+  { name: "HooDoo Brewing Co.", city: "Fairbanks", events: "11 shows upcoming" }
+];
+---
+
+<section class="trending-section container">
+  <div class="trending-header">
+    <div class="trending-title-wrap">
+      <span class="trending-eyebrow"><TrendingUp size={14} /> Popular Right Now</span>
+      <h2 class="trending-title font-display">Trending in Alaska</h2>
+    </div>
+  </div>
+
+  <div class="trending-grid">
+    <!-- Trending Artists Block -->
+    <div class="trending-card">
+      <div class="trending-card-header">
+        <h3 class="trending-card-title"><Music size={16} class="text-gold" /> Trending Artists</h3>
+        <a href="/bands" class="trending-link">Browse all →</a>
+      </div>
+      <div class="trending-list">
+        {trendingBands.map((band, idx) => (
+          <a href="/bands" class="trending-item">
+            <span class="trending-rank">0{idx + 1}</span>
+            <div class="trending-item-info">
+              <span class="trending-item-name">{band.name}</span>
+              <span class="trending-item-sub">{band.genre} &middot; {band.shows}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Trending Venues Block -->
+    <div class="trending-card">
+      <div class="trending-card-header">
+        <h3 class="trending-card-title"><Building size={16} class="text-gold" /> Top Venues</h3>
+        <a href="/venues" class="trending-link">Browse all →</a>
+      </div>
+      <div class="trending-list">
+        {trendingVenues.map((venue, idx) => (
+          <a href="/venues" class="trending-item">
+            <span class="trending-rank">0{idx + 1}</span>
+            <div class="trending-item-info">
+              <span class="trending-item-name">{venue.name}</span>
+              <span class="trending-item-sub">{venue.city} &middot; {venue.events}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.trending-section {
+  padding-block: 2.5rem 1.5rem;
+}
+
+.trending-header {
+  margin-bottom: 1.5rem;
+}
+
+.trending-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brand-gold);
+}
+
+.trending-title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  margin: 0.2rem 0 0 0;
+  letter-spacing: -0.02em;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .trending-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.trending-card {
+  background: #0b1019;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+
+.trending-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid color-mix(in oklab, var(--border) 50%, transparent);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.trending-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.text-gold {
+  color: var(--brand-gold);
+}
+
+.trending-link {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--brand-gold);
+  text-decoration: none;
+}
+
+.trending-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s;
+}
+
+.trending-item:hover {
+  background: var(--card);
+}
+
+.trending-rank {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--brand-gold);
+  opacity: 0.7;
+}
+
+.trending-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-item-name {
+  font-size: 0.925rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.trending-item-sub {
+  font-size: 0.78rem;
+  color: var(--muted-foreground);
+}
+</style>

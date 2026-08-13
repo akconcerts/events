@@ -51,17 +51,46 @@ const eventsThisWeek = events.filter(e => e.date >= sevenDaysAgo && e.date <= se
       <span class="live-indicator"><span class="live-dot-outer live-dot"></span><span class="live-dot-inner"></span></span>
       Live across Alaska tonight
     </div>
-    <h1 class="hero-title font-display">What's happening <span class="text-gradient-gold">tonight</span><br class="hero-br" /> in Alaska.</h1>
+    <h1 class="hero-title font-display">Find something worth <span class="text-gradient-gold">going out for.</span></h1>
     <p class="hero-subtitle">The statewide source of truth for live music, comedy and festivals — from Anchorage to Fairbanks to the Kenai. Curated daily.</p>
-    <div class="hero-cta">
-      <a href="#tonight" class="btn-primary bg-gradient-gold">See what's on tonight <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-      <a href="/bands" class="btn-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Alaska Bands</a>
+    
+    <!-- Hero Universal Search Bar & Location Selector -->
+    <div class="hero-search-box">
+      <div class="hero-location-select-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="location-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <select id="hero-location-select" class="hero-location-select">
+          <option value="all">📍 All Alaska</option>
+          {cities.map(c => <option value={c}>📍 {c}</option>)}
+        </select>
+      </div>
+
+      <div class="hero-search-input-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hero-search-icon"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input 
+          type="search" 
+          id="hero-search-input" 
+          placeholder="Search bands, venues, events, cities..." 
+          autocomplete="off"
+        />
+        <a href="#playing-soon" class="hero-search-btn bg-gradient-gold">Find Shows</a>
+      </div>
     </div>
-    <div class="hero-stats">
-      <div class="stat"><div class="stat-number font-display text-gradient-gold">{eventsThisWeek}</div><div class="stat-label">Events this week</div></div>
-      <div class="stat"><div class="stat-number font-display">{events.length}</div><div class="stat-label">Events listed</div></div>
-      <div class="stat"><div class="stat-number font-display">{[...new Set(events.map(e => e.venue))].length}</div><div class="stat-label">Venues</div></div>
-      <div class="stat"><div class="stat-number font-display">{cities.length}</div><div class="stat-label">Cities</div></div>
+
+    <!-- Quick Date Segmented Control -->
+    <div class="hero-date-tabs">
+      <a href="#tonight" class="hero-date-tab active" data-date="tonight">Tonight</a>
+      <a href="#tomorrow" class="hero-date-tab" data-date="tomorrow">Tomorrow</a>
+      <a href="#weekend" class="hero-date-tab" data-date="weekend">This Weekend</a>
+      <a href="#playing-soon" class="hero-date-tab" data-date="all">All Upcoming</a>
+    </div>
+
+    <!-- Subtle One-Line Credibility Strip -->
+    <div class="hero-stats-strip">
+      <span class="stat-pill"><strong>{events.length.toLocaleString()}+</strong> events listed</span>
+      <span class="stat-sep">·</span>
+      <span class="stat-pill"><strong>{[...new Set(events.map(e => e.venue))].length}</strong> venues</span>
+      <span class="stat-sep">·</span>
+      <span class="stat-pill"><strong>{cities.length}</strong> Alaska communities</span>
     </div>
   </div>
 </section>
@@ -155,21 +184,161 @@ const eventsThisWeek = events.filter(e => e.date >= sevenDaysAgo && e.date <= se
 .live-indicator{position:relative;display:flex;width:.5rem;height:.5rem}
 .live-dot-outer{position:absolute;width:100%;height:100%;border-radius:9999px;background:var(--neon);opacity:.75}
 .live-dot-inner{position:relative;display:inline-flex;width:.5rem;height:.5rem;border-radius:9999px;background:var(--neon)}
-.hero-title{max-width:56rem;font-size:3rem;font-weight:700;line-height:.95;letter-spacing:-.025em}
-@media(min-width:640px){.hero-title{font-size:3.75rem}}
-@media(min-width:1024px){.hero-title{font-size:6rem}}
-.hero-br{display:none}
-@media(min-width:640px){.hero-br{display:block}}
-.hero-subtitle{max-width:36rem;font-size:1rem;color:var(--muted-foreground)}
+.hero-title{max-width:56rem;font-size:2.75rem;font-weight:800;line-height:.98;letter-spacing:-.03em}
+@media(min-width:640px){.hero-title{font-size:3.5rem}}
+@media(min-width:1024px){.hero-title{font-size:5rem}}
+.hero-subtitle{max-width:38rem;font-size:1rem;color:var(--muted-foreground)}
 @media(min-width:640px){.hero-subtitle{font-size:1.125rem}}
-.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem}
-.btn-primary{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;padding:.75rem 1.5rem;font-size:.875rem;font-weight:600;color:var(--neon-foreground);box-shadow:0 10px 40px -10px var(--neon);transition:transform .2s}
-.btn-primary:hover{transform:translateY(-1px)}
-.btn-secondary{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;border:1px solid var(--border);background:color-mix(in oklab,var(--card) 60%,transparent);padding:.75rem 1.5rem;font-size:.875rem;font-weight:600;color:var(--foreground);backdrop-filter:blur(8px);transition:background .2s}
-.btn-secondary:hover{background:var(--secondary)}
-.hero-stats{margin-top:2rem;display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;border-top:1px solid color-mix(in oklab,var(--border) 40%,transparent);padding-top:2rem}
-@media(min-width:640px){.hero-stats{max-width:38rem;grid-template-columns:repeat(4,1fr)}}
-.stat-number{font-size:1.5rem;font-weight:700}
-@media(min-width:640px){.stat-number{font-size:1.875rem}}
-.stat-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-foreground)}
+
+/* Hero Search & Location Box */
+.hero-search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 44rem;
+  width: 100%;
+  background: rgba(16, 22, 33, 0.75);
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 40%, var(--border));
+  backdrop-filter: blur(12px);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.6);
+}
+
+@media(min-width: 640px) {
+  .hero-search-box {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.hero-location-select-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-right: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+  padding-right: 0.5rem;
+}
+
+@media(max-width: 639px) {
+  .hero-location-select-wrap {
+    border-right: none;
+    border-bottom: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.hero-location-select-wrap .location-icon {
+  position: absolute;
+  left: 0.75rem;
+  color: var(--brand-gold);
+  pointer-events: none;
+}
+
+.hero-location-select {
+  background: transparent;
+  color: var(--foreground);
+  border: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.625rem 0.75rem 0.625rem 2.25rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero-search-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.hero-search-icon {
+  position: absolute;
+  left: 0.75rem;
+  color: var(--brand-gold);
+  pointer-events: none;
+}
+
+.hero-search-input-wrap input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--foreground);
+  font-size: 0.925rem;
+  padding: 0.625rem 6.5rem 0.625rem 2.4rem;
+  outline: none;
+}
+
+.hero-search-btn {
+  position: absolute;
+  right: 0.25rem;
+  padding: 0.5rem 1.125rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--brand-navy);
+  border-radius: 0.625rem;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.hero-search-btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Date Segmented Control Tabs */
+.hero-date-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-date-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.hero-date-tab:hover {
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.hero-date-tab.active {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  font-weight: 700;
+  border-color: var(--brand-gold);
+}
+
+/* Subtle One-Line Stats Strip */
+.hero-stats-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--muted-foreground);
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-stats-strip strong {
+  color: var(--brand-gold);
+  font-weight: 700;
+}
+
+.stat-sep {
+  opacity: 0.4;
+}
 </style>

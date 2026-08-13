@@ -1,4 +1,6 @@
 ---
+import { MapPin } from 'lucide-astro';
+
 const cities = [
   { name: "Anchorage", count: 184 },
   { name: "Fairbanks", count: 72 },
@@ -9,32 +11,119 @@ const cities = [
   { name: "Homer", count: 19 },
   { name: "Sitka", count: 14 },
 ];
-const doubled = [...cities, ...cities];
 ---
 
-<section class="city-strip">
-  <div class="city-overflow">
-    <div class="marquee-track city-track">
-      {doubled.map((c, i) => {
-        const slug = c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-        return (
-          <a href={`/cities/${slug}`} class="city-pill" key={i}>
-            <span class="city-name">{c.name}</span>
-            <span class="city-count">{c.count} events</span>
-          </a>
-        );
-      })}
+<section class="city-section container">
+  <div class="city-header">
+    <div class="city-title-wrap">
+      <span class="city-eyebrow"><MapPin size={14} /> Local Coverage</span>
+      <h2 class="city-title font-display">Explore by Alaska City</h2>
     </div>
+  </div>
+
+  <div class="city-grid">
+    {cities.map((c) => {
+      const slug = c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return (
+        <a href={`/cities/${slug}`} class="city-card">
+          <div class="city-card-inner">
+            <span class="city-card-name font-display">{c.name}</span>
+            <div class="city-card-bottom">
+              <span class="city-card-count">{c.count} upcoming</span>
+              <span class="city-card-arrow">Browse →</span>
+            </div>
+          </div>
+        </a>
+      );
+    })}
   </div>
 </section>
 
 <style>
-.city-strip{border-top:1px solid color-mix(in oklab,var(--border) 50%,transparent);border-bottom:1px solid color-mix(in oklab,var(--border) 50%,transparent);background:color-mix(in oklab,var(--card) 30%,transparent)}
-.city-overflow{overflow:hidden;padding-block:1.5rem}
-.city-track{display:flex;width:max-content;gap:.75rem;white-space:nowrap}
-.city-pill{display:inline-flex;align-items:center;gap:.75rem;border-radius:9999px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 60%,transparent);padding:.625rem 1.25rem;font-size:.875rem;transition:border-color .2s}
-.city-pill:hover{border-color:var(--neon)}
-.city-name{font-weight:600}
-.city-count{font-size:.75rem;color:var(--muted-foreground);transition:color .2s}
-.city-pill:hover .city-count{color:var(--neon)}
+.city-section {
+  padding-block: 2.5rem 1.5rem;
+}
+
+.city-header {
+  margin-bottom: 1.5rem;
+}
+
+.city-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brand-gold);
+}
+
+.city-title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  margin: 0.2rem 0 0 0;
+  letter-spacing: -0.02em;
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+}
+
+@media (min-width: 640px) {
+  .city-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.city-card {
+  display: block;
+  background: #0b1019;
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  padding: 1.125rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.city-card:hover {
+  background: #111827;
+  border-color: var(--brand-gold);
+  transform: translateY(-2px);
+}
+
+.city-card-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.city-card-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.city-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid color-mix(in oklab, var(--border) 40%, transparent);
+  padding-top: 0.5rem;
+}
+
+.city-card-count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+}
+
+.city-card-arrow {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--brand-gold);
+}
 </style>

@@ -53,6 +53,7 @@ const nav = [
   const toggle = document.getElementById('mobile-menu-toggle');
   const close = document.getElementById('mobile-menu-close');
   const nav = document.getElementById('mobile-nav');
+  const header = document.querySelector('.site-header');
 
   toggle?.addEventListener('click', () => {
     nav?.classList.add('open');
@@ -66,6 +67,15 @@ const nav = [
 
   close?.addEventListener('click', closeMenu);
   nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+
+  // Shrink header padding on scroll
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) {
+      header?.classList.add('scrolled');
+    } else {
+      header?.classList.remove('scrolled');
+    }
+  }, { passive: true });
 </script>
 
 <style>
@@ -79,6 +89,16 @@ const nav = [
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 0;
+  transition: padding 0.3s ease, background 0.3s ease;
+}
+
+.site-header.scrolled {
+  background: rgba(10, 14, 23, 0.95);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.site-header.scrolled .header-inner {
+  padding-block: 0.4rem;
 }
 
 /* Mobile Rounded Floating Header */
@@ -101,6 +121,7 @@ const nav = [
   justify-content: space-between;
   gap: 1rem;
   padding-block: 0.75rem;
+  transition: padding 0.3s ease;
 }
 
 @media (max-width: 767px) {
@@ -119,6 +140,11 @@ const nav = [
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: width 0.3s, height 0.3s;
+}
+.site-header.scrolled .logo-seal {
+  width: 36px;
+  height: 36px;
 }
 @media (max-width: 767px) {
   .logo-seal { width: 36px; height: 36px; }
@@ -145,6 +171,7 @@ const nav = [
   font-size: 0.875rem;
   color: var(--muted-foreground);
   transition: background 0.2s, color 0.2s;
+  text-decoration: none;
 }
 .nav-link:hover {
   background: var(--secondary);
@@ -175,14 +202,20 @@ const nav = [
 .submit-btn {
   display: none;
   border-radius: 9999px;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8125rem;
   font-weight: 600;
-  color: var(--neon-foreground);
-  box-shadow: 0 8px 30px -10px var(--brand-gold);
-  transition: opacity 0.2s;
+  color: var(--brand-gold);
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 60%, transparent);
+  background: rgba(204, 164, 59, 0.08);
+  text-decoration: none;
+  transition: all 0.2s;
 }
-.submit-btn:hover { opacity: 0.9; }
+.submit-btn:hover { 
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+}
+@media (min-width: 640px) { .submit-btn { display: inline-flex; } }
 @media (min-width: 640px) { .submit-btn { display: inline-flex; } }
 
 .mobile-menu-toggle { display: grid; }

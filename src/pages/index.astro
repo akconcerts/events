@@ -2,7 +2,9 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import Hero from '../components/Hero.astro';
+import TonightFeatured from '../components/TonightFeatured.astro';
 import QuickNav from '../components/QuickNav.astro';
+import TrendingSection from '../components/TrendingSection.astro';
 import CityStrip from '../components/CityStrip.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import EventFilterBar from '../components/EventFilterBar.astro';
@@ -102,12 +104,12 @@ const formatCategoryName = (cat: string) => {
   <SiteHeader />
   <main>
     <Hero />
+    <TonightFeatured />
     <QuickNav />
-    <CityStrip />
-    <ConcertMap />
 
+    <!-- Main Event Feed -->
     <section id="playing-soon" class="events-section container">
-      <SectionHeading eyebrow="What's Happening in Alaska" title="Playing Soon" />
+      <SectionHeading eyebrow="Statewide Live Calendar" title="Playing Soon" />
       <EventFilterBar events={sortedEvents} showTimelineFilter={false} />
 
       <!-- View: Date (Grouped by Day) -->
@@ -247,6 +249,9 @@ const formatCategoryName = (cat: string) => {
 
     </section>
 
+    <TrendingSection />
+    <CityStrip />
+    <ConcertMap />
     <Newsletter />
   </main>
   <SiteFooter />
