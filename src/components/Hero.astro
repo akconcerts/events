@@ -24,7 +24,9 @@ const heroImages = [
   '/images/hero/hero-20.webp'
 ];
 
-const defaultHero = '/images/hero/hero-20.webp';
+const sevenDaysAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+const sevenDaysAhead = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
+const eventsThisWeek = events.filter(e => e.date >= sevenDaysAgo && e.date <= sevenDaysAhead).length;
 ---
 
 <section class="hero">
@@ -54,6 +56,7 @@ const defaultHero = '/images/hero/hero-20.webp';
       <a href="/bands" class="btn-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Alaska Bands</a>
     </div>
     <div class="hero-stats">
+      <div class="stat"><div class="stat-number font-display text-gradient-gold">{eventsThisWeek}</div><div class="stat-label">Events this week</div></div>
       <div class="stat"><div class="stat-number font-display">{events.length}</div><div class="stat-label">Events listed</div></div>
       <div class="stat"><div class="stat-number font-display">{[...new Set(events.map(e => e.venue))].length}</div><div class="stat-label">Venues</div></div>
       <div class="stat"><div class="stat-number font-display">{cities.length}</div><div class="stat-label">Cities</div></div>
@@ -162,8 +165,8 @@ const defaultHero = '/images/hero/hero-20.webp';
 .btn-primary:hover{transform:translateY(-1px)}
 .btn-secondary{display:inline-flex;align-items:center;gap:.5rem;border-radius:9999px;border:1px solid var(--border);background:color-mix(in oklab,var(--card) 60%,transparent);padding:.75rem 1.5rem;font-size:.875rem;font-weight:600;color:var(--foreground);backdrop-filter:blur(8px);transition:background .2s}
 .btn-secondary:hover{background:var(--secondary)}
-.hero-stats{margin-top:2rem;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;border-top:1px solid color-mix(in oklab,var(--border) 40%,transparent);padding-top:2rem}
-@media(min-width:640px){.hero-stats{max-width:28rem}}
+.hero-stats{margin-top:2rem;display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;border-top:1px solid color-mix(in oklab,var(--border) 40%,transparent);padding-top:2rem}
+@media(min-width:640px){.hero-stats{max-width:38rem;grid-template-columns:repeat(4,1fr)}}
 .stat-number{font-size:1.5rem;font-weight:700}
 @media(min-width:640px){.stat-number{font-size:1.875rem}}
 .stat-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-foreground)}
