@@ -1,0 +1,120 @@
+---
+import { Calendar, Users, Building, History, PlusCircle } from 'lucide-astro';
+
+const pathname = Astro.url.pathname;
+
+const navItems = [
+  { href: '/', label: 'Shows', icon: Calendar, active: pathname === '/' || pathname.startsWith('/events') || pathname.startsWith('/filters') || pathname.startsWith('/cities') },
+  { href: '/bands', label: 'Bands', icon: Users, active: pathname.startsWith('/bands') },
+  { href: '/venues', label: 'Venues', icon: Building, active: pathname.startsWith('/venues') || pathname.startsWith('/venue-pages') },
+  { href: '/past', label: 'Past', icon: History, active: pathname.startsWith('/past') },
+  { href: '/submit', label: 'Submit', icon: PlusCircle, active: pathname.startsWith('/submit') },
+];
+---
+
+<!-- iPhone Safe-Area Floor Block for seamless bottom color blending -->
+<div class="mobile-nav-floor-block" aria-hidden="true"></div>
+
+<!-- Floating Rounded Mobile Nav Bar -->
+<nav class="mobile-nav-floor" aria-label="Mobile Navigation">
+  <div class="mobile-nav-floor-inner">
+    {navItems.map(item => {
+      const Icon = item.icon;
+      return (
+        <a href={item.href} class={`mobile-floor-link ${item.active ? 'active' : ''}`}>
+          <span class="floor-link-icon"><Icon size={20} /></span>
+          <span class="floor-link-label">{item.label}</span>
+        </a>
+      );
+    })}
+  </div>
+</nav>
+
+<style>
+/* iPhone Safe Area Floor Backdrop Block */
+.mobile-nav-floor-block {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(
+    to top,
+    var(--background) 70%,
+    color-mix(in oklab, var(--background) 0%, transparent) 100%
+  );
+  pointer-events: none;
+  z-index: 90;
+  transition: opacity 0.3s;
+}
+
+/* Floating Rounded Mobile Navigation Pill */
+.mobile-nav-floor {
+  display: block;
+  position: fixed;
+  bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  left: 1rem;
+  right: 1rem;
+  z-index: 100;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav-floor-block,
+  .mobile-nav-floor {
+    display: none !important;
+  }
+}
+
+.mobile-nav-floor-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.45rem 0.35rem;
+  background: color-mix(in oklab, var(--card) 85%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.4), 0 0 20px rgba(245, 158, 11, 0.1);
+}
+
+.mobile-floor-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 9999px;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  min-width: 54px;
+}
+
+.floor-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.mobile-floor-link:hover {
+  color: var(--foreground);
+}
+
+.mobile-floor-link.active {
+  color: var(--brand-gold);
+  background: color-mix(in oklab, var(--brand-gold) 15%, transparent);
+}
+
+.mobile-floor-link.active .floor-link-icon {
+  transform: translateY(-1px);
+}
+</style>

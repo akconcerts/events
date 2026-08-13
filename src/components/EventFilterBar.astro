@@ -300,6 +300,16 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   height: max-content;
 }
 
+@media (min-width: 640px) {
+  .view-toggles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: .75rem;
+    width: max-content;
+  }
+}
+
 .view-toggle {
   display: flex;
   align-items: center;
@@ -311,9 +321,24 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   border-right: 1px solid var(--border);
   cursor: pointer;
 }
-.view-toggle:last-child {
-  border-right: none;
+
+@media (min-width: 640px) {
+  .view-toggle {
+    padding: 0;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .view-toggle:nth-child(2n) {
+    border-right: none !important;
+  }
+  .view-toggle:nth-child(3),
+  .view-toggle:nth-child(4) {
+    border-bottom: none !important;
+  }
 }
+
 .view-toggle:hover {
   background: var(--secondary);
   color: var(--foreground);

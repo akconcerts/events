@@ -193,3 +193,9 @@ input { font: inherit; color: inherit; }
   padding-inline: 1rem;
 }
 @media (min-width: 640px) { .container { padding-inline: 1.5rem; } }
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
+  }
+}

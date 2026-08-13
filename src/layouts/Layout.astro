@@ -1,6 +1,7 @@
 ---
 import A11yPanel from '../components/A11yPanel.astro';
 import VenueModal from '../components/VenueModal.astro';
+import MobileNavFloor from '../components/MobileNavFloor.astro';
 
 interface Props {
   title?: string;
@@ -16,7 +17,7 @@ const {
 <html lang="en" data-theme="system">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta property="og:title" content="AK Concerts" />
@@ -29,6 +30,7 @@ const {
     <A11yPanel />
     <VenueModal />
     <slot />
+    <MobileNavFloor />
   </body>
 </html>
 
