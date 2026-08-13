@@ -4,6 +4,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.formatting.rule import CellIsRule, FormulaRule
 
 output_xlsx_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/AK_Concerts_Master_CMS_CRM_Database.xlsx"
 artifact_xlsx_path = "/Users/kb/.gemini/antigravity-ide/brain/68236e0c-08a9-4d0b-903b-7eb1a98165a7/AK_Concerts_Master_CMS_CRM_Database.xlsx"
@@ -17,11 +18,16 @@ with open(events_path, 'r', encoding='utf-8') as f:
 with open(venues_path, 'r', encoding='utf-8') as f:
     venues_data = json.load(f)
 
-# Styles
+# Color Palette
+header_fill = PatternFill(start_color='00205B', end_color='00205B', fill_type='solid') # Brand Navy
 header_font = Font(name='Segoe UI', size=11, bold=True, color='FFFFFF')
-header_fill = PatternFill(start_color='00205B', end_color='00205B', fill_type='solid') # Navy
-sub_header_fill = PatternFill(start_color='FFB81C', end_color='FFB81C', fill_type='solid') # Gold
-sub_header_font = Font(name='Segoe UI', size=11, bold=True, color='00205B')
+
+gold_fill = PatternFill(start_color='FFB81C', end_color='FFB81C', fill_type='solid') # Brand Gold
+gold_font = Font(name='Segoe UI', size=11, bold=True, color='00205B')
+
+pending_fill = PatternFill(start_color='FEF3C7', end_color='FEF3C7', fill_type='solid') # Soft Gold
+approved_fill = PatternFill(start_color='DCFCE7', end_color='DCFCE7', fill_type='solid') # Soft Green
+rejected_fill = PatternFill(start_color='FEE2E2', end_color='FEE2E2', fill_type='solid') # Soft Red
 
 thin_border = Border(
     left=Side(style='thin', color='CBD5E1'),
@@ -31,15 +37,14 @@ thin_border = Border(
 )
 
 wb = openpyxl.Workbook()
-wb.remove(wb.active)
+wb.remove(wb.active) # Remove default sheet
 
-# Utility to format headers and table
 def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
     ws = wb.create_sheet(title=sheet_name)
     ws.views.sheetView[0].showGridLines = True
     
-    fill = sub_header_fill if is_gold_header else header_fill
-    font = sub_header_font if is_gold_header else header_font
+    fill = gold_fill if is_gold_header else header_fill
+    font = gold_font if is_gold_header else header_font
     
     ws.append(headers)
     for col_num in range(1, len(headers) + 1):
@@ -58,27 +63,75 @@ def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
             if col_num in [1, 3, 4, 7, 13]:
                 c.alignment = Alignment(horizontal='center')
                 
-    # Auto column width
     for col in ws.columns:
         max_len = max(len(str(cell.value or '')) for cell in col)
         col_letter = get_column_letter(col[0].column)
-        ws.column_dimensions[col_letter].width = min(max(max_len + 3, 12), 45)
+        ws.column_dimensions[col_letter].width = min(max(max_len + 3, 12), 48)
         
     return ws
 
-# Data Validation Definitions
+# Data Validation Objects
 dv_status = DataValidation(type="list", formula1='"Pending,Approved,Rejected,Archived"', allow_blank=True)
 dv_category = DataValidation(type="list", formula1='"music,comedy,festival,dance,theatre,community"', allow_blank=True)
-dv_cities = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez"', allow_blank=True)
-dv_type = DataValidation(type="list", formula1='"Indoor,Outdoor/Festival"', allow_blank=True)
+dv_cities = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez,Barrow,Bethel,Cordova,Haines,Skagway,Sterling,McCarthy,North Pole"', allow_blank=True)
+dv_type = DataValidation(type="list", formula1='"Indoor,Outdoor/Festival,Hybrid"', allow_blank=True)
 dv_claim_status = DataValidation(type="list", formula1='"Unclaimed,Pending Review,Verified Owner,Flagged"', allow_blank=True)
 dv_account_status = DataValidation(type="list", formula1='"Active,Inactive,Closed"', allow_blank=True)
 dv_feed_engine = DataValidation(type="list", formula1='"Facebook API,Web Scraper,iCal Feed,CSV Import"', allow_blank=True)
 dv_menu_loc = DataValidation(type="list", formula1='"Header Desktop & Mobile,Bottom Mobile Pill,Global Category Filter"', allow_blank=True)
 
+# 0. Executive Dashboard Tab
+ws_dash = wb.create_sheet(title="0. Executive Dashboard", index=0)
+ws_dash.views.sheetView[0].showGridLines = True
+
+ws_dash['A1'] = "AK CONCERTS — EXECUTIVE CMS & CRM DASHBOARD"
+ws_dash['A1'].font = Font(name='Segoe UI', size=16, bold=True, color='00205B')
+ws_dash['A2'] = "Master Database Control Panel & Website Publication Center for Cody"
+ws_dash['A2'].font = Font(name='Segoe UI', size=11, color='64748B')
+
+# KPI Cards
+kpis = [
+    ("Total Master Events", '=COUNTA(Events_Master!B2:B6000)', "A4", "B4"),
+    ("Pending Web Submissions", '=COUNTIF(Pending_Submissions!M2:M1000, "Pending")', "D4", "E4"),
+    ("Verified Venues", '=COUNTA(Venues_CRM!B2:B500)', "A6", "B6"),
+    ("Local Artists Roster", '=COUNTA(Bands_Artists_CRM!B2:B500)', "D6", "E6")
+]
+
+for label, formula, cell_lbl, cell_val in kpis:
+    ws_dash[cell_lbl] = label
+    ws_dash[cell_lbl].font = Font(name='Segoe UI', size=10, bold=True, color='FFFFFF')
+    ws_dash[cell_lbl].fill = header_fill
+    ws_dash[cell_lbl].alignment = Alignment(horizontal='center', vertical='center')
+    
+    ws_dash[cell_val] = formula
+    ws_dash[cell_val].font = Font(name='Segoe UI', size=16, bold=True, color='00205B')
+    ws_dash[cell_val].fill = gold_fill
+    ws_dash[cell_val].alignment = Alignment(horizontal='center', vertical='center')
+
+ws_dash.column_dimensions['A'].width = 24
+ws_dash.column_dimensions['B'].width = 16
+ws_dash.column_dimensions['D'].width = 24
+ws_dash.column_dimensions['E'].width = 16
+
+# Instructions Box
+ws_dash['A9'] = "⚡ CODY'S QUICK OPERATIONAL GUIDE"
+ws_dash['A9'].font = Font(name='Segoe UI', size=12, bold=True, color='00205B')
+
+guide_lines = [
+    "1. Review New Submissions: Go to '1. Pending_Submissions' tab to review web submissions from /submit.",
+    "2. Change Status to Approve: Click the Status dropdown chip in Column M and change from 'Pending' to 'Approved'.",
+    "3. Automated Site Rebuild: Once approved, run '⚡ AK Concerts Controls ➔ Trigger Live Website Build' in the menu bar.",
+    "4. Master Event Database: All approved events sync into '2. Events_Master' and deploy to 3,500+ static pages.",
+    "5. Managing Venues & Artists: Update venue contacts in 'Venues_CRM' and artist video IDs in 'Bands_Artists_CRM'."
+]
+
+for idx, g_text in enumerate(guide_lines, start=10):
+    ws_dash[f'A{idx}'] = g_text
+    ws_dash[f'A{idx}'].font = Font(name='Segoe UI', size=10, color='1E293B')
+
 # 1. Pending_Submissions Tab
 ws_pending = create_tab(
-    "Pending_Submissions",
+    "1. Pending_Submissions",
     ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"],
     [
         ["2026-08-12 22:45:00", "Blackwater Railroad Live at Williwaw", "2026-08-22", "8:00 PM", "Anchorage", "Williwaw Social", "music", "$15", "https://akconcerts.com", "promoter@blackwaterrr.com", "Cody Submitter", "Web Submission via /submit page", "Pending"],
@@ -92,6 +145,15 @@ ws_pending.add_data_validation(dv_category)
 dv_category.add("G2:G1000")
 ws_pending.add_data_validation(dv_cities)
 dv_cities.add("E2:E1000")
+
+# Conditional Formatting Rules for Pending Tab
+rule_pending = CellIsRule(operator='equal', formula=['"Pending"'], fill=pending_fill, font=Font(color='92400E', bold=True))
+rule_approved = CellIsRule(operator='equal', formula=['"Approved"'], fill=approved_fill, font=Font(color='166534', bold=True))
+rule_rejected = CellIsRule(operator='equal', formula=['"Rejected"'], fill=rejected_fill, font=Font(color='991B1B', bold=True))
+
+ws_pending.conditional_formatting.add("M2:M1000", rule_pending)
+ws_pending.conditional_formatting.add("M2:M1000", rule_approved)
+ws_pending.conditional_formatting.add("M2:M1000", rule_rejected)
 
 # 2. Events_Master Tab
 master_event_rows = []
@@ -111,7 +173,7 @@ for e in events_data:
         "Master Event Database",
         "Approved"
     ])
-ws_events = create_tab("Events_Master", ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"], master_event_rows)
+ws_events = create_tab("2. Events_Master", ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"], master_event_rows)
 
 dv_status_master = DataValidation(type="list", formula1='"Pending,Approved,Rejected,Archived"', allow_blank=True)
 ws_events.add_data_validation(dv_status_master)
@@ -121,9 +183,13 @@ dv_category_master = DataValidation(type="list", formula1='"music,comedy,festiva
 ws_events.add_data_validation(dv_category_master)
 dv_category_master.add(f"G2:G{len(master_event_rows)+10}")
 
-dv_cities_master = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez"', allow_blank=True)
+dv_cities_master = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez,Barrow,Bethel,Cordova,Haines,Skagway,Sterling,McCarthy,North Pole"', allow_blank=True)
 ws_events.add_data_validation(dv_cities_master)
 dv_cities_master.add(f"E2:E{len(master_event_rows)+10}")
+
+ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_approved)
+ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_pending)
+ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_rejected)
 
 # 3. Venues_CRM Tab
 venue_rows = []
@@ -142,7 +208,7 @@ for v in venues_data:
         "Verified Owner",
         "Active"
     ])
-ws_venues = create_tab("Venues_CRM", ["Venue ID", "Venue Name", "City", "Address", "Capacity", "Type", "Website", "Facebook Page", "Latitude", "Longitude", "Claim Status", "Account Status"], venue_rows)
+ws_venues = create_tab("3. Venues_CRM", ["Venue ID", "Venue Name", "City", "Address", "Capacity", "Type", "Website", "Facebook Page", "Latitude", "Longitude", "Claim Status", "Account Status"], venue_rows)
 
 ws_venues.add_data_validation(dv_type)
 dv_type.add(f"F2:F{len(venue_rows)+10}")
@@ -164,7 +230,7 @@ bands_sample = [
     ["emma-hill", "Emma Hill", "Indie Folk", "Anchorage", "https://facebook.com/emmahillmusic", "vcVt7pTL_tg", "Verified Artist"],
     ["the-eternal-cowboys", "The Eternal Cowboys", "Country Western", "Fairbanks", "https://facebook.com/eternalcowboys", "5rf7DK4fYQo", "Verified Artist"]
 ]
-ws_bands = create_tab("Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Facebook URL", "YouTube Video ID", "Profile Status"], bands_sample)
+ws_bands = create_tab("4. Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Facebook URL", "YouTube Video ID", "Profile Status"], bands_sample)
 
 # 5. Cities_Regions Tab
 city_rows = [
@@ -180,7 +246,7 @@ city_rows = [
     ["Ketchikan", "Ketchikan Gateway Borough", "Southeast", 55.3422, -131.6461, "Active Regional"],
     ["Sitka", "City and Borough of Sitka", "Southeast", 57.0531, -135.3300, "Active Regional"]
 ]
-ws_cities = create_tab("Cities_Regions", ["City Name", "Borough / Region", "Territory Zone", "Latitude", "Longitude", "Coverage Level"], city_rows)
+ws_cities = create_tab("5. Cities_Regions", ["City Name", "Borough / Region", "Territory Zone", "Latitude", "Longitude", "Coverage Level"], city_rows)
 
 # 6. Promoters_Partners Tab
 promoters_rows = [
@@ -189,7 +255,7 @@ promoters_rows = [
     ["PROMO-03", "Alaska Center for the Performing Arts", "Broadway & Performing Arts", "Anchorage", "boxoffice@alaskapac.org", "https://alaskapac.org", "Active Venue Partner"],
     ["PROMO-04", "Creekbend Company", "Outdoor Summer Concert Series", "Hope", "info@creekbendco.com", "https://creekbendco.com", "Active Festival Partner"]
 ]
-ws_promoters = create_tab("Promoters_Partners", ["Promoter ID", "Organization Name", "Specialty Type", "Base City", "Contact Email", "Website", "Partner Tier"], promoters_rows)
+ws_promoters = create_tab("6. Promoters_Partners", ["Promoter ID", "Organization Name", "Specialty Type", "Base City", "Contact Email", "Website", "Partner Tier"], promoters_rows)
 
 # 7. Scraper_Sources Tab
 scrapers_rows = [
@@ -200,7 +266,7 @@ scrapers_rows = [
     ["SCRAPE-05", "Palmer Alehouse Calendar", "Web Scraper", "Daily (04:00 AKDT)", "Active", "2026-08-12 04:00"],
     ["SCRAPE-06", "Salmonfest Alaska Master Import", "CSV Import", "Weekly", "Active", "2026-08-10 12:00"]
 ]
-ws_scrapers = create_tab("Scraper_Sources", ["Scraper ID", "Source Feed Name", "Feed Engine", "Scrape Frequency", "Status", "Last Run Timestamp"], scrapers_rows)
+ws_scrapers = create_tab("7. Scraper_Sources", ["Scraper ID", "Source Feed Name", "Feed Engine", "Scrape Frequency", "Status", "Last Run Timestamp"], scrapers_rows)
 
 ws_scrapers.add_data_validation(dv_feed_engine)
 dv_feed_engine.add(f"C2:C{len(scrapers_rows)+10}")
@@ -225,7 +291,7 @@ settings_rows = [
     ["CATEGORY_5", "Theatre & Arts", "theatre", "Global Category Filter", "Enabled"],
     ["CATEGORY_6", "Community", "community", "Global Category Filter", "Enabled"]
 ]
-ws_settings = create_tab("App_Settings_Menus", ["Setting Key", "Label Name", "Target Route / Slug", "Menu Location", "Status"], settings_rows)
+ws_settings = create_tab("8. App_Settings_Menus", ["Setting Key", "Label Name", "Target Route / Slug", "Menu Location", "Status"], settings_rows)
 
 ws_settings.add_data_validation(dv_menu_loc)
 dv_menu_loc.add(f"D2:D{len(settings_rows)+10}")
@@ -234,4 +300,4 @@ dv_menu_loc.add(f"D2:D{len(settings_rows)+10}")
 for path in [output_xlsx_path, artifact_xlsx_path]:
     wb.save(path)
 
-print(f"Successfully generated Master CRM/CMS Excel Workbook with embedded DataValidation dropdowns: {output_xlsx_path}")
+print(f"Successfully generated Ultimate 9-Tab Master CMS/CRM Excel Workbook with Dashboard & Conditional Formatting: {output_xlsx_path}")
