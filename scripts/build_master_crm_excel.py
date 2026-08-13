@@ -1,16 +1,18 @@
 import json
 import os
+import re
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
-from openpyxl.formatting.rule import CellIsRule, FormulaRule
+from openpyxl.formatting.rule import CellIsRule
 
 output_xlsx_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/AK_Concerts_Master_CMS_CRM_Database.xlsx"
 artifact_xlsx_path = "/Users/kb/.gemini/antigravity-ide/brain/68236e0c-08a9-4d0b-903b-7eb1a98165a7/AK_Concerts_Master_CMS_CRM_Database.xlsx"
 
 events_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/src/data/events.json"
 venues_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/venues.json"
+bands_ts_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/src/data/bands.ts"
 
 with open(events_path, 'r', encoding='utf-8') as f:
     events_data = json.load(f)
@@ -18,7 +20,29 @@ with open(events_path, 'r', encoding='utf-8') as f:
 with open(venues_path, 'r', encoding='utf-8') as f:
     venues_data = json.load(f)
 
-# Color Palette
+# Parse all bands from bands.ts
+bands_data = []
+with open(bands_ts_path, 'r', encoding='utf-8') as f:
+    ts_content = f.read()
+    
+# Extract array content
+match = re.search(r'export const bands: Band\[\] = \[\s*([\s\S]*?)\s*\];', ts_content)
+if match:
+    raw_array = match.group(1)
+    # Parse individual band objects
+    obj_matches = re.findall(r'\{\s*(.*?)\s*\}', raw_array)
+    for obj_str in obj_matches:
+        band = {}
+        for prop in ['name', 'slug', 'description', 'facebookUrl', 'amazonUrl', 'youtubeId']:
+            m_prop = re.search(rf'{prop}:\s*"(.*?)"', obj_str)
+            if m_prop:
+                band[prop] = m_prop.group(1)
+        m_img = re.search(r'hasImage:\s*true', obj_str)
+        band['hasImage'] = True if m_img else False
+        if 'name' in band and 'slug' in band:
+            bands_data.append(band)
+
+# Styles
 header_fill = PatternFill(start_color='00205B', end_color='00205B', fill_type='solid') # Brand Navy
 header_font = Font(name='Segoe UI', size=11, bold=True, color='FFFFFF')
 
@@ -37,7 +61,7 @@ thin_border = Border(
 )
 
 wb = openpyxl.Workbook()
-wb.remove(wb.active) # Remove default sheet
+wb.remove(wb.active)
 
 def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
     ws = wb.create_sheet(title=sheet_name)
@@ -66,7 +90,7 @@ def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
     for col in ws.columns:
         max_len = max(len(str(cell.value or '')) for cell in col)
         col_letter = get_column_letter(col[0].column)
-        ws.column_dimensions[col_letter].width = min(max(max_len + 3, 12), 48)
+        ws.column_dimensions[col_letter].width = min(max(max_len + 3, 12), 52)
         
     return ws
 
@@ -77,6 +101,7 @@ dv_cities = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Ho
 dv_type = DataValidation(type="list", formula1='"Indoor,Outdoor/Festival,Hybrid"', allow_blank=True)
 dv_claim_status = DataValidation(type="list", formula1='"Unclaimed,Pending Review,Verified Owner,Flagged"', allow_blank=True)
 dv_account_status = DataValidation(type="list", formula1='"Active,Inactive,Closed"', allow_blank=True)
+dv_artist_status = DataValidation(type="list", formula1='"Verified Artist,Unverified,Featured Legend,Touring Act"', allow_blank=True)
 dv_feed_engine = DataValidation(type="list", formula1='"Facebook API,Web Scraper,iCal Feed,CSV Import"', allow_blank=True)
 dv_menu_loc = DataValidation(type="list", formula1='"Header Desktop & Mobile,Bottom Mobile Pill,Global Category Filter"', allow_blank=True)
 
@@ -89,12 +114,11 @@ ws_dash['A1'].font = Font(name='Segoe UI', size=16, bold=True, color='00205B')
 ws_dash['A2'] = "Master Database Control Panel & Website Publication Center for Cody"
 ws_dash['A2'].font = Font(name='Segoe UI', size=11, color='64748B')
 
-# KPI Cards
 kpis = [
-    ("Total Master Events", '=COUNTA(Events_Master!B2:B6000)', "A4", "B4"),
-    ("Pending Web Submissions", '=COUNTIF(Pending_Submissions!M2:M1000, "Pending")', "D4", "E4"),
-    ("Verified Venues", '=COUNTA(Venues_CRM!B2:B500)', "A6", "B6"),
-    ("Local Artists Roster", '=COUNTA(Bands_Artists_CRM!B2:B500)', "D6", "E6")
+    ("Total Master Events", f"=COUNTA('2. Events_Master'!B2:B6000)", "A4", "B4"),
+    ("Pending Web Submissions", f"=COUNTIF('1. Pending_Submissions'!M2:M1000, \"Pending\")", "D4", "E4"),
+    ("Verified Venues", f"=COUNTA('3. Venues_CRM'!B2:B500)", "A6", "B6"),
+    ("Local Artists Roster", f"=COUNTA('4. Bands_Artists_CRM'!B2:B500)", "D6", "E6")
 ]
 
 for label, formula, cell_lbl, cell_val in kpis:
@@ -113,7 +137,6 @@ ws_dash.column_dimensions['B'].width = 16
 ws_dash.column_dimensions['D'].width = 24
 ws_dash.column_dimensions['E'].width = 16
 
-# Instructions Box
 ws_dash['A9'] = "⚡ CODY'S QUICK OPERATIONAL GUIDE"
 ws_dash['A9'].font = Font(name='Segoe UI', size=12, bold=True, color='00205B')
 
@@ -122,7 +145,7 @@ guide_lines = [
     "2. Change Status to Approve: Click the Status dropdown chip in Column M and change from 'Pending' to 'Approved'.",
     "3. Automated Site Rebuild: Once approved, run '⚡ AK Concerts Controls ➔ Trigger Live Website Build' in the menu bar.",
     "4. Master Event Database: All approved events sync into '2. Events_Master' and deploy to 3,500+ static pages.",
-    "5. Managing Venues & Artists: Update venue contacts in 'Venues_CRM' and artist video IDs in 'Bands_Artists_CRM'."
+    "5. Managing Venues & Artists: Update venue contacts in '3. Venues_CRM' and artist video IDs in '4. Bands_Artists_CRM'."
 ]
 
 for idx, g_text in enumerate(guide_lines, start=10):
@@ -146,7 +169,6 @@ dv_category.add("G2:G1000")
 ws_pending.add_data_validation(dv_cities)
 dv_cities.add("E2:E1000")
 
-# Conditional Formatting Rules for Pending Tab
 rule_pending = CellIsRule(operator='equal', formula=['"Pending"'], fill=pending_fill, font=Font(color='92400E', bold=True))
 rule_approved = CellIsRule(operator='equal', formula=['"Approved"'], fill=approved_fill, font=Font(color='166534', bold=True))
 rule_rejected = CellIsRule(operator='equal', formula=['"Rejected"'], fill=rejected_fill, font=Font(color='991B1B', bold=True))
@@ -191,7 +213,7 @@ ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_ap
 ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_pending)
 ws_events.conditional_formatting.add(f"M2:M{len(master_event_rows)+10}", rule_rejected)
 
-# 3. Venues_CRM Tab
+# 3. Venues_CRM Tab (ALL 183+ VENUES)
 venue_rows = []
 for v in venues_data:
     venue_rows.append([
@@ -205,7 +227,7 @@ for v in venues_data:
         v.get("facebookUrl", ""),
         v.get("lat", "") or "",
         v.get("lng", "") or "",
-        "Verified Owner",
+        "Verified Owner" if v.get("website") else "Unclaimed",
         "Active"
     ])
 ws_venues = create_tab("3. Venues_CRM", ["Venue ID", "Venue Name", "City", "Address", "Capacity", "Type", "Website", "Facebook Page", "Latitude", "Longitude", "Claim Status", "Account Status"], venue_rows)
@@ -219,18 +241,24 @@ dv_claim_status.add(f"K2:K{len(venue_rows)+10}")
 ws_venues.add_data_validation(dv_account_status)
 dv_account_status.add(f"L2:L{len(venue_rows)+10}")
 
-# 4. Bands_Artists_CRM Tab
-bands_sample = [
-    ["36-crazyfists", "36 Crazyfists", "Heavy Metal", "Anchorage", "http://www.facebook.com/36crazyfists/events", "8DeKmZbzvV0", "Verified Artist"],
-    ["ava-earl", "Ava Earl", "Ethereal Folk", "Girdwood", "https://facebook.com/avaearl", "XOVdqLgXjQs", "Verified Artist"],
-    ["ben-swann", "Ben Swann", "Acoustic Folk Rock", "Anchorage", "https://facebook.com/benswannmusic", "QjKy6FftQ2s", "Verified Artist"],
-    ["blackwater-railroad-company", "Blackwater Railroad Company", "Americana Roots Rock", "Seward", "https://facebook.com/blackwaterrailroad", "_JHoeusskoM", "Verified Artist"],
-    ["city-in-ashes", "City In Ashes", "Metalcore", "Anchorage", "https://facebook.com/cityinashes", "wAqsNBF2uLM", "Verified Artist"],
-    ["danger-money", "Danger Money", "Pop Rock Cover Band", "Anchorage", "https://facebook.com/dangermoneyak", "NJ7KMCEeruo", "Verified Artist"],
-    ["emma-hill", "Emma Hill", "Indie Folk", "Anchorage", "https://facebook.com/emmahillmusic", "vcVt7pTL_tg", "Verified Artist"],
-    ["the-eternal-cowboys", "The Eternal Cowboys", "Country Western", "Fairbanks", "https://facebook.com/eternalcowboys", "5rf7DK4fYQo", "Verified Artist"]
-]
-ws_bands = create_tab("4. Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Facebook URL", "YouTube Video ID", "Profile Status"], bands_sample)
+# 4. Bands_Artists_CRM Tab (ALL 54+ BANDS)
+bands_rows = []
+for b in bands_data:
+    bands_rows.append([
+        b.get("slug", ""),
+        b.get("name", ""),
+        "Local Artist",
+        "Alaska",
+        b.get("description", ""),
+        b.get("facebookUrl", ""),
+        b.get("youtubeId", ""),
+        "Yes" if b.get("hasImage") else "No",
+        "Verified Artist"
+    ])
+ws_bands = create_tab("4. Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Bio Description", "Facebook URL", "YouTube Video ID", "Has Image", "Profile Status"], bands_rows)
+
+ws_bands.add_data_validation(dv_artist_status)
+dv_artist_status.add(f"I2:I{len(bands_rows)+10}")
 
 # 5. Cities_Regions Tab
 city_rows = [
@@ -300,4 +328,4 @@ dv_menu_loc.add(f"D2:D{len(settings_rows)+10}")
 for path in [output_xlsx_path, artifact_xlsx_path]:
     wb.save(path)
 
-print(f"Successfully generated Ultimate 9-Tab Master CMS/CRM Excel Workbook with Dashboard & Conditional Formatting: {output_xlsx_path}")
+print(f"Successfully updated Master CMS/CRM Excel Workbook with ALL {len(bands_data)} Bands and ALL {len(venue_rows)} Venues: {output_xlsx_path}")

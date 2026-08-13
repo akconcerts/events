@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/update_events_from_sheet.js",
+    "prebuild": "node scripts/sync_bands_and_venues.js && node scripts/update_events_from_sheet.js",
     "build": "astro build",
     "preview": "astro preview",
     "scrape:live": "node scripts/scrape_live.js",
