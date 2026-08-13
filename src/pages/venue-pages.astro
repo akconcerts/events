@@ -1,0 +1,420 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { Share2, Calendar, Ticket, Zap, ShieldCheck, MapPin, Building2, ExternalLink } from 'lucide-astro';
+---
+
+<Layout 
+  title="Why Have a Venue Page? — Partner with AK Concerts" 
+  description="Promote your venue on Alaska's #1 live music and event platform. Connect your website, social media, ticketing links, and automated event syncing."
+>
+  <SiteHeader />
+  <main class="venue-landing-page">
+    
+    <!-- Hero Section -->
+    <section class="venue-hero">
+      <div class="container hero-content">
+        <span class="hero-badge font-display">Venue Partner Program</span>
+        <h1 class="hero-title font-display">Why Have a Venue Page on AK Concerts?</h1>
+        <p class="hero-subtitle">
+          Put your live music, comedy, dance, and weekly events in front of thousands of active Alaskans every day. Boost attendance, sell out ticket runs, and build your local audience.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#register" class="btn-primary">Claim Your Venue Page</a>
+          <a href="/venues" class="btn-secondary">Browse All 183 Alaska Venues</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Benefits Grid -->
+    <section class="benefits-section container">
+      <div class="section-intro">
+        <h2 class="section-title font-display">Three Powerful Benefits for Alaska Venues</h2>
+        <p class="section-desc">Designed to reduce friction, expand reach, and drive real foot traffic through your doors.</p>
+      </div>
+
+      <div class="benefits-grid">
+        
+        <!-- Benefit 1 -->
+        <div class="benefit-card">
+          <div class="icon-box">
+            <Share2 size={24} />
+          </div>
+          <h3 class="benefit-heading font-display">Direct Links to Social Media & Website</h3>
+          <p class="benefit-text">
+            Viewers are encouraged to visit and follow your official website, Facebook, and Instagram accounts. By expanding your direct social reach, every future post you publish becomes significantly more effective.
+          </p>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="benefit-card">
+          <div class="icon-box">
+            <Calendar size={24} />
+          </div>
+          <h3 class="benefit-heading font-display">Upcoming & Recurring Event Listings</h3>
+          <p class="benefit-text">
+            The more people who know about your schedule, the better turnout you receive. Visitors come to AK Concerts specifically to discover where to go out for live music, comedy, and nightlife across Alaska.
+          </p>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="benefit-card">
+          <div class="icon-box">
+            <Ticket size={24} />
+          </div>
+          <h3 class="benefit-heading font-display">Easy Links to Your Ticketing Portal</h3>
+          <p class="benefit-text">
+            Many ticket buyers get discouraged by complicated online interfaces or lost across multiple tabs. By providing direct, friction-free links to your ticketing page, fans buy tickets immediately on impulse.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Automated Scraper Feature Highlight -->
+    <section class="sync-feature container">
+      <div class="sync-card">
+        <div class="sync-badge">
+          <Zap size={16} /> Automated Event Syncing
+        </div>
+        <h3 class="sync-title font-display">No Extra Work Required. We Sync Your Schedule Automatically.</h3>
+        <p class="sync-text">
+          Once your venue is registered, our automated scraper workers monitor your official Facebook Event page, Eventbrite account, or website calendar. Your new shows and recurring weekly nights (karaoke, open mic, jazz jams, line dancing) update automatically in our central event feed.
+        </p>
+      </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="register" class="register-section container">
+      <div class="form-wrapper">
+        <div class="form-header">
+          <span class="form-eyebrow">Get Listed Today</span>
+          <h2 class="form-title font-display">Register Your Venue Profile</h2>
+          <p class="form-sub">Fill out your venue details below to claim or request your official AK Concerts venue page.</p>
+        </div>
+
+        <form class="venue-form" onsubmit="event.preventDefault(); alert('Thank you! Your venue request has been submitted to AK Concerts.');">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="venueName">Venue Name *</label>
+              <input type="text" id="venueName" placeholder="e.g. 49th State Brewery" required />
+            </div>
+
+            <div class="form-group">
+              <label for="city">City / Region *</label>
+              <select id="city" required>
+                <option value="">Select Alaska City...</option>
+                <option value="Anchorage">Anchorage</option>
+                <option value="Fairbanks">Fairbanks</option>
+                <option value="Juneau">Juneau</option>
+                <option value="Eagle River">Eagle River</option>
+                <option value="Girdwood">Girdwood</option>
+                <option value="Homer">Homer</option>
+                <option value="Hope">Hope</option>
+                <option value="Kenai">Kenai</option>
+                <option value="Ketchikan">Ketchikan</option>
+                <option value="Palmer">Palmer</option>
+                <option value="Seward">Seward</option>
+                <option value="Soldotna">Soldotna</option>
+                <option value="Talkeetna">Talkeetna</option>
+                <option value="Wasilla">Wasilla</option>
+                <option value="Other">Other Alaska Location</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="website">Website URL</label>
+              <input type="url" id="website" placeholder="https://yourvenue.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="facebookUrl">Facebook Events Page URL *</label>
+              <input type="url" id="facebookUrl" placeholder="https://facebook.com/yourvenue/events" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contactEmail">Contact Email *</label>
+              <input type="email" id="contactEmail" placeholder="events@yourvenue.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="ticketingUrl">Official Ticketing URL</label>
+              <input type="url" id="ticketingUrl" placeholder="https://eventbrite.com/o/yourvenue" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="details">Weekly Recurring Events & Notes</label>
+            <textarea id="details" rows="3" placeholder="Describe your venue, recurring weekly nights (e.g. Open Mic Tuesdays, Live Music Fridays), capacity, or special instructions..."></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn font-display">Submit Venue Page Request →</button>
+        </form>
+      </div>
+    </section>
+
+    <Newsletter />
+  </main>
+  <SiteFooter />
+</Layout>
+
+<style>
+.venue-landing-page {
+  padding-bottom: 4rem;
+}
+
+/* Hero */
+.venue-hero {
+  padding-block: 4rem 3rem;
+  background: radial-gradient(circle at top center, rgba(212, 160, 23, 0.15), transparent 70%);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+.hero-badge {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: var(--brand-gold);
+  background: rgba(212, 160, 23, 0.1);
+  border: 1px solid rgba(212, 160, 23, 0.3);
+  padding: .375rem .875rem;
+  border-radius: 2rem;
+  margin-bottom: 1.25rem;
+}
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -.03em;
+  max-width: 800px;
+  margin-inline: auto;
+  line-height: 1.15;
+}
+@media(min-width: 640px) { .hero-title { font-size: 3.5rem; } }
+
+.hero-subtitle {
+  margin-top: 1.25rem;
+  font-size: 1.125rem;
+  color: var(--muted-foreground);
+  max-width: 680px;
+  margin-inline: auto;
+  line-height: 1.6;
+}
+.hero-cta-group {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  background: var(--brand-gold);
+  color: #000;
+  font-weight: 700;
+  padding: .875rem 1.75rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  transition: transform .15s, opacity .15s;
+}
+.btn-primary:hover { opacity: .9; transform: translateY(-1px); }
+
+.btn-secondary {
+  background: var(--secondary);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  font-weight: 600;
+  padding: .875rem 1.75rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  transition: background .15s;
+}
+.btn-secondary:hover { background: var(--card); }
+
+/* Benefits */
+.benefits-section {
+  padding-block: 4rem 2rem;
+}
+.section-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section-desc {
+  margin-top: .5rem;
+  color: var(--muted-foreground);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media(min-width: 768px) {
+  .benefits-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.benefit-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: .75rem;
+  padding: 2rem 1.5rem;
+  transition: border-color .2s, transform .2s;
+}
+.benefit-card:hover {
+  border-color: var(--brand-gold);
+  transform: translateY(-2px);
+}
+.icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: .5rem;
+  background: rgba(212, 160, 23, 0.12);
+  color: var(--brand-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.benefit-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+  line-height: 1.3;
+}
+.benefit-text {
+  font-size: .9375rem;
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}
+
+/* Sync feature */
+.sync-feature {
+  padding-block: 2rem;
+}
+.sync-card {
+  background: linear-gradient(135deg, rgba(212, 160, 23, 0.1), rgba(0, 0, 0, 0.4));
+  border: 1px solid rgba(212, 160, 23, 0.3);
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  max-width: 840px;
+  margin-inline: auto;
+}
+.sync-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--brand-gold);
+  margin-bottom: 1rem;
+}
+.sync-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+}
+.sync-text {
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}
+
+/* Register Form */
+.register-section {
+  padding-block: 4rem;
+}
+.form-wrapper {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  max-width: 720px;
+  margin-inline: auto;
+}
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-eyebrow {
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: var(--brand-gold);
+}
+.form-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: .375rem;
+}
+.form-sub {
+  color: var(--muted-foreground);
+  margin-top: .5rem;
+  font-size: .9375rem;
+}
+
+.venue-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media(min-width: 640px) {
+  .form-row { grid-template-columns: 1fr 1fr; }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .375rem;
+}
+.form-group label {
+  font-size: .8125rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+.form-group input, .form-group select, .form-group textarea {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: .375rem;
+  padding: .625rem .875rem;
+  color: var(--foreground);
+  font-family: inherit;
+  font-size: .9375rem;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  outline: none;
+  border-color: var(--brand-gold);
+}
+
+.submit-btn {
+  background: var(--brand-gold);
+  color: #000;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: .875rem;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-top: .5rem;
+  transition: opacity .15s;
+}
+.submit-btn:hover {
+  opacity: .9;
+}
+</style>

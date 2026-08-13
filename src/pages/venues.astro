@@ -3,70 +3,235 @@ import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { events } from '../data/events';
+import venuesData from '../../venues.json';
+import { ExternalLink, Building2, ChevronRight } from 'lucide-astro';
 
-const venueSet = new Map<string, { city: string; count: number }>();
+// Calculate event count per venue
+const venueCounts = new Map<string, number>();
 for (const e of events) {
-  if (!venueSet.has(e.venue)) {
-    venueSet.set(e.venue, { city: e.city, count: 0 });
-  }
-  venueSet.get(e.venue)!.count++;
+  const norm = e.venue.toLowerCase().trim();
+  venueCounts.set(norm, (venueCounts.get(norm) || 0) + 1);
 }
 
-const venues = [...venueSet.entries()]
-  .map(([name, { city, count }]) => ({ name, city, count }))
-  .sort((a, b) => a.city.localeCompare(b.city) || a.name.localeCompare(b.name));
+// Merge venuesData with event counts
+const venueMap = new Map();
+
+for (const v of venuesData) {
+  const norm = v.name.toLowerCase().trim();
+  const count = venueCounts.get(norm) || 0;
+  venueMap.set(norm, {
+    ...v,
+    count
+  });
+}
+
+// Add any missing venues from events.ts
+for (const e of events) {
+  const norm = e.venue.toLowerCase().trim();
+  if (!venueMap.has(norm)) {
+    venueMap.set(norm, {
+      id: e.venue.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      name: e.venue,
+      city: e.city,
+      website: '',
+      facebookUrl: '',
+      count: venueCounts.get(norm) || 1
+    });
+  }
+}
+
+const allVenues = [...venueMap.values()].sort((a, b) => a.city.localeCompare(b.city) || a.name.localeCompare(b.name));
 
 const cityCounts = new Map<string, number>();
-for (const v of venues) {
+for (const v of allVenues) {
   cityCounts.set(v.city, (cityCounts.get(v.city) || 0) + 1);
 }
 ---
 
-<Layout title="Alaska Music Venues — AK Concerts" description="Discover live music venues across Alaska. Bars, theaters, breweries and more from Anchorage to Fairbanks.">
+<Layout title="Alaska Music Venues — AK Concerts" description="Discover 183+ live music venues across Alaska. Bars, theaters, breweries, and outdoor stages from Anchorage to Fairbanks.">
   <SiteHeader />
   <main class="venues-page container">
-    <div class="venues-header">
-      <p class="venues-eyebrow">Places to See Live Music</p>
-      <h1 class="venues-title font-display">Alaska Venues</h1>
-      <p class="venues-sub">{venues.length} venues across {cityCounts.size} cities — and counting.</p>
+    
+    <div class="venues-header-row">
+      <div class="venues-header">
+        <p class="venues-eyebrow">Places to See Live Music</p>
+        <h1 class="venues-title font-display">Alaska Venues</h1>
+        <p class="venues-sub">{allVenues.length} registered venues across {cityCounts.size} Alaska cities.</p>
+      </div>
+
+      <!-- Venue Partner Banner Card -->
+      <div class="venue-partner-card">
+        <div class="partner-info">
+          <span class="partner-badge"><Building2 size={14} /> Venue Partner Program</span>
+          <h3 class="partner-title font-display">Are you a venue owner or event manager?</h3>
+          <p class="partner-desc">Discover why having a Venue Page on AK Concerts drives attendance, links your ticketing, and auto-syncs your events.</p>
+        </div>
+        <a href="/venue-pages" class="partner-btn font-display">Why Have a Venue Page? <ChevronRight size={16} /></a>
+      </div>
     </div>
 
     {[...cityCounts.keys()].sort().map(city => (
       <div class="venue-city-block">
         <h2 class="venue-city-name font-display">{city}</h2>
-        <div class="venue-list">
-          {venues.filter(v => v.city === city).map(v => (
-            <a 
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + ', ' + v.city + ', AK')}`}
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="venue-item"
-            >
-              <div class="venue-dot"></div>
-              <span class="venue-name">{v.name}</span>
-              <span class="venue-count">{v.count} event{v.count > 1 ? 's' : ''}</span>
-            </a>
+        <div class="venue-grid">
+          {allVenues.filter(v => v.city === city).map(v => (
+            <div class="venue-card">
+              <div class="venue-card-main">
+                <span class="venue-card-name font-display">{v.name}</span>
+                <span class="venue-card-count">{v.count} event{v.count === 1 ? '' : 's'}</span>
+              </div>
+              <div class="venue-card-links">
+                {v.website ? (
+                  <a href={v.website} target="_blank" rel="noopener noreferrer" class="v-link">
+                    Website <ExternalLink size={12} />
+                  </a>
+                ) : null}
+                {v.facebookUrl ? (
+                  <a href={v.facebookUrl} target="_blank" rel="noopener noreferrer" class="v-link v-link-fb">
+                    Facebook Events <ExternalLink size={12} />
+                  </a>
+                ) : null}
+                <a 
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + ', ' + v.city + ', AK')}`}
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="v-link v-link-map"
+                >
+                  Map
+                </a>
+              </div>
+            </div>
           ))}
         </div>
       </div>
     ))}
+
   </main>
   <SiteFooter />
 </Layout>
 
 <style>
-.venues-page{padding-top:3rem;padding-bottom:4rem}
-.venues-header{margin-bottom:2.5rem}
-.venues-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
-.venues-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em}
-@media(min-width:640px){.venues-title{font-size:3.5rem}}
-.venues-sub{margin-top:.5rem;color:var(--muted-foreground)}
-.venue-city-block{margin-bottom:2rem}
-.venue-city-name{font-size:1.125rem;font-weight:700;color:var(--brand-gold);margin-bottom:.5rem;padding-bottom:.375rem;border-bottom:1px solid var(--border)}
-.venue-list{display:flex;flex-direction:column;gap:.25rem}
-.venue-item{display:flex;align-items:center;gap:.625rem;padding:.5rem .75rem;border-radius:.375rem;font-size:.875rem}
-.venue-item:hover{background:var(--card)}
-.venue-dot{width:6px;height:6px;border-radius:50%;background:var(--brand-gold);flex-shrink:0}
-.venue-name{font-weight:500;flex:1}
-.venue-count{font-size:.75rem;color:var(--muted-foreground)}
+.venues-page { padding-block: 3rem 4rem; }
+.venues-header-row { margin-bottom: 3rem; }
+.venues-eyebrow { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; color: var(--brand-gold); margin-bottom: .5rem; }
+.venues-title { font-size: 2.5rem; font-weight: 700; letter-spacing: -.03em; }
+@media(min-width: 640px) { .venues-title { font-size: 3.5rem; } }
+.venues-sub { margin-top: .5rem; color: var(--muted-foreground); }
+
+/* Venue Partner Card */
+.venue-partner-card {
+  margin-top: 2rem;
+  background: linear-gradient(135deg, rgba(212, 160, 23, 0.12), rgba(0, 0, 0, 0.4));
+  border: 1px solid rgba(212, 160, 23, 0.3);
+  border-radius: .75rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+@media(min-width: 768px) {
+  .venue-partner-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.partner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .375rem;
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--brand-gold);
+  margin-bottom: .375rem;
+}
+.partner-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.partner-desc {
+  font-size: .875rem;
+  color: var(--muted-foreground);
+  margin-top: .25rem;
+  max-width: 600px;
+}
+.partner-btn {
+  background: var(--brand-gold);
+  color: #000;
+  font-weight: 700;
+  font-size: .875rem;
+  padding: .75rem 1.25rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .375rem;
+  white-space: nowrap;
+  transition: opacity .15s, transform .15s;
+}
+.partner-btn:hover {
+  opacity: .9;
+  transform: translateY(-1px);
+}
+
+/* City Block & Grid */
+.venue-city-block { margin-bottom: 2.5rem; }
+.venue-city-name { font-size: 1.25rem; font-weight: 700; color: var(--brand-gold); margin-bottom: .875rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .75rem;
+}
+@media(min-width: 640px) {
+  .venue-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media(min-width: 1024px) {
+  .venue-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.venue-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  padding: .875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .625rem;
+}
+.venue-card-main {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem;
+}
+.venue-card-name {
+  font-weight: 600;
+  font-size: .9375rem;
+}
+.venue-card-count {
+  font-size: .75rem;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+}
+
+.venue-card-links {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  flex-wrap: wrap;
+}
+.v-link {
+  font-size: .75rem;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+}
+.v-link:hover { color: var(--brand-gold); }
+.v-link-fb:hover { color: #1877F2; }
+.v-link-map:hover { color: var(--foreground); }
 </style>
