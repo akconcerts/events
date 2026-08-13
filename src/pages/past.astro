@@ -128,6 +128,7 @@ const formatDayHeader = (dateStr: string) => {
                     data-category={e.category}
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
+                    <span class="event-row-past-pill">PAST EVENT</span>
                     <span class="event-row-title">{e.title}</span>
                     <span class="event-row-venue-city">{e.venue} · {e.city}</span>
                     <span class="event-row-time">{formatFullTime(e.time)}</span>
@@ -158,6 +159,7 @@ const formatDayHeader = (dateStr: string) => {
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
                     <span class="event-row-date">{e.date}</span>
+                    <span class="event-row-past-pill">PAST EVENT</span>
                     <span class="event-row-title">{e.title}</span>
                     <span class="event-row-venue-city">{e.venue}</span>
                     <span class="event-row-time">{formatFullTime(e.time)}</span>
@@ -188,6 +190,7 @@ const formatDayHeader = (dateStr: string) => {
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
                     <span class="event-row-date">{e.date}</span>
+                    <span class="event-row-past-pill">PAST EVENT</span>
                     <span class="event-row-title">{e.title}</span>
                     <span class="event-row-time">{formatFullTime(e.time)}</span>
                   </a>
@@ -217,6 +220,7 @@ const formatDayHeader = (dateStr: string) => {
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
                     <span class="event-row-date">{e.date}</span>
+                    <span class="event-row-past-pill">PAST EVENT</span>
                     <span class="event-row-title">{e.title}</span>
                     <span class="event-row-venue-city">{e.venue} · {e.city}</span>
                     <span class="event-row-time">{formatFullTime(e.time)}</span>
@@ -315,13 +319,14 @@ const formatDayHeader = (dateStr: string) => {
 
 .event-row-icon{font-size:.875rem;flex-shrink:0;color:var(--brand-gold)}
 .event-row-date{font-size:.78rem;font-weight:600;color:var(--muted-foreground);min-width:5.25rem;flex-shrink:0}
+.event-row-past-pill{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:rgba(239,68,68,0.18);border:1px solid rgba(239,68,68,0.5);color:#ef4444;padding:.125rem .375rem;border-radius:.25rem;flex-shrink:0}
 .event-row-title{font-weight:700;color:#ffffff;flex:1.2;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .event-row-venue-city{font-size:0.8125rem;color:var(--muted-foreground);flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .event-row-time{font-size:0.85rem;font-weight:700;color:var(--brand-gold);flex-shrink:0;margin-left:auto}
 
 @media(max-width:767px){
   .event-row{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem;padding:.85rem 1rem;border-radius:.625rem;background:rgba(255,255,255,0.02);border:1px solid var(--border);margin-bottom:.35rem}
-  .event-row-icon,.event-row-date{order:1}
+  .event-row-icon,.event-row-date,.event-row-past-pill{order:1}
   .event-row-venue-city{display:block !important;order:2;font-size:.85rem;color:var(--muted-foreground);font-weight:500}
   .event-row-time{display:block !important;order:2;margin-left:auto;font-size:.9rem;font-weight:700;color:var(--brand-gold)}
   .event-row-title{width:100%;order:3;font-weight:800;font-size:1.05rem;margin-top:.15rem;color:#ffffff;line-height:1.35;white-space:normal}
