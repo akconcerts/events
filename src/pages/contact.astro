@@ -1,0 +1,548 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import { Mail, MapPin, Phone, Send, MessageSquare, Globe, Calendar, Heart, ShieldCheck } from 'lucide-astro';
+---
+
+<Layout 
+  title="Contact AK Concerts — Get in Touch" 
+  description="Contact AK Concerts. Reach out for general inquiries, event submission support, venue partnerships, press and advertising opportunities across Alaska."
+>
+  <SiteHeader />
+
+  <main class="contact-page">
+    <!-- Hero Header -->
+    <section class="contact-hero container">
+      <div class="contact-hero-inner">
+        <span class="contact-badge"><MessageSquare size={14} /> Get in Touch</span>
+        <h1 class="contact-title font-display">Contact <span class="text-gradient-gold">AK Concerts</span></h1>
+        <p class="contact-subtitle">
+          Have a question, feedback, or want to partner with Alaska's statewide live entertainment network? 
+          We'd love to hear from you.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <section class="contact-body container">
+      <div class="contact-grid">
+        
+        <!-- Left Column: Contact Cards & Social Hub -->
+        <div class="contact-info-col">
+          
+          <!-- Direct Contact Card -->
+          <div class="info-card">
+            <h2 class="card-heading font-display"><Mail class="icon-gold" size={20} /> Direct Contact</h2>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <div class="item-icon"><Mail size={16} /></div>
+                <div class="item-details">
+                  <span class="item-label">General & Support</span>
+                  <a href="mailto:hello@akconcerts.com" class="item-value">hello@akconcerts.com</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon"><Calendar size={16} /></div>
+                <div class="item-details">
+                  <span class="item-label">Event Submissions & Updates</span>
+                  <a href="mailto:events@akconcerts.com" class="item-value">events@akconcerts.com</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon"><Globe size={16} /></div>
+                <div class="item-details">
+                  <span class="item-label">Press & Partnerships</span>
+                  <a href="mailto:media@akconcerts.com" class="item-value">media@akconcerts.com</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon"><MapPin size={16} /></div>
+                <div class="item-details">
+                  <span class="item-label">Base Location</span>
+                  <span class="item-value">Anchorage, Alaska (Serving Statewide)</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media Hub Card -->
+          <div class="info-card">
+            <h2 class="card-heading font-display"><Globe class="icon-gold" size={20} /> Follow & Connect</h2>
+            <p class="card-desc">Join our growing community across Alaska social channels for daily show announcements and updates.</p>
+
+            <div class="social-cards-grid">
+              <a 
+                href="https://www.facebook.com/akconcerts" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-tile social-tile-fb"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                <div class="social-tile-text">
+                  <span class="tile-title">Facebook</span>
+                  <span class="tile-sub">facebook.com/akconcerts</span>
+                </div>
+              </a>
+
+              <a 
+                href="https://www.instagram.com/akconcert/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-tile social-tile-ig"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <div class="social-tile-text">
+                  <span class="tile-title">Instagram</span>
+                  <span class="tile-sub">@akconcert</span>
+                </div>
+              </a>
+
+              <a 
+                href="https://www.snapchat.com/add/akconcerts" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-tile social-tile-sc"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.046 2c-3.791 0-6.142 2.766-6.142 5.92 0 1.288.423 2.607 1.092 3.659.18.283.336.568.188.92-.128.307-.468.487-.783.568-.78.201-1.637.382-2.14.733-.312.217-.464.551-.433.916.037.433.324.776.71.979.914.481 2.274.654 3.32.748.243.022.428.217.433.461.026 1.045-.402 1.63-1.046 2.057-.286.19-.387.558-.233.864.152.302.484.472.824.417 1.222-.198 2.378-.89 3.868-.89 1.491 0 2.646.692 3.868.89.34.055.672-.115.824-.417.154-.306.053-.674-.233-.864-.644-.427-1.072-1.012-1.046-2.057.005-.244.19-.439.433-.461 1.046-.094 2.406-.267 3.32-.748.386-.203.673-.546.71-.979.031-.365-.121-.699-.433-.916-.503-.351-1.36-.532-2.14-.733-.315-.081-.655-.261-.783-.568-.148-.352.008-.637.188-.92.669-1.052 1.092-2.371 1.092-3.659 0-3.154-2.351-5.92-6.142-5.92z"/>
+                </svg>
+                <div class="social-tile-text">
+                  <span class="tile-title">Snapchat</span>
+                  <span class="tile-sub">akconcerts</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Actions Helper Block -->
+          <div class="quick-links-box">
+            <h3 class="quick-links-title">Quick Actions</h3>
+            <div class="quick-links-grid">
+              <a href="/submit" class="btn-quick-action">
+                <Calendar size={16} /> Submit an Event
+              </a>
+              <a href="/support" class="btn-quick-action">
+                <Heart size={16} /> Support AK Concerts
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Interactive Form -->
+        <div class="contact-form-col">
+          <div class="form-card">
+            <h2 class="card-heading font-display"><Send class="icon-gold" size={20} /> Send Us a Message</h2>
+            <p class="card-desc">Fill out the form below and our Alaska team will respond as soon as possible.</p>
+
+            <form id="contact-form" class="contact-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="contact-name" required placeholder="Jane Doe" class="form-input" />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Email Address <span class="required">*</span></label>
+                  <input type="email" id="contact-email" required placeholder="jane@example.com" class="form-input" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Topic / Subject <span class="required">*</span></label>
+                <select id="contact-subject" required class="form-select">
+                  <option value="" disabled selected>Select a topic...</option>
+                  <option value="general">General Question</option>
+                  <option value="event-update">Event Correction or Update</option>
+                  <option value="venue-partner">Venue Partnership</option>
+                  <option value="advertising">Advertising & Sponsorship</option>
+                  <option value="press">Press & Media</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <textarea id="contact-message" required rows="5" placeholder="Write your message here..." class="form-textarea"></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn bg-gradient-gold">
+                Send Message <Send size={16} />
+              </button>
+
+              <div id="form-feedback" class="form-feedback" style="display: none;">
+                <ShieldCheck size={18} class="text-gold" />
+                <span>Thank you! Your message has been sent. We'll get back to you shortly.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<script is:inline>
+  function handleFormSubmit() {
+    const feedback = document.getElementById('form-feedback');
+    const form = document.getElementById('contact-form');
+    if (feedback && form) {
+      feedback.style.display = 'flex';
+      form.reset();
+      setTimeout(() => {
+        feedback.style.display = 'none';
+      }, 6000);
+    }
+  }
+</script>
+
+<style>
+.contact-page {
+  padding-bottom: 4rem;
+}
+
+.contact-hero {
+  padding-block: 3.5rem 2rem;
+}
+
+.contact-hero-inner {
+  max-width: 44rem;
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brand-gold);
+  background: rgba(204, 164, 59, 0.1);
+  border: 1px solid rgba(204, 164, 59, 0.3);
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.contact-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.75rem 0;
+}
+
+@media(min-width: 640px) {
+  .contact-title { font-size: 3.5rem; }
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: var(--muted-foreground);
+  line-height: 1.5;
+}
+
+.contact-body {
+  padding-top: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media(min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.25fr;
+  }
+}
+
+/* Info Cards */
+.info-card {
+  background: #0b1019;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.icon-gold {
+  color: var(--brand-gold);
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+  margin-bottom: 1.25rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.625rem;
+  background: rgba(204, 164, 59, 0.1);
+  border: 1px solid rgba(204, 164, 59, 0.25);
+  color: var(--brand-gold);
+  flex-shrink: 0;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-foreground);
+}
+
+.item-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a.item-value:hover {
+  color: var(--brand-gold);
+}
+
+/* Social Tiles Grid */
+.social-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media(min-width: 480px) {
+  .social-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.social-tile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  padding: 0.85rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.social-tile:hover {
+  border-color: var(--brand-gold);
+  background: var(--card);
+  transform: translateY(-2px);
+}
+
+.social-tile-fb svg { color: #1877f2; }
+.social-tile-ig svg { color: #e4405f; }
+.social-tile-sc svg { color: #fffc00; }
+
+.social-tile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.tile-sub {
+  font-size: 0.72rem;
+  color: var(--muted-foreground);
+}
+
+/* Quick Links Box */
+.quick-links-box {
+  background: radial-gradient(120% 120% at 0% 0%, #162032 0%, #0b1019 100%);
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 35%, transparent);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+}
+
+.quick-links-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--brand-gold);
+  margin: 0 0 0.85rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.quick-links-grid {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-quick-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.btn-quick-action:hover {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border-color: var(--brand-gold);
+}
+
+/* Form Card */
+.form-card {
+  background: #0b1019;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media(min-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.required {
+  color: #ff6700;
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  background: rgba(10, 14, 23, 0.8);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  border-color: var(--brand-gold);
+}
+
+.form-select option {
+  background: #0b1019;
+  color: #ffffff;
+}
+
+.submit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--brand-navy);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+}
+
+.form-feedback {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(204, 164, 59, 0.1);
+  border: 1px solid var(--brand-gold);
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+</style>
