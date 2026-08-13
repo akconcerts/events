@@ -2443,7 +2443,7 @@
   },
   {
     "id": "223",
-    "title": "Sinister Suites 6p-6:30p, 6:45p-7:17p, 7:30p-8p",
+    "title": "Sinister Suites 6p-6:30p, 6:45p-7:17p,",
     "venue": "The Drift Gallery Dance Studio",
     "city": "Anchorage",
     "date": "2020-10-23",
@@ -2553,7 +2553,7 @@
   },
   {
     "id": "233",
-    "title": "Sinister Suites 5p-5:30p, 5:45p-6:15p. 6:30p-7p",
+    "title": "Sinister Suites 5p-5:30p, 5:45p-6:15p.",
     "venue": "The Drift Gallery Dance Studio",
     "city": "Anchorage",
     "date": "2020-10-25",
@@ -10528,11 +10528,11 @@
   },
   {
     "id": "958",
-    "title": "Open Mic w/ Andy Mullen 7p-",
+    "title": "Open Mic w/ Andy Mullen",
     "venue": "Fairview Inn (Talkeetna)",
     "city": "Anchorage",
     "date": "2022-08-16",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -48324,7 +48324,7 @@
   },
   {
     "id": "4394",
-    "title": "The Metropolitan Opera: The Merry Window 1p-4",
+    "title": "The Metropolitan Opera: The Merry Window",
     "venue": "The Porcupine Theater",
     "city": "Homer",
     "date": "2026-07-22",
@@ -50964,11 +50964,11 @@
   },
   {
     "id": "4634",
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
+    "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-13",
-    "time": "",
+    "time": "5p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51008,11 +51008,11 @@
   },
   {
     "id": "4638",
-    "title": "Karaoke 7p-",
+    "title": "Karaoke",
     "venue": "Broken Blender",
     "city": "Anchorage",
     "date": "2026-08-13",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51041,11 +51041,11 @@
   },
   {
     "id": "4641",
-    "title": "Ladies Night at Pink Cadillac w/ DJ Rico 7p-",
+    "title": "Ladies Night at Pink Cadillac w/ DJ Rico",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
     "date": "2026-08-13",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51140,22 +51140,22 @@
   },
   {
     "id": "4650",
-    "title": "Dance Lessons with Shufflin Country Style 8p-",
+    "title": "Dance Lessons with Shufflin Country Style",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-13",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
   },
   {
     "id": "4651",
-    "title": "Country Night w/ DJ AumanJoy 9p-",
+    "title": "Country Night w/ DJ AumanJoy",
     "venue": "3 Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-13",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51173,11 +51173,11 @@
   },
   {
     "id": "4653",
-    "title": "Karaoke with Angel 8p-",
+    "title": "Karaoke with Angel",
     "venue": "The International Hotel & Bar",
     "city": "Fairbanks",
     "date": "2026-08-13",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51283,33 +51283,33 @@
   },
   {
     "id": "4663",
-    "title": "Open Mic 9p-",
+    "title": "Open Mic",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
     "date": "2026-08-13",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
   },
   {
     "id": "4664",
-    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
     "venue": "3 The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-13",
-    "time": "",
+    "time": "5p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
   },
   {
     "id": "4665",
-    "title": "Karaoke Night 8p-",
+    "title": "Karaoke Night",
     "venue": "3 The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-13",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51470,11 +51470,11 @@
   },
   {
     "id": "4680",
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
+    "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "5p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51503,11 +51503,11 @@
   },
   {
     "id": "4683",
-    "title": "Friday Night Dance Lounge 9p-",
+    "title": "Friday Night Dance Lounge",
     "venue": "Alaska Dance Promotions",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
@@ -51525,11 +51525,11 @@
   },
   {
     "id": "4685",
-    "title": "Karaoke w/ DJ Charms 8p-",
+    "title": "Karaoke w/ DJ Charms",
     "venue": "Broken Blender",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51547,22 +51547,22 @@
   },
   {
     "id": "4687",
-    "title": "Friday Night Market 6p-",
+    "title": "Friday Night Market",
     "venue": "Glenn Square",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "6p-",
     "ticketUrl": "",
     "category": "community",
     "cost": ""
   },
   {
     "id": "4688",
-    "title": "Pop Piano Bar w/ MJ Riemann 6p-",
+    "title": "Pop Piano Bar w/ MJ Riemann",
     "venue": "Gumbo House",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "6p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51591,11 +51591,11 @@
   },
   {
     "id": "4691",
-    "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-",
+    "title": "Boots, Beer, & Ballads Country Night w/ DJ Rico",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -51613,11 +51613,11 @@
   },
   {
     "id": "4693",
-    "title": "Karaoke Night at SubZero 8p-",
+    "title": "Karaoke Night at SubZero",
     "venue": "SubZero Microlounge",
     "city": "Anchorage",
     "date": "2026-08-14",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -52174,11 +52174,11 @@
   },
   {
     "id": "4744",
-    "title": "Dance Social 7p-",
+    "title": "Dance Social",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
     "date": "2026-08-15",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
@@ -52229,11 +52229,11 @@
   },
   {
     "id": "4749",
-    "title": "Karaoke w/ DJ Charms 8p-",
+    "title": "Karaoke w/ DJ Charms",
     "venue": "Broken Blender",
     "city": "Anchorage",
     "date": "2026-08-15",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -52504,11 +52504,11 @@
   },
   {
     "id": "4774",
-    "title": "DJ Auman Joy 8p-",
+    "title": "DJ Auman Joy",
     "venue": "Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-08-15",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53098,11 +53098,11 @@
   },
   {
     "id": "4828",
-    "title": "Sunday Blues Jam w/ Rebel Blues Band 6p-",
+    "title": "Sunday Blues Jam w/ Rebel Blues Band",
     "venue": "Billiard Palace",
     "city": "Anchorage",
     "date": "2026-08-16",
-    "time": "",
+    "time": "6p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53142,22 +53142,22 @@
   },
   {
     "id": "4832",
-    "title": "Karaoke 9p-",
+    "title": "Karaoke",
     "venue": "0p-2aMad Myrna’s",
     "city": "Anchorage",
     "date": "2026-08-16",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
   },
   {
     "id": "4833",
-    "title": "All Ages Buckarooos Night 6p-",
+    "title": "All Ages Buckarooos Night",
     "venue": "2a Pink Cadillac",
     "city": "Anchorage",
     "date": "2026-08-16",
-    "time": "",
+    "time": "6p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53197,11 +53197,11 @@
   },
   {
     "id": "4837",
-    "title": "Open Mic Night 8p-",
+    "title": "Open Mic Night",
     "venue": "Van’s Dive Bar",
     "city": "Anchorage",
     "date": "2026-08-16",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53615,22 +53615,22 @@
   },
   {
     "id": "4875",
-    "title": "Two Step Tuesday w/ DJ Lele Beats 9p-",
+    "title": "Two Step Tuesday w/ DJ Lele Beats",
     "venue": "Blarney Stone",
     "city": "Anchorage",
     "date": "2026-08-18",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
   },
   {
     "id": "4876",
-    "title": "AK Rockstar Karaoke 8p-",
+    "title": "AK Rockstar Karaoke",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
     "date": "2026-08-18",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53703,11 +53703,11 @@
   },
   {
     "id": "4883",
-    "title": "Karaoke Night 7p-",
+    "title": "Karaoke Night",
     "venue": "The Cabin",
     "city": "Fairbanks",
     "date": "2026-08-18",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53879,11 +53879,11 @@
   },
   {
     "id": "4899",
-    "title": "Garden Grooves: Music in the Beer Garden 5p-",
+    "title": "Garden Grooves: Music in the Beer Garden",
     "venue": "9th State Brewery",
     "city": "Anchorage",
     "date": "2026-08-19",
-    "time": "",
+    "time": "5p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -53923,11 +53923,11 @@
   },
   {
     "id": "4903",
-    "title": "Line Dance Wednesdays 7p-",
+    "title": "Line Dance Wednesdays",
     "venue": "Pink Cadillac",
     "city": "Anchorage",
     "date": "2026-08-19",
-    "time": "",
+    "time": "7p-",
     "ticketUrl": "",
     "category": "dance",
     "cost": ""
@@ -53945,11 +53945,11 @@
   },
   {
     "id": "4905",
-    "title": "Karaoke 9p-",
+    "title": "Karaoke",
     "venue": "0p-1aVan’s Dive Bar",
     "city": "Anchorage",
     "date": "2026-08-19",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -54187,11 +54187,11 @@
   },
   {
     "id": "4927",
-    "title": "Open Mic Night 9p-",
+    "title": "Open Mic Night",
     "venue": "4 Pioneer Bar",
     "city": "Fairbanks",
     "date": "2026-08-19",
-    "time": "",
+    "time": "9p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -54473,33 +54473,33 @@
   },
   {
     "id": "4953",
-    "title": "Jazz Jam Tuesday 8p-",
+    "title": "Jazz Jam Tuesday",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-19",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
   },
   {
     "id": "4954",
-    "title": "Karaoke 8p-",
+    "title": "Karaoke",
     "venue": "Alaskan Hotel and Bar",
     "city": "Juneau",
     "date": "2026-08-19",
-    "time": "",
+    "time": "8p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
   },
   {
     "id": "4955",
-    "title": "Vinyl Afternoon's w/ Dj Roman Martinez 5p-",
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
     "venue": "The Crystal Saloon",
     "city": "Juneau",
     "date": "2026-08-19",
-    "time": "",
+    "time": "5p-",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
