@@ -11,7 +11,6 @@ import EventFilterBar from '../components/EventFilterBar.astro';
 import EventJsonLd from '../components/EventJsonLd.astro';
 import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
-import ConcertMap from '../components/ConcertMap.astro';
 import { events, cities } from '../data/events';
 import { getAlaskaTodayDate, isUpcomingEvent, isEventPast, formatFullTime, getTimeMinutes } from '../utils/date';
 
@@ -250,7 +249,6 @@ const formatCategoryName = (cat: string) => {
 
     <TrendingSection />
     <CityStrip />
-    <ConcertMap />
     <Newsletter />
   </main>
   <SiteFooter />

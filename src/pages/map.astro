@@ -1,0 +1,570 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { MapPin, Navigation, Music, Search, Layers } from 'lucide-astro';
+import venuesData from '../../venues.json';
+import eventsData from '../data/events.json';
+
+const uniqueCities = [...new Set(venuesData.map(v => v.city).filter(Boolean))].sort();
+---
+
+<Layout 
+  title="Interactive Alaska Concert Venue Map — AK Concerts" 
+  description="Explore live music venues, bars, theaters, and concert spaces across Alaska. Interactive spatial venue map for Anchorage, Fairbanks, Juneau, Kenai, and statewide."
+>
+  <SiteHeader />
+
+  <main class="map-page-main">
+    <!-- Floating Overlay Controls -->
+    <div class="map-overlay-panel">
+      <div class="map-overlay-header">
+        <div class="map-badge-wrap">
+          <span class="map-live-badge"><MapPin size={14} /> Interactive Spatial Map</span>
+          <span class="map-stats-pill"><strong>{venuesData.length}</strong> venues mapped</span>
+        </div>
+
+        <h1 class="map-page-title font-display">Alaska Concert Venue Map</h1>
+      </div>
+
+      <div class="map-controls-row">
+        <!-- Search input -->
+        <div class="map-search-wrap">
+          <Search size={16} class="search-icon" />
+          <input 
+            type="search" 
+            id="map-venue-search" 
+            placeholder="Search venue name, city, address..." 
+            autocomplete="off"
+          />
+        </div>
+
+        <!-- City filter pills -->
+        <div class="map-city-pills" id="map-city-filters">
+          <button class="city-pill active" data-city="all">All Cities ({venuesData.length})</button>
+          {uniqueCities.map((city) => {
+            const count = venuesData.filter(v => v.city === city).length;
+            return (
+              <button class="city-pill" data-city={city}>
+                {city} ({count})
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+
+    <!-- Full Screen Leaflet Container -->
+    <div class="fullscreen-map-container">
+      <div id="ak-fullscreen-leaflet-map"></div>
+    </div>
+  </main>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <script is:inline define:vars={{ venuesData, eventsData }}>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mapElement = document.getElementById('ak-fullscreen-leaflet-map');
+      if (!mapElement || typeof L === 'undefined') return;
+
+      // Center on Alaska
+      const initialLat = 61.2181;
+      const initialLng = -149.9003;
+      const initialZoom = 6;
+
+      const map = L.map('ak-fullscreen-leaflet-map', {
+        center: [initialLat, initialLng],
+        zoom: initialZoom,
+        zoomControl: false
+      });
+
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+      // Dark Mode Tile Layer
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+      }).addTo(map);
+
+      const customIcon = L.divIcon({
+        className: 'custom-venue-pin',
+        html: `<div class="pin-marker"><span class="pin-dot"></span></div>`,
+        iconSize: [26, 26],
+        iconAnchor: [13, 13]
+      });
+
+      const markers = [];
+
+      venuesData.forEach(venue => {
+        if (!venue.lat || !venue.lng) return;
+
+        const marker = L.marker([venue.lat, venue.lng], { icon: customIcon }).addTo(map);
+
+        const venueNameClean = (venue.name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const matchingEvents = (eventsData || []).filter(e => {
+          if (!e.venue) return false;
+          const eNameClean = e.venue.toLowerCase().replace(/[^a-z0-9]/g, '');
+          return eNameClean.includes(venueNameClean) || venueNameClean.includes(eNameClean);
+        }).slice(0, 6);
+
+        const citySlug = (venue.city || 'anchorage').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((venue.address || venue.name) + ', ' + venue.city + ', AK')}`;
+
+        const popupContent = `
+          <div class="venue-popup-card">
+            <div class="popup-tag">${venue.city}</div>
+            <h3 class="popup-title">${venue.name}</h3>
+            <p class="popup-address">📍 ${venue.address || venue.city}</p>
+            ${venue.capacity ? `<p class="popup-cap">⚡ Capacity: <strong>${venue.capacity}</strong> guests</p>` : ''}
+            
+            <div class="popup-btn-row">
+              <button type="button" class="popup-btn btn-events-toggle" onclick="this.parentElement.nextElementSibling.classList.toggle('open')">
+                📅 Shows (${matchingEvents.length})
+              </button>
+              ${venue.website ? `<a href="${venue.website}" target="_blank" rel="noopener" class="popup-btn btn-site">🌐 Website</a>` : ''}
+              <a href="${googleMapsUrl}" target="_blank" rel="noopener" class="popup-btn btn-nav">📍 Map</a>
+            </div>
+
+            <div class="popup-events-drawer">
+              ${matchingEvents.length > 0 ? `
+                <table class="mini-events-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Event</th>
+                      <th>Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${matchingEvents.map(e => `
+                      <tr>
+                        <td class="mini-date">${e.date}</td>
+                        <td class="mini-title">
+                          <a href="/events/${e.slug}">${e.title}</a>
+                        </td>
+                        <td class="mini-time">${(function(t){
+                          if(!t||t==='?') return 'TBA';
+                          return t.trim().replace(/:(\d{2}):\d{2}/g, ':$1').replace(/\s*-\s*/g,' - ').replace(/(\d+)(:\d+)?\s*a\b/gi,'$1$2 AM').replace(/(\d+)(:\d+)?\s*p\b/gi,'$1$2 PM').replace(/(\d+)\s*AM\b/g,'$1:00 AM').replace(/(\d+)\s*PM\b/g,'$1:00 PM').replace(/:(\d{2}):\d{2}/g,':$1');
+                        })(e.time || '')}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              ` : `
+                <p class="no-mini-events">No upcoming listed events at this venue currently.</p>
+              `}
+            </div>
+
+            <div class="popup-master-footer">
+              <a href="/cities/${citySlug}" class="popup-city-link">
+                🏙️ View All ${venue.city} Events &rarr;
+              </a>
+            </div>
+          </div>
+        `;
+
+        marker.bindPopup(popupContent);
+        marker.venueCity = venue.city || '';
+        marker.venueName = (venue.name || '').toLowerCase();
+        marker.venueAddress = (venue.address || '').toLowerCase();
+        markers.push(marker);
+      });
+
+      // City Filter Buttons Logic
+      const filterButtons = document.querySelectorAll('#map-city-filters .city-pill');
+      let currentCity = 'all';
+      let currentQuery = '';
+
+      function updateMarkersFilter() {
+        let bounds = L.latLngBounds();
+        let hasVisible = false;
+
+        markers.forEach(m => {
+          const matchCity = currentCity === 'all' || m.venueCity === currentCity;
+          const matchQuery = !currentQuery || m.venueName.includes(currentQuery) || m.venueAddress.includes(currentQuery) || m.venueCity.toLowerCase().includes(currentQuery);
+
+          if (matchCity && matchQuery) {
+            map.addLayer(m);
+            bounds.extend(m.getLatLng());
+            hasVisible = true;
+          } else {
+            map.removeLayer(m);
+          }
+        });
+
+        if (hasVisible && (currentCity !== 'all' || currentQuery)) {
+          map.fitBounds(bounds, { padding: [60, 60], maxZoom: 13 });
+        } else if (currentCity === 'all' && !currentQuery) {
+          map.setView([initialLat, initialLng], initialZoom);
+        }
+      }
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCity = btn.getAttribute('data-city') || 'all';
+          updateMarkersFilter();
+        });
+      });
+
+      // Live Venue Search Input
+      const searchInput = document.getElementById('map-venue-search');
+      searchInput?.addEventListener('input', (e) => {
+        currentQuery = (e.target.value || '').toLowerCase().trim();
+        updateMarkersFilter();
+      });
+    });
+  </script>
+</Layout>
+
+<style>
+.map-page-main {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  height: calc(100dvh - 60px);
+  overflow: hidden;
+  background: #0f172a;
+}
+
+@media(max-width: 767px) {
+  .map-page-main {
+    height: calc(100vh - 72px);
+    height: calc(100dvh - 72px);
+  }
+}
+
+/* Floating Top Overlay Panel */
+.map-overlay-panel {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  max-width: 52rem;
+  background: rgba(11, 16, 25, 0.88);
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 35%, var(--border));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.map-overlay-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.map-badge-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.map-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+}
+
+.map-stats-pill {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+.map-stats-pill strong {
+  color: var(--brand-gold);
+}
+
+.map-page-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.map-controls-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+@media(min-width: 640px) {
+  .map-controls-row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.map-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+@media(min-width: 640px) {
+  .map-search-wrap {
+    width: 16rem;
+  }
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  color: var(--brand-gold);
+  pointer-events: none;
+}
+
+.map-search-wrap input {
+  width: 100%;
+  background: rgba(10, 14, 23, 0.9);
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  color: #ffffff;
+  font-size: 0.8125rem;
+  padding: 0.45rem 0.75rem 0.45rem 2.25rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.map-search-wrap input:focus {
+  border-color: var(--brand-gold);
+}
+
+/* Scrollable City Filter Pills */
+.map-city-pills {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  scrollbar-width: thin;
+}
+
+.city-pill {
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.city-pill:hover, .city-pill.active {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border-color: var(--brand-gold);
+}
+
+/* Map Container */
+.fullscreen-map-container {
+  width: 100%;
+  height: 100%;
+}
+
+#ak-fullscreen-leaflet-map {
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+}
+
+/* Leaflet Custom Pin & Popup Styles */
+:global(.custom-venue-pin) {
+  background: transparent;
+  border: none;
+}
+
+:global(.pin-marker) {
+  width: 22px;
+  height: 22px;
+  background: var(--brand-gold);
+  border: 3px solid #0f172a;
+  border-radius: 50%;
+  box-shadow: 0 0 12px var(--brand-gold), 0 0 24px var(--brand-gold);
+  animation: pulse-pin 2s infinite;
+}
+
+@keyframes pulse-pin {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(204, 164, 59, 0.7); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(204, 164, 59, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(204, 164, 59, 0); }
+}
+
+:global(.leaflet-popup-content-wrapper) {
+  background: #0b1019 !important;
+  color: #f8fafc !important;
+  border-radius: 12px !important;
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 40%, var(--border)) !important;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+:global(.leaflet-popup-tip) {
+  background: #0b1019 !important;
+}
+
+:global(.venue-popup-card) {
+  padding: 0.35rem 0.2rem;
+  min-width: 260px;
+  max-width: 320px;
+}
+
+:global(.popup-tag) {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brand-gold);
+  margin-bottom: 0.15rem;
+}
+
+:global(.popup-title) {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 0.35rem 0;
+  color: #ffffff;
+}
+
+:global(.popup-address), :global(.popup-cap) {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin: 0.2rem 0;
+}
+
+:global(.popup-btn-row) {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+:global(.popup-btn) {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.4rem;
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+:global(.popup-btn:hover) {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border-color: var(--brand-gold);
+}
+
+:global(.btn-events-toggle) {
+  background: rgba(204, 164, 59, 0.15);
+  color: var(--brand-gold);
+  border-color: rgba(204, 164, 59, 0.4);
+}
+
+:global(.popup-events-drawer) {
+  display: none;
+  max-height: 180px;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.375rem;
+  padding: 0.35rem;
+  margin-block: 0.5rem;
+}
+
+:global(.popup-events-drawer.open) {
+  display: block;
+}
+
+:global(.mini-events-table) {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.72rem;
+}
+
+:global(.mini-events-table th) {
+  text-align: left;
+  color: var(--brand-gold);
+  font-weight: 700;
+  padding: 0.2rem 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+:global(.mini-events-table td) {
+  padding: 0.3rem 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: #cbd5e1;
+}
+
+:global(.mini-events-table td.mini-title a) {
+  color: #f1f5f9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+:global(.mini-events-table td.mini-title a:hover) {
+  color: var(--brand-gold);
+  text-decoration: underline;
+}
+
+:global(.no-mini-events) {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin: 0.35rem;
+  font-style: italic;
+}
+
+:global(.popup-master-footer) {
+  margin-top: 0.625rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+:global(.popup-city-link) {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--brand-gold);
+  text-decoration: none;
+  display: block;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  transition: background 0.15s;
+}
+
+:global(.popup-city-link:hover) {
+  background: rgba(204, 164, 59, 0.12);
+  text-decoration: underline;
+}
+</style>
