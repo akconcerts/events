@@ -1,6 +1,7 @@
 ---
 import { Calendar, MapPin, Building, Shapes } from 'lucide-astro';
 import type { events as eventsType } from '../data/events';
+import { getAlaskaTodayDate } from '../utils/date';
 
 interface Props {
   events: typeof eventsType;
@@ -9,8 +10,13 @@ interface Props {
 
 const { events: propEvents, showTimelineFilter = true } = Astro.props;
 
+const currentDate = getAlaskaTodayDate();
+
 const cities = [...new Set(propEvents.map(e => e.city))].sort();
-const dates = [...new Set(propEvents.map(e => e.date))].sort();
+// Only include today and future dates in current events date dropdown
+const dates = [...new Set(propEvents.map(e => e.date))]
+  .filter(d => d >= currentDate)
+  .sort();
 const venues = [...new Set(propEvents.map(e => e.venue))].sort();
 const categories = [...new Set(propEvents.map(e => e.category))].sort();
 ---
@@ -80,16 +86,34 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 </div>
 
 <script>
-  // Helper to format date in local YYYY-MM-DD
-  const getLocalDateString = () => {
-    const d = new Date();
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${y}-${m}-${day}`;
+  // Helper to format date in exact Alaska Time (America/Anchorage) YYYY-MM-DD
+  const getAlaskaTodayDate = () => {
+    try {
+      const formatter = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Anchorage',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      });
+      return formatter.format(new Date());
+    } catch (e) {
+      const d = new Date();
+      d.setHours(d.getHours() - 8);
+      return d.toISOString().slice(0, 10);
+    }
   };
 
-  const todayStr = getLocalDateString();
+  const todayStr = getAlaskaTodayDate();
+
+  // Remove any past dates from the date dropdown selector
+  const dateSelect = document.getElementById('filter-date') as HTMLSelectElement | null;
+  if (dateSelect) {
+    Array.from(dateSelect.options).forEach(opt => {
+      if (opt.value !== 'all' && opt.value < todayStr) {
+        opt.remove();
+      }
+    });
+  }
 
   function applyFilters() {
     const city = (document.getElementById('filter-city') as HTMLSelectElement).value;

@@ -11,11 +11,12 @@ import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import ConcertMap from '../components/ConcertMap.astro';
 import { events, cities } from '../data/events';
+import { getAlaskaTodayDate, getAlaskaDaysAgoDate, isEventPast } from '../utils/date';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
-const sevenDaysAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
-const currentDate = new Date().toISOString().slice(0, 10);
+const sevenDaysAgo = getAlaskaDaysAgoDate(7);
+const currentDate = getAlaskaTodayDate();
 const upcomingEvents = events.filter(e => e.date >= sevenDaysAgo);
 
 const sortedEvents = [...upcomingEvents].sort((a, b) => {
@@ -105,7 +106,7 @@ const formatCategoryName = (cat: string) => {
                 >
                   <span class="event-row-icon"><Icon size={14} /></span>
                   <span class="event-row-date">{e.date}</span>
-                  {e.date < currentDate && <span class="event-row-past-pill">PAST EVENT</span>}
+                  {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
                   <span class="event-row-city-pill">{e.city}</span>
                   <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                   <span class="event-row-sep">—</span>
@@ -198,7 +199,7 @@ const formatCategoryName = (cat: string) => {
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
                     <span class="event-row-date">{e.date}</span>
-                    {e.date < currentDate && <span class="event-row-past-pill">PAST EVENT</span>}
+                    {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
                     <span class="event-row-city-pill">{e.city}</span>
                     <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                     <span class="event-row-sep">—</span>
@@ -240,31 +241,83 @@ const formatCategoryName = (cat: string) => {
 }
 </style>
 
-<script>
-  // Client-side date safeguard: hide any events that have passed since the last static build
-  const getLocalDateString = () => {
-    const d = new Date();
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${y}-${m}-${day}`;
-  };
+<script is:inline>
+  (function() {
+    function updateAlaskaTimeAwareness() {
+      try {
+        // Exact Alaska Date (YYYY-MM-DD)
+        var alaskaDateFormatter = new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'America/Anchorage',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
+        });
+        var alaskaToday = alaskaDateFormatter.format(new Date());
 
-  const clientToday = getLocalDateString();
+        // Exact Alaska Time (24h format)
+        var alaskaTimeFormatter = new Intl.DateTimeFormat('en-US', {
+          timeZone: 'America/Anchorage',
+          hour: 'numeric',
+          minute: 'numeric',
+          hour12: false
+        });
+        var curTimeStr = alaskaTimeFormatter.format(new Date());
+        var curParts = curTimeStr.split(':');
+        var curMinutes = parseInt(curParts[0], 10) * 60 + parseInt(curParts[1], 10);
 
-  document.querySelectorAll('.event-row').forEach(row => {
-    const el = row as HTMLElement;
-    if (el.dataset.date && el.dataset.date < clientToday) {
-      el.style.display = 'none';
+        document.querySelectorAll('.event-row').forEach(function(row) {
+          var date = row.getAttribute('data-date');
+          var pastPill = row.querySelector('.event-row-past-pill');
+          if (!date) return;
+
+          var isPast = false;
+          if (date < alaskaToday) {
+            isPast = true;
+          } else if (date === alaskaToday) {
+            var timeElem = row.querySelector('.event-row-time');
+            var rawTime = timeElem ? timeElem.textContent.trim() : '';
+            if (rawTime) {
+              var match = rawTime.match(/(?:-\s*)?(\d{1,2})(?::(\d{2}))?\s*(a|p|am|pm)?\s*$/i);
+              if (match) {
+                var hour = parseInt(match[1], 10);
+                var min = match[2] ? parseInt(match[2], 10) : 0;
+                var ampm = (match[3] || '').toLowerCase();
+                if (ampm.indexOf('p') === 0 && hour < 12) hour += 12;
+                if (ampm.indexOf('a') === 0 && hour === 12) hour = 0;
+                var endMinutes = hour * 60 + min;
+                if (hour < 5 && rawTime.toLowerCase().indexOf('p') !== -1) {
+                  endMinutes += 24 * 60;
+                }
+                if (curMinutes > endMinutes) {
+                  isPast = true;
+                }
+              }
+            }
+          }
+
+          if (isPast) {
+            if (!pastPill) {
+              var cityPill = row.querySelector('.event-row-city-pill');
+              if (cityPill) {
+                var newPill = document.createElement('span');
+                newPill.className = 'event-row-past-pill';
+                newPill.textContent = 'PAST EVENT';
+                cityPill.parentNode.insertBefore(newPill, cityPill);
+              }
+            }
+          } else {
+            if (pastPill) {
+              pastPill.remove();
+            }
+          }
+        });
+      } catch(e) {}
     }
-  });
 
-  // Hide any group blocks that now contain zero visible events
-  document.querySelectorAll('.group-block').forEach(block => {
-    const el = block as HTMLElement;
-    const visibleEvents = el.querySelectorAll('.event-row:not([style*="display: none"])');
-    if (visibleEvents.length === 0) {
-      el.style.display = 'none';
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateAlaskaTimeAwareness);
+    } else {
+      updateAlaskaTimeAwareness();
     }
-  });
+  })();
 </script>

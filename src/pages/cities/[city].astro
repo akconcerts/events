@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { events, getEventsByCity } from '../../data/events';
+import { getAlaskaTodayDate, isEventPast } from '../../utils/date';
 import EventJsonLd from '../../components/EventJsonLd.astro';
 import EventFilterBar from '../../components/EventFilterBar.astro';
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
@@ -76,7 +77,7 @@ const formatCategoryName = (cat: string) => {
   };
   return names[cat] || cat;
 };
-const currentDate = new Date().toISOString().slice(0, 10);
+const currentDate = getAlaskaTodayDate();
 ---
 
 <Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska.`}>
@@ -109,7 +110,7 @@ const currentDate = new Date().toISOString().slice(0, 10);
               >
                 <span class="event-row-icon"><Icon size={14} /></span>
                 <span class="event-row-date">{e.date}</span>
-                {e.date < currentDate && <span class="event-row-past-pill">PAST EVENT</span>}
+                {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
                 <span class="event-row-city-pill">{e.city}</span>
                 <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                 <span class="event-row-sep">—</span>

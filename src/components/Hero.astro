@@ -1,5 +1,6 @@
 ---
 import { events, cities } from '../data/events';
+import { getAlaskaDaysAgoDate, getAlaskaDaysAheadDate } from '../utils/date';
 
 const heroImages = [
   '/images/hero/hero-01.webp',
@@ -25,8 +26,8 @@ const heroImages = [
 ];
 
 const defaultHero = '/images/hero/hero-20.webp';
-const sevenDaysAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
-const sevenDaysAhead = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
+const sevenDaysAgo = getAlaskaDaysAgoDate(7);
+const sevenDaysAhead = getAlaskaDaysAheadDate(7);
 const eventsThisWeek = events.filter(e => e.date >= sevenDaysAgo && e.date <= sevenDaysAhead).length;
 ---
 
