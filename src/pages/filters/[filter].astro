@@ -21,6 +21,9 @@ export function getStaticPaths() {
     { params: { filter: 'winter-series' }, props: { name: 'Winter Series', description: 'Winter event series and indoor specials.', filterFn: (e: any) => false } },
     { params: { filter: 'all-ages' }, props: { name: 'All Ages Events', description: 'Family-friendly and all-ages events across Alaska.', filterFn: (e: any) => e.title.toLowerCase().includes('all ages') || e.category === 'community' || e.category === 'festival' } },
     { params: { filter: '21-plus' }, props: { name: '21+ Nightlife', description: '21+ concerts, bars, and nightlife across Alaska.', filterFn: (e: any) => !e.title.toLowerCase().includes('all ages') && (e.category === 'music' || e.category === 'comedy') } },
+    { params: { filter: 'kenai-peninsula' }, props: { name: 'Kenai Peninsula Events', description: 'Concerts and events across Homer, Kenai, Soldotna, Seward, and Hope.', filterFn: (e: any) => ['Kenai', 'Soldotna', 'Homer', 'Seward', 'Cooper Landing', 'Hope', 'Seldovia'].includes(e.city) } },
+    { params: { filter: 'mat-su-valley' }, props: { name: 'Mat-Su Valley Events', description: 'Live shows and events across Palmer, Wasilla, and Talkeetna.', filterFn: (e: any) => ['Palmer', 'Wasilla', 'Talkeetna', 'Hatcher Pass'].includes(e.city) } },
+    { params: { filter: 'southeast-alaska' }, props: { name: 'Southeast Alaska Events', description: 'Live entertainment across Juneau, Sitka, Ketchikan, and Skagway.', filterFn: (e: any) => ['Juneau', 'Sitka', 'Ketchikan', 'Skagway', 'Haines', 'Cordova'].includes(e.city) } },
   ];
 }
 

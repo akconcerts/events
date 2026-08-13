@@ -1,0 +1,94 @@
+---
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  title?: string;
+  items: FaqItem[];
+}
+
+const { title = "Frequently Asked Questions", items } = Astro.props;
+---
+
+<section class="faq-section">
+  <div class="faq-header">
+    <span class="faq-eyebrow">Answer Engine Optimization</span>
+    <h2 class="faq-title font-display">{title}</h2>
+  </div>
+
+  <div class="faq-grid">
+    {items.map((item, index) => (
+      <div class="faq-card">
+        <h3 class="faq-question font-display">❓ {item.question}</h3>
+        <p class="faq-answer">{item.answer}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+.faq-section {
+  margin-block: 3.5rem 2rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.faq-header {
+  margin-bottom: 1.75rem;
+}
+
+.faq-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--brand-gold);
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.faq-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media (min-width: 768px) {
+  .faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.faq-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  padding: 1.25rem;
+}
+
+.faq-question {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--brand-gold);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.35;
+}
+
+.faq-answer {
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+  line-height: 1.6;
+  margin: 0;
+}
+</style>

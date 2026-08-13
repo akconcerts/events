@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { events, getEventsByCity } from '../../data/events';
 import { getAlaskaTodayDate, isEventPast, formatFullTime } from '../../utils/date';
 import EventJsonLd from '../../components/EventJsonLd.astro';
@@ -250,6 +251,24 @@ const faqSchema = {
         </div>
       ))}
     </div>
+
+    <FaqSection 
+      title={`${city} Concerts & Nightlife FAQ`}
+      items={[
+        {
+          question: `Where can I see live music in ${city}, Alaska?`,
+          answer: `${city} features regular live performances across ${sortedVenues.length} local venues including ${sortedVenues.slice(0, 3).join(', ')}. Check AK Concerts for daily updated schedules.`
+        },
+        {
+          question: `How many upcoming concerts are listed in ${city}?`,
+          answer: `There are currently ${cityEvents.length} events scheduled in ${city}, Alaska on AK Concerts.`
+        },
+        {
+          question: `Are there free live music events in ${city}?`,
+          answer: `Yes! Local breweries, community parks, and markets in ${city} frequently host free live performances and open mic nights.`
+        }
+      ]}
+    />
 
   </main>
   <SiteFooter />
