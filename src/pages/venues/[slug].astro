@@ -77,9 +77,66 @@ const upcomingEvents = venueEvents.filter(e => e.date >= todayDate).sort((a, b) 
 const pastEvents = venueEvents.filter(e => e.date < todayDate).sort((a, b) => b.date.localeCompare(a.date));
 
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venue.address || (venue.name + ', ' + venue.city + ', AK'))}`;
+
+const musicVenueSchema = {
+  "@context": "https://schema.org",
+  "@type": "MusicVenue",
+  "name": venue.name,
+  "url": `https://akconcerts.com/venues/${venue.slug}`,
+  "sameAs": venue.website || undefined,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": venue.address,
+    "addressLocality": venue.city,
+    "addressRegion": "AK",
+    "addressCountry": "US"
+  },
+  "geo": venue.lat ? {
+    "@type": "GeoCoordinates",
+    "latitude": venue.lat,
+    "longitude": venue.lng
+  } : undefined,
+  "maximumAttendeeCapacity": venue.capacity || undefined
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://akconcerts.com" },
+    { "@type": "ListItem", "position": 2, "name": "Venues", "item": "https://akconcerts.com/venues" },
+    { "@type": "ListItem", "position": 3, "name": venue.name, "item": `https://akconcerts.com/venues/${venue.slug}` }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `What is the address for ${venue.name} in ${venue.city}, Alaska?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${venue.name} is located at ${venue.address || venue.name + ', ' + venue.city + ', AK'}.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How many upcoming live shows are scheduled at ${venue.name}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `There are currently ${upcomingEvents.length} upcoming shows scheduled at ${venue.name} in ${venue.city}, Alaska.`
+      }
+    }
+  ]
+};
 ---
 
-<Layout title={`${venue.name} — Live Music Venue in ${venue.city}, AK`} description={`Explore live music, concerts, and events at ${venue.name} in ${venue.city}, Alaska.`}>
+<Layout title={`${venue.name} — Live Music Venue in ${venue.city}, AK`} description={`Explore live music, concerts, and events at ${venue.name} in ${venue.city}, Alaska. View ${upcomingEvents.length} upcoming shows.`}>
+  <script type="application/ld+json" set:html={JSON.stringify(musicVenueSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <SiteHeader />
   <main class="venue-detail-page container">
     

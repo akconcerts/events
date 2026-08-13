@@ -6,12 +6,34 @@ import MobileNavFloor from '../components/MobileNavFloor.astro';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
 }
 
 const {
-  title = "AK Concerts — Alaska's Live Music & Events",
-  description = "Alaska's statewide live music, comedy and festival calendar. Anchorage, Fairbanks, Juneau and beyond — curated daily.",
+  title = "AK Concerts — Alaska's Premier Live Music & Events Calendar",
+  description = "Discover live concerts, music festivals, comedy shows, and events across Anchorage, Fairbanks, Juneau, Homer, and all of Alaska.",
+  image = "https://akconcerts.com/images/og-default.jpg",
 } = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, "https://akconcerts.com").href;
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AK Concerts",
+  "url": "https://akconcerts.com",
+  "logo": "https://akconcerts.com/favicon.svg",
+  "description": "Alaska's statewide live music, concert, and entertainment network.",
+  "sameAs": [
+    "https://facebook.com/akconcerts",
+    "https://instagram.com/akconcerts"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressState": "AK",
+    "addressCountry": "US"
+  }
+};
 ---
 <!doctype html>
 <html lang="en" data-theme="system">
@@ -20,11 +42,25 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta property="og:title" content="AK Concerts" />
-    <meta property="og:description" content="Alaska's live entertainment network." />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- OpenGraph SEO -->
+    <meta property="og:site_name" content="AK Concerts" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content={image} />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card SEO -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
   </head>
   <body>
     <A11yPanel />

@@ -19,6 +19,8 @@ export function getStaticPaths() {
     { params: { filter: 'free-events' }, props: { name: 'Free Events', description: 'Free entry events and community gatherings.', filterFn: (e: any) => e.category === 'community' } },
     { params: { filter: 'touring-ak' }, props: { name: 'Touring AK', description: 'Major touring acts performing in Alaska.', filterFn: (e: any) => e.category === 'music' || e.category === 'comedy' } },
     { params: { filter: 'winter-series' }, props: { name: 'Winter Series', description: 'Winter event series and indoor specials.', filterFn: (e: any) => false } },
+    { params: { filter: 'all-ages' }, props: { name: 'All Ages Events', description: 'Family-friendly and all-ages events across Alaska.', filterFn: (e: any) => e.title.toLowerCase().includes('all ages') || e.category === 'community' || e.category === 'festival' } },
+    { params: { filter: '21-plus' }, props: { name: '21+ Nightlife', description: '21+ concerts, bars, and nightlife across Alaska.', filterFn: (e: any) => !e.title.toLowerCase().includes('all ages') && (e.category === 'music' || e.category === 'comedy') } },
   ];
 }
 

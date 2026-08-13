@@ -99,10 +99,37 @@ const jsonLd = {
     "address": { "@type": "PostalAddress", "addressRegion": "AK", "addressCountry": "US" }
   }
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://akconcerts.com" },
+    { "@type": "ListItem", "position": 2, "name": "Bands", "item": "https://akconcerts.com/bands" },
+    { "@type": "ListItem", "position": 3, "name": band.name, "item": `https://akconcerts.com/bands/${band.slug}` }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `Is ${band.name} performing live in Alaska?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${band.name} is an Alaska-featured artist with ${upcomingEvents.length} upcoming shows and ${bandEvents.length} total listed gigs across ${citiesPlayed.length} Alaska communities.`
+      }
+    }
+  ]
+};
 ---
 
 <Layout title={`${band.name} — Alaska Artist Profile & Tour Dates — AK Concerts`} description={band.description || `${band.name} — Alaska local artist. View upcoming concert dates, venues, videos, and music profile.`}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <EventJsonLd events={bandEvents} />
   <SiteHeader />
 

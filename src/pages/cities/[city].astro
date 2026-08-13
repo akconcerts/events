@@ -78,9 +78,44 @@ const formatCategoryName = (cat: string) => {
   return names[cat] || cat;
 };
 const currentDate = getAlaskaTodayDate();
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://akconcerts.com" },
+    { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://akconcerts.com/cities" },
+    { "@type": "ListItem", "position": 3, "name": city, "item": `https://akconcerts.com/cities/${Astro.params.city}` }
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `Where can I see live music in ${city}, Alaska?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${city} features live music across ${sortedVenues.length} local venues including ${sortedVenues.slice(0, 3).join(', ')}. Check AK Concerts for real-time daily schedules.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `How many upcoming concerts are listed in ${city}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `There are currently ${cityEvents.length} events listed in ${city}, Alaska on AK Concerts.`
+      }
+    }
+  ]
+};
 ---
 
-<Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska.`}>
+<Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska. View ${cityEvents.length} upcoming shows across ${sortedVenues.length} venues.`}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <EventJsonLd events={cityEvents} />
   <SiteHeader />
   <main class="city-page container">
