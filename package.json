@@ -21,6 +21,7 @@
     "update-all": "node scripts/run_all_workers.js"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@lucide/astro": "^1.14.0",
     "astro": "^5.9.3",
     "cheerio": "^1.2.0",

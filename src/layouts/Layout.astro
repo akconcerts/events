@@ -15,24 +15,88 @@ const {
   image = "https://akconcerts.com/images/og-default.jpg",
 } = Astro.props;
 
-const canonicalUrl = new URL(Astro.url.pathname, "https://akconcerts.com").href;
+const siteUrl = "https://akconcerts.com";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 
 const orgJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "AK Concerts",
-  "url": "https://akconcerts.com",
-  "logo": "https://akconcerts.com/favicon.svg",
-  "description": "Alaska's statewide live music, concert, and entertainment network.",
-  "sameAs": [
-    "https://facebook.com/akconcerts",
-    "https://instagram.com/akconcerts"
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressState": "AK",
-    "addressCountry": "US"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      "name": "AK Concerts",
+      "legalName": "AK Concerts LLC",
+      "url": siteUrl,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${siteUrl}/images/logo.png`,
+        "caption": "AK Concerts Logo"
+      },
+      "description": "The statewide source of truth for live music, comedy, festivals, and events across Alaska.",
+      "email": "hello@akconcerts.com",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Alaska",
+        "sameAs": "https://en.wikipedia.org/wiki/Alaska"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Anchorage",
+        "addressRegion": "AK",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/akconcerts",
+        "https://www.instagram.com/akconcert/",
+        "https://www.snapchat.com/add/akconcerts"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      "url": siteUrl,
+      "name": "AK Concerts",
+      "description": "Alaska's Premier Live Music & Events Directory",
+      "publisher": {
+        "@id": `${siteUrl}/#organization`
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": `${siteUrl}/?search={search_term_string}`,
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${siteUrl}/#faq`,
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AK Concerts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AK Concerts is Alaska's official statewide live entertainment directory, providing daily curated concert schedules, festival listings, comedy shows, and venue guides across Anchorage, Fairbanks, Juneau, Kenai Peninsula, Wasilla, Seward, and beyond."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find live music in Alaska tonight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can find tonight's live music and concert listings on AK Concerts (akconcerts.com), updated daily with real-time show times, venue locations, band details, and direct ticket links."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I submit an event to AK Concerts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bands, venues, and event organizers can submit upcoming Alaska live events directly at akconcerts.com/submit."
+          }
+        }
+      ]
+    }
+  ]
 };
 ---
 <!doctype html>
@@ -43,6 +107,15 @@ const orgJsonLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Robots & Generative Engine Indexing -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Geo Targeting Meta Tags (Alaska) -->
+    <meta name="geo.region" content="US-AK" />
+    <meta name="geo.placename" content="Anchorage, Alaska" />
+    <meta name="geo.position" content="61.2181;-149.9003" />
+    <meta name="ICBM" content="61.2181, -149.9003" />
 
     <!-- OpenGraph SEO -->
     <meta property="og:site_name" content="AK Concerts" />
