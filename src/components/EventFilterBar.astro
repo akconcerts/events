@@ -77,11 +77,14 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     </div>
   </div>
 
-  <div class="view-toggles">
-    <button class="view-toggle active" data-view="date" aria-label="Sort by Date" title="Sort by Date"><Calendar size={20} /></button>
-    <button class="view-toggle" data-view="city" aria-label="Group by City" title="Group by City"><MapPin size={20} /></button>
-    <button class="view-toggle" data-view="venue" aria-label="Group by Venue" title="Group by Venue"><Building size={20} /></button>
-    <button class="view-toggle" data-view="category" aria-label="Group by Category" title="Group by Category"><Shapes size={20} /></button>
+  <div class="view-toggles-wrapper">
+    <div class="view-label-badge" id="view-label-badge">Date View</div>
+    <div class="view-toggles">
+      <button class="view-toggle active" data-view="date" data-label="Date View" aria-label="Sort by Date" title="Sort by Date"><Calendar size={18} /></button>
+      <button class="view-toggle" data-view="city" data-label="City View" aria-label="Group by City" title="Group by City"><MapPin size={18} /></button>
+      <button class="view-toggle" data-view="venue" data-label="Venue View" aria-label="Group by Venue" title="Group by Venue"><Building size={18} /></button>
+      <button class="view-toggle" data-view="category" data-label="Type View" aria-label="Group by Category" title="Group by Category"><Shapes size={18} /></button>
+    </div>
   </div>
 </div>
 
@@ -201,13 +204,20 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 
   // View Mode Toggles
   const toggles = document.querySelectorAll('.view-toggle');
+  const labelBadge = document.getElementById('view-label-badge');
+
   toggles.forEach(btn => {
     btn.addEventListener('click', (e) => {
       toggles.forEach(t => t.classList.remove('active'));
       const target = e.currentTarget as HTMLElement;
       target.classList.add('active');
       const viewMode = target.dataset.view;
+      const labelText = target.dataset.label;
       
+      if (labelBadge && labelText) {
+        labelBadge.textContent = labelText;
+      }
+
       document.querySelectorAll('.events-view-container').forEach(container => {
         (container as HTMLElement).style.display = 'none';
       });
@@ -286,110 +296,69 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   border-color: var(--brand-gold);
 }
 
-.view-toggles {
+.view-toggles-wrapper {
   display: flex;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: .5rem;
-  overflow: hidden;
-  height: max-content;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
 }
 
-@media (min-width: 640px) {
-  .view-toggles {
-    display: grid;
-    grid-template-columns: repeat(2, 2.75rem);
-    grid-template-rows: repeat(2, 2.75rem);
-    border-radius: .75rem;
-    width: max-content;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  }
+.view-label-badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brand-gold);
+  background: rgba(204, 164, 59, 0.12);
+  border: 1px solid rgba(204, 164, 59, 0.3);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.view-toggles {
+  display: grid;
+  grid-template-columns: repeat(2, 2.6rem);
+  grid-template-rows: repeat(2, 2.6rem);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 
 .view-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .75rem 1rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0;
   color: var(--muted-foreground);
   background: transparent;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
   border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   cursor: pointer;
-  gap: 0.35rem;
+  transition: all 0.2s ease;
 }
 
-.view-toggle-label {
-  display: none;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+.view-toggle:nth-child(2n) {
+  border-right: none;
 }
 
-@media (max-width: 639px) {
-  .view-toggle.active .view-toggle-label {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 640px) {
-  .view-toggle {
-    padding: 0;
-    width: 2.75rem;
-    height: 2.75rem;
-    border-right: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-  }
-  .view-toggle:nth-child(2n) {
-    border-right: none !important;
-  }
-  .view-toggle:nth-child(3),
-  .view-toggle:nth-child(4) {
-    border-bottom: none !important;
-  }
-
-  /* Active 2-cube expansion + label + hide inactive row neighbor */
-  .view-toggle.active {
-    grid-column: span 2;
-    width: 5.5rem;
-    background: var(--brand-gold);
-    color: var(--brand-navy);
-    justify-content: center;
-    border-right: 1px solid var(--border) !important;
-  }
-
-  .view-toggle.active .view-toggle-label {
-    display: inline-block;
-  }
-
-  /* Row 1: If Date (item 1) active -> hide City (item 2) */
-  .view-toggle[data-view="date"].active ~ .view-toggle[data-view="city"] {
-    display: none !important;
-  }
-
-  /* Row 1: If City (item 2) active -> hide Date (item 1) */
-  .view-toggles:has(.view-toggle[data-view="city"].active) .view-toggle[data-view="date"] {
-    display: none !important;
-  }
-
-  /* Row 2: If Venue (item 3) active -> hide Type (item 4) */
-  .view-toggle[data-view="venue"].active ~ .view-toggle[data-view="category"] {
-    display: none !important;
-  }
-
-  /* Row 2: If Type (item 4) active -> hide Venue (item 3) */
-  .view-toggles:has(.view-toggle[data-view="category"].active) .view-toggle[data-view="venue"] {
-    display: none !important;
-  }
+.view-toggle:nth-child(3),
+.view-toggle:nth-child(4) {
+  border-bottom: none;
 }
 
 .view-toggle:hover {
   background: var(--secondary);
   color: var(--foreground);
 }
-.view-toggle.active:hover {
-  background: var(--brand-gold);
-  color: var(--brand-navy);
+
+.view-toggle.active {
+  background: var(--brand-gold) !important;
+  color: var(--brand-navy) !important;
+  font-weight: 700;
 }
 </style>
