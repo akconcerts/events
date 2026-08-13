@@ -1,13 +1,13 @@
 [
   {
     "id": "4601",
-    "date": "2026-08-11",
-    "city": "Willow",
-    "venue": "Willow Community Center",
-    "category": "music",
     "title": "Meet & Greet w/ West Susitna Development",
+    "venue": "Willow Community Center",
+    "city": "Willow",
+    "date": "2026-08-11",
     "time": "5p-8p",
     "ticketUrl": "https://www.facebook.com/events/1540167107544454/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
     "cost": ""
   }
 ]

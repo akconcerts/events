@@ -1,11 +1,11 @@
 {
-  "totalEvents": 5030,
+  "totalEvents": 5032,
   "timeframe": {
     "earliestDate": "2019-11-14",
     "latestDate": "2026-08-26"
   },
   "cities": {
-    "Anchorage": 2890,
+    "Anchorage": 2892,
     "Eagle River": 1068,
     "Cooper Landing": 23,
     "Wasilla": 71,
@@ -40,7 +40,7 @@
     "Sitka": 4
   },
   "categories": {
-    "music": 4260,
+    "music": 4262,
     "dance": 259,
     "theatre": 50,
     "festival": 128,
@@ -50,11 +50,11 @@
   "topVenues": {
     "Koot’s": 292,
     "Van’s Dive Bar": 160,
+    "Williwaw Social": 118,
     "The Carousel Lounge": 116,
     "Yukon Bar": 116,
     "Four Corner’s Lounge": 107,
     "The Crystal Saloon": 105,
-    "Williwaw Social": 99,
     "Pioneer Bar": 87,
     "Mad Myrna’s": 81,
     "Fairview Inn": 71,
@@ -64,5 +64,5 @@
     "Humpy’s": 58,
     "The Cabin": 57
   },
-  "lastUpdated": "2026-08-13T03:10:19.656Z"
+  "lastUpdated": "2026-08-13T04:13:07.669Z"
 }

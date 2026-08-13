@@ -1,13 +1,13 @@
 [
   {
     "id": "4329",
-    "date": "2026-07-20",
-    "city": "Bethel",
-    "venue": "Kuskokwim Consortium Library",
-    "category": "music",
     "title": "Toddler Time",
+    "venue": "Kuskokwim Consortium Library",
+    "city": "Bethel",
+    "date": "2026-07-20",
     "time": "11a-12p",
     "ticketUrl": "https://www.facebook.com/events/1988217601791631/1988217631791628/?active_tab=about",
+    "category": "music",
     "cost": ""
   }
 ]

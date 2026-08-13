@@ -1,13 +1,13 @@
 [
   {
     "id": "4386",
-    "date": "2026-07-22",
-    "city": "Cordova",
-    "venue": "Cordova Public Library",
-    "category": "community",
     "title": "Summer Reading Program",
+    "venue": "Cordova Public Library",
+    "city": "Cordova",
+    "date": "2026-07-22",
     "time": "1p-2:30p",
     "ticketUrl": "https://www.facebook.com/events/27438069035811649/27438069075811645/?active_tab=about",
+    "category": "community",
     "cost": ""
   }
 ]

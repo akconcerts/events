@@ -71,7 +71,7 @@
   },
   {
     "title": "Holiday Karaoke Competition",
-    "venue": "Koots",
+    "venue": "Koot's",
     "city": "Anchorage",
     "date": "2019-11-14",
     "time": "7p-10p",
@@ -82,6 +82,16 @@
   {
     "title": "AK Acoustic Projekt",
     "venue": "Tailgaters Sports Bar & Grill (Wasilla)",
+    "city": "Anchorage",
+    "date": "2019-11-14",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Holiday Karaoke Competition",
+    "venue": "Koots",
     "city": "Anchorage",
     "date": "2019-11-14",
     "time": "7p-10p",
@@ -241,6 +251,16 @@
   },
   {
     "title": "Onsie Party with DJ Fan Service",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2019-11-15",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Onsie Party with DJ Fan Service",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2019-11-15",
@@ -375,6 +395,16 @@
     "city": "Anchorage",
     "date": "2019-11-15",
     "time": "7:30p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cousin Curtiss & Harrison B",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2019-11-15",
+    "time": "7p-10p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -951,6 +981,16 @@
   },
   {
     "title": "2010-2019 Video Dance Partyw/ DJ Spencer Lee",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2019-11-16",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "2010-2019 Video Dance Partyw/ DJ Spencer Lee",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2019-11-16",
@@ -1471,6 +1511,16 @@
   },
   {
     "title": "Dance Party with DJ Fan Service",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-06-26",
+    "time": "9:30p-1:30a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Dance Party with DJ Fan Service",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2020-06-26",
@@ -1482,6 +1532,16 @@
   {
     "title": "The Stack Alaska",
     "venue": "Garcia’s Cantina & Café (Eagle River)",
+    "city": "Anchorage",
+    "date": "2020-06-26",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Roof Jamz",
+    "venue": "Williwaw Social",
     "city": "Anchorage",
     "date": "2020-06-26",
     "time": "9p-12a",
@@ -1621,10 +1681,30 @@
   },
   {
     "title": "Nervis Rex",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-06-27",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nervis Rex",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2020-06-27",
     "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Roof Jamz",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-06-27",
+    "time": "9p-12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -1675,6 +1755,16 @@
     "city": "Anchorage",
     "date": "2020-06-28",
     "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Doses & Mimosas on the Roof w/ DJ GRE and DJ Lloyds Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-06-28",
+    "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -1745,6 +1835,16 @@
     "city": "Anchorage",
     "date": "2020-06-29",
     "time": "12p-1p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Industry Night w/ Lloyds Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-06-29",
+    "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -1835,6 +1935,16 @@
     "city": "Anchorage",
     "date": "2020-07-01",
     "time": "12p-1p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sounds of Summer w/ DJ GRE",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-07-01",
+    "time": "6p-9p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -1955,6 +2065,16 @@
     "city": "Anchorage",
     "date": "2020-08-07",
     "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 Zero Miles to Empty",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2020-08-07",
+    "time": "8p-11p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -2111,10 +2231,30 @@
   },
   {
     "title": "Throwback Thursdays w/ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-10-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Throwback Thursdays w/ Joe Brady",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2020-10-22",
     "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Stranger Things Upside Down 80s Night with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-10-23",
+    "time": "10:30p-1:30a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -2307,6 +2447,16 @@
     "time": "8p-11p",
     "ticketUrl": "",
     "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fall Fun Fest w/ The Eternal Cowboys & DJ Fan Service",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-10-24",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "festival",
     "cost": ""
   },
   {
@@ -2531,6 +2681,16 @@
   },
   {
     "title": "Friendsgiving with Lloyds Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-11-25",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friendsgiving with Lloyds Noize",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2020-11-25",
@@ -2545,6 +2705,16 @@
     "city": "Anchorage",
     "date": "2020-11-26",
     "time": "1p-3p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arcade Night with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-11-26",
+    "time": "7p-11p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -2641,6 +2811,16 @@
   },
   {
     "title": "The Eternal Cowboys",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-11-27",
+    "time": "8p-10:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
     "venue": "Williwaw",
     "city": "Anchorage",
     "date": "2020-11-27",
@@ -2715,6 +2895,16 @@
     "city": "Anchorage",
     "date": "2020-11-28",
     "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Unplugged: The Eternal Cowboys",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2020-11-28",
+    "time": "8p-10:30p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -2987,6 +3177,16 @@
     "time": "6p-7p",
     "ticketUrl": "",
     "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Drive-In Comedy @ Koot’s",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-01-28",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "comedy",
     "cost": ""
   },
   {
@@ -3447,6 +3647,16 @@
     "time": "10:30a-11a",
     "ticketUrl": "",
     "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Drive-In Comedy",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-02-25",
+    "time": "3p-4p",
+    "ticketUrl": "",
+    "category": "comedy",
     "cost": ""
   },
   {
@@ -5635,6 +5845,16 @@
     "city": "Anchorage",
     "date": "2021-10-15",
     "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Stack Live",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "10p-2:45a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -15661,7 +15881,7 @@
   },
   {
     "title": "Come From Away",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-11-29",
     "time": "7:30p-9:10p",
@@ -15821,7 +16041,7 @@
   },
   {
     "title": "Come From Away",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-11-30",
     "time": "1p-2:30p & 7:30p-9:10p",
@@ -16161,7 +16381,7 @@
   },
   {
     "title": "Portland Cello Project Holiday Show",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-12-01",
     "time": "7:30p-9:20p",
@@ -16231,7 +16451,7 @@
   },
   {
     "title": "Twice Upon a Christmas",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-12-01",
     "time": "7p-9p",
@@ -16571,7 +16791,7 @@
   },
   {
     "title": "Come From Away",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-12-03",
     "time": "1p-2:30p & 7p-8:50p",
@@ -16621,7 +16841,7 @@
   },
   {
     "title": "Anchorage Community Concert Band",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2023-12-03",
     "time": "4p-6p",
@@ -16891,7 +17111,7 @@
   },
   {
     "title": "Disney's Aladdin",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2024-04-16",
     "time": "7:30p-10p",
@@ -17082,6 +17302,16 @@
   {
     "title": "The 7 Duo",
     "venue": "The Blue Fox",
+    "city": "Anchorage",
+    "date": "2024-04-18",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Shaun Parcarro",
+    "venue": "Koot's",
     "city": "Anchorage",
     "date": "2024-04-18",
     "time": "7p-10p",
@@ -17471,7 +17701,7 @@
   },
   {
     "title": "2nd Annual Flow Party w/ Brosswurst, Dig Sista, Pokerchild, & Blacksmoke",
-    "venue": "Koots",
+    "venue": "Koot's",
     "city": "Anchorage",
     "date": "2024-04-19",
     "time": "8p-2a",
@@ -17482,6 +17712,16 @@
   {
     "title": "Schaefer Mueller and The Neon Highway Debut Concert w/ DJ Rico closing",
     "venue": "Pink Cadillac",
+    "city": "Anchorage",
+    "date": "2024-04-19",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "2nd Annual Flow Party w/ Brosswurst, Dig Sista, Pokerchild, & Blacksmoke",
+    "venue": "Koots",
     "city": "Anchorage",
     "date": "2024-04-19",
     "time": "8p-2a",
@@ -17741,7 +17981,7 @@
   },
   {
     "title": "Loaded Karma",
-    "venue": "The Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2024-04-19",
     "time": "9p-1a",
@@ -17752,6 +17992,16 @@
   {
     "title": "Fiona Rose and the Show Ponies",
     "venue": "Fairview Inn",
+    "city": "Eagle River",
+    "date": "2024-04-19",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Loaded Karma",
+    "venue": "The Sitzmark",
     "city": "Eagle River",
     "date": "2024-04-19",
     "time": "9p-1a",
@@ -17781,7 +18031,7 @@
   },
   {
     "title": "Disney's Aladdin",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2024-04-20",
     "time": "1p-3:30p & 7:30p-10p",
@@ -18121,7 +18371,7 @@
   },
   {
     "title": "420 w/ H3",
-    "venue": "The Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2024-04-20",
     "time": "9p-1a",
@@ -18142,6 +18392,16 @@
   {
     "title": "DJ Butchy",
     "venue": "Fairview Inn",
+    "city": "Eagle River",
+    "date": "2024-04-20",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "420 w/ H3",
+    "venue": "The Sitzmark",
     "city": "Eagle River",
     "date": "2024-04-20",
     "time": "9p-1a",
@@ -18201,7 +18461,7 @@
   },
   {
     "title": "Disney's Aladdin",
-    "venue": "Alaska Center for The Performing Arts",
+    "venue": "Alaska Center for the Performing Arts",
     "city": "Anchorage",
     "date": "2024-04-21",
     "time": "1p-3:30p",
@@ -18371,6 +18631,16 @@
   },
   {
     "title": "Medium Build Live",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Eagle River",
+    "date": "2024-04-21",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Medium Build Live",
     "venue": "The Sitzmark",
     "city": "Eagle River",
     "date": "2024-04-21",
@@ -18415,6 +18685,16 @@
     "city": "Anchorage",
     "date": "2024-04-22",
     "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Nights at the Sitz",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Eagle River",
+    "date": "2024-04-22",
+    "time": "7p-10p",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -26271,6 +26551,16 @@
   },
   {
     "title": "Snow Film Series: TGR's Beyond the Fantasy",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Eagle River",
+    "date": "2024-12-18",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Snow Film Series: TGR's Beyond the Fantasy",
     "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2024-12-18",
@@ -26701,6 +26991,16 @@
   },
   {
     "title": "Town League Race Series & Live Music w/ Dreamcat + 3000-21",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Eagle River",
+    "date": "2025-01-23",
+    "time": "5p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Town League Race Series & Live Music w/ Dreamcat + 3000-21",
     "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2025-01-23",
@@ -26805,6 +27105,16 @@
     "city": "Eagle River",
     "date": "2025-01-23",
     "time": "9:15p-12:15a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Stack Alaska",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2025-01-24",
+    "time": "10:30p-2a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -26971,6 +27281,16 @@
   },
   {
     "title": "Slow Burn (A Blunts & Blondes Pre-Party)",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2025-01-24",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Slow Burn (A Blunts & Blondes Pre-Party)",
     "venue": "Koots",
     "city": "Anchorage",
     "date": "2025-01-24",
@@ -27091,7 +27411,7 @@
   },
   {
     "title": "Ski Bunny Ball w/ I Like Robots",
-    "venue": "Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2025-01-24",
     "time": "9p-12a",
@@ -27102,6 +27422,16 @@
   {
     "title": "Shakedown Strings",
     "venue": "Alice’s Champagne Palace",
+    "city": "Eagle River",
+    "date": "2025-01-24",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ski Bunny Ball w/ I Like Robots",
+    "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2025-01-24",
     "time": "9p-12a",
@@ -27135,6 +27465,16 @@
     "city": "Eagle River",
     "date": "2025-01-24",
     "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Riddim + Beats w/ DJ JRock & DJ Militant",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2025-01-25",
+    "time": "10p-2:30a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -27247,6 +27587,16 @@
     "time": "7p-11p",
     "ticketUrl": "",
     "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Show with Lindsay Glazer",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2025-01-25",
+    "time": "7p-8:30p & 9p-10:30p",
+    "ticketUrl": "",
+    "category": "comedy",
     "cost": ""
   },
   {
@@ -27461,7 +27811,7 @@
   },
   {
     "title": "Ski Bunny Ball w/ I Like Robots",
-    "venue": "Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2025-01-25",
     "time": "9p-12a",
@@ -27472,6 +27822,16 @@
   {
     "title": "Karaoke Saturdays",
     "venue": "Pioneer Bar",
+    "city": "Eagle River",
+    "date": "2025-01-25",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ski Bunny Ball w/ I Like Robots",
+    "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2025-01-25",
     "time": "9p-12a",
@@ -28197,6 +28557,16 @@
     "time": "9p-1a",
     "ticketUrl": "",
     "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Open Decks",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2025-02-16",
+    "time": "9p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
@@ -29061,7 +29431,7 @@
   },
   {
     "title": "Live at the Sitz: Dizgo",
-    "venue": "Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2025-03-21",
     "time": "9p-1a",
@@ -29072,6 +29442,16 @@
   {
     "title": "Jesse James & The Unlikely Gentlemen",
     "venue": "Klondike Mike’s and Garcia’s Grill",
+    "city": "Eagle River",
+    "date": "2025-03-21",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: Dizgo",
+    "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2025-03-21",
     "time": "9p-1a",
@@ -29281,7 +29661,7 @@
   },
   {
     "title": "Live at the Sitz: Dizgo",
-    "venue": "Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2025-03-22",
     "time": "9p-1a",
@@ -29302,6 +29682,16 @@
   {
     "title": "Glacier Hoppers Band",
     "venue": "Klondike Mike’s and Garcia’s Grill",
+    "city": "Eagle River",
+    "date": "2025-03-22",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: Dizgo",
+    "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2025-03-22",
     "time": "9p-1a",
@@ -38031,6 +38421,16 @@
   },
   {
     "title": "Live at the Sitz: Jerry Wessling Band",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Eagle River",
+    "date": "2026-02-13",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: Jerry Wessling Band",
     "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2026-02-13",
@@ -38711,7 +39111,7 @@
   },
   {
     "title": "Live at the Sitz: Jerry Wessling Band",
-    "venue": "Sitzmark",
+    "venue": "The Sitzmark Bar & Grill",
     "city": "Eagle River",
     "date": "2026-02-14",
     "time": "9p-12a",
@@ -38722,6 +39122,16 @@
   {
     "title": "Valentine's Bash with Carlos!/UNO",
     "venue": "North Pole Alehouse",
+    "city": "Eagle River",
+    "date": "2026-02-14",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: Jerry Wessling Band",
+    "venue": "Sitzmark",
     "city": "Eagle River",
     "date": "2026-02-14",
     "time": "9p-12a",
@@ -39891,6 +40301,16 @@
   },
   {
     "title": "Live at the Sitz: SunDog",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Girdwood",
+    "date": "2026-03-13",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: SunDog",
     "venue": "Sitzmark",
     "city": "Girdwood",
     "date": "2026-03-13",
@@ -40465,6 +40885,16 @@
     "city": "Girdwood",
     "date": "2026-03-14",
     "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live at the Sitz: SunDog",
+    "venue": "The Sitzmark Bar & Grill",
+    "city": "Girdwood",
+    "date": "2026-03-14",
+    "time": "9p-12a",
     "ticketUrl": "",
     "category": "music",
     "cost": ""
@@ -42417,6 +42847,16 @@
     "time": "8p-5a",
     "ticketUrl": "https://www.eventbrite.com/e/dystraxion-presents-electric-sands-2026-tickets-1563880391349?aff=ehometext",
     "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Tru Rhythm Entertainment: You Got Served",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2026-07-18",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1564384791686660/?acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
     "cost": ""
   },
   {
@@ -47670,6 +48110,26 @@
     "cost": ""
   },
   {
+    "title": "CONVERGE",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.tixr.com/groups/showdownalaska/events/converge-202947",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "HB 1350",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.eventbrite.com/e/1996184416325?aff=oddtdtcreator",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Weekly Karaoke Contest",
     "venue": "Oriental Garden",
     "city": "Anchorage",
@@ -47811,7 +48271,7 @@
   },
   {
     "title": "The Reg Flags 1",
-    "venue": "Koots",
+    "venue": "Koot's",
     "city": "Anchorage",
     "date": "2026-08-15",
     "time": "TBD",
@@ -47872,6 +48332,16 @@
   {
     "title": "Poses & Mimosas w/ burn+bloom 1",
     "venue": "Wildbirch Hotel",
+    "city": "Anchorage",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Reg Flags 1",
+    "venue": "Koots",
     "city": "Anchorage",
     "date": "2026-08-15",
     "time": "TBD",
