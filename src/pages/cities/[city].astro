@@ -79,24 +79,24 @@ const formatCategoryName = (cat: string) => {
 const currentDate = new Date().toISOString().slice(0, 10);
 ---
 
-<Layout title={`${cityName} Concerts & Live Events — AK Concerts`} description={`Discover live music, comedy, and events in ${cityName}, Alaska. Local lineup and venue directory.`}>
+<Layout title={`${city} Live Music & Events — AK Concerts`} description={`Discover live music, comedy, and events happening in ${city}, Alaska.`}>
   <EventJsonLd events={cityEvents} />
   <SiteHeader />
   <main class="city-page container">
     <div class="city-header">
-      <p class="city-eyebrow">Alaska Event Destination</p>
-      <h1 class="city-title font-display">{cityName} Events</h1>
-      <p class="city-sub">{cityEvents.length} events listed in {cityName}.</p>
+      <p class="city-eyebrow">Local Events</p>
+      <h1 class="city-title font-display">{city}</h1>
+      <p class="city-sub">{cityEvents.length} event{cityEvents.length !== 1 ? 's' : ''} upcoming in {city}.</p>
     </div>
 
     <!-- EventFilterBar -->
-    <EventFilterBar events={sortedEvents} showTimelineFilter={false} />
+    <EventFilterBar events={cityEvents} showTimelineFilter={false} />
 
     <!-- View: Date (Flat List) -->
     <div id="view-date" class="events-view-container" style="display: block;">
       <div class="group-block">
         <div class="event-list">
-          {sortedEvents.map(e => {
+          {cityEvents.map(e => {
             const Icon = categoryIcons[e.category] || Music;
             return (
               <a 
