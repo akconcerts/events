@@ -9,9 +9,18 @@ import { bands } from '../../data/bands';
   <SiteHeader />
   <main class="bands-page container">
     <div class="bands-header">
-      <p class="bands-eyebrow">Local Artists</p>
-      <h1 class="bands-title font-display">Discover Alaska's Music.</h1>
-      <p class="bands-sub">From Anchorage punk to Fairbanks folk — {bands.length} artists and counting.</p>
+      <div class="bands-header-top">
+        <div>
+          <p class="bands-eyebrow">Local Artists</p>
+          <h1 class="bands-title font-display">Discover Alaska's Music.</h1>
+          <p class="bands-sub">From Anchorage punk to Fairbanks folk — {bands.length} artists and counting.</p>
+        </div>
+        <div class="bands-cta-wrap">
+          <a href="/submit-band" class="btn-register-band font-display">
+            ⚡ Register Your Band Page &rarr;
+          </a>
+        </div>
+      </div>
     </div>
 
     <div class="bands-grid">
@@ -39,6 +48,10 @@ import { bands } from '../../data/bands';
 <style>
 .bands-page{padding-top:3rem;padding-bottom:4rem}
 .bands-header{margin-bottom:2.5rem}
+.bands-header-top{display:flex;flex-direction:column;gap:1rem}
+@media(min-width:768px){.bands-header-top{flex-direction:row;align-items:flex-end;justify-content:space-between}}
+.btn-register-band{display:inline-flex;align-items:center;padding:.75rem 1.25rem;border-radius:.75rem;background:linear-gradient(135deg,var(--brand-gold),#eab308);color:var(--brand-navy);font-weight:800;font-size:.9rem;text-decoration:none;box-shadow:0 8px 20px rgba(204,164,59,0.3);transition:all .2s ease}
+.btn-register-band:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(204,164,59,0.45)}
 .bands-eyebrow{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.2em;color:var(--brand-gold);margin-bottom:.5rem}
 .bands-title{font-size:2.5rem;font-weight:700;letter-spacing:-.03em}
 @media(min-width:640px){.bands-title{font-size:3.5rem}}

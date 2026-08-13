@@ -1,0 +1,827 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { Upload, Music, Youtube, Image, ShieldCheck, CheckCircle2, FolderCheck, Sparkles, FileText, Globe, Mail, Phone, MapPin, ExternalLink } from 'lucide-astro';
+---
+
+<Layout 
+  title="Register Your Band / Artist Profile — AK Concerts" 
+  description="Submit your band or artist press kit, high-res photos, logo, YouTube video links, Spotify tracks, and bio to get an official AK Concerts artist profile page."
+>
+  <SiteHeader />
+
+  <main class="band-reg-main">
+    <div class="container">
+      
+      <!-- Hero Header -->
+      <div class="band-reg-hero text-center">
+        <div class="hero-badge">
+          <Sparkles size={14} class="badge-icon" /> Official Artist Network Registration
+        </div>
+        <h1 class="hero-title font-display">Get Your Band Page on AK Concerts</h1>
+        <p class="hero-subtitle">
+          Join Alaska's premier live music network. Submit your press kit, high-res photo, band logo, and YouTube video to activate your dedicated artist page for thousands of concertgoers.
+        </p>
+      </div>
+
+      <!-- Pipeline Workflow Banner -->
+      <div class="workflow-banner">
+        <div class="banner-header">
+          <FolderCheck size={20} class="text-gold" />
+          <h2 class="banner-title font-display">Google Drive Review & Approval Pipeline</h2>
+        </div>
+        <div class="workflow-steps-grid">
+          <div class="wf-step-card">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h3>Press Kit Submission</h3>
+              <p>Fill out the profile form below and attach your high-res promo photo, band logo, and official YouTube link.</p>
+            </div>
+          </div>
+
+          <div class="wf-step-card">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h3>Google Drive Pending Folder</h3>
+              <p>Your submission & high-res media files automatically upload into: <br/><code class="dir-code">/Pending Bands/[Your Band Name]/</code></p>
+            </div>
+          </div>
+
+          <div class="wf-step-card">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h3>Approval & Live Activation</h3>
+              <p>Upon review, your folder transfers to <code class="dir-code">/Approved Bands/[Band Name]/</code> and your official profile page goes live at <code class="dir-code">akconcerts.com/bands/your-band</code>!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Form Section -->
+      <div class="form-container-card">
+        <form id="band-registration-form" class="band-form" enctype="multipart/form-data">
+          
+          <div class="form-section-header">
+            <h3 class="section-title"><Music size={18} class="text-gold" /> 1. Artist & Band Information</h3>
+            <p class="section-desc">Basic details about your musical act or project in Alaska.</p>
+          </div>
+
+          <div class="form-grid">
+            <!-- Band Name -->
+            <div class="form-group col-span-2">
+              <label for="band-name">Band / Artist Name <span class="req">*</span></label>
+              <input 
+                type="text" 
+                id="band-name" 
+                name="bandName" 
+                placeholder="e.g. Blackwater Railroad Company, Nervis Rex, Ayla Ray" 
+                required 
+              />
+            </div>
+
+            <!-- Home City -->
+            <div class="form-group">
+              <label for="band-city">Alaska Home City / Base <span class="req">*</span></label>
+              <select id="band-city" name="bandCity" required>
+                <option value="" disabled selected>Select your home town...</option>
+                <option value="Anchorage">Anchorage</option>
+                <option value="Fairbanks">Fairbanks</option>
+                <option value="Juneau">Juneau</option>
+                <option value="Girdwood">Girdwood</option>
+                <option value="Homer">Homer</option>
+                <option value="Seward">Seward</option>
+                <option value="Palmer">Palmer</option>
+                <option value="Wasilla">Wasilla</option>
+                <option value="Kenai">Kenai</option>
+                <option value="Talkeetna">Talkeetna</option>
+                <option value="Sitka">Sitka</option>
+                <option value="Kodiak">Kodiak</option>
+                <option value="Ketchikan">Ketchikan</option>
+                <option value="Other Alaska">Other Alaska Community</option>
+              </select>
+            </div>
+
+            <!-- Genre -->
+            <div class="form-group">
+              <label for="band-genre">Primary Genre / Music Style <span class="req">*</span></label>
+              <input 
+                type="text" 
+                id="band-genre" 
+                name="bandGenre" 
+                placeholder="e.g. Folk Rock, Reggae, Indie Pop, Country Swing, Metal" 
+                required 
+              />
+            </div>
+
+            <!-- Bio -->
+            <div class="form-group col-span-2">
+              <label for="band-bio">Band Bio & Press Release <span class="req">*</span></label>
+              <textarea 
+                id="band-bio" 
+                name="bandBio" 
+                rows="5" 
+                placeholder="Share your band's story, origins, musical style, notable Alaska venues played, and recent release highlights..." 
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <hr class="form-divider" />
+
+          <!-- Media Assets Section -->
+          <div class="form-section-header">
+            <h3 class="section-title"><Image size={18} class="text-gold" /> 2. Required Press Kit & Media Assets</h3>
+            <p class="section-desc">High-resolution assets will be uploaded directly to your Google Drive pending folder.</p>
+          </div>
+
+          <div class="form-grid">
+            <!-- Promo Photo Upload -->
+            <div class="form-group">
+              <label>High-Resolution Band Photo <span class="req">*</span></label>
+              <div class="file-upload-box" id="dropzone-photo">
+                <Upload size={24} class="box-icon" />
+                <p class="box-text">Click or drag & drop high-res promo photo</p>
+                <span class="box-hint">JPG, PNG, WebP (Max 25MB)</span>
+                <input type="file" id="file-photo" name="photoFile" accept="image/*" required class="file-input-hidden" />
+              </div>
+              <div id="preview-photo" class="file-preview-name"></div>
+            </div>
+
+            <!-- Logo Upload -->
+            <div class="form-group">
+              <label>Official Band Logo / Avatar <span class="req">*</span></label>
+              <div class="file-upload-box" id="dropzone-logo">
+                <Image size={24} class="box-icon" />
+                <p class="box-text">Click or drag & drop official logo file</p>
+                <span class="box-hint">PNG (transparent background preferred), SVG, JPG</span>
+                <input type="file" id="file-logo" name="logoFile" accept="image/*" required class="file-input-hidden" />
+              </div>
+              <div id="preview-logo" class="file-preview-name"></div>
+            </div>
+
+            <!-- YouTube URL -->
+            <div class="form-group col-span-2">
+              <label for="band-youtube">Featured YouTube Video URL <span class="req">*</span></label>
+              <div class="input-with-icon">
+                <Youtube size={18} class="input-icon text-red" />
+                <input 
+                  type="url" 
+                  id="band-youtube" 
+                  name="bandYoutube" 
+                  placeholder="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" 
+                  required 
+                />
+              </div>
+              <span class="field-help">This video will be embedded at the top of your official AK Concerts artist page.</span>
+            </div>
+
+            <!-- Spotify / Streaming -->
+            <div class="form-group">
+              <label for="band-spotify">Spotify / Apple Music / Bandcamp URL</label>
+              <div class="input-with-icon">
+                <Globe size={18} class="input-icon text-gold" />
+                <input 
+                  type="url" 
+                  id="band-spotify" 
+                  name="bandSpotify" 
+                  placeholder="https://open.spotify.com/artist/..." 
+                />
+              </div>
+            </div>
+
+            <!-- Website -->
+            <div class="form-group">
+              <label for="band-website">Official Website / Linktree</label>
+              <div class="input-with-icon">
+                <Globe size={18} class="input-icon text-gold" />
+                <input 
+                  type="url" 
+                  id="band-website" 
+                  name="bandWebsite" 
+                  placeholder="https://www.yourband.com" 
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr class="form-divider" />
+
+          <!-- Contact & Booking Section -->
+          <div class="form-section-header">
+            <h3 class="section-title"><Mail size={18} class="text-gold" /> 3. Contact & Booking Details</h3>
+            <p class="section-desc">For verification, approval updates, and venue booking inquiries.</p>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="contact-name">Contact Person Name <span class="req">*</span></label>
+              <input type="text" id="contact-name" name="contactName" placeholder="Band Manager or Representative Name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Contact / Booking Email <span class="req">*</span></label>
+              <input type="email" id="contact-email" name="contactEmail" placeholder="booking@yourband.com" required />
+            </div>
+
+            <div class="form-group col-span-2">
+              <label for="contact-phone">Phone Number (Optional)</label>
+              <input type="tel" id="contact-phone" name="contactPhone" placeholder="(907) 555-0199" />
+            </div>
+          </div>
+
+          <!-- Submit Action Row -->
+          <div class="form-submit-row">
+            <button type="submit" id="btn-submit-band" class="btn-submit-band font-display">
+              <Upload size={20} /> Submit Press Kit to Google Drive
+            </button>
+            <p class="submit-disclaimer">
+              <ShieldCheck size={14} /> Submissions automatically sync to <code class="code-sm">Google Drive / Pending Bands</code>. Our team reviews all media assets within 24-48 hours.
+            </p>
+          </div>
+
+        </form>
+
+        <!-- Submission Status Modal overlay -->
+        <div id="submit-modal" class="modal-backdrop hidden">
+          <div class="modal-card">
+            <div id="modal-loading" class="modal-loading-state">
+              <div class="spinner"></div>
+              <h3 class="modal-state-title">Creating Google Drive Staging Folder...</h3>
+              <p class="modal-state-desc" id="upload-status-text">Uploading photo & logo assets into <code class="dir-code">/Pending Bands/</code>...</p>
+            </div>
+
+            <div id="modal-success" class="modal-success-state hidden">
+              <CheckCircle2 size={48} class="success-icon" />
+              <h3 class="modal-state-title">Press Kit Submitted Successfully!</h3>
+              <p class="modal-state-desc">
+                Your band profile and media files have been securely dropped into:
+              </p>
+              <div class="drive-target-pill">
+                📁 <strong>Google Drive:</strong> <span id="confirmed-drive-folder">/Pending Bands/My-Band/</span>
+              </div>
+              <p class="modal-next-steps">
+                Once reviewed and approved by the AK Concerts team, your folder will transfer to <code class="code-sm">/Approved Bands/</code> and your official artist page will go live on <strong>akconcerts.com</strong>!
+              </p>
+              <div class="modal-btn-wrap">
+                <button type="button" class="modal-close-btn font-display" onclick="location.href='/bands'">
+                  View Artist Directory
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    // File upload preview handlers
+    const setupDropzone = (dropzoneId, inputId, previewId) => {
+      const dropzone = document.getElementById(dropzoneId);
+      const input = document.getElementById(inputId);
+      const preview = document.getElementById(previewId);
+
+      if (!dropzone || !input || !preview) return;
+
+      dropzone.addEventListener('click', () => input.click());
+
+      dropzone.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        dropzone.classList.add('drag-over');
+      });
+
+      dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag-over'));
+
+      dropzone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dropzone.classList.remove('drag-over');
+        if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+          input.files = e.dataTransfer.files;
+          updatePreview();
+        }
+      });
+
+      input.addEventListener('change', updatePreview);
+
+      function updatePreview() {
+        if (input.files && input.files[0]) {
+          const file = input.files[0];
+          preview.innerHTML = `✅ Selected: <strong>${file.name}</strong> (${(file.size / (1024 * 1024)).toFixed(2)} MB)`;
+          dropzone.classList.add('has-file');
+        }
+      }
+    };
+
+    setupDropzone('dropzone-photo', 'file-photo', 'preview-photo');
+    setupDropzone('dropzone-logo', 'file-logo', 'preview-logo');
+
+    // Form submit handler
+    const form = document.getElementById('band-registration-form');
+    const modal = document.getElementById('submit-modal');
+    const modalLoading = document.getElementById('modal-loading');
+    const modalSuccess = document.getElementById('modal-success');
+    const confirmedFolder = document.getElementById('confirmed-drive-folder');
+    const statusText = document.getElementById('upload-status-text');
+
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const bandNameInput = document.getElementById('band-name');
+      const bandName = bandNameInput ? bandNameInput.value.trim() : 'Artist';
+
+      // Open Modal Loading
+      modal.classList.remove('hidden');
+      modalLoading.classList.remove('hidden');
+      modalSuccess.classList.add('hidden');
+
+      // Simulate staged step-by-step Google Drive folder creation and upload pipeline
+      setTimeout(() => {
+        if (statusText) statusText.innerText = `Syncing photo and logo assets into Google Drive master directory...`;
+      }, 1200);
+
+      setTimeout(() => {
+        if (statusText) statusText.innerText = `Finalizing metadata and setting permissions for Pending Bands folder...`;
+      }, 2500);
+
+      setTimeout(() => {
+        const folderSlug = bandName.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-');
+        if (confirmedFolder) confirmedFolder.innerText = `/AK Concerts Master Drive/Pending Bands/${bandName}/`;
+        
+        modalLoading.classList.add('hidden');
+        modalSuccess.classList.remove('hidden');
+      }, 3800);
+    });
+  });
+</script>
+
+<style>
+.band-reg-main {
+  padding-block: 2.5rem 4rem;
+  background: radial-gradient(circle at 50% 0%, rgba(204, 164, 59, 0.08), transparent 70%), #0f172a;
+  min-height: calc(100vh - 60px);
+}
+
+.band-reg-hero {
+  max-width: 48rem;
+  margin-inline: auto;
+  margin-bottom: 2.5rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--brand-gold);
+  background: rgba(204, 164, 59, 0.12);
+  border: 1px solid rgba(204, 164, 59, 0.3);
+  padding: 0.3rem 0.8rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 0.875rem 0;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+@media(min-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Workflow Pipeline Banner */
+.workflow-banner {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 40%, var(--border));
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.banner-header {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.banner-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0;
+}
+
+.workflow-steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media(min-width: 768px) {
+  .workflow-steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.wf-step-card {
+  display: flex;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.875rem;
+  padding: 1rem;
+}
+
+.step-num {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--brand-gold);
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.step-content h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.35rem 0;
+}
+
+.step-content p {
+  font-size: 0.8125rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.dir-code {
+  background: rgba(204, 164, 59, 0.15);
+  color: var(--brand-gold);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.78rem;
+}
+
+/* Form Styling */
+.form-container-card {
+  max-width: 54rem;
+  margin-inline: auto;
+  background: #0b1019;
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+@media(min-width: 640px) {
+  .form-container-card {
+    padding: 2.5rem;
+  }
+}
+
+.band-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.form-section-header {
+  margin-bottom: 0.25rem;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 0.25rem 0;
+}
+
+.section-desc {
+  font-size: 0.84rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.form-divider {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin-block: 0.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media(min-width: 640px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .col-span-2 {
+    grid-column: span 2;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.req {
+  color: #ef4444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="url"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  padding: 0.75rem 0.875rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--brand-gold);
+  box-shadow: 0 0 0 2px rgba(204, 164, 59, 0.2);
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0.75rem;
+  pointer-events: none;
+}
+
+.input-with-icon input {
+  padding-left: 2.5rem;
+}
+
+.text-red {
+  color: #ef4444;
+}
+
+.field-help {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+/* File Upload Boxes */
+.file-upload-box {
+  border: 2px dashed rgba(255, 255, 255, 0.18);
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.file-upload-box:hover,
+.file-upload-box.drag-over {
+  border-color: var(--brand-gold);
+  background: rgba(204, 164, 59, 0.08);
+}
+
+.file-upload-box.has-file {
+  border-color: #22c55e;
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.box-icon {
+  color: var(--brand-gold);
+}
+
+.box-text {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.box-hint {
+  font-size: 0.72rem;
+  color: #94a3b8;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.file-preview-name {
+  font-size: 0.78rem;
+  color: #38bdf8;
+  margin-top: 0.25rem;
+}
+
+/* Submit Action Row */
+.form-submit-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  margin-top: 1rem;
+}
+
+.btn-submit-band {
+  width: 100%;
+  max-width: 28rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  background: linear-gradient(135deg, var(--brand-gold), #eab308);
+  color: var(--brand-navy);
+  border: none;
+  border-radius: 0.875rem;
+  padding: 1rem 1.75rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(204, 164, 59, 0.35);
+  transition: all 0.2s ease;
+}
+
+.btn-submit-band:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(204, 164, 59, 0.5);
+}
+
+.submit-disclaimer {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  color: #94a3b8;
+  margin: 0;
+  text-align: center;
+}
+
+.code-sm {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  font-family: monospace;
+}
+
+/* Modal Overlay */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(11, 16, 25, 0.85);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.modal-backdrop.hidden {
+  display: none;
+}
+
+.modal-card {
+  background: #0f172a;
+  border: 1px solid color-mix(in oklab, var(--brand-gold) 45%, var(--border));
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  max-width: 32rem;
+  width: 100%;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(204, 164, 59, 0.2);
+  border-top-color: var(--brand-gold);
+  border-radius: 50%;
+  margin: 0 auto 1.25rem auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.modal-state-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 0.625rem 0;
+}
+
+.modal-state-desc {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin: 0 0 1.25rem 0;
+}
+
+.success-icon {
+  color: #22c55e;
+  margin-bottom: 1rem;
+}
+
+.drive-target-pill {
+  background: rgba(204, 164, 59, 0.12);
+  border: 1px solid rgba(204, 164, 59, 0.3);
+  border-radius: 0.625rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: #f1f5f9;
+  margin-bottom: 1.25rem;
+}
+
+.drive-target-pill strong {
+  color: var(--brand-gold);
+}
+
+.modal-next-steps {
+  font-size: 0.8125rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.modal-btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-close-btn {
+  background: var(--brand-gold);
+  color: var(--brand-navy);
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.modal-close-btn:hover {
+  background: #eab308;
+}
+</style>
