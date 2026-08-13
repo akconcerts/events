@@ -1,46 +1,57 @@
 [
   {
     "id": "4200",
-    "title": "Justin Morris & Company",
-    "venue": "The Rendezvous",
-    "city": "Kodiak",
     "date": "2026-07-17",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Justin Morris & Company",
     "time": "7p-12a",
     "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4271",
-    "title": "Justin Morris & Company",
-    "venue": "The Rendezvous",
-    "city": "Kodiak",
     "date": "2026-07-18",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Justin Morris & Company",
     "time": "7p-12a",
     "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4464",
-    "title": "Black Barrel and the Bad Men",
-    "venue": "The Rendezvous",
-    "city": "Kodiak",
     "date": "2026-08-07",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Black Barrel and the Bad Men",
     "time": "7p-12a",
     "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4503",
-    "title": "Black Barrel and the Bad Men",
-    "venue": "The Rendezvous",
-    "city": "Kodiak",
     "date": "2026-08-08",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
+    "category": "music",
+    "title": "Black Barrel and the Bad Men",
     "time": "7p-12a",
     "ticketUrl": "https://www.kodiakrendezvous.com/live-music",
+    "cost": ""
+  },
+  {
+    "id": "4830",
+    "date": "2026-08-19",
+    "city": "Kodiak",
+    "venue": "The Rendezvous",
     "category": "music",
+    "title": "Roland Roberts Band",
+    "time": "8p-11p",
+    "ticketUrl": "",
     "cost": ""
   }
 ]

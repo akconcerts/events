@@ -1,46 +1,57 @@
 [
   {
     "id": "4205",
-    "title": "Live Music w/ JD Cox",
-    "venue": "Linwood Bar & Grill",
-    "city": "Seldovia",
     "date": "2026-07-17",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ JD Cox",
     "time": "",
     "ticketUrl": "https://www.linwoodbar.com/events/",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4277",
-    "title": "Live Music w/ JD Cox",
-    "venue": "Linwood Bar & Grill",
-    "city": "Seldovia",
     "date": "2026-07-18",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ JD Cox",
     "time": "",
     "ticketUrl": "https://www.linwoodbar.com/events/",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4470",
-    "title": "Live Music w/ Sonoran Sunsets",
-    "venue": "Linwood Bar & Grill",
-    "city": "Seldovia",
     "date": "2026-08-07",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ Sonoran Sunsets",
     "time": "",
     "ticketUrl": "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl",
-    "category": "music",
     "cost": ""
   },
   {
     "id": "4511",
-    "title": "Live Music w/ Sonoran Sunsets",
-    "venue": "Linwood Bar & Grill",
-    "city": "Seldovia",
     "date": "2026-08-08",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
+    "category": "music",
+    "title": "Live Music w/ Sonoran Sunsets",
     "time": "",
     "ticketUrl": "https://www.facebook.com/gwinslodge/posts/pfbid08uAn6J7BuJF4LR6apErqu7LrvbcHvFK3mUwdUSdKMc3BP1e1JoX4LVou4qgtTPnAl",
+    "cost": ""
+  },
+  {
+    "id": "4844",
+    "date": "2026-08-19",
+    "city": "Seldovia",
+    "venue": "Linwood Bar & Grill",
     "category": "music",
+    "title": "Live Music w/ Jim Maloney",
+    "time": "",
+    "ticketUrl": "",
     "cost": ""
   }
 ]

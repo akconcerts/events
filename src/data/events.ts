@@ -6022,14 +6022,360 @@ export const events: AKEvent[] = [
   ev("Sign Language Classes", "Black Birch Books", "Wasilla", "2026-08-12", "5p-6p", "https://www.facebook.com/events/1980234609292524/1980234615959190/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D", "community"),
   ev("Open Mic", "Schwabenhof", "Wasilla", "2026-08-12", "7:30p-11p", "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7"),
 
+  // ═══ ANCHORAGE — Thursday August 13th ═══
+  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-13", "", ""),
+  ev("Lunch on the Lawn: Live Music w/ Santoro 11:3", "Anchorage Museum", "Anchorage", "2026-08-13", "", ""),
+  ev("Trails in Motion 1", "Beartooth Theatrepub", "Anchorage", "2026-08-13", "", ""),
+  ev("Open Mic Night w/ It's Just Dez 6:4", "Blarney Stone", "Anchorage", "2026-08-13", "", ""),
+  ev("Karaoke 7p-", "Broken Blender", "Anchorage", "2026-08-13", "", ""),
+  ev("Comedy Open Mic 7p-10pKoot’s - Karaoke 1", "Koot’s", "Anchorage", "2026-08-13", "", "", "comedy"),
+  ev("Live & Local Music w/ Jared Woods 6:3", "The Peanut Farm", "Anchorage", "2026-08-13", "", ""),
+  ev("Ladies Night at Pink Cadillac w/ DJ Rico 7p-", "Pink Cadillac", "Anchorage", "2026-08-13", "", ""),
+  ev("DJ Cross 1", "Pioneer Bar", "Anchorage", "2026-08-13", "", ""),
+  ev("Stop Light Nights", "Magnetic North Brewing", "Anchorage", "2026-08-13", "6p-8p", ""),
+  ev("Open Mic Loathing in Las Vegas", "Time Out Lounge", "Anchorage", "2026-08-13", "8p-11p", ""),
+  ev("Live Music w/ Nothin But Karma 8p-12aKoot’s - Latin Night w/ DJ MyKey T", "Humpy’s", "Anchorage", "2026-08-13", "8p-1a", ""),
+  ev("AK Rockstar Karaoke", "The Carousel Lounge", "Anchorage", "2026-08-13", "8p-2a", ""),
+
   // ═══ COOPER LANDING — Thursday August 13th ═══
   ev("Seth Malone", "Gwin’s Lodge", "Cooper Landing", "2026-08-13", "5p-?", "https://www.facebook.com/events/1314368867508276/"),
 
   // ═══ EAGLE RIVER — Thursday August 13th ═══
+  ev("Dance Lessons with Shufflin Country Style 8p-", "Homestead Lounge", "Eagle River", "2026-08-13", "", "", "dance"),
+  ev("Country Night w/ DJ AumanJoy 9p-", "3 Homestead Lounge", "Eagle River", "2026-08-13", "", ""),
   ev("Snacks at Midnight", "Odd Man Rush", "Eagle River", "2026-08-13", "7p-?", "https://www.facebook.com/events/979644471786128"),
+
+  // ═══ FAIRBANKS — Thursday August 13th ═══
+  ev("Karaoke with Angel 8p-", "The International Hotel & Bar", "Fairbanks", "2026-08-13", "", ""),
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-13", "", ""),
+  ev("Live Music w/ Baker", "Jack Sprat", "Fairbanks", "2026-08-13", "6p-?", ""),
+  ev("Open Mic Night at the Marlin", "3 The Marlin", "Fairbanks", "2026-08-13", "8p-11p", ""),
+
+  // ═══ JUNEAU — Thursday August 13th ═══
+  ev("Open Mic 9p-", "Alaskan Hotel and Bar", "Juneau", "2026-08-13", "", ""),
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez 5p-", "3 The Crystal Saloon", "Juneau", "2026-08-13", "", ""),
+  ev("Karaoke Night 8p-", "3 The Crystal Saloon", "Juneau", "2026-08-13", "", ""),
+  ev("Pop-Up Cherioke", "4 Alaskan Hotel and Bar", "Juneau", "2026-08-13", "9p-?", ""),
+
+  // ═══ MCCARTHY — Thursday August 13th ═══
+  ev("Open Mic Night8/1", "The Golden Saloon", "McCarthy", "2026-08-13", "", ""),
+  ev("McWavy8/1", "4 The Golden Saloon", "McCarthy", "2026-08-13", "", ""),
+  ev("McWavy", "5 The Golden Saloon", "McCarthy", "2026-08-13", "", ""),
+
+  // ═══ ANCHORAGE — Friday August 14th ═══
+  ev("Yappy Hour: Dog Friendly Happy Hour 4:3", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Candlelight Concert: Tribute to Fleetwood Mac 5:3", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Candlelight Concert: Queen vs. ABBA 7:4", "9th State Brewery", "Anchorage", "2026-08-14", "", ""),
+  ev("Friday Night Dance Lounge 9p-", "Alaska Dance Promotions", "Anchorage", "2026-08-14", "", "", "dance"),
+  ev("Ambassador Bird Programs: Experience Wild Birds Up Close! 12:3", "Bird Treatment & Learning Center", "Anchorage", "2026-08-14", "", ""),
+  ev("Karaoke w/ DJ Charms 8p-", "Broken Blender", "Anchorage", "2026-08-14", "", ""),
+  ev("DJ JRock 9:3", "Flattop Pizza & Pool", "Anchorage", "2026-08-14", "", ""),
+  ev("Friday Night Market 6p-", "Glenn Square", "Anchorage", "2026-08-14", "", "", "community"),
+  ev("Pop Piano Bar w/ MJ Riemann 6p-", "Gumbo House", "Anchorage", "2026-08-14", "", ""),
+  ev("Live Music w/ Ayla Ray & Chris Christy Quintet 9:3", "Humpy’s", "Anchorage", "2026-08-14", "", ""),
+  ev("Yachtly Crew 1", "Koot’s", "Anchorage", "2026-08-14", "", ""),
+  ev("Boots, Beer, & Ballads Country Night w/ DJ Rico 7p-", "Pink Cadillac", "Anchorage", "2026-08-14", "", ""),
+  ev("DJ Cross 1", "Pioneer Bar", "Anchorage", "2026-08-14", "", ""),
+  ev("Karaoke Night at SubZero 8p-", "SubZero Microlounge", "Anchorage", "2026-08-14", "", ""),
+  ev("Hwy9 in Concert 6:3", "Turnagain Brewing", "Anchorage", "2026-08-14", "", ""),
+  ev("Bodelia James 9:3", "Van’s Dive Bar", "Anchorage", "2026-08-14", "", ""),
+  ev("Darci Lynne 6:3", "1a Wendy Williamson Auditorium", "Anchorage", "2026-08-14", "", ""),
+  ev("Mobile Library Visit & Storytime", "Fairview Community Rec Center", "Anchorage", "2026-08-14", "1p-3p", "", "community"),
+  ev("Summer Bash", "JBER Library", "Anchorage", "2026-08-14", "1p-3p", ""),
+  ev("Summer Music on the Patio: SAZÓN", "9p Hilltop Ski Area", "Anchorage", "2026-08-14", "6p-7:30p", ""),
+  ev("Da Good Ol' Good Ones", "Blarney Stone", "Anchorage", "2026-08-14", "6p-8p", ""),
+  ev("Williwaw Blue", "O’Malley’s on the Green", "Anchorage", "2026-08-14", "7p-10p", ""),
+  ev("Arctic Entry & Dawson Gentleman Band", "Bernie’s Bungalow Lounge", "Anchorage", "2026-08-14", "9p-?", ""),
+  ev("Mad Myrna's Diva Variety Show", "Mad Myrna’s", "Anchorage", "2026-08-14", "9p-11:30p", ""),
+  ev("Friday Night Dance Social", "Arctic Academie de Danse", "Anchorage", "2026-08-14", "9p-11p", "", "dance"),
+  ev("Blast From The Past", "Time Out Lounge", "Anchorage", "2026-08-14", "9p-2:30a", ""),
+
+  // ═══ EAGLE RIVER — Friday August 14th ═══
+  ev("DJ AumanJoy", "Homestead Lounge", "Eagle River", "2026-08-14", "9p-2a", ""),
+
+  // ═══ FAIRBANKS — Friday August 14th ═══
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-14", "", ""),
+  ev("Encore Weekend w/ Wicked Serenity & Signs of Sacrifice", "The International Hotel & Bar", "Fairbanks", "2026-08-14", "8p-12a", ""),
+
+  // ═══ ANCHORAGE — Saturday August 15th ═══
+  ev("Dance Social 7p-", "Anchorage Social Dance Club", "Anchorage", "2026-08-15", "", "", "dance"),
+  ev("Jazz on the Lawn w/ Alaska Jazz Workshop 1", "Anchorage Museum", "Anchorage", "2026-08-15", "", "", "community"),
+  ev("Parlor in the Round Outdoor Concert w/ Emma Hill, Tyson Davis, & Ashley Young 5:3", "Anchorage Museum", "Anchorage", "2026-08-15", "", ""),
+  ev("Live Music at the Market 1", "Anchorage Weekend Market", "Anchorage", "2026-08-15", "", "", "community"),
+  ev("Cat Video Fest 2", "Beartooth Theatrepub", "Anchorage", "2026-08-15", "", "", "festival"),
+  ev("Karaoke w/ DJ Charms 8p-", "Broken Blender", "Anchorage", "2026-08-15", "", ""),
+  ev("Latin Night Takeover w/ DJ Jose & DJ Yenmy 1", "Continental", "Anchorage", "2026-08-15", "", ""),
+  ev("DJ JRock 9:3", "Flattop Pizza & Pool", "Anchorage", "2026-08-15", "", ""),
+  ev("Live Music w/ Dawson Gentleman & Arctic Entry 9:3", "Humpy’s", "Anchorage", "2026-08-15", "", ""),
+  ev("The Reg Flags 1", "Koots", "Anchorage", "2026-08-15", "", ""),
+  ev("Anchorage Community Theatre: Dream Roles Cabaret Show 6:3", "Main Event Grill", "Anchorage", "2026-08-15", "", "", "theatre"),
+  ev("Muldoon Community Market 9:3", "Muldoon Chanshtnu Park", "Anchorage", "2026-08-15", "", "", "community"),
+  ev("Latin Dance Closing Party with DJ Maria, DJ Josh, & DJ Colin 1", "Pink Cadillac", "Anchorage", "2026-08-15", "", "", "dance"),
+  ev("Will H. Johnson 5:3", "Ship Creek Brewing", "Anchorage", "2026-08-15", "", ""),
+  ev("Hmong Harvest Festival 1", "Sullivan Arena Football Stadium", "Anchorage", "2026-08-15", "", "", "festival"),
+  ev("Poses & Mimosas w/ burn+bloom 1", "Wildbirch Hotel", "Anchorage", "2026-08-15", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-15", "5p-7p", ""),
+  ev("Pop Piano Bar w/ MJ Riemann", "Gumbo House", "Anchorage", "2026-08-15", "6p-9p", ""),
+  ev("Drag For A Cause: Rhinestone Rodeo", "The Nave Spenard", "Anchorage", "2026-08-15", "7p-9p", ""),
+  ev("Sweet Cheeks Cabaret: Vaudeville Vibes - Hot Spec-taters of Tease", "Broken Blender", "Anchorage", "2026-08-15", "8p-12a", ""),
+  ev("Weekly Karaoke Contest", "Oriental Garden", "Anchorage", "2026-08-15", "9p-1:3", ""),
+  ev("Mad Myrna's Diva Variety Show", "Mad Myrna’s", "Anchorage", "2026-08-15", "9p-11:3", ""),
+  ev("Supernova Live", "The Carousel Lounge", "Anchorage", "2026-08-15", "9p-1a", ""),
+  ev("Raspberry, Laughy, & Swing Syndicate", "Van’s Dive Bar", "Anchorage", "2026-08-15", "9p-1a", "", "dance"),
+  ev("Blast From The Past", "Time Out Lounge", "Anchorage", "2026-08-15", "9p-2:30a", ""),
 
   // ═══ COOPER LANDING — Saturday August 15th ═══
   ev("Black Barrel & The Bad Men", "Cooper Landing Brewing", "Cooper Landing", "2026-08-15", "6:30p-?", "https://www.facebook.com/photo.php?fbid=1539379864813086&set=pb.100062232621386.-2207520000&type=3"),
+
+  // ═══ EAGLE RIVER — Saturday August 15th ═══
+  ev("DJ Auman Joy 8p-", "Homestead Lounge", "Eagle River", "2026-08-15", "", ""),
+  ev("Miles Pruner Live", "5 Odd Man Rush", "Eagle River", "2026-08-15", "4p-?", "", "community"),
+
+  // ═══ FAIRBANKS — Saturday August 15th ═══
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-15", "", ""),
+  ev("Darci Lynne 6:3", "Salisbury Theater", "Fairbanks", "2026-08-15", "", ""),
+  ev("Encore Weekend w/ Wicked Serenity & Signs of Sacrifice", "The International Hotel & Bar", "Fairbanks", "2026-08-15", "8p-12a", ""),
+
+  // ═══ ANCHORAGE — Sunday August 16th ═══
+  ev("Country Dance Nights: Line Dancing & Swing 6:3", "Anchorage Social Dance Club", "Anchorage", "2026-08-16", "", "", "dance"),
+  ev("Live Music at the Market 1", "Anchorage Weekend Market", "Anchorage", "2026-08-16", "", "", "community"),
+  ev("Sunday Blues Jam w/ Rebel Blues Band 6p-", "Billiard Palace", "Anchorage", "2026-08-16", "", ""),
+  ev("Annual Humpy’s Marathon 8:3", "Humpy’s", "Anchorage", "2026-08-16", "", "", "community"),
+  ev("Comedy Open Mic 8:3", "Koot’s", "Anchorage", "2026-08-16", "", "", "comedy"),
+  ev("Koots Karaoke 1", "0p-10pKoot’s", "Anchorage", "2026-08-16", "", ""),
+  ev("Karaoke 9p-", "0p-2aMad Myrna’s", "Anchorage", "2026-08-16", "", ""),
+  ev("All Ages Buckarooos Night 6p-", "2a Pink Cadillac", "Anchorage", "2026-08-16", "", ""),
+  ev("Industry Night w/ Joe Brady 1", "Pioneer Bar", "Anchorage", "2026-08-16", "", ""),
+  ev("Open Jam with Blast From The Past 8:3", "Time Out Lounge", "Anchorage", "2026-08-16", "", ""),
+  ev("Hmong Harvest Festival 1", "Sullivan Arena Football Stadium", "Anchorage", "2026-08-16", "", "", "festival"),
+  ev("Open Mic Night 8p-", "Van’s Dive Bar", "Anchorage", "2026-08-16", "", ""),
+  ev("Bachata Dance Patterns 8:3", "Alaska Dance Promotions", "Anchorage", "2026-08-16", "", "", "dance"),
+  ev("Weekly Jazz Jam 6:3", "Fire Island Bakery @ K Street Market", "Anchorage", "2026-08-16", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-16", "5p-7p", ""),
+  ev("Learn to Square Dance", "Anchorage Social Dance Club", "Anchorage", "2026-08-16", "7p-9p", "", "dance"),
+  ev("Sunday Karaoke", "0p The Carousel Lounge", "Anchorage", "2026-08-16", "8p-2a", ""),
+  ev("Snacks at Midnight", "Van’s Dive Bar", "Anchorage", "2026-08-16", "9p-?", ""),
+
+  // ═══ FAIRBANKS — Sunday August 16th ═══
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-16", "", ""),
+  ev("Karaoke", "The Marlin", "Fairbanks", "2026-08-16", "9p-?", ""),
+
+  // ═══ EAGLE RIVER — Monday August 17th ═══
+  ev("Karaoke Mondays", "Odd Man Rush", "Eagle River", "2026-08-17", "6p-9p", ""),
+
+  // ═══ FAIRBANKS — Monday August 17th ═══
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-17", "", ""),
+  ev("Gazebo Nights Concert Series: Alaska Wompus Cats", "4 Pioneer Park", "Fairbanks", "2026-08-17", "6p-7p", ""),
+
+  // ═══ KENAI — Monday August 17th ═══
+  ev("Storytime & Craft: \"It's Time for Berries!\" 1", "Kenai Chamber of Commerce & Visitor Center", "Kenai", "2026-08-17", "", "", "community"),
+
+  // ═══ ANCHORAGE — Tuesday August 18th ═══
+  ev("Lunch on the Lawn: Live Music w/ Uncle Jim 11:3", "Anchorage Museum", "Anchorage", "2026-08-18", "", ""),
+  ev("Two Step Tuesday w/ DJ Lele Beats 9p-", "Blarney Stone", "Anchorage", "2026-08-18", "", "", "dance"),
+  ev("AK Rockstar Karaoke 8p-", "The Carousel Lounge", "Anchorage", "2026-08-18", "", ""),
+  ev("Rope Dart Lessons w/ Jerrill 8:3", "Oriental Healing Arts Center", "Anchorage", "2026-08-18", "", ""),
+  ev("College Night 1", "Pink Cadillac", "Anchorage", "2026-08-18", "", ""),
+  ev("Garden Grooves: Music in the Beer Garden", "9th State Brewery", "Anchorage", "2026-08-18", "5p-7p", ""),
+  ev("Family Storytime", "Mountain View Public Library", "Anchorage", "2026-08-18", "6p-6:3", "", "community"),
+  ev("Irish Music & Dancing", "Organic Oasis", "Anchorage", "2026-08-18", "6p-8p", ""),
+
+  // ═══ FAIRBANKS — Tuesday August 18th ═══
+  ev("Karaoke Night 7p-", "The Cabin", "Fairbanks", "2026-08-18", "", ""),
+  ev("Golden Heart Revue 8:1", "8 The Palace Theater", "Fairbanks", "2026-08-18", "", ""),
+
+  // ═══ KETCHIKAN — Tuesday August 18th ═══
+  ev("Music on the Dock: ATTK! 1", "Ketchikan Dock", "Ketchikan", "2026-08-18", "", ""),
+
+  // ═══ ANCHORAGE — Wednesday August 19th ═══
+  ev("Garden Grooves: Music in the Beer Garden 5p-", "9th State Brewery", "Anchorage", "2026-08-19", "", ""),
+  ev("Free Community Storytime 10:3", "Alaska Zoo", "Anchorage", "2026-08-19", "", "", "community"),
+  ev("International Folk Dancing 6:3", "Anchorage Social Dance Club", "Anchorage", "2026-08-19", "", ""),
+  ev("AK Rockstar Karaoke 8p-2aHumpy’s - Live Music w/ Will H. Johnson 8p-11:30p Koot’s - Comedy Open Mic 7p-10pKoot’s - Koots Karaoke 1", "The Carousel Lounge", "Anchorage", "2026-08-19", "", "", "comedy"),
+  ev("Line Dance Wednesdays 7p-", "Pink Cadillac", "Anchorage", "2026-08-19", "", "", "dance"),
+  ev("The Eternal Cowboys 1", "Pioneer Bar", "Anchorage", "2026-08-19", "", ""),
+  ev("Karaoke 9p-", "0p-1aVan’s Dive Bar", "Anchorage", "2026-08-19", "", ""),
+  ev("Live Music at Crimson w/ The Whisper Campaign 6:3", "Wildbirch Hotel", "Anchorage", "2026-08-19", "", ""),
+  ev("Public Assistance Resource Fair", "Loussac Luibrary", "Anchorage", "2026-08-19", "3p-5p", "", "festival"),
+  ev("Karaoke 9p-12aManhattan’s Restaurant & Lounge - Seth Malone", "Mad Myrna’s", "Anchorage", "2026-08-19", "6p-9p", ""),
+  ev("Tyrone & Friends", "7 Alehouse", "Anchorage", "2026-08-19", "7p-10p", ""),
+
+  // ═══ BARROW — Wednesday August 19th ═══
+  ev("Storytime & Crafternoon", "Tuzzy Consortium Library", "Barrow", "2026-08-19", "1p-2p", "", "community"),
+
+  // ═══ BIG LAKE — Wednesday August 19th ═══
+  ev("Big Lake Community Farmer’s Market 1", "Common Ground Alaska Farm", "Big Lake", "2026-08-19", "", "", "community"),
+  ev("Open Mic Night", "Susitna Brewing", "Big Lake", "2026-08-19", "6p-9p", ""),
+
+  // ═══ COOPER LANDING — Wednesday August 19th ═══
+  ev("Black Barrel & The Bad Men 6:3", "Cooper Landing Brewing", "Cooper Landing", "2026-08-19", "", ""),
+
+  // ═══ EAGLE RIVER — Wednesday August 19th ═══
+  ev("Karaoke Night w/ KJ Smoke", "Homestead Lounge", "Eagle River", "2026-08-19", "8p-12a", ""),
+
+  // ═══ ESTER — Wednesday August 19th ═══
+  ev("Deja Vu, Old Timey Music 7:3", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "", ""),
+  ev("Sunday Deck Open Jam", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "2p-5p", ""),
+  ev("Wednesday Dance Practice", "Fairbanks Tango", "Ester", "2026-08-19", "6p-9p", "", "dance"),
+  ev("Tara Starlight & The Forest That Never Sleeps", "Malemute Saloon & Gold Camp", "Ester", "2026-08-19", "7p-11p", ""),
+
+  // ═══ FAIRBANKS — Wednesday August 19th ═══
+  ev("After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends 7:3", "Hoodoo Brewing", "Fairbanks", "2026-08-19", "", ""),
+  ev("Golden Heart Revue 8:1", "The Palace Theater", "Fairbanks", "2026-08-19", "", ""),
+  ev("Ride Bikes, Drink Beer 6:3", "Girdwood Brewing Company", "Fairbanks", "2026-08-19", "", ""),
+  ev("Blueberry Festival 1", "Alyeska Resort", "Fairbanks", "2026-08-19", "", "", "festival"),
+  ev("Open Mic Night 9p-", "4 Pioneer Bar", "Fairbanks", "2026-08-19", "", ""),
+  ev("Halo w/ Posterchild, Lloyd Van Ham, & Monir", "Raw Market", "Fairbanks", "2026-08-19", "6p-?", ""),
+  ev("Karaoke Night with Rocky!", "The Spur", "Fairbanks", "2026-08-19", "8p-11p", ""),
+  ev("Karaoke Night", "5 Pioneer Bar", "Fairbanks", "2026-08-19", "9p-1a", ""),
+
+  // ═══ HOMER — Wednesday August 19th ═══
+  ev("Community Jam Sessions 6:3", "Homer Council on the Arts", "Homer", "2026-08-19", "", "", "community"),
+  ev("Sense And Sensibility 7:3", "Pier One Theater", "Homer", "2026-08-19", "", ""),
+  ev("Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails. 1", "Pratt Museum", "Homer", "2026-08-19", "", ""),
+  ev("Backyard Summer Concert Series & Music Festival 8:3", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", "", "festival"),
+  ev("Red Marker Resistance 1", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "", ""),
+  ev("Lost Rockets 1", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "", ""),
+  ev("All Ages Show w/ The Pudgies, DSB, Ophelia 7:3", "Porcupine Theater", "Homer", "2026-08-19", "", ""),
+  ev("Taco Tuesday's with Jim Maloney 6:3", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "", ""),
+  ev("Storytime at the Pratt: Berry Season 10:3", "Pratt Museum", "Homer", "2026-08-19", "", "", "community"),
+  ev("Backyard Summer Concert Series & Music Festival", "Justin Cole’s Down East Saloon", "Homer", "2026-08-19", "1p-1:30a", "", "festival"),
+  ev("Sense And Sensibility", "Pier One Theater", "Homer", "2026-08-19", "3p-5p", ""),
+  ev("Chris Needham", "Kharacters Alaskan Bar", "Homer", "2026-08-19", "5p-7p", ""),
+  ev("Piano Music by Erica", "AJ’s Old Town Steakhouse & Tavern", "Homer", "2026-08-19", "6p-8p", ""),
+  ev("Piano Music by Sunrise Kilcher", "AJ’s Old Town Steakhouse & Tavern", "Homer", "2026-08-19", "6p-8p", ""),
+  ev("Snacks At Midnight w/ The Pit ViperZ", "Alice’s Champagne Palace", "Homer", "2026-08-19", "9p-?", ""),
+  ev("Karaoke Night", "Alibi Bar & Café", "Homer", "2026-08-19", "9p-12:30a", ""),
+
+  // ═══ HOPE — Wednesday August 19th ═══
+  ev("Sunday Brunch with Steve Norwoord 1", "Creekbend Co.", "Hope", "2026-08-19", "", "", "community"),
+  ev("Spindrift", "Dirty Skillet", "Hope", "2026-08-19", "6p-10p", ""),
+  ev("Noah Rinker", "Creekbend Co.", "Hope", "2026-08-19", "7p-11p", ""),
+
+  // ═══ JUNEAU — Wednesday August 19th ═══
+  ev("Karaoke w/ Al Boogie 8p-? 8/1", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
+  ev("Treadwell Trax 1", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
+  ev("RawBeats w/ Astronomar & Friends 9p-? 8/1", "Alaskan Hotel and Bar", "Juneau", "2026-08-19", "", ""),
+  ev("Jazz Jam Tuesday 8p-", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
+  ev("Karaoke 8p-", "Alaskan Hotel and Bar", "Juneau", "2026-08-19", "", ""),
+  ev("Vinyl Afternoon's w/ Dj Roman Martinez 5p-", "The Crystal Saloon", "Juneau", "2026-08-19", "", ""),
+  ev("Behind the Blinds: A Speakeasy Anniversary Party", "Best Window Blinds", "Juneau", "2026-08-19", "2p-6p", ""),
+  ev("Cousin Curtiss & Harrison B", "The Crystal Saloon", "Juneau", "2026-08-19", "8p-?", ""),
+  ev("Open Mic Night", "The Crystal Saloon", "Juneau", "2026-08-19", "8p-11:30p", ""),
+
+  // ═══ KENAI — Wednesday August 19th ═══
+  ev("Yacht Rock Sing –Along Brunch 1", "Duck Inn Café", "Kenai", "2026-08-19", "", "", "community"),
+  ev("Troubadour North", "Vagabond Inn", "Kenai", "2026-08-19", "8p-?", ""),
+  ev("Snacks At Midnight w/ The Pit ViperZ", "Skeet’s Dive Bar", "Kenai", "2026-08-19", "9p-?", ""),
+
+  // ═══ KETCHIKAN — Wednesday August 19th ═══
+  ev("Ketchikan Arts & Humanities Council: Arts Report 8:2", "5.3 FM KRBD", "Ketchikan", "2026-08-19", "", ""),
+  ev("Music on the Dock: DJ DJ Archieologic 1", "Ketchikan Dock", "Ketchikan", "2026-08-19", "", ""),
+  ev("Virgin Voyages: Brilliant Lady Land Party 1", "Arctic Bar", "Ketchikan", "2026-08-19", "", ""),
+  ev("Mud on the Moon Book Launch 6:3", "Ketchikan Public Library", "Ketchikan", "2026-08-19", "", ""),
+  ev("The Ukulele Group 3:4", "Inn at Creek Street", "Ketchikan", "2026-08-19", "", ""),
+  ev("Summer Saturdays at the Museum", "Tongass Historical Museum", "Ketchikan", "2026-08-19", "1p-3p", ""),
+  ev("Live Music with Sarah Short", "Bush Pilots’ Lounge", "Ketchikan", "2026-08-19", "6p-8p", ""),
+  ev("Open Mic Night", "Hole in the Wall", "Ketchikan", "2026-08-19", "6p-8p", ""),
+  ev("Open Mic Night w/ Joe Williams", "The Creek Street Cabaret", "Ketchikan", "2026-08-19", "6p-9p", ""),
+  ev("Square Dance w/ Music by the Free Radicals", "The Creek Street Cabaret", "Ketchikan", "2026-08-19", "7p-9p", "", "dance"),
+  ev("Live Music in the Café", "The New York Café", "Ketchikan", "2026-08-19", "7p-9p", ""),
+  ev("Open Mic Night", "Totem Bar", "Ketchikan", "2026-08-19", "8p-10p", ""),
+  ev("Badd Dog Blues Society", "The Creek Street Cabaret", "Ketchikan", "2026-08-19", "8p-10p", ""),
+
+  // ═══ KODIAK — Wednesday August 19th ═══
+  ev("Roland Roberts Band", "The Rendezvous", "Kodiak", "2026-08-19", "8p-11p", ""),
+
+  // ═══ NORTH POLE — Wednesday August 19th ═══
+  ev("Retirement Home Takeover Party w/ DJ 4", "North Pole Alehouse", "North Pole", "2026-08-19", "", ""),
+  ev("Tuesday Pub Run w/ Tundra Trotters 6:1", "North Pole Alehouse", "North Pole", "2026-08-19", "", "", "community"),
+  ev("Karaoke Thursdays with Rocky Barnette", "North Pole Alehouse", "North Pole", "2026-08-19", "8p-12a", ""),
+
+  // ═══ PALMER — Wednesday August 19th ═══
+  ev("Friday Fling Live Music Solo Steve 1", "Downtown Palmer", "Palmer", "2026-08-19", "", ""),
+  ev("West Coast Sing Wednesday 7:3", "Four Corner’s Lounge", "Palmer", "2026-08-19", "", ""),
+  ev("Collin Donley", "Hatcher Pass Lodge", "Palmer", "2026-08-19", "4p-7p", ""),
+  ev("Open Mic Night w/ Drew Sablon", "Fishhook Bar & Grill", "Palmer", "2026-08-19", "6p-9p", ""),
+  ev("Black Barrel and the Bad Men", "Palmer Alehouse", "Palmer", "2026-08-19", "7p-10p", ""),
+  ev("Johnny Prizm", "Palmer Alehouse", "Palmer", "2026-08-19", "7p-10p", ""),
+  ev("Rhythm & Royalty Tour", "Palmer Train Depot", "Palmer", "2026-08-19", "7p-11:30p", ""),
+  ev("Karaoke", "Four Corner’s Lounge", "Palmer", "2026-08-19", "8p-?", ""),
+  ev("Industry Night with DJ Red", "Four Corner’s Lounge", "Palmer", "2026-08-19", "8p-?", ""),
+  ev("Veins of Gold Mountain Race", "Government Peak Recreation Area", "Palmer", "2026-08-19", "9a-?", ""),
+
+  // ═══ SELDOVIA — Wednesday August 19th ═══
+  ev("Live Music w/ Jim Maloney", "Linwood Bar & Grill", "Seldovia", "2026-08-19", "", ""),
+
+  // ═══ SEWARD — Wednesday August 19th ═══
+  ev("Live Music w/ The Jephries ft. Luv Guvna 6:3", "Flamingo Lounge", "Seward", "2026-08-19", "", ""),
+  ev("Seward Strings", "Seward Senior Center", "Seward", "2026-08-19", "1p-4p", ""),
+  ev("Open Mic Night with Braden", "Yukon Bar", "Seward", "2026-08-19", "8p-2a", ""),
+  ev("Karaoke", "Yukon Bar", "Seward", "2026-08-19", "9p-1a", ""),
+  ev("Karaoke with Megan Killoran", "Yukon Bar", "Seward", "2026-08-19", "9p-1a", ""),
+  ev("Karaoke with Raunchy Rachel", "Yukon Bar", "Seward", "2026-08-19", "9p-1a", ""),
+  ev("Dance Night w/ DJ Waitwat", "Yukon Bar", "Seward", "2026-08-19", "9p-2a", "", "dance"),
+  ev("King Monkey w/ Bananahands Live", "Yukon Bar", "Seward", "2026-08-19", "9p-2a", ""),
+  ev("SIXSTAR w/ The Wet Spots, BoyMom, & Filthy Mike", "Yukon Bar", "Seward", "2026-08-19", "9p-2a", ""),
+
+  // ═══ SITKA — Wednesday August 19th ═══
+  ev("Sitka Blues Fest", "Sitka Fine Arts Camp", "Sitka", "2026-08-19", "3p-9p", "", "festival"),
+  ev("Sitka Conservation Society Wilderness Cruise", "Crescent Harbor", "Sitka", "2026-08-19", "5p-8p", ""),
+
+  // ═══ SKAGWAY — Wednesday August 19th ═══
+  ev("Skagway Idol 7:3", "Skagway Brewing", "Skagway", "2026-08-19", "", ""),
+  ev("Read with a Ranger Story Time 10:3", "Skagway Library", "Skagway", "2026-08-19", "", "", "community"),
+  ev("Music Time", "Skagway Library", "Skagway", "2026-08-19", "3p-5p", ""),
+
+  // ═══ SOLDOTNA — Wednesday August 19th ═══
+  ev("Preschool Storytime 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("The Killer Comedy Show Ft. Sabrina Speers 8:3", "The Orca Theater", "Soldotna", "2026-08-19", "", "", "comedy"),
+  ev("Toddler Story Time 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("Bouncing Babes Story Time 10:3", "Soldotna Library", "Soldotna", "2026-08-19", "", "", "community"),
+  ev("Friends of Mike Morgan Song Circle", "The Goods", "Soldotna", "2026-08-19", "5p-7p", ""),
+  ev("Karaoke w/ Edencraft", "The Goods", "Soldotna", "2026-08-19", "5p-8p", ""),
+  ev("Levitt Amp Music Series: Kenny Smith & The Old Wolves w/ The Copper River Band", "Soldotna Creek Park", "Soldotna", "2026-08-19", "6p-9p", ""),
+
+  // ═══ STERLING — Wednesday August 19th ═══
+  ev("Taste of Aloha! A Traditional Hawaiian Luau 5:3", "Lakeside Falls", "Sterling", "2026-08-19", "", "", "festival"),
+  ev("Tune Weavers", "Naptowne Brewing Company", "Sterling", "2026-08-19", "4p-8p", ""),
+  ev("Brandon Kellum", "Naptowne Brewing Company", "Sterling", "2026-08-19", "6p-9p", ""),
+
+  // ═══ TALKEETNA — Wednesday August 19th ═══
+  ev("Blackwater Railroad Co. 5:3", "Denali Brewing Company", "Talkeetna", "2026-08-19", "", ""),
+  ev("Trapper Creek Bluegrass Revival", "Boots Bison Ranch", "Talkeetna", "2026-08-19", "", ""),
+  ev("Steve Durr", "Mountain High Pizza Pie", "Talkeetna", "2026-08-19", "1p-2:3", ""),
+  ev("Salmon Run Art Auction Fundraiser", "Sheldon Community Arts Hangar", "Talkeetna", "2026-08-19", "3p-5p", "", "community"),
+  ev("Live At Five Summer Concerts: TKA Hawks", "Talkeetna Village Park", "Talkeetna", "2026-08-19", "5p-7p", ""),
+  ev("Collin Donley Live", "Mountain High Pizza", "Talkeetna", "2026-08-19", "7p-10p", ""),
+  ev("Madeline & the Brothers Smith", "Fairview Inn", "Talkeetna", "2026-08-19", "9p-1a", ""),
+  ev("Karaoke", "Fairview Inn", "Talkeetna", "2026-08-19", "9p-1a", ""),
+
+  // ═══ VALDEZ — Wednesday August 19th ═══
+  ev("Saturday Market 1", "Valdez Brewing", "Valdez", "2026-08-19", "", "", "community"),
+
+  // ═══ WASILLA — Wednesday August 19th ═══
+  ev("Live Music with Monster on the Mountain", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-19", "", ""),
+  ev("Live Music w/ Pam Santoro", "Tug Bar & Liquor- Goose Bay Inn", "Wasilla", "2026-08-19", "", ""),
+  ev("Storytime at Ken’s 1", "Ken’s Garden Center", "Wasilla", "2026-08-19", "", "", "community"),
+  ev("Open Mic 7:3", "Schwabenhof", "Wasilla", "2026-08-19", "", ""),
+  ev("Sign Language Classes", "Black Birch Books", "Wasilla", "2026-08-19", "5p-6p", "", "community"),
+  ev("Storytelling Night: Shared Scars", "Black Birch Books", "Wasilla", "2026-08-19", "5p-7p", ""),
+  ev("Collin Donley Live", "Settler’s Bay Lodge", "Wasilla", "2026-08-19", "6p-?", ""),
+  ev("Live Music With Drew Sablon", "Everett’s", "Wasilla", "2026-08-19", "6p-9p", ""),
+  ev("Live Music w/ Sergio", "Last Frontier Brewing Company", "Wasilla", "2026-08-19", "6p-9p", ""),
+  ev("Rick Brooks Live", "Last Frontier Brewing Company", "Wasilla", "2026-08-19", "6p-9p", ""),
+  ev("Live Music w/ Jerry Wessling", "Everett’s", "Wasilla", "2026-08-19", "6p-9p", ""),
+  ev("Karaoke Night", "Schwabenhof", "Wasilla", "2026-08-19", "8p-11p", ""),
+
+  // ═══ COOPER LANDING — Thursday August 20th ═══
+  ev("Jesse James", "Gwin’s Lodge", "Cooper Landing", "2026-08-20", "6p-10p", ""),
+
+  // ═══ COOPER LANDING — Friday August 21st ═══
+  ev("Colin Donkey", "Gwin’s Lodge", "Cooper Landing", "2026-08-21", "6p-10p", ""),
+
+  // ═══ COOPER LANDING — Wednesday August 26th ═══
+  ev("Frank Larosi", "Gwin’s Lodge", "Cooper Landing", "2026-08-26", "6p-10p", ""),
 ];
 
 export const cities = [...new Set(events.map(e => e.city))].sort();

@@ -1,13 +1,24 @@
 [
   {
     "id": "4442",
-    "title": "Tata's, Tutu's, & Xtra Tuffs Bra Decorating Party",
-    "venue": "Valdez Brewing",
-    "city": "Valdez",
     "date": "2026-08-06",
+    "city": "Valdez",
+    "venue": "Valdez Brewing",
+    "category": "music",
+    "title": "Tata's, Tutu's, & Xtra Tuffs Bra Decorating Party",
     "time": "6p-?",
     "ticketUrl": "https://www.facebook.com/events/872664205492660/",
-    "category": "music",
+    "cost": ""
+  },
+  {
+    "id": "4877",
+    "date": "2026-08-19",
+    "city": "Valdez",
+    "venue": "Valdez Brewing",
+    "category": "community",
+    "title": "Saturday Market 1",
+    "time": "",
+    "ticketUrl": "",
     "cost": ""
   }
 ]

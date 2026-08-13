@@ -1,13 +1,13 @@
 [
   {
     "id": "4498",
-    "title": "Malone, Doucet, & McManamy Live",
-    "venue": "Kasilof Dock RV Park",
-    "city": "Kasilof",
     "date": "2026-08-08",
+    "city": "Kasilof",
+    "venue": "Kasilof Dock RV Park",
+    "category": "music",
+    "title": "Malone, Doucet, & McManamy Live",
     "time": "6p-?",
     "ticketUrl": "https://www.facebook.com/events/1018904524101202/",
-    "category": "music",
     "cost": ""
   }
 ]
