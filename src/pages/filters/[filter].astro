@@ -86,6 +86,7 @@ const formatCategoryName = (cat: string) => {
   };
   return names[cat] || cat;
 };
+const currentDate = new Date().toISOString().slice(0, 10);
 ---
 
 <Layout title={`${name} — AK Concerts`} description={description}>
@@ -117,6 +118,7 @@ const formatCategoryName = (cat: string) => {
               >
                 <span class="event-row-icon"><Icon size={14} /></span>
                 <span class="event-row-date">{e.date}</span>
+                {e.date < currentDate && <span class="event-row-past-pill">PAST EVENT</span>}
                 <span class="event-row-city-pill">{e.city}</span>
                 <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                 <span class="event-row-sep">—</span>
@@ -211,6 +213,7 @@ const formatCategoryName = (cat: string) => {
                 >
                   <span class="event-row-icon"><Icon size={14} /></span>
                   <span class="event-row-date">{e.date}</span>
+                  {e.date < currentDate && <span class="event-row-past-pill">PAST EVENT</span>}
                   <span class="event-row-city-pill">{e.city}</span>
                   <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                   <span class="event-row-sep">—</span>
@@ -242,6 +245,7 @@ const formatCategoryName = (cat: string) => {
 .event-row:hover{background:var(--card)}
 .event-row-icon{font-size:.875rem;flex-shrink:0}
 .event-row-date{font-size:.75rem;font-weight:600;color:var(--brand-gold);min-width:5.5rem;flex-shrink:0}
+.event-row-past-pill{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:rgba(239,68,68,0.18);border:1px solid rgba(239,68,68,0.5);color:#ef4444;padding:.125rem .375rem;border-radius:.25rem;flex-shrink:0}
 .event-row-city-pill{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--secondary);border:1px solid var(--border);padding:.125rem .375rem;border-radius:.25rem;color:var(--muted-foreground);flex-shrink:0}
 .event-row-venue{color:var(--muted-foreground);flex-shrink:0}
 .event-row-sep{color:var(--muted-foreground);opacity:.4;flex-shrink:0}

@@ -24,6 +24,7 @@ const heroImages = [
   '/images/hero/hero-20.webp'
 ];
 
+const defaultHero = '/images/hero/hero-20.webp';
 const sevenDaysAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
 const sevenDaysAhead = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
 const eventsThisWeek = events.filter(e => e.date >= sevenDaysAgo && e.date <= sevenDaysAhead).length;
