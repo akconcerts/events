@@ -3,6 +3,7 @@ import os
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.datavalidation import DataValidation
 
 output_xlsx_path = "/Volumes/homes/Kevin/AI_BUILDS/AKCONCERTS-COM_AG-v101/akconcerts-com/AK_Concerts_Master_CMS_CRM_Database.xlsx"
 artifact_xlsx_path = "/Users/kb/.gemini/antigravity-ide/brain/68236e0c-08a9-4d0b-903b-7eb1a98165a7/AK_Concerts_Master_CMS_CRM_Database.xlsx"
@@ -30,7 +31,7 @@ thin_border = Border(
 )
 
 wb = openpyxl.Workbook()
-wb.remove(wb.active) # Remove default sheet
+wb.remove(wb.active)
 
 # Utility to format headers and table
 def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
@@ -65,8 +66,18 @@ def create_tab(sheet_name, headers, rows_data, is_gold_header=False):
         
     return ws
 
-# Tab 1: Pending_Submissions (Web Listener Target)
-create_tab(
+# Data Validation Definitions
+dv_status = DataValidation(type="list", formula1='"Pending,Approved,Rejected,Archived"', allow_blank=True)
+dv_category = DataValidation(type="list", formula1='"music,comedy,festival,dance,theatre,community"', allow_blank=True)
+dv_cities = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez"', allow_blank=True)
+dv_type = DataValidation(type="list", formula1='"Indoor,Outdoor/Festival"', allow_blank=True)
+dv_claim_status = DataValidation(type="list", formula1='"Unclaimed,Pending Review,Verified Owner,Flagged"', allow_blank=True)
+dv_account_status = DataValidation(type="list", formula1='"Active,Inactive,Closed"', allow_blank=True)
+dv_feed_engine = DataValidation(type="list", formula1='"Facebook API,Web Scraper,iCal Feed,CSV Import"', allow_blank=True)
+dv_menu_loc = DataValidation(type="list", formula1='"Header Desktop & Mobile,Bottom Mobile Pill,Global Category Filter"', allow_blank=True)
+
+# 1. Pending_Submissions Tab
+ws_pending = create_tab(
     "Pending_Submissions",
     ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"],
     [
@@ -75,8 +86,14 @@ create_tab(
     ],
     is_gold_header=True
 )
+ws_pending.add_data_validation(dv_status)
+dv_status.add("M2:M1000")
+ws_pending.add_data_validation(dv_category)
+dv_category.add("G2:G1000")
+ws_pending.add_data_validation(dv_cities)
+dv_cities.add("E2:E1000")
 
-# Tab 2: Events_Master (5,113 Real Events)
+# 2. Events_Master Tab
 master_event_rows = []
 for e in events_data:
     master_event_rows.append([
@@ -94,9 +111,21 @@ for e in events_data:
         "Master Event Database",
         "Approved"
     ])
-create_tab("Events_Master", ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"], master_event_rows)
+ws_events = create_tab("Events_Master", ["Timestamp", "Title", "Date", "Time", "City", "Venue", "Category", "Cost", "TicketUrl", "Email", "SubmitterName", "Notes", "Status"], master_event_rows)
 
-# Tab 3: Venues_CRM
+dv_status_master = DataValidation(type="list", formula1='"Pending,Approved,Rejected,Archived"', allow_blank=True)
+ws_events.add_data_validation(dv_status_master)
+dv_status_master.add(f"M2:M{len(master_event_rows)+10}")
+
+dv_category_master = DataValidation(type="list", formula1='"music,comedy,festival,dance,theatre,community"', allow_blank=True)
+ws_events.add_data_validation(dv_category_master)
+dv_category_master.add(f"G2:G{len(master_event_rows)+10}")
+
+dv_cities_master = DataValidation(type="list", formula1='"Anchorage,Fairbanks,Juneau,Homer,Palmer,Wasilla,Seward,Girdwood,Talkeetna,Kenai,Soldotna,Ketchikan,Sitka,Kodiak,Valdez"', allow_blank=True)
+ws_events.add_data_validation(dv_cities_master)
+dv_cities_master.add(f"E2:E{len(master_event_rows)+10}")
+
+# 3. Venues_CRM Tab
 venue_rows = []
 for v in venues_data:
     venue_rows.append([
@@ -113,9 +142,18 @@ for v in venues_data:
         "Verified Owner",
         "Active"
     ])
-create_tab("Venues_CRM", ["Venue ID", "Venue Name", "City", "Address", "Capacity", "Type", "Website", "Facebook Page", "Latitude", "Longitude", "Claim Status", "Account Status"], venue_rows)
+ws_venues = create_tab("Venues_CRM", ["Venue ID", "Venue Name", "City", "Address", "Capacity", "Type", "Website", "Facebook Page", "Latitude", "Longitude", "Claim Status", "Account Status"], venue_rows)
 
-# Tab 4: Bands_Artists_CRM
+ws_venues.add_data_validation(dv_type)
+dv_type.add(f"F2:F{len(venue_rows)+10}")
+
+ws_venues.add_data_validation(dv_claim_status)
+dv_claim_status.add(f"K2:K{len(venue_rows)+10}")
+
+ws_venues.add_data_validation(dv_account_status)
+dv_account_status.add(f"L2:L{len(venue_rows)+10}")
+
+# 4. Bands_Artists_CRM Tab
 bands_sample = [
     ["36-crazyfists", "36 Crazyfists", "Heavy Metal", "Anchorage", "http://www.facebook.com/36crazyfists/events", "8DeKmZbzvV0", "Verified Artist"],
     ["ava-earl", "Ava Earl", "Ethereal Folk", "Girdwood", "https://facebook.com/avaearl", "XOVdqLgXjQs", "Verified Artist"],
@@ -126,9 +164,9 @@ bands_sample = [
     ["emma-hill", "Emma Hill", "Indie Folk", "Anchorage", "https://facebook.com/emmahillmusic", "vcVt7pTL_tg", "Verified Artist"],
     ["the-eternal-cowboys", "The Eternal Cowboys", "Country Western", "Fairbanks", "https://facebook.com/eternalcowboys", "5rf7DK4fYQo", "Verified Artist"]
 ]
-create_tab("Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Facebook URL", "YouTube Video ID", "Profile Status"], bands_sample)
+ws_bands = create_tab("Bands_Artists_CRM", ["Band Slug", "Band Name", "Genre", "Home City", "Facebook URL", "YouTube Video ID", "Profile Status"], bands_sample)
 
-# Tab 5: Cities_Regions
+# 5. Cities_Regions Tab
 city_rows = [
     ["Anchorage", "Greater Anchorage Borough", "Southcentral", 61.2181, -149.9003, "Active Core"],
     ["Fairbanks", "Fairbanks North Star Borough", "Interior", 64.8378, -147.7164, "Active Core"],
@@ -142,18 +180,18 @@ city_rows = [
     ["Ketchikan", "Ketchikan Gateway Borough", "Southeast", 55.3422, -131.6461, "Active Regional"],
     ["Sitka", "City and Borough of Sitka", "Southeast", 57.0531, -135.3300, "Active Regional"]
 ]
-create_tab("Cities_Regions", ["City Name", "Borough / Region", "Territory Zone", "Latitude", "Longitude", "Coverage Level"], city_rows)
+ws_cities = create_tab("Cities_Regions", ["City Name", "Borough / Region", "Territory Zone", "Latitude", "Longitude", "Coverage Level"], city_rows)
 
-# Tab 6: Promoters_Partners
+# 6. Promoters_Partners Tab
 promoters_rows = [
     ["PROMO-01", "Showdown Alaska", "Major Touring & Festivals", "Anchorage", "info@showdownalaska.com", "https://showdownalaska.com", "Active Key Partner"],
     ["PROMO-02", "Whale Bell Media", "Independent Music & Concerts", "Homer", "events@whalebell.com", "https://whalebell.com", "Active Partner"],
     ["PROMO-03", "Alaska Center for the Performing Arts", "Broadway & Performing Arts", "Anchorage", "boxoffice@alaskapac.org", "https://alaskapac.org", "Active Venue Partner"],
     ["PROMO-04", "Creekbend Company", "Outdoor Summer Concert Series", "Hope", "info@creekbendco.com", "https://creekbendco.com", "Active Festival Partner"]
 ]
-create_tab("Promoters_Partners", ["Promoter ID", "Organization Name", "Specialty Type", "Base City", "Contact Email", "Website", "Partner Tier"], promoters_rows)
+ws_promoters = create_tab("Promoters_Partners", ["Promoter ID", "Organization Name", "Specialty Type", "Base City", "Contact Email", "Website", "Partner Tier"], promoters_rows)
 
-# Tab 7: Scraper_Sources
+# 7. Scraper_Sources Tab
 scrapers_rows = [
     ["SCRAPE-01", "Williwaw Social Facebook Events", "Facebook API", "Daily (02:00 AKDT)", "Active", "2026-08-12 02:00"],
     ["SCRAPE-02", "Koot's Nightclub Schedule", "Web Scraper", "Daily (02:30 AKDT)", "Active", "2026-08-12 02:30"],
@@ -162,9 +200,12 @@ scrapers_rows = [
     ["SCRAPE-05", "Palmer Alehouse Calendar", "Web Scraper", "Daily (04:00 AKDT)", "Active", "2026-08-12 04:00"],
     ["SCRAPE-06", "Salmonfest Alaska Master Import", "CSV Import", "Weekly", "Active", "2026-08-10 12:00"]
 ]
-create_tab("Scraper_Sources", ["Scraper ID", "Source Feed Name", "Feed Engine", "Scrape Frequency", "Status", "Last Run Timestamp"], scrapers_rows)
+ws_scrapers = create_tab("Scraper_Sources", ["Scraper ID", "Source Feed Name", "Feed Engine", "Scrape Frequency", "Status", "Last Run Timestamp"], scrapers_rows)
 
-# Tab 8: App_Settings_Menus
+ws_scrapers.add_data_validation(dv_feed_engine)
+dv_feed_engine.add(f"C2:C{len(scrapers_rows)+10}")
+
+# 8. App_Settings_Menus Tab
 settings_rows = [
     ["HEADER_NAV_1", "Playing Soon", "/", "Header Desktop & Mobile", "Enabled"],
     ["HEADER_NAV_2", "Past Events", "/past", "Header Desktop & Mobile", "Enabled"],
@@ -184,10 +225,13 @@ settings_rows = [
     ["CATEGORY_5", "Theatre & Arts", "theatre", "Global Category Filter", "Enabled"],
     ["CATEGORY_6", "Community", "community", "Global Category Filter", "Enabled"]
 ]
-create_tab("App_Settings_Menus", ["Setting Key", "Label Name", "Target Route / Slug", "Menu Location", "Status"], settings_rows)
+ws_settings = create_tab("App_Settings_Menus", ["Setting Key", "Label Name", "Target Route / Slug", "Menu Location", "Status"], settings_rows)
+
+ws_settings.add_data_validation(dv_menu_loc)
+dv_menu_loc.add(f"D2:D{len(settings_rows)+10}")
 
 # Save Workbook
 for path in [output_xlsx_path, artifact_xlsx_path]:
     wb.save(path)
 
-print(f"Successfully generated Master CRM/CMS Excel Workbook: {output_xlsx_path}")
+print(f"Successfully generated Master CRM/CMS Excel Workbook with embedded DataValidation dropdowns: {output_xlsx_path}")
