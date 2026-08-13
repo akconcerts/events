@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { events, getEventsByCity } from '../../data/events';
-import { getAlaskaTodayDate, isEventPast } from '../../utils/date';
+import { getAlaskaTodayDate, isEventPast, formatFullTime } from '../../utils/date';
 import EventJsonLd from '../../components/EventJsonLd.astro';
 import EventFilterBar from '../../components/EventFilterBar.astro';
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
@@ -115,7 +115,7 @@ const currentDate = getAlaskaTodayDate();
                 <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                 <span class="event-row-sep">—</span>
                 <span class="event-row-title">{e.title}</span>
-                <span class="event-row-time">{e.time}</span>
+                <span class="event-row-time">{formatFullTime(e.time)}</span>
               </a>
             );
           })}
@@ -145,7 +145,7 @@ const currentDate = getAlaskaTodayDate();
                   <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                   <span class="event-row-sep">—</span>
                   <span class="event-row-title">{e.title}</span>
-                  <span class="event-row-time">{e.time}</span>
+                  <span class="event-row-time">{formatFullTime(e.time)}</span>
                 </a>
               );
             })}
@@ -175,7 +175,7 @@ const currentDate = getAlaskaTodayDate();
                   <span class="event-row-date">{e.date}</span>
                   <span class="event-row-sep">—</span>
                   <span class="event-row-title">{e.title}</span>
-                  <span class="event-row-time">{e.time}</span>
+                  <span class="event-row-time">{formatFullTime(e.time)}</span>
                 </a>
               );
             })}
@@ -207,7 +207,7 @@ const currentDate = getAlaskaTodayDate();
                   <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                   <span class="event-row-sep">—</span>
                   <span class="event-row-title">{e.title}</span>
-                  <span class="event-row-time">{e.time}</span>
+                  <span class="event-row-time">{formatFullTime(e.time)}</span>
                 </a>
               );
             })}

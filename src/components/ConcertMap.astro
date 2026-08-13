@@ -116,7 +116,10 @@ import eventsData from '../data/events.json';
                       <td class="mini-title">
                         <a href="${e.ticketUrl || '#'}" target="_blank" rel="noopener">${e.title}</a>
                       </td>
-                      <td class="mini-time">${e.time || ''}</td>
+                      <td class="mini-time">${(function(t){
+                        if(!t||t==='?') return 'TBA';
+                        return t.trim().replace(/\s*-\s*/g,' - ').replace(/(\d+)(:\d+)?\s*a\b/gi,'$1$2 AM').replace(/(\d+)(:\d+)?\s*p\b/gi,'$1$2 PM').replace(/(\d+)\s*AM\b/g,'$1:00 AM').replace(/(\d+)\s*PM\b/g,'$1:00 PM').replace(/:00:00/g,':00');
+                      })(e.time || '')}</td>
                     </tr>
                   `).join('')}
                 </tbody>

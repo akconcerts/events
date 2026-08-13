@@ -110,3 +110,23 @@ export function isEventPast(eventDate: string, eventTimeStr: string = ''): boole
 
   return false;
 }
+
+/**
+ * Formats shorthand time strings (e.g., "10a-6p", "6p-?", "6:30p-?", "9p-1a", "7p-10p")
+ * into clean, readable full AM/PM formats (e.g. "10:00 AM - 6:00 PM", "6:00 PM - ?", "6:30 PM - ?")
+ */
+export function formatFullTime(timeStr: string = ''): string {
+  if (!timeStr) return '';
+  const trimmed = timeStr.trim();
+  if (!trimmed || trimmed === '?') return 'TBA';
+
+  let formatted = trimmed
+    .replace(/\s*-\s*/g, ' - ')
+    .replace(/(\d+)(:\d+)?\s*a\b/gi, (match, p1, p2) => `${p1}${p2 || ':00'} AM`)
+    .replace(/(\d+)(:\d+)?\s*p\b/gi, (match, p1, p2) => `${p1}${p2 || ':00'} PM`)
+    .replace(/(\d+)\s*AM\b/g, '$1:00 AM')
+    .replace(/(\d+)\s*PM\b/g, '$1:00 PM')
+    .replace(/:00:00/g, ':00');
+
+  return formatted;
+}
