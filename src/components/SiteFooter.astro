@@ -68,17 +68,15 @@ const year = new Date().getFullYear();
     </div>
   </div>
 
-  <div class="designer-credit">
-    <span>Designed By</span>
-    <a href="https://fourak.com" target="_blank" rel="noopener noreferrer" title="FourAK" aria-label="Visit FourAK website (opens in a new window)">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.027 194.027">
-        <g>
-          <path d="M140.566,75.764c1.545,0,2.877.493,3.997,1.472,1.125.983,1.684,2.246,1.684,3.788v3.586s24.406,0,24.406,0v-10.109c0-3.083-.664-5.996-1.999-8.731-1.331-2.735-3.156-5.155-5.47-7.259-2.313-2.104-4.977-3.75-7.995-4.944-3.014-1.189-6.206-1.789-9.572-1.789h-37.002s0,23.986,0,23.986h31.952Z"></path>
-          <path d="M53.462,118.264c-1.684,0-3.051-.491-4.103-1.473-1.052-.979-1.577-2.242-1.577-3.787v-3.588s-24.407,0-24.407,0v10.32c0,3.087.667,5.997,1.999,8.732,1.334,2.735,3.156,5.121,5.47,7.153,2.315,2.035,4.981,3.65,7.995,4.839,3.018,1.194,6.206,1.789,9.574,1.789h35.396s0-23.985,0-23.985h-30.346Z"></path>
-          <path d="M47.781,81.024c0-1.542.526-2.805,1.577-3.788,1.053-.979,2.42-1.472,4.103-1.472h30.346s0-23.986,0-23.986h-35.396c-3.367,0-6.556.599-9.574,1.789-3.014,1.194-5.681,2.84-7.995,4.944s-4.136,4.524-5.47,7.259c-1.332,2.735-1.999,5.648-1.999,8.731v10.109s24.407,0,24.407,0v-3.586Z"></path>
-          <path d="M146.247,113.004c0,1.545-.558,2.808-1.684,3.787-1.12.983-2.452,1.473-3.997,1.473h-31.952s0,23.985,0,23.985h37.002c3.366,0,6.558-.595,9.572-1.789,3.018-1.189,5.682-2.804,7.995-4.839,2.315-2.032,4.14-4.418,5.47-7.153,1.336-2.735,1.999-5.645,1.999-8.732v-10.32s-24.406,0-24.406,0v3.588Z"></path>
-        </g>
-      </svg>
+  <div class="designer-credit-container mt-8 flex flex-col items-center justify-center gap-2 pb-6">
+    <span class="designer-credit-label text-[9px] uppercase tracking-[2px] text-neutral-700">Designed By</span>
+    <a href="https://fourak.com" target="_blank" rel="noopener noreferrer" class="designer-credit-link focus:outline-none focus-visible:ring-1 focus-visible:ring-white rounded group/logo flex items-center justify-center p-2" title="Four Media" aria-label="Visit Four Media website (opens in a new window)">
+      <div class="designer-credit-logo-wrap flex items-center justify-center overflow-hidden h-[14px]">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="78.726 0 35.299 63.521" class="svg-f h-full w-auto fill-[#ff6700] transition-all duration-500 ease-out translate-x-4 opacity-0 max-w-0 pr-[2px] group-hover/logo:translate-x-0 group-hover/logo:opacity-100 group-hover/logo:max-w-[12px]"><polygon points="89.071 10.527 114.025 10.527 114.025 0 78.726 0 78.726 63.521 89.071 63.521 89.071 36.752 111.847 36.752 111.847 26.225 89.071 26.225 89.071 10.527"></polygon></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.363 63.521" class="svg-box h-full w-auto fill-neutral-600 transition-all duration-500 ease-out max-w-[15px] opacity-100 group-hover/logo:opacity-0 group-hover/logo:max-w-0 group-hover/logo:scale-75 overflow-hidden"><path d="M49.004.079H14.358C6.428.079,0,6.508,0,14.438v34.646c0,7.93,6.428,14.358,14.358,14.358h34.646c7.93,0,14.358-6.428,14.358-14.358V14.438C63.363,6.508,56.934.079,49.004.079ZM27.369,46.533h-11.559c-1.1,0-2.141-.194-3.126-.584-.984-.388-1.855-.916-2.611-1.58-.756-.663-1.351-1.443-1.786-2.336-.435-.893-.653-1.844-.653-2.852v-3.37h7.97v1.172c0,.504.172.917.515,1.237.344.321.79.481,1.34.481h9.91v7.833ZM27.369,24.821h-9.91c-.55,0-.996.161-1.34.481-.343.321-.515.733-.515,1.237v1.171h-7.97v-3.301c0-1.007.218-1.958.653-2.851.436-.893,1.031-1.683,1.786-2.371.756-.687,1.627-1.225,2.611-1.615.986-.388,2.027-.584,3.126-.584h11.559v7.833ZM55.729,39.181c0,1.008-.217,1.958-.653,2.852-.435.893-1.031,1.672-1.786,2.336-.755.665-1.625,1.192-2.611,1.58-.984.39-2.027.584-3.126.584h-12.083v-7.833h10.434c.504,0,.939-.16,1.305-.481.367-.32.55-.732.55-1.237v-1.172h7.97v3.37ZM55.729,27.71h-7.97v-1.171c0-.504-.182-.916-.55-1.237-.366-.32-.801-.481-1.305-.481h-10.434v-7.833h12.083c1.099,0,2.142.196,3.126.584.986.39,1.855.928,2.611,1.615.756.687,1.352,1.477,1.786,2.371.436.893.653,1.844.653,2.851v3.301Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="120.37 0 43.16 63.521" class="svg-o h-full w-auto fill-[#ff6700] transition-all duration-500 ease-out max-w-0 opacity-0 group-hover/logo:opacity-100 group-hover/logo:max-w-[12px] group-hover/logo:scale-100 scale-75 overflow-hidden"><g><path d="M151.049,50.545c0,.666-.213,1.241-.635,1.724-.424.485-.969.726-1.634.726h-1.547v10.526h4.36c1.33,0,2.586-.286,3.766-.862,1.18-.574,2.223-1.361,3.131-2.359.908-.998,1.618-2.147,2.133-3.448.513-1.3.771-2.677.771-4.129v-15.959h-10.345v13.781Z"></path><path d="M132.718,12.977c0-.726.212-1.316.635-1.77.422-.454.967-.68,1.633-.68h1.547V0h-4.451c-1.331,0-2.587.288-3.766.862-1.18.575-2.209,1.361-3.085,2.359-.878.998-1.574,2.148-2.087,3.448-.515,1.302-.771,2.677-.771,4.129v15.266h10.345v-13.088Z"></path><path d="M148.78,10.527c.665,0,1.21.227,1.634.68.422.454.635,1.044.635,1.77v13.088h10.345v-15.266c0-1.452-.259-2.827-.771-4.129-.515-1.3-1.225-2.45-2.133-3.448s-1.951-1.784-3.131-2.359c-1.18-.574-2.436-.862-3.766-.862h-4.36v10.527h1.547Z"></path><path d="M134.987,52.995c-.666,0-1.211-.241-1.633-.726-.424-.483-.635-1.058-.635-1.724v-13.781h-10.345v15.959c0,1.452.256,2.828.771,4.129.513,1.302,1.209,2.451,2.087,3.448.876.998,1.905,1.785,3.085,2.359,1.18.576,2.435.862,3.766.862h4.451v-10.526h-1.547Z"></path></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="171.852 0 93.17 63.521" class="svg-ur h-full w-auto fill-[#ff6700] transition-all duration-500 ease-out -translate-x-4 opacity-0 max-w-0 pl-[2px] group-hover/logo:translate-x-0 group-hover/logo:opacity-100 group-hover/logo:max-w-[22px]"><g><path d="M199.959,50.545c0,.666-.227,1.241-.681,1.724-.454.485-1.014.726-1.679.726h-12.977c-.666,0-1.225-.241-1.679-.726-.454-.483-.681-1.058-.681-1.724V0h-10.345v52.632c0,1.452.257,2.844.771,4.174.513,1.331,1.209,2.496,2.087,3.494.876.998,1.905,1.785,3.085,2.359,1.18.576,2.435.862,3.766.862h18.875c1.33,0,2.586-.286,3.766-.862,1.18-.574,2.223-1.361,3.13-2.359.908-.998,1.618-2.162,2.133-3.494.513-1.33.771-2.722.771-4.174V0h-10.345v50.545Z"></path><path d="M251.229,32.94l6.534-4.265c1.875-1.271,2.963-2.451,3.267-3.539.363-1.089.544-2.208.544-3.358v-11.797c0-1.27-.227-2.509-.68-3.72-.454-1.209-1.089-2.269-1.906-3.176s-1.785-1.648-2.904-2.223c-1.12-.574-2.345-.862-3.676-.862h-29.855v63.521h10.345v-19.873l9.347-5.535,11.252,25.408h11.524l-13.793-30.581ZM248.87,22.323l-15.971,9.074V10.345h15.971c.604,0,1.148.242,1.634.726.483.666.726,1.27.726,1.815v5.263c0,1.15-.181,1.997-.544,2.541-.242.606-.848,1.15-1.815,1.634Z"></path></g></svg>
+      </div>
     </a>
   </div>
 </footer>
@@ -183,32 +181,94 @@ const year = new Date().getFullYear();
   color: var(--brand-gold);
 }
 
-.designer-credit {
-  margin-top: 1rem;
+.designer-credit-container {
+  margin-top: 2rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 100%;
+  padding-bottom: 1.5rem;
 }
-.designer-credit span {
+.designer-credit-label {
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--muted-foreground);
+  color: var(--muted-foreground, #737373);
 }
-.designer-credit a {
-  display: block;
+.designer-credit-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
   outline: none;
-  border-radius: 4px;
 }
-.designer-credit svg {
-  height: 2rem;
+.designer-credit-logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 14px;
+}
+.svg-f {
+  height: 100%;
   width: auto;
-  fill: var(--muted-foreground);
-  transition: fill 0.3s;
-}
-.designer-credit a:hover svg {
   fill: #ff6700;
+  transition: all 0.5s ease-out;
+  transform: translateX(1rem);
+  opacity: 0;
+  max-width: 0;
+  padding-right: 2px;
+}
+.svg-box {
+  height: 100%;
+  width: auto;
+  fill: var(--muted-foreground, #525252);
+  transition: all 0.5s ease-out;
+  max-width: 15px;
+  opacity: 1;
+  overflow: hidden;
+}
+.svg-o {
+  height: 100%;
+  width: auto;
+  fill: #ff6700;
+  transition: all 0.5s ease-out;
+  max-width: 0;
+  opacity: 0;
+  transform: scale(0.75);
+  overflow: hidden;
+}
+.svg-ur {
+  height: 100%;
+  width: auto;
+  fill: #ff6700;
+  transition: all 0.5s ease-out;
+  transform: translateX(-1rem);
+  opacity: 0;
+  max-width: 0;
+  padding-left: 2px;
+}
+
+.designer-credit-link:hover .svg-f {
+  transform: translateX(0);
+  opacity: 1;
+  max-width: 12px;
+}
+.designer-credit-link:hover .svg-box {
+  opacity: 0;
+  max-width: 0;
+  transform: scale(0.75);
+}
+.designer-credit-link:hover .svg-o {
+  opacity: 1;
+  max-width: 12px;
+  transform: scale(1);
+}
+.designer-credit-link:hover .svg-ur {
+  transform: translateX(0);
+  opacity: 1;
+  max-width: 22px;
 }
 </style>
