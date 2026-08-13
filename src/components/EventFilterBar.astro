@@ -251,42 +251,37 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     align-items: flex-end;
   }
 }
-
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-block: 1rem;
-  background: var(--card);
-  border-radius: .5rem;
-  border: 1px solid var(--border);
-  padding-inline: 1rem;
-  flex: 1;
+  .filters-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 .filter-group {
   display: flex;
   flex-direction: column;
-  gap: .25rem;
-  flex: 1;
-  min-width: 140px;
+  gap: .375rem;
 }
+
 .filter-group label {
   font-size: .75rem;
-  text-transform: uppercase;
-  color: var(--muted-foreground);
   font-weight: 600;
+  text-transform: uppercase;
   letter-spacing: .05em;
+  color: var(--muted-foreground);
 }
+
 .filter-group select {
   background: var(--background);
-  border: 1px solid var(--border);
   color: var(--foreground);
-  padding: .5rem;
-  border-radius: .25rem;
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  padding: .5rem .75rem;
   font-size: .875rem;
   outline: none;
+  transition: border-color .15s;
+  cursor: pointer;
 }
+
 .filter-group select:focus {
   border-color: var(--brand-gold);
 }
@@ -303,10 +298,12 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 @media (min-width: 640px) {
   .view-toggles {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2.75rem);
+    grid-template-rows: repeat(2, 2.75rem);
     border-radius: .75rem;
     width: max-content;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
 }
 
@@ -317,9 +314,23 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   padding: .75rem 1rem;
   color: var(--muted-foreground);
   background: transparent;
-  transition: all .2s;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   border-right: 1px solid var(--border);
   cursor: pointer;
+  gap: 0.35rem;
+}
+
+.view-toggle-label {
+  display: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 639px) {
+  .view-toggle.active .view-toggle-label {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 640px) {
@@ -337,13 +348,47 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   .view-toggle:nth-child(4) {
     border-bottom: none !important;
   }
+
+  /* Active 2-cube expansion + label + hide inactive row neighbor */
+  .view-toggle.active {
+    grid-column: span 2;
+    width: 5.5rem;
+    background: var(--brand-gold);
+    color: var(--brand-navy);
+    justify-content: center;
+    border-right: 1px solid var(--border) !important;
+  }
+
+  .view-toggle.active .view-toggle-label {
+    display: inline-block;
+  }
+
+  /* Row 1: If Date (item 1) active -> hide City (item 2) */
+  .view-toggle[data-view="date"].active ~ .view-toggle[data-view="city"] {
+    display: none !important;
+  }
+
+  /* Row 1: If City (item 2) active -> hide Date (item 1) */
+  .view-toggles:has(.view-toggle[data-view="city"].active) .view-toggle[data-view="date"] {
+    display: none !important;
+  }
+
+  /* Row 2: If Venue (item 3) active -> hide Type (item 4) */
+  .view-toggle[data-view="venue"].active ~ .view-toggle[data-view="category"] {
+    display: none !important;
+  }
+
+  /* Row 2: If Type (item 4) active -> hide Venue (item 3) */
+  .view-toggles:has(.view-toggle[data-view="category"].active) .view-toggle[data-view="venue"] {
+    display: none !important;
+  }
 }
 
 .view-toggle:hover {
   background: var(--secondary);
   color: var(--foreground);
 }
-.view-toggle.active {
+.view-toggle.active:hover {
   background: var(--brand-gold);
   color: var(--brand-navy);
 }
