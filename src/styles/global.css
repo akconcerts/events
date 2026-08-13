@@ -199,3 +199,48 @@ input { font: inherit; color: inherit; }
     padding-bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
   }
 }
+
+/* ──────────────────────────────────────────────────────────
+   Z-INDEX HIERARCHY SYSTEM (Leaflet Map Overlap Defense)
+   Leaflet Maps use z-index 400 - 1000 natively.
+   All site navigation, headers, footers, and modals MUST sit above maps.
+   ────────────────────────────────────────────────────────── */
+.leaflet-container {
+  z-index: 10 !important;
+}
+.leaflet-pane {
+  z-index: 20 !important;
+}
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 30 !important;
+}
+
+.site-header {
+  z-index: 9999 !important;
+}
+
+.mobile-nav-floor-block {
+  z-index: 9990 !important;
+}
+
+.mobile-nav-floor {
+  z-index: 9999 !important;
+}
+
+.mobile-nav-overlay {
+  z-index: 99999 !important;
+}
+
+.a11y-backdrop {
+  z-index: 100000 !important;
+}
+
+.a11y-panel {
+  z-index: 100001 !important;
+}
+
+.venue-modal-overlay {
+  z-index: 100000 !important;
+}
+
