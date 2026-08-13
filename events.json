@@ -55460,5 +55460,15 @@
     "ticketUrl": "",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Seth Malone",
+    "venue": "Manhattan’s Restaurant & Lounge",
+    "city": "Anchorage",
+    "date": "2026-08-19",
+    "time": "6p-9p",
+    "slug": "seth-malone-manhattan-s-restaurant-lounge-2026-08-19",
+    "category": "music",
+    "price": "$10-$20"
   }
 ]
