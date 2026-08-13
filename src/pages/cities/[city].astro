@@ -240,8 +240,10 @@ const currentDate = getAlaskaTodayDate();
 .event-row-sep{color:var(--muted-foreground);opacity:.4;flex-shrink:0}
 .event-row-title{font-weight:600;flex:1;min-width:0}
 .event-row-time{font-size:.75rem;color:var(--muted-foreground);flex-shrink:0;margin-left:auto}
-@media(max-width:639px){
-  .event-row{font-size:.8125rem;gap:.375rem}
-  .event-row-venue,.event-row-sep{display:none}
+@media(max-width:767px){
+  .event-row{font-size:.8125rem;gap:.35rem .5rem;padding:.75rem .875rem}
+  .event-row-sep{display:none}
+  .event-row-title{width:100%;order:10;font-weight:700;font-size:.95rem;margin-top:.15rem;color:var(--foreground);line-height:1.3}
+  .event-row-time{margin-left:auto;font-size:.8rem;color:var(--muted-foreground)}
 }
 </style>
