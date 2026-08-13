@@ -7,12 +7,11 @@ import EventJsonLd from '../components/EventJsonLd.astro';
 import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { events } from '../data/events';
-import { formatFullTime } from '../utils/date';
+import { formatFullTime, isEventPast } from '../utils/date';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent, MapPin, Building, Mic2 } from 'lucide-astro';
 
-const today = new Date().toISOString().slice(0, 10);
-const pastEvents = events.filter(e => e.date < today);
+const pastEvents = events.filter(e => isEventPast(e.date, e.time));
 
 // Sort past events by date descending (newest first)
 const sortedEvents = [...pastEvents].sort((a, b) => {

@@ -54,7 +54,7 @@ export function getAlaskaDaysAheadDate(daysAhead: number): string {
 }
 
 /**
- * Checks if an event is in the past based on Alaska Date and optional time string (e.g. "9p-1a", "7p-10p")
+ * Checks if an event is in the past based on Alaska Date and time string (e.g. "9p-1a", "7p-10p", "8:00 PM")
  */
 export function isEventPast(eventDate: string, eventTimeStr: string = ''): boolean {
   const alaskaToday = getAlaskaTodayDate();
@@ -62,13 +62,9 @@ export function isEventPast(eventDate: string, eventTimeStr: string = ''): boole
   if (eventDate < alaskaToday) return true;
   if (eventDate > alaskaToday) return false;
 
-  // If eventDate === alaskaToday, check if time has passed in Alaska
-  if (!eventTimeStr) return false; // Default to showing as current if no time specified
-
-  // Parse time (e.g., "9p-1a", "11:30a-1:30p", "8p")
+  // If eventDate === alaskaToday, check current Alaska time
   try {
     const alaskaNow = new Date();
-    // Get current Alaska hour and minute
     const alaskaTimeStr = new Intl.DateTimeFormat('en-US', {
       timeZone: 'America/Anchorage',
       hour: 'numeric',
@@ -79,36 +75,47 @@ export function isEventPast(eventDate: string, eventTimeStr: string = ''): boole
     const [curHourStr, curMinStr] = alaskaTimeStr.split(':');
     const curMinutes = parseInt(curHourStr, 10) * 60 + parseInt(curMinStr, 10);
 
-    // Try parsing start/end time from eventTimeStr
-    // Match end time if available, e.g. "9p-12a" -> 12a (midnight), "11:30a-1:30p" -> 1:30p (13:30)
-    const endMatch = eventTimeStr.match(/(?:-\s*)?(\d{1,2})(?::(\d{2}))?\s*(a|p|am|pm)?\s*$/i);
-    
-    if (endMatch) {
-      let endHour = parseInt(endMatch[1], 10);
-      const endMin = endMatch[2] ? parseInt(endMatch[2], 10) : 0;
-      const ampm = (endMatch[3] || '').toLowerCase();
+    if (!eventTimeStr || eventTimeStr === 'TBA' || eventTimeStr === '?') {
+      // If no time specified on today's date, treat show as active until 11:59 PM tonight
+      return curMinutes >= 23 * 60 + 59;
+    }
 
-      if (ampm.startsWith('p') && endHour < 12) endHour += 12;
-      if (ampm.startsWith('a') && endHour === 12) endHour = 0;
+    // Check if event has a explicit range with end time e.g. "9p-1a", "7:00 PM - 10:00 PM"
+    const hasRange = eventTimeStr.includes('-');
+    if (hasRange) {
+      const endMatch = eventTimeStr.match(/-\s*(\d{1,2})(?::(\d{2}))?\s*(a|p|am|pm)?/i);
+      if (endMatch) {
+        let endHour = parseInt(endMatch[1], 10);
+        const endMin = endMatch[2] ? parseInt(endMatch[2], 10) : 0;
+        const ampm = (endMatch[3] || '').toLowerCase();
 
-      // Handle late night end times crossing midnight (e.g. 1a, 2a, 3a)
-      let endMinutes = endHour * 60 + endMin;
-      if (endHour < 5 && eventTimeStr.toLowerCase().includes('p')) {
-        // Late night closing time next morning (e.g. 1am, 2am, 3am)
-        endMinutes += 24 * 60;
-      }
+        if (ampm.startsWith('p') && endHour < 12) endHour += 12;
+        if (ampm.startsWith('a') && endHour === 12) endHour = 0;
 
-      // If current Alaska time is past the event end time, it's past
-      if (curMinutes > endMinutes) {
-        return true;
+        let endMinutes = endHour * 60 + endMin;
+        if (endHour < 5 && eventTimeStr.toLowerCase().includes('p')) {
+          endMinutes += 24 * 60; // Late night after midnight (1am, 2am, 3am)
+        }
+
+        return curMinutes > endMinutes;
       }
     }
+
+    // If start time only (e.g. "8:00 PM"), apply a 4-hour default buffer before marking past
+    const startMinutes = getTimeMinutes(eventTimeStr);
+    if (startMinutes !== 9999) {
+      const effectiveEndMinutes = startMinutes + 4 * 60; // 4 hour show buffer
+      return curMinutes > effectiveEndMinutes;
+    }
   } catch (e) {
-    // If time parsing fails, err on the side of showing event as active for today
     return false;
   }
 
   return false;
+}
+
+export function isUpcomingEvent(eventDate: string, eventTimeStr: string = ''): boolean {
+  return !isEventPast(eventDate, eventTimeStr);
 }
 
 /**

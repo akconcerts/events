@@ -59,10 +59,15 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
       </div>
       
       <div class="filter-group">
-        <label for="filter-date">Date</label>
+        <label for="filter-date">Date Range</label>
         <select id="filter-date">
+          <option value="upcoming" selected>Upcoming Shows</option>
+          <option value="tonight">Tonight</option>
+          <option value="tomorrow">Tomorrow</option>
+          <option value="weekend">This Weekend</option>
+          <option value="next7">Next 7 Days</option>
+          <option value="next30">Next 30 Days</option>
           <option value="all">All Dates</option>
-          {dates.map(d => <option value={d}>{d}</option>)}
         </select>
       </div>
 
@@ -150,7 +155,27 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     return hour * 60 + min;
   };
 
+  const getAlaskaDaysAheadStr = (days: number): string => {
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    try {
+      const formatter = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Anchorage',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      });
+      return formatter.format(d);
+    } catch (e) {
+      d.setHours(d.getHours() - 8);
+      return d.toISOString().slice(0, 10);
+    }
+  };
+
   const todayStr = getAlaskaTodayDate();
+  const tomorrowStr = getAlaskaDaysAheadStr(1);
+  const sevenDaysAheadStr = getAlaskaDaysAheadStr(7);
+  const thirtyDaysAheadStr = getAlaskaDaysAheadStr(30);
 
   const searchInput = document.getElementById('filter-search') as HTMLInputElement | null;
   const citySelect = document.getElementById('filter-city') as HTMLSelectElement | null;
@@ -165,15 +190,6 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
   const activeChipsBar = document.getElementById('active-chips-bar');
   const chipsList = document.getElementById('chips-list');
   const clearAllChipsBtn = document.getElementById('clear-all-chips');
-
-  // Clean past dates from dropdown if timeline is upcoming
-  if (dateSelect) {
-    Array.from(dateSelect.options).forEach(opt => {
-      if (opt.value !== 'all' && opt.value < todayStr && timelineSelect?.value === 'upcoming') {
-        opt.remove();
-      }
-    });
-  }
 
   function updateActiveChips() {
     if (!chipsList || !activeChipsBar) return;
@@ -205,10 +221,11 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
       });
     }
 
-    if (dateSelect && dateSelect.value !== 'all') {
+    if (dateSelect && dateSelect.value !== 'upcoming' && dateSelect.value !== 'all') {
       hasActive = true;
-      addChip(`Date: ${dateSelect.value}`, () => {
-        dateSelect.value = 'all';
+      const labelText = dateSelect.options[dateSelect.selectedIndex]?.text || dateSelect.value;
+      addChip(`Date: ${labelText}`, () => {
+        dateSelect.value = 'upcoming';
         applyFilters();
       });
     }
@@ -245,7 +262,7 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
     const query = (searchInput?.value || '').toLowerCase().trim();
     const city = citySelect?.value || 'all';
     const year = yearSelect?.value || 'all';
-    const date = dateSelect?.value || 'all';
+    const dateFilter = dateSelect?.value || 'upcoming';
     const venue = venueSelect?.value || 'all';
     const category = categorySelect?.value || 'all';
     const timeline = timelineSelect ? timelineSelect.value : 'all';
@@ -256,11 +273,32 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
 
     eventRows.forEach((row) => {
       const el = row as HTMLElement;
+      const eventDate = el.dataset.date || '';
+
       const matchCity = city === 'all' || el.dataset.city === city;
-      const matchDate = date === 'all' || el.dataset.date === date;
-      const matchYear = year === 'all' || (el.dataset.date && el.dataset.date.startsWith(year));
+      const matchYear = year === 'all' || (eventDate && eventDate.startsWith(year));
       const matchVenue = venue === 'all' || el.dataset.venue === venue;
       const matchCategory = category === 'all' || el.dataset.category === category;
+
+      // Dynamic Date Filtering
+      let matchDate = true;
+      if (dateFilter === 'upcoming') {
+        matchDate = eventDate >= todayStr;
+      } else if (dateFilter === 'tonight') {
+        matchDate = eventDate === todayStr;
+      } else if (dateFilter === 'tomorrow') {
+        matchDate = eventDate === tomorrowStr;
+      } else if (dateFilter === 'weekend') {
+        matchDate = eventDate >= todayStr && eventDate <= getAlaskaDaysAheadStr(3);
+      } else if (dateFilter === 'next7') {
+        matchDate = eventDate >= todayStr && eventDate <= sevenDaysAheadStr;
+      } else if (dateFilter === 'next30') {
+        matchDate = eventDate >= todayStr && eventDate <= thirtyDaysAheadStr;
+      } else if (dateFilter === 'all') {
+        matchDate = true;
+      } else {
+        matchDate = eventDate === dateFilter;
+      }
 
       // Text Search
       let matchQuery = true;
@@ -270,7 +308,6 @@ const categories = [...new Set(propEvents.map(e => e.category))].sort();
       }
 
       // Timeline Filter
-      const eventDate = el.dataset.date || '';
       let matchTimeline = true;
       if (timeline === 'upcoming') {
         matchTimeline = eventDate >= todayStr;

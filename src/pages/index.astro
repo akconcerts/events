@@ -13,13 +13,14 @@ import Newsletter from '../components/Newsletter.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import ConcertMap from '../components/ConcertMap.astro';
 import { events, cities } from '../data/events';
-import { getAlaskaTodayDate, getAlaskaDaysAgoDate, isEventPast, formatFullTime, getTimeMinutes } from '../utils/date';
+import { getAlaskaTodayDate, isUpcomingEvent, isEventPast, formatFullTime, getTimeMinutes } from '../utils/date';
 
 import { Music, Smile, PartyPopper, Theater, Users, Tent } from 'lucide-astro';
 
-const sevenDaysAgo = getAlaskaDaysAgoDate(7);
 const currentDate = getAlaskaTodayDate();
-const upcomingEvents = events.filter(e => e.date >= sevenDaysAgo);
+
+// Strictly filter only upcoming & active events starting from current Alaska Time
+const upcomingEvents = events.filter(e => isUpcomingEvent(e.date, e.time));
 
 const sortedEvents = [...upcomingEvents].sort((a, b) => {
   const d = a.date.localeCompare(b.date);
@@ -138,7 +139,6 @@ const formatCategoryName = (cat: string) => {
                     >
                       <span class="event-row-icon"><Icon size={14} /></span>
                       <span class="event-row-date">{e.date}</span>
-                      {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
                       <span class="event-row-city-pill">{e.city}</span>
                       <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                       <span class="event-row-sep">—</span>
@@ -233,7 +233,6 @@ const formatCategoryName = (cat: string) => {
                   >
                     <span class="event-row-icon"><Icon size={14} /></span>
                     <span class="event-row-date">{e.date}</span>
-                    {isEventPast(e.date, e.time) && <span class="event-row-past-pill">PAST EVENT</span>}
                     <span class="event-row-city-pill">{e.city}</span>
                     <span class="event-row-venue" data-city={e.city}>{e.venue}</span>
                     <span class="event-row-sep">—</span>
