@@ -243,7 +243,7 @@ const uniqueCities = [...new Set(venuesData.map(v => v.city).filter(Boolean))].s
   left: 1rem;
   right: 1rem;
   z-index: 1000;
-  max-width: 52rem;
+  width: calc(100% - 2rem);
   background: rgba(11, 16, 25, 0.88);
   border: 1px solid color-mix(in oklab, var(--brand-gold) 35%, var(--border));
   backdrop-filter: blur(16px);
@@ -260,6 +260,14 @@ const uniqueCities = [...new Set(venuesData.map(v => v.city).filter(Boolean))].s
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+}
+
+@media(min-width: 768px) {
+  .map-overlay-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .map-badge-wrap {
@@ -323,7 +331,7 @@ const uniqueCities = [...new Set(venuesData.map(v => v.city).filter(Boolean))].s
 
 @media(min-width: 640px) {
   .map-search-wrap {
-    width: 16rem;
+    width: 18rem;
   }
 }
 
@@ -358,6 +366,8 @@ const uniqueCities = [...new Set(venuesData.map(v => v.city).filter(Boolean))].s
   overflow-x: auto;
   padding-bottom: 0.2rem;
   scrollbar-width: thin;
+  flex: 1;
+  min-width: 0;
 }
 
 .city-pill {
