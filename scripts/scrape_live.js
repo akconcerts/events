@@ -7,7 +7,10 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 async function run() {
   console.log('Launching browser to scrape live site...');
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: process.env.CI ? ['--no-sandbox', '--disable-setuid-sandbox'] : []
+  });
   const page = await browser.newPage();
 
   // Set user agent to make it look like a regular browser
