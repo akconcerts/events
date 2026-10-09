@@ -1,11 +1,11 @@
 # 🎸 Alaska Concerts & Live Music — Open Events Dataset
 
-[![Events Count](https://img.shields.io/badge/Events-5%2C500%2B-gold)](https://github.com/akconcerts/events)
-[![Cities Covered](https://img.shields.io/badge/Cities-34%20Alaska%20Communities-blue)](https://github.com/akconcerts/events)
+[![Events Count](https://img.shields.io/badge/Events-50%2C000%2B-gold)](https://github.com/akconcerts/events)
+[![Cities Covered](https://img.shields.io/badge/Cities-36%20Alaska%20Communities-blue)](https://github.com/akconcerts/events)
 [![Formats](https://img.shields.io/badge/Formats-JSON%20%7C%20GeoJSON%20%7C%20CSV%20%7C%20XLSX%20%7C%20iCal%20%7C%20RSS-brightgreen)](https://github.com/akconcerts/events)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-The official public open dataset of concerts, live music, comedy shows, theater, dance, festivals, and community performances across Alaska from 2019 to present.
+The official public open dataset of concerts, live music, comedy shows, theater, dance, festivals, and community performances across Alaska from May 2019 to present.
 
 This repository provides clean, normalized event data for developers, venues, musicians, researchers, and community calendars.
 
@@ -15,7 +15,7 @@ This repository provides clean, normalized event data for developers, venues, mu
 
 | Format | Direct Raw Link | Description |
 | :--- | :--- | :--- |
-| **Master JSON** | [`events.json`](https://raw.githubusercontent.com/akconcerts/events/main/events.json) | Complete statewide dataset (5,500+ records) |
+| **Master JSON** | [`events.json`](https://raw.githubusercontent.com/akconcerts/events/main/events.json) | Complete statewide dataset (50,000+ records) |
 | **GeoJSON** | [`events.geojson`](https://raw.githubusercontent.com/akconcerts/events/main/events.geojson) | Spatial map dataset with venue GPS coordinates |
 | **CSV** | [`events.csv`](https://raw.githubusercontent.com/akconcerts/events/main/events.csv) | Standard CSV for Pandas, R, Excel, or SQL databases |
 | **Excel (XLSX)** | [`events.xlsx`](https://github.com/akconcerts/events/raw/main/events.xlsx) | Master Excel workbook |
@@ -31,8 +31,8 @@ This repository provides clean, normalized event data for developers, venues, mu
 
 ## 📊 Dataset Overview
 
-- **Total Events**: `5,500+`
-- **Time Span**: November 2019 – Present
+- **Total Events**: `50,000+`
+- **Time Span**: May 2019 – Present
 - **Geographic Coverage**: Anchorage, Fairbanks, Juneau, Wasilla, Palmer, Eagle River, Kenai, Soldotna, Homer, Seward, Girdwood, Talkeetna, Sitka, Ketchikan, Cordova, Haines, Valdez, Big Lake, Ester, North Pole, McCarthy, and more.
 - **Categories**: `music`, `comedy`, `dance`, `theatre`, `festival`, `community`
 
