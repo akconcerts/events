@@ -1,0 +1,2862 @@
+[
+  {
+    "title": "Live Jazz",
+    "venue": "The Narrows Bar",
+    "city": "Juneau",
+    "date": "2019-11-14",
+    "time": "7:30p-10:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Jazz with Luke Weld",
+    "venue": "The Narrows Bar",
+    "city": "Juneau",
+    "date": "2021-02-25",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Wednesdays",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-05-25",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Front to Franklin Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2022-05-26",
+    "time": "7:30p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Front to Franklin Open Mic Night",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-05-26",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Knight Show Dance Party",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2022-05-27",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Wednesdays",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-06-01",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Wednesdays",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-06-15",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Wednesdays",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-08-17",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Beer. Brats. Brandenburgs.",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2022-10-01",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Wednesdays",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2022-10-05",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dungeons & Drag-Uns! A Fantastical Drag Show",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2023-01-28",
+    "time": "7:30p-11:45p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-02-01",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-03-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-03-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Swing",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2023-04-02",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-06-07",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-07-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-07-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-09-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-11-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2023-11-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2023-11-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-04-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-04-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-04-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rewind: Juneau Drag Throwback Show!",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2024-04-20",
+    "time": "7p-11:45p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Mondays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-04-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-04-23",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-04-24",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-04-25",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dirty Chello",
+    "venue": "Gold Town Theater",
+    "city": "Juneau",
+    "date": "2024-06-13",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-06-13",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-06-13",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Getting Strangers",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-06-14",
+    "time": "8:30p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Joy Pearson",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-06-15",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-06-18",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-06-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-07-10",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-10",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-07-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Inverted Presents: Amatuer Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-12",
+    "time": "9p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina w/ DJ Beto",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-13",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-16",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-07-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-07-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-08-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-08-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Naked Presents: School of Hard Knocks",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-08-23",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Naked Presents: School of Hard Knocks",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-08-24",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-08-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-08-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-09-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-09-12",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-12",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina \"Grito De Dolores\"",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-14",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina Grito De Dolores",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-14",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-09-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-09-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ukulele Russ & His One Man Frontier Band",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-10-04",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina \"Un Ano De Aniversario\"",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-10-05",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina Un Ano De Aniversario",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-10-05",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-10-08",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-10-09",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-10-09",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-11-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-11-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-11-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-11-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-12-03",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-12-04",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-12-04",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-12-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2024-12-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2024-12-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-21",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-01-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-22",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-01-23",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-23",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Teri Tibbett Presents: Beatles Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-25",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Swing at the Red Dog",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2025-01-26",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-01-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-01-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Swing at the Red Dog",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2025-02-16",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-02-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-02-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-02-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-03-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-03-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Darkstar and Deadzillenial",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-03-21",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "A Felicidade Fridays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-03-21",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Buttered Rum W/ Quinton Woolman-Morgan",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-03-21",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pudgies & Gaiaspyre",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-03-22",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Swing at the Red Dog",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2025-03-23",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-03-25",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-03-26",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-03-26",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "A Felicidade Dinner Jazz",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-05-12",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-05-13",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-05-14",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-05-14",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nina Edwards",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-19",
+    "time": "4p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jenny Baker Matinee",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-19",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Busking Night with Local Artists",
+    "venue": "Vintage Food Truck Park",
+    "city": "Juneau",
+    "date": "2025-06-19",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-19",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Darkstar",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Buoy Daze",
+    "venue": "Ketchikan Boat Dock",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "11a-12p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "Deckhand Dave’s",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Piano Series w/ Alexander Tutunov",
+    "venue": "Juneau Arts & Humanities",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Andiamo Dance Company: Light",
+    "venue": "Kayhi Auditorium",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Ivan Denis",
+    "venue": "The Bayou",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Indigik’were Social Club",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "9p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pride Pub Crawl Afterparty",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-20",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lucas McCain",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pride Drag Brunch",
+    "venue": "TK Maguire’s",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "12p-2p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Lucas James McCain",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "Deckhand Dave’s",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Drew Sablon, Ronnie Wolf, Stephanie & Eric Quinth",
+    "venue": "Tony’s Bar",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Middle Names ft. Magical America, Fear Boner, & DJ Donny Bru",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Queer Prom",
+    "venue": "Ted Ferry Civic Center",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music w/ the Ridgeway Rounders",
+    "venue": "The Bayou",
+    "city": "Juneau",
+    "date": "2025-06-21",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tuesday Music w/ Cherie Bowman",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-24",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-24",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Lisa Denny",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-25",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-06-25",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-06-25",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-07-08",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-07-09",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-07-09",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lisa Denny",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-07-30",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-07-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Wednesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-07-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nina Edwards",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-07-31",
+    "time": "4p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Thursday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-07-31",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-07-31",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "It's Not A Phase: Hawthorne Heights Pre(EMO)-Party",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-08-01",
+    "time": "10p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Kristin Larson",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-08-01",
+    "time": "4p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Salsa & Bachata Lessons",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-08-02",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Bois Rouge Cajun Band",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-08-04",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-08-05",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lisa Denny",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-08-06",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-08-06",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Michael Kirkpatrick",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-08-06",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Luke & Heather In the Afternoon",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-10-13",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-10-14",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Luke & Heather In the Afternoon",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-10-15",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-10-15",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-06",
+    "time": "9p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-11-06",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fear Boner ft The Bone Heads & Fysh Houck",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-11-07",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Club of Juneau",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-08",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Luke & Heather In the Afternoon",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-10",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Luke & Heather In the Afternoon",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-12",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2025-11-12",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2025-11-12",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-11",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-02-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-12",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-02-12",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunny Porch Community Folk Revival & Recording Release Party",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-13",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Vaudeville Presents: \"Love & Lust\"",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-14",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Vaudeville Presents: Love & Lust",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-14",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Wearable Art Extravaganza: Camp",
+    "venue": "Centennial Hall Convention Center",
+    "city": "Juneau",
+    "date": "2026-02-14",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Wearable Art Extravaganza: Camp",
+    "venue": "Centennial Hall Convention Center",
+    "city": "Juneau",
+    "date": "2026-02-15",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Social Dancing & Lessons",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2026-02-15",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-02-18",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-02-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bon Debarras",
+    "venue": "Sheldon Community Arts Hanger",
+    "city": "Juneau",
+    "date": "2026-03-11",
+    "time": "7p-3p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-11",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-03-11",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Audubon Society presents: Birds and Artificial Light At Night",
+    "venue": "Marie Drake Planetarium",
+    "city": "Juneau",
+    "date": "2026-03-12",
+    "time": "6:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Thursday Night Dance Social: Texas Two-Step",
+    "venue": "Chapel by the Lake",
+    "city": "Juneau",
+    "date": "2026-03-12",
+    "time": "6:30p-8:30p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Krew Fewd 2",
+    "venue": "Sheldon Community Arts Hanger",
+    "city": "Juneau",
+    "date": "2026-03-12",
+    "time": "6p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-12",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-03-12",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Allie Keck",
+    "venue": "Alaskana Social Club",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "2nd Annual Luck of the Food Trucks",
+    "venue": "Vintage Food Truck Park",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Oosik Movie Night: The Last King",
+    "venue": "Sheldon Community Arts Hanger",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Big Band: Dust Off the Rust",
+    "venue": "Juneau Arts & Culture Center",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "HarpDaddy meets Jesse James",
+    "venue": "Silver Fox Inn",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Romeo & Juliet",
+    "venue": "Kodiak Arts Council",
+    "city": "Juneau",
+    "date": "2026-03-13",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Second Saturday St. Patrick’s Shenanigans",
+    "venue": "Kodiak Market Place",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "10:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Aurora Realms: A Gamer Convention",
+    "venue": "Borough Community Gym",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "11a-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "St. Paddy’s Beer Choir",
+    "venue": "Devil’s Club Brewing",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "6:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blue Nagoon ft. Short Notice",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "7:30p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Contra Dance w/ Full Circle",
+    "venue": "St. Ann’s Parish Hall",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "7:30p-10:30p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Roland Roberts Band: Oosik Afterparty",
+    "venue": "Sheldon Community Arts Hanger",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "7p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Glacier Blues Band",
+    "venue": "Silver Fox Inn",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Romeo & Juliet",
+    "venue": "Kodiak Arts Council",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fire on McGinnis",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2026-03-14",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "St. Paddy's Day Parade!",
+    "venue": "Salmon Landing",
+    "city": "Juneau",
+    "date": "2026-03-15",
+    "time": "2p-3:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Romeo & Juliet",
+    "venue": "Kodiak Arts Council",
+    "city": "Juneau",
+    "date": "2026-03-15",
+    "time": "2p-4p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneau Piano Series: Andrew Brownell",
+    "venue": "Juneau Arts & Culture Center",
+    "city": "Juneau",
+    "date": "2026-03-15",
+    "time": "3p-4:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Social Dancing & Lessons",
+    "venue": "Red Dog Saloon",
+    "city": "Juneau",
+    "date": "2026-03-15",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Story Time: \"Salmon Stream\"",
+    "venue": "Kenai Chamber of Commerce &Visitor Center",
+    "city": "Juneau",
+    "date": "2026-03-16",
+    "time": "11a-?",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Story Time: Salmon Stream",
+    "venue": "Kenai Chamber of Commerce &Visitor Center",
+    "city": "Juneau",
+    "date": "2026-03-16",
+    "time": "11a-?",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "St. Patrick's Day Dinner w/ Live Music",
+    "venue": "Sitka Elks #1662",
+    "city": "Juneau",
+    "date": "2026-03-17",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jesse Ruben Live",
+    "venue": "Nonna’s Osteria",
+    "city": "Juneau",
+    "date": "2026-03-17",
+    "time": "7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Michael Kirkpatrick",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-17",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-03-18",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-03-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-15",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-07-15",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/BrokenBlenderAK",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Argentine Tango Dance Series",
+    "venue": "Juneau Social Dance",
+    "city": "Juneau",
+    "date": "2026-07-16",
+    "time": "6:30p-8:30p",
+    "ticketUrl": "https://www.facebook.com/events/27462717590082205/27462717613415536/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-16",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-07-16",
+    "time": "9p-11p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=2020d45d02&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rugby Night",
+    "venue": "Juneau-Douglas High School",
+    "city": "Juneau",
+    "date": "2026-07-17",
+    "time": "6:30p-8:30p",
+    "ticketUrl": "https://www.facebook.com/events/1227911459242350/1227911472575682/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rainforest Romp Contra Dance Weekend",
+    "venue": "St. Anne’s Parish Hall",
+    "city": "Juneau",
+    "date": "2026-07-17",
+    "time": "7:30p-10:30p",
+    "ticketUrl": "https://www.facebook.com/events/914692727804915",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Studio 54 x GiGi: Gigi'd Birthday Drag Show & Dance",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-07-17",
+    "time": "8p-?",
+    "ticketUrl": "https://www.facebook.com/events/2060905101129143/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Andy Koch's Badd Dog Blues Society",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-07-18",
+    "time": "7:30p-10p",
+    "ticketUrl": "https://www.facebook.com/events/1367675531957665/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rainforest Romp Contra Dance Weekend",
+    "venue": "St. Anne’s Parish Hall",
+    "city": "Juneau",
+    "date": "2026-07-18",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/events/914692727804915",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "The Return Of Astronomar Ft. Sa'Moona",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-18",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1002054442428677&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rainforest Romp Contra Dance Weekend",
+    "venue": "St. Anne’s Parish Hall",
+    "city": "Juneau",
+    "date": "2026-07-19",
+    "time": "10a-5p",
+    "ticketUrl": "https://www.facebook.com/events/914692727804915",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Annual Wildlife Cruise",
+    "venue": "Statter Harbor",
+    "city": "Juneau",
+    "date": "2026-07-19",
+    "time": "2p-5p",
+    "ticketUrl": "https://www.facebook.com/events/1525988088972323/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KXLL Presents: Japan To Alaska: Ft The Rain Dogs, Fine, Great, & T-Loc",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-19",
+    "time": "8p-?",
+    "ticketUrl": "https://www.eventbrite.com/e/kxll-presents-japan-to-alaska-ft-the-rain-dogs-fine-great-t-loc-tickets-1992675418819?aff=ehometext",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Josh Fortenbery",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-20",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/2434341350376564/2434341363709896/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Tlingit Language Classes",
+    "venue": "Zach Gordon Youth Center",
+    "city": "Juneau",
+    "date": "2026-07-21",
+    "time": "2p-3p",
+    "ticketUrl": "https://www.facebook.com/events/1010020791677649/1010020808344314/?active_tab=about",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-21",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Show: Bears in Alaska",
+    "venue": "Marie Drake Planetarium",
+    "city": "Juneau",
+    "date": "2026-07-22",
+    "time": "7p-8:15p",
+    "ticketUrl": "https://www.facebook.com/events/3980430022263473",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-07-22",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-07-22",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/BrokenBlenderAK",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-05",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ian Maksin: Songs of the Vagabond Cello",
+    "venue": "Kuneix Hidi Northen Light United Church",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "7:30p-?",
+    "ticketUrl": "https://www.facebook.com/events/1014818561498917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Whiskey Class w/ The Planktonics",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1754549059314805&set=a.758212905615097",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-06",
+    "time": "8p-12a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Steady Going",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-07",
+    "time": "10p-?",
+    "ticketUrl": "https://www.instagram.com/p/DbeIkHLSIlT/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fernet Coin Release Party ft. Sundew & The Rain Dogs",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-07",
+    "time": "10p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Noche Latina ft DJ Omar",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-08",
+    "time": "10p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-10",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-11",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-12",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "9p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pop-Up Cherioke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-13",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Al Boogie",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-14",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pop-Up Cherioke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-14",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Treadwell Trax",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-15",
+    "time": "10p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Behind the Blinds: A Speakeasy Anniversary Party",
+    "venue": "Best Window Blinds",
+    "city": "Juneau",
+    "date": "2026-08-15",
+    "time": "2p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-17",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Behind the Blinds: A Speakeasy Anniversary Party",
+    "venue": "Best Window Blinds",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "2p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "5p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cousin Curtiss & Harrison B",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Al Boogie 8p-? 8/1",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Treadwell Trax 1",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends 9p-? 8/1",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-20",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taylor Dallas Vidic and Matt the Electrician",
+    "venue": "Amalga Distillery",
+    "city": "Juneau",
+    "date": "2026-08-20",
+    "time": "7:30p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1345344897780500/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-20",
+    "time": "8p-12a",
+    "ticketUrl": "https://madmyrnas.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-20",
+    "time": "9p-11p",
+    "ticketUrl": "https://koots.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Slept In & Sundew",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-21",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dance Caviar Disco w/ Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-22",
+    "time": "10p-?",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Overalls: A Great Time w/ Fanci Boi, Dr. Ache, & Unle Flex",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-22",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/alaskan.bar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "As You Wish Rob Reiner Tribute Event",
+    "venue": "Gold Town Theater",
+    "city": "Juneau",
+    "date": "2026-08-22",
+    "time": "TBD",
+    "ticketUrl": "https://goldtownnick.com/event/as-you-wish-a-rob-reiner-tribute-event/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-24",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-25",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-26",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-08-26",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://susitnabrewing.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-08-26",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-07",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=830984392869017&set=pb.100078723912599.-2207520000&type=3",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-08",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-08",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-10-08",
+    "time": "9p-11p",
+    "ticketUrl": "https://www.thealaskanhotel.com/the-alaskan-bar/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "October Contra Dance w/ Nine Miles From Town",
+    "venue": "St. Ann’s Parish Hall",
+    "city": "Juneau",
+    "date": "2026-10-09",
+    "time": "7:30p-10:30p",
+    "ticketUrl": "https://www.facebook.com/events/1622047512663820/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Fire Station Story Time",
+    "venue": "Douglas Public Library",
+    "city": "Juneau",
+    "date": "2026-10-11",
+    "time": "1p-2:30p",
+    "ticketUrl": "https://www.facebook.com/events/1058038406864203/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-10-12",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-13",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-14",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-14",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1073260615308059&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-10-14",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.thealaskanhotel.com/the-alaskan-bar/",
+    "category": "music",
+    "cost": ""
+  }
+]

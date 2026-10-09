@@ -1,0 +1,92 @@
+openapi: 3.0.3
+info:
+  title: AK Concerts Open Event Data API
+  description: Public dataset of live music, concerts, comedy, theater, dance, and festivals across Alaska.
+  version: 1.0.0
+  contact:
+    name: AK Concerts Team
+    url: https://github.com/akconcerts/events
+paths:
+  /events.json:
+    get:
+      summary: Get complete events dataset in JSON format
+      responses:
+        '200':
+          description: A list of concert events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Event'
+  /events.csv:
+    get:
+      summary: Download complete events dataset in CSV format
+      responses:
+        '200':
+          description: CSV spreadsheet file
+          content:
+            text/csv:
+              schema:
+                type: string
+  /events.ics:
+    get:
+      summary: Subscribe to iCal calendar feed
+      responses:
+        '200':
+          description: iCalendar file
+          content:
+            text/calendar:
+              schema:
+                type: string
+  /events.geojson:
+    get:
+      summary: Get GeoJSON map dataset of concerts across Alaska
+      responses:
+        '200':
+          description: GeoJSON FeatureCollection
+          content:
+            application/json:
+              schema:
+                type: object
+
+components:
+  schemas:
+    Event:
+      type: object
+      required:
+        - id
+        - date
+        - city
+        - venue
+        - category
+        - title
+      properties:
+        id:
+          type: string
+          example: "142"
+        date:
+          type: string
+          example: "2026-07-25"
+        city:
+          type: string
+          example: "Anchorage"
+        venue:
+          type: string
+          example: "Koot's"
+        category:
+          type: string
+          enum: [music, comedy, dance, theatre, community, festival]
+          example: "music"
+        title:
+          type: string
+          example: "Blackwater Railroad Company Live"
+        time:
+          type: string
+          example: "10p-2a"
+        ticketUrl:
+          type: string
+          example: "https://koots.com"
+        cost:
+          type: string
+          example: "$15"

@@ -1,0 +1,662 @@
+[
+  {
+    "title": "Hot Mess",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2020-10-28",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Jammin Band’s Debut",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2020-11-27",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Robbie Carlson",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2021-04-13",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Summer Solstice party with The Jammin Band",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2021-06-19",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pirate Costume Party w/ Benjammin & the Jammin Band",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2021-10-16",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess 80’s Hair Band Night",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2021-10-16",
+    "time": "9a-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2022-05-28",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2023-01-27",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Story Time",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2023-06-03",
+    "time": "11:30a-12:30p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Show w/ Kevin Farley",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2023-11-30",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Eric Doucet Live",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2024-10-04",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "HaHas for TaTas: A Comedy Night Fundraiser",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2024-10-05",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Holiday Carolers",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2024-12-17",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mike w/ Ben Sayers",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-01-22",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lindsay Glazer",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-01-23",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mike w/ Ben Sayers",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-01-29",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mike w/ Ben Sayers",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-02-19",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blackwater Railroad Company Live7p",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-03-21",
+    "time": "10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mike w/ Ben Sayers",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-03-26",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-05-14",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bryan Hopkins of Elvis Monroe",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2025-06-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Seth Malone & Eric Doucet",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2025-06-20",
+    "time": "8:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bois Rouge Cajun Band",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2025-08-02",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Carol Markstrom",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2025-08-04",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Nita",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2025-11-06",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Line Dance Lessons",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2025-11-08",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Milfs Night Out with Ellie Nelson",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-07-16",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.instagram.com/p/DaG8UJ4Bijd/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "American Peasants",
+    "venue": "Vagabond Inn",
+    "city": "Kenai",
+    "date": "2026-07-17",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100057161362056",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Guy Patterson",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-07-17",
+    "time": "9p-?",
+    "ticketUrl": "https://www.vansdivebaralaska.com/music-schedule",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Owen Macdonald Live",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-07-17",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1654167456714555&set=a.502707521860560",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Seth Freeman",
+    "venue": "Vagabond Inn",
+    "city": "Kenai",
+    "date": "2026-07-18",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100057161362056",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Seth Malone",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-07-18",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1625154909614942&set=a.954924113304695",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: If You Give A Moose A Muffin",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-07-20",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/1154734120192170",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Nurse Storytime",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2026-07-21",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1013769658218890",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Summer Reading Celebration",
+    "venue": "Kenai Community Library",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "2p-4p",
+    "ticketUrl": "https://www.facebook.com/events/2032395834067424/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Primary Gubernatorial Canidate Debate",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "5:30p-8p",
+    "ticketUrl": "https://www.facebook.com/events/901104452519579/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Big Irish Jay Hollingsworth Comedy Show",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-08-06",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/big-irish-jay-hollingsworth-main-street-tap-grill-2026",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Solo Steve Norwood",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-07",
+    "time": "9p-?",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Beyond the Exhibit: Native Plant Walk",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-08",
+    "time": "12p-?",
+    "ticketUrl": "https://www.facebook.com/events/1636198671130466/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Stand Up Comedy w/ Sabrina Speers, Mike Comer, Drew Gordon, & More!",
+    "venue": "Kenai Elks Lodge",
+    "city": "Kenai",
+    "date": "2026-08-08",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/standup-comedy-show-kenai-elks-lodge",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: \"Moose and Magpie\"",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-10",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/2252700968879689/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: Moose and Magpie",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-10",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/2252700968879689/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Line Dance Lessons",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-11",
+    "time": "7p-?",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-14",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yacht Rock Sing –Along Brunch",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-08-15",
+    "time": "11a-2p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Troubadour North",
+    "venue": "Vagabond Inn",
+    "city": "Kenai",
+    "date": "2026-08-15",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: \"It's Time for Berries!\" 1",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-17",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: It's Time for Berries! 1",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-17",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Troubadour North",
+    "venue": "Vagabond Inn",
+    "city": "Kenai",
+    "date": "2026-08-19",
+    "time": "8p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Snacks At Midnight w/ The Pit ViperZ",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-19",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Yacht Rock Sing –Along Brunch 1",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Seth Malone Live",
+    "venue": "Martha’s Cocina",
+    "city": "Kenai",
+    "date": "2026-08-21",
+    "time": "6p-?",
+    "ticketUrl": "https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Industry Appreciation Day",
+    "venue": "Kenai Park Strip",
+    "city": "Kenai",
+    "date": "2026-08-22",
+    "time": "12p-4p",
+    "ticketUrl": "https://www.facebook.com/events/1887211148622447/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "'26 Divorce Party",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-22",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: \"Sasha's Matrioshka Dolls\"",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-24",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/1467248691835621/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Craft: Sasha's Matrioshka Dolls",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-08-24",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/1467248691835621/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Live Music w/ Frank Iarossi",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-08-24",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1687993499998617&set=a.502707521860560",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Line Dance Lessons",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-08-25",
+    "time": "7p-?",
+    "ticketUrl": "https://www.instagram.com/p/Dbhn0XNB84h/",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Seth Malone, Eric Doucet, and Sheldon McManamy 6:",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2026-08-28",
+    "time": "30p",
+    "ticketUrl": "https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "An Evening with Tommy Emmanual",
+    "venue": "Kenai Central High School",
+    "city": "Kenai",
+    "date": "2026-10-09",
+    "time": "7:30p",
+    "ticketUrl": "https://www.facebook.com/events/3854554098185968/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess Live",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-10-09",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/2623843238011086",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "11th Annual Kenai Pumpkin Festival",
+    "venue": "Softball Greenstrip",
+    "city": "Kenai",
+    "date": "2026-10-10",
+    "time": "11a-3p",
+    "ticketUrl": "https://www.facebook.com/events/4563199350591893/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Oktoberfest 2026",
+    "venue": "Forest Hills Senior Living",
+    "city": "Kenai",
+    "date": "2026-10-10",
+    "time": "12p-4p",
+    "ticketUrl": "https://www.facebook.com/events/1944031992937522",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Comedian Joey Medina",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-10-10",
+    "time": "6p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1097193833061801&set=pb.100083135836810.-2207520000",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "International Fly Fishing Film Festival",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-10-10",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1908013873130762/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "80’s Night with Hot Mess",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2026-10-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/951601817514526/",
+    "category": "music",
+    "cost": ""
+  }
+]

@@ -1,0 +1,4446 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AK Concerts//Alaska Event Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AK Concerts Calendar
+X-WR-TIMEZONE:America/Anchorage
+BEGIN:VEVENT
+UID:ev-0.9708822447944772@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Black Barrel and the Bad Men
+LOCATION:Palmer Alehouse  Palmer
+DESCRIPTION:Black Barrel and the Bad Men at Palmer Alehouse in Palmer. Time: 7p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.11074878165557744@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Johnny Prizm
+LOCATION:Palmer Alehouse  Palmer
+DESCRIPTION:Johnny Prizm at Palmer Alehouse in Palmer. Time: 7p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1377060415429191@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Rhythm & Royalty Tour
+LOCATION:Palmer Train Depot  Palmer
+DESCRIPTION:Rhythm & Royalty Tour at Palmer Train Depot in Palmer. Time: 7p-11:30p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.06408416968177622@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Karaoke at Four Corner's Lounge in Palmer. Time: 8p-?. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3499716317443635@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Industry Night with DJ Red
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Industry Night with DJ Red at Four Corner's Lounge in Palmer. Time: 8p-?. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.16643522415744771@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Veins of Gold Mountain Race
+LOCATION:Government Peak Recreation Area  Palmer
+DESCRIPTION:Veins of Gold Mountain Race at Government Peak Recreation Area in Palmer. Time: 9a-?. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9425846493061371@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Friday Fling Live Music Solo Steve 1
+LOCATION:Downtown Palmer  Palmer
+DESCRIPTION:Friday Fling Live Music Solo Steve 1 at Downtown Palmer in Palmer. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.387225335665207@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:West Coast Sing Wednesday
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:West Coast Sing Wednesday at Four Corner's Lounge in Palmer. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.04169170984665682@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music w/ Jim Maloney
+LOCATION:Linwood Bar & Grill  Seldovia
+DESCRIPTION:Live Music w/ Jim Maloney at Linwood Bar & Grill in Seldovia. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.0677833008536427@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Seward Strings
+LOCATION:Seward Senior Center  Seward
+DESCRIPTION:Seward Strings at Seward Senior Center in Seward. Time: 1p-4p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5316823131541158@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Open Mic Night with Braden
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Open Mic Night with Braden at Yukon Bar in Seward. Time: 8p-2a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.08263258747028124@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke at Yukon Bar in Seward. Time: 9p-1a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7644086139864905@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke with Megan Killoran
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke with Megan Killoran at Yukon Bar in Seward. Time: 9p-1a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6439523629657589@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke with Raunchy Rachel
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke with Raunchy Rachel at Yukon Bar in Seward. Time: 9p-1a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.38929924438065644@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Dance Night w/ DJ Waitwat
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Dance Night w/ DJ Waitwat at Yukon Bar in Seward. Time: 9p-2a. Category: dance
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.16634433520295266@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:King Monkey w/ Bananahands Live
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:King Monkey w/ Bananahands Live at Yukon Bar in Seward. Time: 9p-2a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.25526768466225525@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:SIXSTAR w/ The Wet Spots  BoyMom  & Filthy Mike
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:SIXSTAR w/ The Wet Spots, BoyMom, & Filthy Mike at Yukon Bar in Seward. Time: 9p-2a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3991022927950224@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music w/ The Jephries ft. Luv Guvna
+LOCATION:Flamingo Lounge  Seward
+DESCRIPTION:Live Music w/ The Jephries ft. Luv Guvna at Flamingo Lounge in Seward. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9696083522321289@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Sitka Blues Fest
+LOCATION:Odess Theater  Sitka
+DESCRIPTION:Sitka Blues Fest at Odess Theater in Sitka. Time: 3p-9p. Category: festival
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7475741968013186@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Sitka Conservation Society Wilderness Cruise
+LOCATION:Crescent Harbor  Sitka
+DESCRIPTION:Sitka Conservation Society Wilderness Cruise at Crescent Harbor in Sitka. Time: 5p-8p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.14866597896521017@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Music Time
+LOCATION:Skagway Library  Skagway
+DESCRIPTION:Music Time at Skagway Library in Skagway. Time: 3p-5p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4940230958517655@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Skagway Idol
+LOCATION:Skagway Brewing Company  Skagway
+DESCRIPTION:Skagway Idol at Skagway Brewing Company in Skagway. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.36865639408407824@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Read with a Ranger Story Time
+LOCATION:Skagway Library  Skagway
+DESCRIPTION:Read with a Ranger Story Time at Skagway Library in Skagway. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9636323630264444@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Friends of Mike Morgan Song Circle
+LOCATION:The Goods - Sustainable Grocery & Cafe  Soldotna
+DESCRIPTION:Friends of Mike Morgan Song Circle at The Goods - Sustainable Grocery & Cafe in Soldotna. Time: 5p-7p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7998388746963284@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke w/ Edencraft
+LOCATION:The Goods - Sustainable Grocery & Cafe  Soldotna
+DESCRIPTION:Karaoke w/ Edencraft at The Goods - Sustainable Grocery & Cafe in Soldotna. Time: 5p-8p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3813539202395714@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Levitt Amp Music Series: Kenny Smith & The Old Wolves w/ The Copper River Band
+LOCATION:Soldotna Creek Park  Soldotna
+DESCRIPTION:Levitt Amp Music Series: Kenny Smith & The Old Wolves w/ The Copper River Band at Soldotna Creek Park in Soldotna. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7736090212469234@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Preschool Storytime
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Preschool Storytime at Soldotna Public Library in Soldotna. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5632486698051031@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:The Killer Comedy Show Ft. Sabrina Speers
+LOCATION:The Orca Theater  Soldotna
+DESCRIPTION:The Killer Comedy Show Ft. Sabrina Speers at The Orca Theater in Soldotna. Time: TBD. Category: comedy
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9553046921954563@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Toddler Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Toddler Story Time at Soldotna Public Library in Soldotna. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1538807391018504@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Bouncing Babes Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Bouncing Babes Story Time at Soldotna Public Library in Soldotna. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3707168418635707@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Tune Weavers
+LOCATION:Naptowne Brewing Company  Sterling
+DESCRIPTION:Tune Weavers at Naptowne Brewing Company in Sterling. Time: 4p-8p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.42150232820289313@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Brandon Kellum
+LOCATION:Naptowne Brewing Company  Sterling
+DESCRIPTION:Brandon Kellum at Naptowne Brewing Company in Sterling. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7676699722821938@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Taste of Aloha! A Traditional Hawaiian Luau
+LOCATION:Lakeside Falls  Sterling
+DESCRIPTION:Taste of Aloha! A Traditional Hawaiian Luau at Lakeside Falls in Sterling. Time: TBD. Category: festival
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.07619807643073606@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Steve Durr
+LOCATION:Mountain High Pizza Pie  Talkeetna
+DESCRIPTION:Steve Durr at Mountain High Pizza Pie in Talkeetna. Time: 1p-2:30. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4048226952312072@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Salmon Run Art Auction Fundraiser
+LOCATION:Sheldon Community Arts Hangar  Talkeetna
+DESCRIPTION:Salmon Run Art Auction Fundraiser at Sheldon Community Arts Hangar in Talkeetna. Time: 3p-5p. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9982481763231652@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Blackwater Railroad Co. Live
+LOCATION:Denali Brewing Company  Talkeetna
+DESCRIPTION:Blackwater Railroad Co. Live at Denali Brewing Company in Talkeetna. Time: 5:30p-8:30p. Category: music
+URL:https://denalibrewingcompany.com
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7245997028923146@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live At Five Summer Concerts: TKA Hawks
+LOCATION:Talkeetna Village Park  Talkeetna
+DESCRIPTION:Live At Five Summer Concerts: TKA Hawks at Talkeetna Village Park in Talkeetna. Time: 5p-7p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.40653937210867697@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Collin Donley Live
+LOCATION:Mountain High Pizza Pie  Talkeetna
+DESCRIPTION:Collin Donley Live at Mountain High Pizza Pie in Talkeetna. Time: 7p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8595989134613699@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Madeline & the Brothers Smith
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Madeline & the Brothers Smith at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5860171494891339@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Karaoke at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.432905152024778@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Blackwater Railroad Co.
+LOCATION:Denali Brewing Company  Talkeetna
+DESCRIPTION:Blackwater Railroad Co. at Denali Brewing Company in Talkeetna. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8641684192483463@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Trapper Creek Bluegrass Revival
+LOCATION:Boots Bison Ranch  Talkeetna
+DESCRIPTION:Trapper Creek Bluegrass Revival at Boots Bison Ranch in Talkeetna. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7637433292812618@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Saturday Market 1
+LOCATION:Valdez Brewing  Valdez
+DESCRIPTION:Saturday Market 1 at Valdez Brewing in Valdez. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6343624268685347@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Sign Language Classes
+LOCATION:Black Birch Books  Wasilla
+DESCRIPTION:Sign Language Classes at Black Birch Books in Wasilla. Time: 5p-6p. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3397842011711725@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Storytelling Night: Shared Scars
+LOCATION:Black Birch Books  Wasilla
+DESCRIPTION:Storytelling Night: Shared Scars at Black Birch Books in Wasilla. Time: 5p-7p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9652409457856101@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Collin Donley Live
+LOCATION:Settler’s Bay  Wasilla
+DESCRIPTION:Collin Donley Live at Settler’s Bay in Wasilla. Time: 6p-?. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3285112660542938@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music With Drew Sablon
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Live Music With Drew Sablon at Everett's in Wasilla. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.08424350222910026@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music w/ Sergio
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Live Music w/ Sergio at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6769120749901184@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Rick Brooks Live
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Rick Brooks Live at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.898661532590141@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music w/ Jerry Wessling
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Live Music w/ Jerry Wessling at Everett's in Wasilla. Time: 6p-9p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3774444796778794@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Karaoke Night
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Karaoke Night at Schwabenhof in Wasilla. Time: 8p-11p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.814678954894692@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music with Monster on the Mountain
+LOCATION:Tug Bar & Liquor- Goose Bay Inn  Wasilla
+DESCRIPTION:Live Music with Monster on the Mountain at Tug Bar & Liquor- Goose Bay Inn in Wasilla. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.35489891228604165@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Live Music w/ Pam Santoro
+LOCATION:Tug Bar & Liquor- Goose Bay Inn  Wasilla
+DESCRIPTION:Live Music w/ Pam Santoro at Tug Bar & Liquor- Goose Bay Inn in Wasilla. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3848030379487707@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Storytime at Ken’s 1
+LOCATION:Ken’s Garden Center  Wasilla
+DESCRIPTION:Storytime at Ken’s 1 at Ken’s Garden Center in Wasilla. Time: TBD. Category: community
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8888244499052053@akconcerts.com
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:Open Mic
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Open Mic at Schwabenhof in Wasilla. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.17301417316180834@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Seth Malone Band
+LOCATION:Gwin's Lodge  Cooper Landing
+DESCRIPTION:Seth Malone Band at Gwin's Lodge in Cooper Landing. Time: 5p-10p. Category: music
+URL:https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9208051697217323@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Jesse James
+LOCATION:Gwin's Lodge  Cooper Landing
+DESCRIPTION:Jesse James at Gwin's Lodge in Cooper Landing. Time: 6p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5637630145727641@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Dance Lessons with Shufflin Country Style
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Dance Lessons with Shufflin Country Style at Homestead Lounge in Eagle River. Time: 8p-9p. Category: dance
+URL:https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4312045231242997@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Country Night w/ DJ AumanJoy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Country Night w/ DJ AumanJoy at Homestead Lounge in Eagle River. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9141958896216661@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Last Downtown Market of the Season w/ Live Music
+LOCATION:Golden Heart Plaza  Fairbanks
+DESCRIPTION:Last Downtown Market of the Season w/ Live Music at Golden Heart Plaza in Fairbanks. Time: 4p-8p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8400248720584931@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6358281049280566@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Open Mic Night at the Marlin
+LOCATION:The Marlin  Fairbanks
+DESCRIPTION:Open Mic Night at the Marlin at The Marlin in Fairbanks. Time: 8p-11p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.18379955138664128@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Karaoke with Angel
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Karaoke with Angel at The International Hotel & Bar in Fairbanks. Time: 8p-2a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15561233673156938@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Ride Bikes  Drink Beer
+LOCATION:Girdwood Brewing Company  Girdwood
+DESCRIPTION:Ride Bikes, Drink Beer at Girdwood Brewing Company in Girdwood. Time: 6:30p-?. Category: music
+URL:https://www.facebook.com/events/980353717958999/980353777958993/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7302004556897845@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Live Music w/ Rick Brooks
+LOCATION:Jack Sprat  Girdwood
+DESCRIPTION:Live Music w/ Rick Brooks at Jack Sprat in Girdwood. Time: 6p-?. Category: music
+URL:https://www.jacksprat.net/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8878425833249144@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Guided tours of the Botanical Gardens  Homestead Garden  & Forest Trails.
+LOCATION:Pratt Museum  Homer
+DESCRIPTION:Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails. at Pratt Museum in Homer. Time: 11a-12p. Category: music
+URL:https://www.facebook.com/events/27331907429732951/27331907523066275/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.505359273818489@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Community Jam Sessions
+LOCATION:Homer Council on the Arts  Homer
+DESCRIPTION:Community Jam Sessions at Homer Council on the Arts in Homer. Time: 6:30p-9p. Category: music
+URL:https://www.facebook.com/events/987084407583120/987084450916449/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6533453432270516@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Piano Music by Erica
+LOCATION:AJ’s Old Town Steakhouse & Tavern  Homer
+DESCRIPTION:Piano Music by Erica at AJ’s Old Town Steakhouse & Tavern in Homer. Time: 6p-8p. Category: music
+URL:https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.28822119002414626@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Sense And Sensibility
+LOCATION:Pier One Theatre  Homer
+DESCRIPTION:Sense And Sensibility at Pier One Theatre in Homer. Time: 7:30p-10p. Category: music
+URL:https://pieronetheatre.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.20848732562428718@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Karaoke Night
+LOCATION:Alibi Bar & Café  Homer
+DESCRIPTION:Karaoke Night at Alibi Bar & Café in Homer. Time: 9p-12:30a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.00347639117857812@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Vinyl Afternoon's w/ Dj Roman Martinez
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Vinyl Afternoon's w/ Dj Roman Martinez at The Crystal Saloon in Juneau. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.903076635463541@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Taylor Dallas Vidic and Matt the Electrician
+LOCATION:Amalga Distillery  Juneau
+DESCRIPTION:Taylor Dallas Vidic and Matt the Electrician at Amalga Distillery in Juneau. Time: 7:30p-9p. Category: music
+URL:https://www.facebook.com/events/1345344897780500/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7697206014986934@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Karaoke Night
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Karaoke Night at The Crystal Saloon in Juneau. Time: 8p-12a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.44359595629260484@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Open Mic
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:Open Mic at Alaskan Hotel and Bar in Juneau. Time: 9p-11p. Category: music
+URL:https://koots.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5155174618365853@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Music on the Dock: Ketchikan Dixie Land Band
+LOCATION:Ketchikan Dock  Ketchikan
+DESCRIPTION:Music on the Dock: Ketchikan Dixie Land Band at Ketchikan Dock in Ketchikan. Time: 12p-1p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/13/music-on-dock-dj-archieologic/566267
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9461690300096642@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Live Music with Hays & Hers
+LOCATION:Bush Pilots' Lounge  Ketchikan
+DESCRIPTION:Live Music with Hays & Hers at Bush Pilots' Lounge in Ketchikan. Time: 6p-8p. Category: music
+URL:https://www.facebook.com/events/2259157721568535
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5136970329281023@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Ketchikan Arts & Humanities Council: Arts Report
+LOCATION:105.3 FM KRBD Community Radio  Ketchikan
+DESCRIPTION:Ketchikan Arts & Humanities Council: Arts Report at 105.3 FM KRBD Community Radio in Ketchikan. Time: 8:20a-8:35a. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/13/1786641600/arts-report-on-krbd/471388
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.555766107970811@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Open Mic Night
+LOCATION:Totem Bar  Ketchikan
+DESCRIPTION:Open Mic Night at Totem Bar in Ketchikan. Time: 8p-10p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.39761979547318527@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Campus Kickoff 2026
+LOCATION:Kodiak College  Kodiak
+DESCRIPTION:Campus Kickoff 2026 at Kodiak College in Kodiak. Time: 4p-8p. Category: music
+URL:https://www.facebook.com/events/1765315954332980/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4110924534791598@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Open Mic Night
+LOCATION:The Golden Saloon  McCarthy
+DESCRIPTION:Open Mic Night at The Golden Saloon in McCarthy. Time: TBD. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2380441704252899@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Karaoke Thursdays with Rocky Barnette
+LOCATION:North Pole Alehouse  North Pole
+DESCRIPTION:Karaoke Thursdays with Rocky Barnette at North Pole Alehouse in North Pole. Time: 8p-12a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.26924497761171506@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Dance Night w/ DJ Waitwat
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Dance Night w/ DJ Waitwat at Yukon Bar in Seward. Time: 9p-2a. Category: dance
+URL:https://www.facebook.com/photo.php?fbid=1495877732548962&set=pb.100063802472762.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.765098957390337@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Preschool Storytime
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Preschool Storytime at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/2595296667593726/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.839370172486603@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Bush Bash with DJ 2stroke
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Bush Bash with DJ 2stroke at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://fairviewtalkeetna.com/pages/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7181851029866756@akconcerts.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:Live Music With Drew Sablon
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Live Music With Drew Sablon at Everett's in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1600628335398914&set=gm.1661143841831616
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.011336839730491821@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Karaoke
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Karaoke at American Legion Post 28 (Spenard) in Anchorage. Time: 7p-11p. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6153665592455161@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Open Mic Night
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Open Mic Night at Pioneer Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.31895092549717075@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Schaefer Mueller
+LOCATION:Susitna Brewing  Big Lake
+DESCRIPTION:Schaefer Mueller at Susitna Brewing in Big Lake. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1617749803119897/1617749809786563/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.34750040939159565@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Colin Donkey
+LOCATION:Gwin's Lodge  Cooper Landing
+DESCRIPTION:Colin Donkey at Gwin's Lodge in Cooper Landing. Time: 6p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8752314118901968@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Collin Donley Live
+LOCATION:Gwin's Lodge  Cooper Landing
+DESCRIPTION:Collin Donley Live at Gwin's Lodge in Cooper Landing. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/772396019204169/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.33157863568578017@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Rock Night w/ Wayward Shot  Vital  Noisegate  & Trichomes Live
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:Rock Night w/ Wayward Shot, Vital, Noisegate, & Trichomes Live at Odd Man Rush Brewing in Eagle River. Time: 7p-11p. Category: music
+URL:https://www.facebook.com/events/1369274912000739/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8281858708049408@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:DJ AumanJoy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:DJ AumanJoy at Homestead Lounge in Eagle River. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8626137497732658@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Casey Smith Project & Hellkat Maggie
+LOCATION:Malemute Saloon & Gold Camp  Ester
+DESCRIPTION:Casey Smith Project & Hellkat Maggie at Malemute Saloon & Gold Camp in Ester. Time: 7:30p-11:30p. Category: music
+URL:https://malemutesaloon.com/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6528089780650468@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.22962363785727002@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands at The International Hotel & Bar in Fairbanks. Time: 8p-12a. Category: music
+URL:https://www.akconcerts.com/bands
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.39403023721251584@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Matt Hopper & The Roman Candles w/ Joshua Labuda & Grungebob
+LOCATION:The Boatel  Fairbanks
+DESCRIPTION:Matt Hopper & The Roman Candles w/ Joshua Labuda & Grungebob at The Boatel in Fairbanks. Time: 9p-?. Category: community
+URL:https://www.facebook.com/events/1699231917850137/?acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5029754538913224@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Dj KIMNI w/ Stix2Stone
+LOCATION:Kharacters Alaskan Bar  Homer
+DESCRIPTION:Dj KIMNI w/ Stix2Stone at Kharacters Alaskan Bar in Homer. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/kharacters.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5636931118459271@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Sense And Sensibility
+LOCATION:Pier One Theatre  Homer
+DESCRIPTION:Sense And Sensibility at Pier One Theatre in Homer. Time: 7:30p-10p. Category: music
+URL:https://pieronetheatre.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9844192357425402@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Brooks Wheelan Stand Up Comedy
+LOCATION:Porcupine Theater  Homer
+DESCRIPTION:Brooks Wheelan Stand Up Comedy at Porcupine Theater in Homer. Time: 7p-?. Category: comedy
+URL:https://www.facebook.com/events/925354619961463/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3305061343560657@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Arts By Air: Oh Filia
+LOCATION:Bunnell Street Arts Center  Homer
+DESCRIPTION:Arts By Air: Oh Filia at Bunnell Street Arts Center in Homer. Time: 7p-8p. Category: music
+URL:https://www.facebook.com/events/1406317494701813/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.04969918174989496@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Noah Pope & Parker
+LOCATION:Dirty Skillet  Hope
+DESCRIPTION:Noah Pope & Parker at Dirty Skillet in Hope. Time: 6p-10p. Category: music
+URL:https://dirtyskillet.com/music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.03617057966207371@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Tophouse
+LOCATION:Creekbend Company  Hope
+DESCRIPTION:Tophouse at Creekbend Company in Hope. Time: 7p-11p. Category: music
+URL:https://www.creekbendco.com/event
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.23561784611947922@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Slept In & Sundew
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Slept In & Sundew at The Crystal Saloon in Juneau. Time: 9p-?. Category: music
+URL:https://www.facebook.com/thecrystalsaloon
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7316383683396562@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Seth Malone Live
+LOCATION:Martha’s Cocina  Kenai
+DESCRIPTION:Seth Malone Live at Martha’s Cocina in Kenai. Time: 6p-?. Category: music
+URL:https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6972591651212966@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Music on the Dock: Big Wave
+LOCATION:Ketchikan Dock  Ketchikan
+DESCRIPTION:Music on the Dock: Big Wave at Ketchikan Dock in Ketchikan. Time: 12p-1p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/13/music-on-dock-dj-archieologic/566267
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8593305159416463@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Anne Phillips Performance
+LOCATION:The Creek Street Cabaret  Ketchikan
+DESCRIPTION:Anne Phillips Performance at The Creek Street Cabaret in Ketchikan. Time: 7:30p-9:30p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/21/anne-phillips-performs-/573019
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.0012913463562143068@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Live Music in the Café
+LOCATION:The New York Café  Ketchikan
+DESCRIPTION:Live Music in the Café at The New York Café in Ketchikan. Time: 7p-9p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/21/1787371200/live-music-the-new-york-cafe/559110
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5902804818666163@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Cousin Curtiss
+LOCATION:The Rendezvous  Kodiak
+DESCRIPTION:Cousin Curtiss at The Rendezvous in Kodiak. Time: 8p-11p. Category: music
+URL:https://www.kodiakrendezvous.com/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7792016924467212@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:AJR at the State Fair
+LOCATION:Alaska State Fairgrounds (Borealis Theatre)  Palmer
+DESCRIPTION:AJR at the State Fair at Alaska State Fairgrounds (Borealis Theatre) in Palmer. Time: 7p-10p. Category: festival
+URL:https://www.alaskastatefair.org/site/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.09438060604583232@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Live Music w/ Jim Maloney
+LOCATION:Linwood Bar & Grill  Seldovia
+DESCRIPTION:Live Music w/ Jim Maloney at Linwood Bar & Grill in Seldovia. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.23307452583228883@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Live Music w/ The Jephries ft. Luv Guvna
+LOCATION:Flamingo Lounge  Seward
+DESCRIPTION:Live Music w/ The Jephries ft. Luv Guvna at Flamingo Lounge in Seward. Time: 6:30p-9:30p. Category: music
+URL:https://www.eventbrite.com/e/live-at-the-flamingo-good-company-tickets-1993621215723?aff=erelpanelorg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8216556090838032@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Matt & Co. Live
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Matt & Co. Live at Yukon Bar in Seward. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/events/1560107172314567/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3526604193706906@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Dirk Brankel
+LOCATION:Naptowne Brewing Company  Sterling
+DESCRIPTION:Dirk Brankel at Naptowne Brewing Company in Sterling. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo?fbid=1422982996549724&set=a.501970625317637
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.923407893909394@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Live At Five Summer Concerts: Nothin' but Karma
+LOCATION:Talkeetna Village Park  Talkeetna
+DESCRIPTION:Live At Five Summer Concerts: Nothin' but Karma at Talkeetna Village Park in Talkeetna. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/events/1526860852225914/1526860908892575/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.687202441592739@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Nothing but Karma
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Nothing but Karma at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://fairviewtalkeetna.com/pages/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2718970615012557@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Hot Mess Live
+LOCATION:Mug-Shot Saloon  Wasilla
+DESCRIPTION:Hot Mess Live at Mug-Shot Saloon in Wasilla. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/events/26615069171468582/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.19943936093500103@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Live Music w/ MantraLuna
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Live Music w/ MantraLuna at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/4349269248721545
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.157722259389927@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Stand Up Comedy w/ Matty Chymbor & Mandy Martino
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Stand Up Comedy w/ Matty Chymbor & Mandy Martino at Everett's in Wasilla. Time: 7:30p-9p. Category: comedy
+URL:https://www.rubberptarmigan.com/events/matty-chymbor-everetts
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4126599395795537@akconcerts.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Karaoke Night
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Karaoke Night at Schwabenhof in Wasilla. Time: 8p-11p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2428138269523571@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Collin Donley Live
+LOCATION:The Angry Salmon  Anchor Point
+DESCRIPTION:Collin Donley Live at The Angry Salmon in Anchor Point. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/772396019204169/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6968375061970604@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Two-Step and Country Swing Dance Lessons!
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Two-Step and Country Swing Dance Lessons! at American Legion Post 28 (Spenard) in Anchorage. Time: 7p-8p. Category: dance
+URL:https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.19851061709229723@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Karaoke
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Karaoke at American Legion Post 28 (Spenard) in Anchorage. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9992530915763614@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Karaoke Night
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Karaoke Night at Pioneer Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9715280329137352@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Big Lake Community Farmer’s Market
+LOCATION:Common Ground Alaska Farm  Big Lake
+DESCRIPTION:Big Lake Community Farmer’s Market at Common Ground Alaska Farm in Big Lake. Time: 12p-6p. Category: community
+URL:https://www.facebook.com/events/1505191268049063/1505191284715728/?active_tab=about
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.14558611140474254@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Hope Social Club & Rabbit Creek Ramblers
+LOCATION:Cooper Landing Brewing  Cooper Landing
+DESCRIPTION:Hope Social Club & Rabbit Creek Ramblers at Cooper Landing Brewing in Cooper Landing. Time: 7p-?. Category: music
+URL:https://www.facebook.com/photo/?fbid=1614802147270857&set=a.467487872002296
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7137319492907551@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:DJ Auman Joy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:DJ Auman Joy at Homestead Lounge in Eagle River. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4652807760347287@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:3 Chord Ho & Carey Anderson and the Sizz
+LOCATION:Malemute Saloon & Gold Camp  Ester
+DESCRIPTION:3 Chord Ho & Carey Anderson and the Sizz at Malemute Saloon & Gold Camp in Ester. Time: 7:30p-11p. Category: music
+URL:https://malemutesaloon.com/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9788480715649922@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Matt Rife Stay Golden World Tour
+LOCATION:Carlson Center  Fairbanks
+DESCRIPTION:Matt Rife Stay Golden World Tour at Carlson Center in Fairbanks. Time: 7:30p-?. Category: music
+URL:https://mattrifeofficial.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.48339817424431575@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.13739744234953521@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands at The International Hotel & Bar in Fairbanks. Time: 8p-12a. Category: music
+URL:https://www.akconcerts.com/bands
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.794066445369688@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Naugahyde Cowboys
+LOCATION:Kharacters Alaskan Bar  Homer
+DESCRIPTION:Naugahyde Cowboys at Kharacters Alaskan Bar in Homer. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/kharacters.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9923454942491569@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Guided tours of the Botanical Gardens  Homestead Garden  & Forest Trails.
+LOCATION:Pratt Museum  Homer
+DESCRIPTION:Guided tours of the Botanical Gardens, Homestead Garden, & Forest Trails. at Pratt Museum in Homer. Time: 11a-12p. Category: music
+URL:https://www.facebook.com/events/27331907429732951/27331907523066275/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2548266581330685@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Piano Music by Sunrise Kilcher
+LOCATION:AJ’s Old Town Steakhouse & Tavern  Homer
+DESCRIPTION:Piano Music by Sunrise Kilcher at AJ’s Old Town Steakhouse & Tavern in Homer. Time: 6p-8p. Category: music
+URL:https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5824707979608285@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Sense And Sensibility
+LOCATION:Pier One Theatre  Homer
+DESCRIPTION:Sense And Sensibility at Pier One Theatre in Homer. Time: 7:30p-10p. Category: music
+URL:https://pieronetheatre.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3566639458616586@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Turning Away: A Pink Floyd Experience
+LOCATION:Justin Cole's Down East Saloon  Homer
+DESCRIPTION:Turning Away: A Pink Floyd Experience at Justin Cole's Down East Saloon in Homer. Time: 8p-?. Category: music
+URL:https://www.facebook.com/downeastsaloonak
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6952687410291373@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Noah Pope & Parker
+LOCATION:Dirty Skillet  Hope
+DESCRIPTION:Noah Pope & Parker at Dirty Skillet in Hope. Time: 6p-10p. Category: music
+URL:https://dirtyskillet.com/music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6483885127485072@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Tophouse
+LOCATION:Creekbend Company  Hope
+DESCRIPTION:Tophouse at Creekbend Company in Hope. Time: 7p-11p. Category: music
+URL:https://www.creekbendco.com/event
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6848112031291065@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Dance Caviar Disco w/ Roman Martinez
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Dance Caviar Disco w/ Roman Martinez at The Crystal Saloon in Juneau. Time: 10p-?. Category: dance
+URL:https://www.facebook.com/thecrystalsaloon
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.49432617974324655@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Overalls: A Great Time w/ Fanci Boi  Dr. Ache  & Unle Flex
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:Overalls: A Great Time w/ Fanci Boi, Dr. Ache, & Unle Flex at Alaskan Hotel and Bar in Juneau. Time: 9p-?. Category: music
+URL:https://www.facebook.com/alaskan.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4529142815917354@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:As You Wish Rob Reiner Tribute Event
+LOCATION:Gold Town Theater  Juneau
+DESCRIPTION:As You Wish Rob Reiner Tribute Event at Gold Town Theater in Juneau. Time: TBD. Category: music
+URL:https://goldtownnick.com/event/as-you-wish-a-rob-reiner-tribute-event/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5115956600382857@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Industry Appreciation Day
+LOCATION:Kenai Park Strip  Kenai
+DESCRIPTION:Industry Appreciation Day at Kenai Park Strip in Kenai. Time: 12p-4p. Category: music
+URL:https://www.facebook.com/events/1887211148622447/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.918164594115296@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:'26 Divorce Party
+LOCATION:Skeet's Dive Bar  Kenai
+DESCRIPTION:'26 Divorce Party at Skeet's Dive Bar in Kenai. Time: 9p-?. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9929090001863674@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Ketchikan Theatre Ballet Open House
+LOCATION:Ketchikan Theatre Ballet  Ketchikan
+DESCRIPTION:Ketchikan Theatre Ballet Open House at Ketchikan Theatre Ballet in Ketchikan. Time: 10a-5p. Category: theatre
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/22/ketchikan-theatre-ballet-open-house/574037
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.07108545329482363@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Virgin Voyages: Brilliant Lady Land Party
+LOCATION:Arctic Bar  Ketchikan
+DESCRIPTION:Virgin Voyages: Brilliant Lady Land Party at Arctic Bar in Ketchikan. Time: 12p-6p. Category: music
+URL:https://www.facebook.com/events/1466272915541691/1466276545541328/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.014094583441963016@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Summer Saturdays at the Museum
+LOCATION:Tongass Historical Museum  Ketchikan
+DESCRIPTION:Summer Saturdays at the Museum at Tongass Historical Museum in Ketchikan. Time: 1p-3p. Category: music
+URL:https://www.facebook.com/events/873907959081409/873907989081406/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.12146863833096955@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Matt the Electrician
+LOCATION:North Tongass Community Club  Ketchikan
+DESCRIPTION:Matt the Electrician at North Tongass Community Club in Ketchikan. Time: 7:30p-9:30p. Category: music
+URL:https://www.facebook.com/events/1345344897780500/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.42327322863814887@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Cousin Curtiss
+LOCATION:The Rendezvous  Kodiak
+DESCRIPTION:Cousin Curtiss at The Rendezvous in Kodiak. Time: 8p-11p. Category: music
+URL:https://www.kodiakrendezvous.com/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6776845899761266@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:MXY Prom w/ DJ Aicardi
+LOCATION:The Golden Saloon  McCarthy
+DESCRIPTION:MXY Prom w/ DJ Aicardi at The Golden Saloon in McCarthy. Time: TBD. Category: music
+URL:https://www.mccarthylodge.com/mccarthy-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6088611310036148@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Free Line Dancing Class
+LOCATION:North Pole Alehouse  North Pole
+DESCRIPTION:Free Line Dancing Class at North Pole Alehouse in North Pole. Time: 7p-?. Category: community
+URL:https://www.facebook.com/events/2520582731700538/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6158419331881811@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Mark Morris
+LOCATION:Hatcher Pass Lodge  Palmer
+DESCRIPTION:Mark Morris at Hatcher Pass Lodge in Palmer. Time: 4p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1589853516258791&set=pb.100057024746969.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.255437403664207@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Megadeth at the State Fair
+LOCATION:Alaska State Fairgrounds (Borealis Theatre)  Palmer
+DESCRIPTION:Megadeth at the State Fair at Alaska State Fairgrounds (Borealis Theatre) in Palmer. Time: 7p-10p. Category: festival
+URL:https://www.alaskastatefair.org/site/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7991797070541606@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Live Music w/ Jim Maloney
+LOCATION:Linwood Bar & Grill  Seldovia
+DESCRIPTION:Live Music w/ Jim Maloney at Linwood Bar & Grill in Seldovia. Time: TBD. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.871938264007471@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Matt & Co. Live
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Matt & Co. Live at Yukon Bar in Seward. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/events/1560107172314567/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.33080843000861726@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Sitka NOVA Rave
+LOCATION:Odess Theater  Sitka
+DESCRIPTION:Sitka NOVA Rave at Odess Theater in Sitka. Time: 8:30p-12a. Category: music
+URL:https://www.facebook.com/events/987067243791832/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8247434057257615@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Racial Justice Table Talk
+LOCATION:Soldotna United Methodist Church  Soldotna
+DESCRIPTION:Racial Justice Table Talk at Soldotna United Methodist Church in Soldotna. Time: 12p-4:30p. Category: music
+URL:https://www.facebook.com/events/2025787734698246/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.749223858659913@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Karaoke w/ Edencraft
+LOCATION:The Goods - Sustainable Grocery & Cafe  Soldotna
+DESCRIPTION:Karaoke w/ Edencraft at The Goods - Sustainable Grocery & Cafe in Soldotna. Time: 5p-8p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4262517092648854@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Nothing but Trouble
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Nothing but Trouble at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://fairviewtalkeetna.com/pages/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.35415679057783045@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Saturday Market
+LOCATION:Valdez Brewing  Valdez
+DESCRIPTION:Saturday Market at Valdez Brewing in Valdez. Time: 10a-4p. Category: community
+URL:https://www.facebook.com/events/1524131432753538/1524131459420202/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6660611363334549@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Hot Mess Live & Air Guitar Contest
+LOCATION:Mug-Shot Saloon  Wasilla
+DESCRIPTION:Hot Mess Live & Air Guitar Contest at Mug-Shot Saloon in Wasilla. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/events/26615069171468582/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5738101960371946@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Burke Doyle Live
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Burke Doyle Live at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1708081206977969/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4107766746430772@akconcerts.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+SUMMARY:Live Music with Gary and the Chillers
+LOCATION:Tug Bar & Liquor- Goose Bay Inn  Wasilla
+DESCRIPTION:Live Music with Gary and the Chillers at Tug Bar & Liquor- Goose Bay Inn in Wasilla. Time: TBD. Category: music
+URL:https://www.facebook.com/photo/?fbid=1497931395460551&set=a.208825104371193
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6459712158446971@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Open Mic Night
+LOCATION:Susitna Brewing  Big Lake
+DESCRIPTION:Open Mic Night at Susitna Brewing in Big Lake. Time: 6p-9p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.779486144148761@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Sunday Deck Open Jam
+LOCATION:Malemute Saloon & Gold Camp  Ester
+DESCRIPTION:Sunday Deck Open Jam at Malemute Saloon & Gold Camp in Ester. Time: 2p-5p. Category: music
+URL:https://malemutesaloon.com/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7904913314554398@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Ragtime Piano
+LOCATION:Malemute Saloon & Gold Camp  Ester
+DESCRIPTION:Ragtime Piano at Malemute Saloon & Gold Camp in Ester. Time: 6p-8p. Category: music
+URL:https://malemutesaloon.com/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8283931805049706@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.27959099138330223@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Karaoke
+LOCATION:The Marlin  Fairbanks
+DESCRIPTION:Karaoke at The Marlin in Fairbanks. Time: 9p-?. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.34993613971928716@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Jenny Baker matinee
+LOCATION:Kharacters Alaskan Bar  Homer
+DESCRIPTION:Jenny Baker matinee at Kharacters Alaskan Bar in Homer. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/kharacters.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.17439926513341975@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Sunday Brunch with Spit Shake
+LOCATION:Creekbend Company  Hope
+DESCRIPTION:Sunday Brunch with Spit Shake at Creekbend Company in Hope. Time: 11a-2p. Category: community
+URL:https://www.creekbendco.com/event
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6342048427343263@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Open Mic Night w/ Joe Williams
+LOCATION:The Creek Street Cabaret  Ketchikan
+DESCRIPTION:Open Mic Night w/ Joe Williams at The Creek Street Cabaret in Ketchikan. Time: 6p-9p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5960382991498749@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Ziggy Marley at the State Fair
+LOCATION:Alaska State Fairgrounds (Borealis Theatre)  Palmer
+DESCRIPTION:Ziggy Marley at the State Fair at Alaska State Fairgrounds (Borealis Theatre) in Palmer. Time: 7p-10p. Category: festival
+URL:https://www.alaskastatefair.org/site/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4954746102799835@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Stand Up Comedy in the Disco Garden
+LOCATION:Flamingo Lounge  Seward
+DESCRIPTION:Stand Up Comedy in the Disco Garden at Flamingo Lounge in Seward. Time: 7:30p-9:30p. Category: comedy
+URL:https://www.rubberptarmigan.com/events/standup-comedy-in-the-flamingo-disco-garden-the-flamingo-lounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5486650883930486@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Karaoke
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke at Yukon Bar in Seward. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.10225714140679998@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Tsalteshi Gauntlet Bike Race
+LOCATION:Tsalteshi Trails  Soldotna
+DESCRIPTION:Tsalteshi Gauntlet Bike Race at Tsalteshi Trails in Soldotna. Time: 1p-4p. Category: music
+URL:https://www.facebook.com/events/1090944796621486/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6231665851944111@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Steve Durr
+LOCATION:Mountain High Pizza Pie  Talkeetna
+DESCRIPTION:Steve Durr at Mountain High Pizza Pie in Talkeetna. Time: 1p-2:30p & 5p-6:30p. Category: music
+URL:https://www.pizzapietalkeetna.com/event-type/live-music/?fbclid=IwY2xjawRvBv9leHRuA2FlbQIxMABicmlkETE4T3g0UnoxVExiYTJjdXdQc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjyB1eWoEUpiOvGrlQarejNeQ12UXmcHnrBjwbrtFOPH0Rv2MmpWh1UA2AxS_aem_ls3CB8uZ3Xj26XD5nR9-
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9674678513226331@akconcerts.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+SUMMARY:Live Music w/ Sergio Adams
+LOCATION:Tug Bar & Liquor- Goose Bay Inn  Wasilla
+DESCRIPTION:Live Music w/ Sergio Adams at Tug Bar & Liquor- Goose Bay Inn in Wasilla. Time: TBD. Category: music
+URL:https://www.facebook.com/photo/?fbid=1497931395460551&set=a.208825104371193
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6436753054805228@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Garden Grooves: Music in the Beer Garden
+LOCATION:49th State Brewing  Anchorage
+DESCRIPTION:Garden Grooves: Music in the Beer Garden at 49th State Brewing in Anchorage. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.0036035081430075833@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Weekly Jazz Jam
+LOCATION:Fire Island Rustic Bakeshop @ K Street  Anchorage
+DESCRIPTION:Weekly Jazz Jam at Fire Island Rustic Bakeshop @ K Street in Anchorage. Time: 6:30p-9:30p. Category: music
+URL:https://akjazzworkshop.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.43054865397425857@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Gazebo Nights Concert Series: Alaska Wompus Cats
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Gazebo Nights Concert Series: Alaska Wompus Cats at Pioneer Bar in Anchorage. Time: 6p-7p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8955181427215867@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Learn to Square Dance
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:Learn to Square Dance at Anchorage Social Dance Club in Anchorage. Time: 7p-9p. Category: dance
+URL:https://www.akconcerts.com/learn
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8758582534204467@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Karaoke Mondays
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:Karaoke Mondays at Odd Man Rush Brewing in Eagle River. Time: 6p-9p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5109555090999486@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6899185077398743@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:RawBeats w/ Astronomar & Friends
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:RawBeats w/ Astronomar & Friends at Alaskan Hotel and Bar in Juneau. Time: 9p-?. Category: music
+URL:https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9423542298865438@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Storytime & Craft: "Sasha's Matrioshka Dolls"
+LOCATION:Kenai Chamber of Commerce & Visitor Center  Kenai
+DESCRIPTION:Storytime & Craft: "Sasha's Matrioshka Dolls" at Kenai Chamber of Commerce & Visitor Center in Kenai. Time: 11a-?. Category: community
+URL:https://www.facebook.com/events/1467248691835621/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.24156044762062978@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Storytime & Craft: Sasha's Matrioshka Dolls
+LOCATION:Kenai Chamber of Commerce & Visitor Center  Kenai
+DESCRIPTION:Storytime & Craft: Sasha's Matrioshka Dolls at Kenai Chamber of Commerce & Visitor Center in Kenai. Time: 11a-?. Category: community
+URL:https://www.facebook.com/events/1467248691835621/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.678917513615682@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Live Music w/ Frank Iarossi
+LOCATION:Duck Inn Café  Kenai
+DESCRIPTION:Live Music w/ Frank Iarossi at Duck Inn Café in Kenai. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1687993499998617&set=a.502707521860560
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.334947514508225@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Amy Grant at the State Fair
+LOCATION:Alaska State Fairgrounds (Borealis Theatre)  Palmer
+DESCRIPTION:Amy Grant at the State Fair at Alaska State Fairgrounds (Borealis Theatre) in Palmer. Time: 7p-10p. Category: festival
+URL:https://www.alaskastatefair.org/site/concerts/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8265639677843446@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Karaoke
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Karaoke at Four Corner's Lounge in Palmer. Time: 8p-?. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.23586233450422867@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Seward Strings
+LOCATION:Seward Senior Center  Seward
+DESCRIPTION:Seward Strings at Seward Senior Center in Seward. Time: 1p-4p. Category: music
+URL:https://www.facebook.com/SewardSeniors
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7656517160543017@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Karaoke with Megan Killoran
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke with Megan Killoran at Yukon Bar in Seward. Time: 9p-1a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7818169889494444@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Friends of Mike Morgan Song Circle
+LOCATION:The Goods - Sustainable Grocery & Cafe  Soldotna
+DESCRIPTION:Friends of Mike Morgan Song Circle at The Goods - Sustainable Grocery & Cafe in Soldotna. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/events/2211445169673257/2211445209673253/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.06398439604957606@akconcerts.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Karaoke
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Karaoke at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4290258857191189@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Preschool Storytime: Alaskan Animals
+LOCATION:JBER Library  Anchorage
+DESCRIPTION:Preschool Storytime: Alaskan Animals at JBER Library in Anchorage. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/2595296667593726/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8039050211224851@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Lunch on the Lawn with Live Music
+LOCATION:Anchorage Museum  Anchorage
+DESCRIPTION:Lunch on the Lawn with Live Music at Anchorage Museum in Anchorage. Time: 11:30a-1:30p. Category: music
+URL:https://www.facebook.com/events/1922185821777460/1922185845110791/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5396614285180094@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Garden Grooves: Music in the Beer Garden
+LOCATION:49th State Brewing  Anchorage
+DESCRIPTION:Garden Grooves: Music in the Beer Garden at 49th State Brewing in Anchorage. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21816855133333235@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Family Storytime
+LOCATION:Mountain View Public Library  Anchorage
+DESCRIPTION:Family Storytime at Mountain View Public Library in Anchorage. Time: 6p-6:30p. Category: community
+URL:https://www.facebook.com/events/4209337435985219/4209337502651879/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6291637482902704@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Irish Music & Dancing
+LOCATION:Organic Oasis  Anchorage
+DESCRIPTION:Irish Music & Dancing at Organic Oasis in Anchorage. Time: 6p-8p. Category: music
+URL:https://www.facebook.com/organicoasisAK
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3230737263834904@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:College Night 18+
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:College Night 18+ at Pink Cadillac in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.facebook.com/events/1537213564605897/1537213641272556/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7941868797253633@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Karaoke Night
+LOCATION:The Cabin Bar  Anchorage
+DESCRIPTION:Karaoke Night at The Cabin Bar in Anchorage. Time: 7p-10p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.19820356095064817@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Rope Dart Lessons w/ Jerrill
+LOCATION:Oriental Healing Arts Center  Anchorage
+DESCRIPTION:Rope Dart Lessons w/ Jerrill at Oriental Healing Arts Center in Anchorage. Time: 8:30p-10p. Category: music
+URL:http://orientalhealingartscenter.com/assets/event-rd.jpg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6940584603007788@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:AK Rockstar Karaoke
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:AK Rockstar Karaoke at The Carousel Lounge in Anchorage. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.713394437071577@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Public Assistance Resource Fair
+LOCATION:Chugiak-Eagle River Library  Eagle River
+DESCRIPTION:Public Assistance Resource Fair at Chugiak-Eagle River Library in Eagle River. Time: 2p-4p. Category: festival
+URL:https://www.anchoragelibrary.org/events/classes-schedules/community-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.17620484907716993@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6019789449056323@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Storytime at the Pratt: Berry Season
+LOCATION:Pratt Museum  Homer
+DESCRIPTION:Storytime at the Pratt: Berry Season at Pratt Museum in Homer. Time: 10:30a-11:30a. Category: community
+URL:https://www.facebook.com/events/1318067970185424/1318067976852090/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.026467991204492614@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Taco Tuesday's with Jim Maloney
+LOCATION:Justin Cole's Down East Saloon  Homer
+DESCRIPTION:Taco Tuesday's with Jim Maloney at Justin Cole's Down East Saloon in Homer. Time: 6:30p-10p. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=d4aeb6bcfd&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3869342832520112@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Jazz Jam Tuesday
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Jazz Jam Tuesday at The Crystal Saloon in Juneau. Time: 8p-11p. Category: music
+URL:https://www.crystalsaloon.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7499642801234502@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Line Dance Lessons
+LOCATION:Skeet's Dive Bar  Kenai
+DESCRIPTION:Line Dance Lessons at Skeet's Dive Bar in Kenai. Time: 7p-?. Category: dance
+URL:https://www.instagram.com/p/Dbhn0XNB84h/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7633959173664306@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Open Mic Night
+LOCATION:Hole in the Wall  Ketchikan
+DESCRIPTION:Open Mic Night at Hole in the Wall in Ketchikan. Time: 6p-8p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.472845614589511@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Tuesday Pub Run w/ Tundra Trotters
+LOCATION:North Pole Alehouse  North Pole
+DESCRIPTION:Tuesday Pub Run w/ Tundra Trotters at North Pole Alehouse in North Pole. Time: 6:15p-9p. Category: community
+URL:https://www.facebook.com/events/1210834251124828/1210834304458156/?event_time_id=1210834297791490
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.49378827270704306@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Open Mic Night w/ Drew Sablon
+LOCATION:Fishhook Bar & Grill  Palmer
+DESCRIPTION:Open Mic Night w/ Drew Sablon at Fishhook Bar & Grill in Palmer. Time: 6p-9p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5019666567915253@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Industry Night with DJ Red
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Industry Night with DJ Red at Four Corner's Lounge in Palmer. Time: 8p-?. Category: music
+URL:https://www.facebook.com/FourCornersLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9867453549452659@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Open Mic Night with Braden
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Open Mic Night with Braden at Yukon Bar in Seward. Time: 8p-2a. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6043687902479546@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Toddler Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Toddler Story Time at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://skagwaylibrary.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21520497511082493@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Storytime at Ken’s
+LOCATION:Ken’s Garden Center  Wasilla
+DESCRIPTION:Storytime at Ken’s at Ken’s Garden Center in Wasilla. Time: 10a-11a. Category: community
+URL:https://www.facebook.com/events/1439153171253533/1439153317920185/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.927563204016734@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Live Music w/ Jerry Wessling
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Live Music w/ Jerry Wessling at Everett's in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1056348563732364/1056348613732359/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.01579220113123725@akconcerts.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:Karaoke Night
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Karaoke Night at Schwabenhof in Wasilla. Time: 8p-11p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9031946432666841@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Free Community Storytime
+LOCATION:The Alaska Zoo  Anchorage
+DESCRIPTION:Free Community Storytime at The Alaska Zoo in Anchorage. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/2118396738965650/2118396905632300/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8698621962637181@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:The Eternal Cowboys
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:The Eternal Cowboys at Pioneer Bar in Anchorage. Time: 10p-1a. Category: music
+URL:https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.40345413241048544@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Koots Karaoke
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Koots Karaoke at Koot's in Anchorage. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/kootsak
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4809126921443766@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Garden Grooves: Music in the Beer Garden
+LOCATION:49th State Brewing  Anchorage
+DESCRIPTION:Garden Grooves: Music in the Beer Garden at 49th State Brewing in Anchorage. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1267333412235644&set=gm.1017207420732481
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7291167261700221@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Your Name 10th Anniversary Showing
+LOCATION:Bear Tooth Theatrepub  Anchorage
+DESCRIPTION:Your Name 10th Anniversary Showing at Bear Tooth Theatrepub in Anchorage. Time: 6:00 PM - 7:40 PM. Category: music
+URL:https://beartooththeatre.filmbot.com/movies/your-name-10th-anniversary/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.33158068002566443@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:International Folk Dancing
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:International Folk Dancing at Anchorage Social Dance Club in Anchorage. Time: 6:30p-8p. Category: music
+URL:https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6462317717009892@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Live Music at Crimson w/ Schaefer Mueller
+LOCATION:Wildbirch Hotel  Anchorage
+DESCRIPTION:Live Music at Crimson w/ Schaefer Mueller at Wildbirch Hotel in Anchorage. Time: 6:30p-9:30p. Category: music
+URL:https://www.facebook.com/events/1617749803119897/1617749809786563/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5510382933926579@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Seth Malone
+LOCATION:Manhattan's Restaurant & Lounge  Anchorage
+DESCRIPTION:Seth Malone at Manhattan's Restaurant & Lounge in Anchorage. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.04251812154242185@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Tyrone & Friends
+LOCATION:907 Alehouse  Anchorage
+DESCRIPTION:Tyrone & Friends at 907 Alehouse in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.facebook.com/tyrone.palmer.722744
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1900853452819925@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Comedy Open Mic
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Comedy Open Mic at Koot's in Anchorage. Time: 7p-10p. Category: comedy
+URL:https://koots.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8596142258949832@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Line Dance Wednesdays
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:Line Dance Wednesdays at Pink Cadillac in Anchorage. Time: 7p-11p. Category: dance
+URL:https://www.facebook.com/events/1351242593745182/1351242610411847/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5899356363227359@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Live Music w/ Shaun Pacarro
+LOCATION:Humpy's Great Alaskan Alehouse  Anchorage
+DESCRIPTION:Live Music w/ Shaun Pacarro at Humpy's Great Alaskan Alehouse in Anchorage. Time: 8p-11:30p. Category: music
+URL:https://www.humpysalaska.com/whats-happening-1?fbclid=IwY2xjawTtfnhwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMUh2VWx6cGtaSVhOVWZUNjBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe_78CUEb3OkkJHKthiEvItEF6JJZZL7WSzgnraoIWL57eD61N9EjfhN2Yuzg_aem_1Tx3NUIiv5U1xMdgAw44qA
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.30835585865552173@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke
+LOCATION:Mad Myrna's  Anchorage
+DESCRIPTION:Karaoke at Mad Myrna's in Anchorage. Time: 9p-12a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6618271994464263@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Karaoke at Van's Dive Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7258952108217535@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Frank Larosi
+LOCATION:Gwin's Lodge  Cooper Landing
+DESCRIPTION:Frank Larosi at Gwin's Lodge in Cooper Landing. Time: 6p-10p. Category: music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3610598165690383@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Randy's Cheeseburger Picnic (Trailer Park Boys)
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:Randy's Cheeseburger Picnic (Trailer Park Boys) at Odd Man Rush Brewing in Eagle River. Time: 8p-?. Category: music
+URL:https://www.facebook.com/events/1975939956450308/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5290109390279364@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke Night w/ KJ Smoke
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Karaoke Night w/ KJ Smoke at Homestead Lounge in Eagle River. Time: 8p-12a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.45330128391961255@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Wednesday Dance Practice
+LOCATION:Fairbanks Tango  Ester
+DESCRIPTION:Wednesday Dance Practice at Fairbanks Tango in Ester. Time: 6p-9p. Category: dance
+URL:https://www.facebook.com/events/1043559824868668/1043559858201998/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6263569240371064@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Golden Heart Revue
+LOCATION:The Palace Theater  Fairbanks
+DESCRIPTION:Golden Heart Revue at The Palace Theater in Fairbanks. Time: 8:15p-9:15p. Category: music
+URL:https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5163288898426427@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke Night with Rocky!
+LOCATION:The Spur  Fairbanks
+DESCRIPTION:Karaoke Night with Rocky! at The Spur in Fairbanks. Time: 8p-11p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.29327495082756805@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Alaskan Art & Adventure Auction w/ Live Music
+LOCATION:Porcupine Theater  Homer
+DESCRIPTION:Alaskan Art & Adventure Auction w/ Live Music at Porcupine Theater in Homer. Time: 6p-?. Category: music
+URL:https://www.facebook.com/events/1093799693226360/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.937293205897033@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Vinyl Afternoon's w/ Dj Roman Martinez
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Vinyl Afternoon's w/ Dj Roman Martinez at The Crystal Saloon in Juneau. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.20883125772394495@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Open Mic Night
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Open Mic Night at The Crystal Saloon in Juneau. Time: 8p-11:30p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.40444825872966605@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:Karaoke at Alaskan Hotel and Bar in Juneau. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.43285635367769026@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:The Ukulele Group
+LOCATION:Inn at Creek Street  Ketchikan
+DESCRIPTION:The Ukulele Group at Inn at Creek Street in Ketchikan. Time: 3:45p-4:45p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/08/26/1787791500/the-ukelele-group-/521570
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.441794570906652@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:West Coast Sing Wednesday
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:West Coast Sing Wednesday at Four Corner's Lounge in Palmer. Time: 7:30p-9:30p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.41721468768960446@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Karaoke with Raunchy Rachel
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke with Raunchy Rachel at Yukon Bar in Seward. Time: 9p-1a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.20681372442681412@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Story Time
+LOCATION:Skagway Library  Skagway
+DESCRIPTION:Story Time at Skagway Library in Skagway. Time: 11a-11:30a. Category: community
+URL:https://skagwaylibrary.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5053592133991052@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Bouncing Babes Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Bouncing Babes Story Time at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://skagwaylibrary.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21321738995841222@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Larry Zarella
+LOCATION:Denali Brewing Company  Talkeetna
+DESCRIPTION:Larry Zarella at Denali Brewing Company in Talkeetna. Time: 5:30p-8:30. Category: music
+URL:https://www.facebook.com/photo.php?fbid=1619996996802427&set=pb.100063764251860.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2727656441457811@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Sign Language Classes
+LOCATION:Black Birch Books  Wasilla
+DESCRIPTION:Sign Language Classes at Black Birch Books in Wasilla. Time: 5p-6p. Category: community
+URL:https://www.facebook.com/events/1980234609292524/1980234622625856/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4160387717379247@akconcerts.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Open Mic
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Open Mic at Schwabenhof in Wasilla. Time: 7:30p-11p. Category: music
+URL:https://koots.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4145942635564761@akconcerts.com
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:Open Mic Night
+LOCATION:The Golden Saloon  McCarthy
+DESCRIPTION:Open Mic Night at The Golden Saloon in McCarthy. Time: TBD. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9827432761881247@akconcerts.com
+DTSTAMP:20260828T000000Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:Seth Malone  Eric Doucet  and Sheldon McManamy 6:
+LOCATION:Kenai Joe's Taphouse  Kenai
+DESCRIPTION:Seth Malone, Eric Doucet, and Sheldon McManamy 6: at Kenai Joe's Taphouse in Kenai. Time: 30p. Category: music
+URL:https://www.facebook.com/events/1882309599104794/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9091757347529172@akconcerts.com
+DTSTAMP:20260828T000000Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:Good Company
+LOCATION:The Golden Saloon  McCarthy
+DESCRIPTION:Good Company at The Golden Saloon in McCarthy. Time: TBD. Category: music
+URL:https://www.mccarthylodge.com/mccarthy-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8929112067358089@akconcerts.com
+DTSTAMP:20260829T000000Z
+DTSTART;VALUE=DATE:20260829
+SUMMARY:Good Company
+LOCATION:The Golden Saloon  McCarthy
+DESCRIPTION:Good Company at The Golden Saloon in McCarthy. Time: TBD. Category: music
+URL:https://www.mccarthylodge.com/mccarthy-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5524741064707197@akconcerts.com
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:Drag Bingo
+LOCATION:Skagway Brewing Company  Skagway
+DESCRIPTION:Drag Bingo at Skagway Brewing Company in Skagway. Time: 7p-9p. Category: music
+URL:https://www.facebook.com/events/2048263696113857/2048263712780522/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.019678341081750594@akconcerts.com
+DTSTAMP:20260904T000000Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Goodbye August Dance Party
+LOCATION:Skagway Brewing Company  Skagway
+DESCRIPTION:Goodbye August Dance Party at Skagway Brewing Company in Skagway. Time: 8p-?. Category: dance
+URL:https://www.facebook.com/events/997114642769311
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.373812842934487@akconcerts.com
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:Karaoke Night with Rocky!
+LOCATION:The Spur  Fairbanks
+DESCRIPTION:Karaoke Night with Rocky! at The Spur in Fairbanks. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6453209455727662@akconcerts.com
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:Open Mic Night
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Open Mic Night at The Crystal Saloon in Juneau. Time: 8p-11:30p. Category: music
+URL:https://www.facebook.com/photo.php?fbid=830984392869017&set=pb.100078723912599.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6459095322491245@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:DJ Cross
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:DJ Cross at Pioneer Bar in Anchorage. Time: 10p-1a. Category: music
+URL:https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5927410459442543@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:PAWSitive Reading with Therapy Dogs
+LOCATION:Anchorage Loussac Library  Anchorage
+DESCRIPTION:PAWSitive Reading with Therapy Dogs at Anchorage Loussac Library in Anchorage. Time: 4p-5p. Category: music
+URL:https://www.anchoragelibrary.org/events/classes-schedules/community-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.26887883723396766@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Pub Run 5K
+LOCATION:Skinny Raven Sports  Anchorage
+DESCRIPTION:Pub Run 5K at Skinny Raven Sports in Anchorage. Time: 5 p.m.-8 p.m.. Category: community
+URL:https://skinnyraven.com/run-groups/pub-run/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.24103634271365115@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Live & Local Music w/ Will Johnson
+LOCATION:Peanut Farm  Anchorage
+DESCRIPTION:Live & Local Music w/ Will Johnson at Peanut Farm in Anchorage. Time: 6:30p-10:30p. Category: music
+URL:https://www.facebook.com/events/1385820527942624/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_profile_plus_create%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1791139118533857&notif_t=event_profile_plus_create&ref=n
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7983303868678912@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:The Customer is Wrong: Service Industry Storytelling
+LOCATION:Bear Tooth Theatrepub  Anchorage
+DESCRIPTION:The Customer is Wrong: Service Industry Storytelling at Bear Tooth Theatrepub in Anchorage. Time: 7-9 pm. Category: theatre
+URL:https://www.facebook.com/events/38303805402566571/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.889914220720447@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:1776 The Musical
+LOCATION:Anchorage Community Theatre  Anchorage
+DESCRIPTION:1776 The Musical at Anchorage Community Theatre in Anchorage. Time: 7-9p. Category: theatre
+URL:https://app.arts-people.com/?show=325901
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7390585661648706@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Kage Free’s Velvet Hours w/ Casey Smith Project
+LOCATION:Penny Royalty  Anchorage
+DESCRIPTION:Kage Free’s Velvet Hours w/ Casey Smith Project at Penny Royalty in Anchorage. Time: 7-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=10237080187598473&set=pcb.10237080193318616
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6948437823443682@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Tommy Emmanuel  CGP
+LOCATION:Alaska Center for the Performing Arts  Anchorage
+DESCRIPTION:Tommy Emmanuel, CGP at Alaska Center for the Performing Arts in Anchorage. Time: 7:30 pm. Category: music
+URL:https://centertix.com/events/tommy-emmanuel-cgp
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.27259225359335537@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:UAA Wind Ensemble Concert: Joyful Celebrations
+LOCATION:UAA Recital Hall  Anchorage
+DESCRIPTION:UAA Wind Ensemble Concert: Joyful Celebrations at UAA Recital Hall in Anchorage. Time: 7:30-8:30 pm. Category: music
+URL:https://centertix.com/events/uaa-wind-ensemble-concert-joyful-celebrations
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.30263903082669064@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Comedy Night
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Comedy Night at Van's Dive Bar in Anchorage. Time: 7p. Category: comedy
+URL:https://www.facebook.com/vansdivebar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5557080621688253@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Open Mic Night w/ It's Just Dez
+LOCATION:Blarney Stone  Anchorage
+DESCRIPTION:Open Mic Night w/ It's Just Dez at Blarney Stone in Anchorage. Time: 7p-11p. Category: music
+URL:https://www.facebook.com/events/1671881603978704/1671881717312026/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6076463939353085@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke w/ DJ Smoke
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Karaoke w/ DJ Smoke at Broken Blender in Anchorage. Time: 7p-11p. Category: music
+URL:https://www.thebrokenblenderak.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.45285086025547805@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Comedy Night with Joey Medina
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Comedy Night with Joey Medina at Broken Blender in Anchorage. Time: 7p-11p. Category: comedy
+URL:https://www.rubberptarmigan.com/events/joey-medina-the-broken-blender
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.433878552955409@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Ladies Night at Pink Cadillac w/ DJ Rico
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:Ladies Night at Pink Cadillac w/ DJ Rico at Pink Cadillac in Anchorage. Time: 7p-12a. Category: music
+URL:https://www.facebook.com/events/1563655414834759/1563655541501413/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.03637469650828318@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke Night
+LOCATION:Flattop Pizza & Pool  Anchorage
+DESCRIPTION:Karaoke Night at Flattop Pizza & Pool in Anchorage. Time: 8p-12a. Category: music
+URL:https://www.facebook.com/photo/?fbid=1647752764023231&set=pb.100063655689037.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6905839543680528@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.32582285423465007@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:AK Rockstar Karaoke
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:AK Rockstar Karaoke at The Carousel Lounge in Anchorage. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events/?ref=page_internal
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5587749124121802@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke
+LOCATION:Oriental Garden  Anchorage
+DESCRIPTION:Karaoke at Oriental Garden in Anchorage. Time: 9p-1:30a. Category: music
+URL:https://www.facebook.com/Orientalgardenbestchinese
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2353930470431671@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Dance Lessons with Shufflin Country Style
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Dance Lessons with Shufflin Country Style at Homestead Lounge in Eagle River. Time: 8p-9p. Category: dance
+URL:https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.42336806321889775@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Country Night w/ DJ AumanJoy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Country Night w/ DJ AumanJoy at Homestead Lounge in Eagle River. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7941608825041637@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke with Angel
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Karaoke with Angel at The International Hotel & Bar in Fairbanks. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/events/1103643708861983/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9315933656467793@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Live Music w/ Tyler
+LOCATION:Jack Sprat  Girdwood
+DESCRIPTION:Live Music w/ Tyler at Jack Sprat in Girdwood. Time: 6-9 pm. Category: music
+URL:https://www.jacksprat.net/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8703028305254557@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Community Jam Sessions
+LOCATION:Homer Council on the Arts  Homer
+DESCRIPTION:Community Jam Sessions at Homer Council on the Arts in Homer. Time: 6:30p-9p. Category: music
+URL:https://www.facebook.com/HomerCouncilontheArts
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4858841505543121@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Piano Music by Erica
+LOCATION:AJ’s Old Town Steakhouse & Tavern  Homer
+DESCRIPTION:Piano Music by Erica at AJ’s Old Town Steakhouse & Tavern in Homer. Time: 6p-8p. Category: music
+URL:https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5674046302065135@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke Night
+LOCATION:Alibi Bar & Café  Homer
+DESCRIPTION:Karaoke Night at Alibi Bar & Café in Homer. Time: 9p-12:30a. Category: music
+URL:https://www.facebook.com/photo/?fbid=1073663334268454&set=gm.2791803464328542
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9623498774574171@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Vinyl Afternoon's w/ Dj Roman Martinez
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Vinyl Afternoon's w/ Dj Roman Martinez at The Crystal Saloon in Juneau. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9879486970296185@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke Night
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Karaoke Night at The Crystal Saloon in Juneau. Time: 8p-12a. Category: music
+URL:https://www.facebook.com/thecrystalsaloon
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.37489612239746595@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Open Mic Night
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:Open Mic Night at Alaskan Hotel and Bar in Juneau. Time: 9p-11p. Category: music
+URL:https://www.thealaskanhotel.com/the-alaskan-bar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.06888184768337502@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Move 'n Groove
+LOCATION:Ketchikan Public Library  Ketchikan
+DESCRIPTION:Move 'n Groove at Ketchikan Public Library in Ketchikan. Time: 10a. Category: music
+URL:https://www.facebook.com/photo?fbid=1639268118243661&set=a.562318709271946
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.992341732778286@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Ketchikan Arts & Humanities Council: Arts Report
+LOCATION:105.3 FM KRBD Community Radio  Ketchikan
+DESCRIPTION:Ketchikan Arts & Humanities Council: Arts Report at 105.3 FM KRBD Community Radio in Ketchikan. Time: 8:20a-8:35a. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21382816956174677@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Open Mic w/ Evan Porter & Mario Sumner
+LOCATION:Totem Bar  Ketchikan
+DESCRIPTION:Open Mic w/ Evan Porter & Mario Sumner at Totem Bar in Ketchikan. Time: 8p-10p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/08/1791522000/open-mic-with-evan-porter-mario-sumner/570099
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9840253343970414@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Karaoke Thursdays with Rocky Barnette
+LOCATION:North Pole Alehouse  North Pole
+DESCRIPTION:Karaoke Thursdays with Rocky Barnette at North Pole Alehouse in North Pole. Time: 8p-12a. Category: music
+URL:https://www.facebook.com/events/1581480200075049/1581480206741715/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9147871597295142@akconcerts.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Live Music With Drew Sablon
+LOCATION:Everett's  Wasilla
+DESCRIPTION:Live Music With Drew Sablon at Everett's in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1600628335398914&set=gm.1661143841831616
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.16076073114026923@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Viva Spenard x Terrorwave: Slashers
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Viva Spenard x Terrorwave: Slashers at Koot's in Anchorage. Time: 10 pm-2:30 am. Category: music
+URL:https://www.eventbrite.com/e/terrorwave-x-viva-spenard-tickets-2000213571637?aff=ebdsoporgprofile
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.019939486921417116@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Pre-K Activity & Storytime
+LOCATION:The Workshop  Anchorage
+DESCRIPTION:Pre-K Activity & Storytime at The Workshop in Anchorage. Time: 10:30a-11:30p. Category: community
+URL:https://www.facebook.com/events/28558788920375462/28558788947042126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.712351660161687@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Yachtly Crew Live
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Yachtly Crew Live at Koot's in Anchorage. Time: 10p-12a. Category: music
+URL:https://www.facebook.com/events/976965258810771/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_profile_plus_create%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1791310872964999&notif_t=event_profile_plus_create&ref=no
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1483651934077913@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Mobile Library Visit & Storytime
+LOCATION:Fairview Recreation Center  Anchorage
+DESCRIPTION:Mobile Library Visit & Storytime at Fairview Recreation Center in Anchorage. Time: 2-4p. Category: community
+URL:https://www.anchoragelibrary.org/events/classes-schedules/community-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.19506916482237302@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Harvest Festival
+LOCATION:Blue Market AK  Anchorage
+DESCRIPTION:Harvest Festival at Blue Market AK in Anchorage. Time: 2-7 pm. Category: festival
+URL:https://www.facebook.com/photo/?fbid=1973098553903480&set=gm.1085065860924199&idorvanity=1085062634257855
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.007126337908917035@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Fall Carnival
+LOCATION:Denali Montessori  Anchorage
+DESCRIPTION:Fall Carnival at Denali Montessori in Anchorage. Time: 5:30p-7:30p. Category: music
+URL:https://www.facebook.com/events/1699883381707312/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.39439432841723476@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Spenard Song Circle w/ Emma Hill  Jamie Drake  & Josh LaBuda
+LOCATION:Momentum Studios  Anchorage
+DESCRIPTION:Spenard Song Circle w/ Emma Hill, Jamie Drake, & Josh LaBuda at Momentum Studios in Anchorage. Time: 6-9 pm. Category: music
+URL:https://www.facebook.com/spenardsongcircle
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.18805769504937098@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Live Music with Alissa & Nick
+LOCATION:Turnagain Brewing  Anchorage
+DESCRIPTION:Live Music with Alissa & Nick at Turnagain Brewing in Anchorage. Time: 6:40-8:30 pm. Category: music
+URL:https://www.turnagainbrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7256759333367715@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Pop Piano Bar w/ MJ Riemann
+LOCATION:Gumbo House  Anchorage
+DESCRIPTION:Pop Piano Bar w/ MJ Riemann at Gumbo House in Anchorage. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1556274459834673&set=a.500137705448359
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5735549061517278@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Scared Scriptles Improv
+LOCATION:49th State Brewing  Anchorage
+DESCRIPTION:Scared Scriptles Improv at 49th State Brewing in Anchorage. Time: 7 pm. Category: music
+URL:https://scared-scriptless.square.site/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3365308512453079@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Schaefer Mueller & The Neon Highway
+LOCATION:907 Alehouse  Anchorage
+DESCRIPTION:Schaefer Mueller & The Neon Highway at 907 Alehouse in Anchorage. Time: 7-10:30 p.m.. Category: music
+URL:https://www.facebook.com/907alehouse
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5430987140825716@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Live Music Night w/ Constant Structure Band
+LOCATION:Castle on O’Malley  Anchorage
+DESCRIPTION:Live Music Night w/ Constant Structure Band at Castle on O’Malley in Anchorage. Time: 7-9 pm. Category: music
+URL:https://www.facebook.com/events/4653871121566794/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3777110333613549@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Misery
+LOCATION:Cyrano’s Theatre Building  Anchorage
+DESCRIPTION:Misery at Cyrano’s Theatre Building in Anchorage. Time: 7-9 pm. Category: music
+URL:https://centertix.com/events/misery
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8273532452816293@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:1776 The Musical
+LOCATION:Anchorage Community Theatre  Anchorage
+DESCRIPTION:1776 The Musical at Anchorage Community Theatre in Anchorage. Time: 7-9p. Category: theatre
+URL:https://app.arts-people.com/?show=325901
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9441941384479973@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:The Therapy Gecko (Lyle Forever)
+LOCATION:The Aurora Room  Anchorage
+DESCRIPTION:The Therapy Gecko (Lyle Forever) at The Aurora Room in Anchorage. Time: 7:30-9:30 pm. Category: music
+URL:https://www.rubberptarmigan.com/events/lyle-forever-the-therapy-gecko-the-aurora-room-fri
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7041658653524699@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Roadhouse Refugees
+LOCATION:O’Malley’s on the Green  Anchorage
+DESCRIPTION:Roadhouse Refugees at O’Malley’s on the Green in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.anchoragegolfcourse.com/restaurant/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6654034442231914@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Boots  Beer  & Ballads Country Night w/ DJ Rico
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:Boots, Beer, & Ballads Country Night w/ DJ Rico at Pink Cadillac in Anchorage. Time: 7p-11p. Category: music
+URL:https://www.facebook.com/events/881348611251646/881348751251632/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8194250891635892@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Karaoke at American Legion Post 28 (Spenard) in Anchorage. Time: 7p-11p. Category: music
+URL:https://www.facebook.com/photo.php?fbid=883516427108237&set=pb.100063496632449.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6806784312735836@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke Friday at the Eagles!
+LOCATION:The Fraternal Order of Eagles Aerie 4207  Anchorage
+DESCRIPTION:Karaoke Friday at the Eagles! at The Fraternal Order of Eagles Aerie 4207 in Anchorage. Time: 7p-12a. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=6dcd26da71&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9975727929815638@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Roller Derby Workshop w/ Jackie Daniels
+LOCATION:O’Malley Sports Pavillion  Anchorage
+DESCRIPTION:Roller Derby Workshop w/ Jackie Daniels at O’Malley Sports Pavillion in Anchorage. Time: 7p-9p. Category: community
+URL:https://myalaskatix.com/events/roller-derby-workshop-with-jackie-daniels-10-10-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7916737242835163@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Khan!!! The Musical!
+LOCATION:UAA Fine Arts Building  Anchorage
+DESCRIPTION:Khan!!! The Musical! at UAA Fine Arts Building in Anchorage. Time: 7p-9p. Category: theatre
+URL:https://www.facebook.com/photo/?fbid=1409611377944548&set=pb.100066870986525.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2141338016798262@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke Night at SubZero
+LOCATION:SubZero Microlounge  Anchorage
+DESCRIPTION:Karaoke Night at SubZero at SubZero Microlounge in Anchorage. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1604438844817923&set=pb.100057554694528.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.47479713680209745@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke w/ DJ Kelly
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Karaoke w/ DJ Kelly at Broken Blender in Anchorage. Time: 8p-12a. Category: music
+URL:https://www.thebrokenblenderak.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7460207435074782@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.22172105806553966@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Leo Ash & Co
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:Leo Ash & Co at The Carousel Lounge in Anchorage. Time: 9 p.m.-1 a.m.. Category: music
+URL:https://www.carouselalaska.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5457230890556259@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Aspenyarrow Albulm Release Party w/ The Robotz & Matt Faubian
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Aspenyarrow Albulm Release Party w/ The Robotz & Matt Faubian at Van's Dive Bar in Anchorage. Time: 9 pm. Category: music
+URL:https://www.facebook.com/photo/?fbid=1687379690053932&set=a.477004301091483
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8314622073251058@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:DJ 3rd George
+LOCATION:Flattop Pizza & Pool  Anchorage
+DESCRIPTION:DJ 3rd George at Flattop Pizza & Pool in Anchorage. Time: 9:30p-12a. Category: music
+URL:https://www.facebook.com/Flattopalaska
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7016749808305915@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke
+LOCATION:Oriental Garden  Anchorage
+DESCRIPTION:Karaoke at Oriental Garden in Anchorage. Time: 9p-1:30a. Category: music
+URL:https://www.facebook.com/Orientalgardenbestchinese
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8271830021475384@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Mad Myrna's Diva Variety Show
+LOCATION:Mad Myrna's  Anchorage
+DESCRIPTION:Mad Myrna's Diva Variety Show at Mad Myrna's in Anchorage. Time: 9p-11:30p. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7106698349578409@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Friday Night Dance Social
+LOCATION:Arctic Academie de Danse  Anchorage
+DESCRIPTION:Friday Night Dance Social at Arctic Academie de Danse in Anchorage. Time: 9p-11p. Category: dance
+URL:https://www.arcticacademie.com/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9215687558747597@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Friday Night Dance Lounge
+LOCATION:Alaska Dance Promotions  Anchorage
+DESCRIPTION:Friday Night Dance Lounge at Alaska Dance Promotions in Anchorage. Time: 9p-1a. Category: dance
+URL:https://www.facebook.com/events/1612683156896424/1612683173563089/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6994732073593981@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Open Mic Night
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Open Mic Night at Pioneer Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://www.visithaines.com/listing/pioneer-bar/280/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3423900731062819@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Blast From The Past
+LOCATION:Time Out Lounge  Anchorage
+DESCRIPTION:Blast From The Past at Time Out Lounge in Anchorage. Time: 9p-2:30a. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=166c5cc29e&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6706185398576437@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Boo at the Beach Haunted Trail
+LOCATION:Beach Lake Chalet  Chugiak
+DESCRIPTION:Boo at the Beach Haunted Trail at Beach Lake Chalet in Chugiak. Time: 6:30p-9:30p. Category: music
+URL:https://myalaskatix.com/events/boo-at-the-beach-haunted-trail-10-9-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6520975618532827@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:F**K Breast Cancer: Fundraiser for Crystal Moore
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:F**K Breast Cancer: Fundraiser for Crystal Moore at Odd Man Rush Brewing in Eagle River. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1636576448043411/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.06815851930760297@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:DJ AumanJoy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:DJ AumanJoy at Homestead Lounge in Eagle River. Time: 9p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.06389945281453813@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Arctic Entry
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Arctic Entry at The International Hotel & Bar in Fairbanks. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/events/2737581326686279/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.019739042347749036@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke & Open Mic Night at the Marlin
+LOCATION:The Marlin  Fairbanks
+DESCRIPTION:Karaoke & Open Mic Night at the Marlin at The Marlin in Fairbanks. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/TheMarlinFairbanks
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7648770013025942@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Line Dancing & Live Music w/ Jerry Wessling Band
+LOCATION:The Sitzmark Bar & Grill  Girdwood
+DESCRIPTION:Line Dancing & Live Music w/ Jerry Wessling Band at The Sitzmark Bar & Grill in Girdwood. Time: 6p-12a. Category: music
+URL:https://www.alyeskaresort.com/event/line-dancing-live-music/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.28061074696032473@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:October Contra Dance w/ Nine Miles From Town
+LOCATION:St. Ann’s Parish Hall  Juneau
+DESCRIPTION:October Contra Dance w/ Nine Miles From Town at St. Ann’s Parish Hall in Juneau. Time: 7:30p-10:30p. Category: dance
+URL:https://www.facebook.com/events/1622047512663820/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5514980660365825@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:An Evening with Tommy Emmanual
+LOCATION:Kenai Central High School  Kenai
+DESCRIPTION:An Evening with Tommy Emmanual at Kenai Central High School in Kenai. Time: 7:30p. Category: music
+URL:https://www.facebook.com/events/3854554098185968/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.479745244360509@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Hot Mess Live
+LOCATION:Duck Inn Café  Kenai
+DESCRIPTION:Hot Mess Live at Duck Inn Café in Kenai. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/events/2623843238011086
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9856111922773513@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Underwear Storytime
+LOCATION:Ketchikan Public Library  Ketchikan
+DESCRIPTION:Underwear Storytime at Ketchikan Public Library in Ketchikan. Time: 10a. Category: community
+URL:https://www.facebook.com/events/2294519628036660/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3425558992622677@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Ketchikan Theatre Ballet: Enchanted Forest Autumn Showcase
+LOCATION:Ted Ferry Civic Center  Ketchikan
+DESCRIPTION:Ketchikan Theatre Ballet: Enchanted Forest Autumn Showcase at Ted Ferry Civic Center in Ketchikan. Time: 5:30p-8p. Category: dance
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/09/ketchikan-theatre-ballet-autumn-showcase/577419
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3235573733331899@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Square Dance with the Free Radicals
+LOCATION:The Creek Street Cabaret  Ketchikan
+DESCRIPTION:Square Dance with the Free Radicals at The Creek Street Cabaret in Ketchikan. Time: 7p-9p. Category: dance
+URL:https://creekstreetcabaret.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.07032430514270538@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke w/ KJ Collin
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Karaoke w/ KJ Collin at Yukon Bar in Seward. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/photo?fbid=1632367732233294&set=pcb.1632367838899950
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5664956952243537@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:American Documentary & Animation Film Festival
+LOCATION:Sitka Public Library  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival at Sitka Public Library in Sitka. Time: 10a. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4645215310556733@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:American Documentary & Animation Film Festival
+LOCATION:Sitka Performing Arts Center  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival at Sitka Performing Arts Center in Sitka. Time: 7p. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1624887867585375@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Rick Brooks
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Rick Brooks at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://fairviewtalkeetna.com/pages/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8279676263814794@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Live Music w/ Samantha Sings
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Live Music w/ Samantha Sings at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1642330531016851/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.05111628242128774@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Nightmare at the Museum
+LOCATION:Museum of Alaska Transportation & Industry  Wasilla
+DESCRIPTION:Nightmare at the Museum at Museum of Alaska Transportation & Industry in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1537541697855117/1537541707855116/?event_time_id=1537541707855116
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.31970026036429@akconcerts.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Karaoke Night
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Karaoke Night at Schwabenhof in Wasilla. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.42352785561063944@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Alaska Gamedev Expo 2026
+LOCATION:Eagan Center  Anchorage
+DESCRIPTION:Alaska Gamedev Expo 2026 at Eagan Center in Anchorage. Time: 1-5 pm. Category: festival
+URL:https://www.akdevalliance.com/akgamedevexpo2026info
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6990782806612713@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Frostease Burlesque
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Frostease Burlesque at American Legion Post 28 (Spenard) in Anchorage. Time: 10:30 pm. Category: comedy
+URL:https://www.facebook.com/events/2358806851613140/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9598052123741427@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:The Vintage Retro
+LOCATION:Koot's  Anchorage
+DESCRIPTION:The Vintage Retro at Koot's in Anchorage. Time: 10:30 pm-2:30 am. Category: music
+URL:https://www.thevintageretroband.com/showschedule/korrrhjcpcggranflzuls3uzp01niu
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6078908781639302@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Art Fair 2026
+LOCATION:The Nave Spenard  Anchorage
+DESCRIPTION:Art Fair 2026 at The Nave Spenard in Anchorage. Time: 11 am-4:30 pm. Category: festival
+URL:https://www.facebook.com/TheNaveSpenard
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9855245157875222@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Roller Derby Workshop w/ Jackie Daniels
+LOCATION:O’Malley Sports Pavillion  Anchorage
+DESCRIPTION:Roller Derby Workshop w/ Jackie Daniels at O’Malley Sports Pavillion in Anchorage. Time: 11a-5p. Category: community
+URL:https://myalaskatix.com/events/roller-derby-workshop-with-jackie-daniels-10-10-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.036853153558732865@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Puro Fuego Latin Night w/ DJ Seb
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:Puro Fuego Latin Night w/ DJ Seb at Pink Cadillac in Anchorage. Time: 11p-3a. Category: music
+URL:https://www.facebook.com/events/1406792418101404/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.518685769106341@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:The Sun Never Sets
+LOCATION:Bear Tooth Theatrepub  Anchorage
+DESCRIPTION:The Sun Never Sets at Bear Tooth Theatrepub in Anchorage. Time: 4p-6p. Category: music
+URL:https://beartooththeatre.filmbot.com/movies/the-sun-never-sets/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.13314061283767276@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Pop Piano Bar w/ MJ Riemann
+LOCATION:Gumbo House  Anchorage
+DESCRIPTION:Pop Piano Bar w/ MJ Riemann at Gumbo House in Anchorage. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1556274459834673&set=a.500137705448359
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6762756333399861@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Booklovers Burlesque: ALASKA EDITION!
+LOCATION:ER Brown Auditorium  Anchorage
+DESCRIPTION:Booklovers Burlesque: ALASKA EDITION! at ER Brown Auditorium in Anchorage. Time: 7-10 pm. Category: comedy
+URL:https://tockify.com/ktuu.calendar/detail/247/1760238000000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.31622203990700126@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Nervis Rex
+LOCATION:907 Alehouse  Anchorage
+DESCRIPTION:Nervis Rex at 907 Alehouse in Anchorage. Time: 7-10:30 p.m.. Category: music
+URL:https://www.facebook.com/events/1602507058249879/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6347815987732232@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Shine: Disco
+LOCATION:Momentum Studios  Anchorage
+DESCRIPTION:Shine: Disco at Momentum Studios in Anchorage. Time: 7-11 pm. Category: music
+URL:https://www.eventbrite.com/e/shine-tickets-1996472831984
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5492081362530903@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Misery
+LOCATION:Cyrano’s Theatre Building  Anchorage
+DESCRIPTION:Misery at Cyrano’s Theatre Building in Anchorage. Time: 7-9 pm. Category: music
+URL:https://centertix.com/events/misery
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.02833483980898277@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:1776 The Musical
+LOCATION:Anchorage Community Theatre  Anchorage
+DESCRIPTION:1776 The Musical at Anchorage Community Theatre in Anchorage. Time: 7-9p. Category: theatre
+URL:https://app.arts-people.com/?show=325901
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3603259464316868@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Alaska Sound Celebration: Celebrate the Music 2026
+LOCATION:Alaska Center for the Performing Arts  Anchorage
+DESCRIPTION:Alaska Sound Celebration: Celebrate the Music 2026 at Alaska Center for the Performing Arts in Anchorage. Time: 7:30 PM - 9:30 PM. Category: music
+URL:https://centertix.com/events/celebrate-the-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.2844239269332062@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:The Therapy Gecko (Lyle Forever)
+LOCATION:The Aurora Room  Anchorage
+DESCRIPTION:The Therapy Gecko (Lyle Forever) at The Aurora Room in Anchorage. Time: 7:30-9:30 pm. Category: music
+URL:https://www.rubberptarmigan.com/events/lyle-forever-the-therapy-gecko-the-aurora-room-sat
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.13857498553972536@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Alaska Chamber Singers: Mozart Masterpieces
+LOCATION:St. Patrick’s Parish  Anchorage
+DESCRIPTION:Alaska Chamber Singers: Mozart Masterpieces at St. Patrick’s Parish in Anchorage. Time: 7:30-9:30 pm. Category: music
+URL:https://tickets.centertix.com/eventperformances.asp?evt=2853&_gl=1*5gf6lo*_gcl_au*MTYxNTUzNjQxOC4xNzg4NTU4MTAx
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.10602918292898522@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Dance Social
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:Dance Social at Anchorage Social Dance Club in Anchorage. Time: 7p-11p. Category: dance
+URL:https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.22396627077838127@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Two-Step and Country Swing Dance Lessons!
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Two-Step and Country Swing Dance Lessons! at American Legion Post 28 (Spenard) in Anchorage. Time: 7p-8p. Category: dance
+URL:https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.24795846650384412@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Khan!!! The Musical!
+LOCATION:UAA Fine Arts Building  Anchorage
+DESCRIPTION:Khan!!! The Musical! at UAA Fine Arts Building in Anchorage. Time: 7p-9p. Category: theatre
+URL:https://www.facebook.com/photo/?fbid=1409611377944548&set=pb.100066870986525.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.803152408234571@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Sweet Cheeks Cabaret: Vaudeville Vibes "Spooks and Spankings!"
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Sweet Cheeks Cabaret: Vaudeville Vibes "Spooks and Spankings!" at Broken Blender in Anchorage. Time: 8-10 pm. Category: comedy
+URL:https://tickets.centertix.com/eventperformances.asp?evt=2169&_gl=1*r8lia9*_gcl_au*MTYxNTUzNjQxOC4xNzg4NTU4MTAx
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.41607673260881306@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Sweet Cheeks Cabaret: Vaudeville Vibes Spooks and Spankings!
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Sweet Cheeks Cabaret: Vaudeville Vibes Spooks and Spankings! at Broken Blender in Anchorage. Time: 8-10 pm. Category: comedy
+URL:https://tickets.centertix.com/eventperformances.asp?evt=2169&_gl=1*r8lia9*_gcl_au*MTYxNTUzNjQxOC4xNzg4NTU4MTAx
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5178426316398408@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:DC Young Fly and Friends
+LOCATION:Alaska Center for the Performing Arts  Anchorage
+DESCRIPTION:DC Young Fly and Friends at Alaska Center for the Performing Arts in Anchorage. Time: 8p-10:30 pm. Category: music
+URL:https://centertix.com/events/dc-young-fly-and-friends
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7969928169523316@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:DJ Rico
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:DJ Rico at Pink Cadillac in Anchorage. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/events/1768833337766596
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.872202809954278@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Karaoke
+LOCATION:American Legion Post 28 (Spenard)  Anchorage
+DESCRIPTION:Karaoke at American Legion Post 28 (Spenard) in Anchorage. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo.php?fbid=883516427108237&set=pb.100063496632449.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4358201760895326@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Karaoke w/ DJ Kelly
+LOCATION:Broken Blender  Anchorage
+DESCRIPTION:Karaoke w/ DJ Kelly at Broken Blender in Anchorage. Time: 8p-12a. Category: music
+URL:https://www.thebrokenblenderak.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7047304045998354@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7870646102618981@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Matt & Co.
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:Matt & Co. at The Carousel Lounge in Anchorage. Time: 9 p.m.-1 a.m.. Category: music
+URL:https://www.carouselalaska.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5396351175891518@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Jay Stray 40th Birthday: The Jay Show
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Jay Stray 40th Birthday: The Jay Show at Van's Dive Bar in Anchorage. Time: 9 pm. Category: music
+URL:https://www.facebook.com/photo/?fbid=1685830530212322&set=a.752367220225329
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7871748259711637@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Live Music w/ Santoro
+LOCATION:Humpy's Great Alaskan Alehouse  Anchorage
+DESCRIPTION:Live Music w/ Santoro at Humpy's Great Alaskan Alehouse in Anchorage. Time: 9:30 pm-1 am. Category: music
+URL:https://www.humpysalaska.com/whats-happening-1
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6243629904808993@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:DJ JRock
+LOCATION:Flattop Pizza & Pool  Anchorage
+DESCRIPTION:DJ JRock at Flattop Pizza & Pool in Anchorage. Time: 9:30p-12a. Category: music
+URL:https://www.facebook.com/photo.php?fbid=1432955235502986&set=pb.100063655689037.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6197988350672192@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Weekly Karaoke Contest
+LOCATION:Oriental Garden  Anchorage
+DESCRIPTION:Weekly Karaoke Contest at Oriental Garden in Anchorage. Time: 9p-1:30a. Category: music
+URL:https://www.facebook.com/Orientalgardenbestchinese
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8491336598746021@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Karaoke Night
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Karaoke Night at Pioneer Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://www.visithaines.com/listing/pioneer-bar/280/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8550998721361085@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Huycke Entertainment: 2026 Fam Jam
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Huycke Entertainment: 2026 Fam Jam at Koot's in Anchorage. Time: 9p-2:30a. Category: music
+URL:https://www.facebook.com/events/1549483559762216/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.12186194878591683@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Blast From The Past
+LOCATION:Time Out Lounge  Anchorage
+DESCRIPTION:Blast From The Past at Time Out Lounge in Anchorage. Time: 9p-2:30a. Category: music
+URL:https://www.facebook.com/photo?fbid=10211867422076197&set=pcb.10211867422276202
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3516794348815565@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Storytime & Crafternoon
+LOCATION:Tuzzy Consortium Library  Barrow
+DESCRIPTION:Storytime & Crafternoon at Tuzzy Consortium Library in Barrow. Time: 1p-2p. Category: community
+URL:https://www.tuzzy.org/home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3638479529467483@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:International Day of the Girl Celebration
+LOCATION:Singing Hills Day Camp  Chugiak
+DESCRIPTION:International Day of the Girl Celebration at Singing Hills Day Camp in Chugiak. Time: 12:30p-2:30p. Category: music
+URL:https://www.facebook.com/events/2109068183029915/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8155928597355442@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Trunk or Treat
+LOCATION:The Crossing Alaska  Chugiak
+DESCRIPTION:Trunk or Treat at The Crossing Alaska in Chugiak. Time: 3p-5p. Category: community
+URL:https://www.facebook.com/events/3432169650293701/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9649453754048618@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Odd Man Rush 11th Anniversary Party
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:Odd Man Rush 11th Anniversary Party at Odd Man Rush Brewing in Eagle River. Time: 7p. Category: music
+URL:https://www.facebook.com/events/1530146421670671/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.24810850371462345@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:DJ Auman Joy
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:DJ Auman Joy at Homestead Lounge in Eagle River. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.19086588575877883@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Open Skate w/ Toy Story 5
+LOCATION:Polar Ice  Fairbanks
+DESCRIPTION:Open Skate w/ Toy Story 5 at Polar Ice in Fairbanks. Time: 6p-10p. Category: community
+URL:https://www.facebook.com/events/3001552440218463/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.23747400698705445@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:The Ivy Ever After Ball
+LOCATION:Westmark Hotel  Fairbanks
+DESCRIPTION:The Ivy Ever After Ball at Westmark Hotel in Fairbanks. Time: 6p-10p. Category: music
+URL:https://www.facebook.com/events/909814325449461/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4352691934812537@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:CMS: Beth Kollé & Rachel Nesvig
+LOCATION:UAF Charles W Davis Concert Hall  Fairbanks
+DESCRIPTION:CMS: Beth Kollé & Rachel Nesvig at UAF Charles W Davis Concert Hall in Fairbanks. Time: 7p-8:30p. Category: music
+URL:https://www.facebook.com/events/1372911397668131/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15724610752189339@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Hellkat Maggie Live
+LOCATION:The Marlin  Fairbanks
+DESCRIPTION:Hellkat Maggie Live at The Marlin in Fairbanks. Time: 9p-11p. Category: music
+URL:https://www.facebook.com/events/1678339243861829
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9732833207403864@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Hope Social Club Live
+LOCATION:Girdwood Brewing Company  Girdwood
+DESCRIPTION:Hope Social Club Live at Girdwood Brewing Company in Girdwood. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1587717659459330/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5527888951260412@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Ayden See
+LOCATION:Kharacters Alaskan Bar  Homer
+DESCRIPTION:Ayden See at Kharacters Alaskan Bar in Homer. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/kharacters.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.819831090968295@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Piano Music by Sunrise Kilcher
+LOCATION:AJ’s Old Town Steakhouse & Tavern  Homer
+DESCRIPTION:Piano Music by Sunrise Kilcher at AJ’s Old Town Steakhouse & Tavern in Homer. Time: 6p-8p. Category: music
+URL:https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4017425405431382@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:RITZ Under the Sea Fundraiser Gala
+LOCATION:The Porcupine Theater  Homer
+DESCRIPTION:RITZ Under the Sea Fundraiser Gala at The Porcupine Theater in Homer. Time: 6p-9p. Category: music
+URL:https://porcupinetheater.com/live/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5465078312271087@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:11th Annual Kenai Pumpkin Festival
+LOCATION:Softball Greenstrip  Kenai
+DESCRIPTION:11th Annual Kenai Pumpkin Festival at Softball Greenstrip in Kenai. Time: 11a-3p. Category: festival
+URL:https://www.facebook.com/events/4563199350591893/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.38070843166733404@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Oktoberfest 2026
+LOCATION:Forest Hills Senior Living  Kenai
+DESCRIPTION:Oktoberfest 2026 at Forest Hills Senior Living in Kenai. Time: 12p-4p. Category: festival
+URL:https://www.facebook.com/events/1944031992937522
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.014038956683668391@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Comedian Joey Medina
+LOCATION:Main Street Tap & Grill  Kenai
+DESCRIPTION:Comedian Joey Medina at Main Street Tap & Grill in Kenai. Time: 6p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1097193833061801&set=pb.100083135836810.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4990538480332898@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:International Fly Fishing Film Festival
+LOCATION:Main Street Tap & Grill  Kenai
+DESCRIPTION:International Fly Fishing Film Festival at Main Street Tap & Grill in Kenai. Time: 6p-9p. Category: festival
+URL:https://www.facebook.com/events/1908013873130762/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5943684447571994@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:80’s Night with Hot Mess
+LOCATION:Duck Inn Café  Kenai
+DESCRIPTION:80’s Night with Hot Mess at Duck Inn Café in Kenai. Time: 9p-1a. Category: music
+URL:https://www.facebook.com/events/951601817514526/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.02355671749889454@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Fil-Am Festival 2026
+LOCATION:Kayhi Commons  Ketchikan
+DESCRIPTION:Fil-Am Festival 2026 at Kayhi Commons in Ketchikan. Time: 11:30a-3p. Category: festival
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/10/fil-am-festival-2026/574108
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3263967550895134@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Chris Funk: The Wonderist
+LOCATION:Gerarls C. Wilson Auditorium  Kodiak
+DESCRIPTION:Chris Funk: The Wonderist at Gerarls C. Wilson Auditorium in Kodiak. Time: 7p. Category: music
+URL:https://www.facebook.com/events/1517092093217751/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8060967331066702@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Frost & Fall NPMS Bazaar & Youth Orchestra Performance
+LOCATION:North Pole Middle School  North Pole
+DESCRIPTION:Frost & Fall NPMS Bazaar & Youth Orchestra Performance at North Pole Middle School in North Pole. Time: 10a-4p. Category: festival
+URL:https://www.facebook.com/events/1494432159106089/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.13839706435012533@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Trivia w/ Tony
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Trivia w/ Tony at Yukon Bar in Seward. Time: 8p. Category: community
+URL:https://www.facebook.com/events/1104053475429883/?acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22user_timeline%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.41038634441560495@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:American Documentary & Animation Film Festival 11:30a &
+LOCATION:Coliseum Theatre  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival 11:30a & at Coliseum Theatre in Sitka. Time: 2:30p. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15433384379003712@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:American Documentary & Animation Film Festival
+LOCATION:Sitka Performing Arts Center  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival at Sitka Performing Arts Center in Sitka. Time: 7p. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6511530767802493@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Mariner's First Aid & CPR/AED
+LOCATION:NSRAA  Sitka
+DESCRIPTION:Mariner's First Aid & CPR/AED at NSRAA in Sitka. Time: 8:30a-4:30p. Category: community
+URL:https://www.facebook.com/events/1098527535877555/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5779635746546343@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Punchline: A Night of Hard Hitting Laughter w/ Joey Medina
+LOCATION:All American Training Center  Soldotna
+DESCRIPTION:Punchline: A Night of Hard Hitting Laughter w/ Joey Medina at All American Training Center in Soldotna. Time: 6p-9p. Category: music
+URL:https://www.rubberptarmigan.com/events/punchline-all-american-training-center
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9053370940898889@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Take Back the Town Member Meeting and Masquerade Concert with Blackwater Railroad
+LOCATION:Sheldon Community Arts Hangar  Talkeetna
+DESCRIPTION:Take Back the Town Member Meeting and Masquerade Concert with Blackwater Railroad at Sheldon Community Arts Hangar in Talkeetna. Time: 5:30p-10p. Category: music
+URL:https://denaliartscouncil.app.neoncrm.com/nx/portal/event-detail?event=4520
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.12694738190970878@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:October Market
+LOCATION:Ken’s Garden Center  Wasilla
+DESCRIPTION:October Market at Ken’s Garden Center in Wasilla. Time: 10a-5p. Category: community
+URL:https://www.facebook.com/events/1512496559852900/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.859343842949477@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Noah Wilson Live
+LOCATION:Last Frontier Brewing Company  Wasilla
+DESCRIPTION:Noah Wilson Live at Last Frontier Brewing Company in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1105454861962266/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9258502975533599@akconcerts.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Nightmare at the Museum
+LOCATION:Museum of Alaska Transportation & Industry  Wasilla
+DESCRIPTION:Nightmare at the Museum at Museum of Alaska Transportation & Industry in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/1537541697855117/1537541707855116/?event_time_id=1537541711188449
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7338665328708507@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Koots Karaoke
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Koots Karaoke at Koot's in Anchorage. Time: 10p-2a. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8194413170833137@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Industry Night w/ Joe Brady
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:Industry Night w/ Joe Brady at Pioneer Bar in Anchorage. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/profile.php?id=100035394206580
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5984794480107863@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:October Fall Harvest Market
+LOCATION:Castle on O’Malley  Anchorage
+DESCRIPTION:October Fall Harvest Market at Castle on O’Malley in Anchorage. Time: 11 am -5 pm. Category: community
+URL:https://www.facebook.com/events/1028190826669566/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.09525623297071018@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Art Fair 2026
+LOCATION:The Nave Spenard  Anchorage
+DESCRIPTION:Art Fair 2026 at The Nave Spenard in Anchorage. Time: 11 am-4:30 pm. Category: festival
+URL:https://www.facebook.com/TheNaveSpenard
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6395894348095422@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Anchorage Firefighter Special Storytime
+LOCATION:Anchorage Loussac Library  Anchorage
+DESCRIPTION:Anchorage Firefighter Special Storytime at Anchorage Loussac Library in Anchorage. Time: 11-11:30 am. Category: community
+URL:https://www.facebook.com/events/1740439597009672/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.967860033350075@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Roller Derby Workshop w/ Jackie Daniels
+LOCATION:O’Malley Sports Pavillion  Anchorage
+DESCRIPTION:Roller Derby Workshop w/ Jackie Daniels at O’Malley Sports Pavillion in Anchorage. Time: 11a-4p. Category: community
+URL:https://myalaskatix.com/events/roller-derby-workshop-with-jackie-daniels-10-10-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.26367307478815516@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Misery
+LOCATION:Cyrano’s Theatre Building  Anchorage
+DESCRIPTION:Misery at Cyrano’s Theatre Building in Anchorage. Time: 3-5 pm. Category: music
+URL:https://centertix.com/events/misery
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15371359716025712@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Alaska Chamber Singers: Mozart Masterpieces
+LOCATION:St. Andrews Catholic Church  Anchorage
+DESCRIPTION:Alaska Chamber Singers: Mozart Masterpieces at St. Andrews Catholic Church in Anchorage. Time: 3-5 pm. Category: music
+URL:https://tickets.centertix.com/eventperformances.asp?evt=2853&_gl=1*5gf6lo*_gcl_au*MTYxNTUzNjQxOC4xNzg4NTU4MTAx
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5044843637074282@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Irish Session Open Mic
+LOCATION:Turnagain Brewing  Anchorage
+DESCRIPTION:Irish Session Open Mic at Turnagain Brewing in Anchorage. Time: 3-5 pm. Category: music
+URL:https://www.turnagainbrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.02749566139758408@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:1776 The Musical
+LOCATION:Anchorage Community Theatre  Anchorage
+DESCRIPTION:1776 The Musical at Anchorage Community Theatre in Anchorage. Time: 3-5p. Category: theatre
+URL:https://app.arts-people.com/?show=325901
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7685876782601732@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Viva Spenard: Slashers Afternoon Brunch
+LOCATION:Palmeria Tropical Fusion  Anchorage
+DESCRIPTION:Viva Spenard: Slashers Afternoon Brunch at Palmeria Tropical Fusion in Anchorage. Time: 3-6 pm. Category: community
+URL:https://www.eventbrite.com/e/slashers-palmeira-afternoon-brunch-tickets-2000083582837?aff=ebdsoporgprofile
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8392467374789724@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Ghostbusters
+LOCATION:Bear Tooth Theatrepub  Anchorage
+DESCRIPTION:Ghostbusters at Bear Tooth Theatrepub in Anchorage. Time: 4-6 pm. Category: music
+URL:https://beartooththeatre.filmbot.com/movies/ghostbusters-presented-by-hanshew-middle-school/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.49023609184463135@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:John Damberg Latin Jazz Quintet
+LOCATION:Anchorage Lutheran Church  Anchorage
+DESCRIPTION:John Damberg Latin Jazz Quintet at Anchorage Lutheran Church in Anchorage. Time: 4:30-6 pm. Category: music
+URL:https://www.facebook.com/photo/?fbid=10236438325399958&set=a.2462728089332
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9478417318342188@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic & Jam
+LOCATION:VFW Post 1685  Anchorage
+DESCRIPTION:Open Mic & Jam at VFW Post 1685 in Anchorage. Time: 4:30p-8:30p. Category: music
+URL:https://www.facebook.com/tyrone.palmer.722744
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.37857615396829203@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Country Dance Nights: Line Dancing & Swing
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:Country Dance Nights: Line Dancing & Swing at Anchorage Social Dance Club in Anchorage. Time: 6:30p-9:30p. Category: dance
+URL:https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3622298032937258@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Sunday Blues Jam w/ Rebel Blues Band
+LOCATION:Billiard Palace  Anchorage
+DESCRIPTION:Sunday Blues Jam w/ Rebel Blues Band at Billiard Palace in Anchorage. Time: 6p-10p. Category: music
+URL:https://www.facebook.com/events/2204843740345501/2204843780345497/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5784245921296891@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:All Ages Buckarooos Night
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:All Ages Buckarooos Night at Pink Cadillac in Anchorage. Time: 6p-10p. Category: music
+URL:https://www.facebook.com/events/1668434181079131/1668434191079130/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.1628627881127025@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Jam with Blast From The Past
+LOCATION:Time Out Lounge  Anchorage
+DESCRIPTION:Open Jam with Blast From The Past at Time Out Lounge in Anchorage. Time: 8:30p-1a. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=91844526ab&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7931380599860667@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic Night
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Open Mic Night at Van's Dive Bar in Anchorage. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6339325909200471@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Sunday Karaoke
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:Sunday Karaoke at The Carousel Lounge in Anchorage. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6413561622361192@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Karaoke
+LOCATION:Oriental Garden  Anchorage
+DESCRIPTION:Karaoke at Oriental Garden in Anchorage. Time: 9p-1:30a. Category: music
+URL:https://www.facebook.com/Orientalgardenbestchinese
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.17370710396527178@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Karaoke
+LOCATION:Mad Myrna's  Anchorage
+DESCRIPTION:Karaoke at Mad Myrna's in Anchorage. Time: 9p-12a. Category: music
+URL:https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.174222988801359@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic Night
+LOCATION:Susitna Brewing  Big Lake
+DESCRIPTION:Open Mic Night at Susitna Brewing in Big Lake. Time: 6p-9p. Category: music
+URL:https://susitnabrewing.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.634369534332595@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Tommy Emmanuel
+LOCATION:The Hering Auditorium  Fairbanks
+DESCRIPTION:Tommy Emmanuel at The Hering Auditorium in Fairbanks. Time: 7:30p. Category: music
+URL:https://www.ticketmaster.com/event/0F0064BB07F76F31?irgwc=1&afsrc=1&clickid=1U6UwJW8QxyZRQszCMwI22IXUkrwMcTR2zOjSo0&camefrom=CFC_BUYAT_1387536&impradid=1387536&REFERRAL_ID=tmfeedbuyat1387536&wt.mc_id=aff_BUYAT_1387536&utm_source=1387536-Seated&imp
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.968511515348376@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic is Back at the Big I
+LOCATION:The International Hotel & Bar  Fairbanks
+DESCRIPTION:Open Mic is Back at the Big I at The International Hotel & Bar in Fairbanks. Time: 7p. Category: music
+URL:https://www.facebook.com/events/1717472487054975/1717472560388301/?event_time_id=1717472560388301
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7122428830278813@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Karaoke
+LOCATION:The Marlin  Fairbanks
+DESCRIPTION:Karaoke at The Marlin in Fairbanks. Time: 9p-?. Category: music
+URL:https://www.facebook.com/photo/?fbid=959039397047662&set=pb.100088248302562.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.4003991670242736@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic Night
+LOCATION:Girdwood Brewing Company  Girdwood
+DESCRIPTION:Open Mic Night at Girdwood Brewing Company in Girdwood. Time: 7p-9p. Category: music
+URL:https://www.facebook.com/photo?fbid=1682622413405671&set=pcb.1682622463405666
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15364996848586276@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Luke Smith Matinee
+LOCATION:Kharacters Alaskan Bar  Homer
+DESCRIPTION:Luke Smith Matinee at Kharacters Alaskan Bar in Homer. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/kharacters.bar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6824982547608992@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Fire Station Story Time
+LOCATION:Douglas Public Library  Juneau
+DESCRIPTION:Fire Station Story Time at Douglas Public Library in Juneau. Time: 1p-2:30p. Category: community
+URL:https://www.facebook.com/events/1058038406864203/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.856577372197086@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Open Mic Night w/ Joe Williams
+LOCATION:The Creek Street Cabaret  Ketchikan
+DESCRIPTION:Open Mic Night w/ Joe Williams at The Creek Street Cabaret in Ketchikan. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/2217503775324671/2217503868657995/?active_tab=about
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15846917592196885@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:American Documentary & Animation Film Festival 11:30a &
+LOCATION:Coliseum Theatre  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival 11:30a & at Coliseum Theatre in Sitka. Time: 2:30p. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9916418262643697@akconcerts.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+SUMMARY:American Documentary & Animation Film Festival
+LOCATION:Sitka Performing Arts Center  Sitka
+DESCRIPTION:American Documentary & Animation Film Festival at Sitka Performing Arts Center in Sitka. Time: 7p. Category: festival
+URL:https://amdocfilmfest.com/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.23886089392677@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Weekly Jazz Jam
+LOCATION:Fire Island Rustic Bakeshop @ K Street  Anchorage
+DESCRIPTION:Weekly Jazz Jam at Fire Island Rustic Bakeshop @ K Street in Anchorage. Time: 6:30p-9:30p. Category: music
+URL:https://akjazzworkshop.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3889392783018577@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Anchorage Welcomes You + Q&A
+LOCATION:Bear Tooth Theatrepub  Anchorage
+DESCRIPTION:Anchorage Welcomes You + Q&A at Bear Tooth Theatrepub in Anchorage. Time: 6p-7:40p. Category: music
+URL:https://beartooththeatre.filmbot.com/upcoming-films-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3083059892555142@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Learn to Square Dance
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:Learn to Square Dance at Anchorage Social Dance Club in Anchorage. Time: 7p-9p. Category: dance
+URL:https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.795554980804541@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6312545698106511@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Karaoke Mondays
+LOCATION:Odd Man Rush Brewing  Eagle River
+DESCRIPTION:Karaoke Mondays at Odd Man Rush Brewing in Eagle River. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/photo/?fbid=10239098468293971&set=gm.1304112024989228
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.05776676831229022@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Tram Closing Day & Canned Food Drive
+LOCATION:Alyeska Resort  Girdwood
+DESCRIPTION:Tram Closing Day & Canned Food Drive at Alyeska Resort in Girdwood. Time: 10a-5p. Category: music
+URL:https://www.alyeskaresort.com/event/canned-food-drive/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7261871903752527@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:RawBeats w/ Astronomar & Friends
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:RawBeats w/ Astronomar & Friends at Alaskan Hotel and Bar in Juneau. Time: 9p-?. Category: music
+URL:https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8328621284317691@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Indigenous Peoples Day Movie Night w/ Rumble: The Indians Who Rocked the World
+LOCATION:Kodiak College  Kodiak
+DESCRIPTION:Indigenous Peoples Day Movie Night w/ Rumble: The Indians Who Rocked the World at Kodiak College in Kodiak. Time: 12p. Category: community
+URL:https://www.facebook.com/events/1616734936529312/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.46375719995412434@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Seward Strings
+LOCATION:Seward Senior Center  Seward
+DESCRIPTION:Seward Strings at Seward Senior Center in Seward. Time: 1p-4p. Category: music
+URL:https://www.sewardsenior.org/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7122260151048463@akconcerts.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Friends of Mike Morgan Song Circle
+LOCATION:Royle Parkers  Soldotna
+DESCRIPTION:Friends of Mike Morgan Song Circle at Royle Parkers in Soldotna. Time: 5p-7:30p. Category: music
+URL:https://www.facebook.com/michael.j.morgan.509/posts/pfbid02DRrVP1SMtDhLjKyAzpBH9c4v3Sjke7FEKHHA2zvnk2LLBFSd3ammM7KnFgwXGgwpl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.49075344294027934@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Community Conversation: Navigating the Healthcare System with Dr. Jill Woodruff
+LOCATION:The Nave Spenard  Anchorage
+DESCRIPTION:Community Conversation: Navigating the Healthcare System with Dr. Jill Woodruff at The Nave Spenard in Anchorage. Time: 5:30-7:30 pm. Category: community
+URL:https://ywcaak.org/calendar/community-conversation-navigating-the-healthcare-system-with-dr-jill-woodruff/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6878236656930096@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Scared Scriptles Improv Open Rehearsals
+LOCATION:The Nave Spenard  Anchorage
+DESCRIPTION:Scared Scriptles Improv Open Rehearsals at The Nave Spenard in Anchorage. Time: 6:30-8 pm. Category: music
+URL:https://scared-scriptless.square.site/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.813448832335448@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Family Storytime
+LOCATION:Mountain View Public Library  Anchorage
+DESCRIPTION:Family Storytime at Mountain View Public Library in Anchorage. Time: 6p-6:30p. Category: community
+URL:https://www.facebook.com/events/4209337435985219/4395911920661102/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21362846710302452@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Irish Music & Dancing
+LOCATION:Organic Oasis  Anchorage
+DESCRIPTION:Irish Music & Dancing at Organic Oasis in Anchorage. Time: 6p-8p. Category: music
+URL:https://www.facebook.com/events/2238756520191188/2238756530191187/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6585343793048093@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:College Night 18+
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:College Night 18+ at Pink Cadillac in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.facebook.com/events/1537213564605897/1537213617939225/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.43616104206953177@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Karaoke Night
+LOCATION:The Cabin Bar  Anchorage
+DESCRIPTION:Karaoke Night at The Cabin Bar in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3217855190488528@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Rope Dart Lessons w/ Jerrill
+LOCATION:Oriental Healing Arts Center  Anchorage
+DESCRIPTION:Rope Dart Lessons w/ Jerrill at Oriental Healing Arts Center in Anchorage. Time: 8:30p-10p. Category: music
+URL:http://orientalhealingartscenter.com/assets/event-rd.jpg
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8569542275939476@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8001964631928389@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:AK Rockstar Karaoke
+LOCATION:The Carousel Lounge  Anchorage
+DESCRIPTION:AK Rockstar Karaoke at The Carousel Lounge in Anchorage. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/akrockstarkaraoke/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.39251822560658756@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Taco Tuesday's with Jim Maloney
+LOCATION:Justin Cole's Down East Saloon  Homer
+DESCRIPTION:Taco Tuesday's with Jim Maloney at Justin Cole's Down East Saloon in Homer. Time: 6:30p-10p. Category: music
+URL:https://www.facebook.com/downeastsaloonak
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5761593562399127@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Jazz Jam Tuesday
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Jazz Jam Tuesday at The Crystal Saloon in Juneau. Time: 8p-11p. Category: music
+URL:https://www.crystalsaloon.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.42267843839838515@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Story Slam: Theme "Akalo Ko..."
+LOCATION:Alaska Legends Cider & Wine  Ketchikan
+DESCRIPTION:Story Slam: Theme "Akalo Ko..." at Alaska Legends Cider & Wine in Ketchikan. Time: 7p-8:30p. Category: community
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/13/story-slam-theme-akalo-ko-/573216
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7633342655099481@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Story Slam: Theme Akalo Ko...
+LOCATION:Alaska Legends Cider & Wine  Ketchikan
+DESCRIPTION:Story Slam: Theme Akalo Ko... at Alaska Legends Cider & Wine in Ketchikan. Time: 7p-8:30p. Category: community
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/13/story-slam-theme-akalo-ko-/573216
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9543772177179604@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Jerry Wessling Band
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Jerry Wessling Band at Four Corner's Lounge in Palmer. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/events/1471316734860329/?acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22groups_highlight_units%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7914698825593645@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Open Mic Night w/ Drew Sablon
+LOCATION:Fishhook Bar & Grill  Palmer
+DESCRIPTION:Open Mic Night w/ Drew Sablon at Fishhook Bar & Grill in Palmer. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/fishhookbarandgrill/posts/pfbid0uRTHFj5xsWEbn6XQgoErDjxANwMJxt3DZo3qdZ8BdKeikYA1JdLf4ELCLS9dYeRol
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.02819529876446869@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Industry Night with DJ Red
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:Industry Night with DJ Red at Four Corner's Lounge in Palmer. Time: 8p-?. Category: music
+URL:https://www.facebook.com/FourCornersLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.184235819819227@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Open Mic Night with Braden
+LOCATION:Yukon Bar  Seward
+DESCRIPTION:Open Mic Night with Braden at Yukon Bar in Seward. Time: 8p-2a. Category: music
+URL:https://www.facebook.com/photo/?fbid=1511082391028496&set=pb.100063802472762.-2207520000
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9610819583329101@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Toddler Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Toddler Story Time at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/2595189504251468/2595189527584799/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9673436502136119@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Kenai River Runners Weekly Run Club
+LOCATION:Kenai River Brewing Company  Soldotna
+DESCRIPTION:Kenai River Runners Weekly Run Club at Kenai River Brewing Company in Soldotna. Time: 6p-8p. Category: community
+URL:https://www.facebook.com/profile.php?id=61590409905460
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8325154844407546@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Storytime at Ken’s
+LOCATION:Ken’s Garden Center  Wasilla
+DESCRIPTION:Storytime at Ken’s at Ken’s Garden Center in Wasilla. Time: 10a-11a. Category: community
+URL:https://www.facebook.com/events/1439153171253533/1439153304586853/?active_tab=about
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5711524718275848@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Taco Tuesday Night w/ Live Music
+LOCATION:Tug Bar & Liquor- Goose Bay Inn  Wasilla
+DESCRIPTION:Taco Tuesday Night w/ Live Music at Tug Bar & Liquor- Goose Bay Inn in Wasilla. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/profile.php?id=100057311146105
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9844203279113718@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Jamie Drake and Matt Hopper Live
+LOCATION:Nonna’s Osteria  Wasilla
+DESCRIPTION:Jamie Drake and Matt Hopper Live at Nonna’s Osteria in Wasilla. Time: 7p. Category: music
+URL:https://www.eventbrite.com/e/jaime-drake-and-matt-hopper-live-at-nonnas-osteria-tickets-2002988227708
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15513506260126508@akconcerts.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:Karaoke Night
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Karaoke Night at Schwabenhof in Wasilla. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7334497049750967@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Free Community Storytime
+LOCATION:The Alaska Zoo  Anchorage
+DESCRIPTION:Free Community Storytime at The Alaska Zoo in Anchorage. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/2118396738965650/2118396842298973/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8008715244934113@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:The Eternal Cowboys
+LOCATION:Pioneer Bar  Anchorage
+DESCRIPTION:The Eternal Cowboys at Pioneer Bar in Anchorage. Time: 10p-1a. Category: music
+URL:https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5071645888038103@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Koots Karaoke
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Koots Karaoke at Koot's in Anchorage. Time: 10p-2a. Category: music
+URL:https://www.facebook.com/kootsak
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3238935908646857@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Be Ready! Earthquake Safety Lessons
+LOCATION:Anchorage Loussac Library  Anchorage
+DESCRIPTION:Be Ready! Earthquake Safety Lessons at Anchorage Loussac Library in Anchorage. Time: 3:30p-4:30p. Category: music
+URL:https://www.facebook.com/events/1628405598997902/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.21292930221394035@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:AIGA Alaska: After Hours By Design
+LOCATION:Aloft Alaska  Anchorage
+DESCRIPTION:AIGA Alaska: After Hours By Design at Aloft Alaska in Anchorage. Time: 5:30-7 pm. Category: music
+URL:https://www.facebook.com/events/1879569245931006/1879569265931004/?active_tab=about
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.762143805397409@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Friends of the Library Annual Meeting
+LOCATION:Anchorage Loussac Library  Anchorage
+DESCRIPTION:Friends of the Library Annual Meeting at Anchorage Loussac Library in Anchorage. Time: 5:30p-8p. Category: community
+URL:https://www.facebook.com/events/2167279727472076/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.02025180931764592@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:International Folk Dancing
+LOCATION:Anchorage Social Dance Club  Anchorage
+DESCRIPTION:International Folk Dancing at Anchorage Social Dance Club in Anchorage. Time: 6:30p-8p. Category: music
+URL:https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.07558468856230105@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Tyrone & Friends
+LOCATION:907 Alehouse  Anchorage
+DESCRIPTION:Tyrone & Friends at 907 Alehouse in Anchorage. Time: 7p-10p. Category: music
+URL:https://www.facebook.com/tyrone.palmer.722744
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8621840861122914@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Comedy Open Mic
+LOCATION:Koot's  Anchorage
+DESCRIPTION:Comedy Open Mic at Koot's in Anchorage. Time: 7p-10p. Category: comedy
+URL:https://koots.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.0989604368678556@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:All Ages Line Dance Wednesdays
+LOCATION:Pink Cadillac  Anchorage
+DESCRIPTION:All Ages Line Dance Wednesdays at Pink Cadillac in Anchorage. Time: 7p-11p. Category: dance
+URL:https://www.facebook.com/events/1102761979016349/1102761985683015/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.8912611787894708@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke
+LOCATION:Asia Garden Restaurant  Anchorage
+DESCRIPTION:Karaoke at Asia Garden Restaurant in Anchorage. Time: 8p-2a. Category: music
+URL:https://asiagardenak.com/#home
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6592546561460644@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke
+LOCATION:Mad Myrna's  Anchorage
+DESCRIPTION:Karaoke at Mad Myrna's in Anchorage. Time: 9p-12a. Category: music
+URL:https://madmyrnas.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.18786285607191278@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke
+LOCATION:Van's Dive Bar  Anchorage
+DESCRIPTION:Karaoke at Van's Dive Bar in Anchorage. Time: 9p-1a. Category: music
+URL:https://www.vansdivebaralaska.com/music-schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.009774031500325964@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke Night w/ KJ Smoke
+LOCATION:Homestead Lounge  Eagle River
+DESCRIPTION:Karaoke Night w/ KJ Smoke at Homestead Lounge in Eagle River. Time: 8p-12a. Category: music
+URL:https://www.facebook.com/HomesteadLounge
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3451333595696333@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke Night with Rocky!
+LOCATION:The Spur  Fairbanks
+DESCRIPTION:Karaoke Night with Rocky! at The Spur in Fairbanks. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.3591223927421454@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Wednesday Music with The Forest That Never Sleeps
+LOCATION:Girdwood Brewing Company  Girdwood
+DESCRIPTION:Wednesday Music with The Forest That Never Sleeps at Girdwood Brewing Company in Girdwood. Time: 6:30p-8:30p. Category: music
+URL:https://www.facebook.com/events/3671096429705794/3671096449705792/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7451201960423923@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:FATHOMS DEEP: The Boat Builders
+LOCATION:The Porcupine Theater  Homer
+DESCRIPTION:FATHOMS DEEP: The Boat Builders at The Porcupine Theater in Homer. Time: 7p-9p. Category: music
+URL:https://porcupinetheater.com/live/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.04953644710546434@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Vinyl Afternoon's w/ Dj Roman Martinez
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Vinyl Afternoon's w/ Dj Roman Martinez at The Crystal Saloon in Juneau. Time: 5p-7p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.07682040235555265@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Open Mic Night
+LOCATION:The Crystal Saloon  Juneau
+DESCRIPTION:Open Mic Night at The Crystal Saloon in Juneau. Time: 8p-11:30p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1073260615308059&set=a.160104659956997
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9747828416024892@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Karaoke
+LOCATION:Alaskan Hotel and Bar  Juneau
+DESCRIPTION:Karaoke at Alaskan Hotel and Bar in Juneau. Time: 8p-11p. Category: music
+URL:https://www.thealaskanhotel.com/the-alaskan-bar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.7631612856005807@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:The Ukulele Group
+LOCATION:Inn at Creek Street  Ketchikan
+DESCRIPTION:The Ukulele Group at Inn at Creek Street in Ketchikan. Time: 3:45p-4:45p. Category: music
+URL:https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/calendar/2026/9
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.11265697191188917@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:West Coast Sing Wednesday
+LOCATION:Four Corner's Lounge  Palmer
+DESCRIPTION:West Coast Sing Wednesday at Four Corner's Lounge in Palmer. Time: 7:30p-9:30p. Category: music
+URL:https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9129498513307508@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Bouncing Babes Story Time
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Bouncing Babes Story Time at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://www.facebook.com/events/1351235743801978/1351235763801976/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.5093490139179935@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Open Mic Night
+LOCATION:Fairview Inn  Talkeetna
+DESCRIPTION:Open Mic Night at Fairview Inn in Talkeetna. Time: 9p-1a. Category: music
+URL:https://fairviewtalkeetna.com/pages/live-music
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.216819090514069@akconcerts.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:Open Mic
+LOCATION:Schwabenhof  Wasilla
+DESCRIPTION:Open Mic at Schwabenhof in Wasilla. Time: 7:30p-11p. Category: music
+URL:https://www.facebook.com/SchwabsAlaska
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.49202689861738724@akconcerts.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Karaoke with Red on Purpose
+LOCATION:Garcia’s  Eagle River
+DESCRIPTION:Karaoke with Red on Purpose at Garcia’s in Eagle River. Time: 8p-11p. Category: music
+URL:https://www.facebook.com/photo?fbid=1811793097620753&set=a.488834746583268
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.15915359638454962@akconcerts.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Unplugged: Todd Grebe & Cold Country
+LOCATION:Palmer Alehouse  Palmer
+DESCRIPTION:Unplugged: Todd Grebe & Cold Country at Palmer Alehouse in Palmer. Time: 6p-9p. Category: music
+URL:https://www.facebook.com/events/4587398501484919
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.12350386132021007@akconcerts.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Preschool Storytime
+LOCATION:Soldotna Public Library  Soldotna
+DESCRIPTION:Preschool Storytime at Soldotna Public Library in Soldotna. Time: 10:30a-11a. Category: community
+URL:https://www.soldotna.org/departments/library/index.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.6164881694302621@akconcerts.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+SUMMARY:3rd Annual Texas Music Showcase: Payton Howie
+LOCATION:The Spur  Fairbanks
+DESCRIPTION:3rd Annual Texas Music Showcase: Payton Howie at The Spur in Fairbanks. Time: 6p. Category: music
+URL:https://www.facebook.com/events/1584064550127817
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.16915840799900794@akconcerts.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:Masquerade Wine Tasting
+LOCATION:North Pole Alehouse  North Pole
+DESCRIPTION:Masquerade Wine Tasting at North Pole Alehouse in North Pole. Time: 6p-9p. Category: community
+URL:https://www.facebook.com/events/1692072912922187/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D
+END:VEVENT
+BEGIN:VEVENT
+UID:ev-0.9932854691643328@akconcerts.com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Howl-o-Ween Hoot!
+LOCATION:Alaska Wildlife Conservation Center  Girdwood
+DESCRIPTION:Howl-o-Ween Hoot! at Alaska Wildlife Conservation Center in Girdwood. Time: 11a-3p. Category: music
+URL:https://www.facebook.com/events/1591438589000997
+END:VEVENT
+END:VCALENDAR

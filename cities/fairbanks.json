@@ -1,0 +1,1782 @@
+[
+  {
+    "title": "John Shewfelt10p",
+    "venue": "Arctic Fox",
+    "city": "Fairbanks",
+    "date": "2019-11-15",
+    "time": "3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nrrth, Fat Trophy Wife, Ga$H Money Dance Party",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2019-11-16",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Cousin Curtiss & Harrison B10p",
+    "venue": "Arctic Fox",
+    "city": "Fairbanks",
+    "date": "2019-11-16",
+    "time": "3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Comedy8p",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2019-11-19",
+    "time": "11p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2019-11-20",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown",
+    "venue": "Arctic Fox",
+    "city": "Fairbanks",
+    "date": "2020-06-26",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Superfrequency",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2020-06-26",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arly Jylz",
+    "venue": "Arctic Fox",
+    "city": "Fairbanks",
+    "date": "2020-08-07",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Fun w/ Marc Brown and the Blues Crew",
+    "venue": "Arctic Fox",
+    "city": "Fairbanks",
+    "date": "2020-10-23",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at The Marlin!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-05-25",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Kellie B.!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-05-26",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The MUCKERS",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-05-26",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The MUCKERS",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-05-27",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Night Karaoke!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-05-29",
+    "time": "6p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at The Marlin!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-06-01",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sunday Night Karaoke!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-06-12",
+    "time": "6p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at The Marlin!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-06-15",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at The Marlin!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-08-17",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at The Marlin!",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2022-10-05",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-01-26",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-01-27",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Valley Below",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2023-01-28",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tony Taylor's Birthday Bash",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-01-28",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-01-29",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-03-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hip-Hop Fridays",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2023-03-31",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-04-02",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Lounge: AJ Yonderly",
+    "venue": "Venue",
+    "city": "Fairbanks",
+    "date": "2023-04-05",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-06-04",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-07-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hip-Hop Fridays",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2023-07-21",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-07-23",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2023-11-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2024-04-18",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Parlor in the Round w/ Alex Lahey, Emily Anderson & Rachel DeTemple",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2024-04-20",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Naked Stage Productions: Comedy Night",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2024-04-23",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2024-06-13",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Valley Below & Ryan Bowers and the Brain Trust",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2024-06-15",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-01-23",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fuego Saturday w/ DJ Trey",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-01-25",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-03-20",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-03-21",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-03-22",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-06-19",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Renegade HiFi w/ Dig Sista",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2025-06-20",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Gorilla Zoe Live",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-06-20",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arctic Entry",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-06-21",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Midnight Sun Festival w/ SHAGG",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-06-21",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Triple Black Diamonds",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2025-06-21",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Harp Twins & Volfgang Twins",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2025-06-25",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-06",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Mraj Nite's House Party",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-07-06",
+    "time": "9:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-07",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-08",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mike Stackhouse Live",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-07-09",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-09",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mike Stackhouse Live",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-07-30",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-30",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-07-31",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-07-31",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Mraj Nite",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-08-01",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-01",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Island Music Night w/ Ukulele Russ & Rootsy Soul",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-08-02",
+    "time": "6p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-02",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-03",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-04",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-05",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mike Stackhouse Live",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-08-06",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2025-08-06",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-11-07",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Burlesque Bingo w/ Delilah Danger",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2025-11-08",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Noel Wien Public Library",
+    "city": "Fairbanks",
+    "date": "2026-02-12",
+    "time": "10:30a-11:15p & 1:30p-2:15p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Lucky in Love (or Not) w/ Marc Brown",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-02-13",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cupid After Dark with DJ Theme",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-02-14",
+    "time": "10p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Second Saturdays at Seven: Cabaret Night",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-02-14",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Noel Wien Public Library",
+    "city": "Fairbanks",
+    "date": "2026-03-12",
+    "time": "10:30a-11:15p & 1:30p-2:15p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Latin Night w/ DJ Osito",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-03-13",
+    "time": "10p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown and The Blues Crew",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-03-14",
+    "time": "10p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cabaret Night: Second Saturdays at Seven",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-03-14",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "St. Patrick's Day w/ Red Hackle Band",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-03-17",
+    "time": "3p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-15",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-07-15",
+    "time": "8p-11p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Backyard Country BBQ w/ The Band Perry",
+    "venue": "Tanana Valley State Fair Grounds",
+    "city": "Fairbanks",
+    "date": "2026-07-16",
+    "time": "5-?",
+    "ticketUrl": "https://www.facebook.com/events/1564385905104121/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Youth Concert Band Rehearsals",
+    "venue": "Fairbanks Community Band Hall",
+    "city": "Fairbanks",
+    "date": "2026-07-16",
+    "time": "5p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1521883622657906/1521883639324571/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-16",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-07-16",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-07-16",
+    "time": "8p-2a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music Together Generations Class",
+    "venue": "Raven Landing Senior Community",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "11:30a-12:15p",
+    "ticketUrl": "https://www.facebook.com/events/1698370238161849/1698370254828514/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Boy Bands vs Girl Bands Open Skate",
+    "venue": "Polar Ice",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "4p-5:30p",
+    "ticketUrl": "https://www.akconcerts.com/bands",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "6th Annual Pioneer Park Wine Mixer & Salmon Jam",
+    "venue": "Alaska Salmon Bake",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "5:30p-10:30p",
+    "ticketUrl": "https://www.facebook.com/events/1407969337831597",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mamma Mia Open Skate",
+    "venue": "Polar Ice",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.facebook.com/events/1330673068580289/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bag Lady Sue",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-07-17",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1203288841697416/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Days Kick Off Pet Adoption Event",
+    "venue": "Humble Roots Beer Project",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "12p-6p",
+    "ticketUrl": "https://www.facebook.com/events/2042889772998254/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Katseye Vs Black Pink Open Skate",
+    "venue": "Polar Ice",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "https://www.facebook.com/events/1016265284661234/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Crazy Train: America's Ozzy Osbourne Experience",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "5p-8p",
+    "ticketUrl": "https://www.facebook.com/events/2241280099741148/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Gays Y2K Drag Show",
+    "venue": "The Last Round Up Steak House",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "7p-11:45p",
+    "ticketUrl": "https://www.facebook.com/events/1743917077051634/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bag Lady Sue",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-07-18",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1203288841697416/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-19",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-07-19",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/BrokenBlenderAK",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Youth Jazz Band Rehearsals",
+    "venue": "Fairbanks Community Band Hall",
+    "city": "Fairbanks",
+    "date": "2026-07-20",
+    "time": "5p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1341908911193449/1341908927860114/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-20",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lunch Bites: Corvus for Kids",
+    "venue": "Fairbanks Children’s Museum",
+    "city": "Fairbanks",
+    "date": "2026-07-21",
+    "time": "12p-?",
+    "ticketUrl": "https://www.facebook.com/events/1430639975400538/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-21",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Story Garden",
+    "venue": "Noel Wien Public Library",
+    "city": "Fairbanks",
+    "date": "2026-07-22",
+    "time": "6p-7p",
+    "ticketUrl": "https://www.facebook.com/events/1320844496040669/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Concert: Blue Ridge Gathering",
+    "venue": "Golden Heart Plaza & Monument",
+    "city": "Fairbanks",
+    "date": "2026-07-22",
+    "time": "7p-?",
+    "ticketUrl": "https://www.facebook.com/events/2130850914149535/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-07-22",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-07-22",
+    "time": "8p-11p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Youth Concert Band Rehearsals",
+    "venue": "Fairbanks Community Band Hall",
+    "city": "Fairbanks",
+    "date": "2026-08-06",
+    "time": "5p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1521883622657906/1521883635991238/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-06",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tanana Valley State Fair",
+    "venue": "Tanana Valley State Fair Grounds",
+    "city": "Fairbanks",
+    "date": "2026-08-06",
+    "time": "8a-10p",
+    "ticketUrl": "https://www.tvsfa.org/events",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-06",
+    "time": "8p-2a",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Summer Cycle Music Together Generations Class",
+    "venue": "Raven Landing Senior Center",
+    "city": "Fairbanks",
+    "date": "2026-08-07",
+    "time": "11:30a-12:15p",
+    "ticketUrl": "https://www.facebook.com/events/1737992094062055/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "First Friday Party w/ Live Music",
+    "venue": "Gather",
+    "city": "Fairbanks",
+    "date": "2026-08-07",
+    "time": "5p-8:00",
+    "ticketUrl": "https://www.facebook.com/events/28669224756000903?post_id=28671156229141089&acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment_media%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_no",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-07",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tanana Valley State Fair",
+    "venue": "Tanana Valley State Fair Grounds",
+    "city": "Fairbanks",
+    "date": "2026-08-07",
+    "time": "8a-10p",
+    "ticketUrl": "https://www.tvsfa.org/events",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "The Goddamn Ranchhand Band",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-07",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/1555683509934406/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Science for Alaska: AK’s Cold Winter in a Warming Climate",
+    "venue": "Explore Fairbanks",
+    "city": "Fairbanks",
+    "date": "2026-08-08",
+    "time": "11:30a-12:30p",
+    "ticketUrl": "https://www.facebook.com/events/1056637257543047/1056637280876378/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-08",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tanana Valley State Fair",
+    "venue": "Tanana Valley State Fair Grounds",
+    "city": "Fairbanks",
+    "date": "2026-08-08",
+    "time": "8a-10p",
+    "ticketUrl": "https://www.tvsfa.org/events",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "The Supply Chain Live Pop Punk & Emo Tribute",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-08",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-09",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tanana Valley State Fair",
+    "venue": "Tanana Valley State Fair Grounds",
+    "city": "Fairbanks",
+    "date": "2026-08-09",
+    "time": "8a-10p",
+    "ticketUrl": "https://www.tvsfa.org/events",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-09",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-10",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-11",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music w/ Syler Fell & Jess Klemm",
+    "venue": "Running Reindeer Ranch",
+    "city": "Fairbanks",
+    "date": "2026-08-12",
+    "time": "7p-8p",
+    "ticketUrl": "https://runningreindeer.com/music-with-reindeer-schedule/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-12",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-08-12",
+    "time": "8p-11p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-13",
+    "time": "8p-",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-13",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-13",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Encore Weekend w/ Wicked Serenity & Signs of Sacrifice",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-14",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-14",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "2026 Midnight Sun Scottish Highland Games",
+    "venue": "Musher’s Hall",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "10a-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends",
+    "venue": "Hoodoo Brewing",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Encore Weekend w/ Wicked Serenity & Signs of Sacrifice",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Darci Lynne",
+    "venue": "Salisbury Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-16",
+    "time": "9p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-16",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-17",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-18",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halo w/ Posterchild, Lloyd Van Ham, & Monir",
+    "venue": "Raw Market",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "6p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "After Hours w/ Cousin Curtiss, Steve Brown & the Bailers, & Adele & Friends",
+    "venue": "Hoodoo Brewing",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blueberry Festival 1",
+    "venue": "Alyeska Resort",
+    "city": "Fairbanks",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Last Downtown Market of the Season w/ Live Music",
+    "venue": "Golden Heart Plaza",
+    "city": "Fairbanks",
+    "date": "2026-08-20",
+    "time": "4p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-20",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-20",
+    "time": "8p-11p",
+    "ticketUrl": "https://susitnabrewing.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-20",
+    "time": "8p-2a",
+    "ticketUrl": "https://madmyrnas.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-21",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-21",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.akconcerts.com/bands",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Matt Hopper & The Roman Candles w/ Joshua Labuda & Grungebob",
+    "venue": "The Boatel",
+    "city": "Fairbanks",
+    "date": "2026-08-21",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/events/1699231917850137/?acontext=%7B%22event_action_history%22%3A%5b%7B%22surface%22%3A%22search%22%7D%2C%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Matt Rife Stay Golden World Tour",
+    "venue": "Carlson Center",
+    "city": "Fairbanks",
+    "date": "2026-08-22",
+    "time": "7:30p-?",
+    "ticketUrl": "https://mattrifeofficial.com/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-22",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nu Metal Weekend w/ Staind & Limp Bizkit Tribute Bands",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-08-22",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.akconcerts.com/bands",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-23",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-08-23",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/akrockstarkaraoke/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-24",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-25",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Golden Heart Revue",
+    "venue": "The Palace Theater",
+    "city": "Fairbanks",
+    "date": "2026-08-26",
+    "time": "8:15p-9:15p",
+    "ticketUrl": "https://www.akvisit.com/palace-theatre?fbclid=IwY2xjawR7CNdleHRuA2FlbQIxMABicmlkETFZQTc5Q1NiWm16bDhNY0RZc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrK_LgMLEgXX7mcIrxnzr8jTJ9RaI_Lt7mvGG48tR-IMPMLVZRSzqN26Ewga_aem_RqdeQf5Ku3SEWvV41NwhHg",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-08-26",
+    "time": "8p-11p",
+    "ticketUrl": "https://madmyrnas.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-10-07",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-08",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1103643708861983/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arctic Entry",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-09",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/events/2737581326686279/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke & Open Mic Night at the Marlin",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-10-09",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/TheMarlinFairbanks",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Skate w/ Toy Story 5",
+    "venue": "Polar Ice",
+    "city": "Fairbanks",
+    "date": "2026-10-10",
+    "time": "6p-10p",
+    "ticketUrl": "https://www.facebook.com/events/3001552440218463/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "The Ivy Ever After Ball",
+    "venue": "Westmark Hotel",
+    "city": "Fairbanks",
+    "date": "2026-10-10",
+    "time": "6p-10p",
+    "ticketUrl": "https://www.facebook.com/events/909814325449461/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "CMS: Beth Kollé & Rachel Nesvig",
+    "venue": "UAF Charles W Davis Concert Hall",
+    "city": "Fairbanks",
+    "date": "2026-10-10",
+    "time": "7p-8:30p",
+    "ticketUrl": "https://www.facebook.com/events/1372911397668131/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hellkat Maggie Live",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-10-10",
+    "time": "9p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1678339243861829",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tommy Emmanuel",
+    "venue": "The Hering Auditorium",
+    "city": "Fairbanks",
+    "date": "2026-10-11",
+    "time": "7:30p",
+    "ticketUrl": "https://www.ticketmaster.com/event/0F0064BB07F76F31?irgwc=1&afsrc=1&clickid=1U6UwJW8QxyZRQszCMwI22IXUkrwMcTR2zOjSo0&camefrom=CFC_BUYAT_1387536&impradid=1387536&REFERRAL_ID=tmfeedbuyat1387536&wt.mc_id=aff_BUYAT_1387536&utm_source=1387536-Seated&imp",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic is Back at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-11",
+    "time": "7p",
+    "ticketUrl": "https://www.facebook.com/events/1717472487054975/1717472560388301/?event_time_id=1717472560388301",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-10-11",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=959039397047662&set=pb.100088248302562.-2207520000",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-10-14",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "3rd Annual Texas Music Showcase: Payton Howie",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-10-16",
+    "time": "6p",
+    "ticketUrl": "https://www.facebook.com/events/1584064550127817",
+    "category": "music",
+    "cost": ""
+  }
+]

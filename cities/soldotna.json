@@ -1,0 +1,962 @@
+[
+  {
+    "title": "Hott Mess with Ukulele Russ opening!",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2021-06-23",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Robb Justice with Duncan Brewer opening",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2021-07-28",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Medimu Build, Nelson Kempf, & Keeley Boyle",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2022-06-01",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Kenai River Festival",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2022-06-11",
+    "time": "11a-10p",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Kenai River Festival",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2022-06-12",
+    "time": "11a-4p",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "FIVE LETTER WORD with Kelsey Shields",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2022-06-15",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DEREK POPPIN BAND w/ Sue Biggs and Jack Will",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2022-08-17",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "The Maverick Saloon",
+    "city": "Soldotna",
+    "date": "2022-10-01",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "The Maverick Saloon",
+    "city": "Soldotna",
+    "date": "2023-01-28",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bunny Swan Band w/ The Ridgeway Rounders",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2023-07-19",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2023-07-22",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Creatures // Sam Tenhoff opening",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2023-07-26",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Park Series: Alder Street",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2024-06-19",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Park Series: Bunny Swan Band",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2024-07-10",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Park Series: Roland Roberts Band & Seth Malone",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2024-07-17",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Park Series: Ellie and The Echoes w/ Transient Identity",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2024-08-28",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music by the Fire!",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2024-12-16",
+    "time": "2p-4:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ Kenai Collaborative",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-03-20",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Conch Street All-Ages Show",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-03-22",
+    "time": "7:30p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Song Circle w/ Friends of Mike Morgan",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-03-24",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Song Circle w/ Friends of Mike Morgan",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-05-12",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Clark Whitney",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-05-14",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Azad Safavi + Them Badgers",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-06-19",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mandy Madson",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-06-20",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Soldotna Pride in the Park",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2025-06-21",
+    "time": "1p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Song Circle w/ Friends of Mike Morgan",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-06-23",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "HuDost & Acoustic Eidolon",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2025-06-25",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ Kenai Collaborative",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-06-26",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "H3 Hawaii Reggae & The River Livers",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2025-07-09",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Carol Markstrom",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-07-31",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Young Dubliners & Men With Guns",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2025-08-06",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-10-13",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Eve",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-10-15",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic w/ Garret Ennis",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-10-16",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Geoffrey Haase",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-11-07",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-11-10",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Eve",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-11-12",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2025-11-13",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-02-11",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-02-11",
+    "time": "5:30p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pre-School Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-02-12",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "A Very Cheesey Valentine's Eve Karaoke",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-02-13",
+    "time": "5p-?",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-02-16",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-02-17",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-02-18",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-02-18",
+    "time": "5:30p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pre-School Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-03-12",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-03-13",
+    "time": "5:30p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-03-16",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-03-17",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-03-18",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Nights",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-03-18",
+    "time": "5:30p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-07-15",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/843086674966253/843086688299585/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Levitt Amp Music Series: Kuf Knotz & Christine Elise w/ Guy Patterson Opening",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-07-15",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.vansdivebaralaska.com/music-schedule",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-07-16",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/26994401710190027/26994401746856690/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Divas, Drinks, & Dancing w/ Red Onion Saloon",
+    "venue": "Red Onion Saloon",
+    "city": "Soldotna",
+    "date": "2026-07-17",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1605527931578537&set=pcb.1605529138245083",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Disability Pride",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-07-18",
+    "time": "1p-4p",
+    "ticketUrl": "https://www.facebook.com/events/972600525442331/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-07-18",
+    "time": "5p-8p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-07-20",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445193006588/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-07-21",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1503656801148774/1503656824482105/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-07-22",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/843086674966253/843086688299585/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Levitt Amp Music Series: Black Barrel & The Bad Men, Luci & Jackson, & Shonathin Hoskins",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-07-22",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1649648349484643/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Play",
+    "venue": "Farnsworth Park",
+    "city": "Soldotna",
+    "date": "2026-08-03",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/3481855768648747/3481855775315413/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-06",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/26994401710190027/26994401743523357/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-08",
+    "time": "5p-8p",
+    "ticketUrl": "https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Brewery to the Bathroom .5k “The Race for the Rest of Us”",
+    "venue": "Kenai River Brewing Company",
+    "city": "Soldotna",
+    "date": "2026-08-09",
+    "time": "11a-?",
+    "ticketUrl": "https://www.facebook.com/events/2757658777908747/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Storytime & Play",
+    "venue": "Farnsworth Park",
+    "city": "Soldotna",
+    "date": "2026-08-10",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-10",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445203006587?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-11",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1503656801148774/1503656831148771/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-12",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/843086674966253/843086701632917/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mech",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Levitt Amp Music Series: Noah Richardson & Bunny Swan",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-08-12",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1688380632310315/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-13",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-15",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Killer Comedy Show Ft. Sabrina Speers",
+    "venue": "The Orca Theater",
+    "city": "Soldotna",
+    "date": "2026-08-15",
+    "time": "8:30p-11p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-17",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-18",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Levitt Amp Music Series: Kenny Smith & The Old Wolves w/ The Copper River Band",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "The Killer Comedy Show Ft. Sabrina Speers",
+    "venue": "The Orca Theater",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-19",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-20",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2595296667593726/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Racial Justice Table Talk",
+    "venue": "Soldotna United Methodist Church",
+    "city": "Soldotna",
+    "date": "2026-08-22",
+    "time": "12p-4:30p",
+    "ticketUrl": "https://www.facebook.com/events/2025787734698246/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke w/ Edencraft",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-22",
+    "time": "5p-8p",
+    "ticketUrl": "https://madmyrnas.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tsalteshi Gauntlet Bike Race",
+    "venue": "Tsalteshi Trails",
+    "city": "Soldotna",
+    "date": "2026-08-23",
+    "time": "1p-4p",
+    "ticketUrl": "https://www.facebook.com/events/1090944796621486/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "The Goods - Sustainable Grocery & Cafe",
+    "city": "Soldotna",
+    "date": "2026-08-24",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/2211445169673257/2211445209673253/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-25",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://skagwaylibrary.com/events/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-08-26",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://skagwaylibrary.com/events/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Punchline: A Night of Hard Hitting Laughter w/ Joey Medina",
+    "venue": "All American Training Center",
+    "city": "Soldotna",
+    "date": "2026-10-10",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/punchline-all-american-training-center",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "Royle Parkers",
+    "city": "Soldotna",
+    "date": "2026-10-12",
+    "time": "5p-7:30p",
+    "ticketUrl": "https://www.facebook.com/michael.j.morgan.509/posts/pfbid02DRrVP1SMtDhLjKyAzpBH9c4v3Sjke7FEKHHA2zvnk2LLBFSd3ammM7KnFgwXGgwpl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-13",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2595189504251468/2595189527584799/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Kenai River Runners Weekly Run Club",
+    "venue": "Kenai River Brewing Company",
+    "city": "Soldotna",
+    "date": "2026-10-13",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=61590409905460",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-14",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1351235743801978/1351235763801976/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-15",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.soldotna.org/departments/library/index.php",
+    "category": "community",
+    "cost": ""
+  }
+]

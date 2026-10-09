@@ -1,0 +1,4662 @@
+[
+  {
+    "title": "Beginner Salsa Suelta: Free Zoom Class",
+    "venue": "Anaya Latin Dance",
+    "city": "Anchorage",
+    "date": "2021-01-28",
+    "time": "6p-7p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Drive-In Comedy @ Koot’s",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-01-28",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Duane & Tyrone live",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-01-28",
+    "time": "5:30p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Thirsty Thursday Karaoke",
+    "venue": "Mug-Shot Saloon",
+    "city": "Wasilla",
+    "date": "2021-01-28",
+    "time": "9:30p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Virtual New Year’s Dance",
+    "venue": "The Arc of Anchorage",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Justice Jams, a Virtual Live Stream Concert",
+    "venue": "Alaska Native Justice Center",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Chester Chomp’s Zoom Room Dance Party!",
+    "venue": "Red Carpet Entertainment",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7p-7:40p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Blues & Jazz method for the Bass",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Understanding Music w/ Joe Craig",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ava Earl, The AllGood Family Band, Jamie Whiteman and Harrison Jennings, Denise Martin, Jim Kerr, and Friends",
+    "venue": "Anchorage Folk Festival Performances",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Facebook Live with Scared Scriptless",
+    "venue": "Scared Scriptless",
+    "city": "Anchorage",
+    "date": "2021-01-29",
+    "time": "8p-9p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-01-29",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Klondike Mikes and the Main Street Grill",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tony Taylor’s Tik Tok & Throwback Party",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Beginning Ukelele with Kiel Schweizer",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "11:15a-12:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Song Writing with Laura Chartier",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "12:45p-2p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dancing with the Spirit Living Room Jam",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "2:15p-3:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Feldenkrais for Musicians w/ Kevin Cassity",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "3:45p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Let's Sing Nature Songs! w/ Dan Pascucci",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "4p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Annual AFF Board Meeting",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "5p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rhythm Heals Song Circle (Livestream)",
+    "venue": "Let Every Woman Know",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Robin Hopper, Tania Opland and Mike Freeman, Lucky Spider, The Forest That Never Sleeps, & The Booth Family Band",
+    "venue": "Anchorage Folk Festival Performances",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Don Jose’s Mexican Restaurant",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Celtic Fiddle with Shonti Elder",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-30",
+    "time": "9:45a-11a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Intermediate Ukelele with Kiel Schweizer",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "11:15a-12:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Advanced guitar techniques w/ Armin Abdihodzic",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "12:45p-2p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mandolin w/ Wolfgang Q. Olsson",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "3:45p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "How to Access the Rich Environment of the Performing Arts Sector Locally & Nationwide w/Jason Hodges",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "3:45p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Honing your Guitar & Playing the 5-Note Scale w/ Mike Simpson",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "5:15p-6:30p",
+    "ticketUrl": "",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Swing Dancing!",
+    "venue": "AK East Coast Swing",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sing Around Song Circle w/ Dawn Berg",
+    "venue": "Anchorage Folk Festival Workshops",
+    "city": "Anchorage",
+    "date": "2021-01-31",
+    "time": "9:45a-11a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mother Moose Storytime",
+    "venue": "Fairbanks North Star Borough Public Libraries",
+    "city": "Anchorage",
+    "date": "2021-02-01",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "MonDayshas Unplugged",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-02-01",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-02-01",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic w/ MoonDog Media",
+    "venue": "Klondike Mikes",
+    "city": "Anchorage",
+    "date": "2021-02-02",
+    "time": "6p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-02-02",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam Night",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-02-02",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-02-02",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Passport Series Volume XI (Online)",
+    "venue": "Trapper Creek Bluegrass Campout Festivals",
+    "city": "Anchorage",
+    "date": "2021-02-03",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at the Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-02-03",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime (virtual)",
+    "venue": "Fairbanks North Star Borough Public Libraries",
+    "city": "Anchorage",
+    "date": "2021-02-25",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Drive-In Comedy",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-02-25",
+    "time": "3p-4p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Folk Unlocked",
+    "venue": "Emma Hill & Bryan Daste",
+    "city": "Anchorage",
+    "date": "2021-02-25",
+    "time": "6p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Jazz with Luke Weld",
+    "venue": "The Narrows Bar",
+    "city": "Juneau",
+    "date": "2021-02-25",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Stack Acoustic Duo",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-02-25",
+    "time": "5:30p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sock Hop",
+    "venue": "Breakout Dance Studio",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cirque De Cabaret",
+    "venue": "Sweet Cheeks Cabaret",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7:30p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Perseverance People Power Concert",
+    "venue": "Perseverance Theatre",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Chester Chomp’s Zoom Room Dance Party!",
+    "venue": "Red Carpet Entertainment",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7p-7:40p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "For Colored Ladies Who Have Considered Pull-Tabs With Their Last Two Dollars",
+    "venue": "Anchorage Concert Association",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "7p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Acou-Stack Live",
+    "venue": "Corks and Hops",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Lloyds Noize in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-02-26",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Feast w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-02-26",
+    "time": "5:30p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hobo Jim at the Upstairs Lounge",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-02-26",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Anchorage Auditions",
+    "venue": "Alaska Dance Theatre",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "1:30p-3p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Manny",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bird Creek Barbarians Rugby Postseason Drinkup!",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Movies Out, Drive-in Film: “I Am Not Your Negro”",
+    "venue": "Out North",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Don Jose’s Mexican Restaurant",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hwy9 Duo",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taking Back Saturday with DJ GRE",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-02-27",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-02-27",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "For Colored Ladies Who Have Considered Pull-Tabs With Their Last Two Dollars",
+    "venue": "Anchorage Concert Association",
+    "city": "Anchorage",
+    "date": "2021-02-28",
+    "time": "2p-3:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-02-28",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-02-28",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-03-01",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mon-Dayshas",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-03-01",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "MoonDog Media Open Mic",
+    "venue": "Klondike Mikes",
+    "city": "Anchorage",
+    "date": "2021-03-02",
+    "time": "6p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-03-02",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-03-02",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam Night",
+    "venue": "Vans Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-03-02",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Maddie + Tae Virtual Tour",
+    "venue": "UAS Student Activities Board",
+    "city": "Anchorage",
+    "date": "2021-03-03",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-03-03",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at the Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-03-03",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Acoustic Song Circle with WAH Music",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-04-13",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-04-13",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-04-13",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Garret's Toast With Jam Jams",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-04-13",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-04-13",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Robbie Carlson",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2021-04-13",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-04-14",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-04-14",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-04-14",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-04-14",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nothin’ But Trouble",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "10:30p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vibes in the Speakeasy with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "10:30p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Footloose Dance Party with DJ Fan Service",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "10:30p-2a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "First Fridays Feat. Nick Carpenter & Bethlehem Shalom",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Danger Money Live",
+    "venue": "Willow Trading Post",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "John Shewfelt Jr & Shot Time",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "John Damberg AJW Jazz Fridays",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Chester Chomp’s Zoom Room Dance Party!",
+    "venue": "Red Carpet Entertainment LLC",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "7p-7:40p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Diva Variety Show",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "ACOUSTIC SHOWCASE",
+    "venue": "LIVE AT JHS",
+    "city": "Anchorage",
+    "date": "2021-05-07",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys LIVE",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-05-07",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Feast w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-05-07",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hooked Entertainment Comedy: Barry Brewer",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-05-07",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Tim Hall",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-05-07",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taking Back Saturday with DJ GRE",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "10:30p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Joe Brady: Britney vs the World Dance Party",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "10:30p-2:30a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Manny's 2021 Cinco de Mayo Celebración",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sassy Saturdays with Sweet Cheeks Cabaret",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedian Barry Brewer",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music with “Cancel Culture”",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-05-08",
+    "time": "8p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jerry Wessling & Plan B",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-05-08",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-05-08",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Woodrow LIVE",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-05-08",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Larry Zarella",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-05-08",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-05-09",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-05-09",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Schwabenhof Sunday Blues Jam",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-05-09",
+    "time": "4p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "JD Cox",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-05-09",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taking Back Mondays",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-05-10",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-05-10",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Monday Music Mic with Boobs",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-05-10",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday Open Mic with WAH Music",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-05-11",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-05-11",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-05-11",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Garret's Toasts to Jams",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-05-11",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-05-11",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-05-12",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-05-12",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-05-12",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-05-12",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-05-12",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime in the Park",
+    "venue": "Eagle River Commons Park",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "10:30a-11a",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Velvet La La",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Marc Brown & The Blues Crew",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Fling Live Music w/ Antigen",
+    "venue": "Palmer Downtown Pavilion",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "11:30a-1p & 4:30p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Box Tops Concert",
+    "venue": "Curtis Menard Sports Center",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "5:30p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Green Light Circus",
+    "venue": "Sheldon Community Arts Council",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Witty Youngman",
+    "venue": "Seldovia Boardwalk Hotel",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music In The Park: Roland Roberts Band",
+    "venue": "Wonderland Park",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "I Like Robots",
+    "venue": "Matanuska Brewing Eagle River",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Silver Train",
+    "venue": "O’Malleys on the Green",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess",
+    "venue": "The Vagabond Inn",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Local Roots is BACK with ATF, Saucy Yoda, & Evil Ted and the Thick Pink Antiseptic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Photonak & Concrete To Clouds",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vibes in the Speakeasy w/ DJ Third George",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-18",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jared Woods",
+    "venue": "The Seaview Café",
+    "city": "Hope",
+    "date": "2021-06-18",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Flannels & Skanks",
+    "venue": "Dirty Skillet",
+    "city": "Hope",
+    "date": "2021-06-18",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Solstice Shrimp Boil with Braided River and Deadphish Orchestra",
+    "venue": "Creekbend Company",
+    "city": "Hope",
+    "date": "2021-06-18",
+    "time": "7p-10:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ukulele Russ & His One Man Frontier Band",
+    "venue": "The Golden Saloon",
+    "city": "McCarthy",
+    "date": "2021-06-18",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Feast w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-06-18",
+    "time": "5:30p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Ken Peltier Band",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-06-18",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Adam Patterson and the Heavy Hearts",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-06-18",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Talkeetna Live at 5 with Larry Sandy",
+    "venue": "Talkeetna Village Park",
+    "city": "Talkeetna",
+    "date": "2021-06-18",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Cami from Miami",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-06-18",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Mug-Shot Saloon",
+    "city": "Wasilla",
+    "date": "2021-06-18",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hooked Entertainment Comedy: Sam Talent",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-06-18",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Playhouse LIVE w/ John Budnik, Long Nights Moon, Andy Mullen, Jared Hazen, & Sabrina Speers",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-06-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Downtown Partnership Re-Imagined Solstice Festival 2021 with Tons of Music!",
+    "venue": "Anchorage Downtown",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "12p-9p",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Grand Opening & solstice Party w/ Nothin But Karma",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "1p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Salsa in the Park with Anaya Latin Dance",
+    "venue": "Anchorage Town Square Park",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "1p-4p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Alaska 4x4 Meet & Greet w/ The Hand Me Downs",
+    "venue": "Museum of Transportation & Industry",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mat-Su Valley Rock Fest: Bad Flower w/ Millennial Falcons and Matt Hopper & the Roman Candles",
+    "venue": "Curtis Menard Sports Center",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "5:30p-10p",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Daddy’s Issue",
+    "venue": "Denali Harley Davidson",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "5p-6p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Big Head Todd and the Monsters with SunDog & Alaska Thunder Funk",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "6p-10:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Love & Theft",
+    "venue": "Kodiak Island Borough Fairgrounds",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ken Peltier",
+    "venue": "Matanuska Brewing Eagle River",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Juneteenth Festival featuring The Wailers",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "7p-1a",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Comedian Sam Tallent",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "7p-9p & 9:10p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sassy Saturdays with Sweet Cheeks Cabaret",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jerry Wessling Band Live",
+    "venue": "Floater's",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Summer Solstice Dance Party with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9:30p-2a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Soiree in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's 2021 PRIDE PAGEANT",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Joe Goodnov",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Daddy's Issue",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-19",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Stone Atlas on the Roof",
+    "venue": "Jack Sprat",
+    "city": "Girdwood",
+    "date": "2021-06-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Summer Solstice party with The Jammin Band",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2021-06-19",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-06-19",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "H3 LIVE",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-06-19",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Triple Black Diamond",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-06-19",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Beats Roots Alaska Annual Pride Show w/ DJ Covy & Jen Theulen",
+    "venue": "KONR 106.1 FM",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Father's Day/Summer Solstice Block Party w/ Eternal Cowboys & B4UDie",
+    "venue": "Pubhouse",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "4:30p-9:00",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Father’s Day Solstice Party with The Hand Me Downs",
+    "venue": "Willow Trading Post",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Open Mic w/ Tyson Davis",
+    "venue": "Temple Studios Community Center",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK Open Mic Night",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ Wash Your Hands",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-06-20",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sean Tracey",
+    "venue": "The Seaview Café",
+    "city": "Hope",
+    "date": "2021-06-20",
+    "time": "5p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam w/ Ben Sayers",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-06-20",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jimmy Sandy",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-06-20",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Schwabenhof Sunday Blues Jam",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-06-20",
+    "time": "4p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "LGBTQ Movie Night",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-06-21",
+    "time": "6:30p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-06-21",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Monday Music Mic with Boobs",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-21",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taking Back Mondays",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-21",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-06-21",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Larry, Jimm, & Kayti from the Denali Cooks",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-06-21",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesdays on the Roof with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "4p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vintage Soul",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday Open Mic",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam with the Van's Fam",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Amateur Drag Show",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "8p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-06-22",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Moondog Media Open Mic Night",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-06-22",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Decks",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rosie Rush",
+    "venue": "Peratrovich Park",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "12p-1p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tones of Summer feat. DJ GRE",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night With Courtney",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hott Mess with Ukulele Russ opening!",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2021-06-23",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-06-23",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vintage Soul",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-07-27",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-07-27",
+    "time": "5p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam with the Van's Fam",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-07-27",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "Flight Deck Bar and Lounge",
+    "city": "Anchorage",
+    "date": "2021-07-27",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-07-27",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Moondog Media Open Mic Night w/ Sabrina Speers",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-07-27",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Decks",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Music in the Park with The Forest that Never Sleeps",
+    "venue": "Peratrovich Park",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "12p-1p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Anchorage Concert Association: Super Saturated Sugar Strings",
+    "venue": "Eastchester Park",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "6:30p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Roof Top City Pop ft. DJ GRE & Lloyds Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arctic Jungle Band",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Moby Wang & Supergirl",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "International Hotel and Bar",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night With Skylar",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-07-28",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Robb Justice with Duncan Brewer opening",
+    "venue": "Soldotna Creek Park",
+    "city": "Soldotna",
+    "date": "2021-07-28",
+    "time": "6p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-07-28",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The MOBY WANG & SUPERGIRL Show",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "10p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Thursdays with DJ Covy",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Songwriting Workshop with Rosie Rush",
+    "venue": "The Nave Spenard",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "4:30p-5:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Steve",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Danger & Diva",
+    "venue": "Pubhouse",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Throwback Thursday with DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "BCDW Twerk Cardio",
+    "venue": "Underground Dance Company",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "7p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KBEAR Country Night with DJ Steve Franklin",
+    "venue": "Eddies Sport’s Bar",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live music w/Matt & Co.",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Flattop Pizza & Pool",
+    "city": "Anchorage",
+    "date": "2021-10-14",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Lisa Lisa & That Guy live",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2021-10-14",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Stack Live",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "10p-2:45a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Caribbean Night w/ DJ Militant & DJ Caribbean Queen",
+    "venue": "Lil Babes Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "John Damberg Jazz Piano Fridays",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nightmare on Cheek Street",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7:30p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Beer Awards Night",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Chester Chomp’s Zoom Room Dance Party!",
+    "venue": "Red Carpet Entertainment",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7p-7:40p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "The Rocky Horror Show",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Showdown Productions: IDK - Live in Alaska",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "8p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Roland Roberts Band",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Vibes in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Dance Lounge",
+    "venue": "Alaska Dance Promotions",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Live in Alaska",
+    "venue": "Showdown Productions: IDK",
+    "city": "Anchorage",
+    "date": "2021-10-15",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jerry Wessling Band",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-10-15",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Feast w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-10-15",
+    "time": "5:30p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Mug-Shot Saloon",
+    "city": "Wasilla",
+    "date": "2021-10-15",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Stack Live",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "10p-2:45a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Tyson James Trio",
+    "venue": "Hatcher’s Pass Lodge (Hatcher’s Pass)",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Costume Party & Dance",
+    "venue": "Tree of Life Church",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "The Comedy Show",
+    "venue": "Willow Trading Post",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Don Jose’s",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Danger Money Live at The Moose Lodge!",
+    "venue": "Anchorage Moose Lodge",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Club Y2K : A 2000's Party w/ DJ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jerry's Situation",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Soiree in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Local Roots ft Mindful Khaos, Part Time Super Heroes, &Sideways.",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-16",
+    "time": "9p-2:45a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pirate Costume Party w/ Benjammin & the Jammin Band",
+    "venue": "Kenai Joe's Taphouse",
+    "city": "Kenai",
+    "date": "2021-10-16",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Hot Mess 80’s Hair Band Night",
+    "venue": "Duck Inn Café",
+    "city": "Kenai",
+    "date": "2021-10-16",
+    "time": "9a-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-10-16",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tim Hall",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-10-16",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Open Mic w/ Tyson Davis",
+    "venue": "Temple Studios Community Center",
+    "city": "Anchorage",
+    "date": "2021-10-17",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Jam",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-17",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-10-17",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic With Sara Wash Your Hands",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-10-17",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-17",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam w/ Ben Sayers",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-10-17",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Schwabenhof's Sunday Live Music",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-10-17",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "JD Cox",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-10-17",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-10-18",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taking Back Mondays",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-10-18",
+    "time": "9:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Monday Music Mic with Boobs",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-18",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-10-18",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vintage Soul",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Post 28!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Midnight Sons Chorus Rehearsal",
+    "venue": "First Christian Church",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "7p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Jam with the Van's Fam",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-19",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Moondog Media Open Stage Night w/ Sabrina Speers",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-10-19",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Decks",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Arctic Jungle Band",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "(Open) Mic Check",
+    "venue": "Goldies AK",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Witty Youngman",
+    "venue": "Pubhouse",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Peanut Butter and Jamz w/ DJ GRE & Lloydz Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Hosted by Spenard Husband",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "8:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jared Woods",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KASH Country Night at Koot's w/ Ken Peltier",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "8p-12:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-10-20",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Jephries w/ Chelsea's Biscuit & Fungus",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Klondike Mike’s & the Main Street Grill",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Caribbean Night w/ DJ Militant & DJ Caribbean Queen",
+    "venue": "Lil Babes Cocktail Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "John Damberg Jazz Piano Fridays",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Acoustic Steak Night with MusiCal",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Date Night - Latin Dancing",
+    "venue": "Mermaid Grotto Café & Boutique",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Witty Youngman",
+    "venue": "Pubhouse",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Friday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Chester Chomp’s Zoom Room Dance Party",
+    "venue": "Red Carpet Entertainment",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-7:40p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "VPA’s The Best Christmas Pageant Ever",
+    "venue": "Valley Performing Arts",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "7p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "90s Video Dance Party: In Living Color",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Woodrow",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Weekends",
+    "venue": "Roundup Steakhouse & Saloon",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "9:30p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Vibes in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Dance Lounge",
+    "venue": "Alaska Dance Promotions",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Latin Dancing",
+    "venue": "Date Night",
+    "city": "Anchorage",
+    "date": "2021-11-26",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friday Night Feast w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-11-26",
+    "time": "5:30p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Black Birch Books",
+    "city": "Wasilla",
+    "date": "2021-11-26",
+    "time": "5p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Thanksgiving Metal Massacre w/ Decepticide, Mindful Khaos, Gloom Wagon, & Part Time Super Heroes",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "10p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Klondike Mike’s & the Main Street Grill",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Saturday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "VPA’s The Best Christmas Pageant Ever",
+    "venue": "Valley Performing Arts",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "7p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Don Jose’s",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Velvet La La Live",
+    "venue": "Anchorage Moose Lodge",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tripwire Band the Legend",
+    "venue": "Floaters",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "EAT YOUR HEART OUT - Sassy Saturdays Cabaret",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "8p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nothin But Trouble",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Soiree in the Speakeasy",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Last Cha Cha Lesson and Dance",
+    "venue": "35+ Singles Dance Club",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9p-11p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vik and Co. 3 bands!! Live Music in the heart of Spenard",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The 49th Supply Co. 8 Year Anniversary Party",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Sassy Saturdays Cabaret",
+    "venue": "EAT YOUR HEART OUT",
+    "city": "Anchorage",
+    "date": "2021-11-27",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-11-27",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tim Hall",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2021-11-27",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "SIN w/ The Millennial Falcons (Service Industry Night)",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Pies & Thighs Burlesque Brunch",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "11:30a-1p",
+    "ticketUrl": "",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "VPA’s The Best Christmas Pageant Ever",
+    "venue": "Valley Performing Arts",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "2p-5:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Open Mic w/ Tyson Davis",
+    "venue": "Temple Studios Community Center",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Jam",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic With Sara Wash Your Hands",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-28",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Schwabenhof's Sunday Live Music",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-11-28",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-11-29",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ellie Kenealy's Monday Melodies",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-11-29",
+    "time": "9:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Monday Mic at Koots",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-11-29",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vintage Soul",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Acoustic Song Circle",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "9th Army Band Playing Christmas Music",
+    "venue": "Alaska Aviation Museum",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "6p-6:30p",
+    "ticketUrl": "",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Midnight Sons Chorus Rehearsal",
+    "venue": "First Christian Church",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "7p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tuesday Night Open Jam Hosted by Spenard Husband",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow at Flight Deck",
+    "venue": "The Flight Deck Bar & Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-11-30",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Moondog Media Open Stage Night w/ Sabrina Speers",
+    "venue": "Klondike Mike’s And The Main Street Grill",
+    "city": "Palmer",
+    "date": "2021-11-30",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tyson Davis Tuesdays",
+    "venue": "Seward Alehouse",
+    "city": "Seward",
+    "date": "2021-11-30",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tyrone Palmer & Friends",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Josh and Christine Host Karaoke",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Vanpierres",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KASH Country Night at Koot's w/ Ken Peltier",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "8p-12:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-12-01",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-12-01",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Those Guys AK",
+    "venue": "Klondike Mike’s & the Main Street Grill",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "ONYX Live In Alaska",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "House Party @ the Ave w/ The Guestlist",
+    "venue": "The Avenue Bar",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "10p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Nutcracker 2021",
+    "venue": "Juneau-Douglas High School",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "2p-3:30p & 7p-8:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Nutcracker by North Star Ballet",
+    "venue": "Hering Auditorium",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "2p-4p & 8p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Killoran Productions Holiday Extravaganza",
+    "venue": "Cyrano’s Playhouse",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "3p-5p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Winter Wonderland Drag Show",
+    "venue": "Basement Boudoir",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-11:30p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "December Line Dance Lessons and Social Dances",
+    "venue": "35+ Singles Dance Club",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-11p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Saturday at the Eagles!",
+    "venue": "The Fraternal Order of Eagles Aerie 4207",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "11th Annual Twelve Days of Christmas Pub Crawl",
+    "venue": "Downtown Anchorage",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Drew Erickson, Bicycle Baron, & The Millennial Falcons",
+    "venue": "Moose A’la Mode",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "VPA’s The Best Christmas Pageant Ever",
+    "venue": "Valley Performing Arts",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "7p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Don Jose’s",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Danger Money Live",
+    "venue": "Anchorage Moose Lodge",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Prohibition Party 1933: A Repeal Day Soiree",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Unwrapped - A Tinsel & Tassel Cabaret",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "8p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Vintage Retro",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Weekends",
+    "venue": "Roundup Steakhouse & Saloon",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9:30p-3a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ugly Sweater Party w/ Joe Brady",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9p-1:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "#WhereJDiggsAt",
+    "venue": "Al’s Alaskan Inn",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Saturday Night Karaoke!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Zen Trembles, Neil Robertson, and The Sunday Nights",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Local Roots in the Ice Bar",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "9p-2:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "A Tinsel & Tassel Cabaret",
+    "venue": "Unwrapped",
+    "city": "Anchorage",
+    "date": "2021-12-04",
+    "time": "TBD",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Fun and Food w/ 100 Proof Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2021-12-04",
+    "time": "6p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Bachelor Ball w/ Plan B",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-12-04",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Nutcracker by North Star Ballet",
+    "venue": "Hering Auditorium",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "2p-4p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "VPA’s The Best Christmas Pageant Ever",
+    "venue": "Valley Performing Arts",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "2p-5:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "All Ages Open Mic w/ Tyson Davis",
+    "venue": "Temple Studios Community Center",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "6p-8p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Broken Blender",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Jam",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic With Sara Wash Your Hands",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Sunday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-05",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ukulele Russ & His One Man Frontier Band",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2021-12-05",
+    "time": "8p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Schwabenhof's Sunday Live Music",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-12-05",
+    "time": "4p-7p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Date Night Latin Dancing",
+    "venue": "Mermaid Grotto Café & Boutique",
+    "city": "Anchorage",
+    "date": "2021-12-06",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Monday Night Karaoke",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-12-06",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ellie Kenealy's Monday Melodies",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-06",
+    "time": "9:30p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Monday Mic at Koots",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-06",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vintage Soul",
+    "venue": "Organic Oasis",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "5:30p-7:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tuesday Open Mic at Post 28!",
+    "venue": "American Legion Post 28 (Spenard)",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "6:30p-9:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tuesday Night Open Jam Hosted by Spenard Husband",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Tuesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow at Flight Deck",
+    "venue": "The Flight Deck Bar & Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "8p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jukebox Karaoke Roadshow",
+    "venue": "Trophy Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-07",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tyson Davis Tuesdays",
+    "venue": "Seward Alehouse",
+    "city": "Seward",
+    "date": "2021-12-07",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Koots Karaoke",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "10p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Distinguished Citizens Banquet: Jerry Evans & Glenner Anderson",
+    "venue": "Westmark Hotel",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "6p-9p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tyrone Palmer & Friends",
+    "venue": "907 Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Peanut Butter and Jamz w/ DJ GRE & Lloydz Noize",
+    "venue": "Williwaw Social",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "7p-10p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Open Mic",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "8:30p-10p",
+    "ticketUrl": "",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Josh and Christine Host Karaoke",
+    "venue": "Van's Dive Bar",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "8:30p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Ukulele Russ",
+    "venue": "Humpy's Great Alaskan Alehouse",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "8p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "AK Rockstar Karaoke Wednesday",
+    "venue": "The Carousel Lounge",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "8p-11p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "KASH Country Night at Koot's w/ Ken Peltier",
+    "venue": "Koot's",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "8p-12:30a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Mad Myrna's Karaoke!",
+    "venue": "Mad Myrna's",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2021-12-08",
+    "time": "9p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic at Schwabenhof",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2021-12-08",
+    "time": "7:30p-11:30p",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": ""
+  }
+]
