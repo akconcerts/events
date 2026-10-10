@@ -21,7 +21,7 @@ This repository provides clean, normalized event data for developers, venues, mu
 | **Excel (XLSX)** | [`events.xlsx`](https://github.com/akconcerts/events/raw/main/events.xlsx) | Master Excel workbook |
 | **iCal Feed** | [`events.ics`](https://raw.githubusercontent.com/akconcerts/events/main/events.ics) | Calendar feed for Apple Calendar, Google Calendar, Outlook |
 | **RSS Feed** | [`events.xml`](https://raw.githubusercontent.com/akconcerts/events/main/events.xml) | Standard RSS 2.0 event feed |
-| **Venues Directory** | [`venues.json`](https://raw.githubusercontent.com/akconcerts/events/main/venues.json) | 180+ Alaska venues with cities and GPS coordinates |
+| **Venues Directory** | [`venues.json`](https://raw.githubusercontent.com/akconcerts/events/main/venues.json) | 239 Alaska venues with cities, Facebook links, contact info, and GPS coordinates |
 | **Summary Stats** | [`stats.json`](https://raw.githubusercontent.com/akconcerts/events/main/stats.json) | Aggregated totals by city, category, and top venues |
 | **City Archives** | [`cities/`](https://github.com/akconcerts/events/tree/main/cities) | Partitioned by city (`anchorage.json`, `fairbanks.json`, `juneau.json`, ...) |
 | **Yearly Archives** | [`years/`](https://github.com/akconcerts/events/tree/main/years) | Partitioned by year (`2026.json`, `2025.json`, `2024.json`, ...) |
@@ -32,6 +32,7 @@ This repository provides clean, normalized event data for developers, venues, mu
 ## 📊 Dataset Overview
 
 - **Total Events**: `50,000+`
+- **Total Venues**: `239`
 - **Time Span**: May 2019 – Present
 - **Geographic Coverage**: Anchorage, Fairbanks, Juneau, Wasilla, Palmer, Eagle River, Kenai, Soldotna, Homer, Seward, Girdwood, Talkeetna, Sitka, Ketchikan, Cordova, Haines, Valdez, Big Lake, Ester, North Pole, McCarthy, and more.
 - **Categories**: `music`, `comedy`, `dance`, `theatre`, `festival`, `community`
@@ -40,6 +41,7 @@ This repository provides clean, normalized event data for developers, venues, mu
 
 ## 📐 Schema Specification
 
+### Event Schema
 Each event entry adheres to the [event schema](schema/event.schema.json):
 
 | Field | Type | Required | Description | Example |
@@ -52,6 +54,27 @@ Each event entry adheres to the [event schema](schema/event.schema.json):
 | `ticketUrl` | `string` | No | URL to ticket sales or venue information | `"https://..."` |
 | `category` | `string` | **Yes** | Event category (`music`, `comedy`, `dance`, etc.) | `"music"` |
 | `cost` | `string` | No | Admission price or cover charge | `"$15"` |
+
+### Venue Schema
+Each venue entry in [`venues.json`](venues.json) adheres to the [venue schema](schema/venue.schema.json) and provides direct links for AI scrapers:
+
+| Field | Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| `id` | `string` | Unique URL-friendly slug | `"koots"` |
+| `name` | `string` | Canonical venue display name | `"Koot's"` |
+| `city` | `string` | Alaska city or community | `"Anchorage"` |
+| `address` | `string` | Physical street address | `"2435 Spenard Rd, Anchorage, AK 99503"` |
+| `lat`, `lng` | `number` | GPS coordinates | `61.1906`, `-149.9075` |
+| `website` | `string` | Official venue website URL | `"https://koots.com/"` |
+| `facebookUrl` | `string` | Official Facebook page URL | `"https://www.facebook.com/ChilkootCharlies"` |
+| `facebookEventsUrl` | `string` | Direct Facebook events calendar tab | `"https://www.facebook.com/kootsak/events"` |
+| `phone` | `string` | Contact phone number | `"(907) 272-1010"` |
+| `email` | `string` | Contact email address | `"promo@koots.com"` |
+| `type` | `string` | Venue category | `"Live Music Venue"` |
+| `capacity` | `integer` | Attendee capacity | `900` |
+| `indoor` | `boolean` | Indoors / Outdoors flag | `true` |
+| `aliases` | `array` | Alternate names and flyer aliases | `["koots", "chilkoot charlie's"]` |
+| `scrapeNotes` | `string` | AI scraper lookup instructions | `"Check facebook events for upcoming shows."` |
 
 ### JSON Example
 ```json

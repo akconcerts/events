@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AK Concerts Venue Schema",
+  "description": "Standard schema for Alaskan music and event venues referenced by agents, scrapers, and the AK Concerts platform.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "city",
+    "address",
+    "aliases"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique URL-friendly slug identifier for the venue"
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical venue display name"
+    },
+    "city": {
+      "type": "string",
+      "description": "Alaskan city or community"
+    },
+    "address": {
+      "type": "string",
+      "description": "Physical street address"
+    },
+    "lat": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Latitude coordinate"
+    },
+    "lng": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Longitude coordinate"
+    },
+    "website": {
+      "type": "string",
+      "description": "Official venue website URL"
+    },
+    "facebookUrl": {
+      "type": "string",
+      "description": "Official Facebook page URL"
+    },
+    "facebookEventsUrl": {
+      "type": "string",
+      "description": "Direct link to the venue's Facebook events schedule tab"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "email": {
+      "type": "string",
+      "description": "Contact email address"
+    },
+    "contactPerson": {
+      "type": "string",
+      "description": "Manager or event coordinator name"
+    },
+    "type": {
+      "type": "string",
+      "description": "Venue category (e.g. Brewery, Bar / Nightclub, Performing Arts Center, Ski Resort, Arena)"
+    },
+    "capacity": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Maximum attendee capacity"
+    },
+    "indoor": {
+      "type": "boolean",
+      "description": "Whether venue is primarily indoors"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternate names, past names, slang, and abbreviations used on flyers"
+    },
+    "amenities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Venue amenities (e.g. Full Bar, Food, All Ages, Stage, Patio)"
+    },
+    "scrapeNotes": {
+      "type": "string",
+      "description": "Operational instructions and notes for GPT / scrapers to find live event schedules"
+    }
+  }
+}
