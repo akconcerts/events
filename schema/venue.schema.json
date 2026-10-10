@@ -45,6 +45,10 @@
       "type": "string",
       "description": "Official venue website URL"
     },
+    "eventsUrl": {
+      "type": "string",
+      "description": "Direct link to venue official events calendar or ticketing page"
+    },
     "facebookUrl": {
       "type": "string",
       "description": "Official Facebook page URL"

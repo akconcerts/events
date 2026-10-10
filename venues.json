@@ -6,8 +6,8 @@
     "address": "Anchor Point, AK",
     "lat": 59.7767,
     "lng": -151.8336,
-    "website": "",
-    "facebookUrl": "",
+    "website": "http://www.angrysalmonak.com/",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61555900824953",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -15,13 +15,14 @@
       "the angry salmon lodge",
       "the angry salmon"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=61555900824953/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'The Angry Salmon' in Anchor Point."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/profile.php?id=61555900824953.",
+    "eventsUrl": "http://www.angrysalmonak.com/"
   },
   {
     "id": "49th-state-brewery",
@@ -48,7 +49,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/49thStateBrewingDenaliPark/events for upcoming shows."
+    "scrapeNotes": "Primary Events: Rooftop & Heritage Theater shows at https://www.49statebrewing.com/events/. Also check Facebook at https://www.facebook.com/49thStateBrewingCoAnchorage/events.",
+    "eventsUrl": "https://www.49statebrewing.com/events/"
   },
   {
     "id": "907-alehouse",
@@ -73,11 +75,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/907alehouse/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/907alehouse/events for upcoming shows.",
+    "eventsUrl": "https://www.907alehouse.com/"
   },
   {
     "id": "ak-concerts",
-    "name": "AK\u00a0Concerts",
+    "name": "AK Concerts",
     "city": "Anchorage",
     "address": "Anchorage",
     "lat": 61.2198,
@@ -87,7 +90,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "ak\u00a0concerts"
+      "ak concerts"
     ],
     "facebookEventsUrl": "",
     "phone": "",
@@ -95,7 +98,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.akconcerts.com for event calendar."
+    "scrapeNotes": "Check https://www.akconcerts.com for event calendar.",
+    "eventsUrl": "https://www.akconcerts.com"
   },
   {
     "id": "alaska-airlines-center",
@@ -117,7 +121,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AlaskaAirlinesCenter/events for upcoming shows."
+    "scrapeNotes": "Primary Events: Official calendar at https://thealaskaairlinescenter.com/events. Also check Facebook at https://www.facebook.com/AlaskaAirlinesCenter/events.",
+    "eventsUrl": "https://thealaskaairlinescenter.com/events"
   },
   {
     "id": "alaska-botanical-garden",
@@ -139,7 +144,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/alaskabotanicalgarden/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/alaskabotanicalgarden/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "alaska-center-for-the-performing-arts",
@@ -167,7 +173,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/CenterTix/events for upcoming shows."
+    "scrapeNotes": "Primary Events: Official ticketing and calendar at CenterTix (https://www.centertix.com/events). Also check Facebook at https://www.facebook.com/ACPAevents/events.",
+    "eventsUrl": "https://www.centertix.com/events"
   },
   {
     "id": "alaska-dance-promotions",
@@ -189,7 +196,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AlaskaDancePromotions/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AlaskaDancePromotions/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "alaska-experience-theater",
@@ -211,7 +219,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AKExperiencetheater/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AKExperiencetheater/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "american-legion-jack-henry-post-1",
@@ -221,8 +230,8 @@
     "lat": 61.2181,
     "lng": -149.9003,
     "website": "",
-    "facebookUrl": "",
-    "facebookEventsUrl": "",
+    "facebookUrl": "https://www.facebook.com/alaskapost1",
+    "facebookEventsUrl": "https://www.facebook.com/alaskapost1/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
@@ -233,7 +242,8 @@
       "american legion jack henry post 1"
     ],
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'American Legion Jack Henry Post 1' in Anchorage."
+    "scrapeNotes": "Search Facebook or web for 'American Legion Jack Henry Post 1' in Anchorage.",
+    "eventsUrl": ""
   },
   {
     "id": "american-legion-post-28",
@@ -260,7 +270,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Post28/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Post28/events for upcoming shows.",
+    "eventsUrl": "https://alaskapost28.org/"
   },
   {
     "id": "amvets-post-2",
@@ -282,7 +293,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AmvetsPost2AK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AmvetsPost2AK/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "anchorage-loussac-library",
@@ -292,19 +304,20 @@
     "lat": 61.2048,
     "lng": -149.8975,
     "website": "http://anchoragelibrary.evanced.info/signup/calendar",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/AnchoragePublicLibrary",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "anchorage loussac library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/AnchoragePublicLibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check http://anchoragelibrary.evanced.info/signup/calendar for event calendar."
+    "scrapeNotes": "Primary Events: Official Evanced calendar at http://anchoragelibrary.evanced.info/signup/calendar.",
+    "eventsUrl": "http://anchoragelibrary.evanced.info/signup/calendar"
   },
   {
     "id": "anchorage-moose-lodge",
@@ -326,7 +339,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Anchoragemooselodge/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Anchoragemooselodge/events for upcoming shows.",
+    "eventsUrl": "https://www.anchoragemooselodge.com"
   },
   {
     "id": "anchorage-museum",
@@ -351,7 +365,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AnchorageMuseum/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AnchorageMuseum/events for upcoming shows.",
+    "eventsUrl": "https://www.anchoragemuseum.org/"
   },
   {
     "id": "anchorage-social-dance-club",
@@ -375,7 +390,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/35PlusClub/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/35PlusClub/events for upcoming shows.",
+    "eventsUrl": "https://www.akconcerts.com/learn"
   },
   {
     "id": "arctic-rec-center",
@@ -397,7 +413,8 @@
       "arctic rec center"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/arcticrec.Anchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/arcticrec.Anchorage/events for upcoming shows.",
+    "eventsUrl": "https://www.centerak.org/"
   },
   {
     "id": "arctic-valley-ski-area",
@@ -419,7 +436,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/SkiArctic/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/SkiArctic/events for upcoming shows.",
+    "eventsUrl": "https://arcticvalley.org/"
   },
   {
     "id": "avenue-bar",
@@ -441,7 +459,8 @@
       "avenue bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AvenueBar907/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AvenueBar907/events for upcoming shows.",
+    "eventsUrl": "https://avenuebarak.com"
   },
   {
     "id": "aviator-hotel",
@@ -463,7 +482,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AviatorHotelAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AviatorHotelAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "bear-tooth-theatrepub",
@@ -489,7 +509,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/beartooththeatre/events for upcoming shows."
+    "scrapeNotes": "Primary Events: First Thursday concert series & events at https://beartooththeatre.net/movies-events/. Also check Facebook at https://www.facebook.com/beartooththeatrepub/events.",
+    "eventsUrl": "https://beartooththeatre.net/movies-events/"
   },
   {
     "id": "bernie-s-bungalow-lounge",
@@ -511,7 +532,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/BerniesBungalowLounge/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/BerniesBungalowLounge/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "billiard-palace",
@@ -520,21 +542,22 @@
     "address": "1100 E Tudor Rd, Anchorage, AK 99508",
     "lat": 61.1811,
     "lng": -149.8631,
-    "website": "",
-    "facebookUrl": "",
+    "website": "https://billiardpalaceak.com",
+    "facebookUrl": "https://www.facebook.com/people/Anchorage-Billiard-Palace-Bar/100063622432924/",
     "capacity": 150,
     "indoor": true,
     "aliases": [
       "the billiard palace",
       "billiard palace"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/people/Anchorage-Billiard-Palace-Bar/100063622432924/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Billiard Palace' in Anchorage."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/people/Anchorage-Billiard-Palace-Bar/100063622432924/. Check website at https://billiardpalaceak.com.",
+    "eventsUrl": "https://billiardpalaceak.com"
   },
   {
     "id": "blue-fox",
@@ -556,7 +579,8 @@
       "blue fox"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thebluefoxcocktaillounge/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thebluefoxcocktaillounge/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "broken-blender",
@@ -566,20 +590,21 @@
     "lat": 61.2194,
     "lng": -149.8911,
     "website": "https://brokenblenderak.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TheBrokenBlenderAK",
     "capacity": 150,
     "indoor": true,
     "aliases": [
       "the broken blender",
       "broken blender"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TheBrokenBlenderAK/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://brokenblenderak.com/ for event calendar."
+    "scrapeNotes": "Check https://brokenblenderak.com/ for event calendar.",
+    "eventsUrl": "https://brokenblenderak.com/"
   },
   {
     "id": "brown-bear-saloon",
@@ -601,7 +626,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063540072601&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063540072601&sk=events for upcoming shows.",
+    "eventsUrl": "http://www.brownbearalaska.com"
   },
   {
     "id": "charlou",
@@ -623,7 +649,8 @@
       "charlou"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/charlouspenard/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/charlouspenard/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "chilkoot-charlie-s-koot-s",
@@ -633,23 +660,24 @@
     "lat": 61.1977,
     "lng": -149.9054,
     "website": "https://koots.com",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/kootsak",
     "capacity": 1100,
     "indoor": true,
     "aliases": [
       "chilkoot charlie's (koot's)"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/kootsak/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://koots.com for event calendar."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/kootsak/events. Website at https://koots.com.",
+    "eventsUrl": "https://koots.com"
   },
   {
     "id": "dave-buster-s",
-    "name": "Dave & Buster\u2019s",
+    "name": "Dave & Buster’s",
     "city": "Anchorage",
     "address": "Anchorage",
     "lat": 61.2216,
@@ -659,7 +687,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "dave & buster\u2019s"
+      "dave & buster’s"
     ],
     "facebookEventsUrl": "https://www.facebook.com/DnBAnchorage/events",
     "phone": "",
@@ -667,7 +695,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/DnBAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/DnBAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "dena-ina-center",
@@ -689,11 +718,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/DenainaCenter/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/DenainaCenter/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "don-jose-s-mexican-restaurant",
-    "name": "Don Jose\u2019s Mexican Restaurant",
+    "name": "Don Jose’s Mexican Restaurant",
     "city": "Anchorage",
     "address": "2052 E Northern Lights Blvd, Anchorage, AK, United States, Alaska",
     "lat": 61.2181,
@@ -708,10 +738,11 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "don jose\u2019s mexican restaurant"
+      "don jose’s mexican restaurant"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/alaskadonjoses/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/alaskadonjoses/events for upcoming shows.",
+    "eventsUrl": "https://www.alaskadonjoses.com/"
   },
   {
     "id": "fire-island-bakery",
@@ -721,7 +752,7 @@
     "lat": 61.2094,
     "lng": -149.8972,
     "website": "https://fireislandbread.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/fireislandbread",
     "capacity": 70,
     "indoor": true,
     "aliases": [
@@ -730,13 +761,14 @@
       "k street market",
       "fire island rustic bakeshop @ k street"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/fireislandbread/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://fireislandbread.com/ for event calendar."
+    "scrapeNotes": "Check https://fireislandbread.com/ for event calendar.",
+    "eventsUrl": "https://fireislandbread.com/"
   },
   {
     "id": "hard-rock-cafe",
@@ -758,7 +790,8 @@
       "hard rock cafe"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/HRCAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/HRCAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "heart-of-the-city",
@@ -780,7 +813,8 @@
       "heart of the city"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/heartofthecityak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/heartofthecityak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "hearth-artisan-pizza",
@@ -802,7 +836,8 @@
       "hearth artisan pizza"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/604188827084422 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/604188827084422 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "hilltop-ski-area",
@@ -812,7 +847,7 @@
     "lat": 61.1278,
     "lng": -149.7333,
     "website": "https://www.hilltopskiarea.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/HilltopSkiArea",
     "capacity": 500,
     "indoor": false,
     "aliases": [
@@ -820,13 +855,14 @@
       "hilltop ski",
       "hilltop ski area"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/HilltopSkiArea/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.hilltopskiarea.org/ for event calendar."
+    "scrapeNotes": "Check https://www.hilltopskiarea.org/ for event calendar.",
+    "eventsUrl": "https://www.hilltopskiarea.org/"
   },
   {
     "id": "humpys-great-alaskan-alehouse",
@@ -840,7 +876,7 @@
     "capacity": 300,
     "indoor": true,
     "aliases": [
-      "humpy\u2019s",
+      "humpy’s",
       "humpys",
       "humpy's alehouse",
       "humpy's great alaskan alehouse"
@@ -851,7 +887,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/humpysgreatalaskanalehouse/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/humpysgreatalaskanalehouse/events for upcoming shows.",
+    "eventsUrl": "https://humpysalaska.com/"
   },
   {
     "id": "koots",
@@ -860,15 +897,15 @@
     "address": "2435 Spenard Rd, Anchorage, AK 99503",
     "lat": 61.1906,
     "lng": -149.9075,
-    "website": "https://koots.com/",
-    "facebookUrl": "https://www.facebook.com/ChilkootCharlies",
+    "website": "https://koots.com",
+    "facebookUrl": "https://www.facebook.com/kootsak",
     "capacity": 900,
     "indoor": true,
     "aliases": [
-      "koot\u2019s",
+      "koot’s",
       "koots",
       "chilkoot charlie's",
-      "chilkoot charlie\u2019s (koot\u2019s)",
+      "chilkoot charlie’s (koot’s)",
       "chilkoot charlies",
       "koot's"
     ],
@@ -878,7 +915,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/kootsak/events for upcoming shows."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/kootsak/events. Website at https://koots.com.",
+    "eventsUrl": "https://koots.com"
   },
   {
     "id": "last-frontier-bar",
@@ -900,7 +938,8 @@
       "last frontier bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/LFBAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/LFBAK/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "mad-myrnas",
@@ -914,7 +953,7 @@
     "capacity": 250,
     "indoor": true,
     "aliases": [
-      "mad myrna\u2019s",
+      "mad myrna’s",
       "mad myrnas",
       "myrnas",
       "mad myrna's"
@@ -925,7 +964,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/madmyrnasak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/madmyrnasak/events for upcoming shows.",
+    "eventsUrl": "https://madmyrnas.com/"
   },
   {
     "id": "manhattans-restaurant-lounge",
@@ -935,22 +975,23 @@
     "lat": 61.1811,
     "lng": -149.8631,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/ManhattansRestaurantLounge",
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "manhattan\u2019s restaurant & lounge",
+      "manhattan’s restaurant & lounge",
       "manhattans",
       "manhattan's",
       "manhattan's restaurant & lounge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/ManhattansRestaurantLounge/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Manhattan's Restaurant & Lounge' in Anchorage."
+    "scrapeNotes": "Search Facebook or web for 'Manhattan's Restaurant & Lounge' in Anchorage.",
+    "eventsUrl": ""
   },
   {
     "id": "marriot-anchorage-downtown",
@@ -972,7 +1013,8 @@
       "marriot anchorage downtown"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/2539411189664205 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/2539411189664205 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "matanuska-brewing-company-downtown",
@@ -994,7 +1036,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/MatanuskaBrewPubDowntown/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/MatanuskaBrewPubDowntown/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "matanuska-brewing-company-anchorage",
@@ -1016,7 +1059,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/matanuskabrewinganchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/matanuskabrewinganchorage/events for upcoming shows.",
+    "eventsUrl": "https://matanuskabrewco.com"
   },
   {
     "id": "maverick",
@@ -1038,11 +1082,12 @@
       "maverick"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-Maverick-Saloon-174521682590300/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-Maverick-Saloon-174521682590300/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "mcginley-s-pub",
-    "name": "McGinley\u2019s Pub",
+    "name": "McGinley’s Pub",
     "city": "Anchorage",
     "address": "645 G St, Anchorage, AK 99501",
     "lat": 61.2048,
@@ -1052,7 +1097,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "mcginley\u2019s pub"
+      "mcginley’s pub"
     ],
     "facebookEventsUrl": "https://www.facebook.com/mcginleyspub/events",
     "phone": "",
@@ -1060,11 +1105,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/mcginleyspub/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/mcginleyspub/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "middle-way-caf",
-    "name": "Middle Way Caf\u00e9",
+    "name": "Middle Way Café",
     "city": "Anchorage",
     "address": "Anchorage",
     "lat": 61.2092,
@@ -1074,7 +1120,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "middle way caf\u00e9"
+      "middle way café"
     ],
     "facebookEventsUrl": "https://www.facebook.com/MiddleWayCafe/events",
     "phone": "",
@@ -1082,7 +1128,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/MiddleWayCafe/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/MiddleWayCafe/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "mountain-view-library",
@@ -1104,7 +1151,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/545798642665182 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/545798642665182 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "organic-oasis",
@@ -1127,11 +1175,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/organicoasisAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/organicoasisAK/events for upcoming shows.",
+    "eventsUrl": "https://organicoasis.com/?fbclid=IwAR0TDMiLldCRhLVj_yVNbHVpVWlDpnebmXVSE3UQvk-Sfk30GuNO0gc8OCc"
   },
   {
     "id": "o-malley-s-on-the-green",
-    "name": "O\u2019Malley\u2019s on the Green",
+    "name": "O’Malley’s on the Green",
     "city": "Anchorage",
     "address": "3651 O'Malley Rd, Anchorage, AK 99507",
     "lat": 61.2046,
@@ -1141,7 +1190,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "o\u2019malley\u2019s on the green"
+      "o’malley’s on the green"
     ],
     "facebookEventsUrl": "https://www.facebook.com/omalleysonthegreen/events",
     "phone": "(907) 522-3363",
@@ -1149,7 +1198,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/omalleysonthegreen/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/omalleysonthegreen/events for upcoming shows.",
+    "eventsUrl": "http://www.omalleysonthegreen.com/"
   },
   {
     "id": "peanut-farm",
@@ -1171,7 +1221,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-New-Peanut-Farm-198843370154099/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-New-Peanut-Farm-198843370154099/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "pink-cadillac",
@@ -1181,7 +1232,7 @@
     "lat": 61.1911,
     "lng": -149.9072,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/pinkcadillacak",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -1189,13 +1240,14 @@
       "pink cadillac spenard",
       "pink cadillac"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/pinkcadillacak/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Pink Cadillac' in Anchorage."
+    "scrapeNotes": "Search Facebook or web for 'Pink Cadillac' in Anchorage.",
+    "eventsUrl": ""
   },
   {
     "id": "pioneer-bar",
@@ -1221,7 +1273,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "pubhouse",
@@ -1243,13 +1296,14 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/PubHouseAk/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/PubHouseAk/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "reilly-s-irish-pub",
-    "name": "Reilly\u2019s Irish Pub",
+    "name": "Reilly’s Irish Pub",
     "city": "Anchorage",
-    "address": "Reilly\u2019s Irish Pub, Anchorage, AK",
+    "address": "Reilly’s Irish Pub, Anchorage, AK",
     "lat": 61.2181,
     "lng": -149.9003,
     "website": "",
@@ -1262,14 +1316,15 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "reilly\u2019s irish pub"
+      "reilly’s irish pub"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/734034797083890 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/734034797083890 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "silvertip-grill",
-    "name": "Silvertip \u00a0Grill",
+    "name": "Silvertip  Grill",
     "city": "Anchorage",
     "address": "155 Hightower Rd, Girdwood, AK 99587",
     "lat": 61.2111,
@@ -1279,7 +1334,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "silvertip \u00a0grill",
+      "silvertip  grill",
       "Silvertip"
     ],
     "facebookEventsUrl": "https://www.facebook.com/Silvertip-Grill-118851844714/events",
@@ -1288,7 +1343,8 @@
     "email": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Silvertip-Grill-118851844714/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Silvertip-Grill-118851844714/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "subzero-microlounge",
@@ -1310,7 +1366,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/507122163232677 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/507122163232677 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "sullivan-arena",
@@ -1332,11 +1389,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Sullivan-Arena-169135406434751/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Sullivan-Arena-169135406434751/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "sullivan-s-steakhouse",
-    "name": "Sullivan\u2019s Steakhouse",
+    "name": "Sullivan’s Steakhouse",
     "city": "Anchorage",
     "address": "Anchorage",
     "lat": 61.2067,
@@ -1346,7 +1404,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "sullivan\u2019s steakhouse"
+      "sullivan’s steakhouse"
     ],
     "facebookEventsUrl": "https://www.facebook.com/SullysAnchorage/events",
     "phone": "",
@@ -1354,7 +1412,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/SullysAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/SullysAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "tequilla-61",
@@ -1376,7 +1435,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/tequila61ak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/tequila61ak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "that-wing-place",
@@ -1398,7 +1458,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thatwingplaceak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thatwingplaceak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-alaska-zoo",
@@ -1420,7 +1481,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TheAlaskaZoo/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TheAlaskaZoo/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-avenue-bar",
@@ -1442,7 +1504,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AvenueBar907/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AvenueBar907/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-blue-fox",
@@ -1464,7 +1527,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-Blue-Fox-Cocktail-Lounge-386003700288/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-Blue-Fox-Cocktail-Lounge-386003700288/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-blue-note-ak",
@@ -1486,7 +1550,8 @@
       "the blue note ak"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/BlueNoteAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/BlueNoteAK/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-cabin",
@@ -1510,7 +1575,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thecabinAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thecabinAK/events for upcoming shows.",
+    "eventsUrl": "https://www.thecabinfbx.com"
   },
   {
     "id": "the-carousel-lounge",
@@ -1535,7 +1601,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/carouselalaska/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/carouselalaska/events for upcoming shows.",
+    "eventsUrl": "https://www.facebook.com/thecarousellounge"
   },
   {
     "id": "the-nave",
@@ -1557,7 +1624,8 @@
       "the nave"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TheNaveSpenard/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TheNaveSpenard/events for upcoming shows.",
+    "eventsUrl": "https://www.thenavespenard.com"
   },
   {
     "id": "the-sitzmark",
@@ -1567,19 +1635,20 @@
     "lat": 60.9701,
     "lng": -149.1062,
     "website": "http://thesitzmark.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063525433814",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "the sitzmark"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100063525433814/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check http://thesitzmark.com/ for event calendar."
+    "scrapeNotes": "Primary Events: Live music calendar on website at http://thesitzmark.com/ and Alyeska Resort events at https://www.alyeskaresort.com/events/. Facebook at https://www.facebook.com/profile.php?id=100063525433814.",
+    "eventsUrl": "http://thesitzmark.com/"
   },
   {
     "id": "the-whale-s-tail",
@@ -1602,11 +1671,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/hccwhalestail/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/hccwhalestail/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "writers-block-bookstore-cafe",
-    "name": "The Writer's Block Bookstore & Caf\u00e9",
+    "name": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
     "address": "3956 Spenard Rd, Anchorage, AK 99517",
     "lat": 61.1764,
@@ -1616,11 +1686,11 @@
     "capacity": 80,
     "indoor": true,
     "aliases": [
-      "writer\u2019s block bookstore & caf\u00e9",
+      "writer’s block bookstore & café",
       "writer's block",
       "writers block",
-      "Writer\u2019s Block",
-      "the writer's block bookstore & caf\u00e9"
+      "Writer’s Block",
+      "the writer's block bookstore & café"
     ],
     "facebookEventsUrl": "https://www.facebook.com/WritersBlockBookstore/events",
     "phone": "",
@@ -1628,11 +1698,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/WritersBlockBookstore/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/WritersBlockBookstore/events for upcoming shows.",
+    "eventsUrl": "https://writersblockak.com/"
   },
   {
     "id": "the-writer-s-block",
-    "name": "The Writer\u2019s Block",
+    "name": "The Writer’s Block",
     "city": "Anchorage",
     "address": "Anchorage",
     "lat": 61.222,
@@ -1642,7 +1713,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "the writer\u2019s block"
+      "the writer’s block"
     ],
     "facebookEventsUrl": "https://www.facebook.com/WritersBlockBookstore/events",
     "phone": "",
@@ -1650,7 +1721,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/WritersBlockBookstore/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/WritersBlockBookstore/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "time-out-lounge",
@@ -1660,19 +1732,20 @@
     "lat": 61.2174,
     "lng": -149.9142,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TimeOutLoungeAK",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "time out lounge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TimeOutLoungeAK/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Time Out Lounge' in Anchorage."
+    "scrapeNotes": "Search Facebook or web for 'Time Out Lounge' in Anchorage.",
+    "eventsUrl": ""
   },
   {
     "id": "trail-lake-lodge",
@@ -1694,7 +1767,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/traillakelodge/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/traillakelodge/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "triple-j-roadhouse",
@@ -1716,7 +1790,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TripleJRoadhouse/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TripleJRoadhouse/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "tug-bar-goose-bay-inn",
@@ -1738,13 +1813,14 @@
       "tug bar goose bay inn"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100057311146105&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100057311146105&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "uncle-leroy-s-coffee",
-    "name": "Uncle Leroy\u2019s Coffee",
+    "name": "Uncle Leroy’s Coffee",
     "city": "Anchorage",
-    "address": "Uncle Leroy\u2019s Coffee, Anchorage, AK",
+    "address": "Uncle Leroy’s Coffee, Anchorage, AK",
     "lat": 61.2181,
     "lng": -149.9003,
     "website": "",
@@ -1757,10 +1833,11 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "uncle leroy\u2019s coffee"
+      "uncle leroy’s coffee"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/1090879607926168 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/1090879607926168 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "vfw-post-1685",
@@ -1782,7 +1859,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/VFWAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/VFWAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "vfw-post-9981",
@@ -1805,7 +1883,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/VfwPost9981SouthAnchorage/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/VfwPost9981SouthAnchorage/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "vans-dive-bar",
@@ -1819,7 +1898,7 @@
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "van\u2019s dive bar",
+      "van’s dive bar",
       "vans",
       "van's",
       "van's dive bar"
@@ -1830,7 +1909,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/vansdivebar/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/vansdivebar/events for upcoming shows.",
+    "eventsUrl": "https://www.facebook.com/vansdivebar"
   },
   {
     "id": "wendy-williamson-auditorium",
@@ -1855,7 +1935,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/1395175250641762 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/1395175250641762 for upcoming shows.",
+    "eventsUrl": "https://www.uaa.alaska.edu/about/administrative-services/departments/conference-services/wendy-williamson-auditorium/"
   },
   {
     "id": "west-high-school",
@@ -1877,7 +1958,8 @@
       "west high school"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/549584178924546 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/549584178924546 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "williwaw-social",
@@ -1901,7 +1983,8 @@
     "contactPerson": "Susynn Snyder",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/WilliwawSocial/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/WilliwawSocial/events for upcoming shows.",
+    "eventsUrl": "https://williwawsocial.com/"
   },
   {
     "id": "ymca-of-alaska",
@@ -1923,7 +2006,8 @@
       "ymca of alaska"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/forcommunitymca/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/forcommunitymca/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "ymca-of-alaska-lake-otis-branch",
@@ -1945,7 +2029,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/forcommunitymca/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/forcommunitymca/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "zip-kombucha",
@@ -1967,7 +2052,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/ZipKombucha/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/ZipKombucha/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "tuzzy-consortium-library",
@@ -1977,20 +2063,21 @@
     "lat": 71.2906,
     "lng": -156.7886,
     "website": "https://www.tuzzy.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TuzzyConsortiumLibrary/",
     "capacity": 100,
     "indoor": true,
     "aliases": [
       "tuzzy library",
       "tuzzy consortium library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TuzzyConsortiumLibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.tuzzy.org/ for event calendar."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/TuzzyConsortiumLibrary/. Check website calendar at https://www.tuzzy.org.",
+    "eventsUrl": "https://www.tuzzy.org/"
   },
   {
     "id": "common-ground-alaska-farm",
@@ -2000,7 +2087,7 @@
     "lat": 61.5236,
     "lng": -149.9844,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/CommonGroundAlaska",
     "capacity": 200,
     "indoor": false,
     "aliases": [
@@ -2008,13 +2095,14 @@
       "common ground alaska",
       "common ground alaska farm"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/CommonGroundAlaska/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Common Ground Alaska Farm' in Big Lake."
+    "scrapeNotes": "Search Facebook or web for 'Common Ground Alaska Farm' in Big Lake.",
+    "eventsUrl": ""
   },
   {
     "id": "floaters",
@@ -2036,7 +2124,8 @@
       "floaters"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AK99645/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AK99645/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "susitna-brewing",
@@ -2046,7 +2135,7 @@
     "lat": 61.5236,
     "lng": -149.9844,
     "website": "https://susitnabrewing.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/susitnabrewing",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -2054,13 +2143,14 @@
       "susitna brewery",
       "susitna brewing"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/susitnabrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://susitnabrewing.com/ for event calendar."
+    "scrapeNotes": "Check https://susitnabrewing.com/ for event calendar.",
+    "eventsUrl": "https://susitnabrewing.com/"
   },
   {
     "id": "gwins-lodge",
@@ -2070,26 +2160,27 @@
     "lat": 60.4939,
     "lng": -149.845,
     "website": "https://gwinslodge.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/gwinslodgealaska",
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "gwin\u2019s lodge",
+      "gwin’s lodge",
       "gwins lodge",
       "gwins",
       "gwin's lodge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/gwinslodgealaska/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://gwinslodge.com/ for event calendar."
+    "scrapeNotes": "Check https://gwinslodge.com/ for event calendar.",
+    "eventsUrl": "https://gwinslodge.com/"
   },
   {
     "id": "garcia-s",
-    "name": "Garcia\u2019s",
+    "name": "Garcia’s",
     "city": "Eagle River",
     "address": "11901 Business Blvd, Ste 104, Eagle River, AK, United States, Alaska",
     "lat": 61.3085,
@@ -2099,7 +2190,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "garcia\u2019s"
+      "garcia’s"
     ],
     "facebookEventsUrl": "https://www.facebook.com/GarciasCantina/events",
     "phone": "907) 694-8600",
@@ -2107,7 +2198,8 @@
     "type": "Restaurant",
     "contactPerson": "",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/GarciasCantina/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/GarciasCantina/events for upcoming shows.",
+    "eventsUrl": "garciascantinaandcafe.com"
   },
   {
     "id": "homestead-lounge",
@@ -2117,23 +2209,24 @@
     "lat": 61.309,
     "lng": -149.5648,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/HomesteadLoungeEagleRiver",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "homestead lounge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/HomesteadLoungeEagleRiver/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Homestead Lounge' in Eagle River."
+    "scrapeNotes": "Search Facebook or web for 'Homestead Lounge' in Eagle River.",
+    "eventsUrl": ""
   },
   {
     "id": "jitter-s",
-    "name": "Jitter\u2019s",
+    "name": "Jitter’s",
     "city": "Eagle River",
     "address": "Eagle River",
     "lat": 61.3082,
@@ -2143,7 +2236,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "jitter\u2019s"
+      "jitter’s"
     ],
     "facebookEventsUrl": "https://www.facebook.com/jitterseagleriver/events",
     "phone": "",
@@ -2151,7 +2244,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/jitterseagleriver/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/jitterseagleriver/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "matanuska-brewing-company-eagle-river",
@@ -2173,7 +2267,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/matanuskabrewingeagleriver/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/matanuskabrewingeagleriver/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "odd-man-rush",
@@ -2198,7 +2293,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/oddmanrushbrewing/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/oddmanrushbrewing/events for upcoming shows.",
+    "eventsUrl": "https://oddmanrushbrewing.com/"
   },
   {
     "id": "south-fork-valley-concert-series",
@@ -2220,7 +2316,8 @@
       "south fork valley concert series"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/2423574031289584 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/2423574031289584 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "vfw-post-9785",
@@ -2242,7 +2339,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/VfwPost9785EagleRiverAk/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/VfwPost9785EagleRiverAk/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "malemute-saloon",
@@ -2252,7 +2350,7 @@
     "lat": 64.8483,
     "lng": -147.9786,
     "website": "https://estergoldcamp.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/MalemuteSaloon",
     "capacity": 200,
     "indoor": true,
     "aliases": [
@@ -2261,13 +2359,14 @@
       "ester gold camp",
       "malemute saloon & gold camp"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/MalemuteSaloon/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://estergoldcamp.com/ for event calendar."
+    "scrapeNotes": "Check https://estergoldcamp.com/ for event calendar.",
+    "eventsUrl": "https://estergoldcamp.com/"
   },
   {
     "id": "arctic-fox",
@@ -2289,11 +2388,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/ArcticFoxBarAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/ArcticFoxBarAK/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "fairbanks-children-s-museum",
-    "name": "Fairbanks Children\u2019s Museum",
+    "name": "Fairbanks Children’s Museum",
     "city": "Fairbanks",
     "address": "302 Cushman St Fairbanks, AK 99701",
     "lat": 64.8378,
@@ -2308,10 +2408,11 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "fairbanks children\u2019s museum"
+      "fairbanks children’s museum"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/fairbankschildrensmuseum/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/fairbankschildrensmuseum/events for upcoming shows.",
+    "eventsUrl": "https://www.fairbankschildrensmuseum.com"
   },
   {
     "id": "fairbanks-community-band-hall",
@@ -2320,20 +2421,21 @@
     "address": "Fairbanks",
     "lat": 64.8316,
     "lng": -147.7294,
-    "website": "",
-    "facebookUrl": "",
+    "website": "https://www.fairbankscommunityband.com/",
+    "facebookUrl": "https://www.facebook.com/Fairbanks-Community-Band-135980453113355/",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "fairbanks community band hall"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/Fairbanks-Community-Band-135980453113355/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Fairbanks Community Band Hall' in Fairbanks."
+    "scrapeNotes": "Primary Events: Website schedule at https://www.fairbankscommunityband.com/. Facebook page at https://www.facebook.com/Fairbanks-Community-Band-135980453113355/.",
+    "eventsUrl": "https://www.fairbankscommunityband.com/"
   },
   {
     "id": "hering-auditorium",
@@ -2355,7 +2457,8 @@
       "hering auditorium"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/2097040690407610 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/2097040690407610 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "international-hotel-and-bar",
@@ -2377,7 +2480,8 @@
       "international hotel & bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=61553033183406&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=61553033183406&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "noel-wien-public-library",
@@ -2387,7 +2491,7 @@
     "lat": 64.8344,
     "lng": -147.742,
     "website": "https://fnsblibrary.us/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/NoelWienLibrary",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -2396,13 +2500,14 @@
       "fnsb library",
       "noel wien public library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/NoelWienLibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://fnsblibrary.us/ for event calendar."
+    "scrapeNotes": "Check https://fnsblibrary.us/ for event calendar.",
+    "eventsUrl": "https://fnsblibrary.us/"
   },
   {
     "id": "raven-landing-senior-center",
@@ -2412,19 +2517,20 @@
     "lat": 64.8244,
     "lng": -147.7187,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/ravenlanding",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "raven landing senior center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/ravenlanding/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Raven Landing Senior Center' in Fairbanks."
+    "scrapeNotes": "Search Facebook or web for 'Raven Landing Senior Center' in Fairbanks.",
+    "eventsUrl": ""
   },
   {
     "id": "tanana-valley-state-fair-grounds",
@@ -2434,19 +2540,20 @@
     "lat": 64.8327,
     "lng": -147.7166,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/tananavalleystatefair",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "tanana valley state fair grounds"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/tananavalleystatefair/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Tanana Valley State Fair Grounds' in Fairbanks."
+    "scrapeNotes": "Search Facebook or web for 'Tanana Valley State Fair Grounds' in Fairbanks.",
+    "eventsUrl": ""
   },
   {
     "id": "the-big-i",
@@ -2468,7 +2575,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-Big-I-126049714109818/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-Big-I-126049714109818/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-blue-loon",
@@ -2478,19 +2586,20 @@
     "lat": 64.8341,
     "lng": -147.726,
     "website": "https://theblueloon.com",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/blueloonfairbanks",
     "capacity": 500,
     "indoor": true,
     "aliases": [
       "the blue loon"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/blueloonfairbanks/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://theblueloon.com for event calendar."
+    "scrapeNotes": "Check https://theblueloon.com for event calendar.",
+    "eventsUrl": "https://theblueloon.com"
   },
   {
     "id": "the-boatel",
@@ -2513,7 +2622,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/akboatel/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/akboatel/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-crowbar",
@@ -2535,7 +2645,8 @@
       "the crowbar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TheCrowbarFBX/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TheCrowbarFBX/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-international-hotel-bar",
@@ -2545,19 +2656,20 @@
     "lat": 64.8284,
     "lng": -147.7251,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61553033183406",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "the international hotel & bar"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=61553033183406&sk=events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'The International Hotel & Bar' in Fairbanks."
+    "scrapeNotes": "Search Facebook or web for 'The International Hotel & Bar' in Fairbanks.",
+    "eventsUrl": ""
   },
   {
     "id": "the-marlin",
@@ -2582,7 +2694,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TheMarlinFairbanks/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TheMarlinFairbanks/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-palace-theater",
@@ -2592,19 +2705,20 @@
     "lat": 64.8316,
     "lng": -147.7292,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/PalaceTheaterFairbanks",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "the palace theater"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/PalaceTheaterFairbanks/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'The Palace Theater' in Fairbanks."
+    "scrapeNotes": "Search Facebook or web for 'The Palace Theater' in Fairbanks.",
+    "eventsUrl": ""
   },
   {
     "id": "the-spur",
@@ -2626,7 +2740,8 @@
       "the spur"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/TheSpurAK/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/TheSpurAK/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "university-baptist-church",
@@ -2648,7 +2763,8 @@
       "university baptist church"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/648031619271011 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/648031619271011 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "venue",
@@ -2670,7 +2786,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/venuefairbanks/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/venuefairbanks/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "chair-5",
@@ -2692,7 +2809,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/chairfive/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/chairfive/events for upcoming shows.",
+    "eventsUrl": "http://www.chairfive.com"
   },
   {
     "id": "crow-creek-mine",
@@ -2714,7 +2832,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/crowcreekmine/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/crowcreekmine/events for upcoming shows.",
+    "eventsUrl": "https://www.crowcreekgoldmine.com"
   },
   {
     "id": "girdwood-brewing-company",
@@ -2724,19 +2843,20 @@
     "lat": 60.9575,
     "lng": -149.1352,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/girdwoodbrewing",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "girdwood brewing company"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/girdwoodbrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Girdwood Brewing Company' in Girdwood."
+    "scrapeNotes": "Primary Events: Official calendar at https://girdwoodbrewing.com/events/. Also check Facebook at https://www.facebook.com/girdwoodbrewingcompany/events.",
+    "eventsUrl": "https://girdwoodbrewing.com/events/"
   },
   {
     "id": "jack-sprat",
@@ -2758,7 +2878,8 @@
     "type": "Restaurant",
     "contactPerson": "",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/jackspratak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/jackspratak/events for upcoming shows.",
+    "eventsUrl": "http://www.jacksprat.net/"
   },
   {
     "id": "the-sitzmark-bar-grill",
@@ -2781,33 +2902,35 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063525433814&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063525433814&sk=events for upcoming shows.",
+    "eventsUrl": "https://www.alyeskaresort.com/dining/the-sitzmark"
   },
   {
     "id": "aj-s-old-town-steakhouse-tavern",
-    "name": "AJ\u2019s Old Town Steakhouse & Tavern",
+    "name": "AJ’s Old Town Steakhouse & Tavern",
     "city": "Homer",
     "address": "Homer",
     "lat": 59.6451,
     "lng": -151.5439,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/ajsoldtownsteakhouse",
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "aj\u2019s old town steakhouse & tavern"
+      "aj’s old town steakhouse & tavern"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/ajsoldtownsteakhouse/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'AJ\u2019s Old Town Steakhouse & Tavern' in Homer."
+    "scrapeNotes": "Search Facebook or web for 'AJ’s Old Town Steakhouse & Tavern' in Homer.",
+    "eventsUrl": ""
   },
   {
     "id": "alibi-bar-caf",
-    "name": "Alibi Bar & Caf\u00e9",
+    "name": "Alibi Bar & Café",
     "city": "Homer",
     "address": "453 E Pioneer Ave, Homer, AK, United States, Alaska",
     "lat": 59.631,
@@ -2817,7 +2940,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "alibi bar & caf\u00e9"
+      "alibi bar & café"
     ],
     "facebookEventsUrl": "https://www.facebook.com/alibi.bar.90/events",
     "phone": "(907) 235-9199",
@@ -2825,7 +2948,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/alibi.bar.90/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/alibi.bar.90/events for upcoming shows.",
+    "eventsUrl": "https://www.alibihomer.com/"
   },
   {
     "id": "alices-champagne-palace",
@@ -2839,7 +2963,7 @@
     "capacity": 250,
     "indoor": true,
     "aliases": [
-      "alice\u2019s champagne palace",
+      "alice’s champagne palace",
       "alices champagne palace",
       "alices homer",
       "alice's homer",
@@ -2851,7 +2975,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/aliceschampagnepalace/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/aliceschampagnepalace/events for upcoming shows.",
+    "eventsUrl": "https://aliceschampagnepalace.com/"
   },
   {
     "id": "beluga-lake-lodge-bar-grill",
@@ -2873,7 +2998,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/belugalakelodgebarandgrill/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/belugalakelodgebarandgrill/events for upcoming shows.",
+    "eventsUrl": "https://www.belugalakelodging.com"
   },
   {
     "id": "homer-council-on-the-arts",
@@ -2883,19 +3009,20 @@
     "lat": 59.6347,
     "lng": -151.5516,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/HomerCouncilontheArts",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "homer council on the arts"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/HomerCouncilontheArts/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Homer Council on the Arts' in Homer."
+    "scrapeNotes": "Search Facebook or web for 'Homer Council on the Arts' in Homer.",
+    "eventsUrl": ""
   },
   {
     "id": "down-east-saloon",
@@ -2909,7 +3036,7 @@
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "justin cole\u2019s down east saloon",
+      "justin cole’s down east saloon",
       "down east saloon",
       "down east",
       "justin cole's down east saloon"
@@ -2920,7 +3047,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/downeastsaloonak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/downeastsaloonak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "kharacters-alaskan-bar",
@@ -2944,7 +3072,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/kharacters.bar/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/kharacters.bar/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "pier-one-theatre",
@@ -2954,7 +3083,7 @@
     "lat": 59.6056,
     "lng": -151.4239,
     "website": "https://pieronetheatre.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/pieronetheatre",
     "capacity": 180,
     "indoor": true,
     "aliases": [
@@ -2962,13 +3091,14 @@
       "pier one theatre homer",
       "pier one theatre"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/pieronetheatre/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://pieronetheatre.org/ for event calendar."
+    "scrapeNotes": "Check https://pieronetheatre.org/ for event calendar.",
+    "eventsUrl": "https://pieronetheatre.org/"
   },
   {
     "id": "pratt-museum",
@@ -2978,7 +3108,7 @@
     "lat": 59.645,
     "lng": -151.5564,
     "website": "https://www.prattmuseum.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/PrattMuseum",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -2986,13 +3116,14 @@
       "pratt museum botanical garden",
       "pratt museum"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/PrattMuseum/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.prattmuseum.org/ for event calendar."
+    "scrapeNotes": "Check https://www.prattmuseum.org/ for event calendar.",
+    "eventsUrl": "https://www.prattmuseum.org/"
   },
   {
     "id": "the-green-can-ak",
@@ -3014,11 +3145,12 @@
       "the green can ak"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thegreencanak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thegreencanak/events for upcoming shows.",
+    "eventsUrl": "https://thegreencanak.com/?fbclid=IwAR0dNomauL7y0Sf-9mLT-I-OQwonqzRqJwj_OMyXCDZ_dVBVwx97TxhlGr8"
   },
   {
     "id": "creekbend-caf",
-    "name": "Creekbend Caf\u00e9",
+    "name": "Creekbend Café",
     "city": "Hope",
     "address": "22064 2nd St, Hope, AK 99605",
     "lat": 60.9203,
@@ -3028,7 +3160,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "creekbend caf\u00e9"
+      "creekbend café"
     ],
     "facebookEventsUrl": "https://www.facebook.com/creekbendco/events",
     "phone": "(907) 782-3274",
@@ -3036,7 +3168,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/creekbendco/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/creekbendco/events for upcoming shows.",
+    "eventsUrl": "https://www.creekbendco.com"
   },
   {
     "id": "creekbend-company",
@@ -3062,7 +3195,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/creekbendcompany/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/creekbendcompany/events for upcoming shows.",
+    "eventsUrl": "https://creekbendco.com/"
   },
   {
     "id": "dirty-skillet",
@@ -3072,7 +3206,7 @@
     "lat": 60.9203,
     "lng": -149.6403,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TheDirtySkillet",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -3080,58 +3214,61 @@
       "dirty skillet hope",
       "dirty skillet"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TheDirtySkillet/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Dirty Skillet' in Hope."
+    "scrapeNotes": "Search Facebook or web for 'Dirty Skillet' in Hope.",
+    "eventsUrl": ""
   },
   {
     "id": "seaview-historic-caf-campground",
-    "name": "Seaview Historic Caf\u00e9 & Campground",
+    "name": "Seaview Historic Café & Campground",
     "city": "Hope",
     "address": "Main St, Hope, AK 99605",
     "lat": 60.9215,
     "lng": -149.6415,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063714275034",
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "seaview historic caf\u00e9 & campground"
+      "seaview historic café & campground"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100063714275034&sk=events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Seaview Historic Caf\u00e9 & Campground' in Hope."
+    "scrapeNotes": "Search Facebook or web for 'Seaview Historic Café & Campground' in Hope.",
+    "eventsUrl": ""
   },
   {
     "id": "the-seaview-caf",
-    "name": "The Seaview Caf\u00e9",
+    "name": "The Seaview Café",
     "city": "Hope",
     "address": "Main St, Hope, AK 99605",
     "lat": 60.9215,
     "lng": -149.6415,
     "website": "http://www.seaviewcafealaska.com/events",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063714275034",
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "the seaview caf\u00e9",
+      "the seaview café",
       "Seaview"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100063714275034/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check http://www.seaviewcafealaska.com/events for event calendar."
+    "scrapeNotes": "Primary Events: Website schedule at http://www.seaviewcafealaska.com/events and Facebook at https://www.facebook.com/profile.php?id=100063714275034.",
+    "eventsUrl": "http://www.seaviewcafealaska.com/events"
   },
   {
     "id": "houston-lodge",
@@ -3153,7 +3290,8 @@
       "houston lodge"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thehoustonlodgeak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thehoustonlodgeak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "alaskan-hotel-and-bar",
@@ -3180,7 +3318,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thealaskanhotel/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thealaskanhotel/events for upcoming shows.",
+    "eventsUrl": "https://thealaskanhotel.com/"
   },
   {
     "id": "amalga-distillery",
@@ -3190,20 +3329,21 @@
     "lat": 58.2994,
     "lng": -134.4053,
     "website": "https://amalgadistillery.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/amalgadistillery",
     "capacity": 80,
     "indoor": true,
     "aliases": [
       "amalga",
       "amalga distillery"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/amalgadistillery/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://amalgadistillery.com/ for event calendar."
+    "scrapeNotes": "Check https://amalgadistillery.com/ for event calendar.",
+    "eventsUrl": "https://amalgadistillery.com/"
   },
   {
     "id": "centennial-hall-convention-center",
@@ -3225,7 +3365,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Centennial-Hall-Convention-Center-113881478643854/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Centennial-Hall-Convention-Center-113881478643854/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "eaglecrest-ski-area",
@@ -3247,7 +3388,8 @@
       "eaglecrest ski area"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/EaglecrestSkiArea/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/EaglecrestSkiArea/events for upcoming shows.",
+    "eventsUrl": "https://skieaglecrest.com"
   },
   {
     "id": "gold-town-theater",
@@ -3257,7 +3399,7 @@
     "lat": 58.3002,
     "lng": -134.4055,
     "website": "https://goldtowntheater.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/GoldTownNickelodeon",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -3265,13 +3407,14 @@
       "gold town theatre",
       "gold town theater"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/GoldTownNickelodeon/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://goldtowntheater.org/ for event calendar."
+    "scrapeNotes": "Check https://goldtowntheater.org/ for event calendar.",
+    "eventsUrl": "https://goldtowntheater.org/"
   },
   {
     "id": "juneau-arts-and-culture-center",
@@ -3293,7 +3436,8 @@
       "juneau arts & culture center"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/2526117200988194 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/2526117200988194 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "juneau-arts-and-humanities",
@@ -3315,7 +3459,8 @@
       "juneau arts and humanities"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/2661515423930846 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/2661515423930846 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "kuneix-hidi-northen-light-united-church",
@@ -3324,20 +3469,21 @@
     "address": "Juneau",
     "lat": 58.2975,
     "lng": -134.432,
-    "website": "",
-    "facebookUrl": "",
+    "website": "https://khnluc.org",
+    "facebookUrl": "https://www.facebook.com/people/Kuneix-Hidi-Northern-Light-United-Church/100064434237894/",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "kuneix hidi northen light united church"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/people/Kuneix-Hidi-Northern-Light-United-Church/100064434237894/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kuneix Hidi Northen Light United Church' in Juneau."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/people/Kuneix-Hidi-Northern-Light-United-Church/100064434237894/ and website at https://khnluc.org.",
+    "eventsUrl": "https://khnluc.org"
   },
   {
     "id": "red-dog-saloon",
@@ -3359,7 +3505,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/RedDogSaloonAlaska/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/RedDogSaloonAlaska/events for upcoming shows.",
+    "eventsUrl": "https://www.reddogsaloon.com"
   },
   {
     "id": "roma-bistro-on-the-wharf",
@@ -3381,7 +3528,8 @@
       "roma bistro on the wharf"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/RomaBistroJuneau/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/RomaBistroJuneau/events for upcoming shows.",
+    "eventsUrl": "http://www.bistroroma.com/"
   },
   {
     "id": "the-crystal-saloon",
@@ -3407,7 +3555,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thecrystalsaloon/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thecrystalsaloon/events for upcoming shows.",
+    "eventsUrl": "https://crystalsaloon.com/"
   },
   {
     "id": "the-narrows-bar",
@@ -3430,7 +3579,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thenarrowsbaralaska/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thenarrowsbaralaska/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "kasilof-dock-rv-park",
@@ -3439,7 +3589,7 @@
     "address": "Kasilof River Rd, Kasilof, AK 99610",
     "lat": 60.3183,
     "lng": -151.2725,
-    "website": "",
+    "website": "http://kasilofdock.com",
     "facebookUrl": "",
     "capacity": null,
     "indoor": true,
@@ -3452,36 +3602,38 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kasilof Dock RV Park' in Kasilof."
+    "scrapeNotes": "Primary Events: Rock the Dock summer concert series. Check website at http://kasilofdock.com and Facebook group posts for Kenai Peninsula Music Scene.",
+    "eventsUrl": "http://kasilofdock.com"
   },
   {
     "id": "duck-inn-cafe",
-    "name": "Duck Inn Caf\u00e9",
+    "name": "Duck Inn Café",
     "city": "Kenai",
     "address": "43585 Kalifornsky Beach Rd, Kenai, AK 99611",
     "lat": 60.5211,
     "lng": -151.2111,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063639487138",
     "capacity": 100,
     "indoor": true,
     "aliases": [
       "duck inn cafe",
       "the duck inn",
       "duck inn caf",
-      "duck inn caf\u00e9"
+      "duck inn café"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100063639487138&sk=events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Duck Inn Caf\u00e9' in Kenai."
+    "scrapeNotes": "Search Facebook or web for 'Duck Inn Café' in Kenai.",
+    "eventsUrl": ""
   },
   {
     "id": "george-s-night-club",
-    "name": "George\u2019s Night Club",
+    "name": "George’s Night Club",
     "city": "Kenai",
     "address": "Kenai",
     "lat": 60.5455,
@@ -3491,7 +3643,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "george\u2019s night club"
+      "george’s night club"
     ],
     "facebookEventsUrl": "https://www.facebook.com/BAclubbing/events",
     "phone": "",
@@ -3499,7 +3651,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/BAclubbing/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/BAclubbing/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "kenai-chamber-of-commerce-visitor-center",
@@ -3508,20 +3661,21 @@
     "address": "Kenai",
     "lat": 60.5413,
     "lng": -151.2681,
-    "website": "",
-    "facebookUrl": "",
+    "website": "http://kenaichamber.org",
+    "facebookUrl": "https://www.facebook.com/Kenaichamber/",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "kenai chamber of commerce & visitor center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/Kenaichamber/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kenai Chamber of Commerce & Visitor Center' in Kenai."
+    "scrapeNotes": "Primary Events: Facebook page at https://www.facebook.com/Kenaichamber/ and website calendar at http://kenaichamber.org.",
+    "eventsUrl": "http://kenaichamber.org"
   },
   {
     "id": "kenai-community-library",
@@ -3531,19 +3685,20 @@
     "lat": 60.5534,
     "lng": -151.2721,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/KenaiCommunityLibrary",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "kenai community library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/KenaiCommunityLibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kenai Community Library' in Kenai."
+    "scrapeNotes": "Search Facebook or web for 'Kenai Community Library' in Kenai.",
+    "eventsUrl": ""
   },
   {
     "id": "kenai-elks-lodge",
@@ -3553,19 +3708,20 @@
     "lat": 60.5528,
     "lng": -151.2625,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/KenaiElks",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "kenai elks lodge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/KenaiElks/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kenai Elks Lodge' in Kenai."
+    "scrapeNotes": "Search Facebook or web for 'Kenai Elks Lodge' in Kenai.",
+    "eventsUrl": ""
   },
   {
     "id": "kenai-joes-taphouse",
@@ -3579,7 +3735,7 @@
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "kenai joe\u2019s taphouse",
+      "kenai joe’s taphouse",
       "kenai joes",
       "kenai joe's",
       "Kenai Joes Taphouse",
@@ -3591,7 +3747,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Kenai-Joes-Taphouse-622283848286680/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Kenai-Joes-Taphouse-622283848286680/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "kenai-kombucha",
@@ -3613,7 +3770,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/kenaikombucha907/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/kenaikombucha907/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "main-street-tap-grill",
@@ -3623,19 +3781,20 @@
     "lat": 60.5563,
     "lng": -151.2665,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/mainstreettapandgrill",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "main street tap & grill"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/mainstreettapandgrill/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Main Street Tap & Grill' in Kenai."
+    "scrapeNotes": "Search Facebook or web for 'Main Street Tap & Grill' in Kenai.",
+    "eventsUrl": ""
   },
   {
     "id": "place-motel-bar-and-grill",
@@ -3657,7 +3816,8 @@
       "place motel bar & grill"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/763705697430129 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/763705697430129 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "skeets-dive-bar",
@@ -3667,21 +3827,22 @@
     "lat": 60.5544,
     "lng": -151.2583,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063468516091",
     "capacity": 100,
     "indoor": true,
     "aliases": [
-      "skeet\u2019s dive bar",
+      "skeet’s dive bar",
       "skeets dive bar",
       "skeet's dive bar"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100063468516091&sk=events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Skeet's Dive Bar' in Kenai."
+    "scrapeNotes": "Search Facebook or web for 'Skeet's Dive Bar' in Kenai.",
+    "eventsUrl": ""
   },
   {
     "id": "the-bow",
@@ -3703,7 +3864,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thebowbar/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thebowbar/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-bow-bar",
@@ -3725,7 +3887,8 @@
       "the bow bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/thebowbar/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/thebowbar/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-vagabond-inn",
@@ -3747,7 +3910,8 @@
       "the vagabond inn"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-Vagabond-Inn-154602657940476/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-Vagabond-Inn-154602657940476/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-white-moose",
@@ -3769,7 +3933,8 @@
       "the white moose"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/White-Moose-101237021848656/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/White-Moose-101237021848656/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "krbd-105-3-fm",
@@ -3779,7 +3944,7 @@
     "lat": 55.3461,
     "lng": -131.6464,
     "website": "https://www.krbd.org/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/KRBDradio/",
     "capacity": 50,
     "indoor": true,
     "aliases": [
@@ -3788,13 +3953,14 @@
       "krbd",
       "105.3 fm krbd community radio"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/KRBDradio/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.krbd.org/ for event calendar."
+    "scrapeNotes": "Primary Events: Community calendar at https://www.krbd.org/ and Facebook updates at https://www.facebook.com/KRBDradio/.",
+    "eventsUrl": "https://www.krbd.org/"
   },
   {
     "id": "arctic-bar",
@@ -3804,19 +3970,20 @@
     "lat": 55.3363,
     "lng": -131.644,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/ArcticBarKetchikan",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "arctic bar"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/ArcticBarKetchikan/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Arctic Bar' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Arctic Bar' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "bush-pilots-lounge",
@@ -3826,21 +3993,22 @@
     "lat": 55.3422,
     "lng": -131.6461,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/bushpilotslounge",
     "capacity": 80,
     "indoor": true,
     "aliases": [
-      "bush pilots\u2019 lounge",
+      "bush pilots’ lounge",
       "bush pilots lounge",
       "bush pilots' lounge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/bushpilotslounge/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Bush Pilots' Lounge' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Bush Pilots' Lounge' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "hole-in-the-wall",
@@ -3862,7 +4030,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Hole in the Wall' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Hole in the Wall' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "inn-at-creek-street",
@@ -3871,20 +4040,21 @@
     "address": "Ketchikan",
     "lat": 55.3385,
     "lng": -131.658,
-    "website": "",
-    "facebookUrl": "",
+    "website": "https://creekstreet.com",
+    "facebookUrl": "https://www.facebook.com/people/The-Inn-at-Creek-Street/100064049877405/",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "inn at creek street"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/people/The-Inn-at-Creek-Street/100064049877405/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Inn at Creek Street' in Ketchikan."
+    "scrapeNotes": "Primary Events: Check website at https://creekstreet.com and Facebook at https://www.facebook.com/people/The-Inn-at-Creek-Street/100064049877405/.",
+    "eventsUrl": "https://creekstreet.com"
   },
   {
     "id": "ketchikan-dock",
@@ -3906,7 +4076,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Ketchikan Dock' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Ketchikan Dock' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "creek-street-cabaret",
@@ -3916,7 +4087,7 @@
     "lat": 55.3411,
     "lng": -131.6433,
     "website": "https://www.creekstreetcabaret.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/creekstreetcabaret",
     "capacity": 120,
     "indoor": true,
     "aliases": [
@@ -3924,17 +4095,18 @@
       "creek street cabaret",
       "the creek street cabaret"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/creekstreetcabaret/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.creekstreetcabaret.com/ for event calendar."
+    "scrapeNotes": "Check https://www.creekstreetcabaret.com/ for event calendar.",
+    "eventsUrl": "https://www.creekstreetcabaret.com/"
   },
   {
     "id": "the-new-york-caf",
-    "name": "The New York Caf\u00e9",
+    "name": "The New York Café",
     "city": "Ketchikan",
     "address": "Ketchikan",
     "lat": 55.3411,
@@ -3944,7 +4116,7 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "the new york caf\u00e9"
+      "the new york café"
     ],
     "facebookEventsUrl": "",
     "phone": "",
@@ -3952,7 +4124,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'The New York Caf\u00e9' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'The New York Café' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "tongass-historical-museum",
@@ -3974,7 +4147,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Tongass Historical Museum' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Tongass Historical Museum' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "totem-bar",
@@ -3984,19 +4158,20 @@
     "lat": 55.328,
     "lng": -131.6534,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/totembarketchikan",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "totem bar"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/totembarketchikan/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Totem Bar' in Ketchikan."
+    "scrapeNotes": "Search Facebook or web for 'Totem Bar' in Ketchikan.",
+    "eventsUrl": ""
   },
   {
     "id": "the-rendezvous-kodiak",
@@ -4006,20 +4181,21 @@
     "lat": 57.79,
     "lng": -152.4072,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TheRendezvousBar",
     "capacity": 120,
     "indoor": true,
     "aliases": [
       "the rendezvous",
       "rendezvous kodiak"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TheRendezvousBar/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'The Rendezvous' in Kodiak."
+    "scrapeNotes": "Search Facebook or web for 'The Rendezvous' in Kodiak.",
+    "eventsUrl": ""
   },
   {
     "id": "the-golden-saloon",
@@ -4029,7 +4205,7 @@
     "lat": 61.4319,
     "lng": -142.9242,
     "website": "https://mccarthycenter.com/dining/golden-saloon/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TheGoldenSaloon",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -4038,13 +4214,14 @@
       "5-the-golden-saloon",
       "the golden saloon"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TheGoldenSaloon/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://mccarthycenter.com/dining/golden-saloon/ for event calendar."
+    "scrapeNotes": "Check https://mccarthycenter.com/dining/golden-saloon/ for event calendar.",
+    "eventsUrl": "https://mccarthycenter.com/dining/golden-saloon/"
   },
   {
     "id": "north-pole-alehouse",
@@ -4054,20 +4231,21 @@
     "lat": 64.7511,
     "lng": -147.3494,
     "website": "https://northpolealehouse.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/northpolealehouse",
     "capacity": 150,
     "indoor": true,
     "aliases": [
       "the north pole alehouse",
       "north pole alehouse"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/northpolealehouse/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://northpolealehouse.com/ for event calendar."
+    "scrapeNotes": "Check https://northpolealehouse.com/ for event calendar.",
+    "eventsUrl": "https://northpolealehouse.com/"
   },
   {
     "id": "summit-church",
@@ -4089,7 +4267,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Summit Church' in North Pole."
+    "scrapeNotes": "Search Facebook or web for 'Summit Church' in North Pole.",
+    "eventsUrl": ""
   },
   {
     "id": "203-kombucha",
@@ -4113,7 +4292,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/203kombucha/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/203kombucha/events for upcoming shows.",
+    "eventsUrl": "https://www.203kombucha.com/"
   },
   {
     "id": "alaska-state-fairgrounds",
@@ -4139,7 +4319,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/alaskastatefair/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/alaskastatefair/events for upcoming shows.",
+    "eventsUrl": "https://www.alaskastatefair.org/"
   },
   {
     "id": "american-legion-post-15",
@@ -4163,7 +4344,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/aklegion15/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/aklegion15/events for upcoming shows.",
+    "eventsUrl": "https://alaskapost15.org/"
   },
   {
     "id": "bleeding-heart-brewery",
@@ -4173,19 +4355,20 @@
     "lat": 61.5879,
     "lng": -149.122,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/BleedingHeartBrewery",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "bleeding heart brewery"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/BleedingHeartBrewery/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Bleeding Heart Brewery' in Palmer."
+    "scrapeNotes": "Search Facebook or web for 'Bleeding Heart Brewery' in Palmer.",
+    "eventsUrl": ""
   },
   {
     "id": "borealis-theatre-alaska-state-fair",
@@ -4195,19 +4378,20 @@
     "lat": 61.594,
     "lng": -149.1131,
     "website": "https://www.alaskastatefair.org",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/alaskastatefair",
     "capacity": 6000,
     "indoor": false,
     "aliases": [
       "borealis theatre (alaska state fair)"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/alaskastatefair/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.alaskastatefair.org for event calendar."
+    "scrapeNotes": "Check https://www.alaskastatefair.org for event calendar.",
+    "eventsUrl": "https://www.alaskastatefair.org"
   },
   {
     "id": "fishhook-bar-grill",
@@ -4217,20 +4401,21 @@
     "lat": 61.6144,
     "lng": -149.0911,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/FishhookBarAndGrill",
     "capacity": 100,
     "indoor": true,
     "aliases": [
       "fishhook bar",
       "fishhook bar & grill"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/FishhookBarAndGrill/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Fishhook Bar & Grill' in Palmer."
+    "scrapeNotes": "Search Facebook or web for 'Fishhook Bar & Grill' in Palmer.",
+    "eventsUrl": ""
   },
   {
     "id": "four-corners-lounge",
@@ -4244,7 +4429,7 @@
     "capacity": 120,
     "indoor": true,
     "aliases": [
-      "four corner\u2019s lounge",
+      "four corner’s lounge",
       "four corners lounge",
       "four corners",
       "four corner's lounge"
@@ -4255,7 +4440,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/FourCornersLounge/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/FourCornersLounge/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "glenn-massay-theater",
@@ -4280,7 +4466,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/GlennMassayTheater/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/GlennMassayTheater/events for upcoming shows.",
+    "eventsUrl": "https://www.glennmassaytheater.com/"
   },
   {
     "id": "hatcher-pass-lodge",
@@ -4290,24 +4477,25 @@
     "lat": 61.7611,
     "lng": -149.2789,
     "website": "https://hatcherpasslodge.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/hatcherpasslodge",
     "capacity": 100,
     "indoor": true,
     "aliases": [
       "hatcher pass lodge",
       "hatcher pass"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/hatcherpasslodge/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://hatcherpasslodge.com/ for event calendar."
+    "scrapeNotes": "Check https://hatcherpasslodge.com/ for event calendar.",
+    "eventsUrl": "https://hatcherpasslodge.com/"
   },
   {
     "id": "klondike-mike-s-and-the-main-street-grill",
-    "name": "Klondike Mike\u2019s And The Main Street Grill",
+    "name": "Klondike Mike’s And The Main Street Grill",
     "city": "Palmer",
     "address": "820 S Colony Way, Palmer, AK 99645",
     "lat": 61.586,
@@ -4317,8 +4505,8 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "klondike mike\u2019s and the main street grill",
-      "Klondike Mike\u2019s"
+      "klondike mike’s and the main street grill",
+      "Klondike Mike’s"
     ],
     "facebookEventsUrl": "https://www.facebook.com/klondikemikes.dancehall/events",
     "phone": "",
@@ -4326,7 +4514,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/klondikemikes.dancehall/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/klondikemikes.dancehall/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "musk-ox-farm",
@@ -4348,7 +4537,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/muskoxfarm.org/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/muskoxfarm.org/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "palmer-alehouse",
@@ -4372,7 +4562,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/palmeralehouse/events for upcoming shows."
+    "scrapeNotes": "Primary Events: Live music calendar at https://palmeralehouse.com/live-music/. Also check Facebook at https://www.facebook.com/palmeralehouse/events.",
+    "eventsUrl": "https://palmeralehouse.com/live-music/"
   },
   {
     "id": "spurs-bar-and-grill",
@@ -4394,7 +4585,8 @@
       "spurs bar and grill"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/events/482886869277705 for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/events/482886869277705 for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "linwood-bar-grill",
@@ -4404,7 +4596,7 @@
     "lat": 59.4386,
     "lng": -151.7114,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/LinwoodBarAndGrill",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -4413,13 +4605,14 @@
       "linwood",
       "linwood bar & grill"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/LinwoodBarAndGrill/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Linwood Bar & Grill' in Seldovia."
+    "scrapeNotes": "Search Facebook or web for 'Linwood Bar & Grill' in Seldovia.",
+    "eventsUrl": ""
   },
   {
     "id": "alaska-sealife-center",
@@ -4444,7 +4637,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/AlaskaSeaLifeCenter/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/AlaskaSeaLifeCenter/events for upcoming shows.",
+    "eventsUrl": "https://www.alaskasealife.org/"
   },
   {
     "id": "breeze-inn-seward",
@@ -4454,7 +4648,7 @@
     "lat": 60.1203,
     "lng": -149.4411,
     "website": "https://breezeinn.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/BreezeInnSeward",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -4463,13 +4657,14 @@
       "breeze inn lounge",
       "breeze inn seward"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/BreezeInnSeward/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://breezeinn.com/ for event calendar."
+    "scrapeNotes": "Check https://breezeinn.com/ for event calendar.",
+    "eventsUrl": "https://breezeinn.com/"
   },
   {
     "id": "flamingo-lounge",
@@ -4479,7 +4674,7 @@
     "lat": 60.1042,
     "lng": -149.4422,
     "website": "https://www.flamingoloungeak.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/flamingoloungeak",
     "capacity": 120,
     "indoor": true,
     "aliases": [
@@ -4487,13 +4682,14 @@
       "flamingo lounge seward",
       "flamingo lounge"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/flamingoloungeak/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.flamingoloungeak.com/ for event calendar."
+    "scrapeNotes": "Check https://www.flamingoloungeak.com/ for event calendar.",
+    "eventsUrl": "https://www.flamingoloungeak.com/"
   },
   {
     "id": "pit-bar",
@@ -4515,7 +4711,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/pitbarandliquor/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/pitbarandliquor/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "resurrect-art-coffee-house-gallery",
@@ -4537,7 +4734,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/RezArtSeward/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/RezArtSeward/events for upcoming shows.",
+    "eventsUrl": "https://resurrectart.com"
   },
   {
     "id": "seward-alehouse",
@@ -4559,7 +4757,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/sewardalehouse.alaska/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/sewardalehouse.alaska/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "seward-senior-center",
@@ -4569,19 +4768,20 @@
     "lat": 60.0927,
     "lng": -149.444,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/SewardSeniorCenter",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "seward senior center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/SewardSeniorCenter/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Seward Senior Center' in Seward."
+    "scrapeNotes": "Search Facebook or web for 'Seward Senior Center' in Seward.",
+    "eventsUrl": ""
   },
   {
     "id": "yukon-bar",
@@ -4606,7 +4806,8 @@
     "contactPerson": "Michelle Saltz (GM)",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/yukon.bar/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/yukon.bar/events for upcoming shows.",
+    "eventsUrl": "https://www.facebook.com/YukonBarSeward"
   },
   {
     "id": "harrigan-centennial-hall",
@@ -4628,7 +4829,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/HarriganCentennialHall/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/HarriganCentennialHall/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "odess-theater",
@@ -4638,7 +4840,7 @@
     "lat": 57.0506,
     "lng": -135.3283,
     "website": "https://fineartscamp.org/odess-theater/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/fineartscamp",
     "capacity": 350,
     "indoor": true,
     "aliases": [
@@ -4646,13 +4848,14 @@
       "sitka fine arts camp",
       "odess theater"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/fineartscamp/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://fineartscamp.org/odess-theater/ for event calendar."
+    "scrapeNotes": "Check https://fineartscamp.org/odess-theater/ for event calendar.",
+    "eventsUrl": "https://fineartscamp.org/odess-theater/"
   },
   {
     "id": "sitka-performing-arts-center",
@@ -4674,7 +4877,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/SitkaPerformingArtsCenter/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/SitkaPerformingArtsCenter/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "skagway-brewing",
@@ -4684,7 +4888,7 @@
     "lat": 59.4583,
     "lng": -135.3139,
     "website": "https://www.skagwaybrewing.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/skagwaybrewing",
     "capacity": 200,
     "indoor": true,
     "aliases": [
@@ -4692,13 +4896,14 @@
       "skagway brewing co",
       "skagway brewing company"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/skagwaybrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.skagwaybrewing.com/ for event calendar."
+    "scrapeNotes": "Check https://www.skagwaybrewing.com/ for event calendar.",
+    "eventsUrl": "https://www.skagwaybrewing.com/"
   },
   {
     "id": "skagway-library",
@@ -4708,19 +4913,20 @@
     "lat": 59.4583,
     "lng": -135.314,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/skagwaylibrary",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "skagway library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/skagwaylibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Skagway Library' in Skagway."
+    "scrapeNotes": "Search Facebook or web for 'Skagway Library' in Skagway.",
+    "eventsUrl": ""
   },
   {
     "id": "4-royle-parkers-bar",
@@ -4742,11 +4948,12 @@
       "4 royle parkers bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063703084104&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063703084104&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "duck-inn-caf-lounge-and-motel",
-    "name": "Duck Inn Caf\u00e9, Lounge, & Motel",
+    "name": "Duck Inn Café, Lounge, & Motel",
     "city": "Soldotna",
     "address": "43187 Kalifornsky Beach Rd, Soldotna, AK, United States, Alaska",
     "lat": 60.4878,
@@ -4761,10 +4968,11 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "duck inn caf\u00e9, lounge, & motel"
+      "duck inn café, lounge, & motel"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063639487138&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063639487138&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "farnsworth-park",
@@ -4774,19 +4982,20 @@
     "lat": 60.4908,
     "lng": -151.0711,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/CityofSoldotna",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "farnsworth park"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/CityofSoldotna/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Farnsworth Park' in Soldotna."
+    "scrapeNotes": "Search Facebook or web for 'Farnsworth Park' in Soldotna.",
+    "eventsUrl": ""
   },
   {
     "id": "kenai-river-brewing-company",
@@ -4796,19 +5005,20 @@
     "lat": 60.4841,
     "lng": -151.0704,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/KenaiRiverBrewingCompany",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "kenai river brewing company"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/KenaiRiverBrewingCompany/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kenai River Brewing Company' in Soldotna."
+    "scrapeNotes": "Search Facebook or web for 'Kenai River Brewing Company' in Soldotna.",
+    "eventsUrl": ""
   },
   {
     "id": "soldotna-creek-park",
@@ -4831,7 +5041,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Soldotnawednesdaymarket/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Soldotnawednesdaymarket/events for upcoming shows.",
+    "eventsUrl": "https://www.soldotna.org/parks"
   },
   {
     "id": "soldotna-public-library",
@@ -4841,7 +5052,7 @@
     "lat": 60.4807,
     "lng": -151.0664,
     "website": "https://www.soldotna.org/library",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/SoldotnaPublicLibrary",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -4849,13 +5060,14 @@
       "the soldotna library",
       "soldotna public library"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/SoldotnaPublicLibrary/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.soldotna.org/library for event calendar."
+    "scrapeNotes": "Check https://www.soldotna.org/library for event calendar.",
+    "eventsUrl": "https://www.soldotna.org/library"
   },
   {
     "id": "the-catch-restaurant-and-bar",
@@ -4877,7 +5089,8 @@
       "the catch restaurant & bar"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063553344917&sk=events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/profile.php?id=100063553344917&sk=events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "the-goods",
@@ -4887,7 +5100,7 @@
     "lat": 60.4878,
     "lng": -151.0583,
     "website": "https://thegoodssoldotna.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/thegoodssoldotna",
     "capacity": 60,
     "indoor": true,
     "aliases": [
@@ -4895,13 +5108,14 @@
       "the goods soldotna",
       "the goods - sustainable grocery & cafe"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/thegoodssoldotna/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://thegoodssoldotna.com/ for event calendar."
+    "scrapeNotes": "Check https://thegoodssoldotna.com/ for event calendar.",
+    "eventsUrl": "https://thegoodssoldotna.com/"
   },
   {
     "id": "the-maverick-saloon",
@@ -4923,7 +5137,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/The-Maverick-Saloon-174521682590300/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/The-Maverick-Saloon-174521682590300/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "lakeside-falls",
@@ -4945,7 +5160,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Lakeside Falls' in Sterling."
+    "scrapeNotes": "Search Facebook or web for 'Lakeside Falls' in Sterling.",
+    "eventsUrl": ""
   },
   {
     "id": "naptowne-brewing-company",
@@ -4955,7 +5171,7 @@
     "lat": 60.5367,
     "lng": -150.7639,
     "website": "https://naptownebrewing.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/naptownebrewing",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -4963,13 +5179,14 @@
       "naptowne brewery",
       "naptowne brewing company"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/naptownebrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://naptownebrewing.com/ for event calendar."
+    "scrapeNotes": "Check https://naptownebrewing.com/ for event calendar.",
+    "eventsUrl": "https://naptownebrewing.com/"
   },
   {
     "id": "denali-brewing-company",
@@ -4994,7 +5211,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/denalibrewingco/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/denalibrewingco/events for upcoming shows.",
+    "eventsUrl": "https://denalibrewing.com/"
   },
   {
     "id": "denali-education-center",
@@ -5004,19 +5222,20 @@
     "lat": 62.317,
     "lng": -150.1114,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/DenaliEducationCenter",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "denali education center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/DenaliEducationCenter/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Denali Education Center' in Talkeetna."
+    "scrapeNotes": "Search Facebook or web for 'Denali Education Center' in Talkeetna.",
+    "eventsUrl": ""
   },
   {
     "id": "fairview-inn",
@@ -5041,7 +5260,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/denali.inn/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/denali.inn/events for upcoming shows.",
+    "eventsUrl": "https://fairviewinnak.com/"
   },
   {
     "id": "mountain-high-pizza-pie",
@@ -5051,7 +5271,7 @@
     "lat": 62.3239,
     "lng": -150.1139,
     "website": "https://www.mountainhighpizza.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/mountainhighpizzapie",
     "capacity": 100,
     "indoor": true,
     "aliases": [
@@ -5059,13 +5279,14 @@
       "mountain high",
       "mountain high pizza pie"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/mountainhighpizzapie/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.mountainhighpizza.com/ for event calendar."
+    "scrapeNotes": "Check https://www.mountainhighpizza.com/ for event calendar.",
+    "eventsUrl": "https://www.mountainhighpizza.com/"
   },
   {
     "id": "talkeetna-fairview-inn",
@@ -5075,19 +5296,20 @@
     "lat": 62.3245,
     "lng": -150.117,
     "website": "https://fairviewinn.net",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/denali.inn",
     "capacity": 200,
     "indoor": true,
     "aliases": [
       "talkeetna fairview inn"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/denali.inn/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://fairviewinn.net for event calendar."
+    "scrapeNotes": "Check https://fairviewinn.net for event calendar.",
+    "eventsUrl": "https://fairviewinn.net"
   },
   {
     "id": "talkeetna-village-park",
@@ -5097,20 +5319,21 @@
     "lat": 62.3209,
     "lng": -150.1097,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/TalkeetnaCommunityPark",
     "capacity": 400,
     "indoor": false,
     "aliases": [
       "talkeetna village park",
       "live at five talkeetna"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/TalkeetnaCommunityPark/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Talkeetna Village Park' in Talkeetna."
+    "scrapeNotes": "Search Facebook or web for 'Talkeetna Village Park' in Talkeetna.",
+    "eventsUrl": ""
   },
   {
     "id": "magpies-on-the-fly",
@@ -5132,7 +5355,8 @@
       "magpies on the fly"
     ],
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/Magpiesonthefly/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/Magpiesonthefly/events for upcoming shows.",
+    "eventsUrl": "https://www.magpiesonthefly.com"
   },
   {
     "id": "valdez-brewing",
@@ -5142,7 +5366,7 @@
     "lat": 61.1308,
     "lng": -146.3483,
     "website": "https://valdezbrewing.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/valdezbrewing",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -5150,13 +5374,14 @@
       "valdez brewery",
       "valdez brewing"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/valdezbrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://valdezbrewing.com/ for event calendar."
+    "scrapeNotes": "Check https://valdezbrewing.com/ for event calendar.",
+    "eventsUrl": "https://valdezbrewing.com/"
   },
   {
     "id": "black-birch-books",
@@ -5166,20 +5391,21 @@
     "lat": 61.5644,
     "lng": -149.3789,
     "website": "https://blackbirchbooks.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/blackbirchbooks",
     "capacity": 60,
     "indoor": true,
     "aliases": [
       "black birch bookstore",
       "black birch books"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/blackbirchbooks/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://blackbirchbooks.com/ for event calendar."
+    "scrapeNotes": "Check https://blackbirchbooks.com/ for event calendar.",
+    "eventsUrl": "https://blackbirchbooks.com/"
   },
   {
     "id": "curtis-d-memorial-sports-center",
@@ -5189,19 +5415,20 @@
     "lat": 61.5744,
     "lng": -149.4517,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/CurtisMenardCenter",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "curtis d memorial sports center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/CurtisMenardCenter/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Curtis D Memorial Sports Center' in Wasilla."
+    "scrapeNotes": "Search Facebook or web for 'Curtis D Memorial Sports Center' in Wasilla.",
+    "eventsUrl": ""
   },
   {
     "id": "everetts",
@@ -5215,7 +5442,7 @@
     "capacity": 180,
     "indoor": true,
     "aliases": [
-      "everett\u2019s",
+      "everett’s",
       "everett's restaurant",
       "mat-su resort",
       "everett's"
@@ -5226,29 +5453,31 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/EverettsMatSu/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/EverettsMatSu/events for upcoming shows.",
+    "eventsUrl": "https://www.everettsak.com/"
   },
   {
     "id": "ken-s-garden-center",
-    "name": "Ken\u2019s Garden Center",
+    "name": "Ken’s Garden Center",
     "city": "Wasilla",
     "address": "Wasilla",
     "lat": 61.5702,
     "lng": -149.4378,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/KensGardenCenter",
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "ken\u2019s garden center"
+      "ken’s garden center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/KensGardenCenter/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Ken\u2019s Garden Center' in Wasilla."
+    "scrapeNotes": "Search Facebook or web for 'Ken’s Garden Center' in Wasilla.",
+    "eventsUrl": ""
   },
   {
     "id": "kids-cupboard",
@@ -5270,7 +5499,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Kids Cupboard' in Wasilla."
+    "scrapeNotes": "Search Facebook or web for 'Kids Cupboard' in Wasilla.",
+    "eventsUrl": ""
   },
   {
     "id": "last-frontier-brewing-company",
@@ -5280,7 +5510,7 @@
     "lat": 61.5714,
     "lng": -149.4122,
     "website": "https://lastfrontierbrewing.com/",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/lastfrontierbrewing",
     "capacity": 150,
     "indoor": true,
     "aliases": [
@@ -5288,13 +5518,14 @@
       "last frontier brewery",
       "last frontier brewing company"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/lastfrontierbrewing/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://lastfrontierbrewing.com/ for event calendar."
+    "scrapeNotes": "Check https://lastfrontierbrewing.com/ for event calendar.",
+    "eventsUrl": "https://lastfrontierbrewing.com/"
   },
   {
     "id": "mug-shot-saloon",
@@ -5319,7 +5550,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/mugshotak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/mugshotak/events for upcoming shows.",
+    "eventsUrl": "http://www.mugshotak.com"
   },
   {
     "id": "schwabenhof",
@@ -5344,11 +5576,12 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/SchwabsAlaska/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/SchwabsAlaska/events for upcoming shows.",
+    "eventsUrl": "https://www.schwabenhof.org/?fbclid=IwAR398709wxRSrtiAWCjQ_S-xHS7hX1BAN_Z1KT1P_KPUlJXjNXXEZP2z4a4"
   },
   {
     "id": "settler-s-bay",
-    "name": "Settler\u2019s Bay",
+    "name": "Settler’s Bay",
     "city": "Wasilla",
     "address": "Wasilla",
     "lat": 61.5683,
@@ -5358,8 +5591,8 @@
     "capacity": null,
     "indoor": true,
     "aliases": [
-      "settler\u2019s bay",
-      "Settler\u2019s Bay\u00a0\u2013"
+      "settler’s bay",
+      "Settler’s Bay –"
     ],
     "facebookEventsUrl": "https://www.facebook.com/SettlersBayGolfCourse/events",
     "phone": "",
@@ -5367,7 +5600,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/SettlersBayGolfCourse/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/SettlersBayGolfCourse/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "summit-worship-center",
@@ -5389,7 +5623,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Summit Worship Center' in Wasilla."
+    "scrapeNotes": "Search Facebook or web for 'Summit Worship Center' in Wasilla.",
+    "eventsUrl": ""
   },
   {
     "id": "tailgaters-sports-bar-grill",
@@ -5411,7 +5646,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/tailgatersak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/tailgatersak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "tug-bar-liquor-goose-bay-inn",
@@ -5421,19 +5657,20 @@
     "lat": 61.5784,
     "lng": -149.448,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100057311146105",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "tug bar & liquor- goose bay inn"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/profile.php?id=100057311146105&sk=events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Tug Bar & Liquor- Goose Bay Inn' in Wasilla."
+    "scrapeNotes": "Search Facebook or web for 'Tug Bar & Liquor- Goose Bay Inn' in Wasilla.",
+    "eventsUrl": ""
   },
   {
     "id": "sheep-creek-lodge",
@@ -5455,7 +5692,8 @@
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Check https://www.facebook.com/sheepcreeklodgeak/events for upcoming shows."
+    "scrapeNotes": "Check https://www.facebook.com/sheepcreeklodgeak/events for upcoming shows.",
+    "eventsUrl": ""
   },
   {
     "id": "willow-community-center",
@@ -5465,18 +5703,19 @@
     "lat": 61.7456,
     "lng": -150.0384,
     "website": "",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/WillowCommunityCenter",
     "capacity": null,
     "indoor": true,
     "aliases": [
       "willow community center"
     ],
-    "facebookEventsUrl": "",
+    "facebookEventsUrl": "https://www.facebook.com/WillowCommunityCenter/events",
     "phone": "",
     "email": "",
     "contactPerson": "",
     "type": "Live Music Venue",
     "amenities": [],
-    "scrapeNotes": "Search Facebook or web for 'Willow Community Center' in Willow."
+    "scrapeNotes": "Search Facebook or web for 'Willow Community Center' in Willow.",
+    "eventsUrl": ""
   }
 ]
