@@ -1,57 +1,32 @@
 [
   {
-    "id": "9170",
-    "date": "2021-08-04",
-    "city": "Moose Pass",
-    "venue": "Trail Lake Lodge",
-    "category": "music",
-    "title": "Roses’s Pawn Shop",
-    "time": "6p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=369020141453674&set=pb.100050370734796.-2207520000..&type=3",
-    "cost": ""
-  },
-  {
-    "id": "27515",
-    "date": "2024-06-19",
-    "city": "Moose Pass",
-    "venue": "Trail Lake Lodge",
-    "category": "music",
-    "title": "Roland Roberts Band",
-    "time": "8p-12a",
-    "ticketUrl": "https://www.facebook.com/events/981846426913889",
-    "cost": ""
-  },
-  {
-    "id": "45643",
-    "date": "2026-06-24",
-    "city": "Moose Pass",
-    "venue": "North Peninsula Recreation Area",
-    "category": "music",
     "title": "Family Fun in the Midnight Sun",
+    "venue": "North Peninsula Recreation Area",
+    "city": "Moose Pass",
+    "date": "2026-06-24",
     "time": "12p-5p",
     "ticketUrl": "https://www.facebook.com/events/1603728224071606/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
     "cost": ""
   },
   {
-    "id": "45649",
-    "date": "2026-06-24",
-    "city": "Moose Pass",
-    "venue": "Mile 29.5 Seward Hwy",
-    "category": "festival",
     "title": "2026 Moose Pass Summer Solstice Festival",
+    "venue": "Mile 29.5 Seward Hwy",
+    "city": "Moose Pass",
+    "date": "2026-06-24",
     "time": "12p-9p",
     "ticketUrl": "https://www.facebook.com/moosepasssummersolsticefestival",
+    "category": "festival",
     "cost": ""
   },
   {
-    "id": "47369",
-    "date": "2026-08-05",
-    "city": "Moose Pass",
-    "venue": "Nikiski High School",
-    "category": "music",
     "title": "Nikiski Days 2026: Industry Days",
+    "venue": "Nikiski High School",
+    "city": "Moose Pass",
+    "date": "2026-08-05",
     "time": "11a-?",
     "ticketUrl": "https://www.facebook.com/events/3436058973227523/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
     "cost": ""
   }
 ]

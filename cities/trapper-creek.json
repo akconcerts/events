@@ -1,46 +1,42 @@
 [
   {
-    "id": "47922",
+    "title": "Trapper Creek Bluegrass Revival",
+    "venue": "Boots Bison Ranch",
+    "city": "Trapper Creek",
     "date": "2026-08-13",
-    "city": "Trapper Creek",
-    "venue": "Boots Bison Ranch",
-    "category": "music",
-    "title": "Trapper Creek Bluegrass Revival",
     "time": "TBD",
     "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
-    "id": "47991",
+    "title": "Trapper Creek Bluegrass Revival",
+    "venue": "Boots Bison Ranch",
+    "city": "Trapper Creek",
     "date": "2026-08-14",
-    "city": "Trapper Creek",
-    "venue": "Boots Bison Ranch",
-    "category": "music",
-    "title": "Trapper Creek Bluegrass Revival",
     "time": "TBD",
     "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
-    "id": "48080",
+    "title": "Trapper Creek Bluegrass Revival",
+    "venue": "Boots Bison Ranch",
+    "city": "Trapper Creek",
     "date": "2026-08-15",
-    "city": "Trapper Creek",
-    "venue": "Boots Bison Ranch",
-    "category": "music",
-    "title": "Trapper Creek Bluegrass Revival",
     "time": "TBD",
     "ticketUrl": "",
+    "category": "music",
     "cost": ""
   },
   {
-    "id": "48117",
-    "date": "2026-08-16",
-    "city": "Trapper Creek",
-    "venue": "Boots Bison Ranch",
-    "category": "music",
     "title": "Trapper Creek Bluegrass Revival",
+    "venue": "Boots Bison Ranch",
+    "city": "Trapper Creek",
+    "date": "2026-08-16",
     "time": "TBD",
     "ticketUrl": "",
+    "category": "music",
     "cost": ""
   }
 ]
