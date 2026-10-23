@@ -22988,5 +22988,125 @@
     "ticketUrl": "https://www.facebook.com/SchwabsAlaska",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Live Music With Drew Sablon",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2026-10-22",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1461395916200255/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Drew Sablon Live",
+    "venue": "Last Frontier Brewing Company",
+    "city": "Wasilla",
+    "date": "2026-10-23",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1772173457420751/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nightmare at the Museum",
+    "venue": "Museum of Alaska Transportation & Industry",
+    "city": "Wasilla",
+    "date": "2026-10-23",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1537541697855117/1537541731188447/?event_time_id=1537541731188447",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Comedy Show w/ Matt Bergman",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2026-10-23",
+    "time": "7:30p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1123791776891756/",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-10-23",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Trunk or Treat",
+    "venue": "Historic Wasilla Train Depot",
+    "city": "Wasilla",
+    "date": "2026-10-24",
+    "time": "3p-5p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1831744045625658&set=a.488834746583268",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Sergio Live",
+    "venue": "Last Frontier Brewing Company",
+    "city": "Wasilla",
+    "date": "2026-10-24",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1603555584882582/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nightmare at the Museum",
+    "venue": "Museum of Alaska Transportation & Industry",
+    "city": "Wasilla",
+    "date": "2026-10-24",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1537541697855117/1537541731188447/?event_time_id=1537541734521780",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime at Ken’s",
+    "venue": "Ken’s Garden Center",
+    "city": "Wasilla",
+    "date": "2026-10-27",
+    "time": "10a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1439153171253533/1439153297920187/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday Night w/ Live Music",
+    "venue": "Tug Bar & Liquor- Goose Bay Inn",
+    "city": "Wasilla",
+    "date": "2026-10-27",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100057311146105",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-10-27",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-10-28",
+    "time": "7:30p-11p",
+    "ticketUrl": "https://www.facebook.com/SchwabsAlaska",
+    "category": "music",
+    "cost": ""
   }
 ]

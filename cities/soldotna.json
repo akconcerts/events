@@ -7728,5 +7728,65 @@
     "ticketUrl": "https://www.facebook.com/events/1351235743801978/1351235783801974/?acontext=%257B%2522event_action_history%2522%253A%5B%257B%2522mechanism%2522%253A%2522surface%2522%252C%2522surface%2522%253A%2522permalink%2522%257D%5D%252C%2522ref_notif_type%2522%253Anull%257D",
     "category": "community",
     "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-22",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.soldotna.org/departments/library/index.php",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Not-Too-Spooky Story Time & Gentle Maze",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-22",
+    "time": "4p-5p",
+    "ticketUrl": "https://www.facebook.com/events/1648182826904394/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "The Killer Comedy Show",
+    "venue": "Orca Theatre",
+    "city": "Soldotna",
+    "date": "2026-10-24",
+    "time": "9:30p-11:30p",
+    "ticketUrl": "https://www.rubberptarmigan.com/events/the-killer-komedy-show-orca-theater-oct-2026",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "Royle Parkers",
+    "city": "Soldotna",
+    "date": "2026-10-26",
+    "time": "5p-7:30p",
+    "ticketUrl": "https://www.facebook.com/michael.j.morgan.509/posts/pfbid02DRrVP1SMtDhLjKyAzpBH9c4v3Sjke7FEKHHA2zvnk2LLBFSd3ammM7KnFgwXGgwpl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-27",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2595189504251468/2595189524251466/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-28",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1351235743801978/1351235803801972/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
   }
 ]

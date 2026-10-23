@@ -358,5 +358,15 @@
     "ticketUrl": "https://www.linwoodbar.com/events/",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Book Club: Night Magic Adventures....and Marvels of the Dark",
+    "venue": "Seldovia Public Library",
+    "city": "Seldovia",
+    "date": "2026-10-22",
+    "time": "6:30p-8p",
+    "ticketUrl": "https://www.facebook.com/events/843080141762886/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
   }
 ]

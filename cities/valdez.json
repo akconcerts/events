@@ -1308,5 +1308,15 @@
     "ticketUrl": "https://www.facebook.com/events/1524131432753538/1524131462753535/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
     "category": "festival",
     "cost": ""
+  },
+  {
+    "title": "Liam Purcell & Cane Mill Road",
+    "venue": "Valdez Civic and Convention Center",
+    "city": "Valdez",
+    "date": "2026-10-26",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1099951542955746/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
   }
 ]

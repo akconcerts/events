@@ -338,5 +338,25 @@
     "ticketUrl": "https://www.tuzzy.org/home",
     "category": "community",
     "cost": ""
+  },
+  {
+    "title": "Storytime & Crafternoon",
+    "venue": "Tuzzy Consortium Library",
+    "city": "Barrow",
+    "date": "2026-10-24",
+    "time": "1p-2p",
+    "ticketUrl": "https://www.tuzzy.org/home",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Vampires & Chicken Nuggets: A Thematic Book Club: Rainbows",
+    "venue": "Tuzzy Consortium Library",
+    "city": "Barrow",
+    "date": "2026-10-26",
+    "time": "6p-7p",
+    "ticketUrl": "https://www.tuzzy.org/home",
+    "category": "community",
+    "cost": ""
   }
 ]

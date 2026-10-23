@@ -4924,7 +4924,7 @@
     "venue": "Kenai Chamber of Commerce and Visitor Center",
     "city": "Kenai",
     "date": "2025-12-03",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1487045522336819/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "festival",
     "cost": ""
@@ -4934,7 +4934,7 @@
     "venue": "Kenai Chamber of Commerce and Visitor Center",
     "city": "Kenai",
     "date": "2025-12-03",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1413774160394839/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "community",
     "cost": ""
@@ -4954,7 +4954,7 @@
     "venue": "Kenai Chamber of Commerce and Visitor Center",
     "city": "Kenai",
     "date": "2025-12-10",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1325112872531411/",
     "category": "community",
     "cost": ""
@@ -4974,7 +4974,7 @@
     "venue": "Kenai Chamber of Commerce and Visitor Center",
     "city": "Kenai",
     "date": "2025-12-17",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/815801537978475",
     "category": "community",
     "cost": ""
@@ -5024,7 +5024,7 @@
     "venue": "Skeet's Dive Bar",
     "city": "Kenai",
     "date": "2025-12-24",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/photo/?fbid=122145355550886843&set=a.122095879568886843",
     "category": "dance",
     "cost": ""
@@ -5064,7 +5064,7 @@
     "venue": "Kenai Community Library",
     "city": "Kenai",
     "date": "2025-12-31",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/3209157139245930/3209157155912595/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "community",
     "cost": ""
@@ -6540,11 +6540,91 @@
     "cost": ""
   },
   {
+    "title": "Comedian Matt Bergman",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-10-22",
+    "time": "7p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100083135836810",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Haunted Chamber (Jump Scares)",
     "venue": "Kenai Chamber of Commerce & Visitor Center",
     "city": "Kenai",
     "date": "2026-10-23",
     "time": "12p-9p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jim Maloney Band",
+    "venue": "Main Street Tap & Grill",
+    "city": "Kenai",
+    "date": "2026-10-23",
+    "time": "6:30p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100083135836810",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Kenai Kids at BGCKP Trunk or Treat!",
+    "venue": "Old Carrs Mall",
+    "city": "Kenai",
+    "date": "2026-10-24",
+    "time": "12p-3p",
+    "ticketUrl": "https://www.facebook.com/events/1876746793314002/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Jump Scares)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-24",
+    "time": "12p-9p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Family Friendly)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-25",
+    "time": "10p-5p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Family Friendly)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-26",
+    "time": "10p-5p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Family Friendly)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-27",
+    "time": "10p-5p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Family Friendly)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-28",
+    "time": "10p-5p",
     "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
     "category": "music",
     "cost": ""

@@ -17728,5 +17728,75 @@
     "ticketUrl": "https://www.facebook.com/downeastsaloonak",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Community Jam Sessions",
+    "venue": "Homer Council on the Arts",
+    "city": "Homer",
+    "date": "2026-10-22",
+    "time": "6:30p-9p",
+    "ticketUrl": "https://www.facebook.com/HomerCouncilontheArts",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Piano Music by Erica",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "city": "Homer",
+    "date": "2026-10-22",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Alibi Bar & Café",
+    "city": "Homer",
+    "date": "2026-10-22",
+    "time": "9p-12:30a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1073663334268454&set=gm.2791803464328542",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Goth Party",
+    "venue": "Kharacters Alaskan Bar",
+    "city": "Homer",
+    "date": "2026-10-24",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/kharacters.bar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Piano Music by Sunrise Kilcher",
+    "venue": "AJ’s Old Town Steakhouse & Tavern",
+    "city": "Homer",
+    "date": "2026-10-24",
+    "time": "6p-8p",
+    "ticketUrl": "https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Homer OPUS Presents The Raven: Spooky Strings Concert",
+    "venue": "West Homer High School",
+    "city": "Homer",
+    "date": "2026-10-27",
+    "time": "5:30p",
+    "ticketUrl": "https://www.facebook.com/events/1562911235584350/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday's with Jim Maloney",
+    "venue": "Justin Cole's Down East Saloon",
+    "city": "Homer",
+    "date": "2026-10-27",
+    "time": "6:30p-10p",
+    "ticketUrl": "https://www.facebook.com/downeastsaloonak",
+    "category": "music",
+    "cost": ""
   }
 ]

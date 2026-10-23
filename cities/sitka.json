@@ -2058,5 +2058,15 @@
     "ticketUrl": "https://www.facebook.com/alaskadaysitka",
     "category": "festival",
     "cost": ""
+  },
+  {
+    "title": "Sitka Whale Fest",
+    "venue": "Downtown Sitka",
+    "city": "Sitka",
+    "date": "2026-11-05",
+    "time": "TBD",
+    "ticketUrl": "https://sitkaarts.com/events/",
+    "category": "festival",
+    "cost": ""
   }
 ]

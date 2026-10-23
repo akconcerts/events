@@ -10264,7 +10264,7 @@
     "venue": "Chugiak-Eagle River Library",
     "city": "Eagle River",
     "date": "2026-02-12",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "",
     "category": "community",
     "cost": ""
@@ -10874,7 +10874,7 @@
     "venue": "Chugiak-Eagle River Library",
     "city": "Eagle River",
     "date": "2026-03-12",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "",
     "category": "community",
     "cost": ""
@@ -11074,7 +11074,7 @@
     "venue": "Chugiak-Eagle River Library",
     "city": "Eagle River",
     "date": "2026-04-01",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/2053312078780860/2053312115447523/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "community",
     "cost": ""
@@ -11134,7 +11134,7 @@
     "venue": "Chugiak-Eagle River Library",
     "city": "Eagle River",
     "date": "2026-04-08",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1528219862300847/1528219865634180/",
     "category": "community",
     "cost": ""
@@ -11234,7 +11234,7 @@
     "venue": "Chugiak-Eagle River Library",
     "city": "Eagle River",
     "date": "2026-04-15",
-    "time": "10:30a-11p",
+    "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1528219862300847/1528219865634180/",
     "category": "community",
     "cost": ""
@@ -13784,6 +13784,96 @@
     "venue": "Homestead Lounge",
     "city": "Eagle River",
     "date": "2026-10-21",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dance Lessons with Shufflin Country Style",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-22",
+    "time": "8p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Country Night w/ DJ AumanJoy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-22",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Vintage Retro",
+    "venue": "VFW Post 9785",
+    "city": "Eagle River",
+    "date": "2026-10-23",
+    "time": "7:30-11:30 pm",
+    "ticketUrl": "https://www.thevintageretroband.com/showschedule/1c2vols9ei7bdhr9sbkmt66fdpnbsu",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ VinDaKid Halloween Bash",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-10-23",
+    "time": "9 pm",
+    "ticketUrl": "https://www.facebook.com/events/1975229719818245",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ AumanJoy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-23",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Carter Winter Live w/ Schaefer Mueller",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-10-24",
+    "time": "8 pm",
+    "ticketUrl": "https://www.facebook.com/events/1659993911858063/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "DJ Auman Joy",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-24",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Mondays",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-10-26",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=10239098468293971&set=gm.1304112024989228",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night w/ KJ Smoke",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-28",
     "time": "8p-12a",
     "ticketUrl": "https://www.facebook.com/HomesteadLounge",
     "category": "music",

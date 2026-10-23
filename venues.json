@@ -1565,9 +1565,8 @@
     "capacity": 100,
     "indoor": true,
     "aliases": [
-      "the cabin",
-      "cabin bar",
-      "the cabin bar"
+      "the cabin bar",
+      "cabin bar"
     ],
     "facebookEventsUrl": "https://www.facebook.com/thecabinAK/events",
     "phone": "(907) 328-0850",
@@ -5717,5 +5716,79 @@
     "amenities": [],
     "scrapeNotes": "Search Facebook or web for 'Willow Community Center' in Willow.",
     "eventsUrl": ""
+  },
+  {
+    "id": "the-cabin-fairbanks",
+    "name": "The Cabin",
+    "city": "Fairbanks",
+    "address": "1258 S Cushman St, Fairbanks, AK 99701",
+    "lat": 64.8327,
+    "lng": -147.7171,
+    "website": "https://www.thecabinfbx.com",
+    "facebookUrl": "https://www.facebook.com/thecabinAK",
+    "capacity": 150,
+    "indoor": true,
+    "aliases": [
+      "the cabin fairbanks",
+      "the cabin lounge",
+      "cabin fairbanks"
+    ],
+    "facebookEventsUrl": "https://www.facebook.com/thecabinAK/events",
+    "phone": "(907) 328-0850",
+    "email": "thecabinfbx@gmail.com",
+    "contactPerson": "",
+    "type": "Live Music Venue",
+    "amenities": [],
+    "scrapeNotes": "Check https://www.facebook.com/thecabinAK/events for upcoming shows.",
+    "eventsUrl": "https://www.thecabinfbx.com"
+  },
+  {
+    "id": "pioneer-bar-haines",
+    "name": "Pioneer Bar",
+    "city": "Haines",
+    "address": "211 Main St, Haines, AK 99827",
+    "lat": 59.2335,
+    "lng": -135.4455,
+    "website": "https://www.facebook.com/p/The-Historic-Pioneer-Bar-100063683073016/",
+    "facebookUrl": "https://www.facebook.com/p/The-Historic-Pioneer-Bar-100063683073016/",
+    "capacity": 100,
+    "indoor": true,
+    "aliases": [
+      "pioneer bar haines",
+      "the historic pioneer bar"
+    ],
+    "facebookEventsUrl": "https://www.facebook.com/p/The-Historic-Pioneer-Bar-100063683073016/events",
+    "phone": "(907) 766-3444",
+    "email": "",
+    "contactPerson": "",
+    "type": "Bar / Pub / Lounge",
+    "amenities": [],
+    "scrapeNotes": "Historic Haines venue.",
+    "eventsUrl": "https://www.facebook.com/p/The-Historic-Pioneer-Bar-100063683073016/"
+  },
+  {
+    "id": "southeast-alaska-state-fair",
+    "name": "Southeast Alaska State Fair",
+    "city": "Haines",
+    "address": "297 Fair Dr, Haines, AK 99827",
+    "lat": 59.2393,
+    "lng": -135.4542,
+    "website": "https://seakfair.org",
+    "facebookUrl": "https://www.facebook.com/seakfair",
+    "capacity": 1500,
+    "indoor": false,
+    "aliases": [
+      "seak fair",
+      "dalton city",
+      "harriet hall"
+    ],
+    "facebookEventsUrl": "https://www.facebook.com/seakfair/events",
+    "phone": "(907) 766-2476",
+    "email": "info@seakfair.org",
+    "contactPerson": "",
+    "type": "Festival Grounds",
+    "amenities": [],
+    "scrapeNotes": "Southeast Alaska State Fair grounds and event complex in Haines.",
+    "eventsUrl": "https://seakfair.org"
   }
 ]

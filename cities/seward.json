@@ -15728,5 +15728,45 @@
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1511082391028496&set=pb.100063802472762.-2207520000",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Karaoke w/ KJ Collin",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-10-23",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1632367732233294&set=pcb.1632367838899950",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Blackwater Railroad Company",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-10-24",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/1404168868528870",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Seward Strings",
+    "venue": "Seward Senior Center",
+    "city": "Seward",
+    "date": "2026-10-26",
+    "time": "1p-4p",
+    "ticketUrl": "https://www.sewardsenior.org/calendar",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night with Braden",
+    "venue": "Yukon Bar",
+    "city": "Seward",
+    "date": "2026-10-27",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1511082391028496&set=pb.100063802472762.-2207520000",
+    "category": "music",
+    "cost": ""
   }
 ]

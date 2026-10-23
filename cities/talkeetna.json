@@ -12168,5 +12168,45 @@
     "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
     "category": "festival",
     "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2026-10-23",
+    "time": "9p-1a",
+    "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Fairview Inn",
+    "city": "Talkeetna",
+    "date": "2026-10-28",
+    "time": "9p-1a",
+    "ticketUrl": "https://fairviewtalkeetna.com/pages/live-music",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "Rocky Horror Picture Show Movie Night",
+    "venue": "Sheldon Community Arts Hangar",
+    "city": "Talkeetna",
+    "date": "2026-10-30",
+    "time": "10p",
+    "ticketUrl": "https://www.facebook.com/events/28773393755657267",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Young Dubliners Halloween Concert",
+    "venue": "Sheldon Community Arts Hangar",
+    "city": "Talkeetna",
+    "date": "2026-10-31",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1134254632593687",
+    "category": "music",
+    "cost": ""
   }
 ]

@@ -3548,5 +3548,65 @@
     "ticketUrl": "https://www.facebook.com/events/3671096429705794/3671096453039125/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Live Music w/ Sadona Kathryn",
+    "venue": "Jack Sprat",
+    "city": "Girdwood",
+    "date": "2026-10-22",
+    "time": "6-9 pm",
+    "ticketUrl": "https://www.jacksprat.net/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Challenge Alaska Drive-In Movie Night: Teton Gravity Research & Northern Aspects Film Festival",
+    "venue": "Alyeska Resort",
+    "city": "Girdwood",
+    "date": "2026-10-23",
+    "time": "7-11 pm",
+    "ticketUrl": "https://www.alyeskaresort.com/event/challenge-alaska-drive-in-movie-nights-teton-gravity-research-northern-aspects-film-festival/",
+    "category": "festival",
+    "cost": ""
+  },
+  {
+    "title": "YMCA Annual Fall Gala: The Magic of Giving",
+    "venue": "Alyeska Resort",
+    "city": "Girdwood",
+    "date": "2026-10-24",
+    "time": "5:30p-9p",
+    "ticketUrl": "https://www.facebook.com/events/4490366367949909/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Girdwood Brewing Company",
+    "city": "Girdwood",
+    "date": "2026-10-25",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1682622413405671&set=pcb.1682622463405666",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Family Storytime",
+    "venue": "Gerrish Library",
+    "city": "Girdwood",
+    "date": "2026-10-28",
+    "time": "10:30a-11:30a",
+    "ticketUrl": "https://www.anchoragelibrary.org/events/full-calendar?eventId=20637",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Will Balcoa",
+    "venue": "Girdwood Brewing Company",
+    "city": "Girdwood",
+    "date": "2026-10-28",
+    "time": "6:30p-8:30p",
+    "ticketUrl": "https://www.facebook.com/events/3671096429705794/3671096443039126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
   }
 ]

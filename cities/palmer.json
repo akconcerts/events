@@ -29918,5 +29918,105 @@
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116%22%20%5Ct%20%22_blank",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Unplugged: Jared Woods",
+    "venue": "Palmer Alehouse",
+    "city": "Palmer",
+    "date": "2026-10-22",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1781774556468809",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Tripwire Live",
+    "venue": "Four Corner's Lounge",
+    "city": "Palmer",
+    "date": "2026-10-23",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/1645849937233869/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_invited%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1792620683925242&notif_t=plan_user_invited&ref=notif",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2026-10-23",
+    "time": "7p-11p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=883516427108237&set=pb.100063496632449.-2207520000&type=3%22%20%5Ct%20%22_blank",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Harley’s Trick or Treat & Costume Contest",
+    "venue": "Denali Harley-Davidson",
+    "city": "Palmer",
+    "date": "2026-10-24",
+    "time": "12p-4p",
+    "ticketUrl": "https://www.facebook.com/events/1140183055098289/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Solo Steve Norwood",
+    "venue": "Fishhook Bar & Grill",
+    "city": "Palmer",
+    "date": "2026-10-24",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/events/957266874104342/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_profile_plus_create%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1792380494433539&notif_t=event_profile_plus_create&ref=no",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Two-Step and Country Swing Dance Lessons!",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2026-10-24",
+    "time": "7p-8p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=956981223779042&set=gm.1748027286563468",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "American Legion Post 15 (Palmer)",
+    "city": "Palmer",
+    "date": "2026-10-24",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=883516427108237&set=pb.100063496632449.-2207520000&type=3%22%20%5Ct%20%22_blank",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ Drew Sablon",
+    "venue": "Fishhook Bar & Grill",
+    "city": "Palmer",
+    "date": "2026-10-27",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/fishhookbarandgrill/posts/pfbid0uRTHFj5xsWEbn6XQgoErDjxANwMJxt3DZo3qdZ8BdKeikYA1JdLf4ELCLS9dYeRol",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Industry Night with DJ Red",
+    "venue": "Four Corner's Lounge",
+    "city": "Palmer",
+    "date": "2026-10-27",
+    "time": "8p-?",
+    "ticketUrl": "https://www.facebook.com/FourCornersLounge%22%20%5Ct%20%22_blank",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "West Coast Sing Wednesday",
+    "venue": "Four Corner's Lounge",
+    "city": "Palmer",
+    "date": "2026-10-28",
+    "time": "7:30p-9:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116%22%20%5Ct%20%22_blank",
+    "category": "music",
+    "cost": ""
   }
 ]

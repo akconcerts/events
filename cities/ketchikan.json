@@ -7308,5 +7308,135 @@
     "ticketUrl": "https://www.facebook.com/events/1111611301854179",
     "category": "community",
     "cost": ""
+  },
+  {
+    "title": "Move 'n Groove",
+    "venue": "Ketchikan Public Library",
+    "city": "Ketchikan",
+    "date": "2026-10-22",
+    "time": "10a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1639268118243661&set=a.562318709271946",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Ketchikan Arts & Humanities Council: Arts Report",
+    "venue": "105.3 FM KRBD Community Radio",
+    "city": "Ketchikan",
+    "date": "2026-10-22",
+    "time": "8:20a-8:35a",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic w/ Evan Porter & Mario Sumner",
+    "venue": "Totem Bar",
+    "city": "Ketchikan",
+    "date": "2026-10-22",
+    "time": "8p-10p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "A Flicker of Hope: Candle Art and Story",
+    "venue": "Ketchikan Public Library",
+    "city": "Ketchikan",
+    "date": "2026-10-23",
+    "time": "3p-4p",
+    "ticketUrl": "https://www.facebook.com/events/28528795533442804/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "“Witches in Salem?” A Kayhi Drama",
+    "venue": "Kayhi Auditorium",
+    "city": "Ketchikan",
+    "date": "2026-10-23",
+    "time": "7p-8:30p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/23/-witches-in-salem-kayhi-drama/580453",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Senior Carnival 2026",
+    "venue": "Ketchikan High School",
+    "city": "Ketchikan",
+    "date": "2026-10-24",
+    "time": "2p-6p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/24/kayhi-senior-carnival-2026/580770",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "“Witches in Salem?” A Kayhi Drama",
+    "venue": "Kayhi Auditorium",
+    "city": "Ketchikan",
+    "date": "2026-10-24",
+    "time": "7p-8:30p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/24/-witches-in-salem-kayhi-drama/580454",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "The Longhorn String Trio",
+    "venue": "Saxman Tribal House",
+    "city": "Ketchikan",
+    "date": "2026-10-24",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/24/island-music-longhorn-string-trio/580110",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night w/ Joe Williams",
+    "venue": "The Creek Street Cabaret",
+    "city": "Ketchikan",
+    "date": "2026-10-25",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/2217503775324671/2217503855324663/?active_tab=about",
+    "category": "comedy",
+    "cost": ""
+  },
+  {
+    "title": "Kayhi Drama Kings Performance",
+    "venue": "Kayhi Auditorium",
+    "city": "Ketchikan",
+    "date": "2026-10-25",
+    "time": "7p-8:30p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/25/kayhi-drama-kings-performance/573508",
+    "category": "theatre",
+    "cost": ""
+  },
+  {
+    "title": "Bat Craftivity",
+    "venue": "Ketchikan Public Library",
+    "city": "Ketchikan",
+    "date": "2026-10-27",
+    "time": "4p",
+    "ticketUrl": "https://www.facebook.com/events/1637056421413978/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "The Ukulele Group",
+    "venue": "Inn at Creek Street",
+    "city": "Ketchikan",
+    "date": "2026-10-28",
+    "time": "3:45p-4:45p",
+    "ticketUrl": "https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/calendar/2026/9",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Little Boo's Move 'n Groove",
+    "venue": "Ketchikan Public Library",
+    "city": "Ketchikan",
+    "date": "2026-10-29",
+    "time": "10a",
+    "ticketUrl": "https://www.facebook.com/events/2349695472502213/",
+    "category": "community",
+    "cost": ""
   }
 ]

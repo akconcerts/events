@@ -8,6 +8,62 @@
     <atom:link href="https://raw.githubusercontent.com/akconcerts/events/main/events.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title><![CDATA[Sitka Whale Fest — Downtown Sitka (Sitka)]]></title>
+      <description><![CDATA[Date: 2026-11-05 | Venue: Downtown Sitka, Sitka | Category: festival | Time: TBD]]></description>
+      <link>https://sitkaarts.com/events/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Young Dubliners Halloween Concert — Sheldon Community Arts Hangar (Talkeetna)]]></title>
+      <description><![CDATA[Date: 2026-10-31 | Venue: Sheldon Community Arts Hangar, Talkeetna | Category: music | Time: 8p-11p]]></description>
+      <link>https://www.facebook.com/events/1134254632593687</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Rocky Horror Picture Show Movie Night — Sheldon Community Arts Hangar (Talkeetna)]]></title>
+      <description><![CDATA[Date: 2026-10-30 | Venue: Sheldon Community Arts Hangar, Talkeetna | Category: community | Time: 10p]]></description>
+      <link>https://www.facebook.com/events/28773393755657267</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Little Boo's Move 'n Groove — Ketchikan Public Library (Ketchikan)]]></title>
+      <description><![CDATA[Date: 2026-10-29 | Venue: Ketchikan Public Library, Ketchikan | Category: community | Time: 10a]]></description>
+      <link>https://www.facebook.com/events/2349695472502213/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Open Mic — Schwabenhof (Wasilla)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Schwabenhof, Wasilla | Category: music | Time: 7:30p-11p]]></description>
+      <link>https://www.facebook.com/SchwabsAlaska</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Open Mic Night — Fairview Inn (Talkeetna)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Fairview Inn, Talkeetna | Category: festival | Time: 9p-1a]]></description>
+      <link>https://fairviewtalkeetna.com/pages/live-music</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Bouncing Babes Story Time — Soldotna Public Library (Soldotna)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Soldotna Public Library, Soldotna | Category: community | Time: 10:30a-11a]]></description>
+      <link>https://www.facebook.com/events/1351235743801978/1351235803801972/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[West Coast Sing Wednesday — Four Corner's Lounge (Palmer)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Four Corner's Lounge, Palmer | Category: music | Time: 7:30p-9:30p]]></description>
+      <link>https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116%22%20%5Ct%20%22_blank</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title><![CDATA[Bandits on the Run — Gerarld C. Wilson Auditorium (Kodiak)]]></title>
       <description><![CDATA[Date: 2026-10-28 | Venue: Gerarld C. Wilson Auditorium, Kodiak | Category: community | Time: 7p]]></description>
       <link>https://www.facebook.com/events/1008025092025868</link>
@@ -15,697 +71,641 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Haunted Chamber (Jump Scares) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
-      <description><![CDATA[Date: 2026-10-23 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 12p-9p]]></description>
-      <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Haunted Chamber (Family Friendly) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
-      <description><![CDATA[Date: 2026-10-22 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
-      <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Open Mic — Schwabenhof (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Schwabenhof, Wasilla | Category: music | Time: 7:30p-11p]]></description>
-      <link>https://www.facebook.com/SchwabsAlaska</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Open Mic Night — Fairview Inn (Talkeetna)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Fairview Inn, Talkeetna | Category: festival | Time: 9p-1a]]></description>
-      <link>https://fairviewtalkeetna.com/pages/live-music</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Bouncing Babes Story Time — Soldotna Public Library (Soldotna)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Soldotna Public Library, Soldotna | Category: community | Time: 10:30a-11a]]></description>
-      <link>https://www.facebook.com/events/1351235743801978/1351235783801974/?acontext=%257B%2522event_action_history%2522%253A%5B%257B%2522mechanism%2522%253A%2522surface%2522%252C%2522surface%2522%253A%2522permalink%2522%257D%5D%252C%2522ref_notif_type%2522%253Anull%257D</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[West Coast Sing Wednesday — Four Corner's Lounge (Palmer)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Four Corner's Lounge, Palmer | Category: music | Time: 7:30p-9:30p]]></description>
-      <link>https://www.facebook.com/photo/?fbid=1411992579757709&set=gm.1053059570049116%22%20%5Ct%20%22_blank</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[The Longhorn String Trio — Ketchikan Public Library (Ketchikan)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Ketchikan Public Library, Ketchikan | Category: community | Time: 4:30p]]></description>
-      <link>https://www.facebook.com/events/1111611301854179</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title><![CDATA[The Ukulele Group — Inn at Creek Street (Ketchikan)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Inn at Creek Street, Ketchikan | Category: music | Time: 3:45p-4:45p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Inn at Creek Street, Ketchikan | Category: music | Time: 3:45p-4:45p]]></description>
       <link>https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/calendar/2026/9</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Haunted Chamber (Family Friendly) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
       <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Alaskan Hotel and Bar (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Alaskan Hotel and Bar, Juneau | Category: music | Time: 8p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Alaskan Hotel and Bar, Juneau | Category: music | Time: 8p-11p]]></description>
       <link>https://www.thealaskanhotel.com/the-alaskan-bar/%22%20%5Ct%20%22_blank</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night — The Crystal Saloon (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 8p-11:30p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 8p-11:30p]]></description>
       <link>https://www.facebook.com/photo/?fbid=1073260615308059&set=a.160104659956997</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Vinyl Afternoon's w/ Dj Roman Martinez — The Crystal Saloon (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 5p-7p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 5p-7p]]></description>
       <link>https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Steve Norwood — Girdwood Brewing Company (Girdwood)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Girdwood Brewing Company, Girdwood | Category: music | Time: 6:30p-8:30p]]></description>
-      <link>https://www.facebook.com/events/3671096429705794/3671096453039125/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <title><![CDATA[The Eternal Cowboys — Pioneer Bar (Haines)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Pioneer Bar, Haines | Category: music | Time: 10p-1a]]></description>
+      <link>https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Will Balcoa — Girdwood Brewing Company (Girdwood)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Girdwood Brewing Company, Girdwood | Category: music | Time: 6:30p-8:30p]]></description>
+      <link>https://www.facebook.com/events/3671096429705794/3671096443039126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Family Storytime — Gerrish Library (Girdwood)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Gerrish Library, Girdwood | Category: community | Time: 10:30a-11:30a]]></description>
+      <link>https://www.anchoragelibrary.org/events/full-calendar?eventId=20637</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Live Music Wednesdays w/ The 8mm Band — The Cabin (Fairbanks)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The Cabin, Fairbanks | Category: music | Time: 9p-12a]]></description>
+      <link>https://www.facebook.com/events/1860866808611314/1860866818611313/?active_tab=about</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke Night with Rocky! — The Spur (Fairbanks)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: The Spur, Fairbanks | Category: music | Time: 8p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The Spur, Fairbanks | Category: music | Time: 8p-11p]]></description>
       <link>https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pumpkins & Pour Decisions — The International Hotel & Bar (Fairbanks)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The International Hotel & Bar, Fairbanks | Category: music | Time: 7p-10p]]></description>
+      <link>https://www.facebook.com/events/1733768324360273/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Spooktoberfest: 14 Years of HooDoo — HooDoo Brewing Company (Fairbanks)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: HooDoo Brewing Company, Fairbanks | Category: festival | Time: 6:30p-9p]]></description>
+      <link>https://www.facebook.com/events/3024231061264703/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke Night w/ KJ Smoke — Homestead Lounge (Eagle River)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Homestead Lounge, Eagle River | Category: music | Time: 8p-12a]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Homestead Lounge, Eagle River | Category: music | Time: 8p-12a]]></description>
       <link>https://www.facebook.com/HomesteadLounge</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Van's Dive Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Van's Dive Bar, Anchorage | Category: music | Time: 9p-1a]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Van's Dive Bar, Anchorage | Category: music | Time: 9p-1a]]></description>
       <link>https://www.vansdivebaralaska.com/music-schedule</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Live Music Wednesdays w/ The 8mm Band — The Cabin Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: The Cabin Bar, Anchorage | Category: music | Time: 9p-12a]]></description>
-      <link>https://www.facebook.com/events/1860866808611314/1860866815277980/?active_tab=about</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Mad Myrna's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Mad Myrna's, Anchorage | Category: music | Time: 9p-12a]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Mad Myrna's, Anchorage | Category: music | Time: 9p-12a]]></description>
       <link>https://madmyrnas.com/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Asia Garden Restaurant (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
       <link>https://asiagardenak.com/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[All Ages Line Dance Wednesdays — Pink Cadillac (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Pink Cadillac, Anchorage | Category: dance | Time: 7p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Pink Cadillac, Anchorage | Category: dance | Time: 7p-11p]]></description>
       <link>https://www.facebook.com/events/1102761979016349/1102761992349681/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Comedy Open Mic — Koot's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Koot's, Anchorage | Category: comedy | Time: 7p-10p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Koot's, Anchorage | Category: comedy | Time: 7p-10p]]></description>
       <link>https://koots.com/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Tyrone & Friends — 907 Alehouse (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: 907 Alehouse, Anchorage | Category: music | Time: 7p-10p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: 907 Alehouse, Anchorage | Category: music | Time: 7p-10p]]></description>
       <link>https://www.facebook.com/tyrone.palmer.722744</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Craft Movie Night: Practical Magic (1998) — Bear Tooth Theatrepub (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Bear Tooth Theatrepub, Anchorage | Category: theatre | Time: 6p-7:45p]]></description>
+      <link>https://beartooththeatre.filmbot.com/movies/craft-movie-night-practical-magic-1998/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Live Music at Crimson with Jared Woods & Wade Collins — Wildbirch Hotel (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Wildbirch Hotel, Anchorage | Category: music | Time: 6:30p-9:30p]]></description>
+      <link>https://www.facebook.com/events/2566548117181027/2566548127181026/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[International Folk Dancing — Anchorage Social Dance Club (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 6:30p-8p]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 6:30p-8p]]></description>
       <link>https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[AKPIRG’s Movie Night Fundraiser: Sharknado — Akela Space (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Akela Space, Anchorage | Category: community | Time: 5:30-8:30 pm]]></description>
-      <link>https://www.eventbrite.com/e/akpirgs-movie-night-fundraiser-sharknado-pg-13-tickets-2002089811521?aff=oddtdtcreator</link>
+      <title><![CDATA[Trunk or Treat — Christian Church of Anchorage (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Christian Church of Anchorage, Anchorage | Category: community | Time: 6:30p-7:30p]]></description>
+      <link>https://www.facebook.com/events/2092954894652820/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Live Music at Crimson with The Whisper Campaign6: — Wildbirch Hotel (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Wildbirch Hotel, Anchorage | Category: music | Time: 30p-9:30p]]></description>
-      <link>https://www.facebook.com/events/2566548117181027/2566548123847693/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <title><![CDATA[Children's Author & Illustrator Michaela Goade — Anchorage Loussac Library (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Anchorage Loussac Library, Anchorage | Category: community | Time: 2-3 pm]]></description>
+      <link>https://www.facebook.com/events/1628405598997902/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Storytime in the Garden — Alaska Botanical Garden (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Alaska Botanical Garden, Anchorage | Category: community | Time: 11 am-12 pm]]></description>
-      <link>https://www.alaskabg.org/upcoming-events-workshops/storytime-in-the-gardenoct21st</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Koots Karaoke — Koot's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Koot's, Anchorage | Category: music | Time: 10p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Koot's, Anchorage | Category: music | Time: 10p-2a]]></description>
       <link>https://www.facebook.com/kootsak</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[The Eternal Cowboys — Pioneer Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: Pioneer Bar, Anchorage | Category: music | Time: 10p-1a]]></description>
-      <link>https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3</link>
+      <title><![CDATA[Parachute Storytime — Muldoon Public Library (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-28 | Venue: Muldoon Public Library, Anchorage | Category: community | Time: 10:30a-11a]]></description>
+      <link>https://www.anchoragelibrary.org/events/full-calendar?eventId=20662</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Free Community Storytime — The Alaska Zoo (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-21 | Venue: The Alaska Zoo, Anchorage | Category: community | Time: 10:30a-11a]]></description>
-      <link>https://www.facebook.com/events/2118396738965650/2118396885632302/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <description><![CDATA[Date: 2026-10-28 | Venue: The Alaska Zoo, Anchorage | Category: community | Time: 10:30a-11a]]></description>
+      <link>https://www.facebook.com/events/2118396738965650/2118396882298969/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke Night — Schwabenhof (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Schwabenhof, Wasilla | Category: music | Time: 8p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Schwabenhof, Wasilla | Category: music | Time: 8p-11p]]></description>
       <link>https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Taco Tuesday Night w/ Live Music — Tug Bar & Liquor- Goose Bay Inn (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Tug Bar & Liquor- Goose Bay Inn, Wasilla | Category: music | Time: 6p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Tug Bar & Liquor- Goose Bay Inn, Wasilla | Category: music | Time: 6p-9p]]></description>
       <link>https://www.facebook.com/profile.php?id=100057311146105</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Storytime at Ken’s — Ken’s Garden Center (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Ken’s Garden Center, Wasilla | Category: community | Time: 10a-11a]]></description>
-      <link>https://www.facebook.com/events/1439153171253533/1439153287920188/?acontext=%257B%2522event_action_history%2522%253A%5B%257B%2522mechanism%2522%253A%2522surface%2522%252C%2522surface%2522%253A%2522permalink%2522%257D%5D%252C%2522ref_notif_type%2522%253Anull%257D</link>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Ken’s Garden Center, Wasilla | Category: community | Time: 10a-11a]]></description>
+      <link>https://www.facebook.com/events/1439153171253533/1439153297920187/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Kenai River Runners Weekly Run Club — Kenai River Brewing Company (Soldotna)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Kenai River Brewing Company, Soldotna | Category: community | Time: 6p-8p]]></description>
-      <link>https://www.facebook.com/profile.php?id=61590409905460</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Toddler Story Time — Soldotna Public Library (Soldotna)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Soldotna Public Library, Soldotna | Category: community | Time: 10:30a-11a]]></description>
-      <link>https://www.facebook.com/events/2595189504251468/2595189557584796/?acontext=%257B%2522event_action_history%2522%253A%5B%257B%2522mechanism%2522%253A%2522surface%2522%252C%2522surface%2522%253A%2522permalink%2522%257D%5D%252C%2522ref_notif_type%2522%253Anull%257D</link>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Soldotna Public Library, Soldotna | Category: community | Time: 10:30a-11a]]></description>
+      <link>https://www.facebook.com/events/2595189504251468/2595189524251466/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night with Braden — Yukon Bar (Seward)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Yukon Bar, Seward | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Yukon Bar, Seward | Category: music | Time: 8p-2a]]></description>
       <link>https://www.facebook.com/photo/?fbid=1511082391028496&set=pb.100063802472762.-2207520000</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Industry Night with DJ Red — Four Corner's Lounge (Palmer)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Four Corner's Lounge, Palmer | Category: music | Time: 8p-?]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Four Corner's Lounge, Palmer | Category: music | Time: 8p-?]]></description>
       <link>https://www.facebook.com/FourCornersLounge%22%20%5Ct%20%22_blank</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night w/ Drew Sablon — Fishhook Bar & Grill (Palmer)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Fishhook Bar & Grill, Palmer | Category: music | Time: 6p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Fishhook Bar & Grill, Palmer | Category: music | Time: 6p-9p]]></description>
       <link>https://www.facebook.com/fishhookbarandgrill/posts/pfbid0uRTHFj5xsWEbn6XQgoErDjxANwMJxt3DZo3qdZ8BdKeikYA1JdLf4ELCLS9dYeRol</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Bat Craftivity — Ketchikan Public Library (Ketchikan)]]></title>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Ketchikan Public Library, Ketchikan | Category: community | Time: 4p]]></description>
+      <link>https://www.facebook.com/events/1637056421413978/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Haunted Chamber (Family Friendly) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
       <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Jazz Jam Tuesday — The Crystal Saloon (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 8p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: The Crystal Saloon, Juneau | Category: music | Time: 8p-11p]]></description>
       <link>https://www.crystalsaloon.com/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Taco Tuesday's with Jim Maloney — Justin Cole's Down East Saloon (Homer)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Justin Cole's Down East Saloon, Homer | Category: music | Time: 6:30p-10p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Justin Cole's Down East Saloon, Homer | Category: music | Time: 6:30p-10p]]></description>
       <link>https://www.facebook.com/downeastsaloonak</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Homer OPUS Presents The Raven: Spooky Strings Concert — West Homer High School (Homer)]]></title>
+      <description><![CDATA[Date: 2026-10-27 | Venue: West Homer High School, Homer | Category: music | Time: 5:30p]]></description>
+      <link>https://www.facebook.com/events/1562911235584350/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Karaoke Night — The Cabin (Fairbanks)]]></title>
+      <description><![CDATA[Date: 2026-10-27 | Venue: The Cabin, Fairbanks | Category: music | Time: 7p-10p]]></description>
+      <link>https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[AK Rockstar Karaoke — The Carousel Lounge (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: The Carousel Lounge, Anchorage | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: The Carousel Lounge, Anchorage | Category: music | Time: 8p-2a]]></description>
       <link>https://www.facebook.com/akrockstarkaraoke/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Asia Garden Restaurant (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
       <link>https://asiagardenak.com/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Rope Dart Lessons w/ Jerrill — Oriental Healing Arts Center (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Oriental Healing Arts Center, Anchorage | Category: music | Time: 8:30p-10p]]></description>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Oriental Healing Arts Center, Anchorage | Category: music | Time: 8:30p-10p]]></description>
       <link>http://orientalhealingartscenter.com/assets/event-rd.jpg</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Statewide Elders & Youth Teen Dance — Alaska Native Heritage Center (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Alaska Native Heritage Center, Anchorage | Category: dance | Time: 7p-9p]]></description>
-      <link>https://www.facebook.com/events/1436412345117228/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Karaoke Night — The Cabin Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: The Cabin Bar, Anchorage | Category: music | Time: 7p-10p]]></description>
-      <link>https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[College Night 18+ — Pink Cadillac (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Pink Cadillac, Anchorage | Category: music | Time: 7p-10p]]></description>
-      <link>https://www.facebook.com/events/1537213564605897/1537213577939229/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Pink Cadillac, Anchorage | Category: music | Time: 7p-10p]]></description>
+      <link>https://www.facebook.com/events/1537213564605897/1537213571272563/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Irish Music & Dancing — Organic Oasis (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-20 | Venue: Organic Oasis, Anchorage | Category: music | Time: 6p-8p]]></description>
-      <link>https://www.facebook.com/events/2238756520191188/2238756533524520/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Organic Oasis, Anchorage | Category: music | Time: 6p-8p]]></description>
+      <link>https://www.facebook.com/events/2238756520191188/2238756563524517/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Preschool Storytime — Anchorage Loussac Library (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-27 | Venue: Anchorage Loussac Library, Anchorage | Category: community | Time: 11a-11:30a]]></description>
+      <link>https://www.anchoragelibrary.org/events/full-calendar?eventId=20251</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Liam Purcell & Cane Mill Road — Valdez Civic and Convention Center (Valdez)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Valdez Civic and Convention Center, Valdez | Category: music | Time: 7p-9p]]></description>
+      <link>https://www.facebook.com/events/1099951542955746/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Friends of Mike Morgan Song Circle — Royle Parkers (Soldotna)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Royle Parkers, Soldotna | Category: music | Time: 5p-7:30p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Royle Parkers, Soldotna | Category: music | Time: 5p-7:30p]]></description>
       <link>https://www.facebook.com/michael.j.morgan.509/posts/pfbid02DRrVP1SMtDhLjKyAzpBH9c4v3Sjke7FEKHHA2zvnk2LLBFSd3ammM7KnFgwXGgwpl</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Seward Strings — Seward Senior Center (Seward)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Seward Senior Center, Seward | Category: music | Time: 1p-4p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Seward Senior Center, Seward | Category: music | Time: 1p-4p]]></description>
       <link>https://www.sewardsenior.org/calendar</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Haunted Chamber (Family Friendly) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
       <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[RawBeats w/ Astronomar & Friends — Alaskan Hotel and Bar (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Alaskan Hotel and Bar, Juneau | Category: music | Time: 9p-?]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Alaskan Hotel and Bar, Juneau | Category: music | Time: 9p-?]]></description>
       <link>https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Bandits on the Run — The Crystal Saloon (Juneau)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: The Crystal Saloon, Juneau | Category: community | Time: 8p]]></description>
+      <link>https://banditsontherun.com/shows/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke Mondays — Odd Man Rush Brewing (Eagle River)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Odd Man Rush Brewing, Eagle River | Category: music | Time: 6p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Odd Man Rush Brewing, Eagle River | Category: music | Time: 6p-9p]]></description>
       <link>https://www.facebook.com/photo/?fbid=10239098468293971&set=gm.1304112024989228</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Vampires & Chicken Nuggets: A Thematic Book Club: Rainbows — Tuzzy Consortium Library (Barrow)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Tuzzy Consortium Library, Barrow | Category: community | Time: 6p-7p]]></description>
+      <link>https://www.tuzzy.org/home</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Asia Garden Restaurant (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Asia Garden Restaurant, Anchorage | Category: music | Time: 8p-2a]]></description>
       <link>https://asiagardenak.com/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Learn to Square Dance — Anchorage Social Dance Club (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 7p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 7p-9p]]></description>
       <link>https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[2026 Chin'an Night: Natives Got Talent! — Dena’ina Civic & Convention Center (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Dena’ina Civic & Convention Center, Anchorage | Category: music | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/28492760647012107/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <title><![CDATA[Food for Thought: Community Conversations — Umoja CoWorking (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Umoja CoWorking, Anchorage | Category: music | Time: 6p-8p]]></description>
+      <link>https://www.facebook.com/events/3600536473433306/3600536486766638/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ha-Chan, Shake Your Booty! — Bear Tooth Theatrepub (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Bear Tooth Theatrepub, Anchorage | Category: theatre | Time: 6p-8p]]></description>
+      <link>https://beartooththeatre.filmbot.com/movies/ha-chan-shake-your-booty/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Auditions for The Nutcracker & the Mouse King — TBA Theatre (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: TBA Theatre, Anchorage | Category: theatre | Time: 6p]]></description>
+      <link>https://www.facebook.com/events/1794423035202934/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Weekly Jazz Jam — Fire Island Rustic Bakeshop @ K Street (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Fire Island Rustic Bakeshop @ K Street, Anchorage | Category: festival | Time: 6:30p-9:30p]]></description>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Fire Island Rustic Bakeshop @ K Street, Anchorage | Category: festival | Time: 6:30p-9:30p]]></description>
       <link>https://akjazzworkshop.org/calendar/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Hora de Cuentos: Spanish Language Storytime — Anchorage Loussac Library (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-19 | Venue: Anchorage Loussac Library, Anchorage | Category: community | Time: 11-11:30 am]]></description>
-      <link>https://www.facebook.com/events/1016459521449472/</link>
+      <title><![CDATA[Project Homeless Connect 2026 — Egan Center (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-26 | Venue: Egan Center, Anchorage | Category: music | Time: 10a]]></description>
+      <link>https://www.facebook.com/events/27760179293575475/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Green Light Circus Workshops — Sheldon Community Arts Hangar (Talkeetna)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Sheldon Community Arts Hangar, Talkeetna | Category: community | Time: 10a-3p]]></description>
-      <link>https://www.facebook.com/events/2177058279898130</link>
+      <title><![CDATA[Kodiak Shakesbears Present: Peter and the Starcatcher — Gerarld C. Wilson Auditorium (Kodiak)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Gerarld C. Wilson Auditorium, Kodiak | Category: music | Time: 2p]]></description>
+      <link>https://kodiakshakesbears.ludus.com/index.php</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Alaska Day Festival — Downtown Sitka (Sitka)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Downtown Sitka, Sitka | Category: festival | Time: 12p-8p]]></description>
-      <link>https://www.facebook.com/alaskadaysitka</link>
+      <title><![CDATA[Kayhi Drama Kings Performance — Kayhi Auditorium (Ketchikan)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Kayhi Auditorium, Ketchikan | Category: theatre | Time: 7p-8:30p]]></description>
+      <link>https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/25/kayhi-drama-kings-performance/573508</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[October Literary Salon: Spooky Season — Palmer Brewing Company (Palmer)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Palmer Brewing Company, Palmer | Category: music | Time: 3p]]></description>
-      <link>https://www.facebook.com/events/1421213489982903/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night w/ Joe Williams — The Creek Street Cabaret (Ketchikan)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: The Creek Street Cabaret, Ketchikan | Category: comedy | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/2217503775324671/2217503868657995/?active_tab=about</link>
+      <description><![CDATA[Date: 2026-10-25 | Venue: The Creek Street Cabaret, Ketchikan | Category: comedy | Time: 6p-9p]]></description>
+      <link>https://www.facebook.com/events/2217503775324671/2217503855324663/?active_tab=about</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Jacques Longpre Matinee — Kharacters Alaskan Bar (Homer)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Kharacters Alaskan Bar, Homer | Category: music | Time: 5p-7p]]></description>
-      <link>https://www.facebook.com/kharacters.bar</link>
+      <title><![CDATA[Haunted Chamber (Family Friendly) — Kenai Chamber of Commerce & Visitor Center (Kenai)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Kenai Chamber of Commerce & Visitor Center, Kenai | Category: music | Time: 10p-5p]]></description>
+      <link>https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Spooky Space Immersive Movie for Families 3p-3:/ — Marie Drake Planetarium (Juneau)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Marie Drake Planetarium, Juneau | Category: community | Time: 45p]]></description>
+      <link>https://www.facebook.com/events/1697035561978663/1697035571978662?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mec</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Industry Night w/ Joe Brady — Pioneer Bar (Haines)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Pioneer Bar, Haines | Category: music | Time: 10p-2a]]></description>
+      <link>https://www.facebook.com/profile.php?id=100035394206580</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night — Girdwood Brewing Company (Girdwood)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Girdwood Brewing Company, Girdwood | Category: music | Time: 7p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Girdwood Brewing Company, Girdwood | Category: music | Time: 7p-9p]]></description>
       <link>https://www.facebook.com/photo?fbid=1682622413405671&set=pcb.1682622463405666</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Howl-o-Ween Hoot! — Alaska Wildlife Conservation Center (Girdwood)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Alaska Wildlife Conservation Center, Girdwood | Category: music | Time: 11a-3p]]></description>
-      <link>https://www.facebook.com/events/1591438589000997</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — The Marlin (Fairbanks)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: The Marlin, Fairbanks | Category: music | Time: 9p-?]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: The Marlin, Fairbanks | Category: music | Time: 9p-?]]></description>
       <link>https://www.facebook.com/photo/?fbid=959039397047662&set=pb.100088248302562.-2207520000</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic is Back at the Big I — The International Hotel & Bar (Fairbanks)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: The International Hotel & Bar, Fairbanks | Category: music | Time: 7p]]></description>
-      <link>https://www.facebook.com/events/1126153769867379/1126153829867373/?active_tab=about</link>
+      <description><![CDATA[Date: 2026-10-25 | Venue: The International Hotel & Bar, Fairbanks | Category: music | Time: 7p]]></description>
+      <link>https://www.facebook.com/events/1126153769867379/1126153873200702/?active_tab=about</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Not So Spooky Brewhouse Trick-Or-Treating — Humble Roots (Fairbanks)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Humble Roots, Fairbanks | Category: music | Time: 1p-4p]]></description>
+      <link>https://www.facebook.com/events/1593225222540171/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night — Susitna Brewing (Big Lake)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Susitna Brewing, Big Lake | Category: music | Time: 6p-9p]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Susitna Brewing, Big Lake | Category: music | Time: 6p-9p]]></description>
       <link>https://susitnabrewing.com/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Mad Myrna's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Mad Myrna's, Anchorage | Category: music | Time: 9p-12a]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Mad Myrna's, Anchorage | Category: music | Time: 9p-12a]]></description>
       <link>https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e982562f83&e=be0392aff7</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Karaoke — Oriental Garden (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Oriental Garden, Anchorage | Category: music | Time: 9p-1:30a]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Oriental Garden, Anchorage | Category: music | Time: 9p-1:30a]]></description>
       <link>https://www.facebook.com/Orientalgardenbestchinese</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Sunday Karaoke — The Carousel Lounge (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: The Carousel Lounge, Anchorage | Category: music | Time: 8p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: The Carousel Lounge, Anchorage | Category: music | Time: 8p-2a]]></description>
       <link>https://www.facebook.com/akrockstarkaraoke/events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic Night — Van's Dive Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Van's Dive Bar, Anchorage | Category: music | Time: 8p-11p]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Van's Dive Bar, Anchorage | Category: music | Time: 8p-11p]]></description>
       <link>https://www.facebook.com/photo/?fbid=1507990474662996&set=a.752367223558662</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Jam with Blast From The Past — Time Out Lounge (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Time Out Lounge, Anchorage | Category: music | Time: 8:30p-1a]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Time Out Lounge, Anchorage | Category: music | Time: 8:30p-1a]]></description>
       <link>https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=91844526ab&e=be0392aff7</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Open Decks w/ Beleive — Koot's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Koot's, Anchorage | Category: music | Time: 8 pm-2 am]]></description>
-      <link>https://www.instagram.com/opendecksak/</link>
+      <title><![CDATA[Dracula — TBA Theatre (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: TBA Theatre, Anchorage | Category: theatre | Time: 7p]]></description>
+      <link>https://tbatheatre.ludus.com/index.php?sections=events</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Urinetown: The Musical — Christ Community Church (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Christ Community Church, Anchorage | Category: theatre | Time: 7-9:30 pm]]></description>
-      <link>https://summittheatreproject.yapsody.com/event/index/875159/urinetown-the-musical</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[All Ages Buckarooos Night — Pink Cadillac (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Pink Cadillac, Anchorage | Category: music | Time: 6p-10p]]></description>
-      <link>https://www.facebook.com/events/1668434181079131/1668434224412460/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Pink Cadillac, Anchorage | Category: music | Time: 6p-10p]]></description>
+      <link>https://www.facebook.com/events/1668434181079131/1668434231079126/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Sunday Blues Jam w/ Rebel Blues Band — Billiard Palace (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Billiard Palace, Anchorage | Category: music | Time: 6p-10p]]></description>
-      <link>https://www.facebook.com/events/2204843740345501/2204843843678824/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Billiard Palace, Anchorage | Category: music | Time: 6p-10p]]></description>
+      <link>https://www.facebook.com/events/2204843740345501/2204843777012164/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Country Dance Nights: Line Dancing & Swing — Anchorage Social Dance Club (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 6:30p-9:30p]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Anchorage Social Dance Club, Anchorage | Category: dance | Time: 6:30p-9:30p]]></description>
       <link>https://www.facebook.com/35PlusClub/posts/pfbid036QbXpDahDNrwBLVH7oPxxDVJ9PYLoAVDbiJzYsgAjiGYG9Q25PU1q7p6MWcbUxmyl</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Classic Cinema Series,: The Thing (1982) — Bear Tooth Theatrepub (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Bear Tooth Theatrepub, Anchorage | Category: theatre | Time: 4p-5:50p]]></description>
+      <link>https://beartooththeatre.filmbot.com/movies/classic-cinema-series-the-thing-1982/</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Open Mic & Jam — VFW Post 1685 (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: VFW Post 1685, Anchorage | Category: music | Time: 4:30p-8:30p]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: VFW Post 1685, Anchorage | Category: music | Time: 4:30p-8:30p]]></description>
       <link>https://www.facebook.com/tyrone.palmer.722744</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[UAA Music Faculty Chamber Recital — UAA Recital Hall (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: UAA Recital Hall, Anchorage | Category: theatre | Time: 4-5:30p]]></description>
+      <link>https://centertix.com/events/uaa-music-faculty-chamber-recital</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Boris & Natasha's Dead-ful Disco Dance-Off — TBA Theatre (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: TBA Theatre, Anchorage | Category: dance | Time: 3p]]></description>
+      <link>https://tbatheatre.ludus.com/index.php?sections=events</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Irish Session Open Mic — Turnagain Brewing (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Turnagain Brewing, Anchorage | Category: music | Time: 3-5 pm]]></description>
+      <link>https://www.turnagainbrewing.com/events</link>
+      <guid isPermaLink="false">akconcerts-undefined</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Misery — Cyrano’s Theatre Building (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Cyrano’s Theatre Building, Anchorage | Category: theatre | Time: 3-5 pm]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Cyrano’s Theatre Building, Anchorage | Category: theatre | Time: 3-5 pm]]></description>
       <link>https://centertix.com/events/misery</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[Anchorage Symphony Orchestra: How To Train Your Dragon In Concert — Alaska Center for the Performing Arts (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Alaska Center for the Performing Arts, Anchorage | Category: music | Time: 3-4:45 pm]]></description>
-      <link>https://centertix.com/events/anchorage-symphony-how-to-train-your-dragon</link>
+      <title><![CDATA[Staff Pick Series: Treasure Planet (2002) — Bear Tooth Theatrepub (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Bear Tooth Theatrepub, Anchorage | Category: theatre | Time: 1p-2:35p]]></description>
+      <link>https://beartooththeatre.filmbot.com/movies/staff-picks-series-treasure-planet-presented-by-chef-rachel/</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title><![CDATA[A Truly Unusual Dragon: A Marionette Puppet Show — Alaska Botanical Garden (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Alaska Botanical Garden, Anchorage | Category: music | Time: 2-3 pm & 4-5 pm]]></description>
-      <link>https://www.alaskabg.org/upcoming-events-workshops/a-truly-unusual-dragon-marionette-puppet-show-1</link>
+      <title><![CDATA[Sweet Cheeks Cabaret: The Monster Mash Burlesque Brunch — Broken Blender (Anchorage)]]></title>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Broken Blender, Anchorage | Category: comedy | Time: 12:30-2 am]]></description>
+      <link>https://tickets.centertix.com/eventperformances.asp?evt=2169&_gl=1*r8lia9*_gcl_au*MTYxNTUzNjQxOC4xNzg4NTU4MTAx</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[October Fall Harvest Market — Castle on O’Malley (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Castle on O’Malley, Anchorage | Category: festival | Time: 11 am -5 pm]]></description>
-      <link>https://www.facebook.com/events/1668434181079131/1668434224412460/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Industry Night w/ Joe Brady — Pioneer Bar (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Pioneer Bar, Anchorage | Category: music | Time: 10p-2a]]></description>
-      <link>https://www.facebook.com/profile.php?id=100035394206580</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Koots Karaoke — Koot's (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Koot's, Anchorage | Category: music | Time: 10p-2a]]></description>
+      <description><![CDATA[Date: 2026-10-25 | Venue: Koot's, Anchorage | Category: music | Time: 10p-2a]]></description>
       <link>https://akconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=51fd3075bf&e=be0392aff7</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Jams For Fams: Halloween Costume Party — Bear Tooth Theatrepub (Anchorage)]]></title>
-      <description><![CDATA[Date: 2026-10-18 | Venue: Bear Tooth Theatrepub, Anchorage | Category: theatre | Time: 10 am-12 pm & 1-3 pm]]></description>
-      <link>https://www.beartoothak.com/live-events?fbclid=IwY2xjawUaurBwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMTlUSUtqbjQ1S1IzZG03VnRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe0_rXyBfXfywmr9WQOtzMIX0hbbzlSqtOUN2p4lI84trSN1iYZCI3u2wkcN0_aem_rLuADhSsnwK1BGm5YE8jGw</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[Nightmare at the Museum — Museum of Alaska Transportation & Industry (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Museum of Alaska Transportation & Industry, Wasilla | Category: music | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/1537541697855117/1537541707855116/?event_time_id=1537541711188449</link>
+      <description><![CDATA[Date: 2026-10-24 | Venue: Museum of Alaska Transportation & Industry, Wasilla | Category: music | Time: 6p-9p]]></description>
+      <link>https://www.facebook.com/events/1537541697855117/1537541731188447/?event_time_id=1537541734521780</link>
       <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Kevin Adams & Steve McCarthy Live — Last Frontier Brewing Company (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Last Frontier Brewing Company, Wasilla | Category: music | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/1633904224811248</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Jerry Wessling Band — Mug-Shot Saloon (Wasilla)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Mug-Shot Saloon, Wasilla | Category: music | Time: 10:30p-2:30a]]></description>
-      <link>https://www.facebook.com/events/1119774277193431</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Bug: A Play by Tracy Letts — Odess Theater (Sitka)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Odess Theater, Sitka | Category: theatre | Time: 7p-9p]]></description>
-      <link>https://sitkaarts.com/events/</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Seward Science Symposium — Alaska SeaLife Center (Seward)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Alaska SeaLife Center, Seward | Category: music | Time: 10a-4p]]></description>
-      <link>https://alaskasealife.ejoinme.org/2026SewardScience</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Masquerade Wine Tasting — North Pole Alehouse (North Pole)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: North Pole Alehouse, North Pole | Category: community | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/1692072912922187/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[The Monthly Grind — Saxman Tribal House (Ketchikan)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Saxman Tribal House, Ketchikan | Category: music | Time: 7p-8:30p]]></description>
-      <link>https://www.ketchikanarts.org/events-performances/full-arts-calendar.html/event/2026/10/17/the-monthly-grind/573217</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Alaska Day Ball — Centennial Hall Convention Center (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Centennial Hall Convention Center, Juneau | Category: music | Time: 7p-11p]]></description>
-      <link>https://www.facebook.com/photo?fbid=1590784059755239&set=pcb.1590784439755201</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Night of Fright — Eaglecrest Ski Area (Juneau)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Eaglecrest Ski Area, Juneau | Category: music | Time: 6p-9p]]></description>
-      <link>https://www.facebook.com/events/2120961368545115/2120961378545114/?active_tab=about</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[October Community Dance — Homer Senior Center (Homer)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Homer Senior Center, Homer | Category: dance | Time: 7p-9:30p]]></description>
-      <link>https://stayhappening.com/e/october-community-dance-at-hsc-E2ISYX5MHB4</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Piano Music by Sunrise Kilcher — AJ’s Old Town Steakhouse & Tavern (Homer)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: AJ’s Old Town Steakhouse & Tavern, Homer | Category: music | Time: 6p-8p]]></description>
-      <link>https://www.homeralaska.org/event/piano-by-sunrise-kilcher/19/</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Alien Invasion with Hot Mess — Kharacters Alaskan Bar (Homer)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Kharacters Alaskan Bar, Homer | Category: music | Time: 10p-2a]]></description>
-      <link>https://www.facebook.com/kharacters.bar</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Rachel Blackwell: Improper Woman — Pakalolo Coffeeshop (Fairbanks)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: Pakalolo Coffeeshop, Fairbanks | Category: music | Time: 7p-9p]]></description>
-      <link>https://www.rubberptarmigan.com/events/rachel-blackwell-improper-woman-pakalolo-supply-co-fri</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[The Killer Dueling Pianos — The International Hotel & Bar (Fairbanks)]]></title>
-      <description><![CDATA[Date: 2026-10-17 | Venue: The International Hotel & Bar, Fairbanks | Category: music | Time: 7p]]></description>
-      <link>https://www.facebook.com/events/28304562172558476/</link>
-      <guid isPermaLink="false">akconcerts-undefined</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
