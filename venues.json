@@ -1263,6 +1263,8 @@
     "aliases": [
       "the pioneer bar",
       "pioneer",
+      "pio",
+      "the pio",
       "4p pioneer bar",
       "5p pioneer bar",
       "pioneer bar"
@@ -1982,6 +1984,8 @@
     "contactPerson": "Susynn Snyder",
     "type": "Live Music Venue",
     "amenities": [],
+    "isTemporarilyClosed": true,
+    "closureNotice": "Williwaw Social is temporarily closed. No upcoming live concerts or events are currently scheduled at this time. Please check back or visit their official website and Facebook page for reopening announcements.",
     "scrapeNotes": "Check https://www.facebook.com/WilliwawSocial/events for upcoming shows.",
     "eventsUrl": "https://williwawsocial.com/"
   },
@@ -5744,7 +5748,7 @@
   },
   {
     "id": "pioneer-bar-haines",
-    "name": "Pioneer Bar",
+    "name": "The Historic Pioneer Bar",
     "city": "Haines",
     "address": "211 Main St, Haines, AK 99827",
     "lat": 59.2335,
@@ -5754,8 +5758,10 @@
     "capacity": 100,
     "indoor": true,
     "aliases": [
+      "the historic pioneer bar",
+      "historic pioneer bar",
       "pioneer bar haines",
-      "the historic pioneer bar"
+      "pioneer bar (haines)"
     ],
     "facebookEventsUrl": "https://www.facebook.com/p/The-Historic-Pioneer-Bar-100063683073016/events",
     "phone": "(907) 766-3444",

@@ -7630,12 +7630,32 @@
     "cost": ""
   },
   {
+    "title": "Hot Mess Live",
+    "venue": "The Duck Inn",
+    "city": "Soldotna",
+    "date": "2026-10-09",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/2623843238011086",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Punchline: A Night of Hard Hitting Laughter w/ Joey Medina",
     "venue": "All American Training Center",
     "city": "Soldotna",
     "date": "2026-10-10",
     "time": "6p-9p",
     "ticketUrl": "https://www.rubberptarmigan.com/events/punchline-all-american-training-center",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "80’s Night with Hot Mess",
+    "venue": "The Duck Inn",
+    "city": "Soldotna",
+    "date": "2026-10-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/951601817514526/",
     "category": "music",
     "cost": ""
   },
@@ -7786,6 +7806,66 @@
     "date": "2026-10-28",
     "time": "10:30a-11a",
     "ticketUrl": "https://www.facebook.com/events/1351235743801978/1351235803801972/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Preschool Storytime",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-29",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.soldotna.org/departments/library/index.php",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Used Book & Art Sale",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-10-29",
+    "time": "1p-5p",
+    "ticketUrl": "https://soldotna.libcal.com/event/16036617",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Kenai Pirate’s Curse Soiree",
+    "venue": "Soldotna Regional Sports Complex",
+    "city": "Soldotna",
+    "date": "2026-10-30",
+    "time": "6:30p-10p",
+    "ticketUrl": "https://www.facebook.com/events/1072451185200241/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Friends of Mike Morgan Song Circle",
+    "venue": "Royle Parkers",
+    "city": "Soldotna",
+    "date": "2026-11-02",
+    "time": "5p-7:30p",
+    "ticketUrl": "https://www.facebook.com/michael.j.morgan.509/posts/pfbid02DRrVP1SMtDhLjKyAzpBH9c4v3Sjke7FEKHHA2zvnk2LLBFSd3ammM7KnFgwXGgwpl",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Toddler Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-11-03",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/2595189504251468/2595189530918132/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Bouncing Babes Story Time",
+    "venue": "Soldotna Public Library",
+    "city": "Soldotna",
+    "date": "2026-11-04",
+    "time": "10:30a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1351235743801978/1351235793801973/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
     "category": "community",
     "cost": ""
   }

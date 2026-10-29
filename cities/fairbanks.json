@@ -32170,6 +32170,16 @@
     "cost": ""
   },
   {
+    "title": "Karaoke Night",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-13",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke Night with Rocky!",
     "venue": "The Spur",
     "city": "Fairbanks",
@@ -32300,6 +32310,16 @@
     "cost": ""
   },
   {
+    "title": "Hughes Blues Band Live",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-17",
+    "time": "9p",
+    "ticketUrl": "https://www.facebook.com/events/2331590630943773/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Open Mic is Back at the Big I",
     "venue": "The International Hotel & Bar",
     "city": "Fairbanks",
@@ -32320,12 +32340,32 @@
     "cost": ""
   },
   {
+    "title": "Karaoke Night",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-20",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB",
+    "category": "music",
+    "cost": ""
+  },
+  {
     "title": "Karaoke Night with Rocky!",
     "venue": "The Spur",
     "city": "Fairbanks",
     "date": "2026-10-21",
     "time": "8p-11p",
     "ticketUrl": "https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music Wednesdays w/ The 8mm Band",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-21",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1860866808611314/1860866815277980/?active_tab=about",
     "category": "music",
     "cost": ""
   },
@@ -32476,6 +32516,146 @@
     "date": "2026-10-28",
     "time": "9p-12a",
     "ticketUrl": "https://www.facebook.com/events/1860866808611314/1860866818611313/?active_tab=about",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke with Angel",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-29",
+    "time": "8p-2a",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=122264679974101106&set=gm.1103643842195303",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Twas the Night Before Halloween w/ Marc Brown & the Blues Crew",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-30",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/events/958195717353565/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Weekend Latin Night with Noche De Terror",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-30",
+    "time": "10p-3a",
+    "ticketUrl": "https://www.facebook.com/events/1686217932934561/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "A Night at the Marlin: A Halloween Rave",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-10-30",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1521516013118521/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Eye Scream Halloween Party w/ DJ Osito",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-10-31",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1392644406362763/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Weekend with Marc Brown",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-10-31",
+    "time": "10p-3a",
+    "ticketUrl": "https://www.facebook.com/events/1686217932934561/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Trick-Or-Treat Town",
+    "venue": "AlaskaLand",
+    "city": "Fairbanks",
+    "date": "2026-10-31",
+    "time": "1p-7:30p",
+    "ticketUrl": "https://www.facebook.com/events/892383240086383/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Funeral Horses",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-10-31",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1521516013118521/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22attachment%22%2C%22surface%22%3A%22newsfeed%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "The Black Door",
+    "venue": "Westmark Hotel",
+    "city": "Fairbanks",
+    "date": "2026-10-31",
+    "time": "8p-1a",
+    "ticketUrl": "https://www.facebook.com/events/4448197755498377/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic is Back at the Big I",
+    "venue": "The International Hotel & Bar",
+    "city": "Fairbanks",
+    "date": "2026-11-01",
+    "time": "7p",
+    "ticketUrl": "https://www.facebook.com/events/1126153769867379/1126153869867369/?active_tab=about",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "The Marlin",
+    "city": "Fairbanks",
+    "date": "2026-11-01",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=959039397047662&set=pb.100088248302562.-2207520000",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-11-03",
+    "time": "7p-10p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1003076285803188&set=a.139548718822620&__cft__%5b0%5d=AZYmeI1iISPjZEVyZ6UeZIBH1lcSjsQrcFpBhBsHV09V46uVtzzg5V-irwQ9UrymAa9bmIQvwMr5CVtLxq11Ge6Z44dZMopa0fRxaizWYd3riMjkfoZR6yHZmfRgVfMyrevJ4FG6ENKVy0BK3kMToZXLIRKq5hLB",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night with Rocky!",
+    "venue": "The Spur",
+    "city": "Fairbanks",
+    "date": "2026-11-04",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1428811168655802&set=a.582325269971067",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Live Music Wednesdays w/ The 8mm Band",
+    "venue": "The Cabin",
+    "city": "Fairbanks",
+    "date": "2026-11-04",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1860866808611314/1860866821944646/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "music",
     "cost": ""
   }

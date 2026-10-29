@@ -13878,5 +13878,95 @@
     "ticketUrl": "https://www.facebook.com/HomesteadLounge",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Dance Lessons with Shufflin Country Style",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-29",
+    "time": "8p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=956976277112870&set=gm.992446826503991",
+    "category": "dance",
+    "cost": ""
+  },
+  {
+    "title": "Hillbilly Horror: Country Night w/ DJ Scott",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-29",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/events/1767796381579529/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jerry Wessling Band",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-10-30",
+    "time": "8 pm",
+    "ticketUrl": "https://www.facebook.com/events/1619337999596109/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Spooky Island Invitation w/ Big C",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-30",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/events/2233388320582558/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Trunk or Treat in Eagle River",
+    "venue": "ACF Church",
+    "city": "Eagle River",
+    "date": "2026-10-31",
+    "time": "1p-3p",
+    "ticketUrl": "https://www.facebook.com/events/1046047255069299/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Party w/ Wiley Post & Good Company",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-10-31",
+    "time": "7 pm",
+    "ticketUrl": "https://www.facebook.com/events/1741466757086068/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Slasher Saturday Night w/ Big C",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-10-31",
+    "time": "9p-2a",
+    "ticketUrl": "https://www.facebook.com/events/2263227771200096/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Mondays",
+    "venue": "Odd Man Rush Brewing",
+    "city": "Eagle River",
+    "date": "2026-11-02",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=10239098468293971&set=gm.1304112024989228",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night w/ KJ Smoke",
+    "venue": "Homestead Lounge",
+    "city": "Eagle River",
+    "date": "2026-11-04",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/HomesteadLounge",
+    "category": "music",
+    "cost": ""
   }
 ]

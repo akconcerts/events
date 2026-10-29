@@ -11,6 +11,17 @@
     "slug": "open-decks-koot-s-2020-01-01"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-01",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-01"
+  },
+  {
     "title": "Comedy Open Mic",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -53,17 +64,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-01-01"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-01",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-01"
   },
   {
     "title": "Fireside Thursdays w/ hndrrxx",
@@ -715,6 +715,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-01-07"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-07",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-01-07"
+  },
+  {
     "title": "Live Music w/ Matt & Co.",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -737,17 +748,6 @@
     "slug": "open-mic-comedy-the-marlin-2020-01-07"
   },
   {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-07",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-01-07"
-  },
-  {
     "title": "Tyson Tuesdays",
     "venue": "Seward Alehouse",
     "city": "Seward",
@@ -768,6 +768,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-01-08"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-08",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-08"
   },
   {
     "title": "KJ Sparkles 1 Year Anniversary",
@@ -845,17 +856,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-01-08"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-08",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-08"
   },
   {
     "title": "Fireside Thursdays w/ hndrrxx",
@@ -1848,6 +1848,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-01-14"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-14",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-01-14"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -1857,17 +1868,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-01-14"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-14",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-01-14"
   },
   {
     "title": "Tyson Tuesdays",
@@ -1890,6 +1890,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-01-15"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-15",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-15"
   },
   {
     "title": "Poetry Parley",
@@ -1945,17 +1956,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-01-15"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-15",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-15"
   },
   {
     "title": "International Guitar Night",
@@ -3124,6 +3124,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-01-21"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-21",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-01-21"
+  },
+  {
     "title": "Folk Week at Jitters w/ AllGood Family Band & the Hoppers",
     "venue": "Jitters",
     "city": "Eagle River",
@@ -3146,17 +3157,6 @@
     "slug": "open-mic-comedy-the-marlin-2020-01-21"
   },
   {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-21",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-01-21"
-  },
-  {
     "title": "Tyson Tuesdays",
     "venue": "Seward Alehouse",
     "city": "Seward",
@@ -3177,6 +3177,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-01-22"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-22",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-22"
   },
   {
     "title": "Folk Week w/ Uncle Jim, the Eastside Balladeer & Folk Medicine",
@@ -3309,17 +3320,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-01-22"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-22",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-22"
   },
   {
     "title": "Myles from Dublin",
@@ -4411,6 +4411,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-01-28"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-28",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-01-28"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -4420,17 +4431,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-01-28"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-28",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-01-28"
   },
   {
     "title": "Tyson Tuesdays",
@@ -4453,6 +4453,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-01-29"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-01-29",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-29"
   },
   {
     "title": "Comedy Open Mic",
@@ -4530,17 +4541,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-01-29"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-01-29",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-01-29"
   },
   {
     "title": "Karl Merl 8p-12aKoot’s – Fireside Thursdays w/ hndrrxx",
@@ -5687,6 +5687,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-02-04"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-04",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-02-04"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -5696,17 +5707,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-02-04"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-04",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-02-04"
   },
   {
     "title": "Tyson Tuesdays",
@@ -5729,6 +5729,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-02-05"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-05",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-05"
   },
   {
     "title": "Comedy Open Mic",
@@ -5784,17 +5795,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-02-05"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-05",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-05"
   },
   {
     "title": "Open Mic Night",
@@ -7029,6 +7029,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-02-11"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-11",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-02-11"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -7038,17 +7049,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-02-11"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-11",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-02-11"
   },
   {
     "title": "Tyson Tuesdays",
@@ -7071,6 +7071,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-02-12"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-12",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-12"
   },
   {
     "title": "Comedy Open Mic",
@@ -7126,17 +7137,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-02-12"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-12",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-12"
   },
   {
     "title": "Open Mic Night",
@@ -8294,6 +8294,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-02-18"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-18",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-02-18"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -8303,17 +8314,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-02-18"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-18",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-02-18"
   },
   {
     "title": "Tyson Tuesdays",
@@ -8347,6 +8347,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-02-19"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-19",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-19"
   },
   {
     "title": "Unplugged Wednesday & Wine Flights w/ Kat Moore",
@@ -8424,17 +8435,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-02-19"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-19",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-19"
   },
   {
     "title": "Open Mic Night",
@@ -9702,6 +9702,17 @@
     "slug": "kizomba-dance-workshop-at-zip-kombucha-zip-kombucha-2020-02-25"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-25",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-02-25"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -9711,17 +9722,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-02-25"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-25",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-02-25"
   },
   {
     "title": "Tyson Tuesdays",
@@ -9744,6 +9744,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-02-26"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-02-26",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-26"
   },
   {
     "title": "Unplugged Wednesday & Wine Flights w/ Hot Club of Nunaka",
@@ -9810,17 +9821,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-02-26"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-02-26",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-02-26"
   },
   {
     "title": "Open Mic Night",
@@ -11198,6 +11198,17 @@
     "slug": "dance-night-uaa-gorsuch-commons-2020-03-03"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-03",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-03-03"
+  },
+  {
     "title": "Open Mic Comedy",
     "venue": "The Marlin",
     "city": "Fairbanks",
@@ -11207,17 +11218,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-03-03"
-  },
-  {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-03",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-03-03"
   },
   {
     "title": "Tyson Tuesdays",
@@ -11240,6 +11240,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-03-04"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-04",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-04"
   },
   {
     "title": "Unplugged Wednesday & Wine Flights w/ Jamie Whiteman",
@@ -11339,17 +11350,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-03-04"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-04",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-04"
   },
   {
     "title": "Deborah Wood at Mountainside Open Mic",
@@ -12507,6 +12507,17 @@
     "slug": "tuesday-open-mic-at-post-28-american-legion-post-28-spenard-2020-03-10"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-10",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-03-10"
+  },
+  {
     "title": "Acoustic Tuesday",
     "venue": "Van's Dive Bar",
     "city": "Anchorage",
@@ -12529,17 +12540,6 @@
     "slug": "open-mic-comedy-the-marlin-2020-03-10"
   },
   {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-10",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-03-10"
-  },
-  {
     "title": "Tyson Tuesdays",
     "venue": "Seward Alehouse",
     "city": "Seward",
@@ -12560,6 +12560,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-03-11"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-11",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-11"
   },
   {
     "title": "Comedy Open Mic",
@@ -12615,17 +12626,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-night-the-marlin-2020-03-11"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-11",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-11"
   },
   {
     "title": "Mountainside Open Mic & Art Night",
@@ -13904,6 +13904,17 @@
     "slug": "dance-night-uaa-gorsuch-commons-2020-03-17"
   },
   {
+    "title": "Mike Gorder",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-17",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
+    "category": "music",
+    "cost": "",
+    "slug": "mike-gorder-pioneer-bar-2020-03-17"
+  },
+  {
     "title": "Fan Service & DJ Joe Brady",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -13959,17 +13970,6 @@
     "slug": "open-mic-comedy-the-marlin-2020-03-17"
   },
   {
-    "title": "Mike Gorder",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-17",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=10216661767153199&set=a.1199623947355&type=3&theater",
-    "category": "music",
-    "cost": "",
-    "slug": "mike-gorder-pioneer-bar-2020-03-17"
-  },
-  {
     "title": "Tyson Tuesdays",
     "venue": "Seward Alehouse",
     "city": "Seward",
@@ -13990,6 +13990,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-koot-s-2020-03-18"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-18",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-18"
   },
   {
     "title": "DJ GRE",
@@ -14111,17 +14122,6 @@
     "category": "music",
     "cost": "",
     "slug": "ashtyn-barbaree-chair-5-2020-03-18"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-18",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/474058189807321/",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2020-03-18"
   },
   {
     "title": "Mountainside Open Mic & Art Night",
@@ -14949,6 +14949,17 @@
     "slug": "tuesday-open-mic-at-post-28-american-legion-post-28-spenard-2020-03-24"
   },
   {
+    "title": "Diana Z & Jim Lewin",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-03-24",
+    "time": "7p-9p",
+    "ticketUrl": "https://www.facebook.com/events/196687468222970/",
+    "category": "music",
+    "cost": "",
+    "slug": "diana-z-jim-lewin-pioneer-bar-2020-03-24"
+  },
+  {
     "title": "Fan Service",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -14969,17 +14980,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "open-mic-comedy-the-marlin-2020-03-24"
-  },
-  {
-    "title": "Diana Z & Jim Lewin",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-03-24",
-    "time": "7p-9p",
-    "ticketUrl": "https://www.facebook.com/events/196687468222970/",
-    "category": "music",
-    "cost": "",
-    "slug": "diana-z-jim-lewin-pioneer-bar-2020-03-24"
   },
   {
     "title": "Tyson Tuesdays",
@@ -21010,6 +21010,17 @@
     "slug": "dj-lloyds-noize-williwaw-social-2020-08-01"
   },
   {
+    "title": "The Acoustic Oosik",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-08-01",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/events/569689197034040/?acontext=%7B%22source%22%3A2%2C%22source_dashboard_filter%22%3A%22discovery%22%2C%22action_history%22%3A%22%5b%7B%5C%22surface%5C%22%3A%5C%22discover_filter_list%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22discovery%5C%22%7D%7D%5d%22%2C%22has_source%22%3Atrue%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "the-acoustic-oosik-pioneer-bar-2020-08-01"
+  },
+  {
     "title": "Arctic Entry Band",
     "venue": "Arctic Fox",
     "city": "Fairbanks",
@@ -21030,17 +21041,6 @@
     "category": "festival",
     "cost": "",
     "slug": "rock-in-the-last-frontier-festival-tanana-valley-state-fair-grounds-2020-08-01"
-  },
-  {
-    "title": "The Acoustic Oosik",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-08-01",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.facebook.com/events/569689197034040/?acontext=%7B%22source%22%3A2%2C%22source_dashboard_filter%22%3A%22discovery%22%2C%22action_history%22%3A%22%5b%7B%5C%22surface%5C%22%3A%5C%22discover_filter_list%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22discovery%5C%22%7D%7D%5d%22%2C%22has_source%22%3Atrue%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "the-acoustic-oosik-pioneer-bar-2020-08-01"
   },
   {
     "title": "Backyard Country BBQ #8 - Jimmie Allen, Matt Stell, Craig Morgan",
@@ -21780,6 +21780,17 @@
     "slug": "denali-cooks-williwaw-social-2020-08-15"
   },
   {
+    "title": "Daddy’s Issue",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2020-08-15",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/events/2684838461731516/",
+    "category": "music",
+    "cost": "",
+    "slug": "daddy-s-issue-pioneer-bar-2020-08-15"
+  },
+  {
     "title": "DJ Fan Service",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -21800,17 +21811,6 @@
     "category": "music",
     "cost": "",
     "slug": "the-acoustic-oosik-arctic-fox-2020-08-15"
-  },
-  {
-    "title": "Daddy’s Issue",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2020-08-15",
-    "time": "8p-12a",
-    "ticketUrl": "https://www.facebook.com/events/2684838461731516/",
-    "category": "music",
-    "cost": "",
-    "slug": "daddy-s-issue-pioneer-bar-2020-08-15"
   },
   {
     "title": "Hobo Jim",

@@ -1398,5 +1398,25 @@
     "ticketUrl": "https://www.facebook.com/events/1581480200075049/1581480240075045/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Karaoke Thursdays with Rocky Barnette",
+    "venue": "North Pole Alehouse",
+    "city": "North Pole",
+    "date": "2026-10-29",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1581480200075049/1581480236741712/?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22me",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Down the Rabbit Hole Halloween Party",
+    "venue": "North Pole Alehouse",
+    "city": "North Pole",
+    "date": "2026-10-31",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1589559549319121",
+    "category": "music",
+    "cost": ""
   }
 ]

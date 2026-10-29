@@ -768,5 +768,15 @@
     "ticketUrl": "https://www.facebook.com/photo?fbid=1422982996549724&set=a.501970625317637",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Boos & Brews Halloween Party",
+    "venue": "Naptowne Brewing Company",
+    "city": "Sterling",
+    "date": "2026-10-30",
+    "time": "3p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1130177446200499/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
   }
 ]

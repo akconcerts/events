@@ -23108,5 +23108,115 @@
     "ticketUrl": "https://www.facebook.com/SchwabsAlaska",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Live Music With Drew Sablon",
+    "venue": "Everett's",
+    "city": "Wasilla",
+    "date": "2026-10-29",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1075262728682324",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Black Birch Books",
+    "city": "Wasilla",
+    "date": "2026-10-30",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/events/1632607091447351/1632607104780683/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22calendar_tab_event%22%2C%22surface%22%3A%22bookmark_calendar%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Rick Brooks Live",
+    "venue": "Last Frontier Brewing Company",
+    "city": "Wasilla",
+    "date": "2026-10-30",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1772173457420751/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nightmare at the Museum",
+    "venue": "Museum of Alaska Transportation & Industry",
+    "city": "Wasilla",
+    "date": "2026-10-30",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1537541697855117/1537541721188448/?event_time_id=1537541721188448",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-10-30",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Nightmare at the Museum",
+    "venue": "Museum of Alaska Transportation & Industry",
+    "city": "Wasilla",
+    "date": "2026-10-31",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/events/1537541697855117/1537541721188448/?event_time_id=1537541727855114",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Beyond the Grave: Back From the Dead",
+    "venue": "Settlers Bay Lodge",
+    "city": "Wasilla",
+    "date": "2026-10-31",
+    "time": "8 pm-12 am",
+    "ticketUrl": "https://www.eventbrite.com/e/beyond-the-grave-back-from-the-dead-at-settlers-bay-lodge-tickets-1999310624899?aff=oddtdtcreator&fbclid=IwY2xjawUe8JpwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWxXRkdkb2xJNmxNOFdlRDVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeCtMZfvI",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Storytime at Ken’s",
+    "venue": "Ken’s Garden Center",
+    "city": "Wasilla",
+    "date": "2026-11-03",
+    "time": "10a-11a",
+    "ticketUrl": "https://www.facebook.com/events/1439153171253533/1439153277920189/?active_tab=about",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Taco Tuesday Night w/ Live Music",
+    "venue": "Tug Bar & Liquor- Goose Bay Inn",
+    "city": "Wasilla",
+    "date": "2026-11-03",
+    "time": "6p-9p",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100057311146105",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-11-03",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1051192547007740&set=a.502879461839054",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Schwabenhof",
+    "city": "Wasilla",
+    "date": "2026-11-04",
+    "time": "7:30p-11p",
+    "ticketUrl": "https://www.facebook.com/SchwabsAlaska",
+    "category": "music",
+    "cost": ""
   }
 ]

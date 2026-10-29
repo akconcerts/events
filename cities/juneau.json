@@ -22458,5 +22458,105 @@
     "ticketUrl": "https://www.thealaskanhotel.com/the-alaskan-bar/%22%20%5Ct%20%22_blank",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-29",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Free Trivia Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-29",
+    "time": "8:30p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1769339320844728/",
+    "category": "community",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-29",
+    "time": "8p-12a",
+    "ticketUrl": "https://www.facebook.com/thecrystalsaloon",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-10-29",
+    "time": "9p-11p",
+    "ticketUrl": "https://www.thealaskanhotel.com/the-alaskan-bar/",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Dub of the Dead ft. Hi! I’m Ghost",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-10-31",
+    "time": "10p-2:30a",
+    "ticketUrl": "https://www.facebook.com/events/1832412697749774/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "RawBeats w/ Astronomar & Friends",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-11-02",
+    "time": "9p-?",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1747846129985098&set=pcb.1747846179985093",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Jazz Jam Tuesday",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-11-03",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.crystalsaloon.com/events",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Vinyl Afternoon's w/ Dj Roman Martinez",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-11-04",
+    "time": "5p-7p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1008203218480466&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "The Crystal Saloon",
+    "city": "Juneau",
+    "date": "2026-11-04",
+    "time": "8p-11:30p",
+    "ticketUrl": "https://www.facebook.com/photo/?fbid=1073260615308059&set=a.160104659956997",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Karaoke",
+    "venue": "Alaskan Hotel and Bar",
+    "city": "Juneau",
+    "date": "2026-11-04",
+    "time": "8p-11p",
+    "ticketUrl": "https://www.thealaskanhotel.com/the-alaskan-bar/%22%20%5Ct%20%22_blank",
+    "category": "music",
+    "cost": ""
   }
 ]

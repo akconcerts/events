@@ -6628,5 +6628,55 @@
     "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Family Friendly)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-29",
+    "time": "10p-5p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Jump Scares)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-30",
+    "time": "12p-9p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Weekend w/ The Lost Rockets",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-10-30",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=61576605291126",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Haunted Chamber (Jump Scares)",
+    "venue": "Kenai Chamber of Commerce & Visitor Center",
+    "city": "Kenai",
+    "date": "2026-10-31",
+    "time": "12p-9p",
+    "ticketUrl": "https://stayhappening.com/e/4th-annual-haunted-chamber-E2ISYTTDR8L",
+    "category": "music",
+    "cost": ""
+  },
+  {
+    "title": "Halloween Weekend w/ The Lost Rockets",
+    "venue": "Skeet's Dive Bar",
+    "city": "Kenai",
+    "date": "2026-10-31",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=61576605291126",
+    "category": "music",
+    "cost": ""
   }
 ]

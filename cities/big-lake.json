@@ -5708,5 +5708,15 @@
     "ticketUrl": "https://susitnabrewing.com/events",
     "category": "music",
     "cost": ""
+  },
+  {
+    "title": "Open Mic Night",
+    "venue": "Susitna Brewing",
+    "city": "Big Lake",
+    "date": "2026-11-01",
+    "time": "6p-9p",
+    "ticketUrl": "https://susitnabrewing.com/events",
+    "category": "music",
+    "cost": ""
   }
 ]

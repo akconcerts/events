@@ -11,6 +11,17 @@
     "slug": "ivan-dennis-the-angry-salmon-2025-01-01"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-01",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-01"
+  },
+  {
     "title": "New Year's Live: Ralph Castelli w/ Wendlo",
     "venue": "The Sitzmark",
     "city": "Anchorage",
@@ -53,6 +64,17 @@
     "category": "dance",
     "cost": "",
     "slug": "international-folk-dancers-anchorage-social-dance-club-2025-01-01"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-01",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-01"
   },
   {
     "title": "Country Night & Dance Lessons",
@@ -130,6 +152,28 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-mad-myrna-s-2025-01-01"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-01",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-01"
+  },
+  {
+    "title": "New Year's Eve Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-01",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/events/2351511055181593",
+    "category": "dance",
+    "cost": "",
+    "slug": "new-year-s-eve-social-dance-pioneer-bar-2025-01-01"
   },
   {
     "title": "Grace C. Elliot, Dubious Character, & Up A Mountain",
@@ -361,50 +405,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "drag-show-dance-party-the-last-round-up-steak-house-2025-01-01"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-01",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-01"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-01",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-01"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-01",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-01"
-  },
-  {
-    "title": "New Year's Eve Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-01",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/events/2351511055181593",
-    "category": "dance",
-    "cost": "",
-    "slug": "new-year-s-eve-social-dance-pioneer-bar-2025-01-01"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -1518,6 +1518,17 @@
     "slug": "koots-karaoke-koot-s-2025-01-05"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-05",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-05"
+  },
+  {
     "title": "Jazz Brunch w/ Constant Structure",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -1672,17 +1683,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-01-05"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-05",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-05"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -1793,6 +1793,17 @@
     "slug": "rachel-whitmore-the-angry-salmon-2025-01-08"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-08",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-08"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -1826,6 +1837,17 @@
     "slug": "tyrone-palmer-friends-907-alehouse-2025-01-08"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-08",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-08"
+  },
+  {
     "title": "Country Night & Dance Lessons",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -1846,6 +1868,17 @@
     "category": "dance",
     "cost": "",
     "slug": "dance-lessons-with-shufflin-country-style-american-legion-post-28-spenard-2025-01-08"
+  },
+  {
+    "title": "Funny Fest w/ Matthew Brousard",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-08",
+    "time": "7p-9p",
+    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawHhQ6dleHRuA2FlbQIxMAABHSUnfiOTIlo6I2D2QWk33ds2m1k4rgZc-ILHvmJek5Xd5mVplPWnT9E71g_aem_MY1K5oyrcKFOk6bSsYykVg",
+    "category": "theatre",
+    "cost": "",
+    "slug": "funny-fest-w-matthew-brousard-pioneer-bar-2025-01-08"
   },
   {
     "title": "Marc Brown & The Blues Crew",
@@ -1890,6 +1923,17 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-mad-myrna-s-2025-01-08"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-08",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-08"
   },
   {
     "title": "Pop It, Drop It: A New Year's Calebration",
@@ -2022,50 +2066,6 @@
     "category": "festival",
     "cost": "",
     "slug": "funny-fest-w-matthew-brousard-the-spur-2025-01-08"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-08",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-08"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-08",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-08"
-  },
-  {
-    "title": "Funny Fest w/ Matthew Brousard",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-08",
-    "time": "7p-9p",
-    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawHhQ6dleHRuA2FlbQIxMAABHSUnfiOTIlo6I2D2QWk33ds2m1k4rgZc-ILHvmJek5Xd5mVplPWnT9E71g_aem_MY1K5oyrcKFOk6bSsYykVg",
-    "category": "theatre",
-    "cost": "",
-    "slug": "funny-fest-w-matthew-brousard-pioneer-bar-2025-01-08"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-08",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-08"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -2948,6 +2948,17 @@
     "slug": "koots-karaoke-koot-s-2025-01-12"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-12",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-12"
+  },
+  {
     "title": "Brunch Music w/ Steve Norwood",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -3089,17 +3100,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-01-12"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-12",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-12"
   },
   {
     "title": "Boombox Bingo",
@@ -3289,6 +3289,17 @@
     "slug": "free-advanced-audio-training-alaska-center-for-the-performing-arts-2025-01-15"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-15",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-15"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -3344,6 +3355,17 @@
     "slug": "line-dance-night-w-alaska-heel-scuffers-pink-cadillac-2025-01-15"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-15",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-15"
+  },
+  {
     "title": "Country Night & Dance Lessons",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -3353,6 +3375,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-night-dance-lessons-koot-s-2025-01-15"
+  },
+  {
+    "title": "Funny Fest w/ Matthew Brousard",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-15",
+    "time": "7p-9p",
+    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawHhQ6dleHRuA2FlbQIxMAABHSUnfiOTIlo6I2D2QWk33ds2m1k4rgZc-ILHvmJek5Xd5mVplPWnT9E71g_aem_MY1K5oyrcKFOk6bSsYykVg",
+    "category": "theatre",
+    "cost": "",
+    "slug": "funny-fest-w-matthew-brousard-pioneer-bar-2025-01-15"
   },
   {
     "title": "Open Mic",
@@ -3397,6 +3430,17 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-mad-myrna-s-2025-01-15"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-15",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-15"
   },
   {
     "title": "The Terrapin Family Band",
@@ -3573,50 +3617,6 @@
     "category": "community",
     "cost": "",
     "slug": "girl-winter-a-snow-movie-fundraiser-for-shredmaiden-alyeska-2025-01-15"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-15",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-15"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-15",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-15"
-  },
-  {
-    "title": "Funny Fest w/ Matthew Brousard",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-15",
-    "time": "7p-9p",
-    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawHhQ6dleHRuA2FlbQIxMAABHSUnfiOTIlo6I2D2QWk33ds2m1k4rgZc-ILHvmJek5Xd5mVplPWnT9E71g_aem_MY1K5oyrcKFOk6bSsYykVg",
-    "category": "theatre",
-    "cost": "",
-    "slug": "funny-fest-w-matthew-brousard-pioneer-bar-2025-01-15"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-15",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-15"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -4543,6 +4543,17 @@
     "slug": "koots-karaoke-koot-s-2025-01-19"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-19",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-19"
+  },
+  {
     "title": "Improv Dojo",
     "venue": "Midnight Sun Theatre",
     "city": "Anchorage",
@@ -4728,17 +4739,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-01-19"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-19",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-19"
   },
   {
     "title": "Boombox Bingo",
@@ -4939,6 +4939,17 @@
     "slug": "rachel-whitmore-the-angry-salmon-2025-01-22"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-22",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-22"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -4992,6 +5003,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-night-pink-cadillac-2025-01-22"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-22",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-22"
   },
   {
     "title": "Country Night & Dance Lessons",
@@ -5058,6 +5080,17 @@
     "category": "music",
     "cost": "",
     "slug": "the-roland-roberts-band-the-sitzmark-2025-01-22"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-22",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-22"
   },
   {
     "title": "Open Mic Night",
@@ -5223,39 +5256,6 @@
     "category": "music",
     "cost": "",
     "slug": "the-river-livers-chair-5-2025-01-22"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-22",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-22"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-22",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-22"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-22",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-22"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -6094,6 +6094,17 @@
     "slug": "karaoke-friday-at-the-eagles-the-fraternal-order-of-eagles-aerie-4207-2025-01-24"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-24",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-24"
+  },
+  {
     "title": "Stand-Up Comedy Show with Billy Wayne Davis",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -6279,17 +6290,6 @@
     "category": "music",
     "cost": "",
     "slug": "ski-bunny-ball-w-i-like-robots-the-sitzmark-bar-grill-2025-01-24"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-24",
-    "time": "7p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-24"
   },
   {
     "title": "Piano Music by Erika",
@@ -6644,6 +6644,17 @@
     "slug": "ski-bunny-ball-w-i-like-robots-the-sitzmark-2025-01-25"
   },
   {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-25",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-25"
+  },
+  {
     "title": "Blast From The Past",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -6754,17 +6765,6 @@
     "slug": "ski-bunny-ball-w-i-like-robots-the-sitzmark-bar-grill-2025-01-25"
   },
   {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-25",
-    "time": "9p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-25"
-  },
-  {
     "title": "Piano Music by Sunrise Kilcher",
     "venue": "AJ’s Old Town Steakhouse & Tavern",
     "city": "Homer",
@@ -6873,6 +6873,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-koot-s-2025-01-26"
+  },
+  {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-26",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-26"
   },
   {
     "title": "Brunch Music w/ Alan Parsons",
@@ -7060,17 +7071,6 @@
     "category": "music",
     "cost": "",
     "slug": "international-guitar-night-25th-anniversary-sheldon-community-arts-hangar-2025-01-26"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-26",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-01-26"
   },
   {
     "title": "Sunday Swing at the Red Dog",
@@ -7414,6 +7414,17 @@
     "slug": "junosmile-the-angry-salmon-2025-01-29"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-29",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-29"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -7535,6 +7546,17 @@
     "slug": "line-dance-night-pink-cadillac-2025-01-29"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-29",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-29"
+  },
+  {
     "title": "Country Night & Dance Lessons",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -7632,6 +7654,17 @@
     "category": "music",
     "cost": "",
     "slug": "ski-bunny-ball-w-i-like-robots-the-sitzmark-2025-01-29"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-01-29",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-01-29"
   },
   {
     "title": "Open Mic Night",
@@ -7764,39 +7797,6 @@
     "category": "music",
     "cost": "",
     "slug": "the-vintage-retro-chair-5-2025-01-29"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-29",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-01-29"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-29",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-01-29"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-01-29",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-01-29"
   },
   {
     "title": "Frolicking Fiddles with Jannell Canerday",
@@ -9009,6 +9009,17 @@
     "slug": "koots-karaoke-koot-s-2025-02-02"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-02",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-02"
+  },
+  {
     "title": "Improv Dojo",
     "venue": "Midnight Sun Theatre",
     "city": "Anchorage",
@@ -9207,17 +9218,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-02-02"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-02",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-02"
-  },
-  {
     "title": "Irish Music & Dancing",
     "venue": "Organic Oasis",
     "city": "Anchorage",
@@ -9315,6 +9315,17 @@
     "category": "music",
     "cost": "",
     "slug": "ukulele-russ-the-angry-salmon-2025-02-05"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-05",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-05"
   },
   {
     "title": "Koots Karaoke",
@@ -9416,6 +9427,17 @@
     "slug": "line-dance-night-pink-cadillac-2025-02-05"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-05",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-05"
+  },
+  {
     "title": "Country Night & Dance Lessons",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -9513,6 +9535,17 @@
     "category": "music",
     "cost": "",
     "slug": "zen-trembles-the-nameless-the-sitzmark-2025-02-05"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-05",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-02-05"
   },
   {
     "title": "Open Mic Night",
@@ -9689,39 +9722,6 @@
     "category": "music",
     "cost": "",
     "slug": "dancing-with-the-stars-ball-westmark-hotel-2025-02-05"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-05",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-05"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-05",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-05"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-05",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-02-05"
   },
   {
     "title": "Ukulele Russ & His One-Man Frontier Band",
@@ -10956,6 +10956,17 @@
     "slug": "koots-karaoke-koot-s-2025-02-09"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-09",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-09"
+  },
+  {
     "title": "Brunch Music w/ Dawson Gentleman",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -11132,17 +11143,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-02-09"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-09",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-09"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -11231,6 +11231,17 @@
     "slug": "silas-luke-jones-the-angry-salmon-2025-02-12"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-12",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-12"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -11306,6 +11317,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-night-pink-cadillac-2025-02-12"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-12",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-12"
   },
   {
     "title": "Country Night & Dance Lessons",
@@ -11394,6 +11416,17 @@
     "category": "music",
     "cost": "",
     "slug": "shoot-dangs-wash-your-hands-the-sitzmark-2025-02-12"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-12",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-02-12"
   },
   {
     "title": "Open Mic Night",
@@ -11572,17 +11605,6 @@
     "slug": "supernova-chair-5-2025-02-12"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-12",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-12"
-  },
-  {
     "title": "First Friday Music & Art",
     "venue": "Haines Chamber of Commerce",
     "city": "Haines",
@@ -11592,28 +11614,6 @@
     "category": "music",
     "cost": "",
     "slug": "first-friday-music-art-haines-chamber-of-commerce-2025-02-12"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-12",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-12"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-12",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-02-12"
   },
   {
     "title": "Introducing the Living Room w/ Jerry Wessling",
@@ -13068,6 +13068,17 @@
     "slug": "koots-karaoke-koot-s-2025-02-16"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-16",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-16"
+  },
+  {
     "title": "Jams For Fams w/ DJ Spencer Lee: Neon Love Party",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -13297,17 +13308,6 @@
     "category": "music",
     "cost": "",
     "slug": "gospel-choir-celebrations-juneau-arts-and-humanities-2025-02-16"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-16",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-02-16"
   },
   {
     "title": "Sunday Swing at the Red Dog",
@@ -13585,6 +13585,17 @@
     "slug": "stand-up-comedy-w-joey-medina-the-angry-salmon-2025-02-19"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-19",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-19"
+  },
+  {
     "title": "Live Music & Cocktails w/ Juan Carlos",
     "venue": "The Cabin Bar",
     "city": "Anchorage",
@@ -13673,6 +13684,17 @@
     "slug": "line-dance-night-pink-cadillac-2025-02-19"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-19",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-19"
+  },
+  {
     "title": "Country Night & Dance Lessons",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -13726,6 +13748,17 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-mad-myrna-s-2025-02-19"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-02-19",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-02-19"
   },
   {
     "title": "Fleetmac Wood: Leather & Lace Disco",
@@ -13902,39 +13935,6 @@
     "category": "music",
     "cost": "",
     "slug": "lifts-for-love-chairlift-speed-dating-alyeska-resort-2025-02-19"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-19",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-02-19"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-19",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-02-19"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-02-19",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-02-19"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -15202,6 +15202,17 @@
     "slug": "koots-karaoke-koot-s-2025-03-16"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-16",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-16"
+  },
+  {
     "title": "Brunch Music w/ Steve Norwood",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -15356,17 +15367,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-03-16"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-16",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-16"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -15510,6 +15510,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-03-19"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-19",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-03-19"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -15609,6 +15620,28 @@
     "slug": "line-dance-wednesdays-pink-cadillac-2025-03-19"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-19",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-19"
+  },
+  {
+    "title": "Stand-Up Comedy Show w/ Samuel J Comroe",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-19",
+    "time": "7p-9p",
+    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawI9ft5leHRuA2FlbQIxMAABHW01Y340WYN8PTosaykN4JwpSn-HAJsNbhk8ODIksllPBKrgltBeAcdgzg_aem_LKTjmAFg5Vb2igx6Tabh-w",
+    "category": "comedy",
+    "cost": "",
+    "slug": "stand-up-comedy-show-w-samuel-j-comroe-pioneer-bar-2025-03-19"
+  },
+  {
     "title": "Country Night",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -15673,6 +15706,17 @@
     "category": "dance",
     "cost": "",
     "slug": "latin-dance-lessons-party-w-dj-miguel-the-cabin-bar-2025-03-19"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-19",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-03-19"
   },
   {
     "title": "Live at the Sitz: Black Barrel & The Bad Men",
@@ -15882,50 +15926,6 @@
     "category": "community",
     "cost": "",
     "slug": "grungebob-the-international-hotel-bar-2025-03-19"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-19",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-03-19"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-19",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-19"
-  },
-  {
-    "title": "Stand-Up Comedy Show w/ Samuel J Comroe",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-19",
-    "time": "7p-9p",
-    "ticketUrl": "https://aktickets.com/organizations/alaska-comedy?fbclid=IwY2xjawI9ft5leHRuA2FlbQIxMAABHW01Y340WYN8PTosaykN4JwpSn-HAJsNbhk8ODIksllPBKrgltBeAcdgzg_aem_LKTjmAFg5Vb2igx6Tabh-w",
-    "category": "comedy",
-    "cost": "",
-    "slug": "stand-up-comedy-show-w-samuel-j-comroe-pioneer-bar-2025-03-19"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-19",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-03-19"
   },
   {
     "title": "St. Patrick Day 2025 w/ Jim Maloney & Friends",
@@ -17171,6 +17171,17 @@
     "slug": "karaoke-friday-at-the-eagles-the-fraternal-order-of-eagles-aerie-4207-2025-03-21"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-21",
+    "time": "7p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-21"
+  },
+  {
     "title": "The Wizard of Oz",
     "venue": "Mad Myrna's",
     "city": "Anchorage",
@@ -17180,6 +17191,17 @@
     "category": "music",
     "cost": "",
     "slug": "the-wizard-of-oz-mad-myrna-s-2025-03-21"
+  },
+  {
+    "title": "St. Patrick's Day Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-21",
+    "time": "8:30p-11p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": "",
+    "slug": "st-patrick-s-day-social-dance-pioneer-bar-2025-03-21"
   },
   {
     "title": "Santoro Live",
@@ -17477,28 +17499,6 @@
     "category": "music",
     "cost": "",
     "slug": "live-at-the-sitz-dizgo-the-sitzmark-bar-grill-2025-03-21"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-21",
-    "time": "7p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-21"
-  },
-  {
-    "title": "St. Patrick's Day Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-21",
-    "time": "8:30p-11p",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": "",
-    "slug": "st-patrick-s-day-social-dance-pioneer-bar-2025-03-21"
   },
   {
     "title": "Winter King Tournament Kick-Off Party w/ The Copper River Band",
@@ -17930,6 +17930,17 @@
     "slug": "mad-myrna-s-diva-variety-show-mad-myrna-s-2025-03-22"
   },
   {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-22",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-03-22"
+  },
+  {
     "title": "Live at the Sitz: Dizgo",
     "venue": "The Sitzmark",
     "city": "Anchorage",
@@ -18073,17 +18084,6 @@
     "slug": "live-at-the-sitz-dizgo-the-sitzmark-bar-grill-2025-03-22"
   },
   {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-22",
-    "time": "9p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-03-22"
-  },
-  {
     "title": "Piano Music by Sunrise Kilcher",
     "venue": "AJ’s Old Town Steakhouse & Tavern",
     "city": "Homer",
@@ -18192,6 +18192,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-koot-s-2025-03-23"
+  },
+  {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-23",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-23"
   },
   {
     "title": "Brunch Music w/ Dawson Gentleman",
@@ -18401,17 +18412,6 @@
     "category": "music",
     "cost": "",
     "slug": "songs-of-spring-st-andrew-catholic-2025-03-23"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-23",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-23"
   },
   {
     "title": "Sunday Swing at the Red Dog",
@@ -18733,6 +18733,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-03-26"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-26",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-03-26"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -18810,6 +18821,28 @@
     "slug": "line-dance-wednesdays-pink-cadillac-2025-03-26"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-26",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-26"
+  },
+  {
+    "title": "St. Patrick's Day Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-26",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1730163174211560/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "st-patrick-s-day-social-dance-pioneer-bar-2025-03-26"
+  },
+  {
     "title": "Country Night",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -18885,6 +18918,17 @@
     "category": "music",
     "cost": "",
     "slug": "pop-vs-house-music-with-dj-tony-taylor-the-cabin-bar-2025-03-26"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-26",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-03-26"
   },
   {
     "title": "Live at the Sitz: Dizgo",
@@ -19085,28 +19129,6 @@
     "slug": "70-s-dance-party-w-the-vintage-retro-chair-5-2025-03-26"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-26",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-03-26"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-26",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-03-26"
-  },
-  {
     "title": "Parlor In The Round feat. Lizzie No, Annie B, & Joel Stuk",
     "venue": "Chilkat Center for the Arts",
     "city": "Haines",
@@ -19116,28 +19138,6 @@
     "category": "music",
     "cost": "",
     "slug": "parlor-in-the-round-feat-lizzie-no-annie-b-joel-stuk-chilkat-center-for-the-arts-2025-03-26"
-  },
-  {
-    "title": "St. Patrick's Day Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-26",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/1730163174211560/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "st-patrick-s-day-social-dance-pioneer-bar-2025-03-26"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-26",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-03-26"
   },
   {
     "title": "Winter King Tournament Kick-Off Party w/ The Copper River Band",
@@ -20416,6 +20416,17 @@
     "slug": "koots-karaoke-koot-s-2025-03-30"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-03-30",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-30"
+  },
+  {
     "title": "Psychedelic Spring Drag Brunch",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -20592,17 +20603,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-03-30"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-03-30",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-03-30"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -20724,6 +20724,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-04-02"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-02",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-02"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -20799,6 +20810,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-wednesdays-pink-cadillac-2025-04-02"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-02",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-02"
   },
   {
     "title": "B4UDie: Lower 48 Invasion Showcase",
@@ -20898,6 +20920,17 @@
     "category": "music",
     "cost": "",
     "slug": "r-b-night-smooth-grooves-dj-tony-taylor-the-cabin-bar-2025-04-02"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-02",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-04-02"
   },
   {
     "title": "Camai Festival",
@@ -21085,39 +21118,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-04-02"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-02",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-02"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-02",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-02"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-02",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-04-02"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -22473,6 +22473,17 @@
     "slug": "koots-karaoke-koot-s-2025-04-06"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-06",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-06"
+  },
+  {
     "title": "Brunch Music w/ Christina Napolean",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -22671,17 +22682,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-04-06"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-06",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-06"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -22792,6 +22792,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-04-09"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-09",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-09"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -22869,6 +22880,17 @@
     "slug": "line-dance-wednesdays-pink-cadillac-2025-04-09"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-09",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-09"
+  },
+  {
     "title": "Country Night",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -22944,6 +22966,17 @@
     "category": "music",
     "cost": "",
     "slug": "retro-hits-live-with-carlos-ugartist-uno-the-cabin-bar-2025-04-09"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-09",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-04-09"
   },
   {
     "title": "Open Mic Night",
@@ -23153,39 +23186,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-04-09"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-09",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-09"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-09",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-09"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-09",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-04-09"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -24486,6 +24486,17 @@
     "slug": "koots-karaoke-koot-s-2025-04-13"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-13",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-13"
+  },
+  {
     "title": "DJ Spencer Lee's Jams for Fams: Spring Bunny Hop",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -24629,17 +24640,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-04-13"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-13",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-13"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -24739,6 +24739,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-04-16"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-16",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-16"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -24816,6 +24827,28 @@
     "slug": "line-dance-wednesdays-pink-cadillac-2025-04-16"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-16",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-16"
+  },
+  {
+    "title": "Ballroom Dance Club of Fairbanks Latin Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-16",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1134057528493626/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-dance-club-of-fairbanks-latin-social-dance-pioneer-bar-2025-04-16"
+  },
+  {
     "title": "Country Night Cowboy Bunny",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -24880,6 +24913,17 @@
     "category": "music",
     "cost": "",
     "slug": "live-at-the-sitz-jerry-wessling-band-the-sitzmark-2025-04-16"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-16",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-04-16"
   },
   {
     "title": "Open Mic Night",
@@ -25089,50 +25133,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-04-16"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-16",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-16"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-16",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-16"
-  },
-  {
-    "title": "Ballroom Dance Club of Fairbanks Latin Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-16",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/1134057528493626/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-dance-club-of-fairbanks-latin-social-dance-pioneer-bar-2025-04-16"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-16",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-04-16"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -26444,6 +26444,17 @@
     "slug": "koots-karaoke-koot-s-2025-04-20"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-20",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-20"
+  },
+  {
     "title": "Sweet Cheeks Cabaret: Rise & Shine! An Easter Burlesque Brunch Show",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -26620,17 +26631,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-04-20"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-20",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100035394206580",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-04-20"
-  },
-  {
     "title": "Boombox Bingo",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -26741,6 +26741,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-04-23"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-23",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-23"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -26750,6 +26761,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-koot-s-2025-04-23"
+  },
+  {
+    "title": "Ballroom Dance Club of Fairbanks Dance Practice",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-23",
+    "time": "4p-7p",
+    "ticketUrl": "https://www.facebook.com/events/1317083166248322/1317083182914987/?active_tab=about",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-dance-club-of-fairbanks-dance-practice-pioneer-bar-2025-04-23"
   },
   {
     "title": "Live Music with Rick Brooks",
@@ -26816,6 +26838,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-wednesdays-pink-cadillac-2025-04-23"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-23",
+    "time": "7p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-23"
   },
   {
     "title": "Country Night & Teri’s Country Birthday Celebration!",
@@ -26893,6 +26926,17 @@
     "category": "music",
     "cost": "",
     "slug": "open-decks-it-s-a-dj-roll-call-the-cabin-bar-2025-04-23"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-04-23",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-04-23"
   },
   {
     "title": "Ladies Night w/ Lex & DJ Siren",
@@ -27146,50 +27190,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-04-23"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-23",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=847872140677267&set=pb.100063634654030.-2207520000",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-04-23"
-  },
-  {
-    "title": "Ballroom Dance Club of Fairbanks Dance Practice",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-23",
-    "time": "4p-7p",
-    "ticketUrl": "https://www.facebook.com/events/1317083166248322/1317083182914987/?active_tab=about",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-dance-club-of-fairbanks-dance-practice-pioneer-bar-2025-04-23"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-23",
-    "time": "7p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-pioneer-bar-2025-04-23"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-04-23",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=959552705826850&set=pb.100053163893394.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-04-23"
   },
   {
     "title": "Salmonilla Pt.2 Feat JerBear",
@@ -28204,6 +28204,17 @@
     "slug": "valley-chrome-wheel-car-show-mta-event-center-2025-05-04"
   },
   {
+    "title": "May The Course Be Wirh you 5K & Adoption Even 10a-1p 5/6 The Cabin – Karaoke Night at the Cabin 7p-10p5/7 The Cabin – Open Mic Night at the Cabin 7p-10p5/7 Hering Auditorium – LHS Show Choir & Jazz Band Spring Concert 7p-9pGirdwood5/3Girdwood Brewing – Paws and Pints: Adopt, Sip, & Repeat 11a-2p5/3Girdwood Library – Star Wars Movie Marathon",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-04",
+    "time": "10a-6p",
+    "ticketUrl": "https://www.facebook.com/events/3645861832225449/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "may-the-course-be-wirh-you-5k-adoption-even-10a-1p-5-6-the-cabin-karaoke-night-at-the-cabin-7p-10p5-7-the-cabin-open-mic-night-at-the-cabin-2025-05-04"
+  },
+  {
     "title": "First Friday Open House: Keep Exploring 5:30p-7p5/3 The Crystal Saloon – Noche Latina: Celebracion del Cinco de Mayo",
     "venue": "Marie Drake Planetarium",
     "city": "Anchorage",
@@ -28257,6 +28268,17 @@
     "category": "dance",
     "cost": "",
     "slug": "argentine-tango-lesson-open-dance-aurora-mediterranean-restaurant-2025-05-04"
+  },
+  {
+    "title": "Industry Night w/ Joe Brady 10p-2a Rage City Vintage – Songwriter's Circle w/ Shane Russell",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-04",
+    "time": "1p-4p",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-10p-2a-rage-city-vintage-songwriter-s-circle-w-shane-russell-pioneer-bar-2025-05-04"
   },
   {
     "title": "Everlasting Concerts w/ Zuill Bailey & Bryan Wallick",
@@ -28457,6 +28479,17 @@
     "slug": "open-jam-with-blast-from-the-past-8-30p-1avan-s-dive-bar-open-mic-night-7p-11pvfw-post-1685-open-mic-jam-4-30p-8-30pwriter-s-block-2025-05-04"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays 7p-12a5/3 Pioneer Bar – Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-04",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-7p-12a5-3-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-04"
+  },
+  {
     "title": "Spring Daisies Benefit Concert 7p-9p5/5Chepo’s Mexican Restaurant – Cinco De Mayo w/ Tim Hall",
     "venue": "Odd Man Rush Brewing",
     "city": "Eagle River",
@@ -28532,39 +28565,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-05-04"
-  },
-  {
-    "title": "May The Course Be Wirh you 5K & Adoption Even 10a-1p 5/6 The Cabin – Karaoke Night at the Cabin 7p-10p5/7 The Cabin – Open Mic Night at the Cabin 7p-10p5/7 Hering Auditorium – LHS Show Choir & Jazz Band Spring Concert 7p-9pGirdwood5/3Girdwood Brewing – Paws and Pints: Adopt, Sip, & Repeat 11a-2p5/3Girdwood Library – Star Wars Movie Marathon",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-04",
-    "time": "10a-6p",
-    "ticketUrl": "https://www.facebook.com/events/3645861832225449/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "may-the-course-be-wirh-you-5k-adoption-even-10a-1p-5-6-the-cabin-karaoke-night-at-the-cabin-7p-10p5-7-the-cabin-open-mic-night-at-the-cabin-2025-05-04"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady 10p-2a Rage City Vintage – Songwriter's Circle w/ Shane Russell",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-04",
-    "time": "1p-4p",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-10p-2a-rage-city-vintage-songwriter-s-circle-w-shane-russell-pioneer-bar-2025-05-04"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays 7p-12a5/3 Pioneer Bar – Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-04",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-7p-12a5-3-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-04"
   },
   {
     "title": "Storytime: The Fog & Follow the Flyway: The Marvel of Bird Migration",
@@ -29172,6 +29172,17 @@
     "slug": "koots-karaoke-koot-s-2025-05-11"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-11",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-11"
+  },
+  {
     "title": "Brunch Music w/ The Work Shoes",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -29469,17 +29480,6 @@
     "slug": "blackwater-railroad-company-the-anchor-2025-05-11"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-11",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-11"
-  },
-  {
     "title": "Mother's Day Brunch with Kat Moore",
     "venue": "Creekbend Café",
     "city": "Hope",
@@ -29744,6 +29744,17 @@
     "slug": "the-monday-mic-w-boobs-koot-s-2025-05-13"
   },
   {
+    "title": "Trivia & Open Mike Night Fridays 7p-12a5/10 Pioneer Bar – Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-13",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-7p-12a5-10-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-13"
+  },
+  {
     "title": "Country Night 8p-12aKoot’s – Koots Karaoke 10p-2aLil Babes Cocktail Lounge – Open Mic 8p-12aMad Myrna’s – Karaoke 9p-12aPink Cadillac – Line Dance Wednesdays 7p-12aPioneer Bar – The Eternal Cowboys 10p-12aVan’s Dive Bar – Karaoke Wednesdays w/ Kellie B 9p-12a Anchor Point Big Lake5/11 Susitna Brewing – Open Mic Night 6p-9p ChugiakCordova",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -29929,17 +29940,6 @@
     "category": "music",
     "cost": "",
     "slug": "blues-cruise-w-memphis-gold-auke-bay-2025-05-13"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays 7p-12a5/10 Pioneer Bar – Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-13",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-7p-12a5-10-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-13"
   },
   {
     "title": "Karaoke Night 9:15p-12:15a5/8 Homer Council on the Arts – Community Jam Sessions",
@@ -30448,6 +30448,17 @@
     "slug": "community-storytime-the-alaska-zoo-2025-05-14"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-14",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-05-14"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -30501,6 +30512,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-wednesdays-pink-cadillac-2025-05-14"
+  },
+  {
+    "title": "Ballroom Dance Club: Dance Practice",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-14",
+    "time": "7p-9p",
+    "ticketUrl": "",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-dance-club-dance-practice-pioneer-bar-2025-05-14"
   },
   {
     "title": "Country Night",
@@ -30589,28 +30611,6 @@
     "category": "festival",
     "cost": "",
     "slug": "paddling-film-festival-the-porcupine-theater-2025-05-14"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-14",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-05-14"
-  },
-  {
-    "title": "Ballroom Dance Club: Dance Practice",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-14",
-    "time": "7p-9p",
-    "ticketUrl": "",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-dance-club-dance-practice-pioneer-bar-2025-05-14"
   },
   {
     "title": "Karaoke",
@@ -31185,6 +31185,17 @@
     "slug": "blast-from-the-past-time-out-lounge-2025-05-17"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-18",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-18"
+  },
+  {
     "title": "Brunch Music w/ Johnny Prizm 12p-2pWriter’s Block Bookstore & Café – Django Jam",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -31273,17 +31284,6 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-10p-2amad-myrna-s-karaoke-koot-s-2025-05-18"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-18",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-18"
-  },
-  {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Koot’s – The Monday Mic w/ Boobs",
     "venue": "The Blue Fox",
     "city": "Anchorage",
@@ -31350,6 +31350,17 @@
     "slug": "the-eternal-cowboys-9p-12aorganic-oasis-irish-music-and-dancing-6p-8pvan-s-dive-bar-open-jam-night-7p-11pwednesday-may-21st-907-alehouse-2025-05-20"
   },
   {
+    "title": "Ballroom Dance Club: Aloha Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-20",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1044888134215657/1044888147548989/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-dance-club-aloha-social-dance-pioneer-bar-2025-05-20"
+  },
+  {
     "title": "AK Rockstar Karaoke",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -31359,6 +31370,17 @@
     "category": "music",
     "cost": "",
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-05-20"
+  },
+  {
+    "title": "Trivia & Open Mike Night Fridays 7p-12a5/17 Pioneer Bar – Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-20",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
+    "category": "community",
+    "cost": "",
+    "slug": "trivia-open-mike-night-fridays-7p-12a5-17-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-20"
   },
   {
     "title": "Goth Night at The Cabin w/ The Count & Paranorma",
@@ -31623,28 +31645,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-05-20"
-  },
-  {
-    "title": "Ballroom Dance Club: Aloha Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-20",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/1044888134215657/1044888147548989/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-dance-club-aloha-social-dance-pioneer-bar-2025-05-20"
-  },
-  {
-    "title": "Trivia & Open Mike Night Fridays 7p-12a5/17 Pioneer Bar – Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-20",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=e5d64fea3c&e=be0392aff7",
-    "category": "community",
-    "cost": "",
-    "slug": "trivia-open-mike-night-fridays-7p-12a5-17-pioneer-bar-karaoke-saturdays-pioneer-bar-2025-05-20"
   },
   {
     "title": "Backyard Summer Concert Series",
@@ -32659,6 +32659,17 @@
     "slug": "country-night-w-dj-rico-pink-cadillac-2025-05-24"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-25",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-25"
+  },
+  {
     "title": "Brunch Music w/ Arnav",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -32723,17 +32734,6 @@
     "category": "comedy",
     "cost": "",
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-10p-2amad-myrna-s-karaoke-koot-s-2025-05-25"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-25",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-05-25"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Koot’s – The Monday Mic w/ Boobs",
@@ -32811,6 +32811,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-night-8p-12akoot-s-koots-karaoke-10p-2amad-myrna-s-karaoke-9p-12apink-cadillac-line-dance-wednesdays-7p-12apioneer-bar-the-eternal-2025-05-27"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-05-27",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-05-27"
   },
   {
     "title": "Sad Kids Dance Too: Vol 2 w/ DJ Trax",
@@ -33042,17 +33053,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-05-27"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-05-27",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-05-27"
   },
   {
     "title": "Karaoke Night 9:15p-12:15a5/22 Homer Council on the Arts – Community Jam Sessions",
@@ -34276,6 +34276,17 @@
     "slug": "country-night-w-dj-rico-pink-cadillac-2025-05-31"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-01",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-01"
+  },
+  {
     "title": "Spenard Jazz Fest",
     "venue": "Organic Oasis",
     "city": "Anchorage",
@@ -34362,17 +34373,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-06-01"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-01",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-01"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Koot’s – The Monday Mic w/ Boobs",
@@ -34483,6 +34483,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-night-a-ladies-night-of-diamonds-denim-8p-12akoot-s-koots-karaoke-10p-2amad-myrna-s-karaoke-9p-12apink-cadillac-line-dance-2025-06-03"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-03",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-03"
   },
   {
     "title": "Sad Kids Dance Too: Vol 2 w/ DJ Trax",
@@ -34714,17 +34725,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-06-03"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-03",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-03"
   },
   {
     "title": "Karaoke Night 9:15p-12:15a5/29 Homer Council on the Arts – Community Jam Sessions",
@@ -35486,6 +35486,17 @@
     "slug": "marc-brown-joel-west-the-cabin-bar-2025-06-04"
   },
   {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-04",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-04"
+  },
+  {
     "title": "Open Mic Night at the Cabin 7p-10p6/4 Pioneer Park Dance Hall – Ballroom Dance Club: Dance Practice 7p-9pGirdwood",
     "venue": "The Cabin Bar",
     "city": "Anchorage",
@@ -35704,17 +35715,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-06-04"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-04",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-04"
   },
   {
     "title": "Open Mic Night w/ Jim Maloney & Orion Donicht 7p-10p6/2Grace Ridge Brewing – Cirque Date Night",
@@ -36916,6 +36916,17 @@
     "slug": "sunday-fresh-market-more-w-live-music-o-malley-center-2025-06-08"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-08",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-08"
+  },
+  {
     "title": "Spenard Jazz Fest",
     "venue": "Organic Oasis",
     "city": "Anchorage",
@@ -37002,17 +37013,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-06-08"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-08",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-08"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -37136,6 +37136,17 @@
     "slug": "karaoke-night-at-the-cabin-the-cabin-bar-2025-06-11"
   },
   {
+    "title": "Carlos UgArtist UNO",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-11",
+    "time": "8:30p-11:30p",
+    "ticketUrl": "https://www.facebook.com/events/1325718295168173/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "carlos-ugartist-uno-pioneer-bar-2025-06-11"
+  },
+  {
     "title": "Live Music with Regina & Will",
     "venue": "Humpy's Great Alaskan Alehouse",
     "city": "Anchorage",
@@ -37178,6 +37189,17 @@
     "category": "music",
     "cost": "",
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-06-11"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-11",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-11"
   },
   {
     "title": "Eerie Flats & Heart Machine",
@@ -37409,28 +37431,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-06-11"
-  },
-  {
-    "title": "Carlos UgArtist UNO",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-11",
-    "time": "8:30p-11:30p",
-    "ticketUrl": "https://www.facebook.com/events/1325718295168173/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "carlos-ugartist-uno-pioneer-bar-2025-06-11"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-11",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-11"
   },
   {
     "title": "Karaoke Night 9:15p-12:15a6/5 Homer Council on the Arts – Community Jam Sessions",
@@ -38786,6 +38786,17 @@
     "slug": "sunday-fresh-market-more-w-live-music-o-malley-center-2025-06-15"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-15",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-15"
+  },
+  {
     "title": "Brunch Music w/ Baker Baker Music Maker",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -38927,17 +38938,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-06-15"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-15",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-15"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -39202,6 +39202,17 @@
     "category": "music",
     "cost": "",
     "slug": "casey-smith-project-matt-hopper-and-once-future-the-cabin-bar-2025-06-18"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-18",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-18"
   },
   {
     "title": "DJ Battle: EDM vs House",
@@ -39609,17 +39620,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-06-18"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-18",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-18"
   },
   {
     "title": "3rd Annual Backyard Concert Festival Series",
@@ -41712,6 +41712,17 @@
     "slug": "rotating-dj-s-9p-1a-humpy-s-abbalaska-8-30p-12akoot-s-nothin-but-trouble-10-30-2amad-myrna-s-mad-myrna-s-diva-variety-show-flattop-pizza-2025-06-21"
   },
   {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-21",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-21"
+  },
+  {
     "title": "North Star Rebellion",
     "venue": "Van's Dive Bar",
     "city": "Anchorage",
@@ -41842,17 +41853,6 @@
     "category": "music",
     "cost": "",
     "slug": "triple-black-diamonds-the-boatel-2025-06-21"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-21",
-    "time": "9p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-21"
   },
   {
     "title": "Piano Music by Sunrise Kilcher",
@@ -42119,6 +42119,17 @@
     "slug": "sunday-fresh-market-more-w-live-music-o-malley-center-2025-06-22"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-22",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-22"
+  },
+  {
     "title": "Brunch Music w/ Baker Baker Music Maker",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -42315,17 +42326,6 @@
     "category": "festival",
     "cost": "",
     "slug": "summer-solstice-fair-kenai-peninsula-college-2025-06-22"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-22",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-06-22"
   },
   {
     "title": "Johnny B’s Rhythm of the North",
@@ -42735,6 +42735,17 @@
     "slug": "koots-karaoke-10p-2amad-myrna-s-karaoke-9p-12apink-cadillac-line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-koot-s-2025-06-25"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-25",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-06-25"
+  },
+  {
     "title": "Country Night 8p-12aKoot’s – Bryan Hopkins w/ Miles Schon from Puddle of Mudd",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -42986,6 +42997,17 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-wednesdays-w-kellie-b-van-s-dive-bar-2025-06-25"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-06-25",
+    "time": "9p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-06-25"
   },
   {
     "title": "DJ Battle: EDM vs House",
@@ -43415,28 +43437,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-06-25"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-25",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-06-25"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-06-25",
-    "time": "9p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=adf8b6fd2f&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-06-25"
   },
   {
     "title": "3rd Annual Backyard Concert Festival Series",
@@ -44792,6 +44792,17 @@
     "slug": "koots-karaoke-koot-s-2025-07-06"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-06",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-06"
+  },
+  {
     "title": "Brunch Music w/ Ashton Barabree",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -44935,6 +44946,17 @@
     "slug": "karaoke-mad-myrna-s-2025-07-06"
   },
   {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-06",
+    "time": "9p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-07-06"
+  },
+  {
     "title": "Sunday Karaoke",
     "venue": "The Carousel Lounge",
     "city": "Anchorage",
@@ -44999,28 +45021,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-07-06"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-06",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-06"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-06",
-    "time": "9p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-07-06"
   },
   {
     "title": "Saturday Cinders",
@@ -45441,6 +45441,17 @@
     "slug": "jazz-with-a-town-sharps-6p-8ppink-cadillac-line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-organic-oasis-2025-07-09"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-09",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-07-09"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -45472,6 +45483,17 @@
     "category": "festival",
     "cost": "",
     "slug": "friday-flings-market-live-music-matanuska-brewing-company-downtown-2025-07-09"
+  },
+  {
+    "title": "2025 4th of July Celebration",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-09",
+    "time": "1p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1927683688004133/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "2025-4th-of-july-celebration-pioneer-bar-2025-07-09"
   },
   {
     "title": "Alaska Flag Day Celebration",
@@ -45659,6 +45681,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-10p-2amad-myrna-s-karaoke-koot-s-2025-07-09"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-09",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-07-09"
   },
   {
     "title": "Friday Night FOAM Party w/ DJ Tony Taylor",
@@ -46000,39 +46033,6 @@
     "category": "theatre",
     "cost": "",
     "slug": "independence-day-2025-parade-and-play-the-haines-way-downtown-haines-tlingit-park-2025-07-09"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-09",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-07-09"
-  },
-  {
-    "title": "2025 4th of July Celebration",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-09",
-    "time": "1p-6p",
-    "ticketUrl": "https://www.facebook.com/events/1927683688004133/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "2025-4th-of-july-celebration-pioneer-bar-2025-07-09"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-09",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-07-09"
   },
   {
     "title": "Karaoke Night 9:15p-12:15a7/3 Homer Council on the Arts – Community Jam Sessions",
@@ -47476,6 +47476,17 @@
     "slug": "chingy-nelly-afterparty-w-dj-joe-brady-williwaw-social-2025-07-13"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-13",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-13"
+  },
+  {
     "title": "2025 FIFA Club World Cup Final Watch Party",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -47617,17 +47628,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-07-13"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-13",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-13"
   },
   {
     "title": "Garden Grooves: Ryan Little Eagle",
@@ -47892,6 +47892,17 @@
     "category": "music",
     "cost": "",
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-07-16"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-16",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-07-16"
   },
   {
     "title": "Back to the 80's Intersellar Laserdome Party",
@@ -48189,17 +48200,6 @@
     "category": "music",
     "cost": "",
     "slug": "july-second-saturday-downtown-haines-2025-07-16"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-16",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-07-16"
   },
   {
     "title": "Jenny Baker Live",
@@ -49731,6 +49731,17 @@
     "slug": "sunday-fresh-market-more-w-live-music-o-malley-center-2025-07-20"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-20",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-20"
+  },
+  {
     "title": "Brunch Music w/ Arnav",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -49850,17 +49861,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-07-20"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-20",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-20"
   },
   {
     "title": "Garden Grooves: Rick Brooks",
@@ -50061,6 +50061,17 @@
     "slug": "local-talent-showcase-7p-10p7-23children-s-museum-fsaf-lunch-bites-corvus-for-kids-the-cabin-bar-2025-07-23"
   },
   {
+    "title": "Great Bathtub Race",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-23",
+    "time": "1p-5p",
+    "ticketUrl": "https://www.facebook.com/events/731462332934806/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "great-bathtub-race-pioneer-bar-2025-07-23"
+  },
+  {
     "title": "International Folk Dancing",
     "venue": "Anchorage Social Dance Club",
     "city": "Anchorage",
@@ -50070,6 +50081,17 @@
     "category": "dance",
     "cost": "",
     "slug": "international-folk-dancing-anchorage-social-dance-club-2025-07-23"
+  },
+  {
+    "title": "The Annual Pioneer Park Wine Mixer & Salmon Jam",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-23",
+    "time": "6p-10p",
+    "ticketUrl": "https://www.facebook.com/events/1231641407817380/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "the-annual-pioneer-park-wine-mixer-salmon-jam-pioneer-bar-2025-07-23"
   },
   {
     "title": "Karaoke Wednesdays w/ Kellie B 9p-12a Writer’s Block Bookstore & Café – Hussy Hicks Concert",
@@ -50158,6 +50180,17 @@
     "category": "music",
     "cost": "",
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-07-23"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-23",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-07-23"
   },
   {
     "title": "GrungeBob Live",
@@ -50598,39 +50631,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-07-23"
-  },
-  {
-    "title": "Great Bathtub Race",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-23",
-    "time": "1p-5p",
-    "ticketUrl": "https://www.facebook.com/events/731462332934806/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "great-bathtub-race-pioneer-bar-2025-07-23"
-  },
-  {
-    "title": "The Annual Pioneer Park Wine Mixer & Salmon Jam",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-23",
-    "time": "6p-10p",
-    "ticketUrl": "https://www.facebook.com/events/1231641407817380/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "the-annual-pioneer-park-wine-mixer-salmon-jam-pioneer-bar-2025-07-23"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-23",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-07-23"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney 6:30p-10p7/22Pratt Museum – Storytime at the PRATT: PLANTS!!",
@@ -52184,6 +52184,17 @@
     "slug": "sunday-fresh-market-more-w-live-music-o-malley-center-2025-07-27"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-27",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-27"
+  },
+  {
     "title": "Brunch Music w/ THV",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -52303,17 +52314,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-07-27"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-27",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-07-27"
   },
   {
     "title": "Garden Grooves: Emily Niebuhr",
@@ -52666,6 +52666,17 @@
     "category": "dance",
     "cost": "",
     "slug": "latin-dance-lessons-party-w-dj-miguel-the-cabin-bar-2025-07-30"
+  },
+  {
+    "title": "Karaoke Saturdays",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-30",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-saturdays-pioneer-bar-2025-07-30"
   },
   {
     "title": "Open Mic Night 6p-9pChugiak",
@@ -53128,17 +53139,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-07-30"
-  },
-  {
-    "title": "Karaoke Saturdays",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-30",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-saturdays-pioneer-bar-2025-07-30"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney 6:30p-10p7/29Pratt Museum – Storytime at the PRATT: PLANTS!!",
@@ -54131,6 +54131,17 @@
     "slug": "karaoke-night-schwabenhof-2025-07-30"
   },
   {
+    "title": "Open Mic Wife Swap",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-07-31",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-wife-swap-pioneer-bar-2025-07-31"
+  },
+  {
     "title": "Lunch on the Lawn w/ Live Music",
     "venue": "Anchorage Museum",
     "city": "Anchorage",
@@ -54373,17 +54384,6 @@
     "slug": "the-golden-heart-revue-the-palace-theater-2025-07-31"
   },
   {
-    "title": "Open Mic Wife Swap",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-07-31",
-    "time": "10p-1a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-wife-swap-pioneer-bar-2025-07-31"
-  },
-  {
     "title": "Salmonfest Pre-Party w/ Tim Easton, Blackwater Railroad, Katy Guillen & The Drive, and Free Creatures!",
     "venue": "Creekbend Company",
     "city": "Hope",
@@ -54547,6 +54547,17 @@
     "category": "music",
     "cost": "",
     "slug": "80-s-night-with-yachtly-crew-koot-s-2025-08-01"
+  },
+  {
+    "title": "Fairaoke",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-01",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": "",
+    "slug": "fairaoke-pioneer-bar-2025-08-01"
   },
   {
     "title": "Tito's House Party w/ DJ GRE & DJ KA5",
@@ -54934,17 +54945,6 @@
     "slug": "the-golden-heart-revue-the-palace-theater-2025-08-01"
   },
   {
-    "title": "Fairaoke",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-01",
-    "time": "10p-1a",
-    "ticketUrl": "",
-    "category": "festival",
-    "cost": "",
-    "slug": "fairaoke-pioneer-bar-2025-08-01"
-  },
-  {
     "title": "Saturday Cinders",
     "venue": "Dirty Skillet",
     "city": "Hope",
@@ -55141,6 +55141,17 @@
     "category": "dance",
     "cost": "",
     "slug": "fuego-latin-night-w-dj-ka5-joe-brady-dj-jose-williwaw-social-2025-08-02"
+  },
+  {
+    "title": "Kingswardfish",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-02",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "kingswardfish-pioneer-bar-2025-08-02"
   },
   {
     "title": "Jazz In The Park",
@@ -55451,17 +55462,6 @@
     "slug": "the-golden-heart-revue-the-palace-theater-2025-08-02"
   },
   {
-    "title": "Kingswardfish",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-02",
-    "time": "11p-2a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "kingswardfish-pioneer-bar-2025-08-02"
-  },
-  {
     "title": "Piano Music by Sunrise Kilcher",
     "venue": "AJ’s Old Town Steakhouse & Tavern",
     "city": "Homer",
@@ -55647,6 +55647,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-koot-s-2025-08-03"
+  },
+  {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-03",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-03"
   },
   {
     "title": "Brunch Music w/ Vinter.Baer",
@@ -55889,17 +55900,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-08-03"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-03",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-03"
   },
   {
     "title": "Sunday Brunch w/ Saturday Cinders",
@@ -56397,6 +56397,39 @@
     "slug": "koots-karaoke-10p-2amad-myrna-s-karaoke-9p-12apink-cadillac-line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-koot-s-2025-08-06"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-06",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-08-06"
+  },
+  {
+    "title": "Fairaoke",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-06",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "festival",
+    "cost": "",
+    "slug": "fairaoke-pioneer-bar-2025-08-06"
+  },
+  {
+    "title": "Open Mic Wife Swap",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-06",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-wife-swap-pioneer-bar-2025-08-06"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -56417,6 +56450,17 @@
     "category": "festival",
     "cost": "",
     "slug": "friday-flings-market-live-music-matanuska-brewing-company-downtown-2025-08-06"
+  },
+  {
+    "title": "Kingswardfish",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-06",
+    "time": "11p-2a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "kingswardfish-pioneer-bar-2025-08-06"
   },
   {
     "title": "Garden Grooves",
@@ -56846,50 +56890,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-08-06"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-06",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-08-06"
-  },
-  {
-    "title": "Fairaoke",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-06",
-    "time": "10p-1a",
-    "ticketUrl": "",
-    "category": "festival",
-    "cost": "",
-    "slug": "fairaoke-pioneer-bar-2025-08-06"
-  },
-  {
-    "title": "Open Mic Wife Swap",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-06",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/profile.php?id=100053163893394",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-wife-swap-pioneer-bar-2025-08-06"
-  },
-  {
-    "title": "Kingswardfish",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-06",
-    "time": "11p-2a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "kingswardfish-pioneer-bar-2025-08-06"
   },
   {
     "title": "Andy Koch’s Badd Dog Blues Society",
@@ -58421,6 +58421,17 @@
     "slug": "black-barrel-and-the-bad-men-palmer-alehouse-2025-08-09"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-10",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-10"
+  },
+  {
     "title": "Brunch Music w/ Peter Miles",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -58540,17 +58551,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-08-10"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-10",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-10"
   },
   {
     "title": "Garden Grooves",
@@ -58727,6 +58727,17 @@
     "category": "festival",
     "cost": "",
     "slug": "friday-flings-market-live-music-matanuska-brewing-company-downtown-2025-08-13"
+  },
+  {
+    "title": "Ribbon Cutting: Pioneer Park Playground Phase 1",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-13",
+    "time": "2p-3p",
+    "ticketUrl": "https://www.facebook.com/events/1129990465618352/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "theatre",
+    "cost": "",
+    "slug": "ribbon-cutting-pioneer-park-playground-phase-1-pioneer-bar-2025-08-13"
   },
   {
     "title": "International Folk Dancing",
@@ -59178,17 +59189,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-08-13"
-  },
-  {
-    "title": "Ribbon Cutting: Pioneer Park Playground Phase 1",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-13",
-    "time": "2p-3p",
-    "ticketUrl": "https://www.facebook.com/events/1129990465618352/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "theatre",
-    "cost": "",
-    "slug": "ribbon-cutting-pioneer-park-playground-phase-1-pioneer-bar-2025-08-13"
   },
   {
     "title": "Storytime at the PRATT: Fun in the Sun!",
@@ -60865,7 +60865,7 @@
   {
     "title": "Industry Night w/ Joe Brady 10p-2a `",
     "venue": "Pioneer Bar",
-    "city": "Haines",
+    "city": "Anchorage",
     "date": "2025-08-17",
     "time": "TBD",
     "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
@@ -61114,6 +61114,17 @@
     "category": "music",
     "cost": "",
     "slug": "blackwater-railroad-company-the-cabin-bar-2025-08-20"
+  },
+  {
+    "title": "80's Themed Back to School Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-20",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1082730010618361/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "80-s-themed-back-to-school-social-dance-pioneer-bar-2025-08-20"
   },
   {
     "title": "Pam Santoro",
@@ -61433,17 +61444,6 @@
     "category": "music",
     "cost": "",
     "slug": "barry-sless-stephen-ingliss-slack-steel-song-chilkat-center-for-the-arts-2025-08-20"
-  },
-  {
-    "title": "80's Themed Back to School Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-20",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/1082730010618361/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "80-s-themed-back-to-school-social-dance-pioneer-bar-2025-08-20"
   },
   {
     "title": "Storytime at the PRATT: Fun in the Sun!",
@@ -63186,7 +63186,7 @@
   {
     "title": "Industry Night w/ Joe Brady 10p-2a `",
     "venue": "Pioneer Bar",
-    "city": "Haines",
+    "city": "Anchorage",
     "date": "2025-08-24",
     "time": "TBD",
     "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
@@ -63391,6 +63391,17 @@
     "category": "dance",
     "cost": "",
     "slug": "koots-karaoke-10p-2amad-myrna-s-karaoke-9p-12apink-cadillac-line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-koot-s-2025-08-27"
+  },
+  {
+    "title": "JAMHI Jam: All Ages Community Concert & Picnic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-27",
+    "time": "4p-7p",
+    "ticketUrl": "https://www.facebook.com/events/736183089275881/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "jamhi-jam-all-ages-community-concert-picnic-pioneer-bar-2025-08-27"
   },
   {
     "title": "International Folk Dancing",
@@ -63820,17 +63831,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-08-27"
-  },
-  {
-    "title": "JAMHI Jam: All Ages Community Concert & Picnic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-27",
-    "time": "4p-7p",
-    "ticketUrl": "https://www.facebook.com/events/736183089275881/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "jamhi-jam-all-ages-community-concert-picnic-pioneer-bar-2025-08-27"
   },
   {
     "title": "Storytime at the PRATT: Fun in the Sun!",
@@ -65450,6 +65450,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-08-31"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-08-31",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-31"
+  },
+  {
     "title": "Brunch Music w/ Amy Hellman",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -65569,17 +65580,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-08-31"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-08-31",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-08-31"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -67639,6 +67639,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-09-07"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-07",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-07"
+  },
+  {
     "title": "Songwriter's Circle Hosted by Shane Russell",
     "venue": "Rage City Vintage",
     "city": "Anchorage",
@@ -67758,17 +67769,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-09-07"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-07",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-07"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -67967,6 +67967,28 @@
     "category": "music",
     "cost": "",
     "slug": "tyrone-palmer-friends-907-alehouse-2025-09-10"
+  },
+  {
+    "title": "Alaska Comedy Presents: AGT’s Mike E Winfield Live!",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-10",
+    "time": "7p-9p",
+    "ticketUrl": "http://alaskacomedy.com/?fbclid=IwY2xjawMkNldleHRuA2FlbQIxMABicmlkETFzOHVJUmZKYXVuWFV5TGVGAR6rdwKzFhlSvuBubB1DicxQx5QC2N5G_t-XkMniqHgfWKFrWeN0bEde9I7Tng_aem_Oz_t0IyRZqefKWRElOciFA",
+    "category": "comedy",
+    "cost": "",
+    "slug": "alaska-comedy-presents-agt-s-mike-e-winfield-live-pioneer-bar-2025-09-10"
+  },
+  {
+    "title": "Free Kick-Off Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-10",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/1842950186288143/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "free-kick-off-social-dance-pioneer-bar-2025-09-10"
   },
   {
     "title": "Bedspring Kiss",
@@ -68286,28 +68308,6 @@
     "category": "music",
     "cost": "",
     "slug": "september-first-friday-haines-chamber-of-commerce-2025-09-10"
-  },
-  {
-    "title": "Alaska Comedy Presents: AGT’s Mike E Winfield Live!",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-10",
-    "time": "7p-9p",
-    "ticketUrl": "http://alaskacomedy.com/?fbclid=IwY2xjawMkNldleHRuA2FlbQIxMABicmlkETFzOHVJUmZKYXVuWFV5TGVGAR6rdwKzFhlSvuBubB1DicxQx5QC2N5G_t-XkMniqHgfWKFrWeN0bEde9I7Tng_aem_Oz_t0IyRZqefKWRElOciFA",
-    "category": "comedy",
-    "cost": "",
-    "slug": "alaska-comedy-presents-agt-s-mike-e-winfield-live-pioneer-bar-2025-09-10"
-  },
-  {
-    "title": "Free Kick-Off Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-10",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/1842950186288143/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "free-kick-off-social-dance-pioneer-bar-2025-09-10"
   },
   {
     "title": "Storytime at the PRATT: Dinosaurs!",
@@ -69839,6 +69839,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-09-14"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-14",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-14"
+  },
+  {
     "title": "Brunch Music with Steve Norwood",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -69969,17 +69980,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-09-14"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-14",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-14"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -71874,6 +71874,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-09-21"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-21",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-21"
+  },
+  {
     "title": "Brunch Music with Alisha",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -71971,17 +71982,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-09-21"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-21",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-21"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -73821,6 +73821,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-09-28"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-09-28",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-28"
+  },
+  {
     "title": "Brunch Music with Alicia Lespin!",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -73918,17 +73929,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-09-28"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-09-28",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-09-28"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -76010,6 +76010,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-10-05"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-05",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-05"
+  },
+  {
     "title": "Improve Dojo",
     "venue": "Midnight Sun Theatre",
     "city": "Anchorage",
@@ -76184,17 +76195,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-10-05"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-05",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-05"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -76393,6 +76393,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-line-dancing-w-greyson-logan-the-cabin-bar-2025-10-08"
+  },
+  {
+    "title": "Oktoberfest Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-08",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/719868624436125/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "oktoberfest-social-dance-pioneer-bar-2025-10-08"
   },
   {
     "title": "Open Mic Night at the Cabin",
@@ -76690,17 +76701,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-10-08"
-  },
-  {
-    "title": "Oktoberfest Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-08",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/719868624436125/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "oktoberfest-social-dance-pioneer-bar-2025-10-08"
   },
   {
     "title": "Storytime at the PRATT: Earth's Climate",
@@ -78177,6 +78177,17 @@
     "slug": "koots-karaoke-koot-s-2025-10-12"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-12",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-12"
+  },
+  {
     "title": "Brunch Music with Whitney & Belle",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -78406,17 +78417,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-10-12"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-12",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-12"
   },
   {
     "title": "Open Mic Night",
@@ -78791,6 +78791,17 @@
     "category": "dance",
     "cost": "",
     "slug": "line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-pink-cadillac-2025-10-15"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-15",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-10-15"
   },
   {
     "title": "Koots Karaoke",
@@ -79176,17 +79187,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-10-15"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-15",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-10-15"
   },
   {
     "title": "Storytime at the PRATT: Earth's Climate",
@@ -80718,6 +80718,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-10-19"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-19",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-19"
+  },
+  {
     "title": "Peace Pixie’s Steel Tongue Drum",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -80859,17 +80870,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-10-19"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-19",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-19"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -83138,6 +83138,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-10-26"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-26",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-26"
+  },
+  {
     "title": "Sweet Cheeks Cabaret: Vaudeville Vibes Spooks & Sparkles",
     "venue": "Broken Blender",
     "city": "Anchorage",
@@ -83347,17 +83358,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-10-26"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-26",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-10-26"
-  },
-  {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
     "venue": "The Blue Fox",
     "city": "Anchorage",
@@ -83556,6 +83556,17 @@
     "slug": "pet-shop-trunk-or-treat-event-49th-state-brewing-2025-10-29"
   },
   {
+    "title": "Trick or Treat at Halloween Town",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-29",
+    "time": "1p-7:30p",
+    "ticketUrl": "https://www.facebook.com/events/789276526844040/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "trick-or-treat-at-halloween-town-pioneer-bar-2025-10-29"
+  },
+  {
     "title": "Howl-o-ween Pet Costume Contest",
     "venue": "The Cabin Bar",
     "city": "Anchorage",
@@ -83565,6 +83576,28 @@
     "category": "music",
     "cost": "",
     "slug": "howl-o-ween-pet-costume-contest-the-cabin-bar-2025-10-29"
+  },
+  {
+    "title": "2025 Pioneer Ave trick or Treat",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-29",
+    "time": "4p-6p",
+    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "2025-pioneer-ave-trick-or-treat-pioneer-bar-2025-10-29"
+  },
+  {
+    "title": "Fall Festival & Minecraft Haunted House",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-10-29",
+    "time": "4p-6p",
+    "ticketUrl": "https://www.facebook.com/events/1363734098717397/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "festival",
+    "cost": "",
+    "slug": "fall-festival-minecraft-haunted-house-pioneer-bar-2025-10-29"
   },
   {
     "title": "Halloween Carnival",
@@ -84401,39 +84434,6 @@
     "category": "music",
     "cost": "",
     "slug": "creepy-critters-discovery-lab-alaska-maritime-national-wildlife-refuge-2025-10-29"
-  },
-  {
-    "title": "Trick or Treat at Halloween Town",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-29",
-    "time": "1p-7:30p",
-    "ticketUrl": "https://www.facebook.com/events/789276526844040/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "trick-or-treat-at-halloween-town-pioneer-bar-2025-10-29"
-  },
-  {
-    "title": "2025 Pioneer Ave trick or Treat",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-29",
-    "time": "4p-6p",
-    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "2025-pioneer-ave-trick-or-treat-pioneer-bar-2025-10-29"
-  },
-  {
-    "title": "Fall Festival & Minecraft Haunted House",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-10-29",
-    "time": "4p-6p",
-    "ticketUrl": "https://www.facebook.com/events/1363734098717397/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "festival",
-    "cost": "",
-    "slug": "fall-festival-minecraft-haunted-house-pioneer-bar-2025-10-29"
   },
   {
     "title": "Storytime at the PRATT: Earth's Climate",
@@ -86614,6 +86614,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-11-02"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-02",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-11-02"
+  },
+  {
     "title": "Pet & Puppy Adoption Event",
     "venue": "Petco",
     "city": "Anchorage",
@@ -86755,17 +86766,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-11-02"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-02",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-11-02"
   },
   {
     "title": "Open Mic Night 8p-12aBroken Blender – Boombox Bingo 6:30p-8:30Fire Island Bakery @ K Street Market – Weekly Jazz Jam",
@@ -86933,6 +86933,28 @@
     "slug": "line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-pink-cadillac-2025-11-05"
   },
   {
+    "title": "2025 Pioneer Ave Trick or Treat Street",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-05",
+    "time": "4p-6p",
+    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "2025-pioneer-ave-trick-or-treat-street-pioneer-bar-2025-11-05"
+  },
+  {
+    "title": "2025 Pioneer Ave trick or Treat",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-05",
+    "time": "4p-6p",
+    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "2025-pioneer-ave-trick-or-treat-pioneer-bar-2025-11-05"
+  },
+  {
     "title": "Warren Miller's SNO-CIETY: Film & Fundraiser",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -86997,6 +87019,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-line-dancing-w-greyson-logan-the-cabin-bar-2025-11-05"
+  },
+  {
+    "title": "Ballroom Club of Fairbanks Annual Meeting Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-05",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/831013849473210/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-club-of-fairbanks-annual-meeting-social-dance-pioneer-bar-2025-11-05"
   },
   {
     "title": "Open Mic Night at the Cabin",
@@ -87558,39 +87591,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-11-05"
-  },
-  {
-    "title": "2025 Pioneer Ave Trick or Treat Street",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-05",
-    "time": "4p-6p",
-    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "2025-pioneer-ave-trick-or-treat-street-pioneer-bar-2025-11-05"
-  },
-  {
-    "title": "2025 Pioneer Ave trick or Treat",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-05",
-    "time": "4p-6p",
-    "ticketUrl": "https://www.facebook.com/events/741423452275576/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "2025-pioneer-ave-trick-or-treat-pioneer-bar-2025-11-05"
-  },
-  {
-    "title": "Ballroom Club of Fairbanks Annual Meeting Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-05",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/831013849473210/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-club-of-fairbanks-annual-meeting-social-dance-pioneer-bar-2025-11-05"
   },
   {
     "title": "Storytime at the PRATT: Native American Heritage Month",
@@ -89870,6 +89870,17 @@
     "slug": "live-music-blarney-stone-2025-11-08"
   },
   {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-08",
+    "time": "9p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-11-08"
+  },
+  {
     "title": "Blast From The Past",
     "venue": "Time Out Lounge",
     "city": "Anchorage",
@@ -90068,17 +90079,6 @@
     "slug": "sitka-whalefest-fun-run-walk-whale-park-2025-11-08"
   },
   {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-08",
-    "time": "9p-1a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-11-08"
-  },
-  {
     "title": "Second Saturday: Free Entry to the Museum",
     "venue": "Pratt Museum",
     "city": "Homer",
@@ -90253,6 +90253,17 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-koot-s-2025-11-09"
+  },
+  {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-09",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-11-09"
   },
   {
     "title": "Brunch Music with Steve Norwood",
@@ -90473,17 +90484,6 @@
     "category": "music",
     "cost": "",
     "slug": "springsteen-deliver-me-from-nowhere-valdez-cinema-2025-11-09"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-09",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-11-09"
   },
   {
     "title": "Alaska Bald Eagle Festival 2025",
@@ -90882,6 +90882,17 @@
     "slug": "line-dance-wednesdays-7p-12apioneer-bar-the-eternal-cowboys-pink-cadillac-2025-11-12"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-12",
+    "time": "10p-12a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-11-12"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -91067,6 +91078,17 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-wednesdays-van-s-dive-bar-2025-11-12"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-12",
+    "time": "9p-1a",
+    "ticketUrl": "https://bamboopioneer.net/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-11-12"
   },
   {
     "title": "Stand-Up & Comedy Writing Workshop 6:30p-8pAnchor Point",
@@ -91366,17 +91388,6 @@
     "slug": "karaoke-chair-5-2025-11-12"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-12",
-    "time": "10p-12a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-11-12"
-  },
-  {
     "title": "Community Potluck & Food Pantry Fundraiser",
     "venue": "Porcupine Theatre",
     "city": "Haines",
@@ -91386,17 +91397,6 @@
     "category": "community",
     "cost": "",
     "slug": "community-potluck-food-pantry-fundraiser-porcupine-theatre-2025-11-12"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-12",
-    "time": "9p-1a",
-    "ticketUrl": "https://bamboopioneer.net/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-11-12"
   },
   {
     "title": "Storytime at the PRATT: Native American Heritage Month",
@@ -93247,6 +93247,17 @@
     "slug": "international-folk-dancing-anchorage-social-dance-club-2025-11-19"
   },
   {
+    "title": "Lavender Gala",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-19",
+    "time": "6p-10p",
+    "ticketUrl": "https://www.facebook.com/events/2155907094887831/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "lavender-gala-pioneer-bar-2025-11-19"
+  },
+  {
     "title": "Karaoke Night at the Cabin",
     "venue": "The Cabin Bar",
     "city": "Anchorage",
@@ -93278,6 +93289,17 @@
     "category": "dance",
     "cost": "",
     "slug": "country-line-dancing-w-greyson-logan-the-cabin-bar-2025-11-19"
+  },
+  {
+    "title": "Thanksgiving Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-19",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/688368423919696/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "thanksgiving-social-dance-pioneer-bar-2025-11-19"
   },
   {
     "title": "Open Mic Night at the Cabin",
@@ -93355,6 +93377,28 @@
     "category": "music",
     "cost": "",
     "slug": "slow-burn-old-school-r-b-the-cabin-bar-2025-11-19"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-19",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-11-19"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-19",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-11-19"
   },
   {
     "title": "Poetry Parlay 6p-8pAnchor Point",
@@ -93619,50 +93663,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-11-19"
-  },
-  {
-    "title": "Lavender Gala",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-19",
-    "time": "6p-10p",
-    "ticketUrl": "https://www.facebook.com/events/2155907094887831/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "lavender-gala-pioneer-bar-2025-11-19"
-  },
-  {
-    "title": "Thanksgiving Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-19",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/688368423919696/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "thanksgiving-social-dance-pioneer-bar-2025-11-19"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-19",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-11-19"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-19",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-11-19"
   },
   {
     "title": "Storytime at the PRATT: Native American Heritage Month",
@@ -95436,6 +95436,17 @@
     "slug": "line-dance-wednesdays-7p-12apioneer-bar-thanksgiving-eve-with-red-flags-pink-cadillac-2025-11-26"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-26",
+    "time": "10p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=6ae320fe28&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-11-26"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -95621,6 +95632,28 @@
     "category": "music",
     "cost": "",
     "slug": "glow-party-with-dj-akira-the-cabin-bar-2025-11-26"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-26",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-11-26"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-26",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-11-26"
   },
   {
     "title": "Comedy Workshop 6p-8pAnchor Point",
@@ -95984,39 +96017,6 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-chair-5-2025-11-26"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-26",
-    "time": "10p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=6ae320fe28&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-11-26"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-26",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-11-26"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-26",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-11-26"
   },
   {
     "title": "Storytime at the PRATT: Native American Heritage Month",
@@ -96811,6 +96811,17 @@
     "slug": "2025-turkey-trot-dena-ina-civic-and-convention-center-2025-11-27"
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-27",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-11-27"
+  },
+  {
     "title": "Thanksgiving Dinner Blessing",
     "venue": "Mama Carol’s Soulfood",
     "city": "Anchorage",
@@ -96842,6 +96853,17 @@
     "category": "music",
     "cost": "",
     "slug": "annual-avenue-friendsgiving-dinner-the-avenue-bar-2025-11-27"
+  },
+  {
+    "title": "Thanksgiving Dinner & Football",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-27",
+    "time": "4p-8p",
+    "ticketUrl": "https://www.facebook.com/pioneerbarAK",
+    "category": "music",
+    "cost": "",
+    "slug": "thanksgiving-dinner-football-pioneer-bar-2025-11-27"
   },
   {
     "title": "Ladies Night at Pink Cadillac w/ DJ Rico",
@@ -96910,28 +96932,6 @@
     "slug": "latin-thursday-with-mykey-t-koot-s-2025-11-27"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-27",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-11-27"
-  },
-  {
-    "title": "Thanksgiving Dinner & Football",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-27",
-    "time": "4p-8p",
-    "ticketUrl": "https://www.facebook.com/pioneerbarAK",
-    "category": "music",
-    "cost": "",
-    "slug": "thanksgiving-dinner-football-pioneer-bar-2025-11-27"
-  },
-  {
     "title": "The Stack Live",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -96952,6 +96952,17 @@
     "category": "music",
     "cost": "",
     "slug": "showdown-s-bad-girls-club-pretty-petty-williwaw-social-2025-11-28"
+  },
+  {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-28",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-11-28"
   },
   {
     "title": "The Nutcracker w/ Eugene Ballet",
@@ -97152,17 +97163,6 @@
     "slug": "blast-from-the-past-time-out-lounge-2025-11-28"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-28",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-11-28"
-  },
-  {
     "title": "The Stack Live",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -97172,6 +97172,17 @@
     "category": "music",
     "cost": "",
     "slug": "the-stack-live-koot-s-2025-11-29"
+  },
+  {
+    "title": "DJ Llyods Noize",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-11-29",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-llyods-noize-pioneer-bar-2025-11-29"
   },
   {
     "title": "Riddim Beats \"Post Thanksgiving Bash\"",
@@ -97403,17 +97414,6 @@
     "category": "music",
     "cost": "",
     "slug": "blast-from-the-past-time-out-lounge-2025-11-29"
-  },
-  {
-    "title": "DJ Llyods Noize",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-11-29",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=1393427099454921&set=pcb.1393427162788248",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-llyods-noize-pioneer-bar-2025-11-29"
   },
   {
     "title": "Comedy Open Mic 8:30p-10pKoot’s – Koots Karaoke",
@@ -97691,6 +97691,28 @@
     "slug": "community-storytime-the-alaska-zoo-2025-12-03"
   },
   {
+    "title": "Handmade Holiday Market 2025",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-03",
+    "time": "10a-5p",
+    "ticketUrl": "https://www.facebook.com/events/829815063001415/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "festival",
+    "cost": "",
+    "slug": "handmade-holiday-market-2025-pioneer-bar-2025-12-03"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-03",
+    "time": "10p-12a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=6ae320fe28&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-03"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -97854,6 +97876,28 @@
     "category": "music",
     "cost": "",
     "slug": "karaoke-wednesdays-van-s-dive-bar-2025-12-03"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-03",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-12-03"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-03",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-12-03"
   },
   {
     "title": "Lavender Lounge in the Speakeasy 8p-10pAnchor Point",
@@ -98239,50 +98283,6 @@
     "category": "music",
     "cost": "",
     "slug": "haines-turkey-trot-5k-haines-high-school-2025-12-03"
-  },
-  {
-    "title": "Handmade Holiday Market 2025",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-03",
-    "time": "10a-5p",
-    "ticketUrl": "https://www.facebook.com/events/829815063001415/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "festival",
-    "cost": "",
-    "slug": "handmade-holiday-market-2025-pioneer-bar-2025-12-03"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-03",
-    "time": "10p-12a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=6ae320fe28&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-03"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-03",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-12-03"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-03",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-12-03"
   },
   {
     "title": "Storytime at the PRATT: Winter Tales",
@@ -99209,6 +99209,17 @@
     "slug": "toddler-tales-storytime-cookies-jber-library-2025-12-04"
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-04",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-04"
+  },
+  {
     "title": "Holiday Party & Annual Member’s Meeting",
     "venue": "Alaska Airmen’s Association",
     "city": "Anchorage",
@@ -99374,17 +99385,6 @@
     "slug": "open-decks-koot-s-2025-12-04"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-04",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-04"
-  },
-  {
     "title": "Cold Fusion AK",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -99405,6 +99405,17 @@
     "category": "music",
     "cost": "",
     "slug": "k-pop-night-w-jarod-dominic-williwaw-social-2025-12-05"
+  },
+  {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-05",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-05"
   },
   {
     "title": "Lighting the Arch Celebration",
@@ -99702,17 +99713,6 @@
     "category": "music",
     "cost": "",
     "slug": "glow-an-evening-of-tech-house-bass-breakbeats-al-s-alaskan-inn-2025-12-05"
-  },
-  {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-05",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-05"
   },
   {
     "title": "Sweet Cheeks Cabaret: Midnight Mass A Late Night Burlesque Show",
@@ -100100,6 +100100,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-12-07"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-07",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-07"
+  },
+  {
     "title": "Santa’s Workshop",
     "venue": "O’Malley’s on the Green",
     "city": "Anchorage",
@@ -100298,17 +100309,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-12-07"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-07",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-07"
-  },
-  {
     "title": "Open Mic Night 8p-12aBroken Blender – Karaoke with Mike Lajoie 7p-11pFire Island Bakery @ K Street Market – Weekly Jazz Jam",
     "venue": "The Blue Fox",
     "city": "Anchorage",
@@ -100439,6 +100439,17 @@
     "category": "community",
     "cost": "",
     "slug": "community-storytime-the-alaska-zoo-2025-12-10"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-10",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-10"
   },
   {
     "title": "Koots Karaoke",
@@ -100659,6 +100670,28 @@
     "category": "music",
     "cost": "",
     "slug": "casey-smith-project-w-tom-letson-ned-gaines-the-cabin-bar-2025-12-10"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-12-10"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-10",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-12-10"
   },
   {
     "title": "Lavender Lounge in the Speakeasy 6p-10pAnchor Point",
@@ -100925,17 +100958,6 @@
     "slug": "family-story-time-gerrish-public-library-2025-12-10"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-10",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-10"
-  },
-  {
     "title": "Free Charlie Chaplin-Fest!",
     "venue": "Porcupine Theatre",
     "city": "Haines",
@@ -101033,28 +101055,6 @@
     "category": "music",
     "cost": "",
     "slug": "kachemak-ski-club-annual-meeting-grace-ridge-brewing-2025-12-10"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-10",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-12-10"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-10",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-12-10"
   },
   {
     "title": "Storytime at the PRATT: Winter Tales",
@@ -102036,6 +102036,17 @@
     "slug": "anchorage-international-film-festival-alaska-experience-theatre-2025-12-11"
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-11",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-11"
+  },
+  {
     "title": "Southcentral Foundation Elder Christmas Party 2025",
     "venue": "Alaska Airlines Center",
     "city": "Anchorage",
@@ -102201,17 +102212,6 @@
     "slug": "will-balcao-koot-s-2025-12-11"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-11",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-11"
-  },
-  {
     "title": "Anchorage International Film Festival",
     "venue": "Alaska Experience Theatre",
     "city": "Anchorage",
@@ -102254,6 +102254,17 @@
     "category": "festival",
     "cost": "",
     "slug": "dark-daze-music-festival-van-s-dive-bar-2025-12-12"
+  },
+  {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-12",
+    "time": "10p-1a",
+    "ticketUrl": "",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-12"
   },
   {
     "title": "Holiday Stage: Eagle River High School Choir",
@@ -102562,17 +102573,6 @@
     "category": "community",
     "cost": "",
     "slug": "byrd-game-album-release-party-for-bird-flu-koot-s-2025-12-12"
-  },
-  {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-12",
-    "time": "10p-1a",
-    "ticketUrl": "",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-12"
   },
   {
     "title": "Sweet Cheeks Cabaret: Midnight Mass A Late Night Burlesque Show",
@@ -103070,6 +103070,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-12-14"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-14",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-14"
+  },
+  {
     "title": "Brunch Music with Pepper Kit",
     "venue": "The Writer's Block Bookstore & Café",
     "city": "Anchorage",
@@ -103312,17 +103323,6 @@
     "slug": "sunday-karaoke-the-carousel-lounge-2025-12-14"
   },
   {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-14",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-14"
-  },
-  {
     "title": "Open Mic Night 8p-12aBroken Blender – Karaoke with Mike Lajoie 7p-11pFire Island Bakery @ K Street Market – Weekly Jazz Jam",
     "venue": "The Blue Fox",
     "city": "Anchorage",
@@ -103464,6 +103464,28 @@
     "category": "comedy",
     "cost": "",
     "slug": "christmas-burlesque-show-the-cabin-bar-2025-12-17"
+  },
+  {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-17",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-17"
+  },
+  {
+    "title": "Annual Ugly Sweater Party",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-17",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/events/1486531485908808/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "music",
+    "cost": "",
+    "slug": "annual-ugly-sweater-party-pioneer-bar-2025-12-17"
   },
   {
     "title": "Koots Karaoke",
@@ -103673,6 +103695,28 @@
     "category": "music",
     "cost": "",
     "slug": "live-at-the-sitz-dj-cross-the-sitzmark-2025-12-17"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-17",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-12-17"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-17",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-12-17"
   },
   {
     "title": "Breakfast With Santa",
@@ -104038,28 +104082,6 @@
     "slug": "screening-of-ocean-w-david-attenborough-alpenglow-coffeehouse-2025-12-17"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-17",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-17"
-  },
-  {
-    "title": "Annual Ugly Sweater Party",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-17",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/events/1486531485908808/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "music",
-    "cost": "",
-    "slug": "annual-ugly-sweater-party-pioneer-bar-2025-12-17"
-  },
-  {
     "title": "Kenai Peninsula Orchestra Holiday Concert",
     "venue": "Homer High School",
     "city": "Haines",
@@ -104168,28 +104190,6 @@
     "category": "theatre",
     "cost": "",
     "slug": "the-glacier-quartet-porcupine-theatre-2025-12-17"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-17",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-12-17"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-17",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-12-17"
   },
   {
     "title": "Storytime at the PRATT: Winter Tales",
@@ -105336,6 +105336,17 @@
     "slug": "toddler-tales-storytime-winter-solstice-jber-library-2025-12-18"
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-18",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-18"
+  },
+  {
     "title": "DJ LeLe",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -105534,17 +105545,6 @@
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-12-18"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-18",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-18"
-  },
-  {
     "title": "Yachtly Crew LIVE",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -105554,6 +105554,17 @@
     "category": "music",
     "cost": "",
     "slug": "yachtly-crew-live-koot-s-2025-12-19"
+  },
+  {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-19",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-19"
   },
   {
     "title": "Naughty or Nice Dance Party",
@@ -105906,17 +105917,6 @@
     "category": "music",
     "cost": "",
     "slug": "blast-from-the-past-time-out-lounge-2025-12-19"
-  },
-  {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-19",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-19"
   },
   {
     "title": "Velvet La La",
@@ -106381,6 +106381,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-12-21"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-21",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-21"
+  },
+  {
     "title": "Holiday Run & White Elephant Gift Exchange",
     "venue": "Flattop Pizza & Pool",
     "city": "Anchorage",
@@ -106599,17 +106610,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-12-21"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-21",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-21"
   },
   {
     "title": "Alaskan Crafted Holiday Market & Santa Photos",
@@ -106909,6 +106909,17 @@
     "slug": "alaskan-crafted-holiday-market-santa-photos-midtown-mall-2025-12-24"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-24",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-24"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -107107,6 +107118,17 @@
     "slug": "dawn-mcclain-experience-amvets-post-2-2025-12-24"
   },
   {
+    "title": "Jingle Bell Rock Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-24",
+    "time": "8:30p-11p",
+    "ticketUrl": "https://www.facebook.com/events/821413294103803/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "jingle-bell-rock-social-dance-pioneer-bar-2025-12-24"
+  },
+  {
     "title": "Christmas PJ Party",
     "venue": "The Cabin Bar",
     "city": "Anchorage",
@@ -107204,6 +107226,28 @@
     "category": "music",
     "cost": "",
     "slug": "white-elephant-party-the-cabin-bar-2025-12-24"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-24",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-12-24"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-24",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-12-24"
   },
   {
     "title": "Lavender Lounge in the Speakeasy 6p-10pAnchor Point",
@@ -107679,17 +107723,6 @@
     "slug": "family-story-time-gerrish-public-library-2025-12-24"
   },
   {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-24",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2025-12-24"
-  },
-  {
     "title": "Orion Donicht",
     "venue": "Kharacter’s",
     "city": "Haines",
@@ -107809,39 +107842,6 @@
     "category": "music",
     "cost": "",
     "slug": "holiday-lights-competition-award-announcements-haines-chamber-of-commerce-2025-12-24"
-  },
-  {
-    "title": "Jingle Bell Rock Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-24",
-    "time": "8:30p-11p",
-    "ticketUrl": "https://www.facebook.com/events/821413294103803/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "jingle-bell-rock-social-dance-pioneer-bar-2025-12-24"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-24",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-12-24"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-24",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-12-24"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",
@@ -108933,6 +108933,17 @@
     "slug": "jake-armstrong-ben-peterson-stand-up-the-nolan-center-2025-12-24"
   },
   {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-25",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-25"
+  },
+  {
     "title": "Lights Out Xmas Party w/ DJ Blaque",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -109010,17 +109021,6 @@
     "slug": "ak-rockstar-karaoke-the-carousel-lounge-2025-12-25"
   },
   {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-25",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-25"
-  },
-  {
     "title": "The Stack LIVE",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -109030,6 +109030,17 @@
     "category": "music",
     "cost": "",
     "slug": "the-stack-live-koot-s-2025-12-26"
+  },
+  {
+    "title": "DJ Cross",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-26",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-cross-pioneer-bar-2025-12-26"
   },
   {
     "title": "Christmas Movie Showing: The Polar Express",
@@ -109195,17 +109206,6 @@
     "category": "music",
     "cost": "",
     "slug": "blast-from-the-past-time-out-lounge-2025-12-26"
-  },
-  {
-    "title": "DJ Cross",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-26",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1324520436345588&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-cross-pioneer-bar-2025-12-26"
   },
   {
     "title": "The Stack Live",
@@ -109439,6 +109439,17 @@
     "slug": "comedy-open-mic-8-30p-10pkoot-s-koots-karaoke-koot-s-2025-12-28"
   },
   {
+    "title": "Industry Night w/ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-28",
+    "time": "10p-2a",
+    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
+    "category": "music",
+    "cost": "",
+    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-28"
+  },
+  {
     "title": "Christmas Movie Showing: The Polar Express",
     "venue": "Bear Tooth Theatrepub",
     "city": "Anchorage",
@@ -109547,17 +109558,6 @@
     "category": "music",
     "cost": "",
     "slug": "sunday-karaoke-the-carousel-lounge-2025-12-28"
-  },
-  {
-    "title": "Industry Night w/ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-28",
-    "time": "10p-2a",
-    "ticketUrl": "https://AKconcets.us20.list-manage.com/track/click?u=7bd13a48fecb63b6d795caadf&id=0f95d16dc2&e=be0392aff7",
-    "category": "music",
-    "cost": "",
-    "slug": "industry-night-w-joe-brady-pioneer-bar-2025-12-28"
   },
   {
     "title": "Light the World: Giving Machine Music & Fundraising",
@@ -109745,6 +109745,17 @@
     "category": "music",
     "cost": "",
     "slug": "goth-christmas-costume-contest-the-cabin-bar-2025-12-31"
+  },
+  {
+    "title": "New Year’s Eve with The Red Flags",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-31",
+    "time": "10p-1a",
+    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
+    "category": "music",
+    "cost": "",
+    "slug": "new-year-s-eve-with-the-red-flags-pioneer-bar-2025-12-31"
   },
   {
     "title": "Koots Karaoke",
@@ -109945,6 +109956,17 @@
     "slug": "anchorage-new-year-s-eve-celebration-chinook-parking-lot-3rd-e-2025-12-31"
   },
   {
+    "title": "Jamie Lissow LIVE",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-31",
+    "time": "8:30p-10:30p",
+    "ticketUrl": "https://aktickets.com/events/alaska-comedy-presents-jamie-lissow-live-at-pioneer-park-theater-12-27-2025-211947",
+    "category": "dance",
+    "cost": "",
+    "slug": "jamie-lissow-live-pioneer-bar-2025-12-31"
+  },
+  {
     "title": "NYE Party w/ Lisa Lisa & Those Guys",
     "venue": "907 Alehouse",
     "city": "Anchorage",
@@ -110055,6 +110077,17 @@
     "slug": "live-at-the-sitz-h3-hawaii-reggae-band-the-sitzmark-2025-12-31"
   },
   {
+    "title": "Ballroom Dance Club of Fairbanks NYE Social Dance",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-31",
+    "time": "9p-12a",
+    "ticketUrl": "https://www.facebook.com/events/1342204660927609/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "dance",
+    "cost": "",
+    "slug": "ballroom-dance-club-of-fairbanks-nye-social-dance-pioneer-bar-2025-12-31"
+  },
+  {
     "title": "NYE Celebration w/ Choice Bit of Calico",
     "venue": "Humpy's Great Alaskan Alehouse",
     "city": "Anchorage",
@@ -110097,6 +110130,28 @@
     "category": "music",
     "cost": "",
     "slug": "saucy-yoda-the-nameless-van-s-dive-bar-2025-12-31"
+  },
+  {
+    "title": "Karaoke Night",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-31",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "karaoke-night-pioneer-bar-2025-12-31"
+  },
+  {
+    "title": "Open Mic",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2025-12-31",
+    "time": "9p-1a",
+    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
+    "category": "music",
+    "cost": "",
+    "slug": "open-mic-pioneer-bar-2025-12-31"
   },
   {
     "title": "New Year’s Eve Party w/ Bodelia James",
@@ -110352,17 +110407,6 @@
     "slug": "new-year-s-eve-torchlight-parade-fireworks-alyeska-resort-2025-12-31"
   },
   {
-    "title": "New Year’s Eve with The Red Flags",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-31",
-    "time": "10p-1a",
-    "ticketUrl": "https://www.facebook.com/photo.php?fbid=1348210747309890&set=pb.100063629314416.-2207520000&type=3",
-    "category": "music",
-    "cost": "",
-    "slug": "new-year-s-eve-with-the-red-flags-pioneer-bar-2025-12-31"
-  },
-  {
     "title": "Kimini",
     "venue": "Kharacter’s",
     "city": "Haines",
@@ -110429,17 +110473,6 @@
     "slug": "nye-w-english-john-atx-lee-and-sarah-live-1-oysters-homestead-restaurant-2025-12-31"
   },
   {
-    "title": "Jamie Lissow LIVE",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-31",
-    "time": "8:30p-10:30p",
-    "ticketUrl": "https://aktickets.com/events/alaska-comedy-presents-jamie-lissow-live-at-pioneer-park-theater-12-27-2025-211947",
-    "category": "dance",
-    "cost": "",
-    "slug": "jamie-lissow-live-pioneer-bar-2025-12-31"
-  },
-  {
     "title": "Community Sober NYE Party w/ DJ Darkstar",
     "venue": "SPARC Building",
     "city": "Haines",
@@ -110460,39 +110493,6 @@
     "category": "music",
     "cost": "",
     "slug": "homer-s-crowdfunded-new-year-s-eve-fireworks-mariner-park-2025-12-31"
-  },
-  {
-    "title": "Ballroom Dance Club of Fairbanks NYE Social Dance",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-31",
-    "time": "9p-12a",
-    "ticketUrl": "https://www.facebook.com/events/1342204660927609/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "dance",
-    "cost": "",
-    "slug": "ballroom-dance-club-of-fairbanks-nye-social-dance-pioneer-bar-2025-12-31"
-  },
-  {
-    "title": "Karaoke Night",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-31",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "karaoke-night-pioneer-bar-2025-12-31"
-  },
-  {
-    "title": "Open Mic",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2025-12-31",
-    "time": "9p-1a",
-    "ticketUrl": "https://www.visithaines.com/listing/pioneer-bar/280/",
-    "category": "music",
-    "cost": "",
-    "slug": "open-mic-pioneer-bar-2025-12-31"
   },
   {
     "title": "Taco Tuesday's with Jim Maloney",

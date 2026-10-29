@@ -5148,6 +5148,17 @@
     "slug": "saturday-night-karaoke-american-legion-post-28-spenard-2021-03-27"
   },
   {
+    "title": "DJ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-03-27",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-joe-brady-pioneer-bar-2021-03-27"
+  },
+  {
     "title": "The Greatest Showman Sing Along Movie Night",
     "venue": "Sparkles Productions",
     "city": "Anchorage",
@@ -5212,17 +5223,6 @@
     "category": "music",
     "cost": "",
     "slug": "strange-days-floaters-2021-03-27"
-  },
-  {
-    "title": "DJ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-03-27",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-joe-brady-pioneer-bar-2021-03-27"
   },
   {
     "title": "Fun and Food w/ 100 Proof Karaoke",
@@ -5643,6 +5643,17 @@
     "slug": "unknowns-koot-s-2021-04-03"
   },
   {
+    "title": "DJ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-04-03",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-joe-brady-pioneer-bar-2021-04-03"
+  },
+  {
     "title": "Outdoor Live Music Merry Marmot Music Festival",
     "venue": "Arctic Valley Ski Area",
     "city": "Anchorage",
@@ -5729,17 +5740,6 @@
     "category": "theatre",
     "cost": "",
     "slug": "trip-wire-playing-floaters-2021-04-03"
-  },
-  {
-    "title": "DJ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-04-03",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-joe-brady-pioneer-bar-2021-04-03"
   },
   {
     "title": "The Stack Live",
@@ -6193,6 +6193,17 @@
     "slug": "lil-trouble-koot-s-2021-04-10"
   },
   {
+    "title": "DJ Joe Brady",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-04-10",
+    "time": "10p-2a",
+    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
+    "category": "music",
+    "cost": "",
+    "slug": "dj-joe-brady-pioneer-bar-2021-04-10"
+  },
+  {
     "title": "Sleuth",
     "venue": "Anchorage Community Theatre",
     "city": "Anchorage",
@@ -6279,17 +6290,6 @@
     "category": "music",
     "cost": "",
     "slug": "jerry-wessling-band-floaters-2021-04-10"
-  },
-  {
-    "title": "DJ Joe Brady",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-04-10",
-    "time": "10p-2a",
-    "ticketUrl": "https://www.facebook.com/photo?fbid=10222197006667430&set=a.1012874495438",
-    "category": "music",
-    "cost": "",
-    "slug": "dj-joe-brady-pioneer-bar-2021-04-10"
   },
   {
     "title": "Fun and Food w/ 100 Proof Karaoke",
@@ -9097,6 +9097,17 @@
     "slug": "the-eternal-cowboys-koot-s-2021-05-11"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-05-12",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-12"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -9139,17 +9150,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-05-12"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-05-12",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-12"
   },
   {
     "title": "Open Mic at Schwabenhof",
@@ -9713,6 +9713,17 @@
     "slug": "the-eternal-cowboys-koot-s-2021-05-18"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-05-19",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-19"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -9755,17 +9766,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-05-19"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-05-19",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-19"
   },
   {
     "title": "Open Mic at Schwabenhof",
@@ -10384,6 +10384,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-05-25"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-05-26",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-26"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -10459,17 +10470,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-05-26"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-05-26",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-05-26"
   },
   {
     "title": "Open Mic at Schwabenhof",
@@ -11099,6 +11099,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-06-01"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-02",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-02"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -11185,17 +11196,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-06-02"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-06-02",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-02"
   },
   {
     "title": "Open Mic at Schwabenhof",
@@ -12122,6 +12122,17 @@
     "slug": "bluegrass-jam-is-back-on-the-hill-schwabenhof-2021-06-08"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-09",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-09"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -12208,17 +12219,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-06-09"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-06-09",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-09"
   },
   {
     "title": "Pamyua w/ Bunny Swan Geese",
@@ -13156,6 +13156,17 @@
     "slug": "bluegrass-jam-is-back-on-the-hill-schwabenhof-2021-06-15"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-16",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-16"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -13253,17 +13264,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-06-16"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-06-16",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-16"
   },
   {
     "title": "Karaoke with DJ Hankerchief",
@@ -14663,6 +14663,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-06-22"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-23",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-23"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -14771,17 +14782,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-06-23"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-06-23",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-23"
   },
   {
     "title": "Karaoke",
@@ -15785,6 +15785,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-06-29"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-06-30",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-30"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -15904,17 +15915,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-06-30"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-06-30",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-06-30"
   },
   {
     "title": "Karaoke",
@@ -16852,6 +16852,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-07-06"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-07-07",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-07"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -16971,17 +16982,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-07-07"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-07-07",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-07"
   },
   {
     "title": "Karaoke",
@@ -17985,6 +17985,17 @@
     "slug": "moondog-media-open-mic-night-klondike-mike-s-and-the-main-street-grill-2021-07-13"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-07-14",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-14"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -18093,17 +18104,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-07-14"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-07-14",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-14"
   },
   {
     "title": "Karaoke",
@@ -19129,6 +19129,17 @@
     "slug": "mario-carboni-fairview-inn-2021-07-20"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-07-21",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-21"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -19248,17 +19259,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-07-21"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-07-21",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-21"
   },
   {
     "title": "Karaoke",
@@ -20372,6 +20372,17 @@
     "slug": "moondog-media-open-mic-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-07-27"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-07-28",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-28"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -20513,17 +20524,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-07-28"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-07-28",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-07-28"
   },
   {
     "title": "Karaoke",
@@ -21670,6 +21670,17 @@
     "slug": "moondog-media-open-mic-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-08-03"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-08-04",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-04"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -21833,17 +21844,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-08-04"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-08-04",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-04"
   },
   {
     "title": "Karaoke",
@@ -22979,6 +22979,17 @@
     "slug": "bluegrass-jam-is-back-on-the-hill-schwabenhof-2021-08-10"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-08-11",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-11"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -23098,17 +23109,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-08-11"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-08-11",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-11"
   },
   {
     "title": "Karaoke",
@@ -24068,6 +24068,17 @@
     "slug": "open-mic-night-fairview-inn-2021-08-17"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-08-18",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-18"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -24187,17 +24198,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-08-18"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-08-18",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-18"
   },
   {
     "title": "Karaoke",
@@ -25300,6 +25300,17 @@
     "slug": "open-mic-night-fairview-inn-2021-08-24"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-08-25",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-25"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -25397,17 +25408,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-08-25"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-08-25",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-08-25"
   },
   {
     "title": "Karaoke",
@@ -26499,6 +26499,17 @@
     "slug": "open-mic-night-fairview-inn-2021-08-31"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-09-01",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-01"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -26585,17 +26596,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-09-01"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-09-01",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-01"
   },
   {
     "title": "Karaoke",
@@ -27456,6 +27456,17 @@
     "slug": "open-mic-night-fairview-inn-2021-09-07"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-09-08",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-08"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -27553,17 +27564,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-international-hotel-and-bar-2021-09-08"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-09-08",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-08"
   },
   {
     "title": "Karaoke",
@@ -28479,6 +28479,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-09-14"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-09-15",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-15"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -28565,17 +28576,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-09-15"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-09-15",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-15"
   },
   {
     "title": "Karaoke",
@@ -29381,6 +29381,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-09-21"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-09-22",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-22"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 9p-12a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -29478,17 +29489,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-09-22"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-09-22",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-22"
   },
   {
     "title": "Karaoke",
@@ -30459,6 +30459,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-09-28"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-09-29",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-29"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 9p-12a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -30556,17 +30567,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-09-29"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-09-29",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-09-29"
   },
   {
     "title": "Karaoke",
@@ -31394,6 +31394,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-10-05"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-06",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-06"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 9p-12a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -31502,17 +31513,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-10-06"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-06",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-06"
   },
   {
     "title": "Karaoke",
@@ -32340,6 +32340,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-10-12"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-13",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-13"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 9p-12a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -32459,17 +32470,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-10-13"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-13",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-13"
   },
   {
     "title": "Karaoke",
@@ -33341,6 +33341,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-10-19"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-20",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-20"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -33493,17 +33504,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-10-20"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-20",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-20"
   },
   {
     "title": "Karaoke",
@@ -33759,6 +33759,17 @@
     "slug": "the-rocky-horror-show-mad-myrna-s-2021-10-22"
   },
   {
+    "title": "Alaska Comedy w/ Jeff Dye",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-22",
+    "time": "8p-10p",
+    "ticketUrl": "https://www.facebook.com/events/1229432100869257/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "comedy",
+    "cost": "",
+    "slug": "alaska-comedy-w-jeff-dye-pioneer-bar-2021-10-22"
+  },
+  {
     "title": "Vampire Diaries vs Twilight: Vampire's Ball w/ DJ Covy",
     "venue": "Williwaw Social",
     "city": "Anchorage",
@@ -33878,17 +33889,6 @@
     "category": "music",
     "cost": "",
     "slug": "brew-n-view-girdwood-brewing-company-2021-10-22"
-  },
-  {
-    "title": "Alaska Comedy w/ Jeff Dye",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-22",
-    "time": "8p-10p",
-    "ticketUrl": "https://www.facebook.com/events/1229432100869257/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "comedy",
-    "cost": "",
-    "slug": "alaska-comedy-w-jeff-dye-pioneer-bar-2021-10-22"
   },
   {
     "title": "BenJammin & The Jammin Band",
@@ -34023,6 +34023,17 @@
     "slug": "the-rocky-horror-show-mad-myrna-s-2021-10-23"
   },
   {
+    "title": "Alaska Comedy w/ Jeff Dye",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-23",
+    "time": "8p-10p",
+    "ticketUrl": "https://www.facebook.com/events/1229432107535923?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "comedy",
+    "cost": "",
+    "slug": "alaska-comedy-w-jeff-dye-pioneer-bar-2021-10-23"
+  },
+  {
     "title": "Jukebox Karaoke Roadshow",
     "venue": "Don Jose’s",
     "city": "Anchorage",
@@ -34098,17 +34109,6 @@
     "category": "music",
     "cost": "",
     "slug": "let-s-party-w-tony-taylor-the-artist-the-international-hotel-bar-2021-10-23"
-  },
-  {
-    "title": "Alaska Comedy w/ Jeff Dye",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-23",
-    "time": "8p-10p",
-    "ticketUrl": "https://www.facebook.com/events/1229432107535923?acontext=%7B%22event_action_history%22%3A%5b%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "comedy",
-    "cost": "",
-    "slug": "alaska-comedy-w-jeff-dye-pioneer-bar-2021-10-23"
   },
   {
     "title": "BenJammin & The Jammin Band",
@@ -34408,6 +34408,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-10-26"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-10-27",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-27"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 8p-12:30a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -34516,17 +34527,6 @@
     "category": "music",
     "cost": "",
     "slug": "open-mic-check-goldies-ak-2021-10-27"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-10-27",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-10-27"
   },
   {
     "title": "Karaoke",
@@ -34991,6 +34991,17 @@
     "slug": "anchorage-symphony-renegades-alaska-center-for-the-performing-arts-2021-11-06"
   },
   {
+    "title": "Fairbanks Concert Association: Royal Wood",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-11-06",
+    "time": "7:30p-9:30p",
+    "ticketUrl": "https://www.facebook.com/events/262458772450889/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
+    "category": "festival",
+    "cost": "",
+    "slug": "fairbanks-concert-association-royal-wood-pioneer-bar-2021-11-06"
+  },
+  {
     "title": "Rock Aak'w Indigenous Music Festival",
     "venue": "Juneau Arts & Humanities",
     "city": "Anchorage",
@@ -35132,17 +35143,6 @@
     "category": "music",
     "cost": "",
     "slug": "saturday-night-karaoke-american-legion-post-28-spenard-2021-11-06"
-  },
-  {
-    "title": "Fairbanks Concert Association: Royal Wood",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-11-06",
-    "time": "7:30p-9:30p",
-    "ticketUrl": "https://www.facebook.com/events/262458772450889/?acontext=%7B%22event_action_history%22%3A%5b%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark%22%7D%5d%2C%22ref_notif_type%22%3Anull%7D",
-    "category": "festival",
-    "cost": "",
-    "slug": "fairbanks-concert-association-royal-wood-pioneer-bar-2021-11-06"
   },
   {
     "title": "Fun and Food w/ 100 Proof Karaoke",
@@ -35409,6 +35409,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-11-09"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-11-10",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-10"
+  },
+  {
     "title": "KASH Country Night at Koot's w/ Ken Peltier 8p-12:30a Koot’s – Open Decks",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -35506,17 +35517,6 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-10p-2amad-myrna-s-mad-myrna-s-karaoke-koot-s-2021-11-10"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-11-10",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-10"
   },
   {
     "title": "Karaoke",
@@ -36410,6 +36410,17 @@
     "slug": "moondog-media-open-stage-night-w-sabrina-speers-klondike-mike-s-and-the-main-street-grill-2021-11-16"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-11-17",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-17"
+  },
+  {
     "title": "Arctic Jungle Band",
     "venue": "907 Alehouse",
     "city": "Anchorage",
@@ -36507,17 +36518,6 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-10p-2amad-myrna-s-mad-myrna-s-karaoke-koot-s-2021-11-17"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-11-17",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-17"
   },
   {
     "title": "Karaoke",
@@ -37433,6 +37433,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-11-23"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-11-24",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-24"
+  },
+  {
     "title": "Tyrone Palmer & Friends",
     "venue": "907 Alehouse",
     "city": "Anchorage",
@@ -37519,17 +37530,6 @@
     "category": "music",
     "cost": "",
     "slug": "koots-karaoke-10p-2amad-myrna-s-mad-myrna-s-karaoke-koot-s-2021-11-24"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-11-24",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-11-24"
   },
   {
     "title": "Karaoke",
@@ -38401,6 +38401,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-11-30"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-01",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-01"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -38498,17 +38509,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-12-01"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-12-01",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-01"
   },
   {
     "title": "Karaoke",
@@ -39644,6 +39644,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-12-07"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-08",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-08"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -39763,17 +39774,6 @@
     "category": "music",
     "cost": "",
     "slug": "distinguished-citizens-banquet-jerry-evans-glenner-anderson-westmark-hotel-2021-12-08"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-12-08",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-08"
   },
   {
     "title": "Karaoke",
@@ -40766,6 +40766,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-12-14"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-15",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-15"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -40863,17 +40874,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-12-15"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-12-15",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-15"
   },
   {
     "title": "Karaoke",
@@ -41800,6 +41800,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-12-21"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-22",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-22"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -41908,17 +41919,6 @@
     "category": "music",
     "cost": "",
     "slug": "mad-myrna-s-karaoke-mad-myrna-s-2021-12-22"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-12-22",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-22"
   },
   {
     "title": "Karaoke",
@@ -42526,6 +42526,17 @@
     "slug": "tyson-davis-tuesdays-seward-alehouse-2021-12-28"
   },
   {
+    "title": "The Eternal Cowboys",
+    "venue": "Pioneer Bar",
+    "city": "Anchorage",
+    "date": "2021-12-29",
+    "time": "10p-12a",
+    "ticketUrl": "https://www.facebook.com/EternalCowboys",
+    "category": "music",
+    "cost": "",
+    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-29"
+  },
+  {
     "title": "Koots Karaoke",
     "venue": "Koot's",
     "city": "Anchorage",
@@ -42634,17 +42645,6 @@
     "category": "music",
     "cost": "",
     "slug": "tuba-christmas-2021-youtube-alaska-center-for-the-performing-arts-2021-12-29"
-  },
-  {
-    "title": "The Eternal Cowboys",
-    "venue": "Pioneer Bar",
-    "city": "Haines",
-    "date": "2021-12-29",
-    "time": "10p-12a",
-    "ticketUrl": "https://www.facebook.com/EternalCowboys",
-    "category": "music",
-    "cost": "",
-    "slug": "the-eternal-cowboys-pioneer-bar-2021-12-29"
   },
   {
     "title": "Karaoke",
